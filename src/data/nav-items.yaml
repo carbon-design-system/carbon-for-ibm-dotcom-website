@@ -1,0 +1,54 @@
+- title: Getting started
+  pages:
+    - path: /getting-started
+- title: Demo
+  pages:
+    - path: /demo
+- title: Gallery
+  pages:
+    - path: /gallery
+- title: Contributions
+  pages:
+    - path: /contributions
+- title: Guides
+  pages:
+    - title: Configuration
+      path: /guides/configuration
+    - title: Shadowing
+      path: /guides/shadowing
+    - title: Styling
+      path: /guides/styling
+    - title: Navigation
+      path: /guides/navigation/sidebar
+- title: Components
+  pages:
+    - title: Markdown
+      path: /components/markdown
+    - title: Grid
+      path: /components/Grid
+    - title: Accordion
+      path: /components/Accordion
+    - title: DoDontExample
+      path: /components/DoDontExample
+    - title: Caption
+      path: /components/Caption
+    - title: Code blocks
+      path: /components/code-blocks
+    - title: Aside
+      path: /components/Aside
+    - title: AnchorLinks
+      path: /components/AnchorLinks
+    - title: PageDescription
+      path: /components/PageDescription
+    - title: ResourceCard
+      path: /components/ResourceCard
+    - title: ArticleCard
+      path: /components/ArticleCard
+    - title: FeatureCard
+      path: /components/FeatureCard
+    - title: ImageCard
+      path: /components/ImageCard
+    - title: Tabs
+      path: /components/Tabs
+    - title: Video
+      path: /components/Video
