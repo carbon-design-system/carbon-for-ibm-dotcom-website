@@ -4,11 +4,15 @@
 
 This is the Carbon for IBM.com website, which includes documentation and guidelines around design and development for IBM.com.
 
+This is based on the (Gatsby Theme from Carbon)[https://gatsby-theme-carbon.now.sh/].
+
+## Contributing
+If you are a publisher and would like to make content changes, you can read more about how to contribute at [Contributing](https://github.com/carbon-design-system/carbon-for-ibm-website/blob/master/.github/CONTRIBUTING.md)
+
+## Publishing
+Changes are currently auto-published to https://carbon-for-ibm.netlify.com once changes are merged back to the `master` branch. Previews can also be viewed once a pull request is created.
+
 ## Resources
 
-- [Getting Started](https://gatsby-theme-carbon.now.sh/getting-started)
-- [Guides](https://gatsby-theme-carbon.now.sh/guides/configuration)
-- [Components](https://gatsby-theme-carbon.now.sh/components/markdown)
-- [Demo](https://gatsby-theme-carbon.now.sh/demo)
-- [Gallery](https://gatsby-theme-carbon.now.sh/gallery)
-- [Contributions](https://gatsby-theme-carbon.now.sh/contributions)
+- [Available Components for Authoring](https://gatsby-theme-carbon.now.sh/components/markdown)
+- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
