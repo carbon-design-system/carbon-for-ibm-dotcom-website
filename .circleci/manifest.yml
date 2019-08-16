@@ -1,0 +1,10 @@
+---
+applications:
+  - name: carbonforibm-website
+    path: ./public
+    memory: 64M
+    buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+    routes:
+      - route: carbonforibm-website.mybluemix.net
+      - route: carbonforibm-website-temp.mybluemix.net
+
