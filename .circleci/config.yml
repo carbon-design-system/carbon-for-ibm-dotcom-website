@@ -20,3 +20,5 @@ jobs:
           name: Confirm project can build
           command: |
             PATH=$HOME/.yarn/bin:$PATH yarn build
+
+
