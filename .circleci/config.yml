@@ -38,7 +38,7 @@ jobs:
           name: deploy website
           command: |
             ibmcloud cf blue-green-deploy carbonforibm-website \
-              -f ./circleci/manifest.yml \
+              -f ./.circleci/manifest.yml \
               --delete-old-apps
 workflows:
   version: 2
