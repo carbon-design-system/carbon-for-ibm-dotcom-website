@@ -52,3 +52,6 @@
       path: /components/Tabs
     - title: Video
       path: /components/Video
+- title: Help
+  pages:
+    - path: /help
