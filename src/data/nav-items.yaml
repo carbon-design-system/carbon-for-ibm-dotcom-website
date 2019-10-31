@@ -1,54 +1,125 @@
 - title: Getting started
   pages:
-    - path: /getting-started
-- title: Demo
+    - title: Overview
+      path: /getting-started
+    - title: Designing
+      path: /getting-started/designing
+    - title: Coding
+      path: /getting-started/coding
+- title: Guidelines
   pages:
-    - path: /demo
-- title: Gallery
+    - path: /guidelines
+#    - title: Overview
+#      path: /guidelines
+#    - title: Color
+#      path: /guidelines/color
+#    - title: Grid
+#      path: /guidelines/grid
+#    - title: Frameworks
+#      path: /guidelines/frameworks
+#    - title: Icons
+#      path: /guidelines/icons
+#    - title: Infographics
+#      path: /guidelines/infographics
+#    - title: Layout
+#      path: /guidelines/layout
+#    - title: Photography
+#      path: /guidelines/photography
+#    - title: Social & sharing
+#      path: /guidelines/social-sharing
+#    - title: Themes
+#      path: /guidelines/themes
+#    - title: Type
+#      path: /guidelines/type
+- title: Components
   pages:
-    - path: /gallery
+    - title: Overview
+      path: /components
+#    - title: Button
+#      path: /components/button
+#    - title: Checkbox
+#      path: /components/checkbox
+#    - title: Dropdown
+#      path: /components/dropdown
+    - title: Footer
+      path: /components/footer
+#    - title: Link
+#      path: /components/link
+#    - title: List
+#      path: /components/list
+#    - title: Locale selector
+#      path: /components/locale-selector
+    - title: Masthead
+      path: /components/masthead
+#    - title: Modal
+#      path: /components/modal
+#    - title: Number picker
+#      path: /components/number-picker
+#    - title: Pagination
+#      path: /components/pagination
+#    - title: Radio button
+#      path: /components/radio-button
+#    - title: Search
+#      path: /components/search
+#    - title: Tabs
+#      path: /components/tabs
+#    - title: Tag
+#      path: /components/tag
+#    - title: Text input
+#      path: /components/text-input
+#    - title: tooltips
+#      path: /components/tooltips
+- title: Patterns
+  pages:
+    - title: Overview
+      path: /patterns
+    - title: Cards
+      path: /patterns/cards
+#    - title: Case study
+#      path: /patterns/case-study
+    - title: Lead space
+      path: /patterns/lead-space
+    - title: Page layout
+      path: /patterns/page-layout
+#    - title: Testimonial
+#      path: /patterns/testimonial
+#    - title: Registration
+#      path: /patterns/registration
 - title: Contributions
   pages:
     - path: /contributions
-- title: Guides
+#    - title: Overview
+#      path: /contributions
+#    - title: Bugs & requests
+#      path: /contributions/bugs-requests
+#    - title: Documentation
+#      path: /contributions/documentation
+#    - title: Components
+#      path: /contributions/components
+#    - title: Patterns
+#      path: /contributions/patterns
+#    - title: Add-ons
+#      path: /contributions/add-ons
+- title: Resources
   pages:
-    - title: Configuration
-      path: /guides/configuration
-    - title: Shadowing
-      path: /guides/shadowing
-    - title: Styling
-      path: /guides/styling
-    - title: Navigation
-      path: /guides/navigation/sidebar
-- title: Components
+    - path: /resources
+#    - title: Overview
+#      path: /resources
+#    - title: Design kit
+#      path: /resources/design-kit
+#    - title: Drupal
+#      path: /resources/drupal
+#    - title: IBM.com Library
+#      path: /resources/ibm-dotcom-library
+#    - title: Research
+#      path: /resources/research
+#    - title: Repositories
+#      path: /resources/repositories
+#    - title: Starter Kit
+#      path: /resources/starter-kit
+- title: Help
   pages:
-    - title: Markdown
-      path: /components/markdown
-    - title: Grid
-      path: /components/Grid
-    - title: Accordion
-      path: /components/Accordion
-    - title: DoDontExample
-      path: /components/DoDontExample
-    - title: Caption
-      path: /components/Caption
-    - title: Code blocks
-      path: /components/code-blocks
-    - title: Aside
-      path: /components/Aside
-    - title: AnchorLinks
-      path: /components/AnchorLinks
-    - title: PageDescription
-      path: /components/PageDescription
-    - title: ResourceCard
-      path: /components/ResourceCard
-    - title: ArticleCard
-      path: /components/ArticleCard
-    - title: FeatureCard
-      path: /components/FeatureCard
-    - title: ImageCard
-      path: /components/ImageCard
-    - title: Tabs
-      path: /components/Tabs
-    - title: Video
-      path: /components/Video
+    - title: Overview
+      path: /help
+    - title: FAQs
+      path: /help/faqs
