@@ -4,7 +4,7 @@ daysUntilStale: 30
 daysUntilClose: 3
 # Issues with these labels will never be considered stale
 exemptLabels:
-  - 'Severity 1 🚨'
+  - 'severity 1'
   - 'priority: high'
 # Label to use when marking an issue as stale
 staleLabel: inactive
