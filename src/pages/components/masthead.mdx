@@ -1,4 +1,126 @@
 ---
-title: Page Title
-description: Lorem Ipsum
+title: Masthead
+description: The Masthead component page
 ---
+
+<PageDescription>
+
+The masthead component is a required navigational pattern for IBM.com that displays consistently at the top of each page. It also includes search and profile services for IBM.com. 
+
+</PageDescription>
+
+![Alt text goes here](images/quantum.png)
+
+## Documentation
+
+### Getting started
+
+Here's a quick example to get you started.
+
+```import React from 'react';
+import ReactDOM from 'react-dom';
+import { Masthead } from '@carbon/ibmdotcom-react';
+import '@carbon/ibmdotcom-styles/scss/components/masthead/masthead.scss';
+function App() {
+  return <Masthead />;
+}
+ReactDOM.render(<App />, document.querySelector('#app'));
+```
+
+### Navigation Types
+
+| Name          | Description      
+| ------------- | ----------- 
+| `default`     | Default navigation data from IBM.com. 
+| `custom`      | Custom navigation data.   
+| `none`        | No navigation. 
+
+
+### Options
+
+| Name          | Description      
+| ------------- | ----------- 
+| `platform`    | Includes platform name (only available with default and custom). 
+| `hasProfile`  | Includes IBM profile menu.   
+| `hasSearch`   | Includes IBM search.
+
+
+```const topNavProps = {
+  platform: {
+    name: 'IBM Cloud',
+    url: 'https://www.ibm.com/cloud',
+  },
+};
+
+<Masthead {...topNavProps} />;
+```
+
+### Stable selectors
+
+| Name                                         | Description      
+| -------------------------------------------- | ----------- 
+| `dds--masthead`                              | Component
+| `dds--masthead__hamburger`                   | Interactive 
+| `dds--masthead__logo`                        | Interactive
+| `dds--masthead__platform-name`               | Interactive 
+| `dds--masthead__l0-nav`                      | Component 
+| `dds--masthead__l0-nav--nav-${item}`         | Interactive
+| `dds--masthead__l0-nav--subnav-${item}`      | Interactive
+| `dds--masthead__l0-sidenav`                  | Component 
+| `dds--masthead__l0-sidenav--nav-${item}`     | Interactive
+| `dds--masthead__l0-sidenav--subnav-${item}`  | Interactive
+
+### CORS proxy 
+This component makes cross-origin requests to <www.ibm.com>, which will require a CORS proxy to be configured to make successful calls from a lower environment. 
+ 
+A CORS proxy can be configured using the following [environment variable](https://github.com/carbon-design-system/ibm-dotcom-library/blob/master/packages/react/docs/environment-variables.md): 
+CORS_PROXY=https://myproxy.com/ 
+
+### Formatting 
+The masthead is made up of two levels, the level 0 (L0) and level 1 (L1). 
+ 
+L0: The location which houses global elements and parent offering content.  
+L1: The location which houses local content which is a part of/sub-content of the parent offering.  
+
+![Alt text goes here](images/quantum.png)
+
+## Anatomy
+The masthead spans the full width of the viewport and is the topmost element in the browser window. Masthead elements are persistent throughout the online experience. 
+
+![Alt text goes here](images/quantum.png)
+
+### Titles 
+Titles should have only one text and color treatment. Titles have a specific name based on the offering, product, and category:
+ 
+L0: A direct link back to the IBM product homepage 
+L1: A direct link to that subtopic page. Never use a logo and/or image for the title.  
+
+### Nav Labels
+These labels are short descriptors to inform the user what type of content they will find. Keep labels preferably to one word or a maximum of 20 characters in all languages, but two words are supported, if necessary. Never use name of a product, service, document, or event for labels. These labels should not link to non-IBM sites, or be used as anchor tags to page content. Avoid using IBM proprietary terminology or “inside” language.  
+
+### CTA (call to action)
+A clear and short label to inform the user of the specific action they will be taking or need to complete when interacting (click or tap) with the CTA. Right align the CTA button to the edge of browser with action icons positioned to the left in L0. Use a maximum of 15 characters in all languages and outside-in language. CTA labels should not repeat other nav labels already with L0 and L1.  
+
+### Navigation
+  • L0 navigation supports a maximum of 8 nav labels. 
+  • L1 navigation support a maximum of 6 nav labels (this includes the L1 title). 
+  • Supports icons 
+  • Uses a selection bar to inform the user where they are currently within the  
+    overall navigation. 
+    
+Once there is not enough space to accommodate a label(s) within the L0 or L1, an overflow menu (ellipses icon) will appear as the last label able to fit within the given space. This “more” menu supports a drop-down list with the overflow label(s).  
+
+### L1 eyebrow 
+L1 eyebrow is only used when the L1 navigation is at a grandchild level of hierarchy. This must have two or more related pages to use this feature and is used to go back to the child level navigation.  
+
+## Behavior 
+As the masthead scales down to fit smaller screen sizes, header links and menus should collapse into a left panel hamburger menu. See the examples below to better understand the masthead’s responsive behavior. 
+
+![Alt text goes here](images/quantum.png)
+
+### Rules
+When it is only the L0 within the masthead, the L0 is the sticky nav within the browser.  
+When the L1 is viewable within the masthead, the L1 becomes the sticky nav within the browser.  
+If 50% or less of the labels are viewable, then the full set of labels within the navigation are moved to menus: 
+• L0 navigation moves to the hamburger menu 
+• L1 navigation to the L1 title menu  
