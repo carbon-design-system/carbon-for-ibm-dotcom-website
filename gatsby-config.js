@@ -10,7 +10,7 @@ module.exports = {
       options: {
         repository: {
           baseUrl: 'https://github.com/carbon-design-system/carbon-for-ibm-website',
-          branch: 'master',
+          subDirectory: '',
         },
       },
     },
