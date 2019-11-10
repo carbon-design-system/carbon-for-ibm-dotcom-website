@@ -13,57 +13,12 @@ The footer is a required navigational element that displays consistently at the 
 
 ## Documentation
 
-### Getting started
-
-Here's a quick example to get you started.
-
-```import React from 'react';
-import ReactDOM from 'react-dom';
-import { Footer } from '@carbon/ibmdotcom-react';
-
-import '@carbon/ibmdotcom-styles/scss/components/footer/index.scss';
-
-function App() {
-  return <Footer />;
-}
-
-ReactDOM.render(<App />, document.querySelector('#app'));
-```
-
-### Feature Flags
-
-To utilize the following features, set the following variable's to `true` within your `.env` file or your application build settings.
-
-```FOOTER_LOCALE_BUTTON=true```
-
-## Types (optional)
+### Types
 
 | Name          | Description      
 | ------------- | ----------- 
-| `tall/default`| Default footer variant includes additional navigation taking up more space.
-| `short`       | Short footer variant reduces space by removing any additional navigation. 
-
-
-## Stable selectors
-
-| Name                           | Description      
-| ------------------------------ | ----------- 
-| `dds--footer`                  | Component
-| `dds--footer-nav`              | Interactive 
-| `dds--footer-nav-group`        | Interactive
-| `dds--footer-nav-group__link`  | Interactive 
-| `dds--footer-logo`             | Component 
-| `dds--footer-logo__link`       | Interactive
-| `dds--footer-locale-btn`       | Interactive
-| `dds--legal-nav`               | Component 
-| `dds--legal-nav__link`         | Interactive
-| `dds--locale-modal`            | Interactive
-
-### CORS proxy 
-This component makes cross-origin requests to `<www.ibm.com>`, which will require a CORS proxy to be configured to make successful calls from a lower environment. 
- 
-A CORS proxy can be configured using the following [environment variable](https://github.com/carbon-design-system/ibm-dotcom-library/blob/master/packages/react/docs/environment-variables.md): 
-CORS_PROXY=https://myproxy.com/ 
+| Default       | Default footer variant includes additional navigation taking up more space.
+| Minimal       | Short footer variant reduces space by removing any additional navigation. 
 
 ## Formatting
 The two footer options presented are default and minimal. 
