@@ -9,23 +9,17 @@ The masthead component is a required navigational pattern for IBM.com that displ
 
 </PageDescription>
 
-![Masthead component level 0 image](../../images/component/masthead/Masthead_Intro_Component.jpg)
+![Masthead component level 0 image](../../images/component/masthead/Masthead_Demo_L0.jpg)
+
+![Masthead component level 0 image](../../images/component/masthead/Masthead_Demo_L1.jpg)
+
 
 ## Documentation
 
-### Getting started
-
-Here's a quick example to get you started.
-
-```import React from 'react';
-import ReactDOM from 'react-dom';
-import { Masthead } from '@carbon/ibmdotcom-react';
-import '@carbon/ibmdotcom-styles/scss/components/masthead/masthead.scss';
-function App() {
-  return <Masthead />;
-}
-ReactDOM.render(<App />, document.querySelector('#app'));
-```
+| Language      | Status        | Sandbox                                                                              |
+| ------------- | -----------   | ------------------------------------------------------------------------             |
+| React         | Stable        | [View sandbox](https://ibmdotcom-react.netlify.com/?path=/story/masthead--default)   |
+| Angular       | Coming soon   |                                                                                      |
 
 ### Navigation Types
 
@@ -35,46 +29,6 @@ ReactDOM.render(<App />, document.querySelector('#app'));
 | `custom`      | Custom navigation data.   
 | `none`        | No navigation. 
 
-
-### Options
-
-| Name          | Description      
-| ------------- | ----------- 
-| `platform`    | Includes platform name (only available with default and custom). 
-| `hasProfile`  | Includes IBM profile menu.   
-| `hasSearch`   | Includes IBM search.
-
-
-```const topNavProps = {
-  platform: {
-    name: 'IBM Cloud',
-    url: 'https://www.ibm.com/cloud',
-  },
-};
-
-<Masthead {...topNavProps} />;
-```
-
-### Stable selectors
-
-| Name                                         | Description      
-| -------------------------------------------- | ----------- 
-| `dds--masthead`                              | Component
-| `dds--masthead__hamburger`                   | Interactive 
-| `dds--masthead__logo`                        | Interactive
-| `dds--masthead__platform-name`               | Interactive 
-| `dds--masthead__l0-nav`                      | Component 
-| `dds--masthead__l0-nav--nav-${item}`         | Interactive
-| `dds--masthead__l0-nav--subnav-${item}`      | Interactive
-| `dds--masthead__l0-sidenav`                  | Component 
-| `dds--masthead__l0-sidenav--nav-${item}`     | Interactive
-| `dds--masthead__l0-sidenav--subnav-${item}`  | Interactive
-
-### CORS proxy 
-This component makes cross-origin requests to `<www.ibm.com>`, which will require a CORS proxy to be configured to make successful calls from a lower environment. 
- 
-A CORS proxy can be configured using the following [environment variable](https://github.com/carbon-design-system/ibm-dotcom-library/blob/master/packages/react/docs/environment-variables.md): 
-CORS_PROXY=https://myproxy.com/ 
 
 ### Formatting 
 The masthead is made up of two levels, the level 0 (L0) and level 1 (L1). 
