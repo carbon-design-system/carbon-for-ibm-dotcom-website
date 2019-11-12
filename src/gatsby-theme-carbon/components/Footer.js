@@ -4,7 +4,10 @@ import Footer from 'gatsby-theme-carbon/src/components/Footer';
 const Content = () => (
   <>
     <p>
-      Have questions? Open an issue in [Github](https://github.com/carbon-design-system/carbon-for-ibm-website/issues/new/choose)
+      Have questions? Open an issue in 
+        <a href="https://github.com/carbon-design-system/carbon-for-ibm-website/issues/new/choose">
+          Github
+        </a>.
     </p>
     <p>
       Last updated November 12th, 2019
