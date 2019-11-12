@@ -4,10 +4,7 @@ import Footer from 'gatsby-theme-carbon/src/components/Footer';
 const Content = () => (
   <>
     <p>
-      Have questions? Open an issue in 
-        <a href="https://github.com/carbon-design-system/carbon-for-ibm-website/issues/new/choose">
-          Github
-        </a>.
+      Have questions? Open an issue in <a href="https://github.com/carbon-design-system/carbon-for-ibm-website/issues/new/choose">Github</a>.
     </p>
     <p>
       Last updated November 12th, 2019
@@ -19,9 +16,9 @@ const Content = () => (
 
 const links = {
   firstCol: [
-    { href: 'https://ibm.com/design', linkText: 'Contribute' },
-    { href: 'https://ibm.com/design', linkText: 'Privacy' },
-    { href: 'https://ibm.com/design', linkText: 'Terms of use' },
+    { href: '/contributions', linkText: 'Contribute' },
+    { href: 'https://www.ibm.com/privacy', linkText: 'Privacy' },
+    { href: 'https://www.ibm.com/legal', linkText: 'Terms of use' },
     { href: 'https://ibm.com', linkText: 'IBM.com' },
   ],
 //  secondCol: [
