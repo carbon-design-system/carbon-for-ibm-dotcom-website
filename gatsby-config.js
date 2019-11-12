@@ -8,6 +8,8 @@ module.exports = {
     {
       resolve: 'gatsby-theme-carbon',
       options: {
+        name: 'Carbon for IBM.com',
+        short_name: 'Carbon for IBM.com',
         repository: {
           baseUrl: 'https://github.com/carbon-design-system/carbon-for-ibm-website',
           subDirectory: '',
