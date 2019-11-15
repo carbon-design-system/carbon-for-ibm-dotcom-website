@@ -121,5 +121,5 @@
   pages:
     - title: Overview
       path: /help
-    - title: FAQs
+    - title: FAQ
       path: /help/faqs
