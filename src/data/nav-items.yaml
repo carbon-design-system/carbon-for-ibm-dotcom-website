@@ -69,7 +69,7 @@
 #      path: /components/text-input
 #    - title: tooltips
 #      path: /components/tooltips
-- title: Patterns
+- title: Layout patterns
   pages:
     - title: Overview
       path: /patterns
