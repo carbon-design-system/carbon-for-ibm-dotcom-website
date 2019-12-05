@@ -29,11 +29,49 @@ Can include a title, supporting copy, double CTAs and a background image.
 
 ## Resources
 
+<Row className="resource-card-group">
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="IBM.com Pattern React Storybook (experimental)"
+      aspectRatio="2:1"
+      actionIcon="arrowRight"
+      href="https://deploy-preview-78--ibmdotcom-patterns-react-experimental.netlify.com/?path=/story/leadspace--default-with-image"
+      >
+
+![React icon](../../images/icon/react-icon.svg)
+ 
+</ResourceCard>
+</Column>
+
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="Drupal design guide"
+      aspectRatio="2:1"
+      actionIcon="arrowRight"
+      href="http://ibm.biz/Drupal_design_guide"
+      >
+
+![React icon](../../images/icon/drupal_logo.svg)
+ 
+</ResourceCard>
+
+</Column>
+
+</Row>
+
 ## References
+
+### Research findings
+View A/B testing for Lead space video [here](https://lux.w3ibm.mybluemix.net/library/research/71/).
+View A/B testing for buttons vs text [here](https://lux.w3ibm.mybluemix.net/library/research/2/).
+
+### Developer notes
+When viewing the [LeadSpace stories](https://deploy-preview-78--ibmdotcom-patterns-react-experimental.netlify.com/?path=/story/leadspace--default-with-image), the knobs to toggle the buttons’ aspects are different for each story due to storybook knob limitations. In the no image story, button text and links can be modified or buttons can be removed entirely by setting the "buttons" knob to an empty array `[ ]`. Notice when editing the “renderIcon” field, the button icons do not reload hence in the image story, there are dropdown selectors to toggle the button icons. When using the LeadSpace, please follow the button structure in the no image story.
+
+For further developer guidance view the LeadSpace README [here](https://github.com/carbon-design-system/ibm-dotcom-library/blob/master/packages/patterns-react/src/patterns/LeadSpace/README.md).
 
 ## Metadata 
 
-
-
-
-
+– Components: [Button](https://www.carbondesignsystem.com/components/button/code/)
+– Elements: [Photography](https://www.ibm.com/design/language/elements/photography/overview/)
+– Github: [IBM.com Library](https://github.com/carbon-design-system/ibm-dotcom-library)
