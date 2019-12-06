@@ -1,1 +1,9 @@
 // This is where your application styles could go.
+
+// override nested list item styles (they are hardcoded at 16px)
+.bx--list--nested {
+  .bx--list__item {
+    font-size: inherit;
+  }
+}
+
