@@ -4,6 +4,16 @@
 .bx--list--nested {
   .bx--list__item {
     font-size: inherit;
+    padding-left: 0;
   }
 }
 
+.bx--list--unordered, .bx--list--ordered {
+  .bx--list__item {
+    margin-left: 0.5rem;
+
+    &:before {
+      left: -0.5rem;
+    }
+  }
+}
