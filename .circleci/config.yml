@@ -42,10 +42,10 @@ jobs:
               --delete-old-apps
 workflows:
   version: 2
-  main:
-    jobs:
-      - deploy:
-          filters:
-            branches:
-              only:
-                - master
+#  main:
+#    jobs:
+#      - deploy:
+#          filters:
+#            branches:
+#              only:
+#                - master

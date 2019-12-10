@@ -4,5 +4,17 @@ module.exports = {
     description: 'This is the Carbon for IBM.com website, which includes documentation and guidelines around design and development for IBM.com',
     keywords: 'gatsby,theme,carbon,ibm',
   },
-  plugins: ['gatsby-theme-carbon'],
+  plugins: [
+    {
+      resolve: 'gatsby-theme-carbon',
+      options: {
+        name: 'Carbon for IBM.com',
+        short_name: 'Carbon for IBM.com',
+        repository: {
+          baseUrl: 'https://github.com/carbon-design-system/carbon-for-ibm-website',
+          subDirectory: '',
+        },
+      },
+    },
+  ],
 };

@@ -4,59 +4,65 @@ title: Getting started
 
 <PageDescription>
 
-This project is a [Gatsby theme](https://www.gatsbyjs.org/docs/themes/what-are-gatsby-themes/) that empowers developers, writers, and designers to create fast, accessible sites that look and feel like Carbon. Follow along to start creating your own site.
+Carbon for IBM.com is an open source design system for IBM online experiences. It is for the community of designers, developers, and anyone involved in the making of marketing and editorial experiences on IBM.com.
 
 </PageDescription>
 
-## First steps
+## Introduction
+The goals of Carbon for IBM.com includes improving UI consistency and quality, while making the design and development process more efficient and focused. We also establish a shared vocabulary between designer and developer, providing clear and discoverable guidance around design and development best practices.
 
-1. **Create your site** – use the gatsby CLI to bootstrap your site with the starter
+_Please note that this page is part of a controlled adoption of the new Carbon Design System and is subject to change. Presently, it is only for DGC squads building IBM.com services and experiences._
 
-   ```sh
-   npx gatsby new my-carbon-site https://github.com/carbon-design-system/gatsby-starter-carbon-theme
-   ```
+## What is in Carbon for IBM.com?
+* Carbon for IBM.com components and layout patterns
+* Web-specific implementation guidelines 
+* Sketch design kit 
+* Examples and resources
+* Built-in metrics and accessibility compliance
+* Optimized code
 
-2. **Start developing** – navigate into your directory with `cd my-carbon-site`.
+## Guiding principles of Carbon for IBM.com
+* **Open:** It is a design system that is a distributed effort, guided by the principles of the open source movement. Its users are also its makers while everyone is encouraged to contribute.
+* **Inclusive:** Designed and built to be accessible to all regardless of ability or situation.
+* **Flexible:** The system’s modularity ensures maximum flexibility in execution. Its components are designed to work seamlessly with each other, in the combination that best suits the needs of the user.
+* **Users first:** Using rigorous research into user’s needs and actions, Carbon for IBM.com is devoted to real people and their demands.
+* **Consistency:** Based on the IBM Design Language, every element and component of Carbon for IBM.com was designed from the ground up to work elegantly together, to ensure consistent and cohesive user experiences.
 
-   Start it up using one of the following snippets. You can tell which command to use based on the lock file at the root of your project (`yarn.lock` for yarn and `package-lock.json` for npm). For yarn, type `yarn develop` for npm, you'll use `npm run develop`.
+## Resources 
 
-3. **Make some changes!** – open [localhost:8000](//localhost:8000) in your browser to see your site running.
+<Row className="resource-card-group">
+  <Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="Start designing"
+      href="/getting-started/designing"
+    >
+    </ResourceCard>
+  </Column>
+  <Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="Start coding"          
+      href="/getting-started/coding"
+    >
+    </ResourceCard>
+  </Column>
+  <Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="Find additional resources"
+      href="/resources"
+    >
 
-   Each of the Items in your side bar correlates to a MDX file in your `src/pages/` directory. Navigate to a site and try editing the corresponding markdown file. You'll be able to see it update live!
+![Bee](../../images/bee_icon.svg)
 
-## 🔍 What's in here?
+</ResourceCard>
+  </Column>
+  <Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="Find help & support"          
+      href="/help"
+    >
 
-Lets check out the structure of our project
+![Bee](../../images/bee_icon.svg)
 
-    .
-    ├── LICENSE
-    ├── README.md
-    ├── gatsby-config.js
-    ├── node_modules
-    ├── package.json
-    ├── public
-    ├── src
-    │   ├── data
-    │   ├── gatsby-theme-carbon
-    │   ├── images
-    │   └── pages
-    └── yarn.lock
-
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
-
-1.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site.
-
-    - **data** this is where you'll update your sidebar order and contents
-    - **images** you can colocate your images here or store them next to your pages, whichver you chose
-    - **gatsby-theme-carbon** this is where you'll override (known as shadowing) the default `gatsby-theme-carbon` components
-    - **pages** This is where most of your content will live. You'll represent each page with an MDX file.
-
-1.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
-
-1.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description. You'll notice that all of the configuration for the site is coming from `gatsby-theme-carbon`
-
-1.  **`LICENSE`**: Gatsby is licensed under the Apache 2.0 license.
-
-1.  **`yarn.lock`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
-
-1.  **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+</ResourceCard>
+  </Column>
+</Row>
