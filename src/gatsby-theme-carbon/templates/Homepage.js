@@ -2,7 +2,7 @@ import React from 'react';
 import { HomepageCallout, ResourceCard } from 'gatsby-theme-carbon';
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 import { calloutLink } from './Homepage.module.scss';
-import HomepageVideo from '../../components/HomepageVideo/HomepageVideo';
+// import HomepageVideo from '../../components/HomepageVideo/HomepageVideo';
 
 const FirstLeftText = () => <p>Carbon for IBM.com </p>;
 
@@ -43,7 +43,7 @@ const customProps = {
                 actionIcon="arrowRight"
               />
             </div>
-            <HomepageVideo />
+            {/*<HomepageVideo />*/}
           </div>
         </div>
       </section>
