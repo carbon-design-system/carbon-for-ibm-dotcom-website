@@ -8,7 +8,7 @@ const FirstLeftText = () => <p>Carbon for IBM.com </p>;
 
 const FirstRightText = () => (
   <p>
-    Carbon for IBM.com is an <strong>open source</strong> design system for IBM online experiences. It is for the community of designers, developers, and anyone involved in the making of marketing and editorial experiences on IBM.com.
+    Carbon for IBM.com is a collection of components, patterns, tools, and guidelines for designers and developers building IBM.com experiences. Its components and patterns are based on Carbon Design System and optimized for building IBM.com experiences.
   </p>
 );
 
