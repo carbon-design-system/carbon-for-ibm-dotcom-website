@@ -21,7 +21,7 @@ The masthead is a fundamental navigational component for IBM.com that displays c
 | Language      | Status        | Sandbox                                                                              |
 | ------------- | -----------   | ------------------------------------------------------------------------             |
 | React         | Stable        | [View sandbox](https://ibmdotcom-react.netlify.com/?path=/story/masthead--default)   |
-| Angular       | Coming soon   |                                                                                      |
+| Vanilla       | Coming soon   |                                                                                      |
 
 ## Formatting 
 
@@ -29,50 +29,61 @@ The masthead is a fundamental navigational component for IBM.com that displays c
 
 | Name          | Description                                                                          |
 | ------------- | ------------------------------------------------------------------------             |
-| Default L0  | L0 houses global elements and parent offering content                                  |
-| Default L1  | L1 houses local content which is part of the parent offering          |
+| Default L0  | L0 houses global elements and parent offering content.                                  |
+| Default L1  | L1 houses local content which is part of the parent offering.          |
+
+
+### Variations
+
+**Default L0**
+
+![Masthead component default L0 image](../../images/component/masthead/Masthead_L0_Variations.png)
+
+<br/>
+
+**Default L1**
+
+![Masthead component default L1 image](../../images/component/masthead/Masthead_L1_Variations.png)
+
+
+
 
 ## Anatomy
 The masthead spans the full width of the viewport and is the topmost element in the browser window. Masthead elements are persistent throughout the online experience. 
 
-![All of the elements that make up the Masthead component](../../images/component/masthead/Masthead_Anatomy_Elements.jpg)
+![All of the elements that make up the Masthead component](../../images/component/masthead/Masthead_Anatomy.png)
 
 ### Titles 
 Titles should have only one text and color treatment. Titles have a specific name based on the offering, product, and category:
+<br/>
  
 * L0: A direct link back to the IBM product homepage 
-* L1: A direct link to that subtopic page. Never use a logo and/or image for the title.  
+* L1: A direct link to that subtopic page. 
+* Never use a logo and/or image for the title.  
 
-### Nav Labels
-These labels are short descriptors to inform the user what type of content they will find. Keep labels preferably to one word or a maximum of 20 characters in all languages, but two words are supported, if necessary. Never use name of a product, service, document, or event for labels. These labels should not link to non-IBM sites, or be used as anchor tags to page content. Avoid using IBM proprietary terminology or “inside” language.  
-
-### CTA (call to action)
-A clear and short label to inform the user of the specific action they will be taking or need to complete when interacting (click or tap) with the CTA. Right align the CTA button to the edge of browser with action icons positioned to the left in L0. Use a maximum of 15 characters in all languages and outside-in language. CTA labels should not repeat other nav labels already with L0 and L1.  
-
-**Note:** The masthead CTA feature is not currently available but will be included in a future release. See the [Release Schedule](https://github.com/carbon-design-system/ibm-dotcom-library/issues) pinned on our Github for detail.
+### Nav link labels
+These labels are short descriptors to inform the user what type of content they will find. Keep labels preferably to one word or a maximum of 20 characters in all languages, but two words are supported if necessary. Never use the name of a product, service, document, or event for labels. These labels should not link to non-IBM sites, or be used as anchor tags to page content. Avoid using IBM proprietary terminology or “inside” language. 
 
 ### Navigation
-* L0 navigation supports a maximum of 8 nav labels. 
-* L1 navigation support a maximum of 6 nav labels (this includes the L1 title). 
-* Supports icons 
-* Uses a selection bar to inform the user where they are currently within the overall navigation. 
+<br/>
+
+* L0 navigation supports a maximum of 8 nav links. 
+* L1 navigation support a maximum of 6 nav links (this includes the L1 title). 
+* Supports search and profile services
+* The masthead navigation informs the user of their location at all levels.
     
-Once there is not enough space to accommodate a label(s) within the L0 or L1, an overflow menu (ellipses icon) will appear as the last label able to fit within the given space. This “more” menu supports a drop-down list with the overflow label(s).  
+Once there is not enough space to accommodate L0 and L1 nav links, a hamburger menu will appear to house all nav links. 
 
 For the product navigation pattern, please see the [Navigation Pattern](https://www.carbondesignsystem.com/experimental/navigation-pattern) page on the Carbon website for detail. 
 
 ### L1 eyebrow 
 L1 eyebrow is only used when the L1 navigation is at a grandchild level of hierarchy. This must have two or more related pages to use this feature and is used to go back to the child level navigation.  
 
+**Note:** The masthead L1 is not currently available for adoption. Please see the [Release Schedule](https://github.com/carbon-design-system/ibm-dotcom-library/issues) pinned on our Github for detail.
+
 ## Behavior 
-As the masthead scales down to fit smaller screen sizes, header links and menus should collapse into a left panel hamburger menu. See the examples below to better understand the masthead’s responsive behavior. 
+As the masthead scales down to fit smaller screen sizes, nav links and menus should collapse into a left panel hamburger menu. See the examples below to better understand the masthead’s responsive behavior. 
 
-![Showing the break points that effect the masthead component: small, medium, large](../../images/component/masthead/Masthead_Behavior_WidthCompared.jpg)
+![Showing the break points that effect the masthead component: small, medium, large](../../images/component/masthead/Masthead_Behavior.png)
 
-## Rules
-When it is only the L0 within the masthead, the L0 is the sticky nav within the browser.  
-When the L1 is viewable within the masthead, the L1 becomes the sticky nav within the browser. 
-
-If 50% or less of the labels are viewable, then the full set of labels within the navigation are moved to menus: 
-* L0 navigation moves to the hamburger menu 
-* L1 navigation to the L1 title menu  
+The masthead is sticky when scrolling. If there is only an L0, the L0 sticks to the top of the browser. When there is an L0 and L1, the L1 collapses to 48px tall and sticks to the top or the browser.
