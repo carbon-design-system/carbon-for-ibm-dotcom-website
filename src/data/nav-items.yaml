@@ -1,4 +1,4 @@
-- title: Getting started
+- title: Get started
   pages:
     - title: Overview
       path: /getting-started
@@ -69,22 +69,28 @@
 #      path: /components/text-input
 #    - title: tooltips
 #      path: /components/tooltips
-- title: Patterns
+- title: Layout patterns
   pages:
     - title: Overview
       path: /patterns
-    - title: Cards
-      path: /patterns/cards
-#    - title: Case study
-#      path: /patterns/case-study
-    - title: Leadspace
+#    - title: Content array
+#      path: /patterns/content-array
+    - title: Lead space
       path: /patterns/leadspace
-    - title: Page layout
-      path: /patterns/page-layout
+#    - title: Simple long form
+#      path: /patterns/simple-long-form
+#    - title: Use cases
+#      path: /patterns/use-cases   
+#    - title: Page layout
+#      path: /patterns/page-layout
 #    - title: Testimonial
 #      path: /patterns/testimonial
 #    - title: Registration
 #      path: /patterns/registration
+#    - title: Cards
+#      path: /patterns/cards
+#    - title: Case study
+#      path: /patterns/case-study
 - title: Contributions
   pages:
     - path: /contributions
@@ -121,5 +127,5 @@
   pages:
     - title: Overview
       path: /help
-    - title: FAQs
+    - title: FAQ
       path: /help/faqs

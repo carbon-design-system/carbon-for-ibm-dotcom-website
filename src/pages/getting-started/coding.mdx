@@ -1,4 +1,83 @@
 ---
 title: Coding
-description: Lorem Ipsum
+description: Getting started coding page
 ---
+
+<PageDescription>
+
+Rapidly build beautiful and accessible experiences. Carbon for IBM.com contains all the resources you need to get started. 
+
+</PageDescription>
+
+## Resources
+
+<Row className="resource-card-group">
+<Column colMd={4} colLg={4} noGutterSm>
+<ResourceCard
+  subTitle="Try React components with Storybook"
+  href="https://ibmdotcom-react.netlify.com/?path=/story/dotcom-shell--default"
+>
+
+![Github](./../../images/icon/github-icon.svg)
+</ResourceCard>    
+</Column>
+
+  <Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="Carbon for IBM.com Github Repo"
+      href="https://github.com/carbon-design-system/ibm-dotcom-library/issues/new?labels=bug&template=bug_report.md"
+    >
+
+![Github](./../../images/icon/github-icon.svg)
+</ResourceCard>
+  </Column>
+</Row>
+
+<br/>
+<br/>
+
+To find additional resources regarding meta data & DDO, visit our [Resource page](/resources).
+
+## Carbon for IBM.com
+
+Carbon for IBM.com provides front-end developers and engineers a collection of reusable components to build websites and user interfaces quickly and efficiently. Adopting the library enables developers to use consistent markup, styles, and behavior in prototype and production work. 
+
+## Install
+
+Run the following command using [npm](https://www.npmjs.com):
+
+```bash
+npm i @carbon/ibmdotcom-react carbon-components-react carbon-components carbon-icons
+```
+
+If you prefer [Yarn](https://yarnpkg.com/en/), use the following command instead:
+
+```bash
+yarn add @carbon/ibmdotcom-react carbon-components-react carbon-components carbon-icons
+```
+
+## Getting Started
+
+1.  These components require the use of [Webpack](https://webpack.js.org) in your project. See our [webpack.config.js](https://github.com/carbon-design-system/ibm-dotcom-library/blob/master/packages/react/.storybook/webpack.config.js) for an example configuration.
+
+2.  Components do not import any of the styles themselves, use the scss or css from @carbon/ibmdotcom-styles to bring in styling.
+
+3.  For older browsers (e.g. IE11), polyfills listed in [packages/react/.storybook/polyfills.js](https://github.com/carbon-design-system/ibm-dotcom-library/blob/master/packages/react/.storybook/polyfills.js) file is required.
+
+## Usage
+
+You can view available React Components in [Storybook](https://ibmdotcom-react.netlify.com/?path=/story/dotcom-shell--default) and see usage information in several ways below:
+
+1.  Clicking the **“Story”** tab at the bottom. This tab contains the code that shows how the component is being used.
+
+2.  Clicking the **“Knobs”** tab at the bottom and changing values there. Most knobs are shown as something like `Button kind (kind)`, where `kind`is the name of React prop.
+
+3.  Clicking the **“Readme”** tab at the bottom. You can see some more 	document for some components.
+
+## IBM.com Shell
+
+If you are looking to get started on a page, you can make use of the **`<DotcomShell>`**, which is a React based UI Shell that contains the `<Masthead>` and the `<Footer>`, using Carbon's grid. View React Components in [Storybook](https://ibmdotcom-react.netlify.com/?path=/story/dotcom-shell--default).
+  
+## Contributing
+
+We're always looking for contributors to help us fix bugs, build new features, or help us improve the project documentation. If you're interested, definitely check out our [Contributing Guide](https://github.com/carbon-design-system/ibm-dotcom-library/blob/master/.github/CONTRIBUTING.md) and our [Developer Guide](https://github.com/carbon-design-system/ibm-dotcom-library/blob/master/docs/developing.md)! 
