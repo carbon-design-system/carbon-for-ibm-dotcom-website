@@ -8,12 +8,20 @@
   }
 }
 
-.bx--list--unordered, .bx--list--ordered {
+.bx--list--unordered {
   .bx--list__item {
     margin-left: 0.5rem;
 
     &:before {
       left: -0.5rem;
     }
+  }
+}
+
+.bx--list--ordered {
+  margin-left: .8125rem;
+
+  .bx--list__item {
+    margin-left: 0.5rem;
   }
 }
