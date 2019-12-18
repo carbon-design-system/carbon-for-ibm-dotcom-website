@@ -4,11 +4,11 @@ import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 import { calloutLink } from './Homepage.module.scss';
 // import HomepageVideo from '../../components/HomepageVideo/HomepageVideo';
 
-const FirstLeftText = () => <p>Carbon for IBM.com </p>;
+const FirstLeftText = () => <p>IBM.com Library </p>;
 
 const FirstRightText = () => (
   <p>
-    Carbon for IBM.com is a collection of components, patterns, tools, and guidelines for designers and developers building IBM.com experiences. Its components and patterns are based on Carbon Design System and optimized for building IBM.com experiences.
+    IBM.com Library is a collection of components, patterns, tools, and guidelines for designers and developers building IBM.com experiences. Its components and patterns are based on Carbon Design System and optimized for building IBM.com experiences.
   </p>
 );
 
