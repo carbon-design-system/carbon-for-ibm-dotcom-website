@@ -4,11 +4,11 @@ import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 import { calloutLink } from './Homepage.module.scss';
 // import HomepageVideo from '../../components/HomepageVideo/HomepageVideo';
 
-const FirstLeftText = () => <p>Carbon for IBM.com </p>;
+const FirstLeftText = () => <p>IBM.com Library </p>;
 
 const FirstRightText = () => (
   <p>
-    Carbon for IBM.com is a collection of components, patterns, tools, and guidelines for designers and developers building IBM.com experiences. Its components and patterns are based on Carbon Design System and optimized for building IBM.com experiences.
+    IBM.com Library is a collection of components, patterns, tools, and guidelines for designers and developers building IBM.com experiences. Its components and patterns are based on Carbon Design System and optimized for building IBM.com experiences.
   </p>
 );
 
@@ -37,8 +37,8 @@ const customProps = {
             <div className="bx--col-lg-4 bx--col-md-4 bx--col-sm-2 bx--offset-lg-8 bx--offset-md-4 bx--offset-sm-2 homepage--tile-header">
               <ResourceCard
                 subTitle="Read"
-                title="Migrate to v10"
-                href="/updates/v10-migration/overview"
+                title="Get Started"
+                href="getting-started/index"
                 color="dark"
                 actionIcon="arrowRight"
               />
