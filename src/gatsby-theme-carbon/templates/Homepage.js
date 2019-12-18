@@ -37,8 +37,8 @@ const customProps = {
             <div className="bx--col-lg-4 bx--col-md-4 bx--col-sm-2 bx--offset-lg-8 bx--offset-md-4 bx--offset-sm-2 homepage--tile-header">
               <ResourceCard
                 subTitle="Read"
-                title="Migrate to v10"
-                href="/updates/v10-migration/overview"
+                title="Get Started"
+                href="getting-started/index"
                 color="dark"
                 actionIcon="arrowRight"
               />
