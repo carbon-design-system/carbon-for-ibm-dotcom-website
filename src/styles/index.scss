@@ -25,3 +25,8 @@
     margin-left: 0.5rem;
   }
 }
+
+// Fix for grid handling on the homepage
+.container--homepage .bx--no-gutter-sm {
+  padding: 0;
+}
