@@ -19,7 +19,7 @@
 }
 
 .bx--list--ordered {
-  margin-left: .8125rem;
+  margin-left: 0.8125rem;
 
   .bx--list__item {
     margin-left: 0.5rem;
@@ -31,11 +31,17 @@
   padding: 0;
 }
 
+.bx--image-card__img .gatsby-resp-image-wrapper {
+  border-right: 1px solid #e0e0e0;
+  left: 0;
+}
+
 // Overriding ImageCard size of titles
 .bx--image-card__title {
-  font-size: var(--cds-heading-01-font-size, 0.875rem);
-  line-height: var(--cds-heading-01-line-height, 1.125rem);
-  letter-spacing: var(--cds-heading-01-letter-spacing, 0.16px);
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  letter-spacing: 0.32px;
 }
 
 // overriding code style in tables
