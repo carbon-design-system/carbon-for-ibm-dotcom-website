@@ -1,8 +1,10 @@
 import React from 'react';
-import { HomepageBanner, HomepageCallout } from 'gatsby-theme-carbon';
+import { HomepageCallout, FeatureCard } from 'gatsby-theme-carbon';
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
-import { calloutLink } from './Homepage.module.scss';
+import { calloutLink, bannerImage, bannerPicture } from './Homepage.module.scss';
 import Banner from '../../images/homepage/banner_hero_image.jpg';
+import BannerMobile from '../../images/homepage/banner_hero_image_mobile.jpg';
+// import Banner2x from '../../images/homepage/banner_hero_image_2x.jpg';
 
 const FirstLeftText = () => <p>IBM.com Library </p>;
 
@@ -27,10 +29,24 @@ const SecondRightText = () => (
   </p>
 );
 
-const BannerText = () => <h1 />;
-
 const customProps = {
-  Banner: <HomepageBanner image={Banner} renderText={BannerText} />,
+  Banner: (
+    <FeatureCard
+      color="dark"
+      href="getting-started/index"
+      subTitle="Read"
+      title="Getting Started"
+      actionIcon="arrowRight"
+      className="homepage-feature"
+    >
+      <picture className={bannerPicture}>
+        <source media="(min-width: 1056px)" srcset={Banner} />
+        <source media="(min-width: 672px)" srcset={Banner} />
+        <source media="(min-width: 0px)" srcset={BannerMobile} />
+        <img src={Banner} alt="Get started" className={bannerImage} />
+      </picture>
+    </FeatureCard>
+  ),
   FirstCallout: (
     <HomepageCallout
       backgroundColor="#030303"
