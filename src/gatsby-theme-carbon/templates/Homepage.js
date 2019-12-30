@@ -1,5 +1,5 @@
 import React from 'react';
-import { HomepageCallout, FeatureCard } from 'gatsby-theme-carbon';
+import { HomepageCallout, ResourceCard } from 'gatsby-theme-carbon';
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 import { calloutLink, bannerImage, bannerPicture } from './Homepage.module.scss';
 import Banner from '../../images/homepage/banner_hero_image.jpg';
@@ -31,21 +31,32 @@ const SecondRightText = () => (
 
 const customProps = {
   Banner: (
-    <FeatureCard
-      color="dark"
-      href="getting-started/index"
-      subTitle="Read"
-      title="Getting Started"
-      actionIcon="arrowRight"
-      className="homepage-feature"
-    >
-      <picture className={bannerPicture}>
-        <source media="(min-width: 1056px)" srcset={Banner} />
-        <source media="(min-width: 672px)" srcset={Banner} />
-        <source media="(min-width: 0px)" srcset={BannerMobile} />
-        <img src={Banner} alt="Get started" className={bannerImage} />
-      </picture>
-    </FeatureCard>
+    (
+      <>
+        <span className="homepage--dots" />
+        <section className="homepage--header">
+          <div className="bx--grid">
+            <div className="bx--row">
+              <div className="bx--col-lg-4 bx--col-md-4 bx--col-sm-2 bx--offset-lg-8 bx--offset-md-4 bx--offset-sm-2 homepage--tile-header">
+                <ResourceCard
+                  subTitle="Read"
+                  title="Getting Started"
+                  href="getting-started/index"
+                  color="dark"
+                  actionIcon="arrowRight"
+                />
+              </div>
+              <picture className={bannerPicture}>
+                <source media="(min-width: 1056px)" srcset={Banner} />
+                <source media="(min-width: 672px)" srcset={Banner} />
+                <source media="(min-width: 0px)" srcset={BannerMobile} />
+                <img src={Banner} alt="Get started" className={bannerImage} />
+              </picture>
+            </div>
+          </div>
+        </section>
+      </>
+    )
   ),
   FirstCallout: (
     <HomepageCallout
