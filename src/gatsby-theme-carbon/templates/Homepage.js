@@ -41,7 +41,7 @@ const customProps = {
                 <ResourceCard
                   subTitle="Read"
                   title="Getting Started"
-                  href="getting-started/index"
+                  href="/getting-started"
                   color="dark"
                   actionIcon="arrowRight"
                 />
