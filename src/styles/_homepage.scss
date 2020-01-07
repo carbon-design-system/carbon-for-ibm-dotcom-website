@@ -13,6 +13,14 @@
     padding: 0;
     height: 560px;
   }
+
+  img {
+    margin-top: -50%;
+
+    @include carbon--breakpoint('md') {
+      margin-top: -25%;
+    }
+  }
 }
 
 .homepage--header .bx--grid,

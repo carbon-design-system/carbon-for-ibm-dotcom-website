@@ -2,6 +2,12 @@ import React from 'react';
 import Switcher from 'gatsby-theme-carbon/src/components/Switcher';
 import {SwitcherLink} from 'gatsby-theme-carbon/src/components/Switcher/Switcher';
 
+/**
+ * This is a custom switcher, which should not be used until later on. File should be renamed to Switcher.js when ready.
+ *
+ * @param {object} props Props object
+ * @returns {*} JSX Switcher component
+ */
 const CustomSwitcher = props => (
   <Switcher {...props}>
     <SwitcherLink href="https://ibm.com/design">IBM Design</SwitcherLink>
