@@ -1,11 +1,131 @@
+
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 
 export default HomepageTemplate;
 
-## MDX content starts here
+### Getting Started
 
-<PageDescription>
+<FeatureCard
+  subTitle="Start"
+  title="Designing"
+  actionIcon="arrowRight"
+  href="/getting-started/designing"
+  color="dark"
+>
+<ArtDirection>
 
-The homepage content here lives in the `src/pages/index.mdx` directory at the root of your project. Just like the other mdx pages, you can use all of our theme components here without importing them.
+![Get started for designers](../images/homepage/designing_mobile.jpg)
+![Get started for designers](../images/homepage/designing_tablet.jpg)
+![Get started for designers](../images/homepage/designing_desktop.jpg)
 
-</PageDescription>
+</ArtDirection>
+</FeatureCard>
+
+<FeatureCard
+  subTitle="Start"
+  title="Coding"
+  actionIcon="arrowRight"
+  href="/getting-started/coding"
+  color="dark"
+>
+<ArtDirection>
+
+![Get started for developers](../images/homepage/coding_mobile.jpg)
+![Get started for designers](../images/homepage/coding_tablet.jpg)
+![Get started for developers](../images/homepage/coding_desktop.jpg)
+
+</ArtDirection>
+</FeatureCard>
+
+### Other resources
+
+The component libraries give developers a collection of reusable components for
+building websites and user interfaces. See a
+[complete list of resources.](/resources)
+
+<Row className="resource-card-group">
+  <Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      color="dark"
+      subTitle="Sketch Theme libraries"
+      href="/resources#theme-libraries"
+      >
+
+![Sketch](./../images/icon/sketch-symbol.svg)
+
+</ResourceCard>
+  </Column>
+  <Column colMd={4} colLg={4} noGutterSm>
+   <ResourceCard
+       color="dark"
+       subTitle="IBM.com Library Components Repo"
+       href="https://github.com/carbon-design-system/ibm-dotcom-library"
+       >
+
+![Github icon](./../images/icon/github-inverse-icon.svg)
+   
+</ResourceCard>
+  </Column>
+<Column colLg={4} colMd={4} noGutterSm>
+  <ResourceCard
+    color="dark"
+    subTitle="IBM.com Library Components React Storybook"
+    href="https://ibmdotcom-react.netlify.com/?path=/story/*"
+    >
+
+![React icon](../images/icon/react-blue-icon.svg)
+
+  </ResourceCard>
+</Column>
+<Column colLg={4} colMd={4} noGutterSm>
+  <ResourceCard
+    color="dark"
+    subTitle="IBM.com Library Pattern React Storybook (experimental)"
+    href="https://ibmdotcom-patterns-react-experimental.netlify.com/?path=/story/*"
+    >
+
+![React icon](../images/icon/react-blue-icon.svg)
+
+  </ResourceCard>
+</Column>
+</Row>
+
+### Latest updates
+
+<Row>
+<Column colMd={4} colLg={4} noGutterMdLeft>
+<ArticleCard
+  title="Roadmap"
+  author="Last updated"
+  date="December 20, 2019"
+  href="https://github.com/carbon-design-system/ibm-dotcom-library/wiki/Roadmap"
+  color="dark"
+>
+
+![Roadmap](../images/homepage/roadmap.jpg)
+</ArticleCard>
+</Column>
+<Column colMd={4} colLg={4} noGutterMdLeft>
+<ArticleCard
+  title="Release schedule"
+  date="IBM.com Library"
+  href="https://github.com/carbon-design-system/ibm-dotcom-library/issues"
+  actionIcon="arrowRight"
+  color="dark"
+>
+
+![Release Schedule](../images/homepage/release_schedule.jpg)
+</ArticleCard>
+</Column>
+<Column colMd={4} colLg={4} noGutterMdLeft>
+<ArticleCard
+  title="Slack channel"
+  date="#ibm-digital-design"
+  href="https://cognitive-app.slack.com/archives/C2PLX8GQ6"
+  color="dark"
+>
+
+![Slack](../images/homepage/slack.jpg)
+</ArticleCard>
+</Column>
+</Row>

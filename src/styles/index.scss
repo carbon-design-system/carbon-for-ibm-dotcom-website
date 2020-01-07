@@ -1,1 +1,41 @@
 // This is where your application styles could go.
+
+@import 'homepage';
+
+// override nested list item styles (they are hardcoded at 16px)
+.bx--list--nested {
+  .bx--list__item {
+    font-size: inherit;
+    padding-left: 0;
+  }
+}
+
+.bx--list--unordered {
+  .bx--list__item {
+    margin-left: 0.5rem;
+
+    &:before {
+      left: -0.5rem;
+    }
+  }
+}
+
+.bx--list--ordered {
+  margin-left: .8125rem;
+
+  .bx--list__item {
+    margin-left: 0.5rem;
+  }
+}
+
+// Overriding ImageCard size of titles
+.bx--image-card__title {
+  font-size: var(--cds-heading-01-font-size, 0.875rem);
+  line-height: var(--cds-heading-01-line-height, 1.125rem);
+  letter-spacing: var(--cds-heading-01-letter-spacing, 0.16px);
+}
+
+// overriding code style in tables
+td > code {
+  white-space: nowrap;
+}

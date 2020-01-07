@@ -4,10 +4,10 @@ import Footer from 'gatsby-theme-carbon/src/components/Footer';
 const Content = () => (
   <>
     <p>
-      Have questions? Open an issue in <a href="https://github.com/carbon-design-system/carbon-for-ibm-website/issues/new/choose">Github</a>.
+      Have questions? Open an issue in <a href="https://github.com/carbon-design-system/ibm-dotcom-library-website/issues/new/choose">Github</a>.
     </p>
     <p>
-      Last updated November 12th, 2019
+      Last updated December 31st, 2019
       <br/>
       Copyright &copy; 2019 IBM
     </p>
