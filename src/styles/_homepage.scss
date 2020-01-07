@@ -1,0 +1,59 @@
+.homepage--header {
+  height: 0;
+  overflow: hidden;
+  padding-top: 100%;
+  position: relative;
+
+  @include carbon--breakpoint('md') {
+    padding-top: 50%;
+  }
+
+  // Match max height at lg breakpoint
+  @include carbon--breakpoint('lg') {
+    padding: 0;
+    height: 560px;
+  }
+
+  img {
+    margin-top: -50%;
+
+    @include carbon--breakpoint('md') {
+      margin-top: -25%;
+    }
+  }
+}
+
+.homepage--header .bx--grid,
+.homepage--header .bx--row {
+  height: 100%;
+}
+
+// homepage tile at top
+.homepage--tile-header {
+  display: flex;
+  align-items: flex-end;
+  margin-top: -50%;
+  padding-left: 0;
+  padding-right: 0;
+
+  @include carbon--breakpoint('md') {
+    padding-left: $spacing-05;
+    padding-right: $spacing-05;
+  }
+
+  @include carbon--breakpoint('lg') {
+    margin-top: 0;
+  }
+
+  .bx--aspect-ratio--2x1 {
+    padding-bottom: 100%;
+
+    @include carbon--breakpoint('md') {
+      padding-bottom: 50%;
+    }
+  }
+}
+
+.homepage--tile-header .bx--resource-card {
+  width: 100%;
+}

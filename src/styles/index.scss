@@ -1,5 +1,7 @@
 // This is where your application styles could go.
 
+@import 'homepage';
+
 // override nested list item styles (they are hardcoded at 16px)
 .bx--list--nested {
   .bx--list__item {
@@ -24,11 +26,6 @@
   .bx--list__item {
     margin-left: 0.5rem;
   }
-}
-
-// Fix for grid handling on the homepage
-.container--homepage .bx--no-gutter-sm {
-  padding: 0;
 }
 
 // Overriding ImageCard size of titles

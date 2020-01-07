@@ -7,8 +7,8 @@ const links = [
         href: 'https://github.com/carbon-design-system/ibm-dotcom-library',
     },
     {
-        title: 'Carbon Design System',
-        href: 'https://www.carbondesignsystem.com/',
+        title: 'Design Kit',
+        href: '/resources#theme-libraries',
     },
 ];
 
