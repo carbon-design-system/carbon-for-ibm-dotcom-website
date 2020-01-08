@@ -9,6 +9,7 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "gatsby": "^2.13.39",
     "gatsby-theme-carbon": "1.18.2",
     "react": "^16.8.6",
