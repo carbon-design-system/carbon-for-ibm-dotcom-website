@@ -6,5 +6,5 @@ applications:
     buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
     routes:
       - route: ibm-dotcom-library.mybluemix.net
-      - route: ibm-dotcom-library.mybluemix.net
+      - route: ibm-dotcom-library-temp.mybluemix.net
 
