@@ -4,7 +4,7 @@ import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 import { calloutLink, bannerImage, bannerPicture } from './Homepage.module.scss';
 import Banner from '../../images/homepage/banner_hero_image.jpg';
 import BannerMobile from '../../images/homepage/banner_hero_image_mobile.jpg';
-// import Banner2x from '../../images/homepage/banner_hero_image_2x.jpg';
+import Banner2x from '../../images/homepage/banner_hero_image_2x.jpg';
 
 const FirstLeftText = () => <p>IBM.com Library </p>;
 
@@ -47,8 +47,8 @@ const customProps = {
                 />
               </div>
               <picture className={bannerPicture}>
-                <source media="(min-width: 1056px)" srcset={Banner} />
-                <source media="(min-width: 672px)" srcset={Banner} />
+                <source media="(min-width: 1056px)" srcset={`${Banner}, ${Banner2x} 2x`} />
+                <source media="(min-width: 672px)" srcset={`${Banner}, ${Banner2x} 2x`} />
                 <source media="(min-width: 0px)" srcset={BannerMobile} />
                 <img src={Banner} alt="Get started" className={bannerImage} />
               </picture>
