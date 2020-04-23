@@ -60,8 +60,8 @@ const customProps = {
             <div className="bx--col-lg-4 bx--col-md-4 bx--col-sm-2 bx--offset-lg-8 bx--offset-md-4 bx--offset-sm-2 homepage--tile-header">
               <ResourceCard
                 subTitle="Read"
-                title="Getting Started"
-                href="/getting-started"
+                title="Get started"
+                href="/get-started"
                 color="dark"
                 actionIcon="arrowRight"
               />
