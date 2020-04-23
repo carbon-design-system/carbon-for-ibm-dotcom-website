@@ -41,18 +41,9 @@ const customProps = {
   Banner: (
     <>
       <span className="homepage--dots" />
-      <section className="homepage--header">
+      <section className="homepage--header homepage--hearder__no-dots">
         <div className="bx--grid">
           <div className="bx--row">
-            <div className="bx--col-lg-4 bx--col-md-4 bx--col-sm-2 bx--offset-lg-8 bx--offset-md-4 bx--offset-sm-2 homepage--tile-header">
-              <ResourceCard
-                subTitle="Read"
-                title="Getting Started"
-                href="/getting-started"
-                color="dark"
-                actionIcon="arrowRight"
-              />
-            </div>
             <picture className={bannerPicture}>
               <source
                 media="(min-width: 1056px)"
@@ -64,8 +55,17 @@ const customProps = {
               />
               <source media="(min-width: 0px)" srcset={BannerMobile} />
               <img src={Banner} alt="Get started" className={bannerImage} />
+              <div className="homepage--leadspace--overlay" />
             </picture>
-            <div className="homepage--leadspace--overlay" />
+            <div className="bx--col-lg-4 bx--col-md-4 bx--col-sm-2 bx--offset-lg-8 bx--offset-md-4 bx--offset-sm-2 homepage--tile-header">
+              <ResourceCard
+                subTitle="Read"
+                title="Getting Started"
+                href="/getting-started"
+                color="dark"
+                actionIcon="arrowRight"
+              />
+            </div>
           </div>
         </div>
       </section>
