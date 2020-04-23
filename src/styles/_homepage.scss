@@ -40,6 +40,12 @@
       margin-top: -25%;
     }
   }
+
+  // hides dot bg. remove class from
+  // .homepage--header to show dots
+  &.homepage--hearder__no-dots {
+    z-index: 2;
+  }
 }
 
 .homepage--header .bx--grid,
@@ -62,14 +68,6 @@
 
   @include carbon--breakpoint("lg") {
     margin-top: 0;
-  }
-
-  .bx--aspect-ratio--2x1 {
-    padding-bottom: 100%;
-
-    @include carbon--breakpoint("md") {
-      padding-bottom: 50%;
-    }
   }
 }
 
