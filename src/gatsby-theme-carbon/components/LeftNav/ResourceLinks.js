@@ -8,7 +8,7 @@ const links = [
     },
     {
         title: 'Design Kit',
-        href: '/resources#theme-libraries',
+        href: '/resources#ibm.com-library',
     },
 ];
 
