@@ -8,7 +8,7 @@ const links = [
     },
     {
         title: 'Design Kit',
-        href: '/resources#theme-libraries',
+        href="http://ibm-dotcom-library.mybluemix.net/resources#ibm.com-library",
     },
 ];
 
