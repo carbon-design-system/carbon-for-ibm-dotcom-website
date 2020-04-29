@@ -21,12 +21,12 @@ const FirstRightText = () => (
   </p>
 );
 
-const SecondLeftText = () => <p>Wondering how to contribute?</p>;
+const SecondLeftText = () => <p>Wondering how <br /> to contribute?</p>;
 
 const SecondRightText = () => (
   <p>
     We welcome all feedback, designs, or ideas in order to produce the best
-    possible experience for our users. If you’re interested in contributing,
+    possible experience for our users. If you are interested in contributing,
     check out our contributing guidelines to get started.
     <a
       className={calloutLink}
