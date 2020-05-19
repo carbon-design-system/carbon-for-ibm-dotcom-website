@@ -32,9 +32,10 @@ const FirstRightText = () => (
 const SecondCalloutText = () => (
   <div>
     <p>
-      We welcome all feedback, designs, or ideas in order to produce the best
-      possible experience for our users. If you are interested in contributing,
-      check out our contributing guidelines to get started.
+      Want to <strong>contribute</strong>? We welcome all feedback, designs, or
+      ideas in order to produce the best possible experience for our users. If
+      you are interested in contributing, check out our contributing guidelines
+      to get started.
     </p>
     <a
       className={calloutLink}
