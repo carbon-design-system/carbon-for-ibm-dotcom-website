@@ -1,7 +1,15 @@
 import React from "react";
-import { HomepageCallout, ResourceCard } from "gatsby-theme-carbon";
+import {
+  HomepageCallout,
+  ResourceCard,
+  Row,
+  Column,
+} from "gatsby-theme-carbon";
 import HomepageTemplate from "gatsby-theme-carbon/src/templates/Homepage";
 import {
+  grid,
+  row,
+  callout,
   calloutLink,
   bannerImage,
   bannerPicture,
@@ -21,20 +29,20 @@ const FirstRightText = () => (
   </p>
 );
 
-const SecondLeftText = () => <p>Wondering how <br /> to contribute?</p>;
-
-const SecondRightText = () => (
-  <p>
-    We welcome all feedback, designs, or ideas in order to produce the best
-    possible experience for our users. If you are interested in contributing,
-    check out our contributing guidelines to get started.
+const SecondCalloutText = () => (
+  <div>
+    <p>
+      We welcome all feedback, designs, or ideas in order to produce the best
+      possible experience for our users. If you are interested in contributing,
+      check out our contributing guidelines to get started.
+    </p>
     <a
       className={calloutLink}
       href="https://www.carbondesignsystem.com/how-to-contribute/overview/"
     >
       Start contributing →
     </a>
-  </p>
+  </div>
 );
 
 const customProps = {
@@ -80,12 +88,16 @@ const customProps = {
     />
   ),
   SecondCallout: (
-    <HomepageCallout
-      leftText={SecondLeftText}
-      rightText={SecondRightText}
-      color="white"
-      backgroundColor="#061f80"
-    />
+    <>
+      <div className={`bx--grid ${grid}`}>
+        <Row className={row}>
+          <Column className={callout} colLg={8} colMd={7}>
+            <h3>Contribute</h3>
+            <div>{SecondCalloutText()}</div>
+          </Column>
+        </Row>
+      </div>
+    </>
   ),
 };
 
