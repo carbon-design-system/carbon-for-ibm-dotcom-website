@@ -1,0 +1,31 @@
+.feature-card-group {
+  &.resource-card-group .#{$prefix}--resource-card__icon--img {
+    bottom: 0;
+    left: 0;
+    height: 116px;
+    width: 116px;
+  }
+
+  @include carbon--breakpoint("lg") {
+    &.resource-card-group .#{$prefix}--resource-card {
+      border-top: 1px solid transparent;
+    }
+
+    &.resource-card-group .#{$prefix}--col-lg-4:nth-child(2n) {
+      margin-right: 0;
+    }
+    &.resource-card-group .#{$prefix}--col-lg-4:nth-child(2) {
+      margin-right: 0;
+    }
+    &.resource-card-group
+      .#{$prefix}--col-lg-4:nth-child(odd)
+      .#{$prefix}--resource-card {
+      border-left: 1px solid $carbon--gray-20;
+    }
+    &.resource-card-group
+      .#{$prefix}--col-lg-4:first-child
+      .#{$prefix}--resource-card {
+      border-left: 0px solid transparent;
+    }
+  }
+}
