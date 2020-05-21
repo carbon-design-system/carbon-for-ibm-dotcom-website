@@ -1,36 +1,38 @@
 import React from "react";
-import {
-  HomepageCallout,
-  ResourceCard,
-  Row,
-  Column,
-} from "gatsby-theme-carbon";
+import { ResourceCard, Row, Column } from "gatsby-theme-carbon";
 import HomepageTemplate from "gatsby-theme-carbon/src/templates/Homepage";
 import {
   grid,
   row,
   callout,
   calloutLink,
+  calloutImage,
   bannerImage,
   bannerPicture,
 } from "./Homepage.module.scss";
 import Banner from "../../images/homepage/banner_hero_image.jpg";
 import BannerMobile from "../../images/homepage/banner_hero_image_mobile.jpg";
 import Banner2x from "../../images/homepage/banner_hero_image_2x.jpg";
+import Callout from "../../images/homepage/callout.png";
+import CalloutTablet from "../../images/homepage/callout-tablet.png";
 
-const FirstLeftText = () => <p>IBM.com Library </p>;
-
-const FirstRightText = () => (
-  <p>
-    IBM.com Library is a collection of components, patterns, tools, and
-    guidelines for designers and developers building IBM.com experiences. Its
-    components and patterns are based on Carbon Design System and optimized for
-    building IBM.com experiences.
-  </p>
+const FirstCalloutText = () => (
+  <>
+    <p>
+      We prepared a set of guidelines and tools for you and your team to start
+      building your IBM.com vision.
+    </p>
+    <a
+      className={calloutLink}
+      href="https://www.carbondesignsystem.com/how-to-contribute/overview/"
+    >
+      Start with overview →
+    </a>
+  </>
 );
 
 const SecondCalloutText = () => (
-  <div>
+  <>
     <p>
       Want to <strong>contribute</strong>? We welcome all feedback, designs, or
       ideas in order to produce the best possible experience for our users. If
@@ -43,7 +45,7 @@ const SecondCalloutText = () => (
     >
       Start contributing →
     </a>
-  </div>
+  </>
 );
 
 const customProps = {
@@ -81,24 +83,34 @@ const customProps = {
     </>
   ),
   FirstCallout: (
-    <HomepageCallout
-      backgroundColor="#030303"
-      color="white"
-      leftText={FirstLeftText}
-      rightText={FirstRightText}
-    />
+    <div className={`bx--grid ${grid}`}>
+      <Row className={row}>
+        <Column className={callout} colLg={16} colMd={8}>
+          <h3>Get Started</h3>
+        </Column>
+        <Column className={callout} colLg={7} colMd={5}>
+          {FirstCalloutText()}
+        </Column>
+        <Column className={callout} colLg={5} colMd={3}>
+          <picture>
+            <source media="(min-width: 1056px)" srcset={Callout} />
+            <source media="(min-width: 672px)" srcset={CalloutTablet} />
+            <source media="(min-width: 0px)" srcset={Callout} />
+            <img src={Callout} className={calloutImage} alt="Get started" />
+          </picture>
+        </Column>
+      </Row>
+    </div>
   ),
   SecondCallout: (
-    <>
-      <div className={`bx--grid ${grid}`}>
-        <Row className={row}>
-          <Column className={callout} colLg={8} colMd={7}>
-            <h3>Contribute</h3>
-            <div>{SecondCalloutText()}</div>
-          </Column>
-        </Row>
-      </div>
-    </>
+    <div className={`bx--grid ${grid}`}>
+      <Row className={row}>
+        <Column className={callout} colLg={8} colMd={7}>
+          <h3>Contribute</h3>
+          <div>{SecondCalloutText()}</div>
+        </Column>
+      </Row>
+    </div>
   ),
 };
 
