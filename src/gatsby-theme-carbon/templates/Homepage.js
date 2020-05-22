@@ -1,14 +1,22 @@
 import React from "react";
-import { HomepageCallout, ResourceCard } from "gatsby-theme-carbon";
+import { HomepageCallout } from "gatsby-theme-carbon";
 import HomepageTemplate from "gatsby-theme-carbon/src/templates/Homepage";
 import {
   calloutLink,
-  bannerImage,
-  bannerPicture,
+  leadspaceText,
+  leadspaceImage,
 } from "./Homepage.module.scss";
-import Banner from "../../images/homepage/banner_hero_image.jpg";
-import BannerMobile from "../../images/homepage/banner_hero_image_mobile.jpg";
-import Banner2x from "../../images/homepage/banner_hero_image_2x.jpg";
+import LeadSpaceImage from "../../images/homepage/leadspace_hero_image.png";
+import LeadSpaceImageMobile from "../../images/homepage/leadspace_hero_image_mobile.png";
+import LeadSpaceImageTablet from "../../images/homepage/leadspace_hero_image_tablet.png";
+
+const LeadSpaceText = () => (
+  <p className={leadspaceText}>
+    IBM.com is a platform where our customers can find solutions, get their jobs
+    done, and grow their businesses <strong>efficiently</strong> and{" "}
+    <strong>effectively.</strong>
+  </p>
+);
 
 const FirstLeftText = () => <p>IBM.com Library </p>;
 
@@ -21,7 +29,11 @@ const FirstRightText = () => (
   </p>
 );
 
-const SecondLeftText = () => <p>Wondering how <br /> to contribute?</p>;
+const SecondLeftText = () => (
+  <p>
+    Wondering how <br /> to contribute?
+  </p>
+);
 
 const SecondRightText = () => (
   <p>
@@ -41,30 +53,29 @@ const customProps = {
   Banner: (
     <>
       <span className="homepage--dots" />
-      <section className="homepage--header homepage--hearder__no-dots">
+      <section>
         <div className="bx--grid">
           <div className="bx--row">
-            <picture className={bannerPicture}>
-              <source
-                media="(min-width: 1056px)"
-                srcset={`${Banner}, ${Banner2x} 2x`}
-              />
-              <source
-                media="(min-width: 672px)"
-                srcset={`${Banner}, ${Banner2x} 2x`}
-              />
-              <source media="(min-width: 0px)" srcset={BannerMobile} />
-              <img src={Banner} alt="Get started" className={bannerImage} />
-              <div className="homepage--leadspace--overlay" />
-            </picture>
-            <div className="bx--col-lg-4 bx--col-md-4 bx--col-sm-2 bx--offset-lg-8 bx--offset-md-4 bx--offset-sm-2 homepage--tile-header">
-              <ResourceCard
-                subTitle="Read"
-                title="Get started"
-                href="/get-started"
-                color="dark"
-                actionIcon="arrowRight"
-              />
+            <div className="bx--col-lg-11 bx--col-md-7 bx--col-sm-4">
+              {LeadSpaceText()}
+            </div>
+            <div className="bx--col-lg-16 bx--col-md-8 bx--col-sm-4">
+              <picture>
+                <source media="(min-width: 1056px)" srcset={LeadSpaceImage} />
+                <source
+                  media="(min-width: 672px)"
+                  srcset={LeadSpaceImageTablet}
+                />
+                <source
+                  media="(min-width: 0px)"
+                  srcset={LeadSpaceImageMobile}
+                />
+                <img
+                  src={LeadSpaceImage}
+                  alt="Get started"
+                  className={leadspaceImage}
+                />
+              </picture>
             </div>
           </div>
         </div>
