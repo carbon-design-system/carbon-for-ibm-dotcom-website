@@ -25,7 +25,7 @@
 .callout-image {
   margin: auto;
   @include carbon--breakpoint-down("md") {
-    margin-top: $spacing-07;
+    margin-bottom: $spacing-07;
   }
 }
 
@@ -36,6 +36,16 @@
 
   &:hover {
     text-decoration: underline;
+  }
+}
+
+.first-callout {
+  .row:first-child {
+    padding-bottom: 0;
+  }
+
+  .row:last-of-type {
+    padding-top: 0;
   }
 }
 

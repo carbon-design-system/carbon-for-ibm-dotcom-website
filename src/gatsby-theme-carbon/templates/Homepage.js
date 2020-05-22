@@ -7,6 +7,7 @@ import {
   callout,
   calloutLink,
   calloutImage,
+  firstCallout,
   bannerImage,
   bannerPicture,
 } from "./Homepage.module.scss";
@@ -17,18 +18,19 @@ import Callout from "../../images/homepage/callout.png";
 import CalloutTablet from "../../images/homepage/callout-tablet.png";
 
 const FirstCalloutText = () => (
-  <>
-    <p>
-      We prepared a set of guidelines and tools for you and your team to start
-      building your IBM.com vision.
-    </p>
-    <a
-      className={calloutLink}
-      href="https://www.carbondesignsystem.com/how-to-contribute/overview/"
-    >
-      Start with overview →
-    </a>
-  </>
+  <p>
+    We prepared a set of guidelines and tools for you and your team to start
+    building your IBM.com vision.
+  </p>
+);
+
+const FirstCalloutLink = () => (
+  <a
+    className={calloutLink}
+    href="https://www.carbondesignsystem.com/how-to-contribute/overview/"
+  >
+    Start with overview →
+  </a>
 );
 
 const SecondCalloutText = () => (
@@ -83,12 +85,10 @@ const customProps = {
     </>
   ),
   FirstCallout: (
-    <div className={`bx--grid ${grid}`}>
+    <div className={`bx--grid ${grid} ${firstCallout}`}>
       <Row className={row}>
-        <Column className={callout} colLg={16} colMd={8}>
-          <h3>Get Started</h3>
-        </Column>
         <Column className={callout} colLg={7} colMd={5}>
+          <h3>Get Started</h3>
           {FirstCalloutText()}
         </Column>
         <Column className={callout} colLg={5} colMd={3}>
@@ -98,6 +98,11 @@ const customProps = {
             <source media="(min-width: 0px)" srcset={Callout} />
             <img src={Callout} className={calloutImage} alt="Get started" />
           </picture>
+        </Column>
+      </Row>
+      <Row className={row}>
+        <Column className={callout} colLg={7} colMd={5}>
+          {FirstCalloutLink()}
         </Column>
       </Row>
     </div>
