@@ -1,11 +1,18 @@
 import React from "react";
-import { HomepageCallout } from "gatsby-theme-carbon";
+import { Row, Column } from "gatsby-theme-carbon";
 import HomepageTemplate from "gatsby-theme-carbon/src/templates/Homepage";
 import {
+  grid,
+  row,
+  callout,
   calloutLink,
+  calloutImage,
+  firstCallout,
   leadspaceText,
   leadspaceImage,
 } from "./Homepage.module.scss";
+import Callout from "../../images/homepage/callout.png";
+import CalloutTablet from "../../images/homepage/callout-tablet.png";
 import LeadSpaceImage from "../../images/homepage/leadspace_hero_image.png";
 import LeadSpaceImageMobile from "../../images/homepage/leadspace_hero_image_mobile.png";
 import LeadSpaceImageTablet from "../../images/homepage/leadspace_hero_image_tablet.png";
@@ -18,35 +25,37 @@ const LeadSpaceText = () => (
   </p>
 );
 
-const FirstLeftText = () => <p>IBM.com Library </p>;
-
-const FirstRightText = () => (
+const FirstCalloutText = () => (
   <p>
-    IBM.com Library is a collection of components, patterns, tools, and
-    guidelines for designers and developers building IBM.com experiences. Its
-    components and patterns are based on Carbon Design System and optimized for
-    building IBM.com experiences.
+    We prepared a set of guidelines and tools for you and your team to start
+    building your IBM.com vision.
   </p>
 );
 
-const SecondLeftText = () => (
-  <p>
-    Wondering how <br /> to contribute?
-  </p>
+const FirstCalloutLink = () => (
+  <a
+    className={calloutLink}
+    href="https://www.carbondesignsystem.com/how-to-contribute/overview/"
+  >
+    Start with overview →
+  </a>
 );
 
-const SecondRightText = () => (
-  <p>
-    We welcome all feedback, designs, or ideas in order to produce the best
-    possible experience for our users. If you are interested in contributing,
-    check out our contributing guidelines to get started.
+const SecondCalloutText = () => (
+  <>
+    <p>
+      Want to <strong>contribute</strong>? We welcome all feedback, designs, or
+      ideas in order to produce the best possible experience for our users. If
+      you are interested in contributing, check out our contributing guidelines
+      to get started.
+    </p>
     <a
       className={calloutLink}
       href="https://www.carbondesignsystem.com/how-to-contribute/overview/"
     >
       Start contributing →
     </a>
-  </p>
+  </>
 );
 
 const customProps = {
@@ -56,10 +65,10 @@ const customProps = {
       <section>
         <div className="bx--grid">
           <div className="bx--row">
-            <div className="bx--col-lg-11 bx--col-md-7 bx--col-sm-4">
+            <Column colLg={11} colMd={7}>
               {LeadSpaceText()}
-            </div>
-            <div className="bx--col-lg-16 bx--col-md-8 bx--col-sm-4">
+            </Column>
+            <Column>
               <picture>
                 <source media="(min-width: 1056px)" srcset={LeadSpaceImage} />
                 <source
@@ -76,27 +85,44 @@ const customProps = {
                   className={leadspaceImage}
                 />
               </picture>
-            </div>
+            </Column>
           </div>
         </div>
       </section>
     </>
   ),
   FirstCallout: (
-    <HomepageCallout
-      backgroundColor="#030303"
-      color="white"
-      leftText={FirstLeftText}
-      rightText={FirstRightText}
-    />
+    <div className={`bx--grid ${grid} ${firstCallout}`}>
+      <Row className={row}>
+        <Column className={callout} colLg={7} colMd={5}>
+          <h3>Get Started</h3>
+          {FirstCalloutText()}
+        </Column>
+        <Column className={callout} colLg={5} colMd={3}>
+          <picture>
+            <source media="(min-width: 1056px)" srcset={Callout} />
+            <source media="(min-width: 672px)" srcset={CalloutTablet} />
+            <source media="(min-width: 0px)" srcset={Callout} />
+            <img src={Callout} className={calloutImage} alt="Get started" />
+          </picture>
+        </Column>
+      </Row>
+      <Row className={row}>
+        <Column className={callout} colLg={7} colMd={5}>
+          {FirstCalloutLink()}
+        </Column>
+      </Row>
+    </div>
   ),
   SecondCallout: (
-    <HomepageCallout
-      leftText={SecondLeftText}
-      rightText={SecondRightText}
-      color="white"
-      backgroundColor="#061f80"
-    />
+    <div className={`bx--grid ${grid}`}>
+      <Row className={row}>
+        <Column className={callout} colLg={8} colMd={7}>
+          <h3>Contribute</h3>
+          <div>{SecondCalloutText()}</div>
+        </Column>
+      </Row>
+    </div>
   ),
 };
 
