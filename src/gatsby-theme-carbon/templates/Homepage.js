@@ -1,5 +1,5 @@
 import React from "react";
-import { HomepageCallout, ResourceCard } from "gatsby-theme-carbon";
+import { HomepageCallout } from "gatsby-theme-carbon";
 import HomepageTemplate from "gatsby-theme-carbon/src/templates/Homepage";
 import {
   calloutLink,
