@@ -1,13 +1,24 @@
 .callout-link {
-  @include carbon--type-style('body-long-02');
+  @include carbon--type-style("body-long-02");
   margin-top: $spacing-06;
   display: block;
 }
 
-.banner-image {
-  width: 100%;
+.leadspace-text {
+  margin-top: $spacing-09;
+  @include carbon--type-style("expressive-heading-05", true);
+
+  @include carbon--breakpoint-down("md") {
+    weight: 300;
+  }
 }
 
-.banner-picture {
-  display: flex;
+.leadspace-image {
+  margin: auto;
+  margin-top: $spacing-07;
+  width: 100%;
+
+  @include carbon--breakpoint("md") {
+    margin-top: $spacing-09;
+  }
 }
