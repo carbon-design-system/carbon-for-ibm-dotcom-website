@@ -1,6 +1,7 @@
 // This is where your application styles could go.
 
-@import 'homepage';
+@import "homepage";
+@import "feature-card-group";
 
 // override nested list item styles (they are hardcoded at 16px)
 .bx--list--nested {
@@ -21,7 +22,7 @@
 }
 
 .bx--list--ordered {
-  margin-left: .8125rem;
+  margin-left: 0.8125rem;
 
   .bx--list__item {
     margin-left: 0.5rem;
