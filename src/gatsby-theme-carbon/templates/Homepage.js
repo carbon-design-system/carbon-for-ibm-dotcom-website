@@ -51,7 +51,7 @@ const SecondCalloutText = () => (
     </p>
     <a
       className={calloutLink}
-      href="https://www.ibm.com/standards/web/ibm-dotcom-library/contributions"
+      href="http://ibm-dotcom-library.mybluemix.net/contributions"
     >
       Start contributing →
     </a>
