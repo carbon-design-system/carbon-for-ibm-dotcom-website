@@ -30,7 +30,7 @@ const SecondRightText = () => (
     check out our contributing guidelines to get started.
     <a
       className={calloutLink}
-      href="https://www.carbondesignsystem.com/how-to-contribute/overview/"
+      href="http://ibm-dotcom-library.mybluemix.net/contributions"
     >
       Start contributing →
     </a>
