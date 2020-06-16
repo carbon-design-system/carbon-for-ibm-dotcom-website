@@ -13,9 +13,12 @@ import {
 } from "./Homepage.module.scss";
 import Callout from "../../images/homepage/callout.png";
 import CalloutTablet from "../../images/homepage/callout-tablet.png";
-import LeadSpaceImage from "../../images/homepage/leadspace_hero_image.png";
-import LeadSpaceImageMobile from "../../images/homepage/leadspace_hero_image_mobile.png";
-import LeadSpaceImageTablet from "../../images/homepage/leadspace_hero_image_tablet.png";
+import LeadSpaceImage from "../../images/homepage/banner_hero_image.png";
+import LeadSpaceImageMobile from "../../images/homepage/banner_hero_image_mobile.png";
+import LeadSpaceImageTablet from "../../images/homepage/banner_hero_image_tablet.png";
+import LeadSpaceImage2X from "../../images/homepage/banner_hero_image_2x.png";
+import LeadSpaceImageMobile2X from "../../images/homepage/banner_hero_image_mobile_2x.png";
+import LeadSpaceImageTablet2X from "../../images/homepage/banner_hero_image_tablet_2x.png";
 
 const LeadSpaceText = () => (
   <p className={leadspaceText}>
@@ -70,14 +73,17 @@ const customProps = {
             </Column>
             <Column>
               <picture>
-                <source media="(min-width: 1056px)" srcset={LeadSpaceImage} />
+                <source
+                  media="(min-width: 1056px)"
+                  srcset={`${LeadSpaceImage}, ${LeadSpaceImage2X} 2x`}
+                />
                 <source
                   media="(min-width: 672px)"
-                  srcset={LeadSpaceImageTablet}
+                  srcset={`${LeadSpaceImageTablet}, ${LeadSpaceImageTablet2X} 2x`}
                 />
                 <source
                   media="(min-width: 0px)"
-                  srcset={LeadSpaceImageMobile}
+                  srcset={`${LeadSpaceImageMobile}, ${LeadSpaceImageMobile2X} 2x`}
                 />
                 <img
                   src={LeadSpaceImage}

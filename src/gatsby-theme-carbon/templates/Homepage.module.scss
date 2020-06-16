@@ -8,8 +8,12 @@
 
 .row {
   padding-top: $layout-04;
-  padding-bottom: carbon--mini-units(10);
+  padding-bottom: $layout-05;
   max-width: 74.25rem;
+
+  @include carbon--breakpoint("md") {
+    padding-bottom: carbon--mini-units(10);
+  }
 }
 
 .callout h3 {
