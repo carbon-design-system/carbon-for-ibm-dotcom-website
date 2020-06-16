@@ -22,16 +22,16 @@ import LeadSpaceImageTablet2X from "../../images/homepage/banner_hero_image_tabl
 
 const LeadSpaceText = () => (
   <p className={leadspaceText}>
-    IBM.com is a platform where our customers can find solutions, get their jobs
-    done, and grow their businesses <strong>efficiently</strong> and{" "}
-    <strong>effectively.</strong>
+    Our vision is that every visitor to IBM.com has a productive,
+    <strong>efficient</strong> and
+    <strong>delightful</strong> experience.
   </p>
 );
 
 const FirstCalloutText = () => (
   <p>
-    We prepared a set of guidelines and tools for you and your team to start
-    building your IBM.com vision.
+    We have prepared a set of building blocks, tools and guidelines to help you
+    to make this shared vision a reality.
   </p>
 );
 
