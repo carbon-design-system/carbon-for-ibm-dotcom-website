@@ -21,7 +21,8 @@ import LeadSpaceImageTablet2X from "../../images/homepage/banner_hero_image_tabl
 
 const LeadSpaceText = () => (
   <p className={leadspaceText}>
-    Our vision is that every visitor to IBM.com has a productive, <strong>efficient</strong> and
+    Our vision is that every visitor to IBM.com has a productive,{" "}
+    <strong>efficient</strong> and
     <strong> delightful</strong> experience.
   </p>
 );
@@ -66,10 +67,10 @@ const customProps = {
       <section>
         <div className="bx--grid">
           <div className="bx--row">
-            <Column colLg={11} colMd={7}>
+            <Column colLg={11} colMd={8}>
               {LeadSpaceText()}
             </Column>
-            <Column colLg={11} colMd={7} className={leadspaceImage}>
+            <Column colLg={11} colMd={8} className={leadspaceImage}>
               <picture>
                 <source
                   media="(min-width: 1056px)"
@@ -98,6 +99,23 @@ const customProps = {
           <h3>Get Started</h3>
           {FirstCalloutText()}
         </Column>
+        <Column className={calloutImage} colLg={5} colMd={3}>
+          <picture>
+            <source media="(min-width: 1056px)" srcset={Callout} />
+            <source media="(min-width: 672px)" srcset={Callout} />
+            <source media="(min-width: 0px)" srcset={Callout} />
+            <img src={Callout} alt="Get started" />
+          </picture>
+        </Column>
+        <Column className={callout} colLg={7} colMd={5}>
+          {FirstCalloutLink()}
+        </Column>
+      </Row>
+      {/* <Row className={row}>
+        <Column className={callout} colLg={7} colMd={5}>
+          <h3>Get Started</h3>
+          {FirstCalloutText()}
+        </Column>
         <Column className={callout} colLg={5} colMd={3}>
           <picture>
             <source media="(min-width: 1056px)" srcset={Callout} />
@@ -111,7 +129,7 @@ const customProps = {
         <Column className={callout} colLg={7} colMd={5}>
           {FirstCalloutLink()}
         </Column>
-      </Row>
+      </Row> */}
     </div>
   ),
   SecondCallout: (

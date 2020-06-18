@@ -7,6 +7,7 @@
 }
 
 .row {
+  position: relative;
   padding-top: $layout-04;
   padding-bottom: $layout-05;
   max-width: 74.25rem;
@@ -27,7 +28,30 @@
 }
 
 .callout-image {
-  margin: auto;
+  width: 100%;
+
+  img {
+    margin: auto;
+  }
+
+  @include carbon--breakpoint("md") {
+    margin-right: -$layout-03;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    picture {
+      align-self: center;
+      width: 100%;
+    }
+
+    img {
+      margin-right: 0;
+    }
+  }
+
   @include carbon--breakpoint-down("md") {
     margin-bottom: $spacing-07;
   }
@@ -44,17 +68,10 @@
 }
 
 .first-callout {
-  img {
-    width: 100%;
-    margin-right: -2rem;
-  }
-
-  .row:first-child {
-    padding-bottom: 0;
-  }
-
-  .row:last-of-type {
-    padding-top: 0;
+  @include carbon--breakpoint("md") {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }
 
