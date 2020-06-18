@@ -11,8 +11,7 @@ import {
   leadspaceText,
   leadspaceImage,
 } from "./Homepage.module.scss";
-import Callout from "../../images/homepage/callout.png";
-import CalloutTablet from "../../images/homepage/callout-tablet.png";
+import Callout from "../../images/homepage/get-started_illustration.png";
 import LeadSpaceImage from "../../images/homepage/banner_hero_image.png";
 import LeadSpaceImageMobile from "../../images/homepage/banner_hero_image_mobile.png";
 import LeadSpaceImageTablet from "../../images/homepage/banner_hero_image_tablet.png";
@@ -22,9 +21,8 @@ import LeadSpaceImageTablet2X from "../../images/homepage/banner_hero_image_tabl
 
 const LeadSpaceText = () => (
   <p className={leadspaceText}>
-    Our vision is that every visitor to IBM.com has a productive,
-    <strong>efficient</strong> and
-    <strong>delightful</strong> experience.
+    Our vision is that every visitor to IBM.com has a productive, <strong>efficient</strong> and
+    <strong> delightful</strong> experience.
   </p>
 );
 
@@ -71,7 +69,7 @@ const customProps = {
             <Column colLg={11} colMd={7}>
               {LeadSpaceText()}
             </Column>
-            <Column>
+            <Column colLg={11} colMd={7} className={leadspaceImage}>
               <picture>
                 <source
                   media="(min-width: 1056px)"
@@ -85,11 +83,7 @@ const customProps = {
                   media="(min-width: 0px)"
                   srcset={`${LeadSpaceImageMobile}, ${LeadSpaceImageMobile2X} 2x`}
                 />
-                <img
-                  src={LeadSpaceImage}
-                  alt="Get started"
-                  className={leadspaceImage}
-                />
+                <img src={LeadSpaceImage} alt="Get started" />
               </picture>
             </Column>
           </div>
@@ -107,7 +101,7 @@ const customProps = {
         <Column className={callout} colLg={5} colMd={3}>
           <picture>
             <source media="(min-width: 1056px)" srcset={Callout} />
-            <source media="(min-width: 672px)" srcset={CalloutTablet} />
+            <source media="(min-width: 672px)" srcset={Callout} />
             <source media="(min-width: 0px)" srcset={Callout} />
             <img src={Callout} className={calloutImage} alt="Get started" />
           </picture>

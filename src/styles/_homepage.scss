@@ -1,6 +1,12 @@
 .container--homepage {
   background: $ui-01;
   color: $carbon--black-100;
+
+  @include carbon--breakpoint("md") {
+    .bx--grid {
+      padding-left: calc(25% + 1.5rem);
+    }
+  }
 }
 
 // Dots background pattern

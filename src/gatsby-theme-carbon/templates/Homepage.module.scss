@@ -44,6 +44,11 @@
 }
 
 .first-callout {
+  img {
+    width: 100%;
+    margin-right: -2rem;
+  }
+
   .row:first-child {
     padding-bottom: 0;
   }
@@ -64,6 +69,10 @@
 }
 
 .leadspace-image {
-  margin: auto;
-  width: 100%;
+  z-index: 2;
+
+  img {
+    margin: auto;
+    width: 100%;
+  }
 }
