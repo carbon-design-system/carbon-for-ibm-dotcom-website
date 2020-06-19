@@ -11,7 +11,9 @@ import {
   leadspaceText,
   leadspaceImage,
 } from "./Homepage.module.scss";
-import Callout from "../../images/homepage/get-started_illustration.png";
+import Callout from "../../images/homepage/get_started_desktop.png";
+import CalloutTablet from "../../images/homepage/get_started_tablet.png";
+import Callout2X from "../../images/homepage/get_started_desktop2x.png";
 import LeadSpaceImage from "../../images/homepage/banner_hero_image.png";
 import LeadSpaceImageMobile from "../../images/homepage/banner_hero_image_mobile.png";
 import LeadSpaceImageTablet from "../../images/homepage/banner_hero_image_tablet.png";
@@ -101,8 +103,11 @@ const customProps = {
         </Column>
         <Column className={calloutImage} colLg={5} colMd={3}>
           <picture>
-            <source media="(min-width: 1056px)" srcset={Callout} />
-            <source media="(min-width: 672px)" srcset={Callout} />
+            <source
+              media="(min-width: 1056px)"
+              srcset={`${Callout}, ${Callout2X} 2x`}
+            />
+            <source media="(min-width: 672px)" srcset={CalloutTablet} />
             <source media="(min-width: 0px)" srcset={Callout} />
             <img src={Callout} alt="Get started" />
           </picture>
@@ -111,25 +116,6 @@ const customProps = {
           {FirstCalloutLink()}
         </Column>
       </Row>
-      {/* <Row className={row}>
-        <Column className={callout} colLg={7} colMd={5}>
-          <h3>Get Started</h3>
-          {FirstCalloutText()}
-        </Column>
-        <Column className={callout} colLg={5} colMd={3}>
-          <picture>
-            <source media="(min-width: 1056px)" srcset={Callout} />
-            <source media="(min-width: 672px)" srcset={Callout} />
-            <source media="(min-width: 0px)" srcset={Callout} />
-            <img src={Callout} className={calloutImage} alt="Get started" />
-          </picture>
-        </Column>
-      </Row>
-      <Row className={row}>
-        <Column className={callout} colLg={7} colMd={5}>
-          {FirstCalloutLink()}
-        </Column>
-      </Row> */}
     </div>
   ),
   SecondCallout: (

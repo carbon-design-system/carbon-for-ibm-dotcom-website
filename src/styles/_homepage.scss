@@ -2,10 +2,6 @@
   background: $ui-01;
   color: $carbon--black-100;
 
-  a.bx--link:hover {
-    color: $link-01;
-  }
-
   @include carbon--breakpoint("lg") {
     .bx--grid {
       padding-left: calc(25% + 1.5rem);
