@@ -24,7 +24,7 @@ import LeadSpaceImageTablet2X from "../../images/homepage/banner_hero_image_tabl
 const LeadSpaceText = () => (
   <p className={leadspaceText}>
     Our vision is that every visitor to IBM.com has a{" "}
-    <strong>productive</strong>,<strong>efficient</strong> and
+    <strong>productive</strong>, <strong>efficient</strong> and
     <strong> delightful</strong> experience.
   </p>
 );
