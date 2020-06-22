@@ -2,6 +2,10 @@
   background: $ui-01;
   color: $carbon--black-100;
 
+  a.bx--link {
+    color: $interactive-04;
+  }
+
   a.bx--link:hover {
     color: $active-primary;
   }
