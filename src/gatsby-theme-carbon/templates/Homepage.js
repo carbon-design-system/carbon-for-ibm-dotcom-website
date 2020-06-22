@@ -101,7 +101,7 @@ const customProps = {
           <h3>Get Started</h3>
           {FirstCalloutText()}
         </Column>
-        <div className={calloutImage}>
+        <Column className={calloutImage} colLg={5} colMd={3}>
           <picture>
             <source
               media="(min-width: 1056px)"
@@ -111,7 +111,7 @@ const customProps = {
             <source media="(min-width: 0px)" srcset={Callout} />
             <img src={Callout} alt="Get started" />
           </picture>
-        </div>
+        </Column>
         <Column className={callout} colLg={7} colMd={5}>
           {FirstCalloutLink()}
         </Column>
