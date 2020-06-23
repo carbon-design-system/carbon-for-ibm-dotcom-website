@@ -39,7 +39,7 @@ const FirstCalloutText = () => (
 const FirstCalloutLink = () => (
   <a
     className={calloutLink}
-    href="https://www.carbondesignsystem.com/how-to-contribute/overview/"
+    href="https://www.ibm.com/standards/web/ibm-dotcom-library/get-started"
   >
     Start with overview →
   </a>
