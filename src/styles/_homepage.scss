@@ -10,9 +10,13 @@
     color: $active-primary;
   }
 
-  @include carbon--breakpoint("lg") {
-    .bx--grid {
+  .bx--grid {
+    @include carbon--breakpoint("lg") {
       padding-left: calc(25% + 1.5rem);
+    }
+
+    @include carbon--breakpoint("max") {
+      padding-left: 400px;
     }
   }
 }
