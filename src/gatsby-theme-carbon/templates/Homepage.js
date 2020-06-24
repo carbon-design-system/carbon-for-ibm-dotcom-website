@@ -37,10 +37,7 @@ const FirstCalloutText = () => (
 );
 
 const FirstCalloutLink = () => (
-  <a
-    className={calloutLink}
-    href="https://www.ibm.com/standards/web/ibm-dotcom-library/get-started"
-  >
+  <a className={calloutLink} href="/get-started">
     Start with overview →
   </a>
 );
