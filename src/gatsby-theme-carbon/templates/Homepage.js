@@ -30,7 +30,7 @@ const SecondRightText = () => (
     check out our contributing guidelines to get started.
     <a
       className={calloutLink}
-      href="http://ibm-dotcom-library.mybluemix.net/contributions"
+      href="https://www.ibm.com/standards/web/ibm-dotcom-library/contributions"
     >
       Start contributing →
     </a>
