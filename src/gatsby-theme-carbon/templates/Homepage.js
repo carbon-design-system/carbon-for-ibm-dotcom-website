@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Column } from "gatsby-theme-carbon";
+import { Link } from "gatsby";
 import HomepageTemplate from "gatsby-theme-carbon/src/templates/Homepage";
 import {
   grid,
@@ -37,9 +38,9 @@ const FirstCalloutText = () => (
 );
 
 const FirstCalloutLink = () => (
-  <a className={calloutLink} href="/get-started">
+  <Link to="/get-started" className={calloutLink}>
     Start with overview →
-  </a>
+  </Link>
 );
 
 const SecondCalloutText = () => (
@@ -50,9 +51,9 @@ const SecondCalloutText = () => (
       you are interested in contributing, check out our contributing guidelines
       to get started.
     </p>
-    <a className={calloutLink} href="/contributions">
+    <Link to="/contributions" className={calloutLink}>
       Start contributing →
-    </a>
+    </Link>
   </>
 );
 
