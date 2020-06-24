@@ -53,10 +53,7 @@ const SecondCalloutText = () => (
       you are interested in contributing, check out our contributing guidelines
       to get started.
     </p>
-    <a
-      className={calloutLink}
-      href="https://www.ibm.com/standards/web/ibm-dotcom-library/contributions"
-    >
+    <a className={calloutLink} href="/contributions">
       Start contributing →
     </a>
   </>
