@@ -1,13 +1,96 @@
-.callout-link {
-  @include carbon--type-style('body-long-02');
-  margin-top: $spacing-06;
-  display: block;
-}
-
-.banner-image {
+.grid {
   width: 100%;
+  max-width: 100%;
+  position: relative;
+  z-index: 2;
+  background: white;
 }
 
-.banner-picture {
-  display: flex;
+.row {
+  position: relative;
+  padding-top: $layout-04;
+  padding-bottom: $layout-05;
+  max-width: 74.25rem;
+
+  @include carbon--breakpoint("md") {
+    padding-bottom: carbon--mini-units(10);
+  }
+}
+
+.callout h3 {
+  margin-bottom: $spacing-07;
+  @include carbon--type-style(expressive-heading-03, true);
+}
+
+.callout p {
+  @include carbon--type-style(expressive-paragraph-01, true);
+  margin-bottom: $spacing-07;
+}
+
+.callout-image {
+  width: 100%;
+
+  img {
+    margin: auto;
+  }
+
+  @include carbon--breakpoint("md") {
+    margin-right: -$layout-03;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    picture {
+      align-self: center;
+      width: 100%;
+    }
+
+    img {
+      margin-right: 0;
+    }
+  }
+
+  @include carbon--breakpoint-down("md") {
+    margin-bottom: $spacing-07;
+  }
+}
+
+.callout-link {
+  text-decoration: none;
+  color: $interactive-04;
+  @include carbon--type-style(body-short-02);
+
+  &:hover {
+    text-decoration: underline;
+    color: $active-primary;
+  }
+}
+
+.first-callout {
+  @include carbon--breakpoint("md") {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.leadspace-text {
+  margin-top: $layout-04;
+  margin-bottom: $layout-05;
+  @include carbon--type-style("expressive-heading-05", true);
+
+  @include carbon--breakpoint-down("md") {
+    weight: 300;
+  }
+}
+
+.leadspace-image {
+  z-index: 2;
+
+  img {
+    margin: auto;
+    width: 100%;
+  }
 }

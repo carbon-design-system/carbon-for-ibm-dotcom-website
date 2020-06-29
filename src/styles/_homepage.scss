@@ -1,10 +1,33 @@
+.container--homepage {
+  background: $ui-01;
+  color: $carbon--black-100;
+
+  a.bx--link {
+    color: $interactive-04;
+  }
+
+  a.bx--link:hover {
+    color: $active-primary;
+  }
+
+  .bx--grid {
+    @include carbon--breakpoint("lg") {
+      padding-left: calc(25% + 1.5rem);
+    }
+
+    @include carbon--breakpoint("max") {
+      padding-left: 400px;
+    }
+  }
+}
+
 // Dots background pattern
 .homepage--dots {
   position: fixed;
   z-index: 1;
   width: 100%;
   height: 100%;
-  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 16 16' style='enable-background:new 0 0 16 16;' xml:space='preserve'%3e%3crect width='16' fill='none' height='16'/%3e%3crect x='0' y='0' fill='white' width='1' height='1'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 16 16' style='enable-background:new 0 0 16 16;' xml:space='preserve'%3e%3crect width='16' fill='none' height='16'/%3e%3crect x='0' y='0' fill='black' width='1' height='1'/%3e%3c/svg%3e");
   background-size: 16px;
   opacity: 0.35;
 }
@@ -15,72 +38,4 @@
 .container--homepage div[class*="NextPrevious-module--wrapper"] {
   position: relative;
   z-index: 2;
-}
-
-.homepage--header {
-  height: 0;
-  overflow: hidden;
-  padding-top: 100%;
-  position: relative;
-
-  @include carbon--breakpoint("md") {
-    padding-top: 50%;
-  }
-
-  // Match max height at lg breakpoint
-  @include carbon--breakpoint("lg") {
-    padding: 0;
-    height: 560px;
-  }
-
-  img {
-    margin-top: -50%;
-
-    @include carbon--breakpoint("md") {
-      margin-top: -25%;
-    }
-  }
-
-  // hides dot bg. remove class from
-  // .homepage--header to show dots
-  &.homepage--hearder__no-dots {
-    z-index: 2;
-  }
-}
-
-.homepage--header .bx--grid,
-.homepage--header .bx--row {
-  height: 100%;
-}
-
-// homepage tile at top
-.homepage--tile-header {
-  display: flex;
-  align-items: flex-end;
-  margin-top: -50%;
-  padding-left: 0;
-  padding-right: 0;
-
-  @include carbon--breakpoint("md") {
-    padding-left: $spacing-05;
-    padding-right: $spacing-05;
-  }
-
-  @include carbon--breakpoint("lg") {
-    margin-top: 0;
-  }
-}
-
-.homepage--tile-header .bx--resource-card {
-  width: 100%;
-}
-
-.homepage--leadspace--overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: $carbon--black-100;
-  opacity: 0.6;
 }
