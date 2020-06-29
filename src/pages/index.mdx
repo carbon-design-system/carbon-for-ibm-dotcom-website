@@ -3,40 +3,6 @@ import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 
 export default HomepageTemplate;
 
-### Getting Started
-
-<FeatureCard
-  subTitle="Start"
-  title="Designing"
-  actionIcon="arrowRight"
-  href="/get-started/designing"
-  color="dark"
->
-<ArtDirection>
-
-![Get started for designers](../images/homepage/designing_mobile.png)
-![Get started for designers](../images/homepage/designing_tablet.png)
-![Get started for designers](../images/homepage/designing_desktop.png)
-
-</ArtDirection>
-</FeatureCard>
-
-<FeatureCard
-  subTitle="Start"
-  title="Coding"
-  actionIcon="arrowRight"
-  href="/get-started/coding"
-  color="dark"
->
-<ArtDirection>
-
-![Get started for developers](../images/homepage/coding_mobile.jpg)
-![Get started for designers](../images/homepage/coding_tablet.jpg)
-![Get started for developers](../images/homepage/coding_desktop.jpg)
-
-</ArtDirection>
-</FeatureCard>
-
 ### Other resources
 
 The component libraries give developers a collection of reusable components for
@@ -46,10 +12,9 @@ building websites and user interfaces. See a
 <Row className="resource-card-group">
   <Column colMd={4} colLg={4} noGutterSm>
     <ResourceCard
-      color="dark"
       subTitle="Sketch Theme libraries"
       actionIcon="arrowRight"
-      href="/resources#theme-libraries"
+      href="/resources#carbon"
       >
 
 ![Sketch](./../images/icon/sketch-symbol.svg)
@@ -58,23 +23,23 @@ building websites and user interfaces. See a
   </Column>
   <Column colMd={4} colLg={4} noGutterSm>
    <ResourceCard
-       color="dark"
        subTitle="IBM.com Library Components Repo"
+       target="_blank"
        href="https://github.com/carbon-design-system/ibm-dotcom-library"
        >
 
-![Github icon](./../images/icon/github-inverse-icon.svg)
+![Github icon](./../images/icon/github-icon.svg)
 
 </ResourceCard>
   </Column>
 <Column colLg={4} colMd={4} noGutterSm>
   <ResourceCard
-    color="dark"
-    subTitle="IBM.com Library Components React Storybook"
-    href="https://ibmdotcom-react.mybluemix.net/?path=/story/overview--get-started"
+    subTitle="IBM.com Library Pattern React Storybook"
+    target="_blank"
+    href="https://ibmdotcom-react.mybluemix.net/?path=/story/overview-get-started--default"
     >
 
-![React icon](../images/icon/react-blue-icon.svg)
+![React icon](../images/icon/react-icon.svg)
 
   </ResourceCard>
 </Column>
@@ -82,39 +47,49 @@ building websites and user interfaces. See a
 
 ### Latest updates
 
-<Row>
-<Column colMd={4} colLg={4} noGutterMdLeft>
-<ArticleCard
-  title="Roadmap"
-  author="Last updated"
-  date="December 20, 2019"
-  href="https://github.com/carbon-design-system/ibm-dotcom-library/wiki/Roadmap"
-  color="dark"
->
+<Row className="resource-card-group feature-card-group">
+<Column colMd={4} colLg={4} noGutterSm>
+<ResourceCard
+    subTitle="View"
+    title="Roadmap"
+    actionIcon="launch"
+    aspectRatio="1:1"
+    target="_blank"
+    href="https://github.com/carbon-design-system/ibm-dotcom-library/wiki/Roadmap"
+    >
 
-![Roadmap](../images/homepage/roadmap.jpg)
-</ArticleCard>
+![Automobile Pictogram](../images/icon/automobile.svg)
+
+  </ResourceCard>
 </Column>
-<Column colMd={4} colLg={4} noGutterMdLeft>
-<ArticleCard
-  title="Release schedule"
-  date="IBM.com Library"
-  href="https://github.com/carbon-design-system/ibm-dotcom-library/issues"
-  color="dark"
->
 
-![Release Schedule](../images/homepage/release_schedule.jpg)
-</ArticleCard>
+<Column colMd={4} colLg={4} noGutterSm>
+<ResourceCard
+    subTitle="View"
+    title="Release schedule"
+    actionIcon="launch"
+    aspectRatio="1:1"
+    target="_blank"
+    href="https://github.com/carbon-design-system/ibm-dotcom-library/issues"
+    >
+
+![Calendar Pictogram](../images/icon/calendar.svg)
+
+  </ResourceCard>
 </Column>
-<Column colMd={4} colLg={4} noGutterMdLeft>
-<ArticleCard
-  title="Slack channel"
-  date="#ibm-digital-design"
-  href="https://cognitive-app.slack.com/archives/C2PLX8GQ6"
-  color="dark"
->
 
-![Slack](../images/homepage/slack.jpg)
-</ArticleCard>
+<Column colMd={4} colLg={4} noGutterSm>
+<ResourceCard
+    subTitle="Join"
+    title="Slack community"
+    actionIcon="launch"
+    aspectRatio="1:1"
+    target="_blank"
+    href="https://cognitive-app.slack.com/archives/C2PLX8GQ6"
+    >
+
+![Slack Pictogram](../images/icon/slack_pictogram.svg)
+
+  </ResourceCard>
 </Column>
 </Row>
