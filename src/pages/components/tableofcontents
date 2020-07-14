@@ -1,0 +1,40 @@
+---
+title: Table of contents
+description: Component guideline page for Table of contents.
+---
+
+<PageDescription>
+
+The table of contents component allows users to quickly navigate through long pages by providing jump links to different sections of the content within a single page.
+
+</PageDescription>
+
+<AnchorLinks>
+
+<AnchorLink>Table of contents</AnchorLink>
+<AnchorLink>Development documentation</AnchorLink>
+<AnchorLink>Specification documentation</AnchorLink>
+<AnchorLink>Feedback</AnchorLink>
+
+</AnchorLinks>
+
+## Table of contents
+Table of contents...
+
+![Image of Table of contents component](../../images/component/Cardgroup/)
+
+
+## Development documentation
+
+| Language      | Status        | Sandbox                                                                              |
+| ------------- | -----------   | ------------------------------------------------------------------------             |
+| React         | <div><span class="bx--tag bx--tag--green"><pre>Stable</pre></span></div>        | [View storybook](https://ibmdotcom-react.mybluemix.net/?path=/story/components-table-of-contents--manually-define-menu-items)     |
+| Vanilla       | <div><span class="bx--tag bx--tag--cool-gray"><pre>Under construction</pre></span></div>  |
+
+## Specification documentation
+
+Structure and spacing measurements for Table of contents can be viewed [here]().
+
+## Feedback
+
+Help us improve this component by providing feedback, asking questions, and leaving any other comments on [GitHub]().
