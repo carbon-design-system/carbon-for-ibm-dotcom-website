@@ -1,0 +1,40 @@
+---
+title: Link with icon
+description: Component guideline page for Link with icon.
+---
+
+<PageDescription>
+
+The link with icon component is primarily used as a navigational element with an icon as an indicator to the destination or type of content being referenced. Link with icon should not be used within a paragraph.
+
+</PageDescription>
+
+<AnchorLinks>
+
+<AnchorLink>Link with icon</AnchorLink>
+<AnchorLink>Development documentation</AnchorLink>
+<AnchorLink>Specification documentation</AnchorLink>
+<AnchorLink>Feedback</AnchorLink>
+
+</AnchorLinks>
+
+## Link with icon
+Link with icon...
+
+![Image of Link with icon component](../../images/component/Cardgroup/)
+
+
+## Development documentation
+
+| Language      | Status        | Sandbox                                                                              |
+| ------------- | -----------   | ------------------------------------------------------------------------             |
+| React         | <div><span class="bx--tag bx--tag--green"><pre>Stable</pre></span></div>        | [View storybook](https://ibmdotcom-react.mybluemix.net/?path=/story/components-link-with-icon--default)     |
+| Vanilla       | <div><span class="bx--tag bx--tag--cool-gray"><pre>Under construction</pre></span></div>  |
+
+## Specification documentation
+
+Structure and spacing measurements for Link with icon can be viewed [here]().
+
+## Feedback
+
+Help us improve this component by providing feedback, asking questions, and leaving any other comments on [GitHub]().
