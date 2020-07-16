@@ -10,8 +10,8 @@
   pages:
     - title: Overview
       path: /guidelines
-    - title: Expressive Theme
-      path: /guidelines/expressive-theme
+    # - title: Expressive Theme
+    #   path: /guidelines/expressive-theme
 #    - title: Color
 #      path: /guidelines/color
 #    - title: Grid
@@ -36,20 +36,20 @@
   pages:
     - title: Overview
       path: /components
-#    - title: Button
-#      path: /components/button
-#    - title: Checkbox
-#      path: /components/checkbox
-#    - title: Dropdown
-#      path: /components/dropdown
+    #    - title: Button
+    #      path: /components/button
+    #    - title: Checkbox
+    #      path: /components/checkbox
+    #    - title: Dropdown
+    #      path: /components/dropdown
     - title: Footer
       path: /components/footer
-#    - title: Link
-#      path: /components/link
-#    - title: List
-#      path: /components/list
-#    - title: Locale selector
-#      path: /components/locale-selector
+    #    - title: Link
+    #      path: /components/link
+    #    - title: List
+    #      path: /components/list
+    #    - title: Locale selector
+    #      path: /components/locale-selector
     - title: Masthead
       path: /components/masthead
 #    - title: Modal
@@ -74,8 +74,8 @@
   pages:
     - title: Overview
       path: /patterns
-#    - title: Content array
-#      path: /patterns/content-array
+    #    - title: Content array
+    #      path: /patterns/content-array
     - title: Lead space
       path: /patterns/leadspace
 #    - title: Simple long form
