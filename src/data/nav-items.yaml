@@ -10,8 +10,8 @@
   pages:
     - title: Overview
       path: /guidelines
-    # - title: Expressive Theme
-    #   path: /guidelines/expressive-theme
+    - title: Expressive Theme
+      path: /guidelines/expressive-theme
 #    - title: Color
 #      path: /guidelines/color
 #    - title: Grid
