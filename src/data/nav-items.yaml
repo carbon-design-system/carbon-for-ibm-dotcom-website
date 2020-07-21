@@ -74,6 +74,8 @@
   pages:
     - title: Overview
       path: /patterns
+      - title: Content group cards
+      path: /patterns/Content-group-cards
     #    - title: Content array
     #      path: /patterns/content-array
     - title: Lead space
