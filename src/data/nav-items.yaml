@@ -74,7 +74,7 @@
   pages:
     - title: Overview
       path: /patterns
-      - title: Content group cards
+    - title: Content group cards
       path: /patterns/contentgroupcards
     #    - title: Content array
     #      path: /patterns/content-array
