@@ -1,98 +1,107 @@
 ---
 title: Expressive Theme
-description: Carbon was originally built to handle dense information in product experiences. The Expressive Theme is designed for experiences geared towards reading, watching, and learning.
+description: The Expressive Theme is a flavor of Carbon for IBM.com and web experiences, optimized for the reading and learning experiences, among the most common in web experiences. 
 ---
 
 <PageDescription>
 
-Carbon was originally built to handle dense information in product experiences. 
-
-The Expressive Theme is designed for experiences geared towards reading, watching, and learning.
+The Expressive Theme is a flavor of Carbon for IBM.com and web experiences, optimized for the reading and learning experiences, among the most common in web experiences. 
 
 </PageDescription>
 
 
 <AnchorLinks>
 
-<AnchorLink>IBM.com Journey</AnchorLink>
-<AnchorLink>Productive vs. Expressive moments</AnchorLink>
+<AnchorLink>Expressive Theme fundamentals</AnchorLink>
 <AnchorLink>Expressive Theme and the IBM.com Library</AnchorLink>
 <AnchorLink>Resources</AnchorLink>
 
 </AnchorLinks>
 
-## IBM.com Journey
-Throughout a user's journey through IBM.com, there are moments of productivity, as well as marketing and editorial. 
-These moments tend to blend back and forth across various touch points.
+## Expressive Theme fundamentalss
+Carbon was originally designed and developed for product centric experiences where the ability to display dense information and content types, which led to a type scale and components that are smaller than industry average. Based on research, the Expressive Theme was designed and built with the optimal type scale for reading experiences on IBM.com with the base type size of 16 pixels (12 points), and larger components to accommodate the larger type scale.
 
-![IBM Experience user journey across marketing & product touch points](../../images/guidelines/expressive-theme/journey-system.jpg) 
 
-Carbon is equipped to provide a productive experience. The Expressive Theme overlays existing Carbon, and bridges the
-gap in order to provide those expressive moments.
+### Type scale
 
-## Research
+As opposed to Carbon Design System's original base type size of 14px, the Expressive Theme uses 16px as the base size and built the scale around it.
 
 <Row>
-<Column colMd={6} colLg={6}>
-Based on research, the minimum type size for reading is 16px. Especially for heavy reading, any size less could cause 
-eye strain. In addition to reading, considerations should be made for accessibility. Accessibility is not just about 
-color contrast and color blindness. It's also about age, vision, cognitive abilities.
+<Column colMd={8} colLg={8}>
 
-### Further Reading
-
-- <a href="https://www.imarc.com/blog/best-font-size-for-any-device" target="_blank">What’s the best font size for the web?</a>
-- <a href="https://www.smashingmagazine.com/2011/10/16-pixels-body-copy-anything-less-costly-mistake/" target="_blank">16 Pixels Font Size: For Body Copy. Anything Less Is A Costly Mistake</a>
-- <a href="https://learnui.design/blog/mobile-desktop-website-font-size-guidelines.html" target="_blank">The Responsive Website Font Size Guidelines</a>
-- <a href="https://health.gov/healthliteracyonline/display/section-3-3/" target="_blank">Health.gov: Use a readable font that’s at least 16 pixels</a>
-- <a href="https://www.fonts.com/content/learning/fyti/situational-typography/designing-for-seniors" target="_blank">Designing for seniors</a>
-- <a href="https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide" target="_blank">Dyslexia friendly style guide</a>    
-     
-</Column>
-<Column colMd={6} colLg={6}>
-
-![Optimal reading for marketing and editorial moments](../../images/guidelines/expressive-theme/optimal-size.jpg)
+![Base type size change](../../images/guidelines/expressive-theme/type-size.png)
 
 </Column>
 </Row>
 
-## Productive vs. Expressive moments
 
-### Reading / Learning
+<Title>Type token changes</Title>
+
+The base type size is increasing from 14px to 16px. Details on the token updates are coming soon.
+
+<!--
+| Type token | Productive scale | Expressive scale |
+|:---|:---|:---|
+|`$code-01`|12px / 16px|14px / 20px|
+|`$code-02`|14px / 20px|16px / 24px|
+|`$label-01`|12px / 16px|14px / 18px|
+|`$caption-01`|12px / 16px|14px / 18px|
+|`$helper-text-01`|12px / 16px|14px / 18px|
+|`$body-short-01`|14px / 18px|16px / 22px|
+|`$body-short-02`|14px / 20px|16px / 24px|
+-->
+
+### Icons
+
+To accommodate the increased type size, the standard 16px by 16px icon size for Carbon's 14px base type is increased to 20px by 20px for the 16px base type in the Expressive Theme.
+
 <Row>
-<Column colMd={6} colLg={6}>
+<Column colMd={8} colLg={8}>
 
-**Productive theme (original Carbon)**
-
-![Reading - Productive](../../images/guidelines/expressive-theme/reading-productive.jpg)
-
-</Column>
-<Column colMd={6} colLg={6}>
-
-**Expressive Theme**
-
-![Reading - Expressive](../../images/guidelines/expressive-theme/reading-expressive.jpg)
+![Icon size change](../../images/guidelines/expressive-theme/icon-size.png)
 
 </Column>
 </Row>
 
-### Forms
+
+<Title>Icon token changes</Title>
+
+| Icon token | Productive scale | Expressive scale |
+|:---|:---|:---|
+|`$icon-01`|16px|20px|
+|`$icon-02`|20px|20px|
+
+
+### Containers
+
+Container sizes were increased systematically to accommodate the larger type sizes. The default container size for most components increased from 40px to 48px.
 
 <Row>
-<Column colMd={6} colLg={6}>
+<Column colMd={8} colLg={8}>
 
-**Productive theme (original Carbon)**
-
-![Reading - Productive](../../images/guidelines/expressive-theme/forms-productive.jpg)
-
-</Column>
-<Column colMd={6} colLg={6}>
-
-**Expressive Theme**
-
-![Reading - Expressive](../../images/guidelines/expressive-theme/forms-expressive.jpg)
+![Container size change](../../images/guidelines/expressive-theme/container-size.png)
 
 </Column>
 </Row>
+
+<Row>
+<Column colMd={8} colLg={8}>
+
+![Component change examples](../../images/guidelines/expressive-theme/component-examples.png)
+
+</Column>
+</Row>
+
+<Title>Container token changes</Title>
+
+| Container token | Productive scale | Expressive scale |
+|:---|:---|:---|
+|`$container-01`|24px|32px|
+|`$container-02`|32px|40px|
+|`$container-03`|40px|48px|
+|`$container-04`|48px|48px|
+|`$container-05`|64px|72px|
+
 
 ## Expressive Theme and the IBM.com Library
 
@@ -118,10 +127,14 @@ https://carbon-expressive.mybluemix.net.
 </Column>
 <Column colMd={4} colLg={4} noGutterSm>
     <ResourceCard
-      subTitle="Designing: Get Started"
+      disabled
+      subTitle="Design kit (coming soon)"
       actionIcon="arrowRight"
-      href="/get-started/designing"
+      href="#"
     >
-    </ResourceCard>
+
+![React icon](../../images/icon/sketch-symbol.svg)
+
+</ResourceCard>
 </Column>
 </Row>
