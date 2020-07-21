@@ -23,7 +23,7 @@ This pattern is suitable for adding concise buckets of content and links to a lo
 ## Default
 The content group cards pattern includes a section heading, body copy, and any number of card components listed below. This pattern can be used multiple times within a content block. 
 
-![Image of content group cards](../../images/pattern/content-group-cards.jpg)
+![Image of content group cards](../../images/pattern/content-group-cards/content-group-cards.jpg)
 
 
 ## Development documentation
