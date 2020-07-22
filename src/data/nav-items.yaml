@@ -78,8 +78,6 @@
       path: /patterns/contentgroupcards
     #    - title: Content array
     #      path: /patterns/content-array
-    - title: Lead space
-      path: /patterns/leadspace
 #    - title: Simple long form
 #      path: /patterns/simple-long-form
 #    - title: Use cases
