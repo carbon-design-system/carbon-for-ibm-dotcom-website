@@ -92,8 +92,14 @@
 #      path: /patterns/registration
 #    - title: Cards
 #      path: /patterns/cards
+    - title: Card section
+      path: /patterns/card-section
 #    - title: Case study
 #      path: /patterns/case-study
+    - title: Feature card block
+      path: /patterns/feature-card-block
+    - title: Lead space
+      path: /patterns/leadspace
 - title: Contributions
   pages:
     - path: /contributions
