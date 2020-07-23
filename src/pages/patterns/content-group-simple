@@ -1,0 +1,40 @@
+---
+title: Call out quote
+description: The content group simple pattern is an alternative form of a narrative pattern where the content is broken up into smaller pieces to make it more digestible.
+---
+
+<PageDescription>
+
+The content group simple pattern is an alternative form of a narrative pattern where the content is broken up into smaller pieces to make it more digestible.
+
+</PageDescription>
+
+<AnchorLinks>
+
+<AnchorLink>Default</AnchorLink>
+<AnchorLink>Development documentation</AnchorLink>
+<AnchorLink>Specification documentation</AnchorLink>
+<AnchorLink>Feedback</AnchorLink>
+
+</AnchorLinks>
+
+## Default
+The content group simple pattern is ideal for grouping content within sections with smaller headlines. It includes an optional introductory paragraph, CTA, and media (image or video). 
+
+![Default](../../images/pattern/content-group-simple/default.jpg)
+
+
+## Development documentation
+
+| Language      | Status        | Sandbox                                                                              |
+| ------------- | -----------   | ------------------------------------------------------------------------             |
+| React         | <div><span class="bx--tag bx--tag--green"><pre>Stable</pre></span></div>        | [View storybook](https://ibmdotcom-react.mybluemix.net/?path=/story/patterns-blocks-contentgroupsimple--default)     |
+| Vanilla       | <div><span class="bx--tag bx--tag--cool-gray"><pre>Under construction</pre></span></div>  |
+
+## Specification documentation
+
+Structure and spacing measurements for the "Content group simple" pattern can be viewed [here](https://ibm.box.com/s/einladcnn9zrfbmd0asuoywppr9zx7j9).
+
+## Feedback
+
+Help us improve this component by providing feedback, asking questions, and leaving any other comments on [GitHub](https://github.com/carbon-design-system/ibm-dotcom-library).
