@@ -74,8 +74,10 @@
   pages:
     - title: Overview
       path: /patterns
-#    - title: Content array
-#      path: /patterns/content-array
+    - title: Content group cards
+      path: /patterns/contentgroupcards
+    #    - title: Content array
+    #      path: /patterns/content-array
 #    - title: Simple long form
 #      path: /patterns/simple-long-form
 #    - title: Use cases
@@ -90,8 +92,12 @@
 #      path: /patterns/cards
     - title: Card section
       path: /patterns/card-section
+    - title: Callout quote
+      path: /patterns/callout-quote
 #    - title: Case study
 #      path: /patterns/case-study
+    - title: Content group pictograms
+      path: /patterns/content-group-pictograms
     - title: Feature card block
       path: /patterns/feature-card-block
     - title: Lead space
