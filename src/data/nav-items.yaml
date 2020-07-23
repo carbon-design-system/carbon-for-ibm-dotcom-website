@@ -76,7 +76,7 @@
       path: /patterns
     - title: Content group cards
       path: /patterns/contentgroupcards
-     - title: Content group simple
+    - title: Content group simple
       path: /patterns/content-group-simple   
 #    - title: Simple long form
 #      path: /patterns/simple-long-form
