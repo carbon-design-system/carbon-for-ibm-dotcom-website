@@ -74,6 +74,8 @@
   pages:
     - title: Overview
       path: /patterns
+    - title: Content block simple
+      path: /patterns/content-block-simple
     - title: Content group cards
       path: /patterns/contentgroupcards
     #    - title: Content array
