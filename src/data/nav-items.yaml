@@ -73,7 +73,7 @@
 - title: Layout patterns
   pages:
     - title: Overview
-      path: /patterns
+      path: /patterns/overview
     - title: Content block simple
       path: /patterns/content-block-simple
     - title: Content group cards
