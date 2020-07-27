@@ -74,12 +74,12 @@
   pages:
     - title: Overview
       path: /patterns
-    - title: Callout – quote
-      path: /patterns/callout-quote
+#    - title: Callout – quote
+#      path: /patterns/callout-quote
 #    - title: Callout – with media
 #      path: /patterns/callout-with-media 
-    - title: Card section
-      path: /patterns/card-section
+#    - title: Card section
+#      path: /patterns/card-section
 #    - title: Content block – cards
 #      path: /patterns/content-block-cards      
 #    - title: Content block – with media
@@ -88,16 +88,16 @@
 #      path: /patterns/content-block-with-mixed   
 #    - title: Content block – with segmented
 #      path: /patterns/content-block-with-segmented 
-    - title: Content block – simple
-      path: /patterns/content-block-simple     
-    - title: Content group – with cards
-      path: /patterns/contentgroupcards
-    - title: Content group – with pictograms
-      path: /patterns/content-group-pictograms      
-    - title: Content group – simple
-      path: /patterns/content-group-simple
-    - title: Feature card block
-      path: /patterns/feature-card-block
+#    - title: Content block – simple
+#      path: /patterns/content-block-simple     
+#    - title: Content group – with cards
+#      path: /patterns/contentgroupcards
+#    - title: Content group – with pictograms
+#      path: /patterns/content-group-pictograms      
+#   - title: Content group – simple
+#      path: /patterns/content-group-simple
+#    - title: Feature card block
+#      path: /patterns/feature-card-block
     - title: Lead space
       path: /patterns/leadspace
 #    - title: Lead space – block
