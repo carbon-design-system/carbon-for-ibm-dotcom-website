@@ -92,19 +92,22 @@
       path: /patterns/content-block-simple     
     - title: Content group – with cards
       path: /patterns/contentgroupcards
+    - title: Content group – horizontal
+      path: /patterns/content-group-horizontal 
     - title: Content group – with pictograms
       path: /patterns/content-group-pictograms      
     - title: Content group – simple
       path: /patterns/content-group-simple
+    - title: CTA section
+      path: /patterns/cta-section
     - title: Feature card block
       path: /patterns/feature-card-block
     - title: Lead space
       path: /patterns/leadspace
 #    - title: Lead space – block
 #      path: /patterns/leadspace-block    
-#    - title: Logo grid – rich
-#      path: /patterns/logo-grid-rich 
-    
+    - title: Logo grid – rich
+      path: /patterns/logo-grid-rich     
 - title: Contributions
   pages:
     - path: /contributions
