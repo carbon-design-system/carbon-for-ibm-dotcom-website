@@ -105,9 +105,9 @@
     - title: Lead space
       path: /patterns/leadspace
     - title: Lead space – block
-      path: /patterns/lead-space-block    
-#    - title: Logo grid – rich
-#      path: /patterns/logo-grid-rich   
+      path: /patterns/leadspace-block    
+    - title: Logo grid
+      path: /patterns/logo-grid-rich     
 - title: Contributions
   pages:
     - path: /contributions
