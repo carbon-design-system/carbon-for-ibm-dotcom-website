@@ -100,8 +100,8 @@
       path: /patterns/feature-card-block
     - title: Lead space
       path: /patterns/leadspace
-#    - title: Lead space – block
-#      path: /patterns/leadspace-block    
+    - title: Lead space – block
+      path: /patterns/lead-space-block    
 #    - title: Logo grid – rich
 #      path: /patterns/logo-grid-rich 
     
