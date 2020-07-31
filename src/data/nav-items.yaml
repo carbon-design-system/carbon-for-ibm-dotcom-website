@@ -76,8 +76,8 @@
       path: /patterns
     - title: Callout – quote
       path: /patterns/callout-quote
-#    - title: Callout – with media
-#      path: /patterns/callout-with-media 
+    - title: Callout – with media
+      path: /patterns/callout-with-media 
     - title: Card section
       path: /patterns/card-section
 #    - title: Content block – cards
