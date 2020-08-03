@@ -80,10 +80,10 @@
       path: /patterns/callout-with-media 
     - title: Card section
       path: /patterns/card-section
-#    - title: Content block – cards
-#      path: /patterns/content-block-cards      
-#    - title: Content block – with media
-#      path: /patterns/content-block-with-media    
+    - title: Content block – with cards
+      path: /patterns/content-block-cards      
+    - title: Content block – with media
+      path: /patterns/content-block-media    
 #    - title: Content block – with mixed
 #      path: /patterns/content-block-with-mixed   
 #    - title: Content block – with segmented
