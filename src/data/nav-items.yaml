@@ -86,7 +86,7 @@
       path: /patterns/content-block-media    
 #    - title: Content block – with mixed
 #      path: /patterns/content-block-with-mixed   
-    - title: Content block – with segmented
+    - title: Content block – segmented
       path: /patterns/content-block-segmented 
     - title: Content block – simple
       path: /patterns/content-block-simple     
