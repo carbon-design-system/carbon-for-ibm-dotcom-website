@@ -1,12 +1,43 @@
 import React from 'react';
-import { FourOhFour } from 'gatsby-theme-carbon';
+import { Link } from 'gatsby';
+import Layout from 'gatsby-theme-carbon/src/components/Layout';
+import {
+  container,
+  fourOhFour,
+  paragraph,
+  heading,
+  link,
+  list,
+} from 'gatsby-theme-carbon/src/components/FourOhFour/FourOhFour.module.scss';
 
 const links = [
-  { href: '/components/markdown', text: 'Markdown' },
-  { href: '/components/Aside', text: 'Aside' },
-  { href: '/components/demo', text: 'Demo' },
+  { href: '/help', text: 'Help' },
+  { href: 'https://ibm-studios.slack.com/archives/C2PLX8GQ6', text: '#ibm-digital-design' },
+  { href: 'https://www.github.com/carbon-design-system/ibm-dotcom-library', text: 'Github Repo' },
 ];
 
-const Custom404 = () => <FourOhFour links={links} />;
+const FourOhFourCustom = () => (
+  <Layout homepage>
+    <div className={`container--dark ${container}`}>
+      <h2 className={heading}>Something’s gone wrong...</h2>
+      <p className={paragraph}>
+        Sorry, we can’t find the page you are looking for.
+        {links && ' Maybe some of these most visited links will help you?'}
+      </p>
+      {links && (
+        <ul className={list}>
+          {links.map(({ href, text }, i) => (
+            <li key={i}>
+              <Link className={link} to={href}>
+                {text}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      )}
+      <span className={fourOhFour}>404</span>
+    </div>
+  </Layout>
+);
 
-export default Custom404;
+export default FourOhFourCustom;
