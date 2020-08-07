@@ -81,7 +81,7 @@
     - title: Card section
       path: /patterns/card-section
     - title: Content block – with cards
-      path: /patterns/content-block-cards      
+      path: /patterns/content-block-with-cards      
     - title: Content block – with media
       path: /patterns/content-block-media    
 #    - title: Content block – with mixed
@@ -91,7 +91,7 @@
     - title: Content block – simple
       path: /patterns/content-block-simple     
     - title: Content group – with cards
-      path: /patterns/contentgroupcards
+      path: /patterns/content-group-with-cards
     - title: Content group – horizontal
       path: /patterns/content-group-horizontal 
     - title: Content group – with pictograms
