@@ -76,35 +76,38 @@
       path: /patterns
     - title: Callout – quote
       path: /patterns/callout-quote
-#    - title: Callout – with media
-#      path: /patterns/callout-with-media 
+    - title: Callout – with media
+      path: /patterns/callout-with-media 
     - title: Card section
       path: /patterns/card-section
-#    - title: Content block – cards
-#      path: /patterns/content-block-cards      
-#    - title: Content block – with media
-#      path: /patterns/content-block-with-media    
+    - title: Content block – with cards
+      path: /patterns/content-block-cards      
+    - title: Content block – with media
+      path: /patterns/content-block-media    
 #    - title: Content block – with mixed
 #      path: /patterns/content-block-with-mixed   
-#    - title: Content block – with segmented
-#      path: /patterns/content-block-with-segmented 
+    - title: Content block – segmented
+      path: /patterns/content-block-segmented 
     - title: Content block – simple
       path: /patterns/content-block-simple     
     - title: Content group – with cards
       path: /patterns/contentgroupcards
+    - title: Content group – horizontal
+      path: /patterns/content-group-horizontal 
     - title: Content group – with pictograms
       path: /patterns/content-group-pictograms      
     - title: Content group – simple
       path: /patterns/content-group-simple
+    - title: CTA section
+      path: /patterns/cta-section
     - title: Feature card block
       path: /patterns/feature-card-block
     - title: Lead space
       path: /patterns/leadspace
-#    - title: Lead space – block
-#      path: /patterns/leadspace-block    
-#    - title: Logo grid – rich
-#      path: /patterns/logo-grid-rich 
-    
+    - title: Lead space – block
+      path: /patterns/lead-space-block    
+    - title: Logo grid
+      path: /patterns/logo-grid    
 - title: Contributions
   pages:
     - path: /contributions
