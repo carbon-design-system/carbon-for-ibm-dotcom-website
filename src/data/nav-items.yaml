@@ -70,6 +70,8 @@
 #      path: /components/text-input
 #    - title: tooltips
 #      path: /components/tooltips
+    - title: Table of contents
+      path: /components/table-of-contents
 - title: Layout patterns
   pages:
     - title: Overview
