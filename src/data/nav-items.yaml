@@ -42,6 +42,8 @@
     #      path: /components/checkbox
     #    - title: Dropdown
     #      path: /components/dropdown
+    - title: Masthead
+      path: /components/masthead
     - title: Footer
       path: /components/footer
     #    - title: Link
@@ -50,8 +52,6 @@
     #      path: /components/list
     #    - title: Locale selector
     #      path: /components/locale-selector
-    - title: Masthead
-      path: /components/masthead
 #    - title: Modal
 #      path: /components/modal
 #    - title: Number picker
