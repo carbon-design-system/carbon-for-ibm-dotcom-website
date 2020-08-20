@@ -46,8 +46,8 @@
       path: /components/footer
     - title: Link list
       path: /components/link-list
-    #    - title: Link
-    #      path: /components/link
+    - title: Locale modal
+      path: /components/localemodal
     #    - title: Locale selector
     #      path: /components/locale-selector
     - title: Masthead
