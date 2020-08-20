@@ -44,10 +44,10 @@
     #      path: /components/dropdown
     - title: Footer
       path: /components/footer
+    - title: Link list
+      path: /components/link-list
     #    - title: Link
     #      path: /components/link
-    #    - title: List
-    #      path: /components/list
     #    - title: Locale selector
     #      path: /components/locale-selector
     - title: Masthead
