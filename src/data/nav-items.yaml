@@ -44,10 +44,10 @@
     #      path: /components/dropdown
     - title: Footer
       path: /components/footer
+    - title: Link list
+      path: /components/link-list
     #    - title: Link
     #      path: /components/link
-    #    - title: List
-    #      path: /components/list
     #    - title: Locale selector
     #      path: /components/locale-selector
     - title: Masthead
@@ -70,6 +70,8 @@
 #      path: /components/text-input
 #    - title: tooltips
 #      path: /components/tooltips
+    - title: Table of contents
+      path: /components/table-of-contents
 - title: Layout patterns
   pages:
     - title: Overview
@@ -81,7 +83,7 @@
     - title: Card section
       path: /patterns/card-section
     - title: Content block – with cards
-      path: /patterns/content-block-cards      
+      path: /patterns/content-block-with-cards      
     - title: Content block – with media
       path: /patterns/content-block-media    
 #    - title: Content block – with mixed
@@ -91,7 +93,7 @@
     - title: Content block – simple
       path: /patterns/content-block-simple     
     - title: Content group – with cards
-      path: /patterns/contentgroupcards
+      path: /patterns/content-group-with-cards
     - title: Content group – horizontal
       path: /patterns/content-group-horizontal 
     - title: Content group – with pictograms
