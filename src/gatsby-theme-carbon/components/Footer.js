@@ -16,7 +16,7 @@ const CustomFooter = () => {
         Have questions? Open an issue in <a href="https://github.com/carbon-design-system/ibm-dotcom-library-website/issues/new/choose">Github</a>.
       </p>
       <p>
-        Last updated April 24th, 2020
+        Last updated August 6th, 2020
         <br/>
         Copyright &copy; 2020 IBM
       </p>
