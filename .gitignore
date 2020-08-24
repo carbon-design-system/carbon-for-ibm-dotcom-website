@@ -4,3 +4,4 @@ public
 .cache
 .env
 .env.*
+.DS_Store
