@@ -42,6 +42,8 @@
     #      path: /components/checkbox
     #    - title: Dropdown
     #      path: /components/dropdown
+    - title: Card
+      path: /components/card
     - title: Footer
       path: /components/footer
     - title: Link list
