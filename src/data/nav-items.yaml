@@ -44,6 +44,10 @@
     #      path: /components/dropdown
     - title: Card
       path: /components/card
+    - title: Card link
+      path: /components/card-link
+    - title: Feature card
+      path: /components/feature-card
     - title: Footer
       path: /components/footer
     - title: Link list
