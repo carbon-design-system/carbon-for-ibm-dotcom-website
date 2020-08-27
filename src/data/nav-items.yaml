@@ -50,6 +50,8 @@
       path: /components/feature-card
     - title: Footer
       path: /components/footer
+    - title: Horizontal rule
+      path: /components/horizontal-rule  
     - title: Link list
       path: /components/link-list
     - title: Locale modal
