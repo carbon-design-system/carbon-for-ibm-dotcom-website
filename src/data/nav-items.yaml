@@ -48,6 +48,8 @@
       path: /components/card-link
     - title: Feature card
       path: /components/feature-card
+    - title: Expressive modal
+      path: /components/expressive-modal
     - title: Footer
       path: /components/footer
     - title: Horizontal rule
