@@ -84,7 +84,7 @@
 #      path: /components/tooltips
     - title: Table of contents
       path: /components/table-of-contents
-    - title: Video plyer
+    - title: Video player
       path: /components/video-player
 - title: Layout patterns
   pages:
