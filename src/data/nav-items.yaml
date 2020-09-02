@@ -48,12 +48,18 @@
       path: /components/card-link
     - title: Feature card
       path: /components/feature-card
+    - title: Expressive modal
+      path: /components/expressive-modal
     - title: Footer
       path: /components/footer
     - title: Horizontal rule
-      path: /components/horizontal-rule  
+      path: /components/horizontal-rule 
+    - title: Image with caption
+      path: /components/image-with-caption  
     - title: Link list
       path: /components/link-list
+    - title: Link with icon
+      path: /components/link-with-icon
     - title: Locale modal
       path: /components/localemodal
     #    - title: Locale selector
@@ -80,6 +86,8 @@
 #      path: /components/tooltips
     - title: Table of contents
       path: /components/table-of-contents
+    - title: Video player
+      path: /components/video-player
 - title: Layout patterns
   pages:
     - title: Overview
