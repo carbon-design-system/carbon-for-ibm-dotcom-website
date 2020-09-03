@@ -12,8 +12,8 @@
       path: /guidelines
     - title: Expressive Theme
       path: /guidelines/expressive-theme
-#    - title: Color
-#      path: /guidelines/color
+    - title: Call to action
+      path: /guidelines/call-to-action
 #    - title: Grid
 #      path: /guidelines/grid
 #    - title: Frameworks
