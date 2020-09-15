@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import Footer from 'gatsby-theme-carbon/src/components/Footer';
+import React, { useEffect } from "react";
+import Footer from "gatsby-theme-carbon/src/components/Footer";
 
 /**
  * Custom Footer which wraps the Gatsby theme Footer
@@ -13,11 +13,15 @@ const CustomFooter = () => {
   const Content = () => (
     <>
       <p>
-        Have questions? Open an issue in <a href="https://github.com/carbon-design-system/ibm-dotcom-library-website/issues/new/choose">Github</a>.
+        Have questions? Open an issue in{" "}
+        <a href="https://github.com/carbon-design-system/ibm-dotcom-library-website/issues/new/choose">
+          Github
+        </a>
+        .
       </p>
       <p>
         Last updated August 6th, 2020
-        <br/>
+        <br />
         Copyright &copy; 2020 IBM
       </p>
     </>
@@ -29,33 +33,35 @@ const CustomFooter = () => {
    */
   const links = {
     firstCol: [
-      { href: '/contributions', linkText: 'Contribute' },
-      { href: 'https://www.ibm.com/privacy', linkText: 'Privacy' },
-      { href: 'https://www.ibm.com/legal', linkText: 'Terms of use' },
-      { href: 'https://ibm.com', linkText: 'IBM.com' },
-      { href: '#', linkText: '' },
+      { href: "/contributions", linkText: "Contribute" },
+      { href: "https://www.ibm.com/privacy", linkText: "Privacy" },
+      { href: "https://www.ibm.com/legal", linkText: "Terms of use" },
+      { href: "https://ibm.com", linkText: "IBM.com" },
+      { href: "#", linkText: "" },
     ],
-//  secondCol: [
-//    { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
-//    { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
-//    { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
-//    { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
-//  ],
+    secondCol: [
+      {
+        href: "https://twitter.com/ibmdesign",
+        linkText: "Twitter",
+      },
+      {
+        href: "https://www.instagram.com/ibm/?hl=en",
+        linkText: "Instagram",
+      },
+    ],
   };
 
   useEffect(() => {
     // Appends the data-autoid for the last footer item
-    const footer = document.getElementsByTagName('footer');
-    const ul = footer[0].getElementsByTagName('ul');
-    const li = ul[0].getElementsByTagName('li');
-    const atag = li[li.length - 1].getElementsByTagName('a')[0];
+    const footer = document.getElementsByTagName("footer");
+    const ul = footer[0].getElementsByTagName("ul");
+    const li = ul[0].getElementsByTagName("li");
+    const atag = li[li.length - 1].getElementsByTagName("a")[0];
     atag.parentNode.removeChild(atag);
-    li[li.length - 1].setAttribute('data-autoid', 'dds--privacy-cp');
+    li[li.length - 1].setAttribute("data-autoid", "dds--privacy-cp");
   }, []);
 
-  return (
-    <Footer links={links} Content={Content} />
-  );
+  return <Footer links={links} Content={Content} />;
 };
 
 export default CustomFooter;
