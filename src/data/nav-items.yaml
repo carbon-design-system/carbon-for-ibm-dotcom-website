@@ -10,10 +10,13 @@
   pages:
     - title: Overview
       path: /guidelines
-    - title: Expressive Theme
-      path: /guidelines/expressive-theme
     - title: CTA (Call to action)
       path: /guidelines/call-to-action
+    - title: Expressive Theme
+      path: /guidelines/expressive-theme
+    - title: Layout
+      path: /guidelines/layout
+
 - title: Components
   pages:
     - title: Overview
