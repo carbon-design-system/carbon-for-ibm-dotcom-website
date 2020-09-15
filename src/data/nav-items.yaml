@@ -14,8 +14,8 @@
       path: /guidelines/expressive-theme
     - title: CTA (Call to action)
       path: /guidelines/call-to-action
-#    - title: Grid
-#      path: /guidelines/grid
+    - title: RTL (Right-to-left) language
+      path: /guidelines/right-to-left
 #    - title: Frameworks
 #      path: /guidelines/frameworks
 #    - title: Icons
