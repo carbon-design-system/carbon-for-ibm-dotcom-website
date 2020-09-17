@@ -12,8 +12,8 @@
       path: /guidelines
     - title: Expressive Theme
       path: /guidelines/expressive-theme
-    - title: IBM.com Style Models
-      path: /guidelines/ibm-dot-com-style-models/overview
+    - title: Style models
+      path: /guidelines/style-models/overview
     - title: CTA (Call to action)
       path: /guidelines/call-to-action
 #    - title: Grid
