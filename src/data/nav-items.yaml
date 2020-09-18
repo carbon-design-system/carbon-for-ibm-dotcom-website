@@ -81,6 +81,8 @@
       path: /components/leadspace
     - title: Lead space – block
       path: /components/lead-space-block
+    - title: Lightbox media viewer
+      path: /components/lightbox-media-viewer
     - title: Link list
       path: /components/link-list
     - title: Link with icon
