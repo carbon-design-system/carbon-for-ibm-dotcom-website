@@ -1,5 +1,5 @@
 ---
-title: Layout patterns
+title: Patterns
 description: In IBM.com Library, patterns comprise common user flows and scenarios which are too complex or too universal to be encapsulated in a single component.
 ---
 
@@ -28,13 +28,25 @@ Our layout patterns show some of the common layouts used in IBM's digital space.
 <Row className="resource-card-group">
 <Column colMd={4} colLg={4} noGutterSm>
     <ResourceCard
-      subTitle="IBM.com Pattern React Storybook"
+      subTitle="IBM.com Library Storybook React"
       aspectRatio="2:1"
       actionIcon="arrowRight"
-      href="https://ibmdotcom-react.mybluemix.net/?path=/story/overview-get-started--read-me"
+      href="https://ibmdotcom-react.mybluemix.net/"
       >
 
 ![React icon](../../images/icon/react-icon.svg)
+ 
+</ResourceCard>
+</Column>
+<Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="IBM.com Library Storybook Web Components"
+      aspectRatio="2:1"
+      actionIcon="arrowRight"
+      href="https://ibmdotcom-web-components.mybluemix.net/"
+      >
+
+![Web Components](../../images/icon/js_logo.svg)
  
 </ResourceCard>
 </Column>
@@ -42,15 +54,23 @@ Our layout patterns show some of the common layouts used in IBM's digital space.
 
 
 ## Designing and adopting a layout pattern
-On every page there is a story that ends with a desired action – one that enables a user to achieve a goal or reach an outcome. A layout pattern is just one building block that allows a user to form a mental model of the story, identify relevant content, and pursue their objective.
+On every page there is a story that ends with a desired action – one that enables a user to achieve a goal or reach an 
+outcome. A layout pattern is just one building block that allows a user to form a mental model of the story, identify 
+relevant content, and pursue their objective.
 
 
 ### Fit for purpose
-Always start with the content and user goals. Consider the purpose of the content and the best type of experience to help the user reach their objective. Is it a long reading experience? Or a collection of short content pieces that will drive the users to the next step? Will the pattern be part of a functional page where the users must process and interact with complex or dense information? Each type of experience and purpose may require a different layout.
+Always start with the content and user goals. Consider the purpose of the content and the best type of experience to 
+help the user reach their objective. Is it a long reading experience? Or a collection of short content pieces that will 
+drive the users to the next step? Will the pattern be part of a functional page where the users must process and 
+interact with complex or dense information? Each type of experience and purpose may require a different layout.
 
 
 ### 2x Grid
-Always follow the 2x grid to establish zones and structure. A clean layout that is reinforced by steady rhythm and unity of elements lowers the cognitive burden for users. Always consider the holistic experience (or page type) before deciding what pattern-level layout is appropriate. Patterns that utilize a different grid system may not work together. Therefore, try to minimize layout variations and choices within a single experience. 
+Always follow the 2x grid to establish zones and structure. A clean layout that is reinforced by steady rhythm and unity 
+of elements lowers the cognitive burden for users. Always consider the holistic experience (or page type) before 
+deciding what pattern-level layout is appropriate. Patterns that utilize a different grid system may not work together. 
+Therefore, try to minimize layout variations and choices within a single experience. 
 
 <br/>
 
@@ -90,28 +110,37 @@ Always follow the 2x grid to establish zones and structure. A clean layout that 
 </Row>
 
 ### Content hierarchy
-Hierarchy helps users (viewer, reader, audience) to navigate complex concepts and narrative structures without getting confused or lost, and ultimately find what they are looking for. Thoughtful application of type styles, components, and media will allow content to be communicated and prioritized in different ways. Pay attention also to the size and proximity of content pieces within a pattern and between patterns. 
+Hierarchy helps users (viewer, reader, audience) to navigate complex concepts and narrative structures without getting 
+confused or lost, and ultimately find what they are looking for. Thoughtful application of type styles, components, and 
+media will allow content to be communicated and prioritized in different ways. Pay attention also to the size and 
+proximity of content pieces within a pattern and between patterns. 
 
 ![Content hierarchy for patterns](../../images/pattern/overview/patterns-overview_content-hierarchy.jpg)
  
-This _content block with media_ pattern shows how various elements can be designed and organized based on their priority and relevance. In this example, type scale, image size, negative space, and component usage all play an important role in defining the content hierarchy.
+This _content block with media_ pattern shows how various elements can be designed and organized based on their priority 
+and relevance. In this example, type scale, image size, negative space, and component usage all play an important role 
+in defining the content hierarchy.
 
 <br/>
 
-1. Large type is used to highlight the topic headline and main description. The generous use of space above and below makes this content even more prominent. 
+1. Large type is used to highlight the topic headline and main description. The generous use of space above and below 
+makes this content even more prominent. 
 1. Medium type, in combination with a large image, suggests that this area is key to the preceding and subsequent information.
 1. Paragraphs are set at the smallest type size and can accommodate details to support the overall narrative.
-1. A card placed at the bottom of this content block signifies that there is additional information to be discovered and is used to drive users to that destination. 
+1. A card placed at the bottom of this content block signifies that there is additional information to be discovered and 
+is used to drive users to that destination. 
 
 
 ### Grouping and spacing
-Express relationships between content pieces by grouping and spacing them properly. The density of information should also influence how closely or tightly elements are grouped and spaced. 
+Express relationships between content pieces by grouping and spacing them properly. The density of information should 
+also influence how closely or tightly elements are grouped and spaced. 
 
 <br/>
 
 <Row>
 <Column colMd={4} colLg={4} >
-  <DoDontExample type="do" caption="Combine related information and content types then space appropriately to highlight dependencies or similarities.">
+  <DoDontExample type="do" caption="Combine related information and content types then space appropriately to highlight 
+  dependencies or similarities.">
 
 ![Combine related information and content types then space appropriately to highlight dependencies or similarities. ](../../images/pattern/overview/patterns_overview_Grouping_section1_do.jpg)
 
