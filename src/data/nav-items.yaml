@@ -20,7 +20,7 @@
 - title: Components
   pages:
     - title: Overview
-      path: /components
+      path: /components/overview
     #- title: Button Group
     #  path: /components/button-group
     #- title: Callout

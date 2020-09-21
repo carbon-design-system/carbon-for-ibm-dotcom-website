@@ -1,0 +1,19 @@
+.component-list .bx--tag {
+  white-space: nowrap;
+}
+
+.component-list .page-table td {
+  padding: $spacing-04 $spacing-05;
+}
+
+.component-list__key {
+  margin-top: rem(80px);
+}
+
+.component-list__key .page-h4 {
+  margin-bottom: $spacing-06;
+}
+
+.component-list--unavailable {
+  padding-left: $spacing-04;
+}
