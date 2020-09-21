@@ -45,7 +45,11 @@ class ComponentGallery extends React.Component {
       <li className="component-item" key={component}>
         <div className="bx--aspect-ratio bx--aspect-ratio--align bx--aspect-ratio--1x1">
           <div className="bx--aspect-ratio--object">
-            <Link to={currentItem.url} className="component-item__link">
+            <Link
+              to={currentItem.url}
+              className="component-item__link"
+              target={currentItem.url.indexOf('https://') > -1 ? '_blank' : '_self'}
+            >
               <img
                 src={_getImage(component)}
                 alt={component}
