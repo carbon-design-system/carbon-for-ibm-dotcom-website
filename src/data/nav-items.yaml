@@ -16,118 +16,99 @@
       path: /guidelines/style-models/overview
     - title: CTA (Call to action)
       path: /guidelines/call-to-action
-#    - title: Grid
-#      path: /guidelines/grid
-#    - title: Frameworks
-#      path: /guidelines/frameworks
-#    - title: Icons
-#      path: /guidelines/icons
-#    - title: Infographics
-#      path: /guidelines/infographics
-#    - title: Layout
-#      path: /guidelines/layout
-#    - title: Photography
-#      path: /guidelines/photography
-#    - title: Social & sharing
-#      path: /guidelines/social-sharing
-#    - title: Themes
-#      path: /guidelines/themes
-#    - title: Type
-#      path: /guidelines/type
+    - title: Expressive Theme
+      path: /guidelines/expressive-theme
+    - title: Layout
+      path: /guidelines/layout
+
 - title: Components
   pages:
     - title: Overview
       path: /components
-    #    - title: Button
-    #      path: /components/button
-    #    - title: Checkbox
-    #      path: /components/checkbox
-    #    - title: Dropdown
-    #      path: /components/dropdown
+    #- title: Button Group
+    #  path: /components/button-group
+    #- title: Callout
+    #  path: /components/callout
+    - title: Callout – quote
+      path: /components/callout-quote
+    - title: Callout – with media
+      path: /components/callout-with-media
     - title: Card
       path: /components/card
+    #- title: Card Group
+    #  path: /components/card-group
     - title: Card link
       path: /components/card-link
-    - title: Feature card
-      path: /components/feature-card
+    - title: Card section
+      path: /components/card-section
+    - title: Content block – with media
+      path: /components/content-block-media
+    - title: Content block – segmented
+      path: /components/content-block-segmented
+    - title: Content block – simple
+      path: /components/content-block-simple
+    - title: Content block – with cards
+      path: /components/content-block-with-cards
+    - title: Content group – horizontal
+      path: /components/content-group-horizontal
+    - title: Content group – with pictograms
+      path: /components/content-group-pictograms
+    - title: Content group – simple
+      path: /components/content-group-simple
+    - title: Content group – with cards
+      path: /components/content-group-with-cards
+    #- title: Content item – horizontal
+    #  path: /components/content-item-horizontal
+    #- title: CTA
+    #  path: /components/cta
+    - title: CTA section
+      path: /components/cta-section
+    #- title: Dotcom Shell
+    #  path: /components/dotcom-shell
     - title: Expressive modal
       path: /components/expressive-modal
+    - title: Feature card
+      path: /components/feature-card
+    - title: Feature card block
+      path: /components/feature-card-block
     - title: Footer
       path: /components/footer
     - title: Horizontal rule
-      path: /components/horizontal-rule 
+      path: /components/horizontal-rule
+    #- title: Image
+    #  path: /components/image
     - title: Image with caption
-      path: /components/image-with-caption  
+      path: /components/image-with-caption
+    #- title: Layout
+    #  path: /components/layout
+    - title: Lead space
+      path: /components/leadspace
+    - title: Lead space – block
+      path: /components/lead-space-block
+    - title: Lightbox media viewer
+      path: /components/lightbox-media-viewer
     - title: Link list
       path: /components/link-list
     - title: Link with icon
       path: /components/link-with-icon
     - title: Locale modal
       path: /components/localemodal
-    #    - title: Locale selector
-    #      path: /components/locale-selector
+    - title: Logo grid
+      path: /components/logo-grid
     - title: Masthead
       path: /components/masthead
-#    - title: Modal
-#      path: /components/modal
-#    - title: Number picker
-#      path: /components/number-picker
-#    - title: Pagination
-#      path: /components/pagination
-#    - title: Radio button
-#      path: /components/radio-button
-#    - title: Search
-#      path: /components/search
-#    - title: Tabs
-#      path: /components/tabs
-#    - title: Tag
-#      path: /components/tag
-#    - title: Text input
-#      path: /components/text-input
-#    - title: tooltips
-#      path: /components/tooltips
+    #- title: Pictogram Item
+    #  path: /components/pictogram-item
+    #- title: Quote
+    #  path: /components/quote
     - title: Table of contents
       path: /components/table-of-contents
     - title: Video player
       path: /components/video-player
-- title: Layout patterns
+
+- title: Patterns
   pages:
-    - title: Overview
-      path: /patterns
-    - title: Callout – quote
-      path: /patterns/callout-quote
-    - title: Callout – with media
-      path: /patterns/callout-with-media 
-    - title: Card section
-      path: /patterns/card-section
-    - title: Content block – with cards
-      path: /patterns/content-block-with-cards      
-    - title: Content block – with media
-      path: /patterns/content-block-media    
-#    - title: Content block – with mixed
-#      path: /patterns/content-block-with-mixed   
-    - title: Content block – segmented
-      path: /patterns/content-block-segmented 
-    - title: Content block – simple
-      path: /patterns/content-block-simple     
-    - title: Content group – with cards
-      path: /patterns/content-group-with-cards
-    - title: Content group – horizontal
-      path: /patterns/content-group-horizontal 
-    - title: Content group – with pictograms
-      path: /patterns/content-group-pictograms      
-    - title: Content group – simple
-      path: /patterns/content-group-simple
-    - title: CTA section
-      path: /patterns/cta-section
-    - title: Feature card block
-      path: /patterns/feature-card-block
-    - title: Lead space
-      path: /patterns/leadspace
-    - title: Lead space – block
-      path: /patterns/lead-space-block    
-    - title: Logo grid
-      path: /patterns/logo-grid    
+    - path: /patterns
 - title: Contributions
   pages:
     - path: /contributions
