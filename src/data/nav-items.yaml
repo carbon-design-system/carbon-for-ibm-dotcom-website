@@ -10,8 +10,6 @@
   pages:
     - title: Overview
       path: /guidelines
-    - title: CTA (Call to action)
-      path: /guidelines/call-to-action
     - title: Expressive Theme
       path: /guidelines/expressive-theme
     - title: Layout
@@ -104,7 +102,11 @@
 
 - title: Patterns
   pages:
-    - path: /patterns
+    - title: Overview
+      path: /patterns
+    - title: Call-to-action
+      path: /patterns/call-to-action
+
 - title: Contributions
   pages:
     - path: /contributions
