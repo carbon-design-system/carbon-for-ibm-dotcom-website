@@ -122,7 +122,11 @@
 
 - title: Patterns
   pages:
-    - path: /patterns
+    - title: Overview
+      path: /patterns
+    - title: Call-to-action
+      path: /patterns/call-to-action
+
 - title: Contributions
   pages:
     - path: /contributions
