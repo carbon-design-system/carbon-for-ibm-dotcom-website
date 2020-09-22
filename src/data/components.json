@@ -79,7 +79,7 @@
       }
     },
     "Card": {
-      "url": "./../../components/card",
+      "url": "/components/card",
       "description": "The card component uses Carbon's Clickable Tile component while presenting content in a concise and readable style.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-card--default",
@@ -157,7 +157,7 @@
       }
     },
     "Card Link": {
-      "url": "./../../components/card-link)",
+      "url": "/components/card-link",
       "description": "The card link component is a CTA styled like a card that acts as the main CTA for a section of content, it typically appears at the end of a block-pattern.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-card-link--default",
@@ -209,7 +209,7 @@
       }
     },
     "Expressive Modal": {
-      "url": "./../../components/expressive-modal",
+      "url": "/components/expressive-modal",
       "description": "The expressive modal component is based on the Carbon modal component with slight styling updates to increase the padding and uses fixed buttons.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-modal--default",
@@ -235,7 +235,7 @@
       }
     },
     "Footer": {
-      "url": "./../../components/footer",
+      "url": "/components/footer",
       "description": "The footer component is a section that sits at the bottom of any IBM.com page, and acts as the catch—all section that helps users navigate and provides corporate level general and legal information. The footer is required on all pages on IBM.com.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-footer--default",
@@ -261,7 +261,7 @@
       }
     },
     "Horizontal Rule": {
-      "url": "./../../components/horizontal-rule",
+      "url": "/components/horizontal-rule",
       "description": "The horizontal rule component is utilized for thematic breaks within the content.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-horizontal-rule--default",
@@ -313,7 +313,7 @@
       }
     },
     "Image with caption": {
-      "url": "./../../components/image-with-caption",
+      "url": "/components/image-with-caption",
       "description": "The image with caption component is used to embed images and has an optional caption. It can support images at 1x1, 2x1, 4x3 and 16x9 aspect ratios.",
       "storybook": {
         "webcomponents": "",
@@ -391,7 +391,7 @@
       }
     },
     "Link List": {
-      "url": "./../../components/link-list",
+      "url": "/components/link-list",
       "description": "The link list component is used for multiple CTAs, with options for vertical and horizontal lists and varying CTA styling.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-link-list--default",
@@ -417,7 +417,7 @@
       }
     },
     "Link with icon": {
-      "url": "./../../components/link-with-icon",
+      "url": "/components/link-with-icon",
       "description": "The link with icon component is primarily used as a navigational element with an icon as an indicator to the destination or type of content being referenced. Link with icon should not be used within a paragraph.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-link-with-icon--default",
@@ -443,7 +443,7 @@
       }
     },
     "Locale Modal": {
-      "url": "./../../components/localemodal",
+      "url": "/components/localemodal",
       "description": "The locale modal component is triggered after selecting the locale button and allows users to change geographic regions and languages, if available.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-locale-modal--default",
@@ -469,7 +469,7 @@
       }
     },
     "Masthead": {
-      "url": "./../../components/masthead",
+      "url": "/components/masthead",
       "description": "The masthead component is a fundamental navigational component for IBM.com that displays consistently at the top of each page. It also includes search and profile services for IBM.com.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-masthead--default",
@@ -547,7 +547,7 @@
       }
     },
     "Table of contents": {
-      "url": "./../../components/table-of-contents",
+      "url": "/components/table-of-contents",
       "description": "The table of contents component allows users to quickly navigate through long pages by providing jump links to different sections of the content within a single page.",
       "storybook": {
         "webcomponents": "",
@@ -573,7 +573,7 @@
       }
     },
     "Video player": {
-      "url": "./../../components/video-player",
+      "url": "/components/video-player",
       "description": "The video player component plays embedded videos using the Kaltura video platform. It can be used in inline patterns as well as modals. It is always the full width of its containing element and maintains an aspect ratio of 16:9.",
       "storybook": {
         "webcomponents": "",
@@ -601,7 +601,7 @@
   },
   "layout": {
     "Callout - quote": {
-      "url": "./../../components/callout-quote",
+      "url": "/components/callout-quote",
       "description": "Callout — quote is a typographic layout that is used to highlight an impactful client statement or user testimonial.",
       "storybook": {
         "webcomponents": "",
@@ -627,7 +627,7 @@
       }
     },
     "Callout - with media": {
-      "url": "./../../components/callout-with-media",
+      "url": "/components/callout-with-media",
       "description": "Callout &mdash; with media is used to feature a high value media asset such as a customer story.",
       "storybook": {
         "webcomponents": "",
@@ -653,7 +653,7 @@
       }
     },
     "Card section": {
-      "url": "./../../components/card-section",
+      "url": "/components/card-section",
       "description": "Card section is a collection of cards presented in a full-width section with a left-column header that responds to the grid.",
       "storybook": {
         "webcomponents": "",
@@ -679,7 +679,7 @@
       }
     },
     "Content block - with cards": {
-      "url": "./../../components/content-block-cards",
+      "url": "/components/content-block-cards",
       "description": "Content block – with cards is used to present small self-contained pieces of information as cards.",
       "storybook": {
         "webcomponents": "",
@@ -705,7 +705,7 @@
       }
     },
     "Content block - with media": {
-      "url": "./../../components/content-block-media",
+      "url": "/components/content-block-media",
       "description": "Content block – with media is used to present information with images in a group setting.",
       "storybook": {
         "webcomponents": "",
@@ -731,7 +731,7 @@
       }
     },
     "Content block - segmented": {
-      "url": "./../../components/content-block-segmented",
+      "url": "/components/content-block-segmented",
       "description": "Content block – segmented is a variation of Content block simple with the added ability to add subsections.",
       "storybook": {
         "webcomponents": "",
@@ -757,7 +757,7 @@
       }
     },
     "Content block - simple": {
-      "url": "./../../components/content-block-simple",
+      "url": "/components/content-block-simple",
       "description": "Content block — simple is typically used for the introductory section on a page.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-content-block-simple--default",
@@ -783,7 +783,7 @@
       }
     },
     "Content group - with cards": {
-      "url": "./../../components/content-group-with-cards",
+      "url": "/components/content-group-with-cards",
       "description": "Content group — with cards is used to present information through a group of cards with each acting as a call to action that drives to additional or supporting destinations. It is suitable for adding concise buckets of content and links to a long-form reading experience.",
       "storybook": {
         "webcomponents": "",
@@ -809,7 +809,7 @@
       }
     },
     "Content group - horizontal": {
-      "url": "./../../components/content-group-horizontal",
+      "url": "/components/content-group-horizontal",
       "description": "Content group – horizontal is to present a group of relatively more important pieces of content such as products or solutions with more visual weight.",
       "storybook": {
         "webcomponents": "",
@@ -835,7 +835,7 @@
       }
     },
     "Content group - with pictograms": {
-      "url": "./../../components/content-group-pictograms",
+      "url": "/components/content-group-pictograms",
       "description": "Content group — with pictograms is used to present a group of information, each with a supporting pictogram.",
       "storybook": {
         "webcomponents": "",
@@ -861,7 +861,7 @@
       }
     },
     "Content group - simple": {
-      "url": "./../../components/content-group-simple",
+      "url": "/components/content-group-simple",
       "description": "Content group — simple is an alternative form of a narrative layout where the content is broken up into smaller pieces to make it more digestible.",
       "storybook": {
         "webcomponents": "",
@@ -913,7 +913,7 @@
       }
     },
     "CTA section": {
-      "url": "./../../components/cta-section",
+      "url": "/components/cta-section",
       "description": "CTA section is used to communicate actions that users can take along with some information that is relevant to the actions.",
       "storybook": {
         "webcomponents": "",
@@ -939,7 +939,7 @@
       }
     },
     "Feature card": {
-      "url": "./../../components/feature-card",
+      "url": "/components/feature-card",
       "description": "Feature card is used to emphasize a piece of information with a card on the right-hand side and an image on the left-hand side.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-feature-card--default",
@@ -965,7 +965,7 @@
       }
     },
     "Feature card - block medium": {
-      "url": "./../../components/feature-card-block",
+      "url": "/components/feature-card-block",
       "description": "Feature card block is used to present information with a group of cards.",
       "storybook": {
         "webcomponents": "",
@@ -991,7 +991,7 @@
       }
     },
     "Feature card - block large": {
-      "url": "./../../components/feature-card-block",
+      "url": "/components/feature-card-block",
       "description": "Feature card block is used to present information with a group of cards.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-feature-card-block-large--default",
@@ -1017,7 +1017,7 @@
       }
     },
     "Lead space": {
-      "url": "./../../components/leadspace",
+      "url": "/components/leadspace",
       "description": "Lead space is used to orient the user when they land on a page and to help them decide whether to continue reading or not as well as orient themselves. It will always be positioned at the top of a web page.",
       "storybook": {
         "webcomponents": "",
@@ -1043,7 +1043,7 @@
       }
     },
     "Lead space - block": {
-      "url": "./../../components/lead-space-block",
+      "url": "/components/lead-space-block",
       "description": "Lead space &mdash; block is an alternative to the Lead space, enabling a more productive first site of viewer engagement. Lead space &mdash; block is positioned at the top of a web page, with a purpose to orient the user when they land on a page, inform them of the content, and guide them to the first key piece of content on the page, whether it’s a crucial piece of information or a call-to-action button.",
       "storybook": {
         "webcomponents": "",
@@ -1069,7 +1069,7 @@
       }
     },
     "Logo grid": {
-      "url": "./../../components/logo-grid",
+      "url": "/components/logo-grid",
       "description": "Logo grid is used to present a group of client or partner logos. Currently the logos are not clickable.",
       "storybook": {
         "webcomponents": "",
