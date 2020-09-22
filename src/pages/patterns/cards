@@ -1,0 +1,182 @@
+---
+title: Cards
+description: Cards display a snapshot of information in an easily scannable and digestible way.  
+---
+
+<PageDescription>
+
+Cards display a snapshot of information in an easily scannable and digestible way. Cards encourage user interactions such as tapping, hovering, and clicking to view more details or to take action. 
+They can be used as navigational components or to highlight secondary editorial content.
+</PageDescription>
+
+
+<AnchorLinks>
+
+<AnchorLink>Overview</AnchorLink>
+<AnchorLink>Call-to-action</AnchorLink>
+<AnchorLink>Navigational</AnchorLink>
+<AnchorLink>Featured content</AnchorLink>
+<AnchorLink>Informational</AnchorLink>
+<AnchorLink>Resources</AnchorLink>
+<AnchorLink>Use of content</AnchorLink>
+<AnchorLink>Related</AnchorLink>
+
+</AnchorLinks>
+
+## Overview
+Cards are used commonly across digital experiences. They can accommodate a range of content types and are often used to drive or progress users to a supporting page, resource or external destination.
+
+
+### Call-to-action
+
+Cards can be used as a CTA to direct users to a key piece of content.  A CTA card behaves much like a button or text link but is more prominent in size and descriptive in content.
+
+Examples of card components that provide call-to-action functionality:
+
+<Title>Card link</Title>
+
+
+#### When to use call-to-action card
+
+* Use to progress a user to related content
+* Use as a replacement for button
+* Use as a replacement for a text link
+
+
+#### When not to use call-to-action card
+
+* Do not use if the desination does not have immediately relevant information
+* Do not use if the next section on the page is a group of cards
+* Do not use if you want the user to stay on the current page 
+
+
+## Navigational
+
+A group of cards can be used to help users navigate to various pieces of information about the subject matter they are interested in learning about or the offering they intend to purchase. 
+
+Examples of card components that provide navigational functionality:
+
+<Title>Cards — navigational (coming soon)</Title>
+ 
+
+#### When to use navigational cards
+
+* Use to present a range of potential pathways to users
+* Use to present content in a scannable and accessible way
+* Use as an interactive browsing device 
+
+
+#### When not to use navigational cards
+
+* Do not use if you want the user to choose a specific pathway 
+* Do not use if there is an intended hierarchy for reading or scanning
+* Do not use to display detailed descriptions
+ 
+ 
+## Featured content
+ 
+Cards can be used to indicate significant progression, surface key associated content, or highlight an important next step.
+
+Examples of card components that can be used to call attention to features:
+
+<Title>Feature card</Title>
+
+#### When to use featured content cards
+
+* Use to call attention to important content
+* Use when linking to a single destination 
+* Use to feature compelling imagery and messaging
+
+
+#### When not to use featured content cards
+
+* Do not use if the information is not vital to the main content or user need
+* Do not use if you want the user to stay on the current page 
+* Do not use as a decorative element 
+
+
+## Informational
+
+Cards are often used to organize a group of related items into short, digestible content pieces.
+
+Examples of card components that can be used to inform users:
+
+<Title>Content group — with cards</Title>
+
+
+#### When to use informational cards
+
+* Use to give equal hierarchy to all content items
+* Use to link users to important features, services or topics
+* Use to group multiple text-based content items together
+
+
+#### When not to use informational cards
+
+* Do not use to group unrelated content or resources
+* Do not use to display lists of features
+* Do not use to accommodate long-form reading 
+
+
+## Resources
+
+Cards can be used to link to diverse resources such as learning material or media that support the main content or offering. Grouping resources together using cards provides a preview to each resource and allows a user to choose their own journey based on their needs.
+
+Examples of card components that can be used to showcase diverse resources:
+
+<Title>Card section — with images</Title>
+
+#### When to use resource cards
+
+* Use to present an array of resources in a single section of the page 
+* Use when users need to continue learning about a topic or offering
+* Use to group different content types and destinations together
+
+
+#### When not to use informational cards
+
+* Do not use if a resource is specifically tied to content elsewhere on the page
+* Do not use when users are at the end of their pre-purchase journey
+
+
+## Use of icons
+
+Cards often include an icon that indicates the behavior or direction in which the user will take or the type of content available to the user after they click on a card.
+
+
+<Title>Icon usage</Title>
+* Use the  `arrow—right`  icon to indicate moving to a different page
+* Use the  `arrow—down`  icon to indicate jumping to a section of the same page
+* Use the  `launch`  icon to indicate opening a separate application or website
+* Use the  `download`  icon to indicate a file download
+* Use the  `video`  icon to indicate launching a video player
+
+
+<Title>Icon position</Title>
+
+There are two options to consider when positioning an icon on a card:
+
+1. bottom-left, 16px from the edge 
+
+IMAGE HERE. This is the default and most common option, recommended by IBM.com Library. Having the icon in this position creates clear visual alignment with all text fields on the card.
+
+2. bottom-left, 16px from the edge 
+
+IMAGE HERE. Less common but also effective, this option works best on single large cards such as the Feature card. 
+
+
+<Title>Icon color</Title>
+Card icons act as the primary indicator or call-to-action and therefore should use the color token  `$interactive-01`  when possible. In some cases, white arrows may be used on gray90 or gray100 cards.
+
+When grouping multiple cards together, all icons should use the same color token. 
+
+Do not use icons as a way to express brand colors or gradients. 
+
+## Related components and patterns
+<Title>Components</Title>
+* Card
+* Card link
+* Card section
+* Content group — with cards
+* Feature card 
+* Feature card block
