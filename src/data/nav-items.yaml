@@ -106,7 +106,7 @@
       path: /patterns
     - title: Call-to-action
       path: /patterns/call-to-action
-    – title: Cards
+    - title: Cards
       path: /patterns/cards
 
 - title: Contributions
