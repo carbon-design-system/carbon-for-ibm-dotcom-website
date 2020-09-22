@@ -50,8 +50,8 @@ class ComponentGallery extends React.Component {
       <li className="component-item" key={name}>
         <div className="bx--aspect-ratio bx--aspect-ratio--align bx--aspect-ratio--1x1">
           <div className="bx--aspect-ratio--object">
-            <Link
-              to={component.url}
+            <a
+              href={component.url}
               className="component-item__link"
               target={component.url.indexOf('https://') > -1 ? '_blank' : '_self'}
             >
@@ -61,7 +61,7 @@ class ComponentGallery extends React.Component {
                 className="component-item__img"
               />
               <p className="component-name">{name}</p>
-            </Link>
+            </a>
           </div>
         </div>
       </li>
