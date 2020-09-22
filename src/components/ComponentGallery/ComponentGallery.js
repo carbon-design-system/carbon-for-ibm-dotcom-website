@@ -46,7 +46,6 @@ class ComponentGallery extends React.Component {
    * @returns {*}
    */
   renderItem = ({ name, component }) => {
-    console.log('name', name)
     return (
       <li className="component-item" key={name}>
         <div className="bx--aspect-ratio bx--aspect-ratio--align bx--aspect-ratio--1x1">
@@ -76,7 +75,7 @@ class ComponentGallery extends React.Component {
       <div className="bx--row">
         <div className="bx--col-lg-12 bx--no-gutter">
           <ul className="component-gallery">
-            {Object.keys(componentList[type]).forEach(key =>
+            {Object.keys(componentList[type]).map(key =>
               this.renderItem({ name: key, component: componentList[type][key] })
             )}
           </ul>
