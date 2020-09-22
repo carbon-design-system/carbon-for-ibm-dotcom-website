@@ -35,30 +35,31 @@ export class ComponentList extends React.Component {
 
   /**
    * Renders a single component line item
-   * @param {object} currentItem Current component item object
+   * @param {string} name Component name
+   * @param {object} component Current component item object
    * @returns {*} Table line item
    */
-  renderItems = currentItem => (
-    <tr key={currentItem.component}>
+  renderItems = ({name, component }) => (
+    <tr key={name}>
       <td>
         <a
-          href={currentItem.url}
-          target={currentItem.url.indexOf('https://') > -1 ? '_blank' : '_self'}
+          href={component.url}
+          target={component.url.indexOf('https://') > -1 ? '_blank' : '_self'}
         >
-          {currentItem.component}
+          {name}
         </a>
       </td>
-      <td>{currentItem.description}</td>
+      <td>{component.description}</td>
       <td>
-        {Object.keys(currentItem.react)
-          .filter(key => currentItem.react[key])
+        {Object.keys(component.react)
+          .filter(key => component.react[key])
           .map(key => (
             <React.Fragment key={key}>{_tags[key]}</React.Fragment>
           ))}
       </td>
       <td>
-        {Object.keys(currentItem.webcomponents)
-          .filter(key => currentItem.webcomponents[key])
+        {Object.keys(component.webcomponents)
+          .filter(key => component.webcomponents[key])
           .map(key => (
             <React.Fragment key={key}>{_tags[key]}</React.Fragment>
           ))}
@@ -82,8 +83,8 @@ export class ComponentList extends React.Component {
               </tr>
             </thead>
             <tbody>
-              {Object.keys(components[type]).map(component =>
-                this.renderItems(components[type][component])
+              {Object.keys(components[type]).forEach(key =>
+                this.renderItems({ name: key, component: components[type][key]})
               )}
             </tbody>
           </table>
@@ -93,6 +94,52 @@ export class ComponentList extends React.Component {
   }
 }
 
+export const ComponentStatus = ({ component }) => (
+  <div className="bx--row component-list">
+    <div className="bx--col-lg-12 bx--no-gutter">
+      <table className="page-table">
+        <thead>
+        <tr>
+          <th>Language</th>
+          <th>Status</th>
+          <th>Sandbox</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr key={component.component}>
+          <td>
+            React
+          </td>
+          <td>
+            {Object.keys(component.react)
+              .filter(key => component.react[key])
+              .map(key => (
+                <React.Fragment key={key}>{_tags[key]}</React.Fragment>
+              ))}
+          </td>
+          <td>
+            <a
+              href={component.url}
+              target={component.url.indexOf('https://') > -1 ? '_blank' : '_self'}
+            >
+              View Storybook
+            </a>
+          </td>
+
+          <td>
+            {Object.keys(component.webcomponents)
+              .filter(key => component.webcomponents[key])
+              .map(key => (
+                <React.Fragment key={key}>{_tags[key]}</React.Fragment>
+              ))}
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+);
+
 /**
  * Returns the table with the list of tabs and their definitions
  * @returns {*} Tag key table
@@ -101,7 +148,7 @@ export class ComponentList extends React.Component {
 export const TagKey = () => (
   <div className="bx--row component-list">
     <div className="bx--col-lg-8 component-status__key">
-      <h4 className="page-h4">Key</h4>
+      <h4 className="page-h4">Keys</h4>
     </div>
     <div className="bx--col-lg-8 bx--no-gutter">
       <table className="page-table">

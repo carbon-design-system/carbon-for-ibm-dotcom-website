@@ -13,8 +13,9 @@ import componentList from '../../data/components.json';
  */
 function _getImage(component) {
   let componentImg;
+  const componentName = component.replace(/\s/g,'').toLowerCase();
   try {
-    componentImg = require(`./images/${component}.svg`);
+    componentImg = require(`./images/${componentName}.svg`);
   } catch (e) {
     // eslint-disable-next-line global-require
     componentImg = require('./images/NoImage.svg');
@@ -38,24 +39,29 @@ class ComponentGallery extends React.Component {
     type: 'ui',
   };
 
-  renderItems = currentItem => {
-    const component = currentItem.component;
-
+  /**
+   * Renders the gallery component item
+   * @param {string} name Component name
+   * @param {object} component Component object information
+   * @returns {*}
+   */
+  renderItem = ({ name, component }) => {
+    console.log('name', name)
     return (
-      <li className="component-item" key={component}>
+      <li className="component-item" key={name}>
         <div className="bx--aspect-ratio bx--aspect-ratio--align bx--aspect-ratio--1x1">
           <div className="bx--aspect-ratio--object">
             <Link
-              to={currentItem.url}
+              to={component.url}
               className="component-item__link"
-              target={currentItem.url.indexOf('https://') > -1 ? '_blank' : '_self'}
+              target={component.url.indexOf('https://') > -1 ? '_blank' : '_self'}
             >
               <img
-                src={_getImage(component)}
-                alt={component}
+                src={_getImage(name)}
+                alt={name}
                 className="component-item__img"
               />
-              <p className="component-name">{component}</p>
+              <p className="component-name">{name}</p>
             </Link>
           </div>
         </div>
@@ -70,8 +76,8 @@ class ComponentGallery extends React.Component {
       <div className="bx--row">
         <div className="bx--col-lg-12 bx--no-gutter">
           <ul className="component-gallery">
-            {Object.keys(componentList[type]).map(component =>
-              this.renderItems(componentList[type][component])
+            {Object.keys(componentList[type]).forEach(key =>
+              this.renderItem({ name: key, component: componentList[type][key] })
             )}
           </ul>
         </div>
