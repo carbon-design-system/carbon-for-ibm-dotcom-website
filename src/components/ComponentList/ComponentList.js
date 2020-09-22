@@ -175,7 +175,7 @@ export const ComponentStatus = ({ name, type }) => (
 export const TagKey = () => (
   <div className="bx--row component-list">
     <div className="bx--col-lg-8 component-list__key">
-      <h4 className="page-h4">Tag Key</h4>
+      <h4 className="page-h4">Key</h4>
     </div>
     <div className="bx--col-lg-8 bx--no-gutter">
       <table className="page-table">
