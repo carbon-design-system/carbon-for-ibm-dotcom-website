@@ -50,7 +50,7 @@ export class ComponentList extends React.Component {
             {name}
           </a>
         </td>
-        <td>{component.description}</td>
+        <td dangerouslySetInnerHTML={{ __html: component.description }} />
         <td>
           {Object.keys(component.react)
             .filter(key => component.react[key])

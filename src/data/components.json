@@ -184,7 +184,7 @@
     },
     "Dotcom Shell": {
       "url": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-dotcom-shell--default",
-      "description": "The dotcom shell component includes the [Masthead](./components/masthead), and [Footer](./components/footer) components, all wrapped in a UI shell using Carbon's grid.",
+      "description": "The dotcom shell component includes the <a href=\"./masthead\">Masthead</a>, and <a href=\"./footer\">Footer</a> components, all wrapped in a UI shell using Carbon's grid.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-dotcom-shell--default",
         "react": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-dotcom-shell--default"

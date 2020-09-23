@@ -2,6 +2,10 @@
   white-space: nowrap;
 }
 
+.component-list .page-table {
+  max-width: 38rem;
+}
+
 .component-list .page-table td {
   padding: $spacing-04 $spacing-05;
 }
