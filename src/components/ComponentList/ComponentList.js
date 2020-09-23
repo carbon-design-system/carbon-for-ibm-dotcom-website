@@ -15,7 +15,7 @@ const _tags = {
   updated: <Tag type="blue">Updated</Tag>,
   deprecated: <Tag type="red">Deprecated</Tag>,
   underConstruction: <Tag type="cool-gray">Under construction</Tag>,
-  notAvailable: <span className="component-list--unavailable">–</span>,
+  /*notAvailable: <span className="component-list--unavailable">–</span>,*/
 };
 
 /**
@@ -204,10 +204,10 @@ export const TagKey = () => (
             no longer being supported by the system.
           </td>
         </tr>
-        <tr>
+        {/*<tr>
           <td>{_tags.notAvailable}</td>
           <td>Component is not available in this framework.</td>
-        </tr>
+        </tr>*/}
         <tr>
           <td>{_tags.new}</td>
           <td>
