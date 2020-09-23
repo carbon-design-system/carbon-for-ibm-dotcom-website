@@ -679,7 +679,7 @@
       }
     },
     "Content block - with cards": {
-      "url": "./content-block-cards",
+      "url": "./content-block-with-cards",
       "description": "Content block – with cards is used to present small self-contained pieces of information as cards.",
       "storybook": {
         "webcomponents": "",
