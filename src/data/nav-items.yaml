@@ -108,6 +108,8 @@
       path: /patterns/call-to-action
     - title: Cards
       path: /patterns/cards
+    - title: In-page navigation
+      path: /patterns/in-page-navigation
 
 - title: Contributions
   pages:
