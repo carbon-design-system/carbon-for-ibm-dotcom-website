@@ -126,6 +126,8 @@
       path: /patterns
     - title: Call-to-action
       path: /patterns/call-to-action
+    - title: In-page navigation
+      path: /patterns/in-page-navigation
 
 - title: Contributions
   pages:
