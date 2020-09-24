@@ -14,10 +14,6 @@
       path: /guidelines/expressive-theme
     - title: Style models
       path: /guidelines/style-models/overview
-    - title: CTA (Call to action)
-      path: /guidelines/call-to-action
-    - title: Expressive Theme
-      path: /guidelines/expressive-theme
     - title: Layout
       path: /guidelines/layout
 
@@ -108,7 +104,13 @@
 
 - title: Patterns
   pages:
-    - path: /patterns
+    - title: Overview
+      path: /patterns
+    - title: Call-to-action
+      path: /patterns/call-to-action
+    - title: In-page navigation
+      path: /patterns/in-page-navigation
+
 - title: Contributions
   pages:
     - path: /contributions

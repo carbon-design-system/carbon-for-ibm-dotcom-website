@@ -46,3 +46,12 @@
 td > code {
   white-space: nowrap;
 }
+
+// remove horizontal scroll in breakpoints > mobile
+.page-table__container {
+  overflow-x: auto;
+
+  @include carbon--breakpoint("md") {
+    overflow-x: initial;
+  }
+}
