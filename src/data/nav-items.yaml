@@ -38,7 +38,7 @@
 - title: Components
   pages:
     - title: Overview
-      path: /components
+      path: /components/overview
     #- title: Button Group
     #  path: /components/button-group
     #- title: Callout
@@ -126,6 +126,8 @@
       path: /patterns
     - title: Call-to-action
       path: /patterns/call-to-action
+    - title: Cards
+      path: /patterns/cards
     - title: In-page navigation
       path: /patterns/in-page-navigation
 

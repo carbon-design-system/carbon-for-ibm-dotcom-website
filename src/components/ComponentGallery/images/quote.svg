@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="320px" viewBox="0 0 320 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>quote</title>
+    <g id="quote" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(49.000000, 100.000000)">
+            <rect id="Rectangle-Copy-69" fill="#A8A8A8" x="11" y="86" width="47" height="4"></rect>
+            <rect id="Rectangle-Copy-70" fill="#C6C6C6" x="11" y="92" width="37" height="4"></rect>
+            <rect id="Rectangle-Copy-75" fill="#C6C6C6" x="11" y="16" width="198" height="8"></rect>
+            <rect id="Rectangle-Copy-76" fill="#C6C6C6" x="11" y="29" width="174" height="8"></rect>
+            <rect id="Rectangle-Copy-77" fill="#C6C6C6" x="11" y="42" width="198" height="8"></rect>
+            <rect id="Rectangle-Copy-78" fill="#C6C6C6" x="11" y="55" width="174" height="8"></rect>
+            <rect id="Rectangle-Copy-79" fill="#C6C6C6" x="11" y="68" width="198" height="8"></rect>
+            <line x1="6" y1="109" x2="213.900048" y2="109" id="Path-Copy-3" stroke="#8D8D8D" stroke-width="0.5"></line>
+            <text id="“-copy" font-family="IBMPlexSerif-Light, IBM Plex Serif" font-size="24" font-weight="300" fill="#000000">
+                <tspan x="0" y="25">“</tspan>
+            </text>
+            <text id="”-copy" font-family="IBMPlexSerif-Light, IBM Plex Serif" font-size="24" font-weight="300" fill="#000000">
+                <tspan x="211" y="80">”</tspan>
+            </text>
+            <rect id="Rectangle-Copy-12" fill="#78A9FF" x="11" y="116" width="31" height="4"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="320px" viewBox="0 0 320 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>content_item_horizontal</title>
+    <g id="content_item_horizontal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(57.000000, 141.000000)">
+            <rect id="Rectangle-Copy-64" fill="#78A9FF" x="83" y="34" width="24" height="4"></rect>
+            <rect id="Rectangle-Copy-65" fill="#78A9FF" x="117" y="34" width="24" height="4"></rect>
+            <rect id="Rectangle-Copy-66" fill="#A8A8A8" x="0" y="8" width="50" height="6"></rect>
+            <rect id="Rectangle-Copy-67" fill="#C6C6C6" x="83" y="0" width="124" height="4"></rect>
+            <rect id="Rectangle-Copy-68" fill="#C6C6C6" x="83" y="14" width="124" height="4"></rect>
+            <rect id="Rectangle-Copy-69" fill="#C6C6C6" x="83" y="7" width="117" height="4"></rect>
+            <rect id="Rectangle-Copy-70" fill="#C6C6C6" x="0" y="0" width="27" height="4"></rect>
+        </g>
+    </g>
+</svg>

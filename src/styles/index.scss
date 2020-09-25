@@ -3,6 +3,9 @@
 @import "homepage";
 @import "feature-card-group";
 
+@import '../components/ComponentList/component-list.scss';
+@import '../components/ComponentGallery/component-gallery.scss';
+
 // override nested list item styles (they are hardcoded at 16px)
 .bx--list--nested {
   .bx--list__item {
