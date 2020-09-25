@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="320px" viewBox="0 0 320 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>feature_card_block_large</title>
+    <g id="feature_card_block_large" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(72.000000, 125.000000)">
+            <rect id="Rectangle" stroke="#C6C6C6" fill="#FFFFFF" x="0" y="0" width="176" height="70"></rect>
+            <g id="Group-2" transform="translate(45.000000, 8.000000)">
+                <rect id="Rectangle" fill="#161616" x="0" y="0" width="107" height="54"></rect>
+                <rect id="Rectangle-Copy-7" fill="#C6C6C6" x="0" y="0" width="54" height="54"></rect>
+                <g id="Group" transform="translate(59.000000, 5.000000)" fill="#A8A8A8">
+                    <rect id="Rectangle-Copy-4" x="0" y="0" width="35" height="2"></rect>
+                    <rect id="Rectangle-Copy-5" x="0" y="4" width="35" height="2"></rect>
+                    <rect id="Rectangle-Copy-6" x="0" y="8" width="35" height="2"></rect>
+                    <rect id="Rectangle-Copy-8" x="0" y="12" width="22" height="2"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
