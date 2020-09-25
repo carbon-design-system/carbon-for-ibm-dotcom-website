@@ -12,6 +12,8 @@
       path: /guidelines
     - title: Expressive Theme
       path: /guidelines/expressive-theme
+    - title: Style models
+      path: /guidelines/style-models/overview
     - title: Layout
       path: /guidelines/layout
 
