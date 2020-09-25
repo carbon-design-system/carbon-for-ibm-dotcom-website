@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="320px" viewBox="0 0 320 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>card_link</title>
+    <defs>
+        <polygon id="path-1" points="9 3 8.295 3.705 12.085 7.5 1.5 7.5 1.5 8.5 12.085 8.5 8.295 12.295 9 13 14 8"></polygon>
+    </defs>
+    <g id="card_link" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(57.000000, 109.000000)">
+            <rect id="Rectangle-Copy-3" fill="#F3F3F3" x="0" y="0" width="206" height="103"></rect>
+            <rect id="Rectangle-Copy-4" fill="#A8A8A8" x="13" y="13" width="125" height="8"></rect>
+            <rect id="Rectangle-Copy-5" fill="#A8A8A8" x="13" y="27" width="84" height="8"></rect>
+            <g transform="translate(12.040752, 78.783699)" id="icons/arrows/ibm-forward-link-copy-2">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="icon-color" fill="#0F62FE" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

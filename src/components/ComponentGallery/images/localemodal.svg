@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="320px" viewBox="0 0 320 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>locale_modal</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="200" height="152"></rect>
+        <filter x="-5.0%" y="-5.3%" width="110.0%" height="113.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.862745106   0 0 0 0 0.862745106   0 0 0 0 0.862745106  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="7.618625 7 10.5 4.118625 9.881375 3.5 7 6.381375 4.118625 3.5 3.5 4.118625 6.381375 7 3.5 9.881375 4.118625 10.5 7 7.618625 9.881375 10.5 10.5 9.881375"></polygon>
+        <polygon id="path-5" points="5.625 1.875 5.184375 2.315625 7.553125 4.6875 0.9375 4.6875 0.9375 5.3125 7.553125 5.3125 5.184375 7.684375 5.625 8.125 8.75 5"></polygon>
+        <polygon id="path-7" points="5.625 1.875 5.184375 2.315625 7.553125 4.6875 0.9375 4.6875 0.9375 5.3125 7.553125 5.3125 5.184375 7.684375 5.625 8.125 8.75 5"></polygon>
+        <polygon id="path-9" points="5.625 1.875 5.184375 2.315625 7.553125 4.6875 0.9375 4.6875 0.9375 5.3125 7.553125 5.3125 5.184375 7.684375 5.625 8.125 8.75 5"></polygon>
+        <polygon id="path-11" points="5.625 1.875 5.184375 2.315625 7.553125 4.6875 0.9375 4.6875 0.9375 5.3125 7.553125 5.3125 5.184375 7.684375 5.625 8.125 8.75 5"></polygon>
+    </defs>
+    <g id="locale_modal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(60.000000, 84.000000)">
+            <g id="Group-38-Copy-2">
+                <g id="Rectangle" fill="black" fill-opacity="1">
+                    <use filter="url(#filter-2)" xlink:href="#path-1"></use>
+                </g>
+                <g id="color/gray/10-copy-10" fill="#F3F3F3">
+                    <rect id="Rectangle" x="0" y="0" width="200" height="152"></rect>
+                </g>
+            </g>
+            <rect id="Rectangle-Copy-28" fill="#FFFFFF" x="6" y="44" width="92" height="49"></rect>
+            <rect id="Rectangle-Copy-29" fill="#FFFFFF" x="102" y="44" width="92" height="49"></rect>
+            <g transform="translate(180.000000, 7.000000)" id="icon/navigation/close/16-copy-2">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="icon-color" fill="#000000" xlink:href="#path-3"></use>
+            </g>
+            <rect id="Rectangle-Copy-30" fill="#FFFFFF" x="6" y="97" width="92" height="49"></rect>
+            <rect id="Rectangle-Copy-31" fill="#FFFFFF" x="102" y="97" width="92" height="49"></rect>
+            <rect id="Rectangle-Copy-32" fill="#A8A8A8" x="6" y="15" width="90" height="7"></rect>
+            <rect id="Rectangle-Copy-33" fill="#C6C6C6" x="6" y="7" width="29" height="4"></rect>
+            <rect id="Rectangle-Copy-34" fill="#C6C6C6" x="10" y="49" width="25" height="4"></rect>
+            <rect id="Rectangle-Copy-35" fill="#C6C6C6" x="106" y="49" width="25" height="4"></rect>
+            <rect id="Rectangle-Copy-36" fill="#C6C6C6" x="106" y="102" width="25" height="4"></rect>
+            <rect id="Rectangle-Copy-37" fill="#C6C6C6" x="10" y="102" width="25" height="4"></rect>
+            <g transform="translate(12.000000, 132.000000)" id="icons/arrows/ibm-forward-link-copy-15">
+                <mask id="mask-6" fill="white">
+                    <use xlink:href="#path-5"></use>
+                </mask>
+                <use id="icon-color" fill="#6F6F6F" xlink:href="#path-5"></use>
+            </g>
+            <g transform="translate(12.000000, 79.000000)" id="icons/arrows/ibm-forward-link-copy-15">
+                <mask id="mask-8" fill="white">
+                    <use xlink:href="#path-7"></use>
+                </mask>
+                <use id="icon-color" fill="#6F6F6F" xlink:href="#path-7"></use>
+            </g>
+            <g transform="translate(106.000000, 132.000000)" id="icons/arrows/ibm-forward-link-copy-15">
+                <mask id="mask-10" fill="white">
+                    <use xlink:href="#path-9"></use>
+                </mask>
+                <use id="icon-color" fill="#6F6F6F" xlink:href="#path-9"></use>
+            </g>
+            <g transform="translate(106.000000, 79.000000)" id="icons/arrows/ibm-forward-link-copy-15">
+                <mask id="mask-12" fill="white">
+                    <use xlink:href="#path-11"></use>
+                </mask>
+                <use id="icon-color" fill="#6F6F6F" xlink:href="#path-11"></use>
+            </g>
+        </g>
+    </g>
+</svg>

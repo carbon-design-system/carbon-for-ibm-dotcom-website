@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="320px" viewBox="0 0 320 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>link_with_icon</title>
+    <defs>
+        <polygon id="path-1" points="13.5 4.5 12.4425 5.5575 18.1275 11.25 2.25 11.25 2.25 12.75 18.1275 12.75 12.4425 18.4425 13.5 19.5 21 12"></polygon>
+    </defs>
+    <g id="link_with_icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(96.000000, 148.000000)">
+            <text id="Link-with-icon-Copy" font-family="IBMPlexSans, IBM Plex Sans" font-size="16" font-weight="normal" line-spacing="22" fill="#0F62FE">
+                <tspan x="0" y="16">Link with icon</tspan>
+            </text>
+            <g transform="translate(105.000000, 0.000000)" id="icons/arrows/ibm-forward-link-copy">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="icon-color" fill="#0F62FE" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
