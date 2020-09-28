@@ -10,6 +10,26 @@
   pages:
     - title: Overview
       path: /guidelines
+    - title: CTA (Call to action)
+      path: /guidelines/call-to-action
+    - title: Right-to-left language
+      path: /guidelines/right-to-left
+#    - title: Frameworks
+#      path: /guidelines/frameworks
+#    - title: Icons
+#      path: /guidelines/icons
+#    - title: Infographics
+#      path: /guidelines/infographics
+#    - title: Layout
+#      path: /guidelines/layout
+#    - title: Photography
+#      path: /guidelines/photography
+#    - title: Social & sharing
+#      path: /guidelines/social-sharing
+#    - title: Themes
+#      path: /guidelines/themes
+#    - title: Type
+#      path: /guidelines/type
     - title: Expressive Theme
       path: /guidelines/expressive-theme
     - title: Style models
