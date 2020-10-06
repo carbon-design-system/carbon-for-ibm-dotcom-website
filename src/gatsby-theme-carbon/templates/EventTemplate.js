@@ -5,18 +5,22 @@ import { useStaticQuery, graphql } from 'gatsby';
 
 import Utils from 'gatsby-theme-carbon/src/components/Utils';
 import Layout from 'gatsby-theme-carbon/src/components/Layout';
-import PageHeader from 'gatsby-theme-carbon/src/components/PageHeader';
+import PageHeaderForEvents from 'gatsby-theme-carbon/src/components/PageHeaderForEvents';
 import EditLink from 'gatsby-theme-carbon/src/components/EditLink';
 import NextPrevious from 'gatsby-theme-carbon/src/components/NextPrevious';
 import PageTabs from 'gatsby-theme-carbon/src/components/PageTabs';
 import Main from 'gatsby-theme-carbon/src/components/Main';
 
-import mobile from '../../pages/events/summit-2020/images/lead-space--1.1.0.png';
-import desktop from '../../pages/events/summit-2020/images/lead-space--1.1.0.png'
+import mobile from './../../pages/events/summit-2020/images/lead-space--mobile.png';
+import desktop from './../../pages/events/summit-2020/images/lead-space--desktop.png'
+
+const bgImages = [mobile,desktop];
+
+//export const backgroundImages = [mobile, desktop];
 
 // Shadowing: pass through backgroundImages to PageHeader
 
-const EventTemplate = ({
+const EventTemplpate = ({
   pageContext,
   children,
   location,
@@ -63,8 +67,8 @@ const EventTemplate = ({
       pageKeywords={keywords}
       titleType={titleType}
     >
-      <PageHeader
-        backgroundImages={backgroundImages}
+      <PageHeaderForEvents
+        backgroundImages={bgImages}
         title={Title ? <Title /> : title}
         label="label"
         tabs={tabs}
@@ -86,4 +90,4 @@ const EventTemplate = ({
   );
 };
 
-export default EventTemplate;
+export default EventTemplpate;
