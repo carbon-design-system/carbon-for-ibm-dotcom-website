@@ -48,7 +48,7 @@ const PageHeaderForEvents = ({ title, tabs = [], backgroundImages = [] }) => {
         backgroundSize: 'cover',
         backgroundPosition: 'center top',
         backgroundRepeat: 'no-repeat',
-        marginLeft: isDesktop ? '256px' : '0',
+        paddingLeft: isDesktop ? '256px' : '0',
         '--height': '24rem',
       }}
       className={cx(pageHeader, { [withTabs]: tabs.length })}
