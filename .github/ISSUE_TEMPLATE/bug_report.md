@@ -23,7 +23,7 @@ about: Something isn't working as expected? Here is the right place to report.
 
 > What browser are you working in?
 
-> What version of the IBM.com Library are you using?
+> What version of Carbon for IBM.com are you using?
 
 > What offering/product do you work on? Any pressing ship or release dates we
 > should be aware of?
