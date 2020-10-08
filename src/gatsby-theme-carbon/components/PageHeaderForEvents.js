@@ -30,15 +30,15 @@ const PageHeaderForEvents = ({ title, tabs = [], backgroundImages = [] }) => {
   let paddingLeft = '';
 
   if (isDesktop) {
-    paddingLeft = '6%';
+    paddingLeft = 'calc( 25% + 2rem)';
   }
 
   if (isXlg) {
-    paddingLeft = '9%';
+    paddingLeft = 'calc( 25% + 2rem)';
   }
 
   if (isMax) {
-    paddingLeft = '144px';
+    paddingLeft = '400px';
   }
 
   return (
@@ -48,7 +48,7 @@ const PageHeaderForEvents = ({ title, tabs = [], backgroundImages = [] }) => {
         backgroundSize: 'cover',
         backgroundPosition: 'center top',
         backgroundRepeat: 'no-repeat',
-        paddingLeft: isDesktop ? '256px' : '0',
+        xmarginLeft: isDesktop ? '256px' : '0',
         '--height': '24rem',
       }}
       className={cx(pageHeader, { [withTabs]: tabs.length })}
