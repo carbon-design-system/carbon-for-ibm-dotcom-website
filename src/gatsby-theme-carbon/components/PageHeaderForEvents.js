@@ -46,7 +46,7 @@ const PageHeaderForEvents = ({ title, tabs = [], backgroundImages = [] }) => {
       style={{
         backgroundImage,
         backgroundSize: 'cover',
-        backgroundPosition: 'center center',
+        backgroundPosition: 'center top',
         backgroundRepeat: 'no-repeat',
         marginLeft: isDesktop ? '256px' : '0',
         '--height': '24rem',

@@ -11,7 +11,7 @@ import NextPrevious from 'gatsby-theme-carbon/src/components/NextPrevious';
 import PageTabs from 'gatsby-theme-carbon/src/components/PageTabs';
 import Main from 'gatsby-theme-carbon/src/components/Main';
 
-import mobile from './../../pages/events/summit-2020/images/lead-space--mobile.png';
+import mobile from './../../pages/events/summit-2020/images/lead-space--mobile-4.jpg';
 import desktop from './../../pages/events/summit-2020/images/lead-space--desktop-4.jpg'
 
 const bgImages = [mobile,desktop];
