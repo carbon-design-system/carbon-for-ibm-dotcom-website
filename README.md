@@ -7,10 +7,10 @@ This is the Carbon for IBM.com website, which includes documentation and guideli
 This is based on the [Gatsby Theme from Carbon](https://gatsby-theme-carbon.now.sh/).
 
 ## Contributing
-If you are a publisher and would like to make content changes, you can read more about how to contribute at [Contributing](https://github.com/carbon-design-system/ibm-dotcom-librarywebsite/blob/master/.github/CONTRIBUTING.md)
+If you are a publisher and would like to make content changes, you can read more about how to contribute at [Contributing](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/blob/master/.github/CONTRIBUTING.md)
 
 ## Publishing
-Changes are currently auto-published to https://www.ibm.com/standards/web/ibm-dotcom-library once changes are merged back to the `master` branch. Previews can also be viewed once a pull request is created.
+Changes are currently auto-published to https://www.ibm.com/standards/web/carbon-for-ibm-dotcom once changes are merged back to the `master` branch. Previews can also be viewed once a pull request is created.
 
 ## Resources
 

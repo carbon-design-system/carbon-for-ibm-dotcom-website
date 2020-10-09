@@ -13,10 +13,10 @@ module.exports = {
     {
       resolve: 'gatsby-theme-carbon',
       options: {
-        name: 'IBM.com Library',
-        short_name: 'IBM.com Library',
+        name: 'Carbon for IBM.com',
+        short_name: 'Carbon for IBM.com',
         repository: {
-          baseUrl: 'https://github.com/carbon-design-system/ibm-dotcom-library-website',
+          baseUrl: 'https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website',
           subDirectory: '',
         },
       },
