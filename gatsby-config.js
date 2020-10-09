@@ -5,8 +5,8 @@ require("dotenv").config({
 module.exports = {
   pathPrefix: process.env.PATH_PREFIX || "/",
   siteMetadata: {
-    title: 'IBM.com Library',
-    description: 'This is the IBM.com Library website, which includes documentation and guidelines around design and development for IBM.com',
+    title: 'Carbon for IBM.com',
+    description: 'This is the Carbon for IBM.com website, which includes documentation and guidelines around design and development for IBM.com',
     keywords: 'gatsby,theme,carbon,ibm',
   },
   plugins: [
