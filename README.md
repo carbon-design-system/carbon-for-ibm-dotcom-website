@@ -1,8 +1,8 @@
 <h1 align="center">
-  IBM.com Library Website
+  Carbon for IBM.com Website
 </h1>
 
-This is the IBM.com Library website, which includes documentation and guidelines around design and development for IBM.com.
+This is the Carbon for IBM.com website, which includes documentation and guidelines around design and development for IBM.com.
 
 This is based on the [Gatsby Theme from Carbon](https://gatsby-theme-carbon.now.sh/).
 
