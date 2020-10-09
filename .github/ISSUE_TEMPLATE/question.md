@@ -1,6 +1,6 @@
 ---
 name: Question 🤔
-about: Usage question or discussion about the IBM.com Library.
+about: Usage question or discussion about Carbon for IBM.com.
 ---
 
 <!--
@@ -12,7 +12,7 @@ share a couple resources that you could use if you haven't tried them yet 🙂.
 If you're an IBMer, we have a couple of Slack channels available across all IBM
 Workspaces:
 
-- #ibm-digital-design for questions about the IBM.com Library
+- #ibm-digital-design for questions about Carbon for IBM.com
 - #carbon-design-system for questions about the Design System
 - #carbon-components for questions about component styles
 
