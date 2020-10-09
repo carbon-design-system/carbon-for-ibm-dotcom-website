@@ -14,7 +14,7 @@ const CustomFooter = () => {
     <>
       <p>
         Have questions? Open an issue in{" "}
-        <a href="https://github.com/carbon-design-system/ibm-dotcom-library-website/issues/new/choose">
+        <a href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/issues/new/choose">
           Github
         </a>
         .

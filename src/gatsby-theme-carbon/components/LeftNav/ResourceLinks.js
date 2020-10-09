@@ -4,7 +4,7 @@ import ResourceLinks from "gatsby-theme-carbon/src/components/LeftNav/ResourceLi
 const links = [
   {
     title: "Github",
-    href: "https://github.com/carbon-design-system/ibm-dotcom-library",
+    href: "https://github.com/carbon-design-system/carbon-for-ibm-dotcom",
   },
   {
     title: "IBM.com Web Standards",

@@ -1,9 +1,9 @@
 ---
 applications:
-  - name: ibm-dotcom-library
+  - name: carbon-for-ibm-dotcom
     path: ./public
     memory: 64M
     buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
     routes:
-      - route: ibm-dotcom-library.mybluemix.net
+      - route: carbon-for-ibm-dotcom.mybluemix.net
 
