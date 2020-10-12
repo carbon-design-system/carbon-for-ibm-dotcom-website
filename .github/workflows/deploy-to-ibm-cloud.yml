@@ -16,8 +16,6 @@ jobs:
           node-version: '12.x'
       - name: Install dependencies
         run: yarn install
-      - name: Build project
-        run: yarn build
       - name: Set env vars
         uses: ./.github/actions/set-dotenv
         with:
@@ -33,5 +31,5 @@ jobs:
           cf-org: ibm-digital-design
           cf-space: ibmdotcom-production
           cf-region: us-south
-          cf-app: ibmdotcom-react-canary
+          cf-app: carbon-for-ibm-dotcom
           cf-manifest: manifest.yml
