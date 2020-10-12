@@ -139,7 +139,7 @@
 #      path: /contributions/bugs-requests
 #    - title: Documentation
 #      path: /contributions/documentation
-   - title: Components
+    - title: Components
       path: /contributions/components
 #    - title: Patterns
 #      path: /contributions/patterns
