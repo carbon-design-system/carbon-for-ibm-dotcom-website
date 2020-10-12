@@ -133,15 +133,14 @@
 
 - title: Contributions
   pages:
-    - path: /contributions
-#    - title: Overview
-#      path: /contributions
+    - title: Overview
+      path: /contributions
 #    - title: Bugs & requests
 #      path: /contributions/bugs-requests
 #    - title: Documentation
 #      path: /contributions/documentation
-#    - title: Components
-#      path: /contributions/components
+   - title: Components
+      path: /contributions/components
 #    - title: Patterns
 #      path: /contributions/patterns
 #    - title: Add-ons

@@ -1,4 +1,93 @@
 ---
-title: Page Title
-description: Lorem Ipsum
+title: Components
+description:
+  Component contributions can take several forms. Most are either component
+  enhancements or brand new assets.
 ---
+
+
+<PageDescription>
+
+
+Component contributions can take several forms. Most are either component
+enhancements or brand new assets.
+
+
+</PageDescription>
+
+
+<AnchorLinks>
+  <AnchorLink>First steps to contributing</AnchorLink>
+  <AnchorLink>Documentation requirements</AnchorLink>
+  <AnchorLink>Parts of a component contribution</AnchorLink>
+</AnchorLinks>
+
+
+## First steps to contributing
+
+
+To contribute a component to Carbon for IBM.com, Start by opening a <a href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/new/choose" target="_blank">Github issue</a> and select Feature Request.
+
+Include a detailed description in which you:
+- Explain the rationale
+- Detail the intended behavior
+- Clarify whether it's a variation of an existing component, or a new asset
+- Include mockups of any fidelity (optional)
+- Include any inspirations from other products (optional)
+
+
+## Documentation requirements
+
+Our component usage documentation typically contains the definition of the component, a visual reference of what the component and its variations look like (if any), design, and function specifications.
+
+
+## Parts of a component contribution
+
+Component contributions ideally include all of the following parts.
+
+#### 1. A rationale
+
+Explain how your component will add value to the system. Carbon for IBM.com serves the
+widest possible range of IBM.com needs, and contributions that increase the scope of
+the system are more likely to be accepted. Be sure to include any user
+experience and interaction descriptions.
+
+#### 2. A design spec
+
+Create sizing and styling annotations for all aspects of the component. This
+spec should provide a developer with everything they need to create the design
+in code. Check out Carbon's <a href="https://github.com/carbon-design-system/carbon-website/wiki/Production-guidelines#spec-guidelines" target="_blank">production guidelines</a>
+to get started.
+
+You should include color tokens and type tokens used.
+
+<Row>
+<Column colLg={8}>
+
+![Example of a design spec](images/contributions/content-switcher-style-1.png)
+
+<Caption>Example of a design spec</Caption>
+
+</Column>
+</Row>
+
+#### 3. A Sketch symbol
+
+Any new components or changes to existing components will also live in the
+[Carbon for IBM.com kit](https://www.ibm.com/standards/web/carbon-for-ibm-dotcom/get-started/designing#get-the-kit) and so we'll need a Sketch symbol.
+Check out <a href="https://www.sketch.com/docs/symbols/creating-symbols/" target="_blank">Sketch's guide</a> for creating a symbol.
+
+This symbol can be contributed with the asset or enhancement, but must be added
+to the kit by one of its maintainers. To contribute a symbol, simply open an
+issue in the
+[kit repo](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-design-kit/issues/new?assignees=oliviaflory&template=bug-report.md&title=%5BDesign+kit%5D%3A+Brief+description).
+
+#### 4. Usage documentation
+
+For guidance, see our Documentation requirements section above or reach out to us on <a href="https://ibm-studios.slack.com/archives/C2PLX8GQ6" target="_blank">#ibm-digital-design</a>.
+
+#### 5. Working code
+
+The component or enhancement must be built in one of our supported frameworks
+(React and Web Components). See the [Developer guide](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/blob/master/docs/developing.md) for detail.
+
