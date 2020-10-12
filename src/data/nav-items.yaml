@@ -10,8 +10,28 @@
   pages:
     - title: Overview
       path: /guidelines
+    - title: Right-to-left language
+      path: /guidelines/right-to-left
+#    - title: Frameworks
+#      path: /guidelines/frameworks
+#    - title: Icons
+#      path: /guidelines/icons
+#    - title: Infographics
+#      path: /guidelines/infographics
+#    - title: Layout
+#      path: /guidelines/layout
+#    - title: Photography
+#      path: /guidelines/photography
+#    - title: Social & sharing
+#      path: /guidelines/social-sharing
+#    - title: Themes
+#      path: /guidelines/themes
+#    - title: Type
+#      path: /guidelines/type
     - title: Expressive Theme
       path: /guidelines/expressive-theme
+    - title: Style models
+      path: /guidelines/style-models/overview
     - title: Layout
       path: /guidelines/layout
 
@@ -135,8 +155,8 @@
 #      path: /resources/design-kit
 #    - title: Drupal
 #      path: /resources/drupal
-#    - title: IBM.com Library
-#      path: /resources/ibm-dotcom-library
+#    - title: Carbon for IBM.com
+#      path: /resources/carbon-for-ibm-dotcom
 #    - title: Research
 #      path: /resources/research
 #    - title: Repositories

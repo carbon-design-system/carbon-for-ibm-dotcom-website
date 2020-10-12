@@ -28,7 +28,7 @@ fit within the scope of any of the existing doc fix projects.
 
 ### Setup (light content changes in Github)
 
-1. Go to the [pages folder](https://github.com/carbon-design-system/ibm-dotcom-library-website/tree/master/src/pages) and 
+1. Go to the [pages folder](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/tree/master/src/pages) and 
    begin making the desired edits by clicking the "Edit" icon in the upper right, or `Create new file` to create a new
    page.
 
@@ -39,15 +39,15 @@ fit within the scope of any of the existing doc fix projects.
 ### Setup (larger content changes)
 
 1. Fork the project by navigating to the main
-   [repository](https://github.com/carbon-design-system/ibm-dotcom-library-website/) and
+   [repository](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/) and
    clicking the **Fork** button on the top-right corner.
 
 2. Navigate to your forked repository and copy the **SSH url**. Clone your fork
    by running the following in your terminal:
 
    ```
-   $ git clone git@github.com:{ YOUR_USERNAME }/ibm-dotcom-library-website.git
-   $ cd ibm-dotcom-library-website
+   $ git clone git@github.com:{ YOUR_USERNAME }/carbon-for-ibm-dotcom-website.git
+   $ cd carbon-for-ibm-dotcom-website
    ```
 
    See [GitHub docs](https://help.github.com/articles/fork-a-repo/) for more
@@ -55,10 +55,10 @@ fit within the scope of any of the existing doc fix projects.
 
 3. Once cloned, you will see `origin` as your default remote, pointing to your
    personal forked repository. Add a remote named `upstream` pointing to the
-   main `ibm-dotcom-library-website`:
+   main `carbon-for-ibm-dotcom-website`:
 
    ```
-   $ git remote add upstream git@github.com:carbon-design-system/ibm-dotcom-library-website.git
+   $ git remote add upstream git@github.com:carbon-design-system/carbon-for-ibm-dotcom-website.git
    $ git remote -v
    ```
 
@@ -129,7 +129,7 @@ features, by not reporting duplicate issues.
    ```
 
 8. In Github, navigate to
-   [carbon-design-system/ibm-dotcom-library](https://github.com/carbon-design-system/ibm-dotcom-library/)
+   [carbon-design-system/carbon-for-ibm-dotcom](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/)
    and click the button that reads "Compare & pull request".
 
 9. Write a title and description, then click "Create pull request".
