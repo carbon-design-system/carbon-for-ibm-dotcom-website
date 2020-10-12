@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-starter-carbon-theme",
+  "name": "carbon-for-ibm-dotcom-website",
   "version": "1.0.0",
   "license": "Apache-2.0",
   "scripts": {
@@ -12,6 +12,7 @@
     "build:analyze": "ANALYZE=true yarn build"
   },
   "dependencies": {
+    "@actions/core": "^1.2.6",
     "carbon-components-react": "^7.20.0",
     "dotenv": "^8.2.0",
     "gatsby": "^2.19.0",

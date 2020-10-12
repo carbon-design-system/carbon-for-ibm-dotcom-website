@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { withPrefix } from "gatsby";
 import Footer from "gatsby-theme-carbon/src/components/Footer";
 
 /**
@@ -33,7 +34,7 @@ const CustomFooter = () => {
    */
   const links = {
     firstCol: [
-      { href: "/contributions", linkText: "Contribute" },
+      { href: withPrefix("/contributions"), linkText: "Contribute" },
       { href: "https://www.ibm.com/privacy", linkText: "Privacy" },
       { href: "https://www.ibm.com/legal", linkText: "Terms of use" },
       { href: "https://ibm.com", linkText: "IBM.com" },
