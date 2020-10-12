@@ -31,5 +31,5 @@ jobs:
           cf-org: ibm-digital-design
           cf-space: ibmdotcom-production
           cf-region: us-south
-          cf-app: ibmdotcom-react-canary
+          cf-app: carbon-for-ibm-dotcom
           cf-manifest: manifest.yml
