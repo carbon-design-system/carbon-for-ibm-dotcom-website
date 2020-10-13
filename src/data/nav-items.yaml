@@ -141,8 +141,8 @@
 #      path: /contributions/documentation
     - title: Components
       path: /contributions/components
-#    - title: Patterns
-#      path: /contributions/patterns
+    - title: Patterns
+      path: /contributions/patterns
 #    - title: Add-ons
 #      path: /contributions/add-ons
 - title: Resources
