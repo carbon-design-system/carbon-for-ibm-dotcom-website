@@ -134,7 +134,7 @@
 - title: Contributions
   pages:
     - title: Overview
-      path: /contributions
+      path: /contributions/overview
 #    - title: Bugs & requests
 #      path: /contributions/bugs-requests
 #    - title: Documentation
