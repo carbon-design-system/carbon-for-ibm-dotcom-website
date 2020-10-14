@@ -58,7 +58,7 @@ const PageHeaderForEvents = ({ title, tabs = [], backgroundImages = [] }) => {
           <div className="bx--col-lg-6">
             <h1
               style={{
-                fontWeight: '400',
+                fontWeight: '300',
                 textShadow: '2px 2px 2px rgba(0,0,0,0.4)',
               }}
               id="page-title"
