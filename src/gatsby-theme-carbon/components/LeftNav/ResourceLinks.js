@@ -12,7 +12,7 @@ const links = [
   },
   {
     title: "Design Kit",
-    href: "https://www.ibm.com/standards/web/carbon-for-ibm-dotcom/get-started/designing/#get-the-kit",
+    href: "/get-started/designing/#get-the-kit",
   },
 ];
 
