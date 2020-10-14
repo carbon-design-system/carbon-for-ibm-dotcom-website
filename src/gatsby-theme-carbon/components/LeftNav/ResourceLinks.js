@@ -12,7 +12,7 @@ const links = [
   },
   {
     title: "Design Kit",
-    href: "/resources#ibm.com-library",
+    href: "/get-started/designing/#get-the-kit",
   },
 ];
 
