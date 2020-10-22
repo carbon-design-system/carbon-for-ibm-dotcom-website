@@ -1,0 +1,84 @@
+.layout :global {
+  .bx--header {
+    top: 2rem;
+  }
+  [class*='leftNavWrapper'] {
+    top: 2rem;
+  }
+  [class*='Switcher-module--nav'] {
+    top: 5rem;
+  }
+  [class*='PageTabs-module--tabs-container'] {
+    top: 5rem;
+  }
+  [class*='filter-row'] {
+    top: 9rem;
+  }
+  .color-token-table .bx--sticky-container-visible {
+    top: 9rem;
+  }
+}
+
+.layout-no-banner :global {
+  .bx--header {
+    top: 0;
+  }
+  [class*='leftNavWrapper'] {
+    top: 0;
+    // Prevents left nav jitter on page change
+    transition: none;
+  }
+  [class*='Switcher-module--nav'] {
+    top: 3rem;
+  }
+  [class*='PageTabs-module--tabs-container'] {
+    top: 3rem;
+  }
+  [class*='filter-row'] {
+    top: 7rem;
+  }
+  .color-token-table .bx--sticky-container-visible {
+    top: 7rem;
+  }
+  .bx--typeset-style-container .bx--sticky-container-visible {
+    top: 4rem;
+  }
+}
+
+.banner {
+  @include carbon--type-style('heading-01');
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: z('floating');
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 32px;
+  padding-left: $spacing-05;
+  color: $text-04;
+  background: $ibm-color__cyan-80;
+}
+
+.banner-text {
+  display: inline-flex;
+  align-items: center;
+}
+
+.banner-icon {
+  margin-right: $spacing-05;
+}
+
+.banner-close,
+.banner-close:hover {
+  background: $ibm-color__gray-100;
+}
+
+.banner-close svg {
+  margin-left: $spacing-05;
+}
+
+.banner a {
+  color: $text-04;
+  @include carbon--type-style('body-short-01');
+}
