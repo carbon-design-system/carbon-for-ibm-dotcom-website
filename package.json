@@ -16,7 +16,8 @@
     "carbon-components-react": "^7.20.0",
     "dotenv": "^8.2.0",
     "gatsby": "^2.19.0",
-    "gatsby-theme-carbon": "^1.26.11",
+    "gatsby-plugin-mdx": "^1.2.52",
+    "gatsby-theme-carbon": "1.27.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
