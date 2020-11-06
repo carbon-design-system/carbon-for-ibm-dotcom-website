@@ -1,39 +1,38 @@
-- title: Get started
+- title: All about Carbon for IBM.com
   pages:
-    - title: Overview
-      path: /get-started
-    - title: Designing
-      path: /get-started/designing
-    - title: Coding
-      path: /get-started/coding
+    - path: /about
+- title: Designing
+  pages:
+    - path: /designing
+- title: Developing
+  pages:
+    - path: /developing
 - title: Guidelines
   pages:
     - title: Overview
       path: /guidelines
     - title: Right-to-left language
       path: /guidelines/right-to-left
-#    - title: Frameworks
-#      path: /guidelines/frameworks
-#    - title: Icons
-#      path: /guidelines/icons
-#    - title: Infographics
-#      path: /guidelines/infographics
 #    - title: Layout
 #      path: /guidelines/layout
-#    - title: Photography
-#      path: /guidelines/photography
-#    - title: Social & sharing
-#      path: /guidelines/social-sharing
-#    - title: Themes
-#      path: /guidelines/themes
-#    - title: Type
-#      path: /guidelines/type
     - title: Expressive Theme
       path: /guidelines/expressive-theme
     - title: Style models
       path: /guidelines/style-models/overview
     - title: Layout
       path: /guidelines/layout
+
+- title: Contributions
+  pages:
+    - title: Overview
+      path: /contributions/overview
+    - title: Documentation
+      path: /contributions/documentation
+    - title: Components
+      path: /contributions/components
+    - title: Patterns
+      path: /contributions/patterns
+  hasDivider: true
 
 - title: Components
   pages:
@@ -131,37 +130,10 @@
     - title: In-page navigation
       path: /patterns/in-page-navigation
 
-- title: Contributions
-  pages:
-    - title: Overview
-      path: /contributions/overview
-#    - title: Bugs & requests
-#      path: /contributions/bugs-requests
-    - title: Documentation
-      path: /contributions/documentation
-    - title: Components
-      path: /contributions/components
-    - title: Patterns
-      path: /contributions/patterns
-#    - title: Add-ons
-#      path: /contributions/add-ons
 - title: Resources
   pages:
     - path: /resources
-#    - title: Overview
-#      path: /resources
-#    - title: Design kit
-#      path: /resources/design-kit
-#    - title: Drupal
-#      path: /resources/drupal
-#    - title: Carbon for IBM.com
-#      path: /resources/carbon-for-ibm-dotcom
-#    - title: Research
-#      path: /resources/research
-#    - title: Repositories
-#      path: /resources/repositories
-#    - title: Starter Kit
-#      path: /resources/starter-kit
+
 - title: Help
   pages:
     - title: Overview

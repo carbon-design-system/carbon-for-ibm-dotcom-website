@@ -38,7 +38,7 @@ const FirstCalloutText = () => (
 );
 
 const FirstCalloutLink = () => (
-  <Link to="/get-started" className={calloutLink}>
+  <Link to="/about" className={calloutLink}>
     Start with overview →
   </Link>
 );
