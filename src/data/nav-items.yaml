@@ -7,32 +7,33 @@
 - title: Developing
   pages:
     - path: /developing
+
+- title: Contributing
+  pages:
+    - title: Overview
+      path: /contributing/overview
+    - title: Documentation
+      path: /contributions/documentation
+    - title: Components
+      path: /contributing/components
+    - title: Patterns
+      path: /contributing/patterns
+  hasDivider: true
+
 - title: Guidelines
   pages:
     - title: Overview
       path: /guidelines
     - title: Right-to-left language
       path: /guidelines/right-to-left
-#    - title: Layout
-#      path: /guidelines/layout
+    #    - title: Layout
+    #      path: /guidelines/layout
     - title: Expressive Theme
       path: /guidelines/expressive-theme
     - title: Style models
       path: /guidelines/style-models/overview
     - title: Layout
       path: /guidelines/layout
-
-- title: Contributions
-  pages:
-    - title: Overview
-      path: /contributions/overview
-    - title: Documentation
-      path: /contributions/documentation
-    - title: Components
-      path: /contributions/components
-    - title: Patterns
-      path: /contributions/patterns
-  hasDivider: true
 
 - title: Components
   pages:
