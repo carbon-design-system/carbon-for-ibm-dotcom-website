@@ -49,8 +49,8 @@
       path: /components/callout-with-media
     - title: Card
       path: /components/card
-    #- title: Card Group
-    #  path: /components/card-group
+    - title: Carousel
+      path: /components/carousel
     - title: Card link
       path: /components/card-link
     - title: Card section
