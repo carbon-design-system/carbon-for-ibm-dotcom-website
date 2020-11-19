@@ -1069,7 +1069,7 @@
       }
     },
     "Carousel": {
-      "url": "./card-link",
+      "url": "./carousel",
       "description": "The card link component is a CTA styled like a card that acts as the main CTA for a section of content, it typically appears at the end of a block-pattern.",
       "storybook": {
         "webcomponents": "",
