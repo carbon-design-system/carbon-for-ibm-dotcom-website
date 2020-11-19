@@ -139,8 +139,8 @@
       path: /contributions/overview
 #    - title: Bugs & requests
 #      path: /contributions/bugs-requests
-#    - title: Documentation
-#      path: /contributions/documentation
+    - title: Documentation
+      path: /contributions/documentation
     - title: Components
       path: /contributions/components
     - title: Patterns
