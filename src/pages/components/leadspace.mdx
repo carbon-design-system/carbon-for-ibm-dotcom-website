@@ -17,15 +17,14 @@ For detailed guidelines around the general lead space pattern, please see the [L
 
 <AnchorLink>Lead space left-aligned</AnchorLink>
 <AnchorLink>Lead space centered</AnchorLink>
-<AnchorLink>Development documentation</AnchorLink>
-<AnchorLink>Anatomy</AnchorLink>
 <AnchorLink>Usage guidance</AnchorLink>
 <AnchorLink>Color themes</AnchorLink>
 <AnchorLink>Left-aligned style options</AnchorLink>
-<AnchorLink>Pattern in use</AnchorLink>
+<AnchorLink>Design and functional specifications</AnchorLink>
+<AnchorLink>Development documentation</AnchorLink>
 <AnchorLink>Resources</AnchorLink>
 <AnchorLink>References</AnchorLink>
-<AnchorLink>Metadata</AnchorLink>
+<AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
 
@@ -39,10 +38,6 @@ This option has 4 empty columns on the left and right to accommodate pages that 
 
 ![Lead space centered](../../images/pattern/leadspace/Leadspace_Demo_LeftAligned.jpg)
 
-
-## Development documentation
-
-<ComponentStatus name="Lead space" type="layout" />
 
 ## Usage guidance
 
@@ -66,13 +61,13 @@ There are two color themes to choose from when using Lead space:
 
 ### Content guidance
 
-| Field | Required   | Max character size     |
+| Field | Required   | Max character size (English / translated)     |
 | -------- | --------- | ---------- | 
-| Headline | Yes   | XS <div>&nbsp;&nbsp;&nbsp;&ndash;&nbsp;&nbsp;65 English</div><br /><div>&nbsp;&nbsp;&nbsp;&ndash;&nbsp;&nbsp;85 Translation</div>|
-| Short copy  | No     | M <div>&nbsp;&nbsp;&nbsp;&ndash;&nbsp;&nbsp;120 English</div><br /><div>&nbsp;&nbsp;&nbsp;&ndash;&nbsp;&nbsp;150 Translation</div> |
-| Secondary call to action  | No     | M <div>&nbsp;&nbsp;&nbsp;&ndash;&nbsp;&nbsp;120 English</div><br /><div>&nbsp;&nbsp;&nbsp;&ndash;&nbsp;&nbsp;150 Translation</div> |
+| Headline | Yes   | XS (65 / 85)|
+| Short copy  | No     | M (120 / 150) |
+| Secondary call to action  | No     | M (120 / 150) |
 | Primary call to action  | No     | XXS    |
-| Background image  | Yes<br/> <br/><div style="max-width: 200px">_Note: each breakpoint requires a different image scaled to the following sizes:_</div><br/><div>&nbsp;&nbsp;&nbsp;&ndash;&nbsp;&nbsp;mobile: 320 X 370</div><br /><div>&nbsp;&nbsp;&nbsp;&ndash;&nbsp;&nbsp;tablet: 672 X 400</div><br /><div>&nbsp;&nbsp;&nbsp;&ndash;&nbsp;&nbsp;desktop: 1056 X 480</div>     |    |
+| Background image  | Yes<br/> <br/><div style="max-width: 200px">_Note: each breakpoint requires a different image.</div>|    |
 
 ### Type styles
 There are two expressive type styles to choose from when using Lead space left-aligned:
@@ -100,7 +95,7 @@ There are two expressive type styles to choose from when using Lead space left-a
 1. **Short copy:** *optional, type: $expressive-heading-03, color: $text-01, width: 95% of container (4 columns)
 1. **Button group:** Use the button group component
 1. **Gradient stop:** color: black (#000000), opacity: 75%, linear: left to right, width: 50% of total container width
-1. **Background image:** *optional, width: 100% of container for all breakpoints, size: (mobile: 320 X 370), (tablet: 672 X 400), (desktop: 1056 X 480)
+1. **Background image:** *optional, width: 100% of container for all breakpoints. For detailed guidelines, visit [the imagery section on the Lead space pattern page](/patterns/lead-space#imagery).
 
 <br/>
 <br/>
@@ -115,7 +110,7 @@ There are two expressive type styles to choose from when using Lead space left-a
 1. **Short copy:** *optional, type: $expressive-heading-03, color: $text-01, width: 95% of container (4 columns)
 1. **Button group:** Use the button group component
 1. **Gradient stop:** color: black (#000000), opacity: 75%, linear: left to right, width: 50% of total container width
-1. **Background image:** *optional, width: 100% of container for all breakpoints, size: (mobile: 320 X 370), (tablet: 672 X 400), (desktop: 1056 X 480)
+1. **Background image:** *optional, width: 100% of container for all breakpoints. For detailed guidelines, visit [the imagery section on the Lead space pattern page](/patterns/lead-space#imagery).
 
 <br/>
 <br/>
@@ -144,28 +139,6 @@ There are two expressive type styles to choose from when using Lead space left-a
 1. **Button group:** Use the button group component
 1. **Gradient stop:** color: black (#000000), opacity: 50%, on mobile, gradient overlays the entire image
 1. **Background image:** *optional, width: 100% of container, size: 320 X 370
-
-<br/>
-
-## Pattern in use
-
-![Lead space left-aligned used to introduce a visitor to Watson and it's usage across platforms.](../../images/pattern/leadspace/Leadspace_PatternInUse_1.jpg)
-<Caption>Lead space left-aligned used to introduce a visitor to Watson and it's usage across platforms.</Caption>
-
-<br/>
-
-![Lead space left-aligned used to orient a visitor around Watson's primary offering.](../../images/pattern/leadspace/Leadspace_PatternInUse_2.jpg)
-<Caption>Lead space left-aligned used to introduce a visitor to Watson and it's usage across platforms. </Caption>
-
-<br/>
-
-![Lead space left-aligned used by IBM Cloud for a high-level introduction. ](../../images/pattern/leadspace/Leadspace_PatternInUse_3.jpg)
-<Caption>Lead space left-aligned used by IBM Cloud for a high-level introduction. </Caption>
-
-<br/>
-
-![Lead space centered used for a Learn page template. There are no CTAs used here.](../../images/pattern/leadspace/Leadspace_PatternInUse_4.jpg)
-<Caption>Lead space centered used for a Learn page template. There are no CTAs used here.</Caption>
 
 ## Design and functional specifications
 
@@ -201,12 +174,17 @@ The design specs and functional specs for Link list can be viewed <a href="https
 * View A/B testing for Lead space video [here](https://lux.w3ibm.mybluemix.net/library/research/71/).
 * View A/B testing for buttons vs text [here](https://lux.w3ibm.mybluemix.net/library/research/2/).
 
+<!-- Hiding since this information is duplicative of the dev docs on storybook.
+
 ### Developer notes
 When viewing the [LeadSpace stories](https://ibmdotcom-patterns-react-experimental.mybluemix.net/?path=/story/leadspace--default-with-image), the knobs to toggle the buttons’ aspects are different for each story due to storybook knob limitations. In the no image story, button text and links can be modified or buttons can be removed entirely by setting the "buttons" knob to an empty array `[ ]`. Notice when editing the “renderIcon” field, the button icons do not reload hence in the image story, there are dropdown selectors to toggle the button icons. When using the LeadSpace, please follow the button structure in the no image story.
 
 For further developer guidance view the LeadSpace README.md [here](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/blob/master/packages/react/src/patterns/sections/LeadSpace/README.md).
 
-<!--
+-->
+
+<!-- Hiding since this information is duplicative and does not fit in the content model for other pages
+
 ## Metadata 
 * Components: [Button](https://www.carbondesignsystem.com/components/button/code/)
 * Elements: [Photography](https://www.ibm.com/design/language/elements/photography/overview/)
