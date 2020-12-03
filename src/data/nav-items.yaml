@@ -124,6 +124,8 @@
   pages:
     - title: Overview
       path: /patterns
+    - title: Lead space
+      path: /patterns/lead-space
     - title: Call-to-action
       path: /patterns/call-to-action
     - title: Cards
