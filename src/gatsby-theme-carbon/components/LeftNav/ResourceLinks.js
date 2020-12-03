@@ -12,7 +12,7 @@ const links = [
   },
   {
     title: "Design Kit",
-    href: "/get-started/designing/#get-the-kit",
+    href: "/designing/#get-the-kit",
   },
 ];
 
