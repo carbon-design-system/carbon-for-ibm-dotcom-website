@@ -678,6 +678,32 @@
         "notAvailable": false
       }
     },
+        "Card section - carousel": {
+      "url": "./cta-section",
+      "description": "The Card section – carousel is an exploratory component, meaning it allows users to browse or explore multiple pieces of content within the same area of the page.",
+      "storybook": {
+        "webcomponents": "",
+        "react": ""
+      },
+      "webcomponents": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": true,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": true,
+        "notAvailable": false
+      }
+    },
     "Content block - with cards": {
       "url": "./content-block-with-cards",
       "description": "Content block – with cards is used to present small self-contained pieces of information as cards.",
