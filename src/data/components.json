@@ -52,32 +52,6 @@
         "notAvailable": false
       }
     },
-    "Callout": {
-      "url": "./callout",
-      "description": "The call out component is a word identifying a specific part of the content. It usually includes a key excerpt or detail to help an audience get to the key information right away.",
-      "storybook": {
-        "webcomponents": "",
-        "react": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-callout--simple-example"
-      },
-      "webcomponents": {
-        "stable": false,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": true,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
     "Card": {
       "url": "./card",
       "description": "The card component uses Carbon's Clickable Tile component while presenting content in a concise and readable style.",
@@ -316,7 +290,7 @@
       "url": "./image",
       "description": "The image component is used as the primary way of embedding images on pages.",
       "storybook": {
-        "webcomponents": "",
+        "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-image--default",
         "react": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-image--default"
       },
       "webcomponents": {
@@ -708,8 +682,8 @@
       "url": "./card-section",
       "description": "Card section is a collection of cards presented in a full-width section with a left-column header that responds to the grid.",
       "storybook": {
-        "webcomponents": "",
-        "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-cardsectionsimple--default"
+        "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-card-section-simple--default",
+        "react": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-cardsectionsimple--default"
       },
       "webcomponents": {
         "stable": true,
