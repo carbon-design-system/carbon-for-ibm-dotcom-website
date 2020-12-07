@@ -1068,6 +1068,32 @@
         "notAvailable": false
       }
     },
+    "Carousel": {
+      "url": "./carousel",
+      "description": "The card link component is a CTA styled like a card that acts as the main CTA for a section of content, it typically appears at the end of a block-pattern.",
+      "storybook": {
+        "webcomponents": "",
+        "react": ""
+      },
+      "webcomponents": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": true,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": true,
+        "notAvailable": false
+      }
+    },
     "Logo grid": {
       "url": "./logo-grid",
       "description": "Logo grid is used to present a group of client or partner logos. Currently the logos are not clickable.",
