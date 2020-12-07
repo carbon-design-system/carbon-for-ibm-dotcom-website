@@ -49,12 +49,16 @@
       path: /components/callout-with-media
     - title: Card
       path: /components/card
+    - title: Card group
+      path: /components/card-group
     - title: Card link
       path: /components/card-link
     - title: Card section
       path: /components/card-section
     - title: Card section – carousel
       path: /components/card-section-carousel
+    - title: Card section – with images
+      path: /components/card-section-images
     - title: Carousel
       path: /components/carousel
     - title: Content block – with media
