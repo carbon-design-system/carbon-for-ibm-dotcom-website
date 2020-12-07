@@ -105,7 +105,7 @@
       }
     },
     "Card section - with images": {
-      "url": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-cardsectionimages--default",
+      "url": "./card-section-images",
       "description": "Card section — with images is a collection of card components with images that, together, occupy a full-width section with a left-column header. It is typically used for presenting resources or links.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-card-section-images--default",
@@ -131,8 +131,8 @@
       }
     },
     "Card Group": {
-      "url": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-cardgroup--default",
-      "description": "The card group component is a collection of Card components that can be used in block and group -level patterns.",
+      "url": "./card-group",
+      "description": "The card group component is a collection of Card components that can be used in block and group-level patterns.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-card-group--default",
         "react": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-cardgroup--default"
@@ -965,7 +965,7 @@
       }
     },
     "Content item horizontal": {
-      "url": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-contentitemhorizontal--default",
+      "url": "./content-item-horizontal",
       "description": "Content item horizontal component displays information in a horizontal orientation.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-content-item-horizontal--default",
