@@ -39,10 +39,10 @@
   pages:
     - title: Overview
       path: /components/overview
-    #- title: Button Group
-    #  path: /components/button-group
-    #- title: Callout
-    #  path: /components/callout
+    - title: Button Group
+      path: /components/button-group
+    - title: Callout
+      path: /components/callout
     - title: Callout – quote
       path: /components/callout-quote
     - title: Callout – with media
@@ -55,6 +55,8 @@
       path: /components/card-section
     - title: Card section – carousel
       path: /components/card-section-carousel
+    - title: Carousel
+      path: /components/carousel
     - title: Content block – with media
       path: /components/content-block-media
     - title: Content block – segmented
@@ -71,14 +73,14 @@
       path: /components/content-group-simple
     - title: Content group – with cards
       path: /components/content-group-with-cards
-    #- title: Content item – horizontal
-    #  path: /components/content-item-horizontal
-    #- title: CTA
-    #  path: /components/cta
+    - title: Content item – horizontal
+      path: /components/content-item-horizontal
+    - title: CTA
+      path: /components/cta
     - title: CTA section
       path: /components/cta-section
-    #- title: Dotcom Shell
-    #  path: /components/dotcom-shell
+    - title: Dotcom Shell
+      path: /components/dotcom-shell
     - title: Expressive modal
       path: /components/expressive-modal
     - title: Feature card
@@ -89,16 +91,18 @@
       path: /components/footer
     - title: Horizontal rule
       path: /components/horizontal-rule
-    #- title: Image
-    #  path: /components/image
+    - title: Image
+      path: /components/image
     - title: Image with caption
       path: /components/image-with-caption
-    #- title: Layout
-    #  path: /components/layout
+    - title: Layout
+      path: /components/layout
     - title: Lead space
       path: /components/leadspace
     - title: Lead space – block
       path: /components/lead-space-block
+    - title: Leaving IBM
+      path: /components/leaving-ibm
     - title: Lightbox media viewer
       path: /components/lightbox-media-viewer
     - title: Link list
@@ -111,10 +115,10 @@
       path: /components/logo-grid
     - title: Masthead
       path: /components/masthead
-    #- title: Pictogram Item
-    #  path: /components/pictogram-item
-    #- title: Quote
-    #  path: /components/quote
+    - title: Pictogram Item
+      path: /components/pictogram-item
+    - title: Quote
+      path: /components/quote
     - title: Table of contents
       path: /components/table-of-contents
     - title: Video player
