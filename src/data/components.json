@@ -679,7 +679,7 @@
       }
     },
         "Card section - carousel": {
-      "url": "./cta-section",
+      "url": "./card-section-carousel/",
       "description": "The Card section – carousel is an exploratory component, meaning it allows users to browse or explore multiple pieces of content within the same area of the page.",
       "storybook": {
         "webcomponents": "",
