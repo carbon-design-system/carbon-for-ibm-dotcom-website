@@ -416,7 +416,7 @@
         "notAvailable": false
       }
     },
-    "Lightbox Media Viewer",: {
+    "Lightbox Media Viewer": {
       "url": "./lightbox-media-viewer",
       "description": "The lightbox media viewer component allows the user to view an image or video at a larger size within a modal.",
       "storybook": {
