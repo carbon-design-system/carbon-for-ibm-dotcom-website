@@ -49,12 +49,12 @@
       path: /components/callout-with-media
     - title: Card
       path: /components/card
-    - title: Card section – carousel
-      path: /components/card-section-carousel
     - title: Card link
       path: /components/card-link
     - title: Card section
       path: /components/card-section
+    - title: Card section – carousel
+      path: /components/card-section-carousel
     - title: Content block – with media
       path: /components/content-block-media
     - title: Content block – segmented
