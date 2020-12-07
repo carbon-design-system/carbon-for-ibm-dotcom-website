@@ -43,10 +43,10 @@
     #  path: /components/button-group
     #- title: Callout
     #  path: /components/callout
-    - title: Callout – quote
-      path: /components/callout-quote
     - title: Callout – with media
       path: /components/callout-with-media
+    - title: Callout – quote
+      path: /components/callout-quote
     - title: Card
       path: /components/card
     - title: Card link
@@ -55,22 +55,22 @@
       path: /components/card-section
     - title: Card section – carousel
       path: /components/card-section-carousel
+    - title: Content block – with cards
+      path: /components/content-block-with-cards
     - title: Content block – with media
       path: /components/content-block-media
     - title: Content block – segmented
       path: /components/content-block-segmented
     - title: Content block – simple
       path: /components/content-block-simple
-    - title: Content block – with cards
-      path: /components/content-block-with-cards
+    - title: Content group – with cards
+      path: /components/content-group-with-cards
     - title: Content group – horizontal
       path: /components/content-group-horizontal
     - title: Content group – with pictograms
       path: /components/content-group-pictograms
     - title: Content group – simple
       path: /components/content-group-simple
-    - title: Content group – with cards
-      path: /components/content-group-with-cards
     #- title: Content item – horizontal
     #  path: /components/content-item-horizontal
     #- title: CTA
@@ -124,14 +124,14 @@
   pages:
     - title: Overview
       path: /patterns
-    - title: Lead space
-      path: /patterns/lead-space
     - title: Call-to-action
       path: /patterns/call-to-action
     - title: Cards
       path: /patterns/cards
     - title: In-page navigation
       path: /patterns/in-page-navigation
+    - title: Lead space
+      path: /patterns/lead-space
 
 - title: Resources
   pages:
