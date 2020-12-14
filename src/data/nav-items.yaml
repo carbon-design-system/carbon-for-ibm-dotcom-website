@@ -81,7 +81,7 @@
       path: /components/cta
     - title: CTA section
       path: /components/cta-section
-    - title: Dotcom Shell
+    - title: Dotcom shell
       path: /components/dotcom-shell
     - title: Expressive modal
       path: /components/expressive-modal
