@@ -2,7 +2,6 @@
 /* eslint-disable global-require */
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'gatsby';
 import componentList from '../../data/components.json';
 
 /**

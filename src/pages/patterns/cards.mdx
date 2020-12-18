@@ -189,17 +189,37 @@ Cards often include an icon that indicates the behavior or direction in which th
 
 <Title>Icon position</Title>
 
-There are two options to consider when positioning an icon on a card:
+In general, the usual content flow which places the CTA as the last element applies to cards too.
 
-1. bottom-left, 16px from the edge 
+1. The default position: lower-left corner
 
-![Card link](../../images/pattern/cards/cards-icons-1.jpg)
+<Row>
+<Column colMd={8} colLg={8}>
 
-This is the default and most common option, recommended by Carbon for IBM.com. Having the icon in this position creates clear visual alignment with all text fields on the card.
+![Deffault icon position](./images/patterns--cards--default-icon-position-specs.png)
 
-2. bottom-right, 16px from the edge 
+</Column>
+</Row>
 
-![Card link](../../images/pattern/cards/cards-icons-2.jpg)
+2. When there are more than one icon, place the content elements in the counterclockwise order with the CTA icon as the last element.
+
+<Row>
+<Column colMd={8} colLg={8}>
+
+![Icon position should follow the content order in the counterclockwise direction](./images/patterns--cards--icon-position.png)
+
+</Column>
+</Row>
+
+3. For large cards used either in a group of small number or alone, depending on the design, the icon can be placed on in the lower-right corner.
+
+<Row>
+<Column colMd={8} colLg={8}>
+
+![Card link](./images/patterns--cards--large-card-icon-position.png)
+
+</Column>
+</Row>
 
 Less common but also effective, this option works best on single large cards such as the [Feature card.](..components/feature-card)
 
