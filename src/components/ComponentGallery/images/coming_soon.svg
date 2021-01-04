@@ -2,8 +2,8 @@
 <svg width="320px" height="320px" viewBox="0 0 320 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>coming_soon</title>
     <g id="coming_soon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="IBMPlexSans, IBM Plex Sans" font-size="14" font-weight="normal" line-spacing="18">
-        <text id="Coming-soon-Copy" fill="#ADADAD">
-            <tspan x="119" y="165">Coming soon</tspan>
+        <text id="Preview-image-coming" fill="#ADADAD">
+            <tspan x="73" y="165">Preview image coming soon</tspan>
         </text>
     </g>
 </svg>
