@@ -80,7 +80,7 @@
     },
     "Card section - with images": {
       "url": "./card-section-images",
-      "description": "Card section — with images is a collection of card components with images that, together, occupy a full-width section with a left-column header. It is typically used for presenting resources or links.",
+      "description": "Card section — with images is a collection of card components with images that, together, occupy a full-width section with a left-column header.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-card-section-images--default",
         "react": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-cardsectionimages--default"
