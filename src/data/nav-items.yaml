@@ -97,6 +97,8 @@
       path: /components/image
     - title: Image with caption
       path: /components/image-with-caption
+    - title: Language selector
+      path: /components/language-selector
     - title: Layout
       path: /components/layout
     - title: Lead space
