@@ -39,6 +39,8 @@
   pages:
     - title: Overview
       path: /components/overview
+    - title: Back to top
+      path: /components/back-to-top
     - title: Button Group
       path: /components/button-group
     - title: Callout – quote
