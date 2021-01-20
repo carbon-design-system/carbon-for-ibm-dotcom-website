@@ -573,7 +573,7 @@
         "notAvailable": false
       }
     },
-    "Pictogram Item": {
+    "Pictogram item": {
       "url": "./pictogram-item",
       "description": "The pictogram item component is used to communicate messages at a glance, afford interactivity, and simplify complex ideas.",
       "storybook": {
