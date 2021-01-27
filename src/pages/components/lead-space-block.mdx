@@ -12,6 +12,7 @@ import ComponentFeedback from 'components/ComponentFeedback';
 <AnchorLinks>
 
 <AnchorLink>Default</AnchorLink>
+<AnchorLink>Content guidance</AnchorLink>
 <AnchorLink>Design and functional specifications</AnchorLink>
 <AnchorLink>Development documentation</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
@@ -24,6 +25,18 @@ When designed and implemented effectively, the Lead space &mdash; block can be u
 It includes a headline, subheadline, supporting message, [Link list](https://ibmdotcom-react.mybluemix.net/?path=/story/components-linklist--default) and a call to action. There is also the option to add media in the form of an image or video.
 
 ![Default](../../images/pattern/lead-space-block/leadspace-block.jpg)
+
+## Content guidance
+
+| Field | Field Type | Required   | Cardinality | Max character size (English / translated)     |
+| -------- | --------- | ---------- | ---------- | ----------|
+| Headline | Short Copy | Yes   | 1 | XXS (40 / 55)|
+| TOC Headline Override  | Short Copy | No     | 1 | Mini (25 / 35) |
+| Sub-Headline  | Short Copy | Yes   | 1 | XS (65 / 85) |
+| Paragraph  | Long Copy | Yes     | 1 | XL (250 / 325)   |
+| Video or Informative Image | Media | No | 1 | - |
+| Link List (End of Section) | Component | No | 1 | - |
+| CTA (Button) | Component | No | 1 | - |
 
 ## Design and functional specifications
 
