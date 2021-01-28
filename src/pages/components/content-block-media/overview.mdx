@@ -1,0 +1,61 @@
+---
+title: Content block – with media
+description: Content block &mdash; with media is used to present information with images in a group setting.
+tabs: ['Overview', 'Use cases']
+---
+
+import { ComponentStatus } from 'components/ComponentList';
+import ComponentDescription from 'components/ComponentDescription';
+import ComponentFeedback from 'components/ComponentFeedback';
+
+<ComponentDescription name="Content block - with media" type="layout" />
+
+<AnchorLinks>
+
+<AnchorLink>Default</AnchorLink>
+<AnchorLink>Variations</AnchorLink>
+<AnchorLink>Content guidance</AnchorLink>
+<AnchorLink>Design and functional specifications</AnchorLink>
+<AnchorLink>Development documentation</AnchorLink>
+<AnchorLink>Feedback</AnchorLink>
+
+</AnchorLinks>
+
+## Default
+
+By default the Content block &mdash; with media starts with a brief overview before going into one or more detailed points. At strategic points it allows for an optional piece of media to support its content.
+
+![A visual of Content block &mdash; with media with its overview and supporting content.](/images/content-block-with-media.jpg)
+
+## Variations
+
+### With aside elements
+This variant is the same as the default version except that it allows for a list of related navigational items off to the side.
+
+![A visual of Content block &mdash; with media with optional navigational items off to the side.](/images/content-block-with-media-with-aside-elements.jpg)
+
+## Content guidance
+The content model below is the default model for the Content block - with media component. <br></br>For content models tied to specific use cases, please select the 'Use cases' tab at the top of the page or see them [here](https://www.ibm.com/standards/web/carbon-for-ibm-dotcom/components/content-block-media/use-cases).
+
+| Field | Field type | Required   | Cardinality | Max character size (English / translated)     |
+| -------- | --------- | ---------- | ---------- | ----------|
+| Headline | Short copy | Yes   | 1 | XXS (40 / 55)|
+| TOC headline override | Short copy | No     | 1 | Mini (25 / 35) |
+| Paragraph  | Long copy | No | 1 | XL (250 / 325)   |
+| [Content group - simple](https://www.ibm.com/standards/web/carbon-for-ibm-dotcom/components/content-group-simple) | Component | Yes | Less than 4 | - |
+| [Featured card block - medium](https://www.ibm.com/standards/web/carbon-for-ibm-dotcom/components/feature-card-block#feature-card-block-medium) | Component | No | 1 | - |
+| [Link list](https://www.ibm.com/standards/web/carbon-for-ibm-dotcom/components/link-list) | Component | No | 1 | - |
+
+You can see the list of all character count standards <a href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards" target="_blank">here</a>.
+
+## Design and functional specifications
+
+The design specs and functional specs for Content block &mdash; with media can be viewed  <a href="https://ibm.ent.box.com/folder/94760926421" target="_blank">here</a>.
+
+## Development documentation
+
+<ComponentStatus name="Content block - with media" type="layout" />
+
+## Feedback
+
+<ComponentFeedback />
