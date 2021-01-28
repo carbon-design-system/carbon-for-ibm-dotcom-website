@@ -784,7 +784,7 @@
       }
     },
     "Content block - with media": {
-      "url": "./content-block-media",
+      "url": "./content-block-media/overview",
       "description": "Content block – with media is used to present information with images in a group setting.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-content-block-media--default",
