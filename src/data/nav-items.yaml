@@ -60,7 +60,7 @@
     - title: Carousel
       path: /components/carousel
     - title: Content block – with media
-      path: /components/content-block-media
+      path: /components/content-block-media/overview
     - title: Content block – segmented
       path: /components/content-block-segmented
     - title: Content block – simple
