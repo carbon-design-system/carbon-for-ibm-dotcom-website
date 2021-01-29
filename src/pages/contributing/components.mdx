@@ -16,8 +16,9 @@ or a brand new component. It can even be a layout component which brings several
 
 <AnchorLinks>
 <AnchorLink>First steps to contributing</AnchorLink>
-<AnchorLink>Documentation requirements</AnchorLink>
 <AnchorLink>Component contribution</AnchorLink>
+<AnchorLink>Documentation requirements</AnchorLink>
+<AnchorLink>How to publish component usage documentation</AnchorLink>
 </AnchorLinks>
 
 
@@ -32,11 +33,6 @@ Include a detailed description in which you:
 - Clarify whether it's a variation of an existing component, or a new component
 - Include mockups of any fidelity (optional)
 - Include any inspirations from other products (optional)
-
-
-## Documentation requirements
-
-Component documentation typically contains a definition of the component, a visual reference of what the component will look like along with its variations (if any).  The documentation must include designs and functional specifications.  Remember you are contributing this component so others benefit from the effort already made by you or your team.  It's sub-optimal if it still requires other teams to do rework.  
 
 
 ## Component contribution
@@ -81,9 +77,145 @@ issue in the
 
 #### 4. Usage documentation
 
-For guidance, see our Documentation requirements section above or reach out to us on <a href="https://ibm-studios.slack.com/archives/C2PLX8GQ6" target="_blank">#carbon-for-ibm-dotcom</a>.
+For guidance, see our Documentation requirements section above or reach out to us on <a href="https://ibm-studios.slack.com/archives/C2PLX8GQ6" target="_blank">#carbon-for-ibm-dotcom</a>. See the How to publish component usage documentation section below for detail.
 
 #### 5. Working code
 
 The component for **Carbon for IBM.com** must be built in one of our supported frameworks - React or Web Components.  We'd like to prioritize working on Web Components since it has become our strategic direction.  If you need help learning how to build it in Web Components, reach out to the engineers in our slack channel for training <a href="https://ibm-studios.slack.com/archives/C2PLX8GQ6" target="_blank">#carbon-for-ibm-dotcom</a>.  Please read the [Developer guide](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/blob/master/docs/developing.md) and the [Submissions guidelines](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/blob/master/docs/submission-guidelines.md) for more details.
 
+## Documentation requirements
+
+Component documentation typically contains a definition of the component, a visual reference of what the component will look like along with its variations (if any).  The documentation must include designs and functional specifications.  Remember you are contributing this component so others benefit from the effort already made by you or your team.  It's sub-optimal if it still requires other teams to do rework.  
+
+## How to publish component usage documentation
+
+Our component documentation typically contains five sections: Default, Usage guidance, Design and functional specifications, Development documentation, and Feedback. You can create a new page for your markdown contribution [here](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/new/master/src/pages/components). Some components are more complex than others but you should cover each topic included in these markdown templates. 
+
+#### Template for components with one variant
+Use this template for documenting components with only one variant. 
+
+```markdown
+---
+title: Component name
+description: Explains what the component is in one or two sentences.
+---
+
+import { ComponentStatus } from 'components/ComponentList';
+import ComponentDescription from 'components/ComponentDescription';
+import ComponentFeedback from 'components/ComponentFeedback';
+
+<ComponentDescription name="Component name" type="ui or layout" />
+
+<AnchorLinks>
+
+<AnchorLink>Default</AnchorLink>
+<AnchorLink>Usage guidance</AnchorLink>
+<AnchorLink>Design and functional specifications</AnchorLink>
+<AnchorLink>Development documentation</AnchorLink>
+<AnchorLink>Feedback</AnchorLink>
+
+</AnchorLinks>
+
+<!--
+Include additional <AnchorLinks> if you add additional sections within the page. Text must match header text.
+<AnchorLink>Header text you're linking to</AnchorLink>
+-->
+
+## Default
+
+<!--
+Include a paragraph or two that describes the primary use cases for the component and details about how it helps the user achieve any tasks.
+
+-->
+
+![A visual of Component variation](URL or path to the image)
+
+## Usage guidance
+
+<!--
+Include a paragraph or two that describes the format and behavior of the component.
+
+-->
+
+## Design and functional specifications
+
+The design specs and functional specs for “Component name” can be viewed  <a href="Link to the BOX folder" target="_blank" rel="noreferrer">here</a>.
+
+## Development documentation
+
+<ComponentStatus name="Component name" type="ui or layout" />
+
+## Feedback
+
+<ComponentFeedback />
+```
+
+#### Template for components with multiple variants
+Use this template for documenting components that have multiple types or
+variants.
+
+```markdown
+---
+title: Component name
+description: Explains what the component is in one or two sentences.
+---
+
+import { ComponentStatus } from 'components/ComponentList';
+import ComponentDescription from 'components/ComponentDescription';
+import ComponentFeedback from 'components/ComponentFeedback';
+
+<ComponentDescription name="Component name" type="ui or layout" />
+
+<AnchorLinks>
+
+<AnchorLink>Default</AnchorLink>
+<AnchorLink>Variations</AnchorLink>
+<AnchorLink>Usage guidance</AnchorLink>
+<AnchorLink>Design and functional specifications</AnchorLink>
+<AnchorLink>Development documentation</AnchorLink>
+<AnchorLink>Feedback</AnchorLink>
+
+</AnchorLinks>
+
+<!--
+Include additional <AnchorLinks> if you add additional sections within the page. Text must match header text.
+<AnchorLink>Header text you're linking to</AnchorLink>
+-->
+
+## Default
+
+<!--
+Include a paragraph or two that describes the primary use cases for the component and details about how it helps the user achieve any tasks.
+
+-->
+
+![A visual of Component variation](URL or path to the image)
+
+## Variations
+
+<!--
+Include a paragraph or two that describes the primary use cases for the component and details about how it helps the user achieve any tasks.
+
+-->
+
+![A visual of Component variation](URL or path to the image)
+
+## Usage guidance
+
+<!--
+Include a paragraph or two that describes the format and behavior of the component.
+
+-->
+
+## Design and functional specifications
+
+The design specs and functional specs for “Component name” can be viewed  <a href="Link to the BOX folder" target="_blank" rel="noreferrer">here</a>.
+
+## Development documentation
+
+<ComponentStatus name="Component name" type="ui or layout" />
+
+## Feedback
+
+<ComponentFeedback />
+```
