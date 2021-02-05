@@ -57,13 +57,16 @@ There are two color themes to choose from when using Lead space:
 
 ### Content guidance
 
-| Field | Required   | Max character size (English / translated)     |
-| -------- | --------- | ---------- | 
-| Headline | Yes   | XS (65 / 85)|
-| Short copy  | No     | M (120 / 150) |
-| Secondary call to action  | No     | M (120 / 150) |
-| Primary call to action  | No     | XXS    |
-| Background image  | Yes<br/> <br/><div style="max-width: 200px">_Note: each breakpoint requires a different image.</div>|    |
+| Field | Field type | Required   | Cardinality | Max character size (English / translated) | Notes |
+| -------- | --------- | ---------- | ---------- | ----------| ----------|
+| Headline | Short copy | Yes | 1 | XS (65 / 85)| - |
+| Description | Short copy | No | 1 | M (120 / 150)| - |
+| [Button group](https://www.ibm.com/standards/web/carbon-for-ibm-dotcom/components/button-group) | Component | No | Max of two buttons | - | - |
+| [Image](https://www.ibm.com/standards/web/carbon-for-ibm-dotcom/components/image) | Component | No | 1 | - | Each breakpoint requires a different image. |
+| Gradient | True/False | Yes | - | - | True - Show gradient (default)<br/>False - No gradient |
+| Type | Option list | Yes | - | - | Center, Left, or Small |
+
+To see the list of all character count standards, go to this <a href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards" target="_blank" rel="noreferrer noopener nofollow">link</a>.
 
 ### Type styles
 There are two expressive type styles to choose from when using Lead space left-aligned:
