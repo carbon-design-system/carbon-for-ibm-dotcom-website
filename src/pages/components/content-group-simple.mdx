@@ -12,6 +12,7 @@ import ComponentFeedback from 'components/ComponentFeedback';
 <AnchorLinks>
 
 <AnchorLink>Default</AnchorLink>
+<AnchorLink>Content guidance</AnchorLink>
 <AnchorLink>Design and functional specifications</AnchorLink>
 <AnchorLink>Development documentation</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
@@ -23,9 +24,24 @@ Content group &mdash; simple is ideal for grouping content within sections with 
 
 ![Default](../../images/pattern/content-group-simple/default.jpg)
 
+## Content guidance
+
+| Field | Sub-component field | Field type | Required   | Cardinality | Max character size (English / translated) |
+| -------- | --------- | ---------- | ---------- | ---------- | ---------- |
+| Headline | | Short copy | Yes | 1 | XS (65 / 85)|
+| Paragraph | | Long copy | No | 1 | XXL (350 / 450)|
+| [Image with caption](https://www.ibm.com/standards/web/carbon-for-ibm-dotcom/components/image-with-caption) or [Video player](https://www.ibm.com/standards/web/carbon-for-ibm-dotcom/components/video-player) | | Component | No | 1 | - |
+| Content item | | Component | Yes | 2-6 | - |
+| | Headline | Short copy | Yes | 1 | XS (65 / 85) |
+| | Paragraph | Long copy | Yes | 1 | XXXXL (1600 / 2400) |
+| | [CTA (text)](https://www.ibm.com/standards/web/carbon-for-ibm-dotcom/components/cta) | Component | No | 1 | - |
+| [CTA (card)](https://www.ibm.com/standards/web/carbon-for-ibm-dotcom/components/cta) | | Component | No | 1 | - |
+
+To see the list of all character count standards, go to this <a href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards" target="_blank" rel="noreferrer noopener nofollow">link</a>.
+
 ## Design and functional specifications
 
-The design specs and functional specs for Content group &mdash; simple can be viewed <a href="https://ibm.box.com/s/bkqyb6nzix46vfsy8b0cyg79c3fs0lac" target="_blank">here</a>.
+The design specs and functional specs for Content group &mdash; simple can be viewed <a href="https://ibm.box.com/s/bkqyb6nzix46vfsy8b0cyg79c3fs0lac" target="_blank" rel="noreferrer noopener nofollow">here</a>.
 
 ## Development documentation
 
