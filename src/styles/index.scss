@@ -3,8 +3,13 @@
 @import "homepage";
 @import "feature-card-group";
 
-@import '../components/ComponentList/component-list.scss';
-@import '../components/ComponentGallery/component-gallery.scss';
+@import "../components/ComponentList/component-list.scss";
+@import "../components/ComponentGallery/component-gallery.scss";
+
+
+i {
+  font-style: italic;
+}
 
 // override nested list item styles (they are hardcoded at 16px)
 .bx--list--nested {

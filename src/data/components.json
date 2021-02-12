@@ -1,6 +1,32 @@
 {
   "ui": {
-    "Button Group": {
+    "Back to top": {
+        "url": "./back-to-top",
+        "description": "Back to top is a sticky button that appears on long form pages. When triggered it scrolls the the user back to the top of the page.",
+        "storybook": {
+            "webcomponents": "",
+            "react": ""
+        },
+        "webcomponents": {
+            "stable": false,
+            "experimental": false,
+            "new": false,
+            "updated": false,
+            "deprecated": false,
+            "underConstruction": true,
+            "notAvailable": false
+        },
+        "react": {
+            "stable": false,
+            "experimental": false,
+            "new": false,
+            "updated": false,
+            "deprecated": false,
+            "underConstruction": true,
+            "notAvailable": false
+        }
+    },
+    "Button group": {
       "url": "./button-group",
       "description": "The button group component is to be utilized within IBM.com for grouping two or more Button components together and sets all buttons to the same width.",
       "storybook": {
@@ -78,32 +104,7 @@
         "notAvailable": false
       }
     },
-    "Card section - with images": {
-      "url": "./card-section-images",
-      "description": "Card section — with images is a collection of card components with images that, together, occupy a full-width section with a left-column header. It is typically used for presenting resources or links.",
-      "storybook": {
-        "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-card-section-images--default",
-        "react": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-cardsectionimages--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": true,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
+    
     "Card Group": {
       "url": "./card-group",
       "description": "The card group component is a collection of Card components that can be used in block and group-level patterns.",
@@ -234,6 +235,32 @@
         "notAvailable": false
       }
     },
+     "Feature card": {
+      "url": "./feature-card",
+      "description": "Feature card is used to emphasize a piece of information with a card on the right-hand side and an image on the left-hand side.",
+      "storybook": {
+        "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-feature-card--default",
+        "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-featurecard--default"
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      }
+    },
     "Footer": {
       "url": "./footer",
       "description": "The footer component is a section that sits at the bottom of any IBM.com page, and acts as the catch—all section that helps users navigate and provides corporate level general and legal information. The footer is required on all pages on IBM.com.",
@@ -312,20 +339,20 @@
         "notAvailable": false
       }
     },
-    "Image with caption": {
-      "url": "./image-with-caption",
-      "description": "The image with caption component is used to embed images and has an optional caption. It can support images at 1x1, 2x1, 4x3 and 16x9 aspect ratios.",
+    "Language selector": {
+      "url": "./language-selector",
+      "description": "The Language selector is for users to select their preferred language on a website. The content on the website will appear in the default language until the users reselect their preferred language then the page content will reload in the reselected language provided a translation is available.",
       "storybook": {
-        "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-image-with-caption--default",
-        "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-imagewithcaption--default"
+        "webcomponents": "http://ibmdotcom-web-components-canary.mybluemix.net/?path=/story/components-footer--default-language-only",
+        "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-footer--default-language-only"
       },
       "webcomponents": {
-        "stable": true,
+        "stable": false,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
-        "underConstruction": false,
+        "underConstruction": true,
         "notAvailable": false
       },
       "react": {
@@ -337,13 +364,14 @@
         "underConstruction": false,
         "notAvailable": false
       }
+    
     },
-    "Layout": {
-      "url": "./layout",
-      "description": "The layout component is to be utilized within IBM.com for various abstract layout configurations.",
+    "Image with caption": {
+      "url": "./image-with-caption",
+      "description": "The image with caption component is used to embed images and has an optional caption. It can support images at 1x1, 2x1, 4x3 and 16x9 aspect ratios.",
       "storybook": {
-        "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-layout--default",
-        "react": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-layout--default"
+        "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-image-with-caption--default",
+        "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-imagewithcaption--default"
       },
       "webcomponents": {
         "stable": true,
@@ -520,7 +548,7 @@
         "notAvailable": false
       }
     },
-    "Pictogram Item": {
+    "Pictogram item": {
       "url": "./pictogram-item",
       "description": "The pictogram item component is used to communicate messages at a glance, afford interactivity, and simplify complex ideas.",
       "storybook": {
@@ -727,6 +755,32 @@
         "updated": false,
         "deprecated": false,
         "underConstruction": true,
+        "notAvailable": false
+      }
+    },
+    "Card section - with images": {
+      "url": "./card-section-images",
+      "description": "Card section — with images is a collection of card components with images that, together, occupy a full-width section with a left-column header.",
+      "storybook": {
+        "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-card-section-images--default",
+        "react": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-cardsectionimages--default"
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": true,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
         "notAvailable": false
       }
     },
@@ -990,32 +1044,7 @@
         "notAvailable": false
       }
     },
-    "Feature card": {
-      "url": "./feature-card",
-      "description": "Feature card is used to emphasize a piece of information with a card on the right-hand side and an image on the left-hand side.",
-      "storybook": {
-        "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-feature-card--default",
-        "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-featurecard--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
+   
     "Feature card - block medium": {
       "url": "./feature-card-block",
       "description": "Feature card block is used to present information with a group of cards.",
@@ -1048,6 +1077,32 @@
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-feature-card-block-large--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-featurecardblocklarge--default"
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": true,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      }
+    },
+     "Layout": {
+      "url": "./layout",
+      "description": "The layout component is to be utilized within IBM.com for various abstract layout configurations.",
+      "storybook": {
+        "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-layout--default",
+        "react": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-layout--default"
       },
       "webcomponents": {
         "stable": true,
