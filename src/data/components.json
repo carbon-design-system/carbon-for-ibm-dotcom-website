@@ -470,7 +470,7 @@
         "notAvailable": false
       }
     },
-    "Link List section": {
+    "Link list section": {
       "url": "./link-list-section",
       "description": "The Link list section component is used for multiple CTAs, with options for vertical and horizontal lists and varying CTA styling.",
       "storybook": {
