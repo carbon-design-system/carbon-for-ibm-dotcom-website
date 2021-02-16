@@ -1,34 +1,34 @@
 {
   "ui": {
     "Back to top": {
-        "url": "./back-to-top",
-        "description": "Back to top is a sticky button that appears on long form pages. When triggered it scrolls the the user back to the top of the page.",
-        "storybook": {
-            "webcomponents": "",
-            "react": ""
-        },
-        "webcomponents": {
-            "stable": false,
-            "experimental": false,
-            "new": false,
-            "updated": false,
-            "deprecated": false,
-            "underConstruction": true,
-            "notAvailable": false
-        },
-        "react": {
-            "stable": false,
-            "experimental": false,
-            "new": false,
-            "updated": false,
-            "deprecated": false,
-            "underConstruction": true,
-            "notAvailable": false
-        }
+      "url": "./back-to-top",
+      "description": "Back to top is a sticky button that appears on long form pages. When triggered it scrolls the the user back to the top of the page.",
+      "storybook": {
+        "webcomponents": "",
+        "react": ""
+      },
+      "webcomponents": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": true,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": true,
+        "notAvailable": false
+      }
     },
     "Button group": {
       "url": "./button-group",
-      "description": "The button group component is to be utilized within IBM.com for grouping two or more Button components together and sets all buttons to the same width.",
+      "description": "The Button group component is to be utilized within IBM.com for grouping two or more Button components together and sets all buttons to the same width.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-button-group--default",
         "react": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-buttongroup--default"
@@ -80,7 +80,7 @@
     },
     "Card": {
       "url": "./card",
-      "description": "The card component uses Carbon's Clickable Tile component while presenting content in a concise and readable style.",
+      "description": "The Card component uses Carbon's Clickable Tile component while presenting content in a concise and readable style.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-card--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-card--default"
@@ -104,10 +104,10 @@
         "notAvailable": false
       }
     },
-    
-    "Card Group": {
+
+    "Card group": {
       "url": "./card-group",
-      "description": "The card group component is a collection of Card components that can be used in block and group-level patterns.",
+      "description": "The Card group component is a collection of Card components that can be used in block and group-level patterns.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-card-group--default",
         "react": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-cardgroup--default"
@@ -131,9 +131,9 @@
         "notAvailable": false
       }
     },
-    "Card Link": {
+    "Card link": {
       "url": "./card-link",
-      "description": "The card link component is a CTA styled like a card that acts as the main CTA for a section of content, it typically appears at the end of a block-pattern.",
+      "description": "The Card link component is a CTA styled like a card that acts as the main CTA for a section of content, it typically appears at the end of a block-pattern.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-card-link--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-cardlink--default"
@@ -183,9 +183,9 @@
         "notAvailable": false
       }
     },
-    "Dotcom Shell": {
+    "Dotcom shell": {
       "url": "./dotcom-shell",
-      "description": "The dotcom shell component includes the <a href=\"./masthead\">Masthead</a>, and <a href=\"./footer\">Footer</a> components, all wrapped in a UI shell using Carbon's grid.",
+      "description": "The Dotcom shell component includes the <a href=\"./masthead\">Masthead</a>, and <a href=\"./footer\">Footer</a> components, all wrapped in a UI shell using Carbon's grid.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-dotcom-shell--default",
         "react": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-dotcom-shell--default"
@@ -209,9 +209,9 @@
         "notAvailable": false
       }
     },
-    "Expressive Modal": {
+    "Expressive modal": {
       "url": "./expressive-modal",
-      "description": "The expressive modal component is based on the Carbon modal component with slight styling updates to increase the padding and uses fixed buttons.",
+      "description": "The Expressive modal component is based on the Carbon modal component with slight styling updates to increase the padding and uses fixed buttons.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-modal--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-expressive-modal--default"
@@ -235,7 +235,7 @@
         "notAvailable": false
       }
     },
-     "Feature card": {
+    "Feature card": {
       "url": "./feature-card",
       "description": "Feature card is used to emphasize a piece of information with a card on the right-hand side and an image on the left-hand side.",
       "storybook": {
@@ -263,7 +263,7 @@
     },
     "Footer": {
       "url": "./footer",
-      "description": "The footer component is a section that sits at the bottom of any IBM.com page, and acts as the catch—all section that helps users navigate and provides corporate level general and legal information. The footer is required on all pages on IBM.com.",
+      "description": "The Footer component is a section that sits at the bottom of any IBM.com page, and acts as the catch—all section that helps users navigate and provides corporate level general and legal information. The footer is required on all pages on IBM.com.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-footer--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-footer--default"
@@ -287,9 +287,9 @@
         "notAvailable": false
       }
     },
-    "Horizontal Rule": {
+    "Horizontal rule": {
       "url": "./horizontal-rule",
-      "description": "The horizontal rule component is utilized for thematic breaks within the content.",
+      "description": "The Horizontal rule component is utilized for thematic breaks within the content.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-horizontal-rule--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-horizontalrule--default"
@@ -315,7 +315,7 @@
     },
     "Image": {
       "url": "./image",
-      "description": "The image component is used as the primary way of embedding images on pages.",
+      "description": "The Image component is used as the primary way of embedding images on pages.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-image--default",
         "react": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-image--default"
@@ -364,11 +364,10 @@
         "underConstruction": false,
         "notAvailable": false
       }
-    
     },
     "Image with caption": {
       "url": "./image-with-caption",
-      "description": "The image with caption component is used to embed images and has an optional caption. It can support images at 1x1, 2x1, 4x3 and 16x9 aspect ratios.",
+      "description": "The Image with caption component is used to embed images and has an optional caption. It can support images at 1x1, 2x1, 4x3 and 16x9 aspect ratios.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-image-with-caption--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-imagewithcaption--default"
@@ -418,9 +417,9 @@
         "notAvailable": false
       }
     },
-    "Lightbox Media Viewer": {
+    "Lightbox media viewer": {
       "url": "./lightbox-media-viewer",
-      "description": "The lightbox media viewer component allows the user to view an image or video at a larger size within a modal.",
+      "description": "The Lightbox media viewer component allows the user to view an image or video at a larger size within a modal.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-lightbox-media-viewer--default",
         "react": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-lightboxmediaviewer--default"
@@ -444,9 +443,9 @@
         "notAvailable": false
       }
     },
-    "Link List": {
+    "Link list": {
       "url": "./link-list",
-      "description": "The link list component is used for multiple CTAs, with options for vertical and horizontal lists and varying CTA styling.",
+      "description": "The Link list component is used for multiple CTAs, with options for vertical and horizontal lists and varying CTA styling.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-link-list--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-linklist--default"
@@ -472,7 +471,7 @@
     },
     "Link with icon": {
       "url": "./link-with-icon",
-      "description": "The link with icon component is primarily used as a navigational element with an icon as an indicator to the destination or type of content being referenced. Link with icon should not be used within a paragraph.",
+      "description": "The Link with icon component is primarily used as a navigational element with an icon as an indicator to the destination or type of content being referenced. Link with icon should not be used within a paragraph.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-link-with-icon--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-linkwithicon--default"
@@ -496,9 +495,9 @@
         "notAvailable": false
       }
     },
-    "Locale Modal": {
+    "Locale modal": {
       "url": "./localemodal",
-      "description": "The locale modal component is triggered after selecting the locale button and allows users to change geographic regions and languages, if available.",
+      "description": "The Locale modal component is triggered after selecting the locale button and allows users to change geographic regions and languages, if available.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-locale-modal--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-locale-modal--default"
@@ -524,7 +523,7 @@
     },
     "Masthead": {
       "url": "./masthead",
-      "description": "The masthead component is a fundamental navigational component for IBM.com that displays consistently at the top of each page. It also includes search and profile services for IBM.com.",
+      "description": "The Masthead component is a fundamental navigational component for IBM.com that displays consistently at the top of each page. It also includes search and profile services for IBM.com.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-masthead--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-masthead--default"
@@ -550,7 +549,7 @@
     },
     "Pictogram item": {
       "url": "./pictogram-item",
-      "description": "The pictogram item component is used to communicate messages at a glance, afford interactivity, and simplify complex ideas.",
+      "description": "The Pictogram item component is used to communicate messages at a glance, afford interactivity, and simplify complex ideas.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-pictogram-item--default",
         "react": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-pictogramitem--default"
@@ -576,7 +575,7 @@
     },
     "Quote": {
       "url": "./quote",
-      "description": "The quote component is used to highlight an impactful client statement or user testimonial.",
+      "description": "The Quote component is used to highlight an impactful client statement or user testimonial.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-quote--default",
         "react": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-quote--default"
@@ -602,7 +601,7 @@
     },
     "Table of contents": {
       "url": "./table-of-contents",
-      "description": "The table of contents component allows users to quickly navigate through long pages by providing jump links to different sections of the content within a single page.",
+      "description": "The Table of contents component allows users to quickly navigate through long pages by providing jump links to different sections of the content within a single page.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-table-of-contents--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-table-of-contents--manually-define-menu-items"
@@ -628,7 +627,7 @@
     },
     "Video player": {
       "url": "./video-player",
-      "description": "The video player component plays embedded videos using the Kaltura video platform. It can be used in inline patterns as well as modals. It is always the full width of its containing element and maintains an aspect ratio of 16:9.",
+      "description": "The Video player component plays embedded videos using the Kaltura video platform. It can be used in inline patterns as well as modals. It is always the full width of its containing element and maintains an aspect ratio of 16:9.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-video-player--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-videoplayer--default"
@@ -1044,7 +1043,7 @@
         "notAvailable": false
       }
     },
-   
+
     "Feature card - block medium": {
       "url": "./feature-card-block",
       "description": "Feature card block is used to present information with a group of cards.",
@@ -1097,7 +1096,7 @@
         "notAvailable": false
       }
     },
-     "Layout": {
+    "Layout": {
       "url": "./layout",
       "description": "The layout component is to be utilized within IBM.com for various abstract layout configurations.",
       "storybook": {

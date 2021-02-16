@@ -21,11 +21,6 @@ module.exports = {
             "https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website",
           subDirectory: "",
         },
-      },
-    },
-    {
-      resolve: "gatsby-theme-carbon",
-      options: {
         iconPath: "./src/images/favicon.svg",
       },
     },
