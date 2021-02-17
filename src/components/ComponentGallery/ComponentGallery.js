@@ -12,12 +12,12 @@ import componentList from "../../data/components.json";
  */
 function _getImage(component) {
   let componentImg;
-  const componentName = component.replace(/\s/g, "").toLowerCase();
+  const componentName = component.replace(/(\s-\s)|\s/g, "_").toLowerCase();
   try {
     componentImg = require(`./images/${componentName}.svg`);
   } catch (e) {
     // eslint-disable-next-line global-require
-    componentImg = require("./images/comingsoon.svg");
+    componentImg = require("./images/coming_soon.svg");
   }
 
   return componentImg;
