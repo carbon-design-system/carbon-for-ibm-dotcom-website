@@ -17,7 +17,7 @@ function _getImage(component) {
     componentImg = require(`./images/${componentName}.svg`);
   } catch (e) {
     // eslint-disable-next-line global-require
-    componentImg = require("./images/coming_soon.svg");
+    componentImg = require("./images/comingsoon.svg");
   }
 
   return componentImg;
