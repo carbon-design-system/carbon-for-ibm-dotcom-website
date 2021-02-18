@@ -12,7 +12,14 @@ import componentList from "../../data/components.json";
  */
 function _getImage(component) {
   let componentImg;
-  const componentName = component.replace(/(\s-\s)|\s/g, "_").toLowerCase();
+  /**
+   * replace white space or white space combo w/ en/em-dash with underscore
+   * for consistent svg file naming
+   * ex: Content item — horizontal ---> content_item_horizontal.svg
+   *  */
+  const componentName = component
+    .replace(/(\s—\s)|(\s-\s)|\s/g, "_")
+    .toLowerCase();
   try {
     componentImg = require(`./images/${componentName}.svg`);
   } catch (e) {
