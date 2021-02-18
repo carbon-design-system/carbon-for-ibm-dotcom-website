@@ -115,6 +115,8 @@
       path: /components/lightbox-media-viewer
     - title: Link list
       path: /components/link-list
+    - title: Link list section
+      path: /components/link-list-section
     - title: Link with icon
       path: /components/link-with-icon
     - title: Locale modal
