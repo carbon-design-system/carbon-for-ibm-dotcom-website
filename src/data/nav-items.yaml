@@ -24,6 +24,8 @@
   pages:
     - title: Overview
       path: /guidelines
+    - title: Content
+      path: /guidelines/content
     - title: Right-to-left language
       path: /guidelines/right-to-left
     #    - title: Layout
