@@ -759,7 +759,7 @@
     },
     "Card section — carousel": {
       "url": "./card-section-carousel/",
-      "description": "The Card section – carousel is an exploratory component, meaning it allows users to browse or explore multiple pieces of content within the same area of the page.",
+      "description": "The Card section — carousel is an exploratory component, meaning it allows users to browse or explore multiple pieces of content within the same area of the page.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-card-section-carousel--default",
         "react": ""
@@ -811,7 +811,7 @@
     },
     "Content block — with cards": {
       "url": "./content-block-with-cards",
-      "description": "Content block – with cards is used to present small self-contained pieces of information as cards.",
+      "description": "Content block — with cards is used to present small self-contained pieces of information as cards.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-content-block-cards--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-contentblockcards--default"
@@ -837,7 +837,7 @@
     },
     "Content block — with media": {
       "url": "./content-block-media",
-      "description": "Content block – with media is used to present information with images in a group setting.",
+      "description": "Content block — with media is used to present information with images in a group setting.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-content-block-media--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-contentblockmedia--default"
@@ -863,7 +863,7 @@
     },
     "Content block — segmented": {
       "url": "./content-block-segmented",
-      "description": "Content block – segmented is a variation of Content block simple with the added ability to add subsections.",
+      "description": "Content block — segmented is a variation of Content block simple with the added ability to add subsections.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-content-block-segmented--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-contentblocksegmented--default"
@@ -941,7 +941,7 @@
     },
     "Content group — horizontal": {
       "url": "./content-group-horizontal",
-      "description": "Content group – horizontal is to present a group of relatively more important pieces of content such as products or solutions with more visual weight.",
+      "description": "Content group — horizontal is to present a group of relatively more important pieces of content such as products or solutions with more visual weight.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-content-group-horizontal--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-contentgrouphorizontal--default"
