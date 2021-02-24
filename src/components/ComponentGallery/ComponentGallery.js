@@ -1,8 +1,8 @@
 /* eslint-disable import/no-dynamic-require */
 /* eslint-disable global-require */
-import React from 'react';
-import PropTypes from 'prop-types';
-import componentList from '../../data/components.json';
+import React from "react";
+import PropTypes from "prop-types";
+import componentList from "../../data/components.json";
 
 /**
  * Renders the component image url based on the component name
@@ -12,12 +12,19 @@ import componentList from '../../data/components.json';
  */
 function _getImage(component) {
   let componentImg;
-  const componentName = component.replace(/\s/g,'').toLowerCase();
+  /**
+   * replace white space or white space combo w/ en/em-dash with underscore
+   * for consistent svg file naming
+   * ex: Content item — horizontal ---> content_item_horizontal.svg
+   *  */
+  const componentName = component
+    .replace(/(\s—\s)|(\s-\s)|\s/g, "_")
+    .toLowerCase();
   try {
     componentImg = require(`./images/${componentName}.svg`);
   } catch (e) {
     // eslint-disable-next-line global-require
-    componentImg = require('./images/coming_soon.svg');
+    componentImg = require("./images/coming_soon.svg");
   }
 
   return componentImg;
@@ -35,7 +42,7 @@ class ComponentGallery extends React.Component {
   };
 
   static defaultProps = {
-    type: 'ui',
+    type: "ui",
   };
 
   /**
@@ -52,7 +59,9 @@ class ComponentGallery extends React.Component {
             <a
               href={component.url}
               className="component-item__link"
-              target={component.url.indexOf('https://') > -1 ? '_blank' : '_self'}
+              target={
+                component.url.indexOf("https://") > -1 ? "_blank" : "_self"
+              }
             >
               <img
                 src={_getImage(name)}
@@ -74,8 +83,11 @@ class ComponentGallery extends React.Component {
       <div className="bx--row">
         <div className="bx--col-lg-12 bx--no-gutter">
           <ul className="component-gallery">
-            {Object.keys(componentList[type]).map(key =>
-              this.renderItem({ name: key, component: componentList[type][key] })
+            {Object.keys(componentList[type]).map((key) =>
+              this.renderItem({
+                name: key,
+                component: componentList[type][key],
+              })
             )}
           </ul>
         </div>
