@@ -11,6 +11,12 @@
   }
 
   .bx--grid {
+    padding-top: 3rem;
+
+    &.homepage--callout {
+      padding-top: 0;
+    }
+
     @include carbon--breakpoint("lg") {
       padding-left: calc(25% + 1.5rem);
     }
