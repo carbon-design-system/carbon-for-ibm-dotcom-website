@@ -6,7 +6,6 @@
 @import "../components/ComponentList/component-list.scss";
 @import "../components/ComponentGallery/component-gallery.scss";
 
-
 i {
   font-style: italic;
 }
@@ -53,6 +52,10 @@ i {
 // overriding code style in tables
 td > code {
   white-space: nowrap;
+}
+
+.additional-resources-desc {
+  margin-top: -16px;
 }
 
 // remove horizontal scroll in breakpoints > mobile
