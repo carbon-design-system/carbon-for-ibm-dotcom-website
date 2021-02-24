@@ -16,17 +16,12 @@ module.exports = {
       options: {
         name: "Carbon for IBM.com",
         short_name: "Carbon for IBM.com",
+        iconPath: "./src/images/favicon.svg",
         repository: {
           baseUrl:
             "https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website",
           subDirectory: "",
         },
-      },
-    },
-    {
-      resolve: "gatsby-theme-carbon",
-      options: {
-        iconPath: "./src/images/favicon.svg",
       },
     },
   ],
