@@ -24,6 +24,8 @@
   pages:
     - title: Overview
       path: /guidelines
+    - title: Content
+      path: /guidelines/content
     - title: Right-to-left language
       path: /guidelines/right-to-left
     #    - title: Layout
@@ -39,7 +41,9 @@
   pages:
     - title: Overview
       path: /components/overview
-    - title: Button Group
+    - title: Back to top
+      path: /components/back-to-top
+    - title: Button group
       path: /components/button-group
     - title: Callout – quote
       path: /components/callout-quote
@@ -111,6 +115,8 @@
       path: /components/lightbox-media-viewer
     - title: Link list
       path: /components/link-list
+    - title: Link list section
+      path: /components/link-list-section
     - title: Link with icon
       path: /components/link-with-icon
     - title: Locale modal
@@ -119,7 +125,7 @@
       path: /components/logo-grid
     - title: Masthead
       path: /components/masthead
-    - title: Pictogram Item
+    - title: Pictogram item
       path: /components/pictogram-item
     - title: Quote
       path: /components/quote

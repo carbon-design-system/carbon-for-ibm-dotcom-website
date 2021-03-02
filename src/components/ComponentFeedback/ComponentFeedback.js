@@ -9,6 +9,6 @@ import P from 'gatsby-theme-carbon/src/components/markdown/P';
  */
 export const ComponentFeedback = () => (
   <P>
-      Help us improve this component by providing feedback, asking questions, and leaving any other comments on <a href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom" target="_blank">GitHub</a>.
+      Help us improve this component by providing feedback, asking questions, and leaving any other comments on <a href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom" target="_blank" rel="noreferrer">GitHub</a>.
   </P>
 );

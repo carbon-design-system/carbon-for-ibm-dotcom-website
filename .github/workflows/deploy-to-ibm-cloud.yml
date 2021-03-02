@@ -3,7 +3,7 @@ name: deploy-to-ibm-cloud
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   deploy-test:
@@ -11,11 +11,11 @@ jobs:
     env:
       SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@main
       - name: Use Node.js 12.x
         uses: actions/setup-node@v1
         with:
-          node-version: '12.x'
+          node-version: "12.x"
       - name: Install dependencies
         run: yarn install
       - name: Set env vars

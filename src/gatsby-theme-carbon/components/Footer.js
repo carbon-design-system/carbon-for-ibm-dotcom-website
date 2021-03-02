@@ -21,9 +21,9 @@ const CustomFooter = () => {
         .
       </p>
       <p>
-        Last updated December 16th, 2020
+        Last updated February 24th, 2021
         <br />
-        Copyright &copy; 2020 IBM
+        Copyright &copy; 2021 IBM
       </p>
     </>
   );
