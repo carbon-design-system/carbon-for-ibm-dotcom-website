@@ -56,8 +56,8 @@
       "url": "./cta",
       "description": "CTA stands for call to action. A CTA refers to the use of words or phrases that can compel an audience to act in a specific way.",
       "storybook": {
-        "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-cta--default",
-        "react": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-cta--default"
+        "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-cta--text",
+        "react": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-cta--button"
       },
       "webcomponents": {
         "stable": true,
