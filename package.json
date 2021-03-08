@@ -12,13 +12,17 @@
     "build:analyze": "ANALYZE=true yarn build"
   },
   "dependencies": {
-    "@actions/core": "^1.2.6",
-    "carbon-components-react": "^7.20.0",
-    "dotenv": "^8.2.0",
-    "gatsby": "^2.19.0",
-    "gatsby-theme-carbon": "1.27.0",
+    "gatsby": "^2.19.17",
+    "gatsby-theme-carbon": "1.27.3",
     "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
+  },
+  "devDependencies": {
+    "@actions/core": "1.2.6",
+    "@babel/plugin-proposal-class-properties": "^7.12.13",
+    "@babel/plugin-transform-classes": "^7.12.13",
+    "babel-preset-gatsby": "^0.5.2",
+    "dotenv": "8.2.0"
   }
 }

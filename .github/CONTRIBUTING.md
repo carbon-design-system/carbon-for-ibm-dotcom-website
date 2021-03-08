@@ -28,13 +28,13 @@ fit within the scope of any of the existing doc fix projects.
 
 ### Setup (light content changes in Github)
 
-1. Go to the [pages folder](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/tree/master/src/pages) and 
+1. Go to the [pages folder](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/tree/main/src/pages) and
    begin making the desired edits by clicking the "Edit" icon in the upper right, or `Create new file` to create a new
    page.
 
 2. When finished, add a descriptive commit change subject and description, then select `Create a new branch for this commit and start a pull request`.
 
-3. Describe changes in the pull request, then create the pull request. 
+3. Describe changes in the pull request, then create the pull request.
 
 ### Setup (larger content changes)
 
@@ -68,7 +68,6 @@ fit within the scope of any of the existing doc fix projects.
    can still check the `.nvmrc` dotfile in the root of this project to find the
    major stable version of Node we are using, and then you can switch manually.
 
-
 ### Submitting an Issue
 
 Before you submit your issue, search the repository. Maybe your question was
@@ -83,17 +82,17 @@ features, by not reporting duplicate issues.
 1. Search this repository for an open or closed Pull Request that relates to
    your submission. You don't want to duplicate effort.
 
-2. Pull the latest master branch from `upstream`:
+2. Pull the latest main branch from `upstream`:
 
    ```
-   $ git pull upstream master
+   $ git pull upstream main
    ```
 
 3. Always work and submit pull requests from a branch. _Do not submit pull
-   requests from the `master` branch of your fork_.
+   requests from the `main` branch of your fork_.
 
    ```
-   $ git checkout -b { YOUR_BRANCH_NAME } master
+   $ git checkout -b { YOUR_BRANCH_NAME } main
    ```
 
 4. Create your patch or feature.
