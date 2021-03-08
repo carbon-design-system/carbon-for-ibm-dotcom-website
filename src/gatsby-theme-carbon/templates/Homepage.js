@@ -90,7 +90,7 @@ const customProps = {
     </>
   ),
   FirstCallout: (
-    <div className={`bx--grid ${grid} ${firstCallout}`}>
+    <div className={`bx--grid homepage--callout ${grid} ${firstCallout}`}>
       <Row className={row}>
         <Column className={callout} colLg={7} colMd={5}>
           <h3>Get Started</h3>
@@ -114,7 +114,7 @@ const customProps = {
     </div>
   ),
   SecondCallout: (
-    <div className={`bx--grid ${grid}`}>
+    <div className={`bx--grid homepage--callout ${grid}`}>
       <Row className={row}>
         <Column className={callout} colLg={8} colMd={7}>
           <h3>Contribute</h3>
