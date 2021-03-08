@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="320px" viewBox="0 0 320 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>button_group</title>
+    <g id="button_group" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-Copy-2" stroke="#0F62FE" fill="#FFFFFF" x="45" y="142" width="109" height="36"></rect>
+        <rect id="Rectangle-Copy-3" fill="#0E62FE" x="167" y="142" width="109" height="36"></rect>
+        <text id="Secondary-Copy" font-family="IBMPlexSans, IBM Plex Sans" font-size="12" font-weight="normal" fill="#0F62FE">
+            <tspan x="57" y="165">Secondary</tspan>
+        </text>
+        <text id="Primary-Copy" font-family="IBMPlexSans, IBM Plex Sans" font-size="12" font-weight="normal" fill="#FFFFFF">
+            <tspan x="179" y="165">Primary</tspan>
+        </text>
+    </g>
+</svg>
