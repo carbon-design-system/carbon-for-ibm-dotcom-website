@@ -3,39 +3,40 @@ title: CTA
 description: CTA stands for call-to-action. A CTA refers to the use of words or phrases that can compel an audience to act in a specific way.
 ---
 
-import { ComponentStatus } from 'components/ComponentList';
-import ComponentDescription from 'components/ComponentDescription';
-import ComponentFeedback from 'components/ComponentFeedback';
+import { ComponentStatus } from "components/ComponentList";
+import ComponentDescription from "components/ComponentDescription";
+import ComponentFeedback from "components/ComponentFeedback";
+import ArrowDown20 from "@carbon/icons-react/es/arrow--down/20";
+import ArrowLeft20 from "@carbon/icons-react/es/arrow--left/20";
+import Launch20 from "@carbon/icons-react/es/launch/20";
+import PlayOutline20 from "@carbon/icons-react/es/play--outline/20";
 
 <ComponentDescription name="CTA" type="ui" />
 
 <AnchorLinks>
 
 <AnchorLink>Types</AnchorLink>
-<AnchorLink>Styles</AnchorLink>  
+<AnchorLink>Styles</AnchorLink>
 <AnchorLink>Design and functional specifications</AnchorLink>
 <AnchorLink>Development documentation</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
 
-
 ## Types
 
 A CTA type defines the function of a given CTA to best inform the user what action to take.
 
-| Type | Icon | Description |
-|:---|:---|:---|
-|_Jump_|ICON|The jump link uses the down arrow to indicate to the user this link jumps down the page.|
-|_Local_|ICON|The local link is mainly used to navigate a user to another destination within IBM.com.|
-|_External_|ICON|The external link uses the launch icon to indicate that this link leaves the current page, and opens within a new tab.|
-|_Video_|ICON|The video type CTA pulls metadata from Kaltura to populate the link’s content, and launches within the LightboxMediaViewer.|
-
+| Type       | Icon              | Description                                                                                                                 |
+| :--------- | :---------------- | :-------------------------------------------------------------------------------------------------------------------------- |
+| _Jump_     | <ArrowDown20 />   | The jump link uses the down arrow to indicate to the user this link jumps down the page.                                    |
+| _Local_    | <ArrowLeft20 />   | The local link is mainly used to navigate a user to another destination within IBM.com.                                     |
+| _External_ | <Launch20 />      | The external link uses the launch icon to indicate that this link leaves the current page, and opens within a new tab.      |
+| _Video_    | <PlayOutline20 /> | The video type CTA pulls metadata from Kaltura to populate the link’s content, and launches within the LightboxMediaViewer. |
 
 ## Styles
 
 A CTA style defines the look of a given CTA to best express what action will occur when the user interacts with it.
-
 
 ### Text
 
@@ -61,16 +62,13 @@ The feature CTA type is a larger version of [Card](https://www.ibm.com/standards
 
 ![A visual of cta feature stype](../../images/component/cta/cta-feature-style.jpg)
 
-
 ## Design and functional specifications
 
 The functional specs for the CTA can be viewed <a href="https://ibm.box.com/s/unvd38oewwguycqoqg0et75eluiiqhg6" target="_blank">here</a>.
 
-
 ## Development documentation
 
 <ComponentStatus name="CTA" type="ui" />
-
 
 ## Feedback
 
