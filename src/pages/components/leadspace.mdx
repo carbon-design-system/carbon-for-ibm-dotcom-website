@@ -3,9 +3,9 @@ title: Lead space
 description: A Lead space is positioned at the top of a web page and serves as the first site of user engagement. Its primary purpose is to orient the user when they land on a page, inform them of the content, and guide them to the first key piece of content on the page, whether it's a crucial piece of information or a call-to-action.
 ---
 
-import { ComponentStatus } from 'components/ComponentList';
-import ComponentDescription from 'components/ComponentDescription';
-import ComponentFeedback from 'components/ComponentFeedback';
+import { ComponentStatus } from "components/ComponentList";
+import ComponentDescription from "components/ComponentDescription";
+import ComponentFeedback from "components/ComponentFeedback";
 
 <ComponentDescription name="Lead space" type="layout" />
 
@@ -26,11 +26,13 @@ import ComponentFeedback from 'components/ComponentFeedback';
 </AnchorLinks>
 
 ## Lead space left-aligned
+
 This is the most commonly used Lead space style. The left-aligned type draws the users' attention to the Lead space messaging immediately. Used in marketing and product pages, among others.
 
 ![Lead space left-aligned](../../images/pattern/leadspace/Leadspace_Demo_Centered.jpg)
 
 ## Lead space centered
+
 This option has 4 empty columns on the left and right to accommodate pages that have content positioned in the center of the 16-column grid. Used in the upcoming Learn page template and other long-form reading experiences.
 
 ![Lead space centered](../../images/pattern/leadspace/Leadspace_Demo_LeftAligned.jpg)
@@ -53,91 +55,116 @@ To see the list of all character count standards, go to this <a href="https://gi
 For detailed guidelines around usage, also reference the [Lead space pattern page](/patterns/lead-space).
 
 ## Color themes
+
 There are two color themes to choose from when using Lead space:
 
-* Use `Dark (gray-100)` when the background image has many shadows, is dimly lit, or uses a dark color palette. The gradient overlay will render dark and the text will be white.
-* Use `Light (white)` when the background image is well-lit or brightly colored. The gradient overlay will render white and the text will be gray-100.
+- Use `Dark (gray-100)` when the background image has many shadows, is dimly lit, or uses a dark color palette. The gradient overlay will render dark and the text will be white.
+- Use `Light (white)` when the background image is well-lit or brightly colored. The gradient overlay will render white and the text will be gray-100.
 
 ![Dark theme](../../images/pattern/leadspace/LeadSpace_ColorThemes_Dark.jpg)
+
 <Caption>Dark</Caption>
-<br/>
+<br />
 
 ![Light theme](../../images/pattern/leadspace/LeadSpace_ColorThemes_Light.jpg)
-<Caption>Light</Caption>
 
+<Caption>Light</Caption>
 
 ## Left-aligned style options
 
+### Content guidance
+
+| Field                    | Required                                                                                              | Max character size (English / translated) |
+| ------------------------ | ----------------------------------------------------------------------------------------------------- | ----------------------------------------- |
+| Headline                 | Yes                                                                                                   | XS (65 / 85)                              |
+| Short copy               | No                                                                                                    | M (120 / 150)                             |
+| Secondary call to action | No                                                                                                    | M (120 / 150)                             |
+| Primary call to action   | No                                                                                                    | XXS                                       |
+| Background image         | Yes<br/> <br/><div style="max-width: 200px">\_Note: each breakpoint requires a different image.</div> |                                           |
+
 ### Type styles
+
 There are two expressive type styles to choose from when using Lead space left-aligned:
 
-* `$expressive-heading-06` is recommended for pages that surface detailed, productive content to users such as product pages.
-* `$display-01` is recommended for pages that have rich editorial, expressive moments such as marketing or campaign pages.
+- `$expressive-heading-06` is recommended for pages that surface detailed, productive content to users such as product pages.
+- `$display-01` is recommended for pages that have rich editorial, expressive moments such as marketing or campaign pages.
 
 ![Lead space with $expressive-heading-06](../../images/pattern/leadspace/LeadSpace_TypeStyles_$expressive-heading-06.jpg)
-<Caption>$expressive-heading-06 can be used to highlight the name of the product, offering or title of topic. This option is optimal if using all Lead space and components together. </Caption>
 
-<br/>
+<Caption>
+  $expressive-heading-06 can be used to highlight the name of the product,
+  offering or title of topic. This option is optimal if using all Lead space and
+  components together. 
+</Caption>
+
+<br />
 
 ![Lead space with $display-01](../../images/pattern/leadspace/LeadSpace_TypeStyles_$display-01.jpg)
-<Caption>$display-01 can be used to celebrate strong, editorial messaging.</Caption>
+
+<Caption>
+  $display-01 can be used to celebrate strong, editorial messaging.
+</Caption>
 
 ### Specifications
 
 ![$expressive-heading-06 at 1312 xlg breakpoint](../../images/pattern/leadspace/LeadSpace_Left_Heading06_Specs.jpg)
+
 <Caption>$expressive-heading-06 at 1312 xlg breakpoint</Caption>
 
-<br/>
+<br />
 
 1. **Heading:** type: $expressive-heading-06, color: $text-01, width: 95% of container (8 columns)
 1. **Content spacer:** Minimum space between lead space heading and short copy: 96px
-1. **Short copy:** *optional, type: $expressive-heading-03, color: $text-01, width: 95% of container (4 columns)
-1. **Button group:** Use the button group component
+1. **Short copy:** \*optional, type: $expressive-heading-03, color: $text-01, width: 95% of container (4 columns)
+1. **Button group:** Use the Button group component
 1. **Gradient stop:** color: black (#000000), opacity: 75%, linear: left to right, width: 50% of total container width
-1. **Background image:** *optional, width: 100% of container for all breakpoints. For detailed guidelines, visit [the imagery section on the Lead space pattern page](/patterns/lead-space#imagery).
+1. **Background image:** \*optional, width: 100% of container for all breakpoints. For detailed guidelines, visit [the imagery section on the Lead space pattern page](/patterns/lead-space#imagery).
 
-<br/>
-<br/>
+<br />
+<br />
 
 ![$display-01 at 1312 xlg breakpoint](../../images/pattern/leadspace/LeadSpace_Left_Display01_Specs.jpg)
+
 <Caption>$display-01 at 1312 xlg breakpoint</Caption>
 
-<br/>
+<br />
 
 1. **Heading:** type: $display-01, color: $text-01, width: 95% of container (8 columns)
 1. **Content spacer:** Minimum space between lead space heading and short copy: 96px
-1. **Short copy:** *optional, type: $expressive-heading-03, color: $text-01, width: 95% of container (4 columns)
-1. **Button group:** Use the button group component
+1. **Short copy:** \*optional, type: $expressive-heading-03, color: $text-01, width: 95% of container (4 columns)
+1. **Button group:** Use the Button group component
 1. **Gradient stop:** color: black (#000000), opacity: 75%, linear: left to right, width: 50% of total container width
-1. **Background image:** *optional, width: 100% of container for all breakpoints. For detailed guidelines, visit [the imagery section on the Lead space pattern page](/patterns/lead-space#imagery).
+1. **Background image:** \*optional, width: 100% of container for all breakpoints. For detailed guidelines, visit [the imagery section on the Lead space pattern page](/patterns/lead-space#imagery).
 
-<br/>
-<br/>
+<br />
+<br />
 
 ![$expressive-heading-06 mobile display](../../images/pattern/leadspace/LeadSpace_Mobile_Heading_06.jpg)
+
 <Caption>$expressive-heading-06 mobile display</Caption>
 
-<br/>
+<br />
 
 1. **Heading:** type: $display-01, color: $text-01, width: 100% of container (4 columns)
-1. **Short copy:** *optional, type: $expressive-heading-03, color: $text-01width: 95% of container (4 columns)
-1. **Button group:** Use the button group component
+1. **Short copy:** \*optional, type: $expressive-heading-03, color: $text-01width: 95% of container (4 columns)
+1. **Button group:** Use the Button group component
 1. **Gradient stop:** color: black (#000000), opacity: 50%, on mobile, gradient overlays the entire image
-1. **Background image:** *optional, width: 100% of container, size: 320 X 370
+1. **Background image:** \*optional, width: 100% of container, size: 320 X 370
 
-<br/>
-<br/>
+<br />
+<br />
 
 ![$display-01 mobile display](../../images/pattern/leadspace/LeadSpace_Mobile_Display01.jpg)
+
 <Caption>$display-01 mobile display</Caption>
 
-<br/>
+<br />
 
 1. **Heading:** type: $expressive-heading-06, color: $text-01, width: 100% of container (4 columns)
-1. **Short copy:** *optional, type: $expressive-heading-03, color: $text-01, width: 95% of container (4 columns)
-1. **Button group:** Use the button group component
+1. **Short copy:** \*optional, type: $expressive-heading-03, color: $text-01, width: 95% of container (4 columns)
+1. **Button group:** Use the Button group component
 1. **Gradient stop:** color: black (#000000), opacity: 50%, on mobile, gradient overlays the entire image
-1. **Background image:** *optional, width: 100% of container, size: 320 X 370
+1. **Background image:** \*optional, width: 100% of container, size: 320 X 370
 
 ## Design and functional specifications
 
@@ -160,7 +187,7 @@ The design specs and functional specs for Lead space can be viewed <a href="http
       >
 
 ![React icon](../../images/icon/drupal_logo.svg)
- 
+
 </ResourceCard>
 
 </Column>
@@ -170,8 +197,9 @@ The design specs and functional specs for Lead space can be viewed <a href="http
 ## References
 
 ### Research findings
-* View A/B testing for Lead space video [here](https://lux.w3ibm.mybluemix.net/library/research/71/).
-* View A/B testing for buttons vs text [here](https://lux.w3ibm.mybluemix.net/library/research/2/).
+
+- View A/B testing for Lead space video [here](https://lux.w3ibm.mybluemix.net/library/research/71/).
+- View A/B testing for buttons vs text [here](https://lux.w3ibm.mybluemix.net/library/research/2/).
 
 <!-- Hiding since this information is duplicative of the dev docs on storybook.
 
