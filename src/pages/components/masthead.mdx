@@ -13,6 +13,7 @@ import ComponentFeedback from 'components/ComponentFeedback';
 
 <AnchorLink>Masthead with Level 0</AnchorLink>
 <AnchorLink>Masthead with Level 1</AnchorLink>
+<AnchorLink>Mega menu</AnchorLink>
 <AnchorLink>Design and functional specifications</AnchorLink>
 <AnchorLink>Development documentation</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
@@ -102,6 +103,7 @@ Masthead with Level 1 is used for pages that are determined to be an ecosystem a
 3. **Profile:** Links to a user's MyIBM profile where they can access their IBMid.
 4. **Ecosystem name:** Ecosystem names should have only one text and color treatment. The ecosystem name is specific and based on the offering, product, and category, it is a direct link back to the IBM product or sub-topic page. Never use a logo and/or image for the ecosystem name.
 5. **Navigation labels:** Navigation labels are set to the default IBM global navigation, these labels are short descriptors to inform the user what type of content they will find in the menu or link.
+6. **Menus:** If there are multiple options for a navigation area, a ^ is displayed next to the navigation label. The options are displayed as a drop-down (as indicated by the above) or through a mega menu if the drop-down is an inefficient interface.
 
 ### Behavior
 
@@ -134,14 +136,101 @@ All navigation labels will collapse into a left panel hamburger menu on any brow
 #### Scrolling
 When using the Masthead with L1, the Masthead with L0 (IBM logo, search and profile) scrolls away and Masthead with L1 sticks to the top or the browser. If the user scrolls up the Masthead with L0 comes back into view.
 
-#### Navigation link labels
-All navigation links in the Masthead with L1 have the ability to support a single group of sub-links which will be displayed in a dropdown below the navigation label on click. If the sub-link does not take the user to a new page the navigation label will display as selected.
+## Mega menu
+Mega menus are one of the elements in the L0 and L1 masthead anatomy. They are used when the list of links for a navigation label in the L0 or L1 exceeds what can be achieved from a drop-down menu, either because the amount of link content is more than what is typically consumable in a drop-down or because the oganization of the content requires more than a simple list.
 
-![Masthead component level 1 nav link labels behavior image](../../images/component/masthead/masthead-l1-behavior-dropdown.png)
+There are a number of options for the mega menu, depending on if certain links need emphasizing, if links need a description, and the amount of groups and links that need to be displayed.
+1. Default - Groups of links that all have the same emphasis 
+2. Variation - Emphasizing certain groups of links
+3. Variation - Links with descriptions
+4. Variation - Two tiers to support a large amount of groups and links
+
+Regardless of the variations, there are commonalities shared by all the mega menus:
+- For maximum breakpoints, it spans the full width of the viewport.
+- Is fully responsive and changes what is displayed based on the browser size.
+- Closes when the user (1) select a link in the mega menu or (2) taps / clicks the highlighted navigation label in the L0 or L1 or (3) taps / clicks anywhere outside the mega menu.
+- When the user clicks / taps on another navigation label, the current mega menu closes and the menu / drop down for the selected navigation label opens.
+
+#### When to use:
+Mega menu is used to display links for the L0 and L1 navigation labels across the ibm.com web site when a drop-down is insufficient. 
+
+NOTE: If you have a use case that is not covered by the variations below, please reach out to the Carbon for IBM.com team who will help you find an answer to the problem. This will help us ensure that there is a consistent navigation system across the site and that there are not one-off solutions.
+
+## Default
+The default option displays groups of links under a heading. While groups can be placed in any order, all the groups all have the same emphasis in expressing the information. For the maximum breakpoint, the mega menu can accomodate up to 4 columns of content.
+
+### Anatomy
+![Masthead component mega menu anatomy image](../../images/component/masthead/masthead-default_megamenu.png)
+
+1. **Navigation label:** These are consistent regardless of which mega menu variation is implemented.
+2. **Menu items:** The menu items are grouped. Each group has a group title and link (optional); if the group title is not a link, then the blue arrow image is not displayed and the group title is not clickable. Depending on the number of groups and the amount of links, the groups can stack on top of each other, as shown below. A group can also contain no links (see "Cloud platform support" in the Learn & Support example below). For both stacked groups and a group with no links, keep in mind how the groups should be displayed that will keep the experience simple and easy to digest for a user. In the maximum breakpoint view, the groups can span across 4 columns. 
+
+![Masthead component mega menu anatomy image](../../images/component/masthead/masthead-default_megamenu_example2.png)
+
+### Behavior
+1. **Navigation label:** When the mega menu is displayed, the corresponding navigation label is highlighted.
+2. **Menu items:** When the user hovers over a menu item, the hover state is triggered (see "Annual report" in the Explore More example or "Hybrid cloud" in the Learn & Support example).
+3. There is no scrolling for this variation
+
+## Variation 1 - Emphasizing certain groups of links
+This variation should be used when certain links need to be emphasized. There can be up to two groups of content that can be emphasized in the left-hand area.
+
+### Anatomy
+![Masthead component mega menu anatomy image](../../images/component/masthead/masthead-megamenu_variation_featuredlinks.png)
+
+1. **Navigation label:** These are consistent regardless of which mega menu variation is implemented.
+2. **Emphasis items:** This area provides a way to emphasize certain links. There is a heading for the area. Up to two groups of links can be displayed. For each group, there can be a heading, a short description, and up to two links.
+3. **Menu items:** The menu items are grouped. Each group has a group title and link (optional); if the group title is not a link, then the blue arrow image is not displayed and the group title is not clickable (see Solutions for an example). Similar to the default option, depending on the number of groups and the amount of links, the groups can stack on top of each other. A group can also contain no links (see "Cloud platform support" in the Learn & Support example above). For both stacked groups and a group with no links, keep in mind how the groups should be displayed that will keep the experience simple and easy to digest for a user. In the maximum breakpoint view, the menu items can span across 3 columns. 
+4. **Optional CTA:** There can be an optional CTA. Its purpose is to direct the user to the primary landing page for the navigation section. This CTA spans the entire 3 columns of the menu items section.
+
+### Behavior
+1. **Navigation label:** When the mega menu is displayed, the corresponding navigation label is highlighted.
+2. **Emphasis items and Menu items:** Hover states for all links, whether it is a menu item link or a group heading link.
+3. **Optional CTA:** The hover state covers the entire optional CTA area. See below for example.
+4. There is no scrolling for this variation
+
+![Masthead component mega menu anatomy image](../../images/component/masthead/masthead-megamenu_variation_featuredlinks_primaryCTAhover.png)
+
+## Variation 2 - Links with descriptions
+This variation should be used when menu items should be displayed along with a short description. This is best suited when the menu item names may not be clear to a user, such as names of IBM services, and the description can provide more context to help the user make an informed decision on where to go next.  
+
+### Anatomy
+![Masthead component mega menu anatomy image](../../images/component/masthead/masthead-megamenu_variation_linkswithdescription.png)
+
+1. **Navigation label:** These are consistent regardless of which mega menu variation is implemented.
+2. **Menu items:** There can be up to 12 items displayed, spanning across 4 columns in the maximum breakpoint view. Each item has a title and an optional description. A group can also contain no links (see "Flexible payment plans" in the example above); if you have this scenario, keep in mind the order the groups should be displayed that will keep the experience simple to scan for a user. 
+3. **Optional CTA:** There can be an optional CTA. It’s purpose is to direct the user to the primary landing page for the navigation section. This CTA spans the entire width of the mega menu.
+
+### Behavior
+1. **Navigation label:** When the mega menu is displayed, the corresponding navigation label is highlighted.
+2. **Menu items:** The link and the description are highlighted in the hover state and the user can select the entire hover area (see "Design & business strategy" above).
+3. **Optional CTA:** The hover state covers the entire optional CTA area.
+4. There is no scrolling for this variation
+
+## Variation 3 - Two tiers
+This variation caters to a large number of groups and large amount of links within each group. When the user selects a group on the left, the list of corresponding links displays on the right. This designs allows a description for each link.
+
+### Anatomy
+![Masthead component mega menu anatomy image](../../images/component/masthead/masthead-megamenu_variation_twotiers.png)
+
+1. **Navigation label:** These are consistent regardless of which mega menu variation is implemented.
+2. **List of groups:** The list of groups is displayed
+3. **Group link and description:** The selected group is indicated in this area. The group has a title and in addition, it can have an optional description and a link.
+4. **Menu items:** There can be up to 12 items displayed, spanning across 3 columns in the maximum breakpoint view. Each item has a title and an optional description. 
+5. **Optional CTA:** There can be an optional CTA. It’s purpose is to direct the user to the primary landing page for the navigation section. This CTA spans only the column that displays the list of groups.
+
+### Behavior
+1. **Navigation label:** When the mega menu is displayed, the corresponding navigation label is highlighted.
+2. **List of groups:** Scrolling is supported in this area if the list is longer than can be displayed. When the user selects a group in the list, the content is displayed on the right.
+3. **Group link and description:** There is a hover behavior if the title is also a link.
+4. **Menu items:** The link and the description are highlighted in the hover state and the user can select the entire hover area (see "IBM Cloud Bare Metal Servers" above).
+5. **Optional CTA:** The hover state covers the entire 1 column CTA area.
 
 ## Design and functional specifications
 
-The design specs and functional specs for the Masthead can be viewed [here](https://ibm.box.com/s/knez30xt6kao1amylebbvs97vkemhrbp). 
+The design specs and functional specs for the 
+- Masthead can be viewed [here](https://ibm.box.com/s/knez30xt6kao1amylebbvs97vkemhrbp). 
+- Mega menu can be viewed [here](https://ibm.box.com/s/lcjcmdoaz2hnj6gejx7ilafhrvje4k68).
 
 ## Development documentation
 
