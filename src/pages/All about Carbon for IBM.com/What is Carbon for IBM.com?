@@ -1,0 +1,54 @@
+---
+title: What is Carbon for IBM.com?
+description:
+  Carbon for IBM.com is the design system for IBM.com's digital
+  experiences. The system consists of working code, design tools, resources and
+  it's tailored to IBM.com website page makers.
+---
+
+<PageDescription>
+
+Carbon for IBM.com is the design system for IBM.com's digital experiences. The system consists of working code, design tools, and resources and is tailored to IBM.com website page makers.
+
+</PageDescription>
+
+## What is Carbon for IBM.com? (option A)
+
+As IBM.com's official design system, Carbon for IBM.com serves a wide range of designers and
+developers are building digital products and experiences.
+
+Carbon for IBM.com is building for the IBM.com maker's business needs. It also means we have a brilliant team of engineers
+and designers working full time to help make IBM.com better. It is maintained by Digital Design System Team, a
+core team of designers, developers, and writers. 
+
+The goals of the Carbon for IBM.com include improving visual consistency and quality for all IBM.com website pages,
+establishing a shared user-centered experience for all IBM.com visitors, and providing
+clear, discoverable guidance around design and development best practices to all Caron for IBM.com adopters.
+
+## What is Carbon for IBM.com? (option B)
+
+Carbon for IBM.com is a resource for the community of designers and developers involved in building IBM web pages and digital experiences. Its goal is to implement the IBM Design Language, which expresses IBM's brand values across all customer touchpoints, both product, and web. Carbon for IBM.com is the design system that replaces Northstar v18, v19a, and even older versions like v17.
+
+## What is Carbon?
+
+Carbon Design System, aka Carbon, is how the IBM Design Language is implemented across IBM products. Choosing Carbon as the strategic solution for Carbon for IBM.com ensures IBM has one consolidate design system across product and web. Carbon for IBM.com works alongside Carbon to produce themes, components, patterns, and guidelines to leverage IDL for IBM.com’s more expressive nature.
+
+
+## What are the differences between Carbon and Carbon for IBM.com
+
+**Carbon for IBM.com is for IBM.com expereince.** The Carbon design system is for product experience.
+
+**Carbon for IBM.com adoprers is IBM.com website page makers.** The Carbon design system adopters are IBM product teams.
+
+**Carbon for IBM.com built with [React](/developing/frameworks/react) and Web Components only.** The Carbon design system built [React](/developing/frameworks/react) first and support core parts of the system in [vanilla JS](/developing/frameworks/vanilla), [Angular](/developing/frameworks/angular),[Vue](/developing/frameworks/vue), and [Svelte](/developing/frameworks/svelte).
+
+**Carbon for IBM.com is not an open source design system.** The Carbon design system is an open source design system.
+
+**Carbon for IBM.com is developed and maintained by Digital Design Squad.** The Carbon design system is developed and maintained by Carbon Design Team.
+
+
+## Questions
+
+If you do not know which design system your team should adopt, please reach out to us on the #carbon-for-ibm-dotcom Slack channel. 
+
+
