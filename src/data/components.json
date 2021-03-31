@@ -104,33 +104,6 @@
         "notAvailable": false
       }
     },
-
-    "Card group": {
-      "url": "./card-group",
-      "description": "The Card group component is a collection of Card components that can be used in block and group-level patterns.",
-      "storybook": {
-        "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-card-group--default",
-        "react": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-cardgroup--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": true,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
     "Card link": {
       "url": "./card-link",
       "description": "The Card link component is a CTA styled like a card that acts as the main CTA for a section of content, it typically appears at the end of a block-pattern.",
@@ -625,32 +598,6 @@
         "notAvailable": false
       }
     },
-    "Table of contents": {
-      "url": "./table-of-contents",
-      "description": "The Table of contents component allows users to quickly navigate through long pages by providing jump links to different sections of the content within a single page.",
-      "storybook": {
-        "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-table-of-contents--default",
-        "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-table-of-contents--manually-define-menu-items"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": true,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
     "Video player": {
       "url": "./video-player",
       "description": "The Video player component plays embedded videos using the Kaltura video platform. It can be used in inline patterns as well as modals. It is always the full width of its containing element and maintains an aspect ratio of 16:9.",
@@ -711,6 +658,32 @@
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-callout-with-media--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-calloutwithmedia--default"
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": true,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      }
+    },
+    "Card group": {
+      "url": "./card-group",
+      "description": "The Card group component is a collection of Card components that can be used in block and group-level patterns.",
+      "storybook": {
+        "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-card-group--default",
+        "react": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-cardgroup--default"
       },
       "webcomponents": {
         "stable": true,
@@ -1179,6 +1152,32 @@
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-logo-grid--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-logogrid--default"
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": true,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      }
+    },
+    "Table of contents": {
+      "url": "./table-of-contents",
+      "description": "The Table of contents component allows users to quickly navigate through long pages by providing jump links to different sections of the content within a single page.",
+      "storybook": {
+        "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-table-of-contents--default",
+        "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-table-of-contents--manually-define-menu-items"
       },
       "webcomponents": {
         "stable": true,
