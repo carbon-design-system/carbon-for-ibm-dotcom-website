@@ -30,10 +30,12 @@ This is the most commonly used Lead space style. The left-aligned type draws the
 
 There are 4 available heights:
 
-- Super (640px)
-- Tall (560px)
-- Medium (480px)
-- Short (320px)
+| Name          | Height      | 
+| ------------- | ----------- |
+| Super         | 640 px      |
+| Tall         | 560 px      |
+| Medium         | 480 px      |
+| Short         | 320 px      |
 
 
 ![Lead space left-aligned](../../images/pattern/leadspace/leadspace_left_dark_demo_1.jpg)
@@ -59,7 +61,7 @@ This option has 4 empty columns on the left and right to accommodate pages that 
 | -------------- | --------------- | ------------------------------------- | ---------------------------------------------- | --------------- |
 | Headline       | Short copy      | Yes                                   | XS (65 / 85)                                   | –               |
 | Description    | Short copy      | No                                    | M (120 / 150)                                  | –               |
-| [Button group](https://www.ibm.com/standards/web/carbon-for-ibm-dotcom/components/button-group) | Component | No | XXS (40 / 55) | Lead space Short (320px) does not allow a Button group or a short copy. |
+| [Button group](https://www.ibm.com/standards/web/carbon-for-ibm-dotcom/components/button-group) | Component | No | XXS (40 / 55) | Lead space Short (320px) does not allow a button group or a short copy. |
 | Gradient       | True/False      | No                                    | –         | True – Show gradient (default) <br/>False – No gradient |
 | Background [image](https://www.ibm.com/standards/web/carbon-for-ibm-dotcom/components/image) | Component | No | –  | Breakpoints require different images. |
 
@@ -85,18 +87,18 @@ For detailed guidelines around usage, also reference the [Lead space pattern pag
 
 There are two color themes to choose from when using Lead space:
 
-### Dark theme
+### Dark themes (gray 100 or gray 90)
 
-Use `Dark (gray-100)` when the background image has many shadows, is dimly lit, or uses a dark color palette. The gradient overlay will render dark and the text will be white.
+Use `gray 100` or `gray 90` when the background image has shadows, is dimly lit, or uses a dark color palette.
 
 ![Dark theme](../../images/pattern/leadspace/leadspace_colortheme_dark_demo.jpg)
 
 <Caption>Dark Lead space – Super – 640px height at xlg 1312px breakpoint</Caption>
 <br />
 
-### Light theme
+### Light themes (white or gray 10)
 
-Use `Light (white)` when the background image is well-lit or brightly colored. The gradient overlay will render white and the text will be gray-100.
+Use `white`  or `gray 10` when the background image is well-lit or brightly colored.
 
 ![Light_theme](../../images/pattern/leadspace/leadspace_colortheme_light_demo.jpg)
 
@@ -162,12 +164,12 @@ The design specs and functional specs for Lead space can be viewed <a href="http
 
 <br />
 
-1. **Heading** <br/>Type: $expressive-heading-06, color: $text-01, width: calc(8col – 32px)
-1. **Content spacer** <br/>Minimum space between lead space heading and short copy: 96px
-1. **Short copy** \*optional <br/>Type: $expressive-heading-03, color: $text-01, width: calc(6col – 32px)
-1. **Button group** <br/>Use the Button group component
-1. **Gradient (applied over image)** <br/>Color: black (#000000), linear: left to right <br/>Opacity: 1 at start, 0.4 at 50%, 0 at 75% of total container width
-1. **Background image** \*optional <br/>Cover, width: 100% of container for all breakpoints. For detailed guidelines, visit [the imagery section on the Lead space pattern page](/patterns/lead-space#imagery).
+1. **Heading:** $expressive-heading-06
+1. **Content spacer:** safe space between heading and short copy
+1. **Short copy:** $expressive-heading-03
+1. **Button group**
+1. **Gradient (applied over image)**
+1. **Background image** \*optional: cover, width: 100% of container
 
 <br />
 <br />
@@ -178,12 +180,12 @@ The design specs and functional specs for Lead space can be viewed <a href="http
 
 <br />
 
-1. **Heading** <br/>Type: $display-01, color: $text-01, width: calc(8col – 32px)
-1. **Content spacer** <br/>Minimum space between lead space heading and short copy: 96px
-1. **Short copy** \*optional <br/>Type: $expressive-heading-03, color: $text-01, width: calc(6col – 32px)
-1. **Button group** <br/>Use the Button group component
-1. **Gradient (applied over image)** <br/>Color: black (#000000), linear: left to right <br/>Opacity: 1 at start, 0.4 at 50%, 0 at 75% of total container width
-1. **Background image** \*optional <br/>Cover, width: 100% of container for all breakpoints. For detailed guidelines, visit [the imagery section on the Lead space pattern page](/patterns/lead-space#imagery).
+1. **Heading:** $display-01
+1. **Content spacer:** safe space between heading and short copy
+1. **Short copy:** $expressive-heading-03
+1. **Button group** 
+1. **Gradient (applied over image)**
+1. **Background image** \*optional: cover, width: 100% of container
 
 <br />
 <br />
@@ -194,11 +196,10 @@ The design specs and functional specs for Lead space can be viewed <a href="http
 
 <br />
 
-1. **Heading** <br/>Type: $expressive-heading-06, color: $text-01, width: full container (4 col)
-1. **Short copy** \*optional <br/>type: $expressive-heading-03, color: $text-01, width: full container (4 col)
-1. **Button group** <br/>Use the Button group component
-1. **Gradient stop** <br/>color: black (#000000), opacity: 50%, on mobile, gradient overlays the entire image
-1. **Inline image (from background image)** \*optional <br/>Width: 100% of container, 4:3
+1. **Heading:** $expressive-heading-06
+1. **Short copy:** $expressive-heading-03
+1. **Button group** 
+1. **Inline image (from background image)** \*optional <br/>width: 100% of container, 4:3
 
 <br />
 <br />
@@ -209,11 +210,11 @@ The design specs and functional specs for Lead space can be viewed <a href="http
 
 <br />
 
-1. **Heading** <br/>Type: $display-01, color: $text-01, width: full container (4 col)
-1. **Short copy** \*optional <br/>$expressive-heading-03, color: $text-01, width: full container (4 col)
-1. **Button group** <br/>Use the Button group component
-1. **Gradient stop** <br/>Color: black (#000000), opacity: 50%, on mobile, gradient overlays the entire image
-1. **Inline image (from background image)** \*optional <br/>Width: 100% of container, 4:3
+1. **Heading:** $display-01
+1. **Short copy:** $expressive-heading-03
+1. **Button group** 
+1. **Inline image (from background image)** \*optional <br/>width: 100% of container, 4:3
+
 
 ### Lead space centered
 
@@ -223,12 +224,12 @@ The design specs and functional specs for Lead space can be viewed <a href="http
 
 <br />
 
-1. **Heading** <br/>Type: $display-01, color: $text-01, width: calc(8col – 32px)
-2. **Short copy** \*optional <br/>$expressive-heading-03, color: $text-01, width: calc(6col – 32px)
-3. **Button group** <br/>Use the Button group component
+1. **Heading:** $display-01
+2. **Short copy:** $expressive-heading-03
+3. **Button group**
 4. **Content bottom spacer** <br/>Height: $layout-07 + $layout-06 with background image, <br/>or $layout-07 without background image
-5. **Gradient (applied over image)** <br/>Color: black (#000000), linear: top to bottom, <br/>Opacity: 1 at start, 0.6 at 256px from bottom, 0 at 160px from bottom
-6. **Background image** \*optional <br/>Cover, width: 100% of container for all breakpoints. <br/>Image position: center bottom.
+5. **Gradient (applied over image)**
+6. **Background image:** cover, width: 100% of container, position: center bottom.
 
 
 ## Development documentation
