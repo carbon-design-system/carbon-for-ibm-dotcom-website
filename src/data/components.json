@@ -1096,7 +1096,7 @@
     },
     "Lead space": {
       "url": "./leadspace",
-      "description": "Lead space is used to orient the user when they land on a page and to help them decide whether to continue reading or not as well as orient themselves. It will always be positioned at the top of a web page.",
+      "description": "The purpose of a lead space is to help the users understand where they landed, and what type of content they are going to find on the webpage. It will always be positioned at the top.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-leadspace--default-with-no-image",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-leadspace--default-with-no-image"
