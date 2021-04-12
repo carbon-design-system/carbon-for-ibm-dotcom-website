@@ -13,6 +13,7 @@ import ComponentFeedback from "components/ComponentFeedback";
 
 <AnchorLink>Lead space left-aligned</AnchorLink>
 <AnchorLink>Lead space centered</AnchorLink>
+<AnchorLink>Content guidance</AnchorLink>
 <AnchorLink>Usage guidance</AnchorLink>
 <AnchorLink>Color themes</AnchorLink>
 <AnchorLink>Left-aligned style options</AnchorLink>
@@ -36,6 +37,31 @@ This option has 4 empty columns on the left and right to accommodate pages that 
 
 ![Lead space centered](../../images/pattern/leadspace/Leadspace_Demo_LeftAligned.jpg)
 
+## Content guidance
+
+### Lead space left-aligned
+
+| Field                    | Required                                                                                              | Max character size (English / translated) |
+| ------------------------ | ----------------------------------------------------------------------------------------------------- | ----------------------------------------- |
+| Headline                 | Yes                                                                                                   | XS (65 / 85)                              |
+| Short copy               | No                                                                                                    | M (120 / 150)                             |
+| Secondary call to action | No                                                                                                    | M (120 / 150)                             |
+| Primary call to action   | No                                                                                                    | XXS                                       |
+| Background image         | Yes<br/> <br/><div style="max-width: 200px"> Note: each breakpoint requires a different image.</div> |                                           |
+
+### Lead space centered
+
+| Field | Field type | Required   | Cardinality | Max character size <br/>(English / translated) | Notes |
+| -------- | --------- | ---------- | ---------- | ----------| ----------|
+| Headline | Short copy | Yes | 1 | XS (65 / 85)| - |
+| Description | Short copy | No | 1 | M (120 / 150)| - |
+| [Button group](https://www.ibm.com/standards/web/carbon-for-ibm-dotcom/components/button-group) | Component | No | Max of two buttons | - | - |
+| [Image](https://www.ibm.com/standards/web/carbon-for-ibm-dotcom/components/image) | Component | No | 1 | - | - |
+| Gradient | True/False | Yes | - | - | True - Show gradient (default)<br/>False - No gradient |
+| Type | Option list | Yes | - | - | Center, Left, or Small |
+
+To see the list of all character count standards, go to this <a href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards" target="_blank" rel="noreferrer">link</a>.
+
 ## Usage guidance
 
 For detailed guidelines around usage, also reference the [Lead space pattern page](/patterns/lead-space).
@@ -57,16 +83,6 @@ There are two color themes to choose from when using Lead space:
 <Caption>Light</Caption>
 
 ## Left-aligned style options
-
-### Content guidance
-
-| Field                    | Required                                                                                              | Max character size (English / translated) |
-| ------------------------ | ----------------------------------------------------------------------------------------------------- | ----------------------------------------- |
-| Headline                 | Yes                                                                                                   | XS (65 / 85)                              |
-| Short copy               | No                                                                                                    | M (120 / 150)                             |
-| Secondary call to action | No                                                                                                    | M (120 / 150)                             |
-| Primary call to action   | No                                                                                                    | XXS                                       |
-| Background image         | Yes<br/> <br/><div style="max-width: 200px">\_Note: each breakpoint requires a different image.</div> |                                           |
 
 ### Type styles
 
@@ -154,7 +170,7 @@ There are two expressive type styles to choose from when using Lead space left-a
 
 ## Design and functional specifications
 
-The design specs and functional specs for Lead space can be viewed <a href="https://ibm.box.com/s/d9jey3rlfxqmxu059f0x9dtcx7f5ehuh" target="_blank">here</a>.
+The design specs and functional specs for Lead space can be viewed <a href="https://ibm.box.com/s/d9jey3rlfxqmxu059f0x9dtcx7f5ehuh" target="_blank" rel="noreferrer">here</a>.
 
 ## Development documentation
 
@@ -179,30 +195,6 @@ The design specs and functional specs for Lead space can be viewed <a href="http
 </Column>
 
 </Row>
-
-## References
-
-### Research findings
-
-- View A/B testing for Lead space video [here](https://lux.w3ibm.mybluemix.net/library/research/71/).
-- View A/B testing for buttons vs text [here](https://lux.w3ibm.mybluemix.net/library/research/2/).
-
-<!-- Hiding since this information is duplicative of the dev docs on storybook.
-
-### Developer notes
-When viewing the [LeadSpace stories](https://ibmdotcom-patterns-react-experimental.mybluemix.net/?path=/story/leadspace--default-with-image), the knobs to toggle the buttons’ aspects are different for each story due to storybook knob limitations. In the no image story, button text and links can be modified or buttons can be removed entirely by setting the "buttons" knob to an empty array `[ ]`. Notice when editing the “renderIcon” field, the button icons do not reload hence in the image story, there are dropdown selectors to toggle the button icons. When using the LeadSpace, please follow the button structure in the no image story.
-
-For further developer guidance view the LeadSpace README.md [here](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/blob/master/packages/react/src/patterns/sections/LeadSpace/README.md).
-
--->
-
-<!-- Hiding since this information is duplicative and does not fit in the content model for other pages
-
-## Metadata 
-* Components: [Button](https://www.carbondesignsystem.com/components/button/code/)
-* Elements: [Photography](https://www.ibm.com/design/language/elements/photography/overview/)
-* Github: [Carbon for IBM.com](https://github.com/carbon-design-system/carbon-for-ibm-dotcom)
--->
 
 ## Feedback
 
