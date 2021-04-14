@@ -1102,21 +1102,21 @@
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-leadspace--default-with-no-image"
       },
       "webcomponents": {
-        "stable": false,
-        "experimental": true,
+        "stable": true,
+        "experimental": false,
         "new": true,
         "updated": false,
         "deprecated": false,
-        "underConstruction": true,
+        "underConstruction": false,
         "notAvailable": false
       },
       "react": {
-        "stable": false,
-        "experimental": true,
-        "new": true,
+        "stable": true,
+        "experimental": false,
+        "new": false,
         "updated": false,
         "deprecated": false,
-        "underConstruction": true,
+        "underConstruction": false,
         "notAvailable": false
       }
     },
