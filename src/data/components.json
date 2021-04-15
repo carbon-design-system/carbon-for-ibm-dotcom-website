@@ -886,6 +886,32 @@
         "notAvailable": false
       }
     },
+    "Content group — banner": {
+      "url": "./content-group-banner",
+      "description": "Content group — banner is designed as a subtle callout, intended for tangential information or announcements supplementary to the page's main focus.",
+      "storybook": {
+        "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-content-group-banner--default",
+        "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-content-group-banner--default"
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": true,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      }
+    },
     "Content group — with cards": {
       "url": "./content-group-with-cards",
       "description": "Content group — with cards is used to present information through a group of cards with each acting as a call to action that drives to additional or supporting destinations. It is suitable for adding concise buckets of content and links to a long-form reading experience.",
