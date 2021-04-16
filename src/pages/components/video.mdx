@@ -1,13 +1,13 @@
 ---
-title: Video player
-description: The Video player uses Kaltura video platform and is the standard way of using a video on pages and in components.
+title: Video
+description: The Video component allows you as an adopter to embed Kaltura videos from the media center in various ways throughout a page.
 ---
 
 import { ComponentStatus } from 'components/ComponentList';
 import ComponentDescription from 'components/ComponentDescription';
 import ComponentFeedback from 'components/ComponentFeedback';
 
-<ComponentDescription name="Video player" type="ui" />
+<ComponentDescription name="Video" type="ui" />
 
 <AnchorLinks>
 
@@ -20,15 +20,19 @@ import ComponentFeedback from 'components/ComponentFeedback';
 </AnchorLinks>
 
 ## Default
-The Video player aspect ratio should match that of the video, or use one of the standard aspect ratios. In most cases 16x9, or 1x1 is recommended.
+The video component defaults to aspect ratio matching source video, or use one of the standard aspect ratios specified below. In most cases 16x9 is recommended.
 
 <Row>
 <Column colMd={8} colLg={8}>
 
-![Image of Video player component](../../images/component/video-player/video-player-default.jpg)
+![Image of Video component](../../images/component/video-player/video-player-default.jpg)
 
 </Column>
 </Row>
+
+The video can be played in-place of the poster image, or inside the [Lightbox Media Viewer](./lightbox-media-viewer). The later is recommended for a more immersive viewing experience.
+
+![Image of Video component in Lightbox media viewer](../../images/component/lightbox-media-viewer/lightbox-media-viewer-use-case-07.jpg)
 
 ## Content guidance
 
@@ -37,16 +41,17 @@ The Video player aspect ratio should match that of the video, or use one of the 
 | Video ID | Short copy | Yes | 1 | - |
 | Autoplay | True/False | No | 1 | True = Autoplay<br/>False = Don't autoplay (default) |
 | Aspect ratio | Option list | No | 1 | Default is 16x9. Other ratios are 9x16, 2x1, 1x2, 4x3, 3x4, 1x1 |
+| Caption | Short copy | No | 1 | Default to existing caption from video source |
 
 To see the list of all character count standards, go to this <a href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards" target="_blank" rel="noreferrer noopener nofollow">link</a>.
 
 ## Design and functional specifications
 
-The design specs and functional specs for Video player can be viewed <a href="https://ibm.box.com/s/9q7rdj73m32hufcw1xwl1td6nr88rghm" target="_blank" rel="noreferrer noopener nofollow">here</a>.
+The design specs and functional specs for Video can be viewed <a href="https://ibm.box.com/s/9q7rdj73m32hufcw1xwl1td6nr88rghm" target="_blank" rel="noreferrer noopener nofollow">here</a>.
 
 ## Development documentation
 
-<ComponentStatus name="Video player" type="ui" />
+<ComponentStatus name="Video" type="ui" />
 
 ## Feedback
 

@@ -70,7 +70,7 @@
     - title: Content block – simple
       path: /components/content-block-simple
     - title: Content block – with cards
-      path: /components/content-block-with-cards
+      path: /components/content-block-with-cardsats
     - title: Content group – horizontal
       path: /components/content-group-horizontal
     - title: Content group – with pictograms
@@ -131,8 +131,8 @@
       path: /components/quote
     - title: Table of contents
       path: /components/table-of-contents
-    - title: Video player
-      path: /components/video-player
+    - title: Video
+      path: /components/video
 
 - title: Patterns
   pages:
