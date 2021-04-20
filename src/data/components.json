@@ -888,7 +888,7 @@
     },
     "Content group — banner": {
       "url": "./content-group-banner",
-      "description": "Content group — banner is designed as a subtle callout, intended for tangential information or announcements supplementary to the page's main focus.",
+      "description": "Content group — banner is designed as a subtle callout, intended for tangential information or announcements that are supplementary to the page's main focus.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components-canary.mybluemix.net/?path=/story/components-content-group-banner--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-content-group-banner--default"
