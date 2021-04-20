@@ -598,9 +598,9 @@
         "notAvailable": false
       }
     },
-    "Video player": {
-      "url": "./video-player",
-      "description": "The Video player component plays embedded videos using the Kaltura video platform. It can be used in inline patterns as well as modals. It is always the full width of its containing element and maintains an aspect ratio of 16:9.",
+    "Video": {
+      "url": "./video",
+      "description": "The Video component allows you as an adopter to embed Kaltura videos from the media center in various ways throughout a page.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-video-player--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-videoplayer--default"
@@ -890,7 +890,7 @@
       "url": "./content-group-banner",
       "description": "Content group — banner is designed as a subtle callout, intended for tangential information or announcements supplementary to the page's main focus.",
       "storybook": {
-        "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-content-group-banner--default",
+        "webcomponents": "http://ibmdotcom-web-components-canary.mybluemix.net/?path=/story/components-content-group-banner--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-content-group-banner--default"
       },
       "webcomponents": {
