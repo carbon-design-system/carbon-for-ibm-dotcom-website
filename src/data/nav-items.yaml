@@ -131,8 +131,8 @@
       path: /components/quote
     - title: Table of contents
       path: /components/table-of-contents
-    - title: Video player
-      path: /components/video-player
+    - title: Video
+      path: /components/video
 
 - title: Patterns
   pages:
