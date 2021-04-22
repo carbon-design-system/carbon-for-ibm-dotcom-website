@@ -73,6 +73,8 @@
       path: /components/content-block-simple
     - title: Content block – with cards
       path: /components/content-block-with-cards
+    - title: Content group — banner
+      path: /components/content-group-banner
     - title: Content group – horizontal
       path: /components/content-group-horizontal
     - title: Content group – with pictograms

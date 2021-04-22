@@ -886,6 +886,32 @@
         "notAvailable": false
       }
     },
+    "Content group — banner": {
+      "url": "./content-group-banner",
+      "description": "Content group — banner is designed as a subtle callout, intended for tangential information or announcements that are supplementary to the page's main focus.",
+      "storybook": {
+        "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-content-group-banner--default",
+        "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-content-group-banner--default"
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": true,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": true,
+        "notAvailable": false
+      }
+    },
     "Content group — with cards": {
       "url": "./content-group-with-cards",
       "description": "Content group — with cards is used to present information through a group of cards with each acting as a call to action that drives to additional or supporting destinations. It is suitable for adding concise buckets of content and links to a long-form reading experience.",
@@ -1096,7 +1122,7 @@
     },
     "Lead space": {
       "url": "./leadspace",
-      "description": "Lead space is used to orient the user when they land on a page and to help them decide whether to continue reading or not as well as orient themselves. It will always be positioned at the top of a web page.",
+      "description": "The purpose of a lead space is to help the users understand where they landed, and what type of content they are going to find on the webpage. It will always be positioned at the top.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-leadspace--default-with-no-image",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-leadspace--default-with-no-image"
