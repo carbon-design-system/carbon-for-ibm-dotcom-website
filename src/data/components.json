@@ -891,7 +891,7 @@
       "description": "Content group — banner is designed as a subtle callout, intended for tangential information or announcements that are supplementary to the page's main focus.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-content-group-banner--default",
-        "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-content-group-banner--default"
+        "react": " "
       },
       "webcomponents": {
         "stable": true,
@@ -1221,6 +1221,32 @@
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
+        "notAvailable": false
+      }
+    },
+    "Tabs extended": {
+      "url": "./tabs-extended",
+      "description": "Quam diu etiam furor iste tuus nos eludet?",
+      "storybook": {
+        "webcomponents": "https://ibmdotcom-web-components.mybluemix.net/?path=/story/components-tabs-extended--default",
+        "react": " "
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": true,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": true,
         "notAvailable": false
       }
     }
