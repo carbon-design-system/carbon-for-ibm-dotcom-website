@@ -1,0 +1,21 @@
+name: Repo to wiki
+on:
+  workflow_dispatch:
+  push:
+    branches:
+    - main
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: photodow/wiki-helpers@1.1.0
+        with:
+          rootPath: "./wiki"
+      - name: Upload Documentation to Wiki
+        uses: SwiftDocOrg/github-wiki-publish-action@v1
+        with:
+          path: "./wiki-build"
+        env:
+          GH_PERSONAL_ACCESS_TOKEN: ${{ secrets.WIKI_HELPER }}
