@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="320px" viewBox="0 0 320 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>content_group_banner</title>
+    <g id="content_group_banner" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-Copy-66" fill="#A8A8A8" x="57" y="148" width="86" height="7"></rect>
+        <rect id="Rectangle-Copy-68" fill="#A8A8A8" x="57" y="139" width="111" height="7"></rect>
+        <rect id="Rectangle-Copy-69" fill="#78A9FF" x="198" y="139" width="47.1774194" height="4"></rect>
+        <rect id="Rectangle-Copy-70" fill="#78A9FF" x="198" y="146" width="50" height="4"></rect>
+        <line x1="183.5" y1="131.5" x2="183.5" y2="160.5" id="Line-3" stroke="#8D8D8D" stroke-linecap="square"></line>
+    </g>
+</svg>
