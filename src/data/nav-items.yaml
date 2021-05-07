@@ -131,10 +131,10 @@
       path: /components/pictogram-item
     - title: Quote
       path: /components/quote
-    - title: Tabs extended
-      path: /components/tabs-extended
     - title: Table of contents
       path: /components/table-of-contents
+    - title: Tabs extended
+      path: /components/tabs-extended
     - title: Video
       path: /components/video
 
