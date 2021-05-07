@@ -626,7 +626,7 @@
     },
     "Tabs extended": {
       "url": "./tabs-extended",
-      "description": "Quam diu etiam furor iste tuus nos eludet?",
+      "description": "Tabs extended combines tabs and accordion to organize editorial content.",
       "storybook": {
         "webcomponents": "https://ibmdotcom-web-components.mybluemix.net/?path=/story/components-tabs-extended--default",
         "react": " "
