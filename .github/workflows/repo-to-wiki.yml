@@ -13,6 +13,7 @@ jobs:
       - uses: photodow/wiki-helpers@1.1.0
         with:
           rootPath: "./wiki"
+          flattenDir: true
       - name: Upload Documentation to Wiki
         uses: SwiftDocOrg/github-wiki-publish-action@v1
         with:

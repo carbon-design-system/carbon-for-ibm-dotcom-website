@@ -9,14 +9,9 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 <details>
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[Link with icon]]
-- [[Feature card]]
-- [[Card link]]
-- [[Card]]
-- [[Button group]]
-- [[Lightbox media viewer]]
-- [[Video player service]]
-- [Carbon icons](https://www.carbondesignsystem.com/guidelines/icons/library/)
+- [[Component name 1]]
+- [[Component name 2]]
+- [[Component name 3]]
 
 <br />
 </details>
@@ -44,7 +39,7 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 
 ### 1. Level 1
 
-Brief description might go here. [[Card link]] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar non felis non rutrum.
+Brief description might go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar non felis non rutrum.
 
 {{Scoped image | resize}}
 

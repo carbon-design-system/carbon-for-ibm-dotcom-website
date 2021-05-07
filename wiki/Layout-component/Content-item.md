@@ -9,7 +9,9 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 <details>
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[CTA]]
+- [[Component name 1]]
+- [[Component name 2]]
+- [[Component name 3]]
 
 <br />
 </details>

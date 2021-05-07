@@ -9,7 +9,8 @@
     "build:clean": "yarn clean && gatsby build --prefix-paths",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "build:analyze": "ANALYZE=true yarn build"
+    "build:analyze": "ANALYZE=true yarn build",
+    "build-wiki": "node node_modules/wiki-helpers/index.js rootPath=./wiki buildPath=./wiki-build flattenDir=true"
   },
   "dependencies": {
     "@carbon/icons-react": "^10.27.0",
@@ -17,7 +18,8 @@
     "gatsby-theme-carbon": "1.27.3",
     "prop-types": "^15.7.2",
     "react": "16.8.6",
-    "react-dom": "16.8.6"
+    "react-dom": "16.8.6",
+    "wiki-helpers": "^1.1.1"
   },
   "devDependencies": {
     "@actions/core": "1.2.6",
