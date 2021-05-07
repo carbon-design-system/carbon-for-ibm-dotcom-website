@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="320px" viewBox="0 0 320 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>carousel</title>
+    <g id="carousel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-Copy-14" stroke="#C6C6C6" fill="#FFFFFF" x="43" y="124" width="234.666667" height="90.6666667"></rect>
+        <g id="Group-2" transform="translate(257.000000, 196.000000)" fill="#8D8D8D">
+            <rect id="Rectangle-Copy-3" x="9.33333333" y="3.55271368e-15" width="8" height="8"></rect>
+            <rect id="Rectangle-Copy-4" x="1.42108547e-14" y="3.55271368e-15" width="8" height="8"></rect>
+        </g>
+        <g id="Group" transform="translate(46.000000, 135.000000)" fill="#C6C6C6" stroke="#FFFFFF">
+            <rect id="Rectangle-Copy-21" x="57.3333333" y="-3.55271368e-15" width="57.3333333" height="57.3333333"></rect>
+            <rect id="Rectangle-Copy-24" x="-1.45661261e-13" y="-3.55271368e-15" width="57.3333333" height="57.3333333"></rect>
+            <rect id="Rectangle-Copy-22" x="114.333333" y="-3.55271368e-15" width="57.3333333" height="57.3333333"></rect>
+            <rect id="Rectangle-Copy-23" x="171.333333" y="-3.55271368e-15" width="57.3333333" height="57.3333333"></rect>
+        </g>
+    </g>
+</svg>
