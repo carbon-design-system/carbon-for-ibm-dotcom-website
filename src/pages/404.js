@@ -29,7 +29,7 @@ const FourOhFourCustom = () => (
           {links.map(({ href, text }, i) => (
             <li key={i}>
               <Link className={link} to={href}>
-                {text}
+                <span style="color: #f4f4f4">{text}</span>
               </Link>
             </li>
           ))}
