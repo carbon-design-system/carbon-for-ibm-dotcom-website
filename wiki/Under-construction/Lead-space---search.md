@@ -9,7 +9,7 @@
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[Leadspace block]]
+- [[Lead space block]]
 - Carbon search <sup>[[r2](#resources)]</sup>
 
 <br />
