@@ -1,100 +1,50 @@
-<!-- category start --><!-- category end -->
+`Core` <!-- category start --><!-- category end -->
 
-Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar non felis non rutrum. Vestibulum fringilla imperdiet elit non aliquam. Cras consequat in mi non facilisis. Nam pellentesque ante urna, vitae venenatis sem placerat sit amet. Praesent dignissim tristique lobortis. Donec dignissim est in odio auctor, non ultricies diam bibendum. Nam cursus venenatis rutrum.
+The [[Card]] component takes Carbon’s core tile <sup>[[r2](#resources)]</sup> component and adds an opinionated hierarchy of content to it. Most often it is used as a clickable tile, or [[Card link]] with or without an [[Image]] and just an icon for its call to action.
 
 <hr width="40%" />
 
 <!-- toc start --><!-- toc end -->
 
-<details>
+<details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[Component name 1]]
-- [[Component name 2]]
-- [[Component name 3]]
+- Carbon tile <sup>[[r2](#resources)]</sup>
+- [[Link with icon]]
+- [[Tag group]]
+- [[Image]]
+- [[Lightbox media viewer]]
+- [[Markdown utility]]
+- Carbon icons <sup>[[r3](#resources)]</sup>
+- Carbon pictograms <sup>[[r4](#resources)]</sup>
 
 <br />
 </details>
 
-<!-- usedby start --><!-- usedby end -->
+> ![image](https://user-images.githubusercontent.com/3793636/117873641-a6835d00-b265-11eb-8433-8c9c73a2e999.png) Re-evaluate [[Lightbox media viewer]] dependency
 
-<!-- backlinks start --><!-- backlinks end -->
+<!-- usedby start -->
+*{{usedby auto populates}}*
+<!-- usedby end -->
 
-<details>
-  <summary><strong>Resources</strong></summary>
+<!-- backlinks start -->
+*{{backlinks auto populates}}*
+<!-- backlinks end -->
 
+<a name="resources"></a>
+<details open="true">
+  <summary><strong>Resources</strong></summary><br />
 
-<br />
-
-- r1: [Resource 1]()
-- r2: [Resource 2]()
-- r3: [Resource 3]()
+- r1: [Box folder](https://ibm.ent.box.com/folder/95514001950?s=hgvu48r1fv2ga2h0yn3qshrtxjc71vch)
+- r2: [Carbon tile](https://www.carbondesignsystem.com/components/tile/usage/)
+- r3: [Carbon icons](https://www.carbondesignsystem.com/guidelines/icons/library/)
+- r4: [Carbon pictograms](https://www.carbondesignsystem.com/guidelines/pictograms/library/)
 
 <br />
 </details>
 
 <hr width="40%" />
 
-{{Overview image | full width}}
+<br />
 
-### 1. Level 1
-
-Brief description might go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar non felis non rutrum.
-
-{{Scoped image | resize}}
-
-
-#### 1.1 Level 2
-Brief description might go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar non felis non rutrum.
-
-{{Scoped image | resize}}
-
-###### Logic
-
-|        | condition  | description  |
-|:-------|:-----------|:-------------|
-| `1.1`  |            |              |
-|        |            |              |
-|        |            |              |
-
-###### States
-
-|   | condition   | value  |
-|:--|:------------|:-------|
-|   | `default`   |        |
-|   | `:hover`    |        |
-|   | `:focus`    |        |
-|   | `:active`   |        |
-|   | `:visited`  |        |
-
-###### Data
-
-|              | data  | type  | default  |
-|:-------------|:------|:------|:---------|
-| `required`   |       |       |          |
-|              |       |       |          |
-|              |       |       |          |
-
-###### Code
-
-```javascript
-function example () { ... }
-```
-
-###### Visual example
-
-{{example image | thumbnail}}  
-
-
-<br />[Back to top](#wiki-wrapper)<br /><br /><br />
-
-
-
-
-### Callout examples
-
-> 👀 &nbsp; Check something out
-
-> 🚨 &nbsp; Identify a blocker
-
-> ❓ &nbsp; Add a question / note
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
