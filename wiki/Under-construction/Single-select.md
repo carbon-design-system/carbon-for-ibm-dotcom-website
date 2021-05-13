@@ -9,8 +9,6 @@
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[Filter group]]
-
 <br />
 </details>
 
