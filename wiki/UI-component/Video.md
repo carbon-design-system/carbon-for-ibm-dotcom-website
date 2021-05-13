@@ -1,100 +1,42 @@
 <!-- category start --><!-- category end -->
 
-Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar non felis non rutrum. Vestibulum fringilla imperdiet elit non aliquam. Cras consequat in mi non facilisis. Nam pellentesque ante urna, vitae venenatis sem placerat sit amet. Praesent dignissim tristique lobortis. Donec dignissim est in odio auctor, non ultricies diam bibendum. Nam cursus venenatis rutrum.
+The [[Video]] component utilizes the embeddable Kaltura player <sup>[[r2](#resources)]</sup>, as well as an initial state that includes either a poster image with corresponding meta data where the user clicks to view the video, or an inline link with meta data where the user clicks and will open a [[Lightbox media viewer]] with the embedded Kaltura player <sup>[[r2](#resources)]</sup>.
+
+> ![image](https://user-images.githubusercontent.com/3793636/117874180-493bdb80-b266-11eb-8945-dde0d95431d6.png) Should this component be broken down, and depend on the [[video service]]?
 
 <hr width="40%" />
 
 <!-- toc start --><!-- toc end -->
 
-<details>
+<details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[Component name 1]]
-- [[Component name 2]]
-- [[Component name 3]]
+- [[Lightbox media viewer]]
+- Kaltura player
 
 <br />
 </details>
 
-<!-- usedby start --><!-- usedby end -->
+<!-- usedby start -->
+*{{usedby auto populates}}*
+<!-- usedby end -->
 
-<!-- backlinks start --><!-- backlinks end -->
+<!-- backlinks start -->
+*{{backlinks auto populates}}*
+<!-- backlinks end -->
 
-<details>
-  <summary><strong>Resources</strong></summary>
+<a name="resources"></a>
+<details open="true">
+  <summary><strong>Resources</strong></summary><br />
 
-
-<br />
-
-- r1: [Resource 1]()
-- r2: [Resource 2]()
-- r3: [Resource 3]()
+- r1: [Box folder](https://ibm.ent.box.com/folder/108837570522)
+- r2: [Kaltura player](http://player.kaltura.com/docs/api)
 
 <br />
 </details>
 
 <hr width="40%" />
 
-{{Overview image | full width}}
+<br />
 
-### 1. Level 1
-
-Brief description might go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar non felis non rutrum.
-
-{{Scoped image | resize}}
-
-
-#### 1.1 Level 2
-Brief description might go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar non felis non rutrum.
-
-{{Scoped image | resize}}
-
-###### Logic
-
-|        | condition  | description  |
-|:-------|:-----------|:-------------|
-| `1.1`  |            |              |
-|        |            |              |
-|        |            |              |
-
-###### States
-
-|   | condition   | value  |
-|:--|:------------|:-------|
-|   | `default`   |        |
-|   | `:hover`    |        |
-|   | `:focus`    |        |
-|   | `:active`   |        |
-|   | `:visited`  |        |
-
-###### Data
-
-|              | data  | type  | default  |
-|:-------------|:------|:------|:---------|
-| `required`   |       |       |          |
-|              |       |       |          |
-|              |       |       |          |
-
-###### Code
-
-```javascript
-function example () { ... }
-```
-
-###### Visual example
-
-{{example image | thumbnail}}  
-
-
-<br />[Back to top](#wiki-wrapper)<br /><br /><br />
-
-
-
-
-### Callout examples
-
-> 👀 &nbsp; Check something out
-
-> 🚨 &nbsp; Identify a blocker
-
-> ❓ &nbsp; Add a question / note
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
