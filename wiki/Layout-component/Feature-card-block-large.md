@@ -4,7 +4,7 @@ The [[Feature card block large]] is a decorator component and consists of an [[i
 
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start depthStart="2" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />

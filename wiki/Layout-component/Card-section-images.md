@@ -6,7 +6,7 @@ The [[Card section images]] component is a decorator of the [[Content Section]] 
 
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start depthStart="2" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />

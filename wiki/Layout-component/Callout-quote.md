@@ -4,7 +4,7 @@ This component provides an opportunity to highlight a quote from a given person 
 
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start depthStart="2" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />

@@ -4,7 +4,7 @@ This [[Quote]] is a block level component meant to share a snippet of something 
 
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start depthStart="2" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />

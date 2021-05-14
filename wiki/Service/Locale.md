@@ -5,7 +5,7 @@ The Locale service manages calls to the Region list API <sup>[[r2](#resources)]<
 
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start depthStart="2" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
