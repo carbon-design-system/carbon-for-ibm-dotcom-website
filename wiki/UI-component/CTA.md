@@ -10,7 +10,7 @@ This [[CTA]] (call to action) component allows one to quickly switch between a c
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
 - [[Link with icon]]
-- [[Feature card]]
+- [[Feature card block medium]]
 - [[Card link]]
 - [[Button group]]
 - [[Card]]
