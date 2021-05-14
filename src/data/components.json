@@ -626,9 +626,9 @@
     }
   },
   "layout": {
-    "Callout — quote": {
+    "Callout quote": {
       "url": "./callout-quote",
-      "description": "Callout — quote is a typographic layout that is used to highlight an impactful client statement or user testimonial.",
+      "description": "Callout quote is a typographic layout that is used to highlight an impactful client statement or user testimonial.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-callout-quote--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-calloutquote--default"
@@ -652,9 +652,9 @@
         "notAvailable": false
       }
     },
-    "Callout — with media": {
+    "Callout with media": {
       "url": "./callout-with-media",
-      "description": "Callout &mdash; with media is used to feature a high value media asset such as a customer story.",
+      "description": "Callout with media is used to feature a high value media asset such as a customer story.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-callout-with-media--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-calloutwithmedia--default"
@@ -730,9 +730,9 @@
         "notAvailable": false
       }
     },
-    "Card section — carousel": {
+    "Card section carousel": {
       "url": "./card-section-carousel/",
-      "description": "The Card section — carousel is an exploratory component, meaning it allows users to browse or explore multiple pieces of content within the same area of the page.",
+      "description": "The Card section carousel is an exploratory component, meaning it allows users to browse or explore multiple pieces of content within the same area of the page.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-card-section-carousel--default",
         "react": ""

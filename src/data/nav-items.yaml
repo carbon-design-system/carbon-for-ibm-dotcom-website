@@ -48,9 +48,9 @@
       path: /components/back-to-top
     - title: Button group
       path: /components/button-group
-    - title: Callout – quote
+    - title: Callout quote
       path: /components/callout-quote
-    - title: Callout – with media
+    - title: Callout with media
       path: /components/callout-with-media
     - title: Card
       path: /components/card
@@ -60,7 +60,7 @@
       path: /components/card-link
     - title: Card section
       path: /components/card-section
-    - title: Card section – carousel
+    - title: Card section carousel
       path: /components/card-section-carousel
     - title: Card section – with images
       path: /components/card-section-images
