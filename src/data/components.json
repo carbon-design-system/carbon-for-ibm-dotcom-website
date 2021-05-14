@@ -572,6 +572,32 @@
         "notAvailable": false
       }
     },
+    "Tag link": {
+      "url": "./tag-link",
+      "description": "This is a clickable tag that can link the topic for more information",
+      "storybook": {
+        "webcomponents": "https://ibmdotcom-web-components.mybluemix.net/?path=/story/components-tag-link--default",
+        "react": "https://ibmdotcom-web-components-react.mybluemix.net/?path=/story/components-tag-link--default"
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      }
+    },
     "Quote": {
       "url": "./quote",
       "description": "The Quote component is used to highlight an impactful client statement or user testimonial.",

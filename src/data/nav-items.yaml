@@ -136,6 +136,8 @@
       path: /components/quote
     - title: Table of contents
       path: /components/table-of-contents
+    - title: Tag link
+      path: /components/tag-link
     - title: Video
       path: /components/video
 
