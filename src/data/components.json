@@ -646,8 +646,8 @@
         "new": false,
         "updated": false,
         "deprecated": false,
-        "underConstruction": true,
-        "notAvailable": false
+        "underConstruction": false,
+        "notAvailable": true
       }
     }
   },
