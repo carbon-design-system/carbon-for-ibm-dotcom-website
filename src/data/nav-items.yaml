@@ -112,7 +112,7 @@
       path: /components/layout
     - title: Lead space
       path: /components/leadspace
-    - title: Lead space – block
+    - title: Lead space block
       path: /components/lead-space-block
     - title: Leaving IBM
       path: /components/leaving-ibm

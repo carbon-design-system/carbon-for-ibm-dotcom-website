@@ -1068,9 +1068,9 @@
         "notAvailable": false
       }
     },
-    "Feature card — block": {
+    "Feature card block": {
       "url": "./feature-card-block",
-      "description": "Feature card — block is used to present information with a group of cards.",
+      "description": "Feature card block is used to present information with a group of cards.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-feature-card-block-medium--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-featurecardblockmedium--default"
@@ -1146,9 +1146,9 @@
         "notAvailable": false
       }
     },
-    "Lead space — block": {
+    "Lead space block": {
       "url": "./lead-space-block",
-      "description": "Lead space &mdash; block is an alternative to the Lead space, enabling a more productive first site of viewer engagement. Lead space &mdash; block is positioned at the top of a web page, with a purpose to orient the user when they land on a page, inform them of the content, and guide them to the first key piece of content on the page, whether it’s a crucial piece of information or a call-to-action button.",
+      "description": "Lead space block is an alternative to the Lead space, enabling a more productive first site of viewer engagement. Lead space &mdash; block is positioned at the top of a web page, with a purpose to orient the user when they land on a page, inform them of the content, and guide them to the first key piece of content on the page, whether it’s a crucial piece of information or a call-to-action button.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-leadspaceblock--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-leadspaceblock--default"
