@@ -756,9 +756,9 @@
         "notAvailable": false
       }
     },
-    "Card section — with images": {
+    "Card section images": {
       "url": "./card-section-images",
-      "description": "Card section — with images is a collection of card components with images that, together, occupy a full-width section with a left-column header.",
+      "description": "Card section images is a collection of card components with images that, together, occupy a full-width section with a left-column header.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-card-section-images--default",
         "react": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-cardsectionimages--default"
@@ -782,9 +782,9 @@
         "notAvailable": false
       }
     },
-    "Content block — with cards": {
-      "url": "./content-block-with-cards",
-      "description": "Content block — with cards is used to present small self-contained pieces of information as cards.",
+    "Content block cards": {
+      "url": "./content-block-cards",
+      "description": "Content block cards is used to present small self-contained pieces of information as cards.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-content-block-cards--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-contentblockcards--default"
@@ -808,9 +808,9 @@
         "notAvailable": false
       }
     },
-    "Content block — with media": {
+    "Content block media": {
       "url": "./content-block-media",
-      "description": "Content block — with media is used to present information with images in a group setting.",
+      "description": "Content block media is used to present information with images in a group setting.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-content-block-media--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-contentblockmedia--default"
@@ -834,9 +834,9 @@
         "notAvailable": false
       }
     },
-    "Content block — segmented": {
+    "Content block segmented": {
       "url": "./content-block-segmented",
-      "description": "Content block — segmented is a variation of Content block simple with the added ability to add subsections.",
+      "description": "Content block segmented is a variation of Content block simple with the added ability to add subsections.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-content-block-segmented--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-contentblocksegmented--default"
@@ -860,9 +860,9 @@
         "notAvailable": false
       }
     },
-    "Content block — simple": {
+    "Content block simple": {
       "url": "./content-block-simple",
-      "description": "Content block — simple is typically used for the introductory section on a page.",
+      "description": "Content block simple is typically used for the introductory section on a page.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-content-block-simple--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-contentblocksimple--default"
@@ -886,12 +886,12 @@
         "notAvailable": false
       }
     },
-    "Content group — banner": {
+    "Content group banner": {
       "url": "./content-group-banner",
-      "description": "Content group — banner is designed as a subtle callout, intended for tangential information or announcements that are supplementary to the page's main focus.",
+      "description": "Content group banner is designed as a subtle callout, intended for tangential information or announcements that are supplementary to the page's main focus.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-content-group-banner--default",
-        "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-content-group-banner--default"
+        "react": " "
       },
       "webcomponents": {
         "stable": true,
@@ -908,13 +908,13 @@
         "new": false,
         "updated": false,
         "deprecated": false,
-        "underConstruction": true,
-        "notAvailable": false
+        "underConstruction": false,
+        "notAvailable": true
       }
     },
-    "Content group — with cards": {
-      "url": "./content-group-with-cards",
-      "description": "Content group — with cards is used to present information through a group of cards with each acting as a call to action that drives to additional or supporting destinations. It is suitable for adding concise buckets of content and links to a long-form reading experience.",
+    "Content group cards": {
+      "url": "./content-group-cards",
+      "description": "Content group cards is used to present information through a group of cards with each acting as a call to action that drives to additional or supporting destinations. It is suitable for adding concise buckets of content and links to a long-form reading experience.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-content-group-cards--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-contentgroupcards--default"
@@ -938,9 +938,9 @@
         "notAvailable": false
       }
     },
-    "Content group — horizontal": {
+    "Content group horizontal": {
       "url": "./content-group-horizontal",
-      "description": "Content group — horizontal is to present a group of relatively more important pieces of content such as products or solutions with more visual weight.",
+      "description": "Content group horizontal is to present a group of relatively more important pieces of content such as products or solutions with more visual weight.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-content-group-horizontal--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-contentgrouphorizontal--default"
@@ -964,9 +964,9 @@
         "notAvailable": false
       }
     },
-    "Content group — with pictograms": {
+    "Content group pictograms": {
       "url": "./content-group-pictograms",
-      "description": "Content group — with pictograms is used to present a group of information, each with a supporting pictogram.",
+      "description": "Content group pictograms is used to present a group of information, each with a supporting pictogram.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-content-group-pictograms--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-contentgrouppictograms--default"
@@ -990,9 +990,9 @@
         "notAvailable": false
       }
     },
-    "Content group — simple": {
+    "Content group simple": {
       "url": "./content-group-simple",
-      "description": "Content group — simple is an alternative form of a narrative layout where the content is broken up into smaller pieces to make it more digestible.",
+      "description": "Content group simple is an alternative form of a narrative layout where the content is broken up into smaller pieces to make it more digestible.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-content-group-simple--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-contentblocksimple--default"
@@ -1016,9 +1016,9 @@
         "notAvailable": false
       }
     },
-    "Content item — horizontal": {
+    "Content item horizontal": {
       "url": "./content-item-horizontal",
-      "description": "Content item — horizontal component displays information in a horizontal orientation.",
+      "description": "Content item horizontal component displays information in a horizontal orientation.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-content-item-horizontal--default",
         "react": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-contentitemhorizontal--default"
