@@ -10,6 +10,4 @@ Some of the work-in-progress draft guidelines will be published here for early a
 ##### 📘 Publishing guidelines
 The Wiki will also host guidelines around how to publish content on the Carbon for IBM.com. Production guideline,publishing process, tips & tricks, etc.
 
-# Functional specs
-
-<!-- categories start open="true" --><!-- categories end -->
+<!-- categories start open="false" --><!-- categories end -->
