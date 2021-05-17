@@ -1,6 +1,6 @@
 ---
 title: Tag link
-description: This is a clickable tag that can link the topic for more information.
+description: This is a clickable tag that can link users to related topics or a current topic for more information.
 ---
 
 import { ComponentStatus } from 'components/ComponentList';
@@ -16,12 +16,24 @@ import ComponentFeedback from 'components/ComponentFeedback';
 </InlineNotification>
 
 <AnchorLinks>
-
+<AnchorLink>Default</AnchorLink>
 <AnchorLink>Design and functional specifications</AnchorLink>
 <AnchorLink>Development documentation</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
+
+## Default
+
+The Tag link is designed to be used as a navigational component that also communicates multiplicity in linkage and relationship. When used as a group in a Lead space, tag links suggests the current page falls under multiple parent topics.
+
+<Row>
+<Column colMd={8} colLg={12}>
+
+![Tag link in lead space](../../images/component/tag-link/components--tag-link.jpg)
+
+</Column>
+</Row>
 
 ## Design and functional specifications
 
@@ -33,3 +45,5 @@ The design specs and functional specs for Tag link can be viewed <a href="https:
 <ComponentStatus name="Tag link" type="ui" />
 
 ## Feedback
+
+<ComponentFeedback />
