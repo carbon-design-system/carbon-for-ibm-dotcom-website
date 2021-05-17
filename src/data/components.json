@@ -572,32 +572,6 @@
         "notAvailable": false
       }
     },
-    "Pictogram item": {
-      "url": "./pictogram-item",
-      "description": "The Pictogram item component is used to communicate messages at a glance, afford interactivity, and simplify complex ideas.",
-      "storybook": {
-        "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-pictogram-item--default",
-        "react": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-pictogramitem--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
     "Quote": {
       "url": "./quote",
       "description": "The Quote component is used to highlight an impactful client statement or user testimonial.",
@@ -1209,6 +1183,32 @@
         "stable": true,
         "experimental": false,
         "new": true,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      }
+    },
+    "Pictogram item": {
+      "url": "./pictogram-item",
+      "description": "The Pictogram item component is used to communicate messages at a glance, afford interactivity, and simplify complex ideas.",
+      "storybook": {
+        "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-pictogram-item--default",
+        "react": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-pictogramitem--default"
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
