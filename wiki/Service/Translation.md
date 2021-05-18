@@ -4,7 +4,7 @@ The translation service fetches and stores data in an efficient way, mutates it 
 
 <hr width="40%" />
 
-<!-- toc start depthStart="2" --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
@@ -16,9 +16,9 @@ The translation service fetches and stores data in an efficient way, mutates it 
 <br />
 </details>
 
-<!-- usedby start --><!-- usedby end -->
+<!-- usedby start open="true" --><!-- usedby end -->
 
-<!-- backlinks start --><!-- backlinks end -->
+<!-- backlinks start open="true" --><!-- backlinks end -->
 
 <a name="resources"></a>
 <details open="true">

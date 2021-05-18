@@ -6,7 +6,7 @@ The [[Card section simple]] is a decorator of the [[Content Section]] with a spe
 
 <hr width="40%" />
 
-<!-- toc start depthStart="2" --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
@@ -16,11 +16,11 @@ The [[Card section simple]] is a decorator of the [[Content Section]] with a spe
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 

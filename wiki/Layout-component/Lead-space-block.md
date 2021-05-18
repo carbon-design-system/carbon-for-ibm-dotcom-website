@@ -4,7 +4,7 @@ The [[Lead space block]] is a decorator component and consists of an H1 above a 
 
 <hr width="40%" />
 
-<!-- toc start depthStart="2" --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
@@ -17,11 +17,11 @@ The [[Lead space block]] is a decorator component and consists of an H1 above a 
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 

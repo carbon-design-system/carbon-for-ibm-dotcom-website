@@ -4,7 +4,7 @@ This [[CTA]] (call to action) component allows one to quickly switch between a c
 
 <hr width="40%" />
 
-<!-- toc start depthStart="2" --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
@@ -21,11 +21,11 @@ This [[CTA]] (call to action) component allows one to quickly switch between a c
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 

@@ -4,7 +4,7 @@ The [[Feature card]] component decorates [[Card]]. This [[Card]] variation is sl
 
 <hr width="40%" />
 
-<!-- toc start depthStart="2" --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
@@ -14,11 +14,11 @@ The [[Feature card]] component decorates [[Card]]. This [[Card]] variation is sl
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 
