@@ -1,27 +1,25 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-The [[Lead space block]] is a decorator component and consists of an H1 above a [[Content block]]. 
+The [[Link list section]] provides additional resources based on the [[Link list]] component, but expands its emphasis to the entire section of a page. Usually used as a link farm at the end of the page.
 
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[Content block]]
-- [[Image with caption]]
-- [[Video]]
+- [[Content section]]
 - [[Link list]]
 
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 
@@ -29,7 +27,7 @@ The [[Lead space block]] is a decorator component and consists of an H1 above a 
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
-- r1: [Box folder](https://ibm.ent.box.com/folder/111803008955)
+- r1: [Box folder](https://ibm.ent.box.com/folder/119236727113)
 
 <br />
 </details>
