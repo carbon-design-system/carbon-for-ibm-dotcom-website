@@ -1,4 +1,4 @@
-<!-- category start --><!-- category end -->
+`Core` <!-- category start --><!-- category end -->
 
 The translation service fetches and stores data in an efficient way, mutates it as needed, and serves it back to the library so it can be used in the IBM.com library on things like the [[Masthead]] and [[Footer]].
 

@@ -1,5 +1,4 @@
-<!-- category start --><!-- category end -->
-`Core`
+`Core` <!-- category start --><!-- category end -->
 
 The Locale service manages calls to the Region list API <sup>[[r2](#resources)]</sup> providing helpful methods to set and get the user’s current location for translation services.
 
