@@ -6,7 +6,7 @@ This [[Audio player]] is for embedding within the page. The component should be 
 
 <!-- toc start depthStart="2" --><!-- toc end -->
 
-<details open="true">
+<details open="false">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
 <br />

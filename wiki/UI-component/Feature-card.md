@@ -9,6 +9,8 @@ The [[Feature card]] component decorates [[Card]]. This [[Card]] variation is sl
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
+- [[Card]]
+
 <br />
 </details>
 

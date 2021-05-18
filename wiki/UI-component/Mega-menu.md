@@ -6,7 +6,7 @@ The [[Mega menu]] is a component that is used in tandem with the [[Masthead L0]]
 
 <!-- toc start depthStart="2" --><!-- toc end -->
 
-<details open="true">
+<details open="false">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
 <br />
