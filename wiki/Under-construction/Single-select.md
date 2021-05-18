@@ -6,10 +6,8 @@
 
 <!-- toc start open="true" --><!-- toc end -->
 
-<details open="true">
+<details open="false">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
-
-- [[Filter group]]
 
 <br />
 </details>

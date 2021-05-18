@@ -1,25 +1,24 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-The [[Feature card block medium]] utilizes the [[Content Group]] and includes a single [[Feature card]]. The design intent for this component is a way to guide the user to more information about the content they are looking at.
+The [[Feature card block large]] is a decorator component and consists of an [[image]], heading, copy, and [[CTA]]. 
 
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[Content group]]
-- [[Feature card]]
+- [[CTA]]
 
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 
@@ -27,7 +26,7 @@ The [[Feature card block medium]] utilizes the [[Content Group]] and includes a 
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
-- r1: [Box folder](https://ibm.ent.box.com/folder/94763747291)
+- r1: [Box folder](https://ibm.ent.box.com/folder/110327688617)
 
 <br />
 </details>
