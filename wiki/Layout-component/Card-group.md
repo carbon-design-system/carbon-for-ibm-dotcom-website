@@ -1,6 +1,6 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-[[Cards group]] is a decorator component that allows adopters to display multiple [[Card]] components together in a grid layout.
+[[Card group]] is a decorator component that allows adopters to display multiple [[Card]] components together in a grid layout.
 
 <hr width="40%" />
 
