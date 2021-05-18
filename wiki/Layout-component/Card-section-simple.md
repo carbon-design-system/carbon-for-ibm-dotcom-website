@@ -11,9 +11,7 @@ The [[Card section simple]] is a decorator of the [[Content Section]] with a spe
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[Content section]]
-- [[Card group]]
-- [[Component name 3]]
+- [[Card section]]
 
 <br />
 </details>

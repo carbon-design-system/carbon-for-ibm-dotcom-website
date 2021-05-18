@@ -11,8 +11,7 @@ The [[Card section images]] component is a decorator of the [[Content Section]] 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[Content section]]
-- [[Card group]]
+- [[Card section]]
 
 <br />
 </details>
