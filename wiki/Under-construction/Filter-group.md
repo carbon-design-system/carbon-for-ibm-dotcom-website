@@ -9,7 +9,7 @@
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[Single select]]
+- [[Input select]]
 - Carbon checkbox <sup>[[r2](#resources)]</sup>
 - Carbon button <sup>[[r4](#resources)]</sup>
 - Carbon accordion <sup>[[r5](#resources)]</sup>
