@@ -1,28 +1,25 @@
 <!-- category start --><!-- category end -->
 
-Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar non felis non rutrum. Vestibulum fringilla imperdiet elit non aliquam. Cras consequat in mi non facilisis. Nam pellentesque ante urna, vitae venenatis sem placerat sit amet. Praesent dignissim tristique lobortis. Donec dignissim est in odio auctor, non ultricies diam bibendum. Nam cursus venenatis rutrum.
+> ![image](https://user-images.githubusercontent.com/3793636/117873641-a6835d00-b265-11eb-8433-8c9c73a2e999.png) In progress and needs to be placed correctly
 
 <hr width="40%" />
 
-<!-- toc start -->
-*{{table of contents auto populates}}*
-<!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[Component name 1]]
-- [[Component name 2]]
-- [[Component name 3]]
+- [[Lead space block]]
+- Carbon search <sup>[[r2](#resources)]</sup>
 
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 
@@ -30,14 +27,18 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
-- r1: [Resource 1]()
-- r2: [Resource 2]()
-- r3: [Resource 3]()
+- r1: [Box folder](https://ibm.ent.box.com/folder/137098284291)
+- r2: [Carbon search](https://www.carbondesignsystem.com/components/search/usage/)
 
 <br />
 </details>
 
 <hr width="40%" />
+
+<br />
+
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+
 
 {{Overview image | full width}}
 

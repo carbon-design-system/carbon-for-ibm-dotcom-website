@@ -15,4 +15,4 @@ Try different values for `w` to find the artboard width that is a multiple of th
 
 ---
 
-<!-- backlinks start --><!-- backlinks end -->
+<!-- backlinks start open="true" --><!-- backlinks end -->
