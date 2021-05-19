@@ -14,8 +14,8 @@ The [[Footer]] is a component that appears at the bottom of every page.
 - [[Locale]]
 - [[Accordion]]
 - [[Translation]]
-- Carbon link <sup>[[r3](#resources)]</sup>
-- Carbon Button <sup>[[r4](#resources)]</sup>
+- [[Carbon link]]
+- [[Carbon Button]]
 
 <br />
 </details>
@@ -34,8 +34,6 @@ The [[Footer]] is a component that appears at the bottom of every page.
 
 - r1: [Box folder](https://ibm.ent.box.com/folder/101562989787)
 - r2: [IBM logo](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/styles/icons/svg)
-- r3: [Carbon link](https://www.carbondesignsystem.com/components/link/usage/)
-- r4: [Carbon button](https://www.carbondesignsystem.com/components/button/usage/)
 
 <br />
 </details>

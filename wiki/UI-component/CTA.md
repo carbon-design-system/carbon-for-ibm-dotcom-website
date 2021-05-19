@@ -16,7 +16,7 @@ This [[CTA]] (call to action) component allows one to quickly switch between a c
 - [[Card]]
 - [[Video service]]
 - [[Lightbox media viewer]]
-- Carbon icons <sup>[[r2](#resources)]</sup>
+- [[Carbon icons]]
 
 <br />
 </details>
@@ -34,7 +34,6 @@ This [[CTA]] (call to action) component allows one to quickly switch between a c
   <summary><strong>Resources</strong></summary><br />
 
 - r1: [Box folder](https://ibm.ent.box.com/folder/101164203823)
-- r2: [Carbon icons](https://www.carbondesignsystem.com/guidelines/icons/library/)
 
 <br />
 </details>

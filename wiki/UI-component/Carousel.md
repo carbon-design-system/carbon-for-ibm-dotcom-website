@@ -9,8 +9,8 @@ The [[Carousel]] component is a reusable component that can be used in various d
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- Carbon pagination <sup>[[r2](#resources)]</sup>
-- Carbon button <sup>[[r3](#resources)]</sup>
+- [[Carbon pagination]]
+- [[Carbon button]]
 
 <br />
 </details>
@@ -28,8 +28,6 @@ The [[Carousel]] component is a reusable component that can be used in various d
   <summary><strong>Resources</strong></summary><br />
 
 - r1: [Box folder](https://ibm.ent.box.com/folder/121172699187)
-- r2: [Carbon pagination](https://www.carbondesignsystem.com/components/pagination/usage/)
-- r3: [Carbon button](https://www.carbondesignsystem.com/components/button/usage/)
 
 <br />
 </details>
