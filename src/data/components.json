@@ -629,7 +629,7 @@
       "description": "Tabs extended combines tabs and accordion to organize editorial content.",
       "storybook": {
         "webcomponents": "https://ibmdotcom-web-components.mybluemix.net/?path=/story/components-tabs-extended--default",
-        "react": " "
+        "react": ""
       },
       "webcomponents": {
         "stable": true,
