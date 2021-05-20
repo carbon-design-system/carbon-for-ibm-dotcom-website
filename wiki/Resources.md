@@ -9,4 +9,4 @@ https://github.ibm.com/webstandards/digital-design/wiki/Design-System-Glossary
 
 ---
 
-<!-- backlinks start --><!-- backlinks end -->
+<!-- backlinks start open="true" --><!-- backlinks end -->

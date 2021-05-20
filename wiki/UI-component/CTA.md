@@ -4,28 +4,28 @@ This [[CTA]] (call to action) component allows one to quickly switch between a c
 
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
 - [[Link with icon]]
-- [[Feature card]]
+- [[Feature card block medium]]
 - [[Card link]]
 - [[Button group]]
 - [[Card]]
 - [[Video service]]
 - [[Lightbox media viewer]]
-- Carbon icons <sup>[[r2](#resources)]</sup>
+- [[Carbon icons]]
 
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 
@@ -34,7 +34,6 @@ This [[CTA]] (call to action) component allows one to quickly switch between a c
   <summary><strong>Resources</strong></summary><br />
 
 - r1: [Box folder](https://ibm.ent.box.com/folder/101164203823)
-- r2: [Carbon icons](https://www.carbondesignsystem.com/guidelines/icons/library/)
 
 <br />
 </details>

@@ -159,4 +159,4 @@ Blocks of code are fenced by lines with three back-ticks
 
 ---
 
-<!-- backlinks start --><!-- backlinks end -->
+<!-- backlinks start open="true" --><!-- backlinks end -->

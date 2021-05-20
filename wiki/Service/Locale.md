@@ -1,11 +1,10 @@
-<!-- category start --><!-- category end -->
-`Core`
+`Core` <!-- category start --><!-- category end -->
 
 The Locale service manages calls to the Region list API <sup>[[r2](#resources)]</sup> providing helpful methods to set and get the user’s current location for translation services.
 
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
@@ -15,9 +14,9 @@ The Locale service manages calls to the Region list API <sup>[[r2](#resources)]<
 <br />
 </details>
 
-<!-- usedby start --><!-- usedby end -->
+<!-- usedby start open="true" --><!-- usedby end -->
 
-<!-- backlinks start --><!-- backlinks end -->
+<!-- backlinks start open="true" --><!-- backlinks end -->
 
 <a name="resources"></a>
 <details open="true">

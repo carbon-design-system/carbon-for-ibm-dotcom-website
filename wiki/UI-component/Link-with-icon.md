@@ -1,25 +1,25 @@
 `Core` <!-- category start --><!-- category end -->
 
-The [[Link with icon]] is a Carbon link <sup>[[r2](#resources)]</sup> that includes an icon, available from Carbon icons <sup>[[r3](#resources)]</sup>.
+The [[Link with icon]] is a [[Carbon link]] that includes an icon, available from [[Carbon icons]].
 
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- Carbon link <sup>[[r2](#resources)]</sup>
-- Carbon icons <sup>[[r3](#resources)]</sup>
+- [[Carbon link]]
+- [[Carbon icons]]
 
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 
@@ -28,8 +28,6 @@ The [[Link with icon]] is a Carbon link <sup>[[r2](#resources)]</sup> that inclu
   <summary><strong>Resources</strong></summary><br />
 
 - r1: [Box folder](https://ibm.ent.box.com/folder/94773972254)
-- r2: [Carbon link](https://www.carbondesignsystem.com/components/link/usage/)
-- r3: [Carbon icons](https://www.carbondesignsystem.com/guidelines/icons/library/)
 
 <br />
 </details>

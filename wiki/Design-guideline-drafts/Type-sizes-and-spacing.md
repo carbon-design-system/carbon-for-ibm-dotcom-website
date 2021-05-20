@@ -20,4 +20,4 @@ When a link is attached to a body of text, use the spacing to reflect the conten
 
 ---
 
-<!-- backlinks start --><!-- backlinks end -->
+<!-- backlinks start open="true" --><!-- backlinks end -->
