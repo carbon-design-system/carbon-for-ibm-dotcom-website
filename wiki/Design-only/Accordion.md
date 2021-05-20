@@ -9,7 +9,7 @@ The IBM Dotcom Accordion is a temporary wrapper for Carbon’s Accordion <sup>[[
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- Carbon accordion <sup>[[r2](#resources)]</sup>
+- [[Carbon accordion]]
 
 <br />
 </details>
@@ -27,7 +27,6 @@ The IBM Dotcom Accordion is a temporary wrapper for Carbon’s Accordion <sup>[[
   <summary><strong>Resources</strong></summary><br />
 
 - r1: [Box folder](https://ibm.ent.box.com/folder/119040241002)
-- r2: [Carbon accordion](https://www.carbondesignsystem.com/components/accordion/usage/)
 
 <br />
 </details>

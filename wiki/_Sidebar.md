@@ -9,3 +9,5 @@
 
 ## Additional components
 <!-- categories start open="false" group="Design only, Feature flag, Under construction" --><!-- categories end -->
+
+<!-- categories start open="false" group="Carbon component" --><!-- categories end -->

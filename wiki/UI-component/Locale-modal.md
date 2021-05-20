@@ -13,8 +13,8 @@ The [[Locale modal]] is a step by step interface that guides the user through se
 - [[Card link]]
 - [[Locale]]
 - [[Link with icon]]
-- Carbon search <sup>[[r2](#resources)]</sup>
-- Carbon icons <sup>[[r3](#resources)]</sup>
+- [[Carbon search]]
+- [[Carbon icons]]
 
 <br />
 </details>
@@ -32,8 +32,6 @@ The [[Locale modal]] is a step by step interface that guides the user through se
   <summary><strong>Resources</strong></summary><br />
 
 - r1: [Box folder](https://ibm.ent.box.com/folder/82255256134)
-- r2: [Carbon search](https://www.carbondesignsystem.com/components/search/usage/)
-- r3: [Carbon icons](https://www.carbondesignsystem.com/guidelines/icons/library/)
 
 <br />
 </details>

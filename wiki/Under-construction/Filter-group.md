@@ -9,10 +9,10 @@
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[Single select]]
-- Carbon checkbox <sup>[[r2](#resources)]</sup>
-- Carbon button <sup>[[r4](#resources)]</sup>
-- Carbon accordion <sup>[[r5](#resources)]</sup>
+- [[Input select]]
+- [[Carbon checkbox]]
+- [[Carbon button]]
+- [[Carbon accordion]]
 
 <br />
 </details>
@@ -30,9 +30,6 @@
   <summary><strong>Resources</strong></summary><br />
 
 - r1: [Box folder](https://ibm.ent.box.com/folder/136914860547)
-- r2: [Carbon checkbox](https://www.carbondesignsystem.com/components/checkbox/usage/)
-- r3: [Carbon button](https://www.carbondesignsystem.com/components/button/usage/)
-- r4: [Carbon accordion](https://www.carbondesignsystem.com/components/accordion/usage/)
 
 <br />
 </details>

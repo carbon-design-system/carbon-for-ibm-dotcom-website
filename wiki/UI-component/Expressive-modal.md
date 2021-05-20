@@ -1,6 +1,6 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-The [[Expressive modal]] is more or less a theming of Carbon’s modal <sup>[[r2](#resources)]</sup> to increase readability and reduce strain for more expressive or editorial environments.
+The [[Expressive modal]] is more or less a theming of [[Carbon modal]] to increase readability and reduce strain for more expressive or editorial environments.
 
 <hr width="40%" />
 
@@ -9,7 +9,7 @@ The [[Expressive modal]] is more or less a theming of Carbon’s modal <sup>[[r2
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- Carbon modal <sup>[[r2](#resources)]</sup>
+- [[Carbon modal]]
 
 <br />
 </details>
@@ -27,7 +27,6 @@ The [[Expressive modal]] is more or less a theming of Carbon’s modal <sup>[[r2
   <summary><strong>Resources</strong></summary><br />
 
 - r1: [Box folder](https://ibm.ent.box.com/folder/94774053664)
-- r2: [Carbon modal](https://www.carbondesignsystem.com/components/modal/usage/)
 
 <br />
 </details>

@@ -13,7 +13,6 @@ The Wiki will also host guidelines around how to publish content on the Carbon f
 <!-- categories start title="Index" type="titleContent" open="false" group="Publishing guidelines" --><!-- categories end -->
 
 ## Design office hours
-
 <!-- categories start title="Index" type="titleContent" open="false" group="Design office hours" --><!-- categories end -->
 
 ## Functional specs
@@ -21,3 +20,5 @@ The Wiki will also host guidelines around how to publish content on the Carbon f
 
 ## Additional components
 <!-- categories start open="true" type="titleContent" group="Design only, Feature flag, Under construction" --><!-- categories end -->
+
+<!-- categories start open="true" group="Carbon component" --><!-- categories end -->
