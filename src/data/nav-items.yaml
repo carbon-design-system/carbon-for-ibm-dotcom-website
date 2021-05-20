@@ -138,6 +138,8 @@
       path: /components/quote
     - title: Table of contents
       path: /components/table-of-contents
+    - title: Tabs extended media
+      path: /components/tabs-extended-media
     - title: Video
       path: /components/video
 
