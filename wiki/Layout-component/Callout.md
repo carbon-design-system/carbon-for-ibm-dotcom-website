@@ -9,7 +9,7 @@ The [[Callout]] component is a core component meant to offset and call attention
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- Carbon 2x Grid <sup>[[r2](#resources)]</sup>
+- [[Carbon 2x grid]]
 
 <br />
 </details>
@@ -27,7 +27,6 @@ The [[Callout]] component is a core component meant to offset and call attention
   <summary><strong>Resources</strong></summary><br />
 
 - r1: [Box folder](https://ibm.ent.box.com/folder/110530875791)
-- r2: [Carbon 2x Grid](https://www.carbondesignsystem.com/guidelines/2x-grid/overview/)
 
 <br />
 </details>
