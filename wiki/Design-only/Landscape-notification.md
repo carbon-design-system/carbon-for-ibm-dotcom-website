@@ -9,7 +9,7 @@ The [[Landscape notification]] is a component that pops up in certain scenarios 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- Carbon notification <sup>[[r2](#resources)]</sup>
+- [[Carbon notification]]
 
 <br />
 </details>
@@ -27,7 +27,6 @@ The [[Landscape notification]] is a component that pops up in certain scenarios 
   <summary><strong>Resources</strong></summary><br />
 
 - r1: [Box folder](https://ibm.ent.box.com/folder/123854300228)
-- r2: [Carbon notification](https://www.carbondesignsystem.com/components/notification/usage/)
 
 <br />
 </details>

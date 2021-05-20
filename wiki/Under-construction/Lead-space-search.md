@@ -10,7 +10,7 @@
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
 - [[Lead space block]]
-- Carbon search <sup>[[r2](#resources)]</sup>
+- [[Carbon search]]
 
 <br />
 </details>
@@ -28,7 +28,6 @@
   <summary><strong>Resources</strong></summary><br />
 
 - r1: [Box folder](https://ibm.ent.box.com/folder/137098284291)
-- r2: [Carbon search](https://www.carbondesignsystem.com/components/search/usage/)
 
 <br />
 </details>
