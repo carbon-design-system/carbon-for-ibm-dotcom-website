@@ -4,22 +4,22 @@ The [[Tag group]] is a component that is utilized within IBM.com for grouping tw
 
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
 - [[Tag link]]
-- Carbon tag <sup>[[r2](#resources)]</sup>
+- [[Carbon tag]]
 
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 
@@ -28,7 +28,6 @@ The [[Tag group]] is a component that is utilized within IBM.com for grouping tw
   <summary><strong>Resources</strong></summary><br />
 
 - r1: [Box folder](https://ibm.ent.box.com/folder/136834919144)
-- r2: [Carbon tag](https://ibm.ent.box.com/folder/136834919144)
 
 <br />
 </details>

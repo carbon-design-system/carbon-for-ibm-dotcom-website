@@ -1,25 +1,27 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-The [[Feature card block medium]] utilizes the [[Content Group]] and includes a single [[Feature card]]. The design intent for this component is a way to guide the user to more information about the content they are looking at.
+The [[Lead space block]] is a decorator component and consists of an H1 above a [[Content block]]. 
 
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[Content group]]
-- [[Feature card]]
+- [[Content block]]
+- [[Image with caption]]
+- [[Video]]
+- [[Link list]]
 
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 
@@ -27,7 +29,7 @@ The [[Feature card block medium]] utilizes the [[Content Group]] and includes a 
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
-- r1: [Box folder](https://ibm.ent.box.com/folder/94763747291)
+- r1: [Box folder](https://ibm.ent.box.com/folder/111803008955)
 
 <br />
 </details>

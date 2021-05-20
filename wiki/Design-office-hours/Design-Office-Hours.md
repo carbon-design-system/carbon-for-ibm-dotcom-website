@@ -35,4 +35,4 @@ DGC Design Office Hours covers design-related questions, discussion, design revi
 
 ---
 
-<!-- backlinks start --><!-- backlinks end -->
+<!-- backlinks start open="true" --><!-- backlinks end -->

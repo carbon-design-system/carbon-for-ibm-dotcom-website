@@ -4,21 +4,21 @@ The [[Site feedback]] component is present on every page of IBM.com that allows 
 
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- Carbon button <sup>[[r2](#resources)]</sup>
+- [[Carbon button]]
 
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 
@@ -27,7 +27,6 @@ The [[Site feedback]] component is present on every page of IBM.com that allows 
   <summary><strong>Resources</strong></summary><br />
 
 - r1: [Box folder](https://ibm.ent.box.com/folder/137103119718)
-- r2: [Carbon button](https://www.carbondesignsystem.com/components/button/usage/)
 
 <br />
 </details>

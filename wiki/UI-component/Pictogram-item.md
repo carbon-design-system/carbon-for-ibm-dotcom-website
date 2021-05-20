@@ -1,25 +1,25 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-The [[Pictogram item]] is a component which distinguishably includes a Carbon pictogram <sup>[[r2](#resources)]</sup>, and a heading, copy, and link via the [[Content item]].
+The [[Pictogram item]] is a component which distinguishably includes a [[Carbon pictograms]], and a heading, copy, and link via the [[Content item]].
 
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
 - [[Content item]]
-- Carbon pictograms <sup>[[r2](#resources)]</sup>
+- [[Carbon pictograms]]
 
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 
@@ -28,7 +28,6 @@ The [[Pictogram item]] is a component which distinguishably includes a Carbon pi
   <summary><strong>Resources</strong></summary><br />
 
 - r1: [Box folder](https://ibm.ent.box.com/folder/101184830347)
-- r2: [Carbon pictograms](https://www.carbondesignsystem.com/guidelines/pictograms/library/)
 
 <br />
 </details>

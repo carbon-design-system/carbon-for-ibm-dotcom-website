@@ -17500,10 +17500,10 @@ widest-line@^3.1.0:
   dependencies:
     string-width "^4.0.0"
 
-wiki-helpers@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/wiki-helpers/-/wiki-helpers-1.1.1.tgz#a4cb8b3682d55f2f7c9121f1d5de8a5833d29944"
-  integrity sha512-lRsj19YL6dI+jNuFEC1RhuzvjnqPYnngWAUQ2f/zhT+ZfSSytEY1sTOEuR1duzVFT3/PnyRR67iPoUHOUpLoVw==
+wiki-helpers@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/wiki-helpers/-/wiki-helpers-1.2.1.tgz#cda00ca7ee14b0ab9099257c096ebf2d92a2dc8f"
+  integrity sha512-9ZsRAGvTtFZ+CWmqQ/qoDQ3f2r1t0ircVJ/wA1eGSL8V1JL9ECD3NDP09TjKWZZGijjpIFmIUjyh8xhf0kT4CA==
   dependencies:
     "@actions/core" "^1.2.7"
     "@actions/github" "^4.0.0"
