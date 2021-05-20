@@ -1,24 +1,25 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-The [[Feature card block large]] is a decorator component and consists of an [[image]], heading, copy, and [[CTA]]. 
+The [[Link list section]] provides additional resources based on the [[Link list]] component, but expands its emphasis to the entire section of a page. Usually used as a link farm at the end of the page.
 
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[CTA]]
+- [[Content section]]
+- [[Link list]]
 
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 
@@ -26,7 +27,7 @@ The [[Feature card block large]] is a decorator component and consists of an [[i
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
-- r1: [Box folder](https://ibm.ent.box.com/folder/110327688617)
+- r1: [Box folder](https://ibm.ent.box.com/folder/119236727113)
 
 <br />
 </details>

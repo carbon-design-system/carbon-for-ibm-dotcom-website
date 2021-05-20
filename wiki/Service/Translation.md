@@ -1,10 +1,10 @@
-<!-- category start --><!-- category end -->
+`Core` <!-- category start --><!-- category end -->
 
 The translation service fetches and stores data in an efficient way, mutates it as needed, and serves it back to the library so it can be used in the IBM.com library on things like the [[Masthead]] and [[Footer]].
 
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
@@ -16,9 +16,9 @@ The translation service fetches and stores data in an efficient way, mutates it 
 <br />
 </details>
 
-<!-- usedby start --><!-- usedby end -->
+<!-- usedby start open="true" --><!-- usedby end -->
 
-<!-- backlinks start --><!-- backlinks end -->
+<!-- backlinks start open="true" --><!-- backlinks end -->
 
 <a name="resources"></a>
 <details open="true">

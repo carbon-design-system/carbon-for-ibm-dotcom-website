@@ -1,26 +1,22 @@
 <!-- category start --><!-- category end -->
 
-[[Tag link]] is a short visually contained word or two. It usually indicates some sort of category that can be interacted with as a link or a button to take some sort of action upon (e.g. filtering). While heavily influenced by Carbon tag <sup>[[r2](#resources)]</sup>, this component deviates in functionality and some basic visual differences.
+[[Tag link]] is a short visually contained word or two. It usually indicates some sort of category that can be interacted with as a link or a button to take some sort of action upon (e.g. filtering). While heavily influenced by [[Carbon tag]], this component deviates in functionality and some basic visual differences.
 
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
-<details open="true">
+<details open="false">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
-
-- [[Component name 1]]
-- [[Component name 2]]
-- [[Component name 3]]
 
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 
@@ -29,7 +25,6 @@
   <summary><strong>Resources</strong></summary><br />
 
 - r1: [Box folder](https://ibm.ent.box.com/folder/136507840813)
-- r2: [Carbon tag](https://ibm.ent.box.com/folder/136834919144)
 
 <br />
 </details>

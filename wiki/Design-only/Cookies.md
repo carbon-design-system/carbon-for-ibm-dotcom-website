@@ -4,22 +4,22 @@ The cookies component is present on every page of IBM.com and allows the user to
 
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
   
-- Carbon modal <sup>[[r2](#resources)]</sup>
+- [[Carbon modal]]
 - [[Accordion]]
 
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 
@@ -28,7 +28,6 @@ The cookies component is present on every page of IBM.com and allows the user to
   <summary><strong>Resources</strong></summary><br />
 
 - r1: [Box folder](https://ibm.ent.box.com/folder/135585926149)
-- r2: [Carbon modal](https://www.carbondesignsystem.com/components/modal/usage/)
 
 <br />
 </details>

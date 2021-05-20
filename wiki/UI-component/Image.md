@@ -4,22 +4,22 @@ The [[Image]] component is a wrapper that at its base adds an image to the page.
 
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
 - `<picture>` <sup>[[r2](#resources)]</sup>
-- Carbon 2x grid <sup>[[r3](#resources)]</sup>
+- [[Carbon 2x grid]]
 
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 
@@ -29,7 +29,6 @@ The [[Image]] component is a wrapper that at its base adds an image to the page.
 
 - r1: [Box folder](https://ibm.ent.box.com/folder/94834513317)
 - r2: [`<picture>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)
-- r3: [Carbon 2x grid](https://www.carbondesignsystem.com/guidelines/2x-grid/overview/)
 
 <br />
 </details>

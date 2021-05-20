@@ -4,21 +4,21 @@ The Layout core component helps us to layout our different components with a mor
 
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- Carbon’s 2x grid <sup>[[r2](#resources)]</sup>
+- [[Carbon 2x grid]]
 
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 
@@ -27,7 +27,6 @@ The Layout core component helps us to layout our different components with a mor
   <summary><strong>Resources</strong></summary><br />
 
 - r1: [Box folder](https://ibm.ent.box.com/folder/109669699777)
-- r2: [Carbon 2x grid](https://www.carbondesignsystem.com/guidelines/2x-grid/overview/)
 
 <br />
 </details>
