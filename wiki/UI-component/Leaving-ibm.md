@@ -9,9 +9,9 @@ The [[Leaving IBM]] component is a modal that pops up when a user clicks a non I
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- Carbon modal <sup>[[r2](#resources)]</sup>
-- Carbon form label <sup>[[r3](#resources)]</sup>
-- Carbon link <sup>[[r4](#resources)]</sup>
+- [[Carbon modal]]
+- [[Carbon form label]]
+- [[Carbon link]]
 - [[Translation]]
 
 <br />
@@ -30,9 +30,6 @@ The [[Leaving IBM]] component is a modal that pops up when a user clicks a non I
   <summary><strong>Resources</strong></summary><br />
 
 - r1: [Box folder](https://ibm.ent.box.com/folder/124606259113)
-- r2: [Carbon modal](https://www.carbondesignsystem.com/components/modal/usage/)
-- r3: [Carbon form label](https://react.carbondesignsystem.com/?path=/story/components-formlabel--default)
-- r4: [Carbon link](https://www.carbondesignsystem.com/components/link/usage/)
 
 <br />
 </details>

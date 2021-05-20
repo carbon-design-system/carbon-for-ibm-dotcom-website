@@ -10,6 +10,7 @@
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
 - [[Filter group]]
+- [[Carbon button]]
 
 <br />
 </details>

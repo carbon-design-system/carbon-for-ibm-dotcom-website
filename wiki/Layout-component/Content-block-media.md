@@ -1,6 +1,6 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-The [[Content block media]] is a decorator of the [[Content block]], which includes a number of [[Content group simple]], and ends with an optional [[Feature card block medium]] [[CTA]] option.
+The [[Content block media]] is a decorator of the [[Content block]], which includes a number of [[Content group simple]], and ends with an optional [[Feature card]] [[CTA]] option.
 
 <hr width="40%" />
 
