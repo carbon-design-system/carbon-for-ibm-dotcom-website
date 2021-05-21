@@ -1,0 +1,26 @@
+name: Repo to wiki
+on:
+  workflow_dispatch:
+  push:
+    branches:
+    - main
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: photodow/wiki-helpers@1.2.1
+        with:
+          rootPath: "./wiki"
+          buildPath: "./wiki-build"
+          flattenDir: true
+      - name: Upload Documentation to Wiki
+        uses: joeizzard/action-wiki-sync@master
+        with:
+          username: ${{ github.event.pusher.name }}
+          access_token: ${{ secrets.GITHUB_TOKEN }}
+          wiki_folder: "./wiki-build"
+          commit_username: ${{ github.event.pusher.name }}
+          commit_email: ${{ github.event.pusher.email }}
+          commit_message: '[wiki sync] ${{ github.event.commits[0].message }}'

@@ -66,3 +66,7 @@ td > code {
     overflow-x: initial;
   }
 }
+
+.bx--side-nav__submenu[aria-expanded="true"] + .bx--side-nav__menu {
+  max-height: none;
+}

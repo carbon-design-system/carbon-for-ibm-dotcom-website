@@ -59,6 +59,7 @@ class ComponentGallery extends React.Component {
             <a
               href={component.url}
               className="component-item__link"
+              rel="noreferrer"
               target={
                 component.url.indexOf("https://") > -1 ? "_blank" : "_self"
               }

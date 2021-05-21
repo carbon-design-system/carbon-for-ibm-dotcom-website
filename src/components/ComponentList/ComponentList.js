@@ -45,6 +45,7 @@ export class ComponentList extends React.Component {
         <td>
           <a
             href={component.url}
+            rel="noreferrer"
             target={component.url.indexOf("https://") > -1 ? "_blank" : "_self"}
           >
             {name}

@@ -104,6 +104,32 @@
         "notAvailable": false
       }
     },
+    "Card in card": {
+      "url": "./card-in-card",
+      "description": "Card in card offers a large media moment, while keeping harmony in a card group.",
+      "storybook": {
+        "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-card-in-card--default",
+        "react": ""
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": true,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": true
+      }
+    },
     "Card link": {
       "url": "./card-link",
       "description": "The Card link component is a CTA styled like a card that acts as the main CTA for a section of content, it typically appears at the end of a block-pattern.",
@@ -546,32 +572,6 @@
         "notAvailable": false
       }
     },
-    "Pictogram item": {
-      "url": "./pictogram-item",
-      "description": "The Pictogram item component is used to communicate messages at a glance, afford interactivity, and simplify complex ideas.",
-      "storybook": {
-        "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-pictogram-item--default",
-        "react": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-pictogramitem--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
     "Quote": {
       "url": "./quote",
       "description": "The Quote component is used to highlight an impactful client statement or user testimonial.",
@@ -626,9 +626,9 @@
     }
   },
   "layout": {
-    "Callout — quote": {
+    "Callout quote": {
       "url": "./callout-quote",
-      "description": "Callout — quote is a typographic layout that is used to highlight an impactful client statement or user testimonial.",
+      "description": "Callout quote is a typographic layout that is used to highlight an impactful client statement or user testimonial.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-callout-quote--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-calloutquote--default"
@@ -652,9 +652,9 @@
         "notAvailable": false
       }
     },
-    "Callout — with media": {
+    "Callout with media": {
       "url": "./callout-with-media",
-      "description": "Callout &mdash; with media is used to feature a high value media asset such as a customer story.",
+      "description": "Callout with media is used to feature a high value media asset such as a customer story.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-callout-with-media--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-calloutwithmedia--default"
@@ -730,9 +730,9 @@
         "notAvailable": false
       }
     },
-    "Card section — carousel": {
+    "Card section carousel": {
       "url": "./card-section-carousel/",
-      "description": "The Card section — carousel is an exploratory component, meaning it allows users to browse or explore multiple pieces of content within the same area of the page.",
+      "description": "The Card section carousel is an exploratory component, meaning it allows users to browse or explore multiple pieces of content within the same area of the page.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-card-section-carousel--default",
         "react": ""
@@ -756,9 +756,9 @@
         "notAvailable": false
       }
     },
-    "Card section — with images": {
+    "Card section images": {
       "url": "./card-section-images",
-      "description": "Card section — with images is a collection of card components with images that, together, occupy a full-width section with a left-column header.",
+      "description": "Card section images is a collection of card components with images that, together, occupy a full-width section with a left-column header.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-card-section-images--default",
         "react": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-cardsectionimages--default"
@@ -782,9 +782,9 @@
         "notAvailable": false
       }
     },
-    "Content block — with cards": {
-      "url": "./content-block-with-cards",
-      "description": "Content block — with cards is used to present small self-contained pieces of information as cards.",
+    "Content block cards": {
+      "url": "./content-block-cards",
+      "description": "Content block cards is used to present small self-contained pieces of information as cards.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-content-block-cards--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-contentblockcards--default"
@@ -808,9 +808,9 @@
         "notAvailable": false
       }
     },
-    "Content block — with media": {
+    "Content block media": {
       "url": "./content-block-media",
-      "description": "Content block — with media is used to present information with images in a group setting.",
+      "description": "Content block media is used to present information with images in a group setting.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-content-block-media--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-contentblockmedia--default"
@@ -834,9 +834,9 @@
         "notAvailable": false
       }
     },
-    "Content block — segmented": {
+    "Content block segmented": {
       "url": "./content-block-segmented",
-      "description": "Content block — segmented is a variation of Content block simple with the added ability to add subsections.",
+      "description": "Content block segmented is a variation of Content block simple with the added ability to add subsections.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-content-block-segmented--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-contentblocksegmented--default"
@@ -860,9 +860,9 @@
         "notAvailable": false
       }
     },
-    "Content block — simple": {
+    "Content block simple": {
       "url": "./content-block-simple",
-      "description": "Content block — simple is typically used for the introductory section on a page.",
+      "description": "Content block simple is typically used for the introductory section on a page.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-content-block-simple--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-contentblocksimple--default"
@@ -886,9 +886,35 @@
         "notAvailable": false
       }
     },
-    "Content group — with cards": {
-      "url": "./content-group-with-cards",
-      "description": "Content group — with cards is used to present information through a group of cards with each acting as a call to action that drives to additional or supporting destinations. It is suitable for adding concise buckets of content and links to a long-form reading experience.",
+    "Content group banner": {
+      "url": "./content-group-banner",
+      "description": "Content group banner is designed as a subtle callout, intended for tangential information or announcements that are supplementary to the page's main focus.",
+      "storybook": {
+        "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-content-group-banner--default",
+        "react": ""
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": true,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": true
+      }
+    },
+    "Content group cards": {
+      "url": "./content-group-cards",
+      "description": "Content group cards is used to present information through a group of cards with each acting as a call to action that drives to additional or supporting destinations. It is suitable for adding concise buckets of content and links to a long-form reading experience.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-content-group-cards--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-contentgroupcards--default"
@@ -912,9 +938,9 @@
         "notAvailable": false
       }
     },
-    "Content group — horizontal": {
+    "Content group horizontal": {
       "url": "./content-group-horizontal",
-      "description": "Content group — horizontal is to present a group of relatively more important pieces of content such as products or solutions with more visual weight.",
+      "description": "Content group horizontal is to present a group of relatively more important pieces of content such as products or solutions with more visual weight.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-content-group-horizontal--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-contentgrouphorizontal--default"
@@ -938,9 +964,9 @@
         "notAvailable": false
       }
     },
-    "Content group — with pictograms": {
+    "Content group pictograms": {
       "url": "./content-group-pictograms",
-      "description": "Content group — with pictograms is used to present a group of information, each with a supporting pictogram.",
+      "description": "Content group pictograms is used to present a group of information, each with a supporting pictogram.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-content-group-pictograms--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-contentgrouppictograms--default"
@@ -964,9 +990,9 @@
         "notAvailable": false
       }
     },
-    "Content group — simple": {
+    "Content group simple": {
       "url": "./content-group-simple",
-      "description": "Content group — simple is an alternative form of a narrative layout where the content is broken up into smaller pieces to make it more digestible.",
+      "description": "Content group simple is an alternative form of a narrative layout where the content is broken up into smaller pieces to make it more digestible.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-content-group-simple--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-contentblocksimple--default"
@@ -990,9 +1016,9 @@
         "notAvailable": false
       }
     },
-    "Content item — horizontal": {
+    "Content item horizontal": {
       "url": "./content-item-horizontal",
-      "description": "Content item — horizontal component displays information in a horizontal orientation.",
+      "description": "Content item horizontal component displays information in a horizontal orientation.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-content-item-horizontal--default",
         "react": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-contentitemhorizontal--default"
@@ -1042,9 +1068,9 @@
         "notAvailable": false
       }
     },
-    "Feature card — block": {
+    "Feature card block": {
       "url": "./feature-card-block",
-      "description": "Feature card — block is used to present information with a group of cards.",
+      "description": "Feature card block is used to present information with a group of cards.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-feature-card-block-medium--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-featurecardblockmedium--default"
@@ -1096,7 +1122,7 @@
     },
     "Lead space": {
       "url": "./leadspace",
-      "description": "Lead space is used to orient the user when they land on a page and to help them decide whether to continue reading or not as well as orient themselves. It will always be positioned at the top of a web page.",
+      "description": "The purpose of a lead space is to help the users understand where they landed, and what type of content they are going to find on the webpage. It will always be positioned at the top.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-leadspace--default-with-no-image",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-leadspace--default-with-no-image"
@@ -1120,9 +1146,9 @@
         "notAvailable": false
       }
     },
-    "Lead space — block": {
+    "Lead space block": {
       "url": "./lead-space-block",
-      "description": "Lead space &mdash; block is an alternative to the Lead space, enabling a more productive first site of viewer engagement. Lead space &mdash; block is positioned at the top of a web page, with a purpose to orient the user when they land on a page, inform them of the content, and guide them to the first key piece of content on the page, whether it’s a crucial piece of information or a call-to-action button.",
+      "description": "Lead space block is an alternative to the Lead space, enabling a more productive first site of viewer engagement. Lead space &mdash; block is positioned at the top of a web page, with a purpose to orient the user when they land on a page, inform them of the content, and guide them to the first key piece of content on the page, whether it’s a crucial piece of information or a call-to-action button.",
       "storybook": {
         "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-leadspaceblock--default",
         "react": "http://ibmdotcom-react.mybluemix.net/?path=/story/components-leadspaceblock--default"
@@ -1172,6 +1198,32 @@
         "notAvailable": false
       }
     },
+    "Pictogram item": {
+      "url": "./pictogram-item",
+      "description": "The Pictogram item component is used to communicate messages at a glance, afford interactivity, and simplify complex ideas.",
+      "storybook": {
+        "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-pictogram-item--default",
+        "react": "https://ibmdotcom-react.mybluemix.net/?path=/story/components-pictogramitem--default"
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      }
+    },
     "Table of contents": {
       "url": "./table-of-contents",
       "description": "The Table of contents component allows users to quickly navigate through long pages by providing jump links to different sections of the content within a single page.",
@@ -1196,6 +1248,32 @@
         "deprecated": false,
         "underConstruction": false,
         "notAvailable": false
+      }
+    },
+    "Tabs extended media": {
+      "url": "./tabs-extended-media",
+      "description": "Use this component to interactively reveal related content, or as a gateway to pages with more details.",
+      "storybook": {
+        "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-tabs-extended-with-media--default",
+        "react": ""
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": true,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": true,
+        "notAvailable": true
       }
     }
   }
