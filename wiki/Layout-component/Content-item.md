@@ -2,6 +2,8 @@
 
 The [[Content item]] component is a commonly used structure and style of content that’s used across many patterns consisting of a heading, media, copy, and [[CTA]].
 
+![image](https://user-images.githubusercontent.com/3793636/119083345-69397080-b9c5-11eb-94e2-adf58a1f442b.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

@@ -1,20 +1,21 @@
-`Core` <!-- category start --><!-- category end -->
+`Decorator` <!-- category start --><!-- category end -->
 
-The [[Mega menu]] is a component that is used in tandem with the [[Masthead L0]] to help customers navigate throughout the IBM.com experience. The [[Mega menu]] is designed to handle large amounts of navigation items, and other various types of content to aid in the user’s journey.
+The [[Content block accordion]] is made up of a [[Content block]] with an [[Accordion]] as its child. The [[Content block]] headline provides the content with an overarching topic, and the [[Accordion]] allows for a large amount of content to be shown or hidden within a small amount of space within a more specific context of the overarching topic.
 
-![image](https://user-images.githubusercontent.com/3793636/119056453-56587900-b990-11eb-8f48-c385877d09a3.png)
+![image](https://user-images.githubusercontent.com/3793636/119144701-8a727f00-ba0e-11eb-8991-c12a7f182215.png)
 
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->
 
-<details open="false">
+<details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
+
+- [[Content block]]
+- [[Accordion]]
 
 <br />
 </details>
-
-> ![image](https://user-images.githubusercontent.com/3793636/117873641-a6835d00-b265-11eb-8433-8c9c73a2e999.png) Re-evaluate dependency list
 
 <!-- usedby start open="true" -->
 *{{usedby auto populates}}*
@@ -28,7 +29,7 @@ The [[Mega menu]] is a component that is used in tandem with the [[Masthead L0]]
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
-- r1: [Box folder](https://ibm.ent.box.com/folder/118692148518)
+- r1: [Box folder](https://ibm.ent.box.com/folder/119674330757)
 
 <br />
 </details>

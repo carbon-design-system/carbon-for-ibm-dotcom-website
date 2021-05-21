@@ -2,6 +2,8 @@
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png) See [[CTA block]]
 
+![image](https://user-images.githubusercontent.com/3793636/119143879-bccfac80-ba0d-11eb-9544-2e991d2b7ad9.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

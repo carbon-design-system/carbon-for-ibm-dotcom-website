@@ -1,20 +1,21 @@
-`Core` <!-- category start --><!-- category end -->
+`Decorator` <!-- category start --><!-- category end -->
 
-The [[Mega menu]] is a component that is used in tandem with the [[Masthead L0]] to help customers navigate throughout the IBM.com experience. The [[Mega menu]] is designed to handle large amounts of navigation items, and other various types of content to aid in the user’s journey.
+[[ Search typeahead ]] brings together [[ Carbon search ]] and the [[ Search typeahead service ]] to provide this reusable search component with typeahead functionality.
 
-![image](https://user-images.githubusercontent.com/3793636/119056453-56587900-b990-11eb-8f48-c385877d09a3.png)
+![image](https://user-images.githubusercontent.com/3793636/119173730-43e04d00-ba2d-11eb-8a8d-0c8e6e3aec39.png)
 
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->
 
-<details open="false">
+<details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
+
+- [[ Carbon search ]]
+- [[ Search typeahead service ]]
 
 <br />
 </details>
-
-> ![image](https://user-images.githubusercontent.com/3793636/117873641-a6835d00-b265-11eb-8433-8c9c73a2e999.png) Re-evaluate dependency list
 
 <!-- usedby start open="true" -->
 *{{usedby auto populates}}*
@@ -28,7 +29,7 @@ The [[Mega menu]] is a component that is used in tandem with the [[Masthead L0]]
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
-- r1: [Box folder](https://ibm.ent.box.com/folder/118692148518)
+- r1: [Box folder](#)
 
 <br />
 </details>

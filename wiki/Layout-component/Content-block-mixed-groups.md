@@ -2,6 +2,8 @@
 
 The [[Content block mixed groups]] component leverages the [[Content block]] as the overall container, and allows only a few opinionated group level components to be included.
 
+![image](https://user-images.githubusercontent.com/3793636/119081943-ae0fd800-b9c2-11eb-9d24-05ad185cc2b9.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

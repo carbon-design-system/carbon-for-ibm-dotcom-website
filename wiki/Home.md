@@ -19,6 +19,4 @@ The Wiki will also host guidelines around how to publish content on the Carbon f
 <!-- categories start open="true" type="titleContent" group="Layout component, Service, UI component, Utility" --><!-- categories end -->
 
 ## Additional components
-<!-- categories start open="true" type="titleContent" group="Design only, Feature flag, Under construction" --><!-- categories end -->
-
-<!-- categories start open="true" group="Carbon component" --><!-- categories end -->
+<!-- categories start open="true" type="titleContent" group="Design only, Feature flag, Under construction, Carbon component" --><!-- categories end -->

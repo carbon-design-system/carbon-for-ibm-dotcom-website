@@ -2,6 +2,8 @@
 
 The [[Tag group]] is a component that is utilized within IBM.com for grouping two or more tag components together within a wrapping list.
 
+![image](https://user-images.githubusercontent.com/3793636/119056953-370e1b80-b991-11eb-8abb-e5d4dab413e8.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

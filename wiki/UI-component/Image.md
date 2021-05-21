@@ -2,6 +2,8 @@
 
 The [[Image]] component is a wrapper that at its base adds an image to the page. It allows adopters to pass in multiple images it can render depending on the various breakpoints standardizing the image data model.
 
+![image](https://user-images.githubusercontent.com/3793636/119055904-6c196e80-b98f-11eb-98fb-0cda87182535.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

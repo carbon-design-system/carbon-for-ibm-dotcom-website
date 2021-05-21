@@ -8,6 +8,4 @@
 <!-- categories start open="false" group="Layout component, Service, UI component, Utility" --><!-- categories end -->
 
 ## Additional components
-<!-- categories start open="false" group="Design only, Feature flag, Under construction" --><!-- categories end -->
-
-<!-- categories start open="false" group="Carbon component" --><!-- categories end -->
+<!-- categories start open="false" group="Design only, Feature flag, Under construction, Carbon component" --><!-- categories end -->
