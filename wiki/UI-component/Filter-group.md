@@ -1,6 +1,6 @@
 `Core` <!-- category start --><!-- category end -->
 
-[[ Filter group ]] is a collapsable accordion of filter options either checkbox, or radio type actions for the user to interact with and filter their results down within a single category of taxonomy.
+[[Filter group]] is a collapsable accordion of filter options either checkbox, or radio type actions for the user to interact with and filter their results down within a single category of taxonomy.
 
 ![image](https://user-images.githubusercontent.com/3793636/119146942-bf7fd100-ba10-11eb-9ad2-99148e0fd7ee.png)
 
@@ -11,10 +11,10 @@
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[ Input select ]]
-- [[ Carbon checkbox ]]
-- [[ Carbon button ]]
-- [[ Carbon accordion ]]
+- [[Input select]]
+- [[Carbon checkbox]]
+- [[Carbon button]]
+- [[Carbon accordion]]
 
 <br />
 </details>

@@ -1,6 +1,6 @@
 `Core` <!-- category start --><!-- category end -->
 
-The [[ Input select ]] component is a button with two states to indicate whether it has been selected or not. When grouped together with other [[ Input select ]] components it is likened to an HTML radio button.
+The [[Input select]] component is a button with two states to indicate whether it has been selected or not. When grouped together with other [[Input select]] components it is likened to an HTML radio button.
 
 ![image](https://user-images.githubusercontent.com/3793636/119147033-d58d9180-ba10-11eb-890d-7c5817a37652.png)
 

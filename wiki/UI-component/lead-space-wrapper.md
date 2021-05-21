@@ -1,6 +1,6 @@
 `Core` <!-- category start --><!-- category end -->
 
-The [[ Lead space wrapper ]] helps align our lead space components with a shared layout and behavioral options for its background and such.
+The [[Lead space wrapper]] helps align our lead space components with a shared layout and behavioral options for its background and such.
 
 ![image](https://user-images.githubusercontent.com/3793636/119161161-9c5c1e00-ba1e-11eb-91ba-096f553579f2.png)
 
@@ -11,7 +11,7 @@ The [[ Lead space wrapper ]] helps align our lead space components with a shared
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[ Image ]]
+- [[Image]]
 
 <br />
 </details>

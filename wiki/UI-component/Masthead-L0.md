@@ -13,12 +13,12 @@ The [[Masthead L0]] component is a required navigational pattern for IBM.com tha
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[ CTA ]]
-- [[ Mega menu ]]
-- [[ Tooltip ]]
-- [[ Profile service ]]
-- [[ Search typeahead ]]
-- [[ Translation ]]
+- [[CTA]]
+- [[Mega menu]]
+- [[Tooltip]]
+- [[Profile service]]
+- [[Search typeahead]]
+- [[Translation]]
 
 <br />
 </details>
