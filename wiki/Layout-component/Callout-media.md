@@ -2,6 +2,8 @@
 
 The [[Callout media]] decorates the [[Callout]] and [[Content block simple]]. It calls to attention the content within it with an offset and high contrast moment.
 
+![image](https://user-images.githubusercontent.com/3793636/119080430-b1ee2b00-b9bf-11eb-8836-d18165af7098.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

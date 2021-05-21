@@ -2,6 +2,8 @@
 
 [[Logo grid]] is a decorator block level component for displaying images of other company logos in a grid pattern.
 
+![image](https://user-images.githubusercontent.com/3793636/119085314-26799780-b9c9-11eb-9e6a-7b13229137aa.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

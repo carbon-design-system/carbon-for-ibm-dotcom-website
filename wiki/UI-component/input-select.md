@@ -1,8 +1,8 @@
 `Core` <!-- category start --><!-- category end -->
 
-The [[Mega menu]] is a component that is used in tandem with the [[Masthead L0]] to help customers navigate throughout the IBM.com experience. The [[Mega menu]] is designed to handle large amounts of navigation items, and other various types of content to aid in the user’s journey.
+The [[ Input select ]] component is a button with two states to indicate whether it has been selected or not. When grouped together with other [[ Input select ]] components it is likened to an HTML radio button.
 
-![image](https://user-images.githubusercontent.com/3793636/119056453-56587900-b990-11eb-8f48-c385877d09a3.png)
+![image](https://user-images.githubusercontent.com/3793636/119147033-d58d9180-ba10-11eb-890d-7c5817a37652.png)
 
 <hr width="40%" />
 
@@ -13,8 +13,6 @@ The [[Mega menu]] is a component that is used in tandem with the [[Masthead L0]]
 
 <br />
 </details>
-
-> ![image](https://user-images.githubusercontent.com/3793636/117873641-a6835d00-b265-11eb-8433-8c9c73a2e999.png) Re-evaluate dependency list
 
 <!-- usedby start open="true" -->
 *{{usedby auto populates}}*
@@ -28,7 +26,7 @@ The [[Mega menu]] is a component that is used in tandem with the [[Masthead L0]]
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
-- r1: [Box folder](https://ibm.ent.box.com/folder/118692148518)
+- r1: [Box folder](https://ibm.ent.box.com/folder/137327521624)
 
 <br />
 </details>

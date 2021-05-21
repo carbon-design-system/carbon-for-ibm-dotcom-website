@@ -2,6 +2,8 @@
 
 This component provides an opportunity to highlight a quote from a given person by decorating both the [[Callout]], and [[Quote]] patterns.
 
+![image](https://user-images.githubusercontent.com/3793636/119080494-d0542680-b9bf-11eb-84b2-7b82891caa5b.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

@@ -2,6 +2,8 @@
 
 The cookies component is present on every page of IBM.com and allows the user to handle how their cookies how handled throughout their experience.
 
+![image](https://user-images.githubusercontent.com/3793636/119145168-010f7c80-ba0f-11eb-9d9d-ff60485aa861.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

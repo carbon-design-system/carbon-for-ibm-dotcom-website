@@ -2,6 +2,8 @@
 
 The [[Lightbox media viewer]] opens up a piece/series of content over the current page for a closer/detailed look. The background is dimmed to give focus to the content being interacted with. It's great for slideshows and galleries, or anywhere you might not have a lot of room to see the piece of media content in detail.
 
+![image](https://user-images.githubusercontent.com/3793636/119056034-a08d2a80-b98f-11eb-8140-c6a057d69152.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

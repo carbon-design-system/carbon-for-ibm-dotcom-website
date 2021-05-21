@@ -2,6 +2,8 @@
 
 The [[Content section]] is a core component that can be used as a section level wrapper. It includes a heading and optional children. 
 
+![image](https://user-images.githubusercontent.com/3793636/119083485-a271e080-b9c5-11eb-96ee-4b5785153cae.png) 
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

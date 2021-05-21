@@ -1,6 +1,8 @@
-`Decorator` <!-- category start --><!-- category end -->
+`Core` <!-- category start --><!-- category end -->
 
-The [[Content block accordion]] is made up of a [[Content block]] with an [[Accordion]] as its child. The [[Content block]] headline provides the content with an overarching topic, and the [[Accordion]] allows for a large amount of content to be shown or hidden within a small amount of space within a more specific context of the overarching topic.
+[[ Filter group ]] is a collapsable accordion of filter options either checkbox, or radio type actions for the user to interact with and filter their results down within a single category of taxonomy.
+
+![image](https://user-images.githubusercontent.com/3793636/119146942-bf7fd100-ba10-11eb-9ad2-99148e0fd7ee.png)
 
 <hr width="40%" />
 
@@ -9,8 +11,10 @@ The [[Content block accordion]] is made up of a [[Content block]] with an [[Acco
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[Content block]]
-- [[Accordion]]
+- [[ Input select ]]
+- [[ Carbon checkbox ]]
+- [[ Carbon button ]]
+- [[ Carbon accordion ]]
 
 <br />
 </details>
@@ -27,7 +31,7 @@ The [[Content block accordion]] is made up of a [[Content block]] with an [[Acco
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
-- r1: [Box folder](https://ibm.ent.box.com/folder/119674330757)
+- r1: [Box folder](https://ibm.ent.box.com/folder/137685560033)
 
 <br />
 </details>

@@ -2,6 +2,8 @@
 
 The [[Card]] component takes [[Carbon tile]] component and adds an opinionated hierarchy of content to it. Most often it is used as a clickable tile, or [[Card link]] with or without an [[Image]] and just an icon for its call to action.
 
+![image](https://user-images.githubusercontent.com/3793636/119054831-e8ab4d80-b98d-11eb-855c-6087be94bd33.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

@@ -2,6 +2,8 @@
 
 A collection of For Position Only (FPO) images to be used throughout our example sites, and spec files.
 
+![image](https://user-images.githubusercontent.com/3793636/119145721-88f58680-ba0f-11eb-82da-a7273ac04a6e.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->
