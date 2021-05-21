@@ -1,10 +1,8 @@
-`Core` <!-- category start --><!-- category end -->
+`Decorator` <!-- category start --><!-- category end -->
 
-The [[Masthead L0]] component is a required navigational pattern for IBM.com that displays consistently at the top of each page. It also includes search and profile services for IBM.com.
+[[ Search typeahead ]] brings together [[ Carbon search ]] and the [[ Search typeahead service ]] to provide this reausable search component with typeahead functionality.
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873641-a6835d00-b265-11eb-8433-8c9c73a2e999.png) Need to break this work down (e.g. [[navigation]], [[mobile menu]])
-
-![image](https://user-images.githubusercontent.com/3793636/119056205-ec3fd400-b98f-11eb-90c0-b1bd558acf0d.png)
+![image](https://user-images.githubusercontent.com/3793636/119173730-43e04d00-ba2d-11eb-8a8d-0c8e6e3aec39.png)
 
 <hr width="40%" />
 
@@ -13,12 +11,8 @@ The [[Masthead L0]] component is a required navigational pattern for IBM.com tha
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[ CTA ]]
-- [[ Mega menu ]]
-- [[ Tooltip ]]
-- [[ Profile service ]]
-- [[ Search typeahead ]]
-- [[ Translation ]]
+- [[ Carbon search ]]
+- [[ Search typeahead service ]]
 
 <br />
 </details>
@@ -35,7 +29,7 @@ The [[Masthead L0]] component is a required navigational pattern for IBM.com tha
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
-- r1: [Box folder](https://ibm.ent.box.com/folder/59063660753)
+- r1: [Box folder](#)
 
 <br />
 </details>
