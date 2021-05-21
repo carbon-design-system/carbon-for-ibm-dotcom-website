@@ -8,7 +8,7 @@ A collection of For Position Only (FPO) images to be used throughout our example
 
 <!-- toc start open="true" --><!-- toc end -->
 
-<details open="false">
+<details>
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
 <br />

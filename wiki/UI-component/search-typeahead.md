@@ -1,6 +1,6 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-[[ Search typeahead ]] brings together [[ Carbon search ]] and the [[ Search typeahead service ]] to provide this reusable search component with typeahead functionality.
+[[Search typeahead]] brings together [[Carbon search]] and the [[Search typeahead service]] to provide this reusable search component with typeahead functionality.
 
 ![image](https://user-images.githubusercontent.com/3793636/119173730-43e04d00-ba2d-11eb-8a8d-0c8e6e3aec39.png)
 
@@ -11,8 +11,8 @@
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[ Carbon search ]]
-- [[ Search typeahead service ]]
+- [[Carbon search]]
+- [[Search typeahead service]]
 
 <br />
 </details>

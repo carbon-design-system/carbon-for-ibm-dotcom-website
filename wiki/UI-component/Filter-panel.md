@@ -1,6 +1,6 @@
 `Core` <!-- category start --><!-- category end -->
 
-The [[ Filter panel ]] is a component made up of different types of [[ Filter group ]]s and allows the adopter to present and maintain a list and state of filter options.
+The [[Filter panel]] is a component made up of different types of [[Filter group]]s and allows the adopter to present and maintain a list and state of filter options.
 
 ![image](https://user-images.githubusercontent.com/3793636/119146818-a0813f00-ba10-11eb-8c2c-2f84f667f729.png)
 
@@ -11,10 +11,10 @@ The [[ Filter panel ]] is a component made up of different types of [[ Filter gr
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[ Filter group ]]
-- [[ Carbon button ]]
-- [[ Carbon modal ]]
-- [[ Carbon icons ]]
+- [[Filter group]]
+- [[Carbon button]]
+- [[Carbon modal]]
+- [[Carbon icons]]
 
 <br />
 </details>
