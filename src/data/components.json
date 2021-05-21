@@ -1249,6 +1249,32 @@
         "underConstruction": false,
         "notAvailable": false
       }
+    },
+    "Tabs extended media": {
+      "url": "./tabs-extended-media",
+      "description": "Use this component to interactively reveal related content, or as a gateway to pages with more details.",
+      "storybook": {
+        "webcomponents": "http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-tabs-extended-with-media--default",
+        "react": ""
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": true,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": true,
+        "notAvailable": true
+      }
     }
   }
 }
