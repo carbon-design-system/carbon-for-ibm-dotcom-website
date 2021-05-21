@@ -2,6 +2,8 @@
 
 [[Card link]] is a decorates [[Card]] by prescribing a specific data content and visual pattern.
 
+![image](https://user-images.githubusercontent.com/3793636/119054629-936f3c00-b98d-11eb-9bf4-655cda81584f.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

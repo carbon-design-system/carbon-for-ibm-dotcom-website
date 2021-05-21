@@ -2,6 +2,8 @@
 
 The [[Pictogram item]] is a component which distinguishably includes a [[Carbon pictograms]], and a heading, copy, and link via the [[Content item]].
 
+![image](https://user-images.githubusercontent.com/3793636/119056505-6a03df80-b990-11eb-8323-9c26616afd91.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

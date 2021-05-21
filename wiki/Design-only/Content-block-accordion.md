@@ -2,6 +2,8 @@
 
 The [[Content block accordion]] is made up of a [[Content block]] with an [[Accordion]] as its child. The [[Content block]] headline provides the content with an overarching topic, and the [[Accordion]] allows for a large amount of content to be shown or hidden within a small amount of space within a more specific context of the overarching topic.
 
+![image](https://user-images.githubusercontent.com/3793636/119144701-8a727f00-ba0e-11eb-8991-c12a7f182215.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

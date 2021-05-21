@@ -31,6 +31,8 @@ The [[ Filter panel ]] is a component made up of different types of [[ Filter gr
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
+- r1: [Box folder](https://ibm.ent.box.com/folder/136914860547)
+
 <br />
 </details>
 

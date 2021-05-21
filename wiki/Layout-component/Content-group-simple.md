@@ -2,6 +2,8 @@
 
 The [[Content group simple]] is a decorator of the [[Content group]], which includes an optional media item ([[Image with caption]] or [[Video]]) and [[Content item]]s within the children container. 
 
+![image](https://user-images.githubusercontent.com/3793636/119083135-034ce900-b9c5-11eb-9903-b6459e52e037.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

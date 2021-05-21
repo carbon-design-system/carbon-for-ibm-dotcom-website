@@ -2,6 +2,8 @@
 
 The [[Content block segmented]] component allows for a lot of content to be present at once. It’s laid out in a way to be easily consumed and understood by its users.
 
+![image](https://user-images.githubusercontent.com/3793636/119082233-4443fe00-b9c3-11eb-8497-826dbd73b905.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

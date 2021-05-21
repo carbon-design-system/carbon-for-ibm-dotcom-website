@@ -26,6 +26,8 @@ The [[ Input select ]] component is a button with two states to indicate whether
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
+- r1: [Box folder](https://ibm.ent.box.com/folder/137327521624)
+
 <br />
 </details>
 

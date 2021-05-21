@@ -2,6 +2,8 @@
 
 The [[Link with icon]] is a [[Carbon link]] that includes an icon, available from [[Carbon icons]].
 
+![image](https://user-images.githubusercontent.com/3793636/119056134-c74b6100-b98f-11eb-8993-48ce1ed1e4ad.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

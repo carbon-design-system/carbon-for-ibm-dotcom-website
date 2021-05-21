@@ -4,6 +4,8 @@ The [[Masthead L1]] component is an optional navigational pattern for IBM.com th
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873641-a6835d00-b265-11eb-8433-8c9c73a2e999.png) Need to break this work down with maybe an overview page?
 
+![image](https://user-images.githubusercontent.com/3793636/119056331-21e4bd00-b990-11eb-8190-ef13c714dd8e.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

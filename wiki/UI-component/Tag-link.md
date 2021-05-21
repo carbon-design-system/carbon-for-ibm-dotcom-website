@@ -2,6 +2,8 @@
 
 [[Tag link]] is a short visually contained word or two. It usually indicates some sort of category that can be interacted with as a link or a button to take some sort of action upon (e.g. filtering). While heavily influenced by [[Carbon tag]], this component deviates in functionality and some basic visual differences.
 
+![image](https://user-images.githubusercontent.com/3793636/119057045-62910600-b991-11eb-9026-aff8fd543f0b.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->
