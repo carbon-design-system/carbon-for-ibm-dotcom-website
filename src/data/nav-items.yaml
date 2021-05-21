@@ -29,16 +29,16 @@
       path: /guidelines
     - title: Content
       path: /guidelines/content
-    - title: Right-to-left language
-      path: /guidelines/right-to-left
-    #    - title: Layout
-    #      path: /guidelines/layout
     - title: Expressive Theme
       path: /guidelines/expressive-theme
-    - title: Style models
-      path: /guidelines/style-models/overview
     - title: Layout
       path: /guidelines/layout
+    - title: Right-to-left language
+      path: /guidelines/right-to-left
+    - title: Style models
+      path: /guidelines/style-models/overview
+    - title: Type pairing and spacing
+      path: /guidelines/type-pairing-and-spacing
 
 - title: Components
   pages:
