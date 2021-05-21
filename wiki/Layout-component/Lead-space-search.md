@@ -1,6 +1,6 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-The [[ Lead space search ]] is in the same family of our other Lead space components. It combines the [[ Lead space block ]], and the [[ search typeahead ]] components to embed search into the content of your page.
+The [[Lead space search]] is in the same family of our other Lead space components. It combines the [[Lead space block]], and the [[search typeahead]] components to embed search into the content of your page.
 
 ![image](https://user-images.githubusercontent.com/3793636/119161919-6b301d80-ba1f-11eb-8ca3-27a3f20542c3.png)
 
@@ -11,9 +11,9 @@ The [[ Lead space search ]] is in the same family of our other Lead space compon
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[ Lead space block ]]
-- [[ search typeahead ]]
-- [[ lead space wrapper ]]
+- [[Lead space block]]
+- [[search typeahead]]
+- [[lead space wrapper]]
 
 <br />
 </details>
