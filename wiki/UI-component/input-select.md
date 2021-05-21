@@ -8,7 +8,7 @@ The [[ Input select ]] component is a button with two states to indicate whether
 
 <!-- toc start open="true" --><!-- toc end -->
 
-<details open="false">
+<details>
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
 <br />

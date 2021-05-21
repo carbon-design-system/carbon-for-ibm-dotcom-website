@@ -8,7 +8,7 @@
 
 <!-- toc start open="true" --><!-- toc end -->
 
-<details open="false">
+<details>
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
 <br />

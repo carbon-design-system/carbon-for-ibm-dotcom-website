@@ -6,7 +6,7 @@ The Same Height Utility is a DOM height detection utility that will determine th
 
 <!-- toc start open="true" --><!-- toc end -->
 
-<details open="false">
+<details>
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
 <br />

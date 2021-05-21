@@ -9,7 +9,7 @@ By default, this utility will use Carbon Classes and strips out extraneous HTML 
 
 <!-- toc start open="true" --><!-- toc end -->
 
-<details open="false">
+<details>
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
 <br />
