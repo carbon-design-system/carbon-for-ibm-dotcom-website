@@ -2,6 +2,8 @@
 
 The [[Content block media]] is a decorator of the [[Content block]], which includes a number of [[Content group simple]], and ends with an optional [[Feature card]] [[CTA]] option.
 
+![image](https://user-images.githubusercontent.com/3793636/119081655-0db9b380-b9c2-11eb-89eb-6879d936af13.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

@@ -2,11 +2,13 @@
 
 The [[Mega menu]] is a component that is used in tandem with the [[Masthead L0]] to help customers navigate throughout the IBM.com experience. The [[Mega menu]] is designed to handle large amounts of navigation items, and other various types of content to aid in the user’s journey.
 
+![image](https://user-images.githubusercontent.com/3793636/119056453-56587900-b990-11eb-8f48-c385877d09a3.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->
 
-<details open="false">
+<details>
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
 <br />

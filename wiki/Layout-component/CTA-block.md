@@ -1,6 +1,8 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-The [[CTA block]] generally is used as a navigational component to help guide the user towards a next step of action. The [[CTA]] has a couple different ways to show these actions including via a primary [[Button]], list of [[Content items]] or the [[Link list]] component.
+The [[CTA block]] generally is used as a navigational component to help guide the user towards a next step of action. The [[CTA]] has a couple different ways to show these actions including via a primary [[Carbon button]], list of [[Content item]] or the [[Link list]] component.
+
+![image](https://user-images.githubusercontent.com/3793636/119083533-bfa6af00-b9c5-11eb-824c-d75d074580a8.png)
 
 <hr width="40%" />
 

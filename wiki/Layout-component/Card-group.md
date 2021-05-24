@@ -2,6 +2,8 @@
 
 [[Card group]] is a decorator component that allows adopters to display multiple [[Card]] components together in a grid layout.
 
+![image](https://user-images.githubusercontent.com/3793636/119081126-f7f7be80-b9c0-11eb-8562-31018abd76b6.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

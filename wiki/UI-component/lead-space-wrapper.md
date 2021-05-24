@@ -1,6 +1,8 @@
-`Decorator` <!-- category start --><!-- category end -->
+`Core` <!-- category start --><!-- category end -->
 
-The [[Content block accordion]] is made up of a [[Content block]] with an [[Accordion]] as its child. The [[Content block]] headline provides the content with an overarching topic, and the [[Accordion]] allows for a large amount of content to be shown or hidden within a small amount of space within a more specific context of the overarching topic.
+The [[Lead space wrapper]] helps align our lead space components with a shared layout and behavioral options for its background and such.
+
+![image](https://user-images.githubusercontent.com/3793636/119161161-9c5c1e00-ba1e-11eb-91ba-096f553579f2.png)
 
 <hr width="40%" />
 
@@ -9,8 +11,7 @@ The [[Content block accordion]] is made up of a [[Content block]] with an [[Acco
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[Content block]]
-- [[Accordion]]
+- [[Image]]
 
 <br />
 </details>
@@ -27,7 +28,7 @@ The [[Content block accordion]] is made up of a [[Content block]] with an [[Acco
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
-- r1: [Box folder](https://ibm.ent.box.com/folder/119674330757)
+- r1: [Box folder](#)
 
 <br />
 </details>

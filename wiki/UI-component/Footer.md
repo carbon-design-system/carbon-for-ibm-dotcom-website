@@ -2,6 +2,8 @@
 
 The [[Footer]] is a component that appears at the bottom of every page. 
 
+![image](https://user-images.githubusercontent.com/3793636/119055799-44c2a180-b98f-11eb-8862-1a5f81050c15.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

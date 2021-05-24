@@ -2,6 +2,8 @@
 
 The [[Callout]] component is a core component meant to offset and call attention to a piece of content within the page by setting it apart using a high-contrast moment.
 
+![image](https://user-images.githubusercontent.com/3793636/119080864-76a02c00-b9c0-11eb-86a7-b26a03922223.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

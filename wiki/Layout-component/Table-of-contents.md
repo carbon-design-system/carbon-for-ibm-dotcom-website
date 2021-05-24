@@ -2,6 +2,8 @@
 
 The [[Table of contents]] component renders as an aside navigation that includes anchor links to various locations on the page. The links themselves can either be dynamically generated based on anchor links and associated title attributes, or manually entered.
 
+![image](https://user-images.githubusercontent.com/3793636/119085525-84a67a80-b9c9-11eb-9d00-65c351a382fb.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

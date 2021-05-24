@@ -4,6 +4,8 @@
 
 The [[Card section simple]] is a decorator of the [[Content Section]] with a specific expression of the [[Card group]] in the children container.
 
+![image](https://user-images.githubusercontent.com/3793636/119081324-60df3680-b9c1-11eb-8767-57b452af5e18.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

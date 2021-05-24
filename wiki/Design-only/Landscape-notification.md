@@ -2,6 +2,8 @@
 
 The [[Landscape notification]] is a component that pops up in certain scenarios where we the UI breaks on landscape oriented browsers.
 
+![image](https://user-images.githubusercontent.com/3793636/119145981-ca863180-ba0f-11eb-9994-27ec49d71f99.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

@@ -2,6 +2,8 @@
 
 The [[CTA Section]] which depends on the [[CTA block]] is typically used at the end of the page to help guide the user toward a next step of action.
 
+![image](https://user-images.githubusercontent.com/3793636/119083582-d77e3300-b9c5-11eb-9c31-f8e403f8dede.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

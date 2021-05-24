@@ -4,6 +4,8 @@
 
 The [[Card section images]] component is a decorator of the [[Content Section]] component with a specific expression of the [[Card Group]] component in the children container.
 
+![image](https://user-images.githubusercontent.com/3793636/119081277-49a04900-b9c1-11eb-8bc7-26fe48a739a5.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

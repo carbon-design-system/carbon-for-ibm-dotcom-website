@@ -2,6 +2,8 @@
 
 The [[Feature card]] component decorates [[Card]]. This [[Card]] variation is slightly larger in nature, and is designed to stand out and to emphasize a particular call to action.
 
+![image](https://user-images.githubusercontent.com/3793636/119055741-2e1c4a80-b98f-11eb-8a72-120b915e9dfd.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

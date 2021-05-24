@@ -2,6 +2,8 @@
 
 The Layout core component helps us to layout our different components with a more standard approach using Carbon’s 2x grid <sup>[[r2](#resources)]</sup> and pre-approved layout types.
 
+![image](https://user-images.githubusercontent.com/3793636/119084886-39d83300-b9c8-11eb-9d46-a78922a98ac2.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

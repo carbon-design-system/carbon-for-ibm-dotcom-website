@@ -2,6 +2,8 @@
 
 The [[Lead space]] is a top-level component section that appears at the beginning of a page. 
 
+![image](https://user-images.githubusercontent.com/3793636/119085174-da2e5780-b9c8-11eb-83f4-556226ebf683.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->
@@ -12,6 +14,7 @@ The [[Lead space]] is a top-level component section that appears at the beginnin
 - [[Image with caption]]
 - [[Button group]]
 - [[Tag group]]
+- [[Lead space wrapper]]
 
 <br />
 </details>

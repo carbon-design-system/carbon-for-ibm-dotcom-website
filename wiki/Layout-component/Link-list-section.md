@@ -2,6 +2,8 @@
 
 The [[Link list section]] provides additional resources based on the [[Link list]] component, but expands its emphasis to the entire section of a page. Usually used as a link farm at the end of the page.
 
+![image](https://user-images.githubusercontent.com/3793636/119085233-f7fbbc80-b9c8-11eb-8a66-5ac24be134b0.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

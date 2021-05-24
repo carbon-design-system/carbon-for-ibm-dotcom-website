@@ -2,6 +2,8 @@
 
 [[Tabs extended media]] depends on the [[Tabs extended]] component and structures its content using the [[Content item horizontal]] component.
 
+![image](https://user-images.githubusercontent.com/3793636/119085569-9b4cd180-b9c9-11eb-90bc-0edac990d8a5.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->
