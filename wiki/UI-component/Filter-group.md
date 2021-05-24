@@ -1,8 +1,8 @@
-`Decorator` <!-- category start --><!-- category end -->
+`Core` <!-- category start --><!-- category end -->
 
-The [[Callout media]] decorates the [[Callout]] and [[Content block simple]]. It calls to attention the content within it with an offset and high contrast moment.
+[[Filter group]] is a collapsable accordion of filter options either checkbox, or radio type actions for the user to interact with and filter their results down within a single category of taxonomy.
 
-![image](https://user-images.githubusercontent.com/3793636/119080430-b1ee2b00-b9bf-11eb-8836-d18165af7098.png)
+![image](https://user-images.githubusercontent.com/3793636/119146942-bf7fd100-ba10-11eb-9ad2-99148e0fd7ee.png)
 
 <hr width="40%" />
 
@@ -11,8 +11,10 @@ The [[Callout media]] decorates the [[Callout]] and [[Content block simple]]. It
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[Callout]]
-- [[Content block simple]]
+- [[Input select]]
+- [[Carbon checkbox]]
+- [[Carbon button]]
+- [[Carbon accordion]]
 
 <br />
 </details>
@@ -29,7 +31,7 @@ The [[Callout media]] decorates the [[Callout]] and [[Content block simple]]. It
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
-- r1: [Box folder](https://ibm.ent.box.com/folder/110327422852)
+- r1: [Box folder](https://ibm.ent.box.com/folder/137685560033)
 
 <br />
 </details>

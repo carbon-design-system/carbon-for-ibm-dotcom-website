@@ -2,11 +2,13 @@
 
 Horizontal rules provide thematic breaks between content.
 
+![image](https://user-images.githubusercontent.com/3793636/119145842-a75b8200-ba0f-11eb-8606-4d48a83fa737.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->
 
-<details open="false">
+<details>
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
 <br />

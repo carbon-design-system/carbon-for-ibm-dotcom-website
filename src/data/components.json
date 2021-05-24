@@ -623,6 +623,32 @@
         "underConstruction": false,
         "notAvailable": false
       }
+    },
+    "Tabs extended": {
+      "url": "./tabs-extended",
+      "description": "Tabs extended combines tabs and accordion to organize editorial content.",
+      "storybook": {
+        "webcomponents": "https://ibmdotcom-web-components.mybluemix.net/?path=/story/components-tabs-extended--default",
+        "react": ""
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": true,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": true,
+        "notAvailable": true
+      }
     }
   },
   "layout": {

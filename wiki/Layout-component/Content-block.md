@@ -2,6 +2,8 @@
 
 The [[Content block]] is a core component used to help you build more complex patterns by being placed within [[Content section]].
 
+![image](https://user-images.githubusercontent.com/3793636/119082616-0eebe000-b9c4-11eb-8e2a-fcabf8dad107.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

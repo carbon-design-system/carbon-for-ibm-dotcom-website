@@ -2,6 +2,8 @@
 
 The [[Content group pictograms]] component can be used within a [[Content block]]. It includes [[Content group]] with any number of [[Pictogram item]]s nested.
 
+![image](https://user-images.githubusercontent.com/3793636/119083061-e57f8400-b9c4-11eb-9dd5-7623e844a395.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

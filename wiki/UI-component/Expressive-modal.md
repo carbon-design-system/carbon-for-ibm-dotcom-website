@@ -2,6 +2,8 @@
 
 The [[Expressive modal]] is more or less a theming of [[Carbon modal]] to increase readability and reduce strain for more expressive or editorial environments.
 
+![image](https://user-images.githubusercontent.com/3793636/119055706-1ba21100-b98f-11eb-97c8-43d5fbfec5b4.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

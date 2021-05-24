@@ -2,6 +2,8 @@
 
 [[Content block horizontal]] is a decorator block component for displaying [[Content item horizontal]] components in the children container of the [[Content Block]] as a list.
 
+![image](https://user-images.githubusercontent.com/3793636/119081552-cf23f900-b9c1-11eb-9a33-043534f404e4.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

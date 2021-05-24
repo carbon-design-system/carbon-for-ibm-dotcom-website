@@ -2,6 +2,8 @@
 
 The [[Content group]] is a component that can be used inside of [[Content block]] level component. It can have 1 or more children, but generally only one type of child should be used within this component.
 
+![image](https://user-images.githubusercontent.com/3793636/119083238-2d9ea680-b9c5-11eb-8daa-964db365bcc5.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

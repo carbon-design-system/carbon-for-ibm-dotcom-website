@@ -4,6 +4,8 @@
 
 > ![image](https://user-images.githubusercontent.com/3793636/117874180-493bdb80-b266-11eb-8945-dde0d95431d6.png) This component is not technically related to the core [[Content item]].
 
+![image](https://user-images.githubusercontent.com/3793636/119083271-40b17680-b9c5-11eb-823b-164146fa8c83.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

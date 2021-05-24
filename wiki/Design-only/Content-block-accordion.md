@@ -1,8 +1,8 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-The [[Callout media]] decorates the [[Callout]] and [[Content block simple]]. It calls to attention the content within it with an offset and high contrast moment.
+The [[Content block accordion]] is made up of a [[Content block]] with an [[Accordion]] as its child. The [[Content block]] headline provides the content with an overarching topic, and the [[Accordion]] allows for a large amount of content to be shown or hidden within a small amount of space within a more specific context of the overarching topic.
 
-![image](https://user-images.githubusercontent.com/3793636/119080430-b1ee2b00-b9bf-11eb-8836-d18165af7098.png)
+![image](https://user-images.githubusercontent.com/3793636/119144701-8a727f00-ba0e-11eb-8991-c12a7f182215.png)
 
 <hr width="40%" />
 
@@ -11,8 +11,8 @@ The [[Callout media]] decorates the [[Callout]] and [[Content block simple]]. It
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[Callout]]
-- [[Content block simple]]
+- [[Content block]]
+- [[Accordion]]
 
 <br />
 </details>
@@ -29,7 +29,7 @@ The [[Callout media]] decorates the [[Callout]] and [[Content block simple]]. It
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
-- r1: [Box folder](https://ibm.ent.box.com/folder/110327422852)
+- r1: [Box folder](https://ibm.ent.box.com/folder/119674330757)
 
 <br />
 </details>

@@ -2,6 +2,8 @@
 
 The [[Lead space block]] is a decorator component and consists of an H1 above a [[Content block]]. 
 
+![image](https://user-images.githubusercontent.com/3793636/119085117-b2d78a80-b9c8-11eb-80fe-c302f117c30f.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

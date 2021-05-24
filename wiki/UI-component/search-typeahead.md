@@ -1,8 +1,8 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-The [[Callout media]] decorates the [[Callout]] and [[Content block simple]]. It calls to attention the content within it with an offset and high contrast moment.
+[[Search typeahead]] brings together [[Carbon search]] and the [[Search typeahead service]] to provide this reusable search component with typeahead functionality.
 
-![image](https://user-images.githubusercontent.com/3793636/119080430-b1ee2b00-b9bf-11eb-8836-d18165af7098.png)
+![image](https://user-images.githubusercontent.com/3793636/119173730-43e04d00-ba2d-11eb-8a8d-0c8e6e3aec39.png)
 
 <hr width="40%" />
 
@@ -11,8 +11,8 @@ The [[Callout media]] decorates the [[Callout]] and [[Content block simple]]. It
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[Callout]]
-- [[Content block simple]]
+- [[Carbon search]]
+- [[Search typeahead service]]
 
 <br />
 </details>
@@ -29,7 +29,7 @@ The [[Callout media]] decorates the [[Callout]] and [[Content block simple]]. It
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
-- r1: [Box folder](https://ibm.ent.box.com/folder/110327422852)
+- r1: [Box folder](#)
 
 <br />
 </details>

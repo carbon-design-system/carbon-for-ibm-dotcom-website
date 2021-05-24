@@ -2,6 +2,8 @@
 
 The content group banners works as a subtle break for an announcement or callout, or it also can be used to sprinkle additional related call to actions throughout the page.
 
+![image](https://user-images.githubusercontent.com/3793636/119082943-aea96e00-b9c4-11eb-8605-19e2237d9e2e.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->

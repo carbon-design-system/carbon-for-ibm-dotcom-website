@@ -2,6 +2,8 @@
 
 The [[Leaving IBM]] component is a modal that pops up when a user clicks a non IBM.com external link to notify them that privacy policies maybe changing, and to help set better expectations.
 
+![image](https://user-images.githubusercontent.com/3793636/119055992-881d1000-b98f-11eb-9dd9-8df85939427b.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->
