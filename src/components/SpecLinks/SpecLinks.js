@@ -7,21 +7,21 @@ import Link from 'gatsby-theme-carbon/src/components/Link';
  * Generates all the spec links in a way for users to consume
  *
  * @param {string} name Name of the component
- * @param {string} design design spec link
- * @param {string} functional functional url override
+ * @param {string} designLink design spec link
+ * @param {string} functionalLink functional url override
  * @returns {*} Spec link description
  * @constructor
  */
-export const SpecLinks = ({ name = '', design = '', functional = '' }) => {
+export const SpecLinks = ({ name = '', designLink = '', functionalLink = '' }) => {
     
     const wikiURLBase = 'https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/';
     const wikiName = name.replace(/ /g, '-');
     let addFunctionalTitle = '';
     let addFunctionalLink = null;
     
-    if (wikiName && functional) {
+    if (wikiName && functionalLink) {
     
-        functional = functional || wikiURLBase + wikiName;
+        functionalLink = functionalLink || wikiURLBase + wikiName;
 
         addFunctionalLink = (
             <> and <Link href={functional}>see functional specs</Link></>
