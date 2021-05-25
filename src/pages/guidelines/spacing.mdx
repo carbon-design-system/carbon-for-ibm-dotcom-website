@@ -1,0 +1,126 @@
+---
+title: Spacing
+description: Carbon for IBM.com uses uniform components, elements, and spacing to encourage consistency when designing for IBM.com experiences.   
+---
+
+<PageDescription>
+
+Carbon for IBM.com uses uniform components, elements, and spacing to encourage consistency when designing for IBM.com experiences. 
+
+</PageDescription>
+
+
+<AnchorLinks>
+
+<AnchorLink>Designing with space</AnchorLink>
+<AnchorLink>Spacing token and scale</AnchorLink>
+<AnchorLink>FAQ</AnchorLink>
+<AnchorLink>Support</AnchorLink>
+
+</AnchorLinks>
+
+## Designing with space
+
+Every part of a UI should be intentional, including the empty space, also known as white space, between elements. The amount of space between items creates relationships and hierarchy. You can learn more about white space and how space can help you create relationships and hierarchy on the [Carbon spacing guideline page](https://www.carbondesignsystem.com/guidelines/spacing/overview/#designing-with-space).
+
+When designing for IBM.com, the spacing scale and type tokens are used to ensure the information is well organized with consistency.
+
+<br />
+
+## Spacing token and scale
+
+### Spacing token
+
+The spacing scale can be applied to `margin` or `padding` properties, as well as
+to both vertical and horizontal edges. The token takes the place of the values
+normally assigned to `margin` and `padding`. The following are all approved ways
+to syntactically apply Carbon for IBM.com spacing tokens:
+
+```css
+margin: $spacing-03;
+margin: $spacing-03 $spacing-01;
+margin: $spacing-07 0 $spacing-04 0;
+margin-right: $spacing-05;
+padding: $spacing-04;
+padding: $spacing-05 $spacing-03;
+padding: $spacing-07 $spacing-04 0 $spacing-04;
+```
+<br />
+
+Below is the example of a regular image card on the left and how the spacing tokens are applied to it on the right.
+
+<Row>
+<Column colLg={8}>
+
+![Example of spacing tokens applied](../../images/guidelines/spacing/spacing-example-01.jpg)
+
+
+
+</Column>
+</Row>
+
+<br />
+
+### Spacing scale
+
+Use the spacing scale when building individual components. It includes small
+increments needed to create appropriate spatial relationships for detail-level
+designs. This scale is applied and used within all Carbon components.
+
+<div className="spacing-table">
+
+| Token         | rem   | px  | Example                                       |
+| ------------- | ----- | --- | --------------------------------------------- |
+| `$spacing-01` | 0.125 | 2   | ![spacing-3xs example](../../images/guidelines/spacing/spacing-01.svg) |
+| `$spacing-02` | 0.25  | 4   | ![spacing-2xs example](../../images/guidelines/spacing/spacing-02.svg) |
+| `$spacing-03` | 0.5   | 8   | ![spacing-xs example](../../images/guidelines/spacing/spacing-03.svg) |
+| `$spacing-04` | 0.75  | 12  | ![spacing-sm example](../../images/guidelines/spacing/spacing-04.svg) |
+| `$spacing-05` | 1     | 16  | ![spacing-md example](../../images/guidelines/spacing/spacing-05.svg) |
+| `$spacing-06` | 1.5   | 24  | ![spacing-lg example](../../images/guidelines/spacing/spacing-06.svg) |
+| `$spacing-07` | 2     | 32  | ![spacing-xl example](../../images/guidelines/spacing/spacing-07.svg) |
+| `$spacing-08` | 2.5   | 40  | ![spacing-2xl example](../../images/guidelines/spacing/spacing-08.svg) |
+| `$spacing-09` | 3     | 48  | ![spacing-3xl example](../../images/guidelines/spacing/spacing-09.svg) |
+| `$spacing-10` | 4     | 64  | ![spacing-4xl example](../../images/guidelines/spacing/spacing-10.svg) |
+| `$spacing-11` | 5     | 80  | ![spacing-5xl example](../../images/guidelines/spacing/spacing-11.svg) ||
+| `$spacing-12` | 6     | 96  | ![spacing-6xl example](../../images/guidelines/spacing/spacing-12.svg) |
+| `$spacing-13` | 10    | 160 | ![spacing-7xl example](../../images/guidelines/spacing/spacing-13.svg) |
+
+</div>
+
+<br />
+
+## FAQ
+
+#### Are there any differences when designing with expressive type sets vs. productive type sets?
+
+Yes, please see the [Type pairings and spacing guideline](https://www.ibm.com/standards/web/carbon-for-ibm-dotcom/guidelines/type-pairing-and-spacing) to learn more.
+
+#### Are there any other spacing options besides the one listed in the Spacing scale and token section?
+
+Yes, a few other non-token methods can be used for spacing elements, and they each have their unique use case.
+
+* **Center** is used to center an element between two edges fluidly.
+* **Auto** is used on one side of an element to allow undefined space to grow and shrink according to screen size automatically. Typically used for asymmetrical fluid spacing.
+* **Gutter** is used to space items between the grid's 12 columns.
+
+#### Can I still use percentages for spacing?
+
+Percentages like 50% (1/2) or 33% (1/3) are still acceptable ways to divide a
+page. Percentages can all still be used to control max and min widths. However,
+using percentages for padding or margin inside of a component or element should
+be avoided (ex. `padding-right: 10%`). The exception to this is if you’re
+applying it to fit the 5% grid margins.
+
+#### Are the spacing tokens responsive?
+
+No, the tokens themselves do not change values based on the screen size.
+However, it is acceptable at page breakpoints to jump a step(s) on the spacing
+scale to fit spacing needs (i.e., at 1440 px `padding-right: $spacing-05` but at
+breakpoint 768px `padding-right: $spacing-03`).
+
+
+<br />
+
+## Support
+
+If you need additional guidance on designing with space, please reach out to the Digital Design System team via the [#carbon-for-ibm-dotcom slack channel](https://cognitive-app.slack.com/archives/C2PLX8GQ6). 
