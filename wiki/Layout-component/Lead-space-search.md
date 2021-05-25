@@ -12,8 +12,8 @@ The [[Lead space search]] is in the same family of our other Lead space componen
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
 - [[Lead space block]]
-- [[search typeahead]]
-- [[lead space wrapper]]
+- [[Search typeahead]]
+- [[Lead space wrapper]]
 
 <br />
 </details>

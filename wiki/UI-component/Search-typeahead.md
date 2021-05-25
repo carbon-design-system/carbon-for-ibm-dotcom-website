@@ -29,7 +29,7 @@
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
-- r1: [Box folder](#)
+- r1: [Box folder](https://ibm.ent.box.com/folder/137924368899)
 
 <br />
 </details>
