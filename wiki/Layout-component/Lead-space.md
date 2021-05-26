@@ -11,7 +11,6 @@ The [[Lead space]] is a top-level component section that appears at the beginnin
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[Image with caption]]
 - [[Button group]]
 - [[Tag group]]
 - [[Lead space wrapper]]

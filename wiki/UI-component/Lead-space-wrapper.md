@@ -28,7 +28,7 @@ The [[Lead space wrapper]] helps align our lead space components with a shared l
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
-- r1: [Box folder](#)
+- r1: [Box folder](https://ibm.ent.box.com/folder/137924469929)
 
 <br />
 </details>
