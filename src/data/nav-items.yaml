@@ -31,6 +31,8 @@
       path: /guidelines/content
     - title: Expressive Theme
       path: /guidelines/expressive-theme
+    - title: Frameworks
+      path: /guidelines/frameworks
     - title: Layout
       path: /guidelines/layout
     - title: Right-to-left language
