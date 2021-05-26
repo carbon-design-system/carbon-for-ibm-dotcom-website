@@ -1,3 +1,3 @@
-import { SpecLinks }from './SpecLinks';
+import { SpecLinks } from './SpecLinks';
 
 export default SpecLinks;

@@ -15,16 +15,16 @@ import Link from 'gatsby-theme-carbon/src/components/Link';
 export const SpecLinks = ({ name = '', designLink = '', functionalLink = '' }) => {
     
     const wikiURLBase = 'https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/';
-    const wikiName = name.replace(/ /g, '-');
+    const wikiName = name.replace(/with /g, '').replace(/ /g, '-');
     let addFunctionalTitle = '';
     let addFunctionalLink = null;
     
-    if (wikiName && functionalLink) {
+    if (functionalLink !== false) {
     
         functionalLink = functionalLink || wikiURLBase + wikiName;
 
         addFunctionalLink = (
-            <> and <Link href={functional}>see functional specs</Link></>
+            <> and <Link href={functionalLink}>see functional specs</Link></>
         );
 
         addFunctionalTitle = ' and functional';
@@ -34,7 +34,7 @@ export const SpecLinks = ({ name = '', designLink = '', functionalLink = '' }) =
         <>
           <H2>Design{addFunctionalTitle} specifications</H2>
           <P>
-            For more details{name ? `on ${name}` : null}, <Link href={design}>see design specs</Link>{addFunctionalLink}.
+            For more details{name ? ` on ${name}` : null}, <Link href={designLink}>see design specs</Link>{addFunctionalLink}.
           </P>
         </>
     );
