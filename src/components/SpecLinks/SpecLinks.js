@@ -19,8 +19,7 @@ export const SpecLinks = ({ type, name, designLink = '', functionalLink = '' }) 
     const component = components[type][name];
     const wikiURLBase = 'https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/';
     const wikiName = name.replace(/ /g, '-');
-    
-    let addTitles = [];
+
     let addLinks = [];
 
     functionalLink = functionalLink || component.functionalLink;
@@ -31,14 +30,11 @@ export const SpecLinks = ({ type, name, designLink = '', functionalLink = '' }) 
     }
     
     if (designLink) {
-        addTitles.push('design');
         addLinks.push(<Link href={designLink}>see design specs</Link>);
     }
 
     if (functionalLink !== false) {
         functionalLink = functionalLink || wikiURLBase + wikiName;
-
-        addTitles.push('functional');
 
         addLinks.push(addLinks.length > 0 ? ' and ' : ' ');
         addLinks.push(<Link href={functionalLink}>see functional specs</Link>);
@@ -46,7 +42,6 @@ export const SpecLinks = ({ type, name, designLink = '', functionalLink = '' }) 
     
     return (
         <>
-          {/*<H2>{uppercaseFirst(addTitles.join(' and '))} specifications</H2>*/}
           <H2>Design and functional specifications</H2>
           <P>
             For more details{name ? ` on ${name}` : null}, {addLinks}.
@@ -54,7 +49,3 @@ export const SpecLinks = ({ type, name, designLink = '', functionalLink = '' }) 
         </>
     );
 }
-
-// function uppercaseFirst (str) {
-//     return str.charAt(0).toUpperCase() + str.slice(1);
-// }
