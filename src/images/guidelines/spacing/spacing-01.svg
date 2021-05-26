@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="2" height="2"><path opacity="100" fill="#A66EFA" d="M0 0h2v2H0z"/><path fill="#A66EFA" stroke="none" d="M.5.5h1v1h-1z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2px" height="2px" viewBox="0 0 2 2" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>spacing-01</title>
+    <g id="spacing-01" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" fill="#D12771">
+            <rect id="Rectangle" x="0" y="0" width="2" height="2"></rect>
+        </g>
+    </g>
+</svg>

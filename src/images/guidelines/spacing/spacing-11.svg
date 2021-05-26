@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80"><path fill="#A66EFA" fill-opacity="100" d="M0 0h80v80H0z"/><path d="M80 80H0V0h80v80zM1 79h78V1H1v78z" fill="#A66EFA"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>spacing-11</title>
+    <g id="spacing-11" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" fill="#D12771">
+            <rect id="Rectangle" x="0" y="0" width="80" height="80"></rect>
+        </g>
+    </g>
+</svg>
