@@ -9,7 +9,7 @@ import components from "../../data/components.json";
  *
  * @param {string} name Name of the component
  * @param {string} type Type of component (ui|layout)
- * @param {string} designLink design spec link
+ * @param {string} designLink design spec link override
  * @param {string} functionalLink functional url override
  * @returns {*} Spec link description
  * @constructor
