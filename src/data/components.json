@@ -580,12 +580,12 @@
         "react": "https://ibmdotcom-web-components-react.mybluemix.net/?path=/story/components-tag-link--default"
       },
       "webcomponents": {
-        "stable": true,
+        "stable": false,
         "experimental": false,
         "new": false,
         "updated": false,
         "deprecated": false,
-        "underConstruction": false,
+        "underConstruction": true,
         "notAvailable": false
       },
       "react": {
