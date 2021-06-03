@@ -2,24 +2,26 @@
 
 The [[Carousel]] component is a reusable component that can be used in various different situations. It is great when you have a large number of items you want to present, and only a small amount of vertical space to lay it out. It pages through multiple panels of the same type of content upon interaction.
 
+![image](https://user-images.githubusercontent.com/3793636/119055516-ca921d00-b98e-11eb-952a-0b9e4e222eb2.png)
+
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- Carbon pagination <sup>[[r2](#resources)]</sup>
-- Carbon button <sup>[[r3](#resources)]</sup>
+- [[Carbon pagination]]
+- [[Carbon button]]
 
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 
@@ -28,8 +30,6 @@ The [[Carousel]] component is a reusable component that can be used in various d
   <summary><strong>Resources</strong></summary><br />
 
 - r1: [Box folder](https://ibm.ent.box.com/folder/121172699187)
-- r2: [Carbon pagination](https://www.carbondesignsystem.com/components/pagination/usage/)
-- r3: [Carbon button](https://www.carbondesignsystem.com/components/button/usage/)
 
 <br />
 </details>

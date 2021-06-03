@@ -2,9 +2,11 @@
 
 [[Content block cards]] is a decorator block component that allows adopters to display the [[Card group]] inside the [[Content block]] children container.
 
+![image](https://user-images.githubusercontent.com/3793636/119081429-8b30f400-b9c1-11eb-8db0-33de8299b1e9.png)
+
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
@@ -15,11 +17,11 @@
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 

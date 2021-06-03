@@ -2,23 +2,25 @@
 
 The [[Feature card]] component decorates [[Card]]. This [[Card]] variation is slightly larger in nature, and is designed to stand out and to emphasize a particular call to action.
 
+![image](https://user-images.githubusercontent.com/3793636/119055741-2e1c4a80-b98f-11eb-8a72-120b915e9dfd.png)
+
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[CTA]]
+- [[Card]]
 
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 

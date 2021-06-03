@@ -1,27 +1,27 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-The [[Lead space block]] is a decorator component and consists of an H1 above a [[Content block]]. 
+The [[Content block accordion]] is made up of a [[Content block]] with an [[Accordion]] as its child. The [[Content block]] headline provides the content with an overarching topic, and the [[Accordion]] allows for a large amount of content to be shown or hidden within a small amount of space within a more specific context of the overarching topic.
+
+![image](https://user-images.githubusercontent.com/3793636/119144701-8a727f00-ba0e-11eb-8991-c12a7f182215.png)
 
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
 - [[Content block]]
-- [[Image with caption]]
-- [[Video]]
-- [[Link list]]
+- [[Accordion]]
 
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 
@@ -29,7 +29,7 @@ The [[Lead space block]] is a decorator component and consists of an H1 above a 
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
-- r1: [Box folder](https://ibm.ent.box.com/folder/111803008955)
+- r1: [Box folder](https://ibm.ent.box.com/folder/119674330757)
 
 <br />
 </details>

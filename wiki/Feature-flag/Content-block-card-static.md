@@ -2,9 +2,11 @@
 
 The [[Content block card static]] is an experimental component extending [[Content block cards]] and adding to it.
 
+![image](https://user-images.githubusercontent.com/3793636/119144398-3c5d7b80-ba0e-11eb-95e9-04b8ae262dda.png)
+
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
@@ -15,11 +17,11 @@ The [[Content block card static]] is an experimental component extending [[Conte
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 

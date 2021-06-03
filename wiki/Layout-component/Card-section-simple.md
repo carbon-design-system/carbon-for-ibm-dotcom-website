@@ -4,25 +4,25 @@
 
 The [[Card section simple]] is a decorator of the [[Content Section]] with a specific expression of the [[Card group]] in the children container.
 
+![image](https://user-images.githubusercontent.com/3793636/119081324-60df3680-b9c1-11eb-8767-57b452af5e18.png)
+
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[Content section]]
-- [[Card group]]
-- [[Component name 3]]
+- [[Card section]]
 
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 

@@ -2,9 +2,11 @@
 
 The [[Content section]] is a core component that can be used as a section level wrapper. It includes a heading and optional children. 
 
+![image](https://user-images.githubusercontent.com/3793636/119083485-a271e080-b9c5-11eb-96ee-4b5785153cae.png) 
+
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
@@ -15,11 +17,11 @@ The [[Content section]] is a core component that can be used as a section level 
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 

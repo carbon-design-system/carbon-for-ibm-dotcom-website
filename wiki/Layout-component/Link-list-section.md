@@ -1,25 +1,27 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-The [[Content block accordion]] is made up of a [[Content block]] with an [[Accordion]] as its child. The [[Content block]] headline provides the content with an overarching topic, and the [[Accordion]] allows for a large amount of content to be shown or hidden within a small amount of space within a more specific context of the overarching topic.
+The [[Link list section]] provides additional resources based on the [[Link list]] component, but expands its emphasis to the entire section of a page. Usually used as a link farm at the end of the page.
+
+![image](https://user-images.githubusercontent.com/3793636/119085233-f7fbbc80-b9c8-11eb-8a66-5ac24be134b0.png)
 
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[Content block]]
-- [[Accordion]]
+- [[Content section]]
+- [[Link list]]
 
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 
@@ -27,7 +29,7 @@ The [[Content block accordion]] is made up of a [[Content block]] with an [[Acco
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
-- r1: [Box folder](https://ibm.ent.box.com/folder/119674330757)
+- r1: [Box folder](https://ibm.ent.box.com/folder/119236727113)
 
 <br />
 </details>

@@ -2,9 +2,11 @@
 
 The [[Card in card]] component decorates our [[Card]] component, and provides [[CTA]] functionality to it. The [[Image]] expands to full width while the [[Card]]’s content lays on the grid over the image. This component is good to use in cases where you want to highlight a piece of content.
 
+![image](https://user-images.githubusercontent.com/3793636/119054583-7dfa1200-b98d-11eb-8c06-61d85524f5ef.png)
+
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
@@ -14,11 +16,11 @@ The [[Card in card]] component decorates our [[Card]] component, and provides [[
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 

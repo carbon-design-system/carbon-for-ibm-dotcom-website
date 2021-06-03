@@ -1,18 +1,18 @@
 ---
-title: Content block – with media
-description: Content block &mdash; with media is used to present information with images in a group setting.
+title: Content block media
+description: Content block media is used to present information with images in a group setting.
 ---
 
-import { ComponentStatus } from "components/ComponentList";
 import ComponentDescription from "components/ComponentDescription";
-import ComponentFeedback from "components/ComponentFeedback";
+import ComponentFooter from "components/ComponentFooter";
 
-<ComponentDescription name="Content block — with media" type="layout" />
+<ComponentDescription name="Content block media" type="layout" />
 
 <AnchorLinks>
 
 <AnchorLink>Default</AnchorLink>
 <AnchorLink>Variations</AnchorLink>
+<AnchorLink>Content guidance</AnchorLink>
 <AnchorLink>Design and functional specifications</AnchorLink>
 <AnchorLink>Development documentation</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
@@ -21,9 +21,11 @@ import ComponentFeedback from "components/ComponentFeedback";
 
 ## Default
 
-By default the Content block &mdash; with media starts with a brief overview before going into one or more detailed points. At strategic points it allows for an optional piece of media to support its content.
+By default the Content block media starts with a brief overview before going into one or more detailed points. At strategic points it allows for an optional piece of media to support its content.
 
-![A visual of Content block — with media with its overview and supporting content.](../../images/pattern/content-block-media/content-block-with-media.jpg)
+![A visual of Content block media with its overview and supporting content.](../../images/pattern/content-block-media/content-block-with-media.jpg)
+
+<br />
 
 ## Variations
 
@@ -31,16 +33,20 @@ By default the Content block &mdash; with media starts with a brief overview bef
 
 This variant is the same as the default version except that it allows for a list of related navigational items off to the side.
 
-![A visual of Content block — with media with optional navigational items off to the side.](../../images/pattern/content-block-media/content-block-with-media-with-aside-elements.jpg)
+![A visual of Content block media with optional navigational items off to the side.](../../images/pattern/content-block-media/content-block-with-media-with-aside-elements.jpg)
 
-## Design and functional specifications
+<br />
 
-The design specs and functional specs for Content block &mdash; with media can be viewed <a href="https://ibm.box.com/s/9cu22l7vs1dpjy8g8yi3mtoswazqgq2r" target="_blank">here</a>.
+## Content guidance
 
-## Development documentation
+| Field | Field type | Required | Cardinality | Max character size (English / translated) |
+| -------- | --------- | ---------- | ---------- | ----------|
+| Headline | Short copy | Yes   | 1 | XXS (40 / 55)|
+| Paragraph  | Long copy | No | 1 | XL (250 / 325)   |
+| [Content group - simple](https://www.ibm.com/standards/web/carbon-for-ibm-dotcom/components/content-group-simple) | Component | Yes | Less than 4 | - |
+| [Featured card block - medium](https://www.ibm.com/standards/web/carbon-for-ibm-dotcom/components/feature-card-block#feature-card-block-medium) | Component | No | 1 | - |
+| [Link list](https://www.ibm.com/standards/web/carbon-for-ibm-dotcom/components/link-list) | Component | No | 1 | - |
 
-<ComponentStatus name="Content block — with media" type="layout" />
+You can see the list of all character count standards <a href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards" target="_blank" rel="noreferrer">here</a>.
 
-## Feedback
-
-<ComponentFeedback />
+<ComponentFooter name="Content block media" type="layout" />

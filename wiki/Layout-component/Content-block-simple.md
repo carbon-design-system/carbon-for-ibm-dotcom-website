@@ -2,9 +2,11 @@
 
 The [[Content block simple]] is a decorator of the [[Content block]], which includes a single [[Content item]], optional media ([[Image with caption]] or [[Video]]) and ends with a [[CTA]].
 
+![image](https://user-images.githubusercontent.com/3793636/119082343-79505080-b9c3-11eb-89b3-124946e4f98c.png)
+
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
@@ -17,11 +19,11 @@ The [[Content block simple]] is a decorator of the [[Content block]], which incl
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 

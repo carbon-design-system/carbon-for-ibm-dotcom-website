@@ -2,9 +2,11 @@
 
 The [[Content group cards]] is a group level component that can be used multiple within a [[Content block]]. It includes a section heading with any number of [[Card]] components listed below.
 
+![image](https://user-images.githubusercontent.com/3793636/119083002-ca147900-b9c4-11eb-9021-60264e82d190.png)
+
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
@@ -15,11 +17,11 @@ The [[Content group cards]] is a group level component that can be used multiple
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 

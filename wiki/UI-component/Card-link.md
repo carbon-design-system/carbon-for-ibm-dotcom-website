@@ -2,9 +2,11 @@
 
 [[Card link]] is a decorates [[Card]] by prescribing a specific data content and visual pattern.
 
+![image](https://user-images.githubusercontent.com/3793636/119054629-936f3c00-b98d-11eb-9bf4-655cda81584f.png)
+
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
@@ -14,11 +16,11 @@
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 

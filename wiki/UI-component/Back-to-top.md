@@ -2,23 +2,25 @@
 
 The [[Back to top]] button is a fixed button that when clicked on will navigate the user back up to the top of the page.
 
+![image](https://user-images.githubusercontent.com/3793636/119054223-e399ce80-b98c-11eb-9061-cb9c0d4e3463.png)
+
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- Carbon button <sup>[[r2](#resources)]</sup>
+- [[Carbon button]]
 
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 
@@ -27,7 +29,6 @@ The [[Back to top]] button is a fixed button that when clicked on will navigate 
   <summary><strong>Resources</strong></summary><br />
 
 - r1: [Box folder](https://ibm.ent.box.com/folder/127553793291)
-- r2: [Carbon button](https://www.carbondesignsystem.com/components/button/usage/)
 
 <br />
 </details>

@@ -2,11 +2,13 @@
 
 The [[Masthead L0]] component is a required navigational pattern for IBM.com that displays consistently at the top of each page. It also includes search and profile services for IBM.com.
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873641-a6835d00-b265-11eb-8433-8c9c73a2e999.png) Need to break this work down (e.g. [[navigation]], [[mobile menu]], [[typeahead]], [[search]])
+> ![image](https://user-images.githubusercontent.com/3793636/117873641-a6835d00-b265-11eb-8433-8c9c73a2e999.png) Need to break this work down (e.g. [[navigation]], [[mobile menu]])
+
+![image](https://user-images.githubusercontent.com/3793636/119056205-ec3fd400-b98f-11eb-90c0-b1bd558acf0d.png)
 
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
@@ -21,11 +23,11 @@ The [[Masthead L0]] component is a required navigational pattern for IBM.com tha
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 

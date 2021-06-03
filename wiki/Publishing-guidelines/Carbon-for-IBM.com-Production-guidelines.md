@@ -9,23 +9,6 @@ For anyone interested in contributing to the Carbon for IBM.com website, we foll
 3. Submit a PR to the `carbon-for-ibm-dotcom-website`.
 4. View the [Contribution overview page](https://www.ibm.com/standards/web/carbon-for-ibm-dotcom/contributions/overview) for contribution details.
 
-
-### Index
-* [Writing content](#writing-content)
-   * [Numerals versus words](#numerals-versus-words)
-* [Creating images](#creating-images)
-   * [Sizes](#sizes)
-   * [Aspect ratio](#aspect-ratio)
-   * [File types](#file-type)
-   * [Exporting images](#exporting-png-and-svg)
-   * [Naming conventions](#naming-conventions)
-   * [Accessibility](#accessibility)
-* [Creating content for component pages](https://github.com/carbon-design-system/carbon-website/wiki/Production-guidelines/#creating-content-for-component-pages)
-   * [Code tab](https://github.com/carbon-design-system/carbon-website/wiki/Production-guidelines#code-tab)
-   * [Usage tab](https://github.com/carbon-design-system/carbon-website/wiki/Production-guidelines#usage-tab)
-   * [Style tab](https://github.com/carbon-design-system/carbon-website/wiki/Production-guidelines#style-tab)
-* [Tips and tricks](#tips-and-tricks)
-
 ----------------
 
 # Writing content
@@ -231,4 +214,4 @@ Use the following element:
 
 ---
 
-<!-- backlinks start --><!-- backlinks end -->
+<!-- backlinks start open="true" --><!-- backlinks end -->

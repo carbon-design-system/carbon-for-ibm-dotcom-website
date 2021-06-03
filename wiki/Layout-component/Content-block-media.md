@@ -1,10 +1,12 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-The [[Content block media]] is a decorator of the [[Content block]], which includes a number of [[Content group simple]], and ends with an optional [[Feature card block medium]] [[CTA]] option.
+The [[Content block media]] is a decorator of the [[Content block]], which includes a number of [[Content group simple]], and ends with an optional [[Feature card]] [[CTA]] option.
+
+![image](https://user-images.githubusercontent.com/3793636/119081655-0db9b380-b9c2-11eb-89eb-6879d936af13.png)
 
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
@@ -15,11 +17,11 @@ The [[Content block media]] is a decorator of the [[Content block]], which inclu
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 

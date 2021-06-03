@@ -1,24 +1,24 @@
-`Decorator` <!-- category start --><!-- category end -->
+`Core` <!-- category start --><!-- category end -->
 
-The [[Feature card block large]] is a decorator component and consists of an [[image]], heading, copy, and [[CTA]]. 
+Horizontal rules provide thematic breaks between content.
+
+![image](https://user-images.githubusercontent.com/3793636/119145842-a75b8200-ba0f-11eb-8606-4d48a83fa737.png)
 
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
-<details open="true">
+<details>
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
-
-- [[CTA]]
 
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 
@@ -26,7 +26,7 @@ The [[Feature card block large]] is a decorator component and consists of an [[i
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
-- r1: [Box folder](https://ibm.ent.box.com/folder/110327688617)
+- r1: [Box folder](https://ibm.ent.box.com/folder/81585819276)
 
 <br />
 </details>

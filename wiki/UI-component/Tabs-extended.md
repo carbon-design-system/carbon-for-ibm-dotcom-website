@@ -1,25 +1,27 @@
 `Core` <!-- category start --><!-- category end -->
 
-[[Tabs extended]] extends the Carbon tabs <sup>[[r2](#resources)]</sup> component by adding the accordion to smaller breakpoints. This extension in feature allows the content to be more accessible at smaller breakpoints and mobile users.
+[[Tabs extended]] extends the [[Carbon tabs]] component by adding the accordion to smaller breakpoints. This extension in feature allows the content to be more accessible at smaller breakpoints and mobile users.
+
+![image](https://user-images.githubusercontent.com/3793636/119056845-ff9f6f00-b990-11eb-8c1d-f63b78ebc995.png)
 
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
 - [[Accordion]]
-- Carbon tabs <sup>[[r2](#resources)]</sup>
+- [[Carbon tabs]]
 
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 
@@ -28,7 +30,6 @@
   <summary><strong>Resources</strong></summary><br />
 
 - r1: [Box folder](https://ibm.ent.box.com/folder/133802998765)
-- r2: [Carbon tabs](https://www.carbondesignsystem.com/components/tabs/usage/)
 
 <br />
 </details>

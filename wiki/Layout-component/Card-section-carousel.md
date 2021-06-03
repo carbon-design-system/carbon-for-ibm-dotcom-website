@@ -2,9 +2,11 @@
 
 The [[Card section carousel]] combines the [[Content section]], [[Carousel]] components, and [[CTA]] [[Card]]s into a single section decorator that is made up of [[Card]]s for the user to page throw.
 
+![image](https://user-images.githubusercontent.com/3793636/119081178-13fb6000-b9c1-11eb-98fc-3ddfff43dad4.png)
+
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
@@ -16,11 +18,11 @@ The [[Card section carousel]] combines the [[Content section]], [[Carousel]] com
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 

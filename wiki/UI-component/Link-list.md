@@ -2,9 +2,11 @@
 
 The [[Link list]] is a simple enough component where it lists out a collection of links with a descriptive heading. It is typically meant to be used off to the side of a main [[Content block]].
 
+![image](https://user-images.githubusercontent.com/3793636/119056084-b6025480-b98f-11eb-8391-c14a00e64d38.png)
+
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
@@ -14,11 +16,11 @@ The [[Link list]] is a simple enough component where it lists out a collection o
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 

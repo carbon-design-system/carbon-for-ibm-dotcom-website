@@ -29,16 +29,16 @@
       path: /guidelines
     - title: Content
       path: /guidelines/content
-    - title: Right-to-left language
-      path: /guidelines/right-to-left
-    #    - title: Layout
-    #      path: /guidelines/layout
     - title: Expressive Theme
       path: /guidelines/expressive-theme
-    - title: Style models
-      path: /guidelines/style-models/overview
     - title: Layout
       path: /guidelines/layout
+    - title: Right-to-left language
+      path: /guidelines/right-to-left
+    - title: Style models
+      path: /guidelines/style-models/overview
+    - title: Type pairing and spacing
+      path: /guidelines/type-pairing-and-spacing
 
 - title: Components
   pages:
@@ -48,43 +48,45 @@
       path: /components/back-to-top
     - title: Button group
       path: /components/button-group
-    - title: Callout – quote
+    - title: Callout quote
       path: /components/callout-quote
-    - title: Callout – with media
+    - title: Callout with media
       path: /components/callout-with-media
     - title: Card
       path: /components/card
     - title: Card group
       path: /components/card-group
+    - title: Card in card
+      path: /components/card-in-card
     - title: Card link
       path: /components/card-link
     - title: Card section
       path: /components/card-section
-    - title: Card section – carousel
+    - title: Card section carousel
       path: /components/card-section-carousel
-    - title: Card section – with images
+    - title: Card section images
       path: /components/card-section-images
     - title: Carousel
       path: /components/carousel
-    - title: Content block – with media
+    - title: Content block media
       path: /components/content-block-media
-    - title: Content block – segmented
+    - title: Content block segmented
       path: /components/content-block-segmented
-    - title: Content block – simple
+    - title: Content block simple
       path: /components/content-block-simple
-    - title: Content block – with cards
-      path: /components/content-block-with-cards
-    - title: Content group — banner
+    - title: Content block cards
+      path: /components/content-block-cards
+    - title: Content group banner
       path: /components/content-group-banner
-    - title: Content group – horizontal
+    - title: Content group horizontal
       path: /components/content-group-horizontal
-    - title: Content group – with pictograms
+    - title: Content group pictograms
       path: /components/content-group-pictograms
-    - title: Content group – simple
+    - title: Content group simple
       path: /components/content-group-simple
-    - title: Content group – with cards
-      path: /components/content-group-with-cards
-    - title: Content item – horizontal
+    - title: Content group cards
+      path: /components/content-group-cards
+    - title: Content item horizontal
       path: /components/content-item-horizontal
     - title: CTA
       path: /components/cta
@@ -112,7 +114,7 @@
       path: /components/layout
     - title: Lead space
       path: /components/leadspace
-    - title: Lead space – block
+    - title: Lead space block
       path: /components/lead-space-block
     - title: Leaving IBM
       path: /components/leaving-ibm
@@ -138,6 +140,10 @@
       path: /components/table-of-contents
     - title: Tag link
       path: /components/tag-link
+    - title: Tabs extended
+      path: /components/tabs-extended
+    - title: Tabs extended media
+      path: /components/tabs-extended-media
     - title: Video
       path: /components/video
 

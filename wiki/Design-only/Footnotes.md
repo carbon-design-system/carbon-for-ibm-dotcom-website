@@ -2,9 +2,11 @@
 
 The [[Footnotes]] component allows the adopter add reference links throughout their page content as an anchor link. These anchor links then launches or navigates them to the list of notes highlighting the item clicked on.
 
+![image](https://user-images.githubusercontent.com/3793636/119145372-3025ee00-ba0f-11eb-813d-2fa0103caafb.png)
+
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
@@ -15,11 +17,11 @@ The [[Footnotes]] component allows the adopter add reference links throughout th
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 

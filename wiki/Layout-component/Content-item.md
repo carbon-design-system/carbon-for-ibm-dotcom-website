@@ -2,9 +2,11 @@
 
 The [[Content item]] component is a commonly used structure and style of content that’s used across many patterns consisting of a heading, media, copy, and [[CTA]].
 
+![image](https://user-images.githubusercontent.com/3793636/119083345-69397080-b9c5-11eb-94e2-adf58a1f442b.png)
+
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
@@ -17,11 +19,11 @@ The [[Content item]] component is a commonly used structure and style of content
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 

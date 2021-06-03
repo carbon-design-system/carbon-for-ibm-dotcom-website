@@ -2,21 +2,23 @@
 
 This [[Audio player]] is for embedding within the page. The component should be positioned close to title, description, and other relevant information to set context.
 
+![image](https://user-images.githubusercontent.com/3793636/119145076-e89f6200-ba0e-11eb-9e75-0d7b140217e8.png)
+
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
-<details open="true">
+<details>
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 

@@ -2,9 +2,11 @@
 
 The [[Footer]] is a component that appears at the bottom of every page. 
 
+![image](https://user-images.githubusercontent.com/3793636/119055799-44c2a180-b98f-11eb-8862-1a5f81050c15.png)
+
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
@@ -14,17 +16,17 @@ The [[Footer]] is a component that appears at the bottom of every page.
 - [[Locale]]
 - [[Accordion]]
 - [[Translation]]
-- Carbon link <sup>[[r3](#resources)]</sup>
-- Carbon Button <sup>[[r4](#resources)]</sup>
+- [[Carbon link]]
+- [[Carbon Button]]
 
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 
@@ -34,8 +36,6 @@ The [[Footer]] is a component that appears at the bottom of every page.
 
 - r1: [Box folder](https://ibm.ent.box.com/folder/101562989787)
 - r2: [IBM logo](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/styles/icons/svg)
-- r3: [Carbon link](https://www.carbondesignsystem.com/components/link/usage/)
-- r4: [Carbon button](https://www.carbondesignsystem.com/components/button/usage/)
 
 <br />
 </details>

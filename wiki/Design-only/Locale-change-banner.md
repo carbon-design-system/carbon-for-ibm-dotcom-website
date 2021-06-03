@@ -2,9 +2,11 @@
 
 The [[Locale change banner]] is a component used when users are forwarded to a page that has a different locale setting than the previous pages or is different from their preferences. 
 
+![image](https://user-images.githubusercontent.com/3793636/119146113-ed184a80-ba0f-11eb-9866-1ac954d79e0d.png)
+
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
@@ -14,11 +16,11 @@ The [[Locale change banner]] is a component used when users are forwarded to a p
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 

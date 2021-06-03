@@ -2,9 +2,11 @@
 
 This [[Quote]] is a block level component meant to share a snippet of something someone said. This format is a freestanding quote. It hangs the quotations marks, and has different options to handle translations.
 
+![image](https://user-images.githubusercontent.com/3793636/119056706-c49d3b80-b990-11eb-8bb0-d899a93f5ca9.png)
+
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
@@ -14,11 +16,11 @@ This [[Quote]] is a block level component meant to share a snippet of something 
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 

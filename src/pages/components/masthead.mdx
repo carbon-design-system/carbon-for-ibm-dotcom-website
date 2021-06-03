@@ -3,9 +3,8 @@ title: Masthead
 description: The Masthead component page
 ---
 
-import { ComponentStatus } from 'components/ComponentList';
-import ComponentDescription from 'components/ComponentDescription';
-import ComponentFeedback from 'components/ComponentFeedback';
+import ComponentDescription from "components/ComponentDescription";
+import ComponentFooter from "components/ComponentFooter";
 
 <ComponentDescription name="Masthead" type="ui" />
 
@@ -27,6 +26,8 @@ The Masthead with Level 0 (L0) refers to the first position of navigational menu
 #### When to use
 Masthead with level 0 is suitable for top level pages. Examples include the home page, Products, and Solutions page.
 
+<br />
+
 ### Variations
 
 #### Search open by default
@@ -38,6 +39,8 @@ The Search field can be set to be open by default, this variation is typically u
 #### When to use
 The Masthead with Search open by default is most commonly used on Search results pages where the search querey is displayed within the open search field.
 
+<br />
+
 ### Anatomy
 ![Masthead component level 0 anatomy image](../../images/component/masthead/masthead-l0-anatomy.png)
 
@@ -46,6 +49,8 @@ The Masthead with Search open by default is most commonly used on Search results
 3. **Search:** The search icon is persistent throughout the web experience, the search icon triggers the search bar to open and supports the search services for IBM.com.
 4. **Profile:** Links to a user's MyIBM profile where they can access their IBMid.
 5. **Mega menu:** The mega menu supports the large portfolio of offerings IBM provides and allows users to quickly scan and navigate to the information they are looking for. 
+
+<br />
 
 ### Behavior
 
@@ -84,15 +89,19 @@ The masthead is sticky, when scrolling the Masthead with L0 sticks to the top of
 
 #### Mega menu
 The mega menu spans the width of the browser and slides out from the Masthead with L0 on click. It closes when the user selects a link within the menu, clicks outside the menu or collapses the menu via the navigation label.
-   
-   
+
+
+<br />
+
 ## Masthead with Level 1
-When the Masthead with Level 1 (L1) is used there are no navigation labels within the Level 0. L1 refers to second position of navigation menu(s) on a page, and often offers navigation within an ecosystem of pages. A Masthead with L1 should include an ecosystem name, like Analytics, to help the user identify where they are within the website. 
+When the Masthead with Level 1 (L1) is used there are no navigation labels within the Level 0. L1 refers to second position of navigation menu(s) on a page, and often offers navigation within an ecosystem of pages. A Masthead with L1 should include an ecosystem name, like Analytics, to help the user identify where they are within the website.
 
 ![Masthead component level 1 image](../../images/component/masthead/masthead-l1.png)
 
 #### When to use:
 Masthead with Level 1 is used for pages that are determined to be an ecosystem and receive contextual navigation. Examples include Services landing page, Solution topic page, Brand family, Product family and Product pages.
+
+<br />
 
 ### Anatomy
 ![Masthead component level 1 anatomy image](../../images/component/masthead/masthead-l1-anatomy.png)
@@ -102,6 +111,8 @@ Masthead with Level 1 is used for pages that are determined to be an ecosystem a
 3. **Profile:** Links to a user's MyIBM profile where they can access their IBMid.
 4. **Ecosystem name:** Ecosystem names should have only one text and color treatment. The ecosystem name is specific and based on the offering, product, and category, it is a direct link back to the IBM product or sub-topic page. Never use a logo and/or image for the ecosystem name.
 5. **Navigation labels:** Navigation labels are set to the default IBM global navigation, these labels are short descriptors to inform the user what type of content they will find in the menu or link.
+
+<br />
 
 ### Behavior
 
@@ -139,14 +150,4 @@ All navigation links in the Masthead with L1 have the ability to support a singl
 
 ![Masthead component level 1 nav link labels behavior image](../../images/component/masthead/masthead-l1-behavior-dropdown.png)
 
-## Design and functional specifications
-
-The design specs and functional specs for the Masthead can be viewed [here](https://ibm.box.com/s/knez30xt6kao1amylebbvs97vkemhrbp). 
-
-## Development documentation
-
-<ComponentStatus name="Masthead" type="ui" />
-
-## Feedback
-
-Help us improve this component by providing feedback, asking questions, and leaving any other comments on [GitHub](https://github.com/carbon-design-system/carbon-for-ibm-dotcom).
+<ComponentFooter name="Masthead" type="ui" />

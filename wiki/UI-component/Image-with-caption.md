@@ -2,9 +2,11 @@
 
 This component wraps the responsive [[Image]] component we’ve built and provides it with a caption, and option to zoom in to see a larger and clearer version of the image.
 
+![image](https://user-images.githubusercontent.com/3793636/119055861-599f3500-b98f-11eb-9a48-ec5f06fe2ffc.png)
+
 <hr width="40%" />
 
-<!-- toc start --><!-- toc end -->
+<!-- toc start open="true" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
@@ -15,11 +17,11 @@ This component wraps the responsive [[Image]] component we’ve built and provid
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start open="true" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start -->
+<!-- backlinks start open="true" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 
