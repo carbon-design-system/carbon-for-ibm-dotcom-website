@@ -14,7 +14,7 @@ This component provides a visual break in content similar to a [[Lead space]] fe
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
 - [[Card group]]
-- [[Lead space wrapper]]
+- [[Background media]]
 - [[Content block]]
 - [[Layout]]
 
