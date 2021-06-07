@@ -2,7 +2,7 @@
 
 The [[Lead space wrapper]] combines some of the core functionality of our lead spaces like its background treatment and spacing, so it can be re-used without duplicating functionality.
 
-![image](https://user-images.githubusercontent.com/3793636/121016147-67abce80-c761-11eb-9f7b-5d85c35fb692.png)
+![image](https://user-images.githubusercontent.com/3793636/121023337-cde81f80-c768-11eb-9225-5f278c1269f8.png)
 
 <hr width="40%" />
 
