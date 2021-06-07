@@ -15,7 +15,6 @@ The [[Lead space search]] is in the same family of our other Lead space componen
 - [[Search typeahead]]
 - [[Tag group]]
 - [[Carbon breadcrumb]]
-- [[Lead space wrapper]]
 
 <br />
 </details>

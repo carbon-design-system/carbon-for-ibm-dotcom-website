@@ -15,6 +15,7 @@
 
 - [[Markdown utility]]
 - [[Link list]]
+- [[Image with caption]]
 
 <br />
 </details>

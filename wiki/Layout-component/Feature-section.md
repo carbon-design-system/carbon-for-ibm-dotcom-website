@@ -1,8 +1,8 @@
-`Core` `Functional` <!-- category start --><!-- category end -->
+`Decorator` <!-- category start --><!-- category end -->
 
-The [[Lead space wrapper]] combines some of the core functionality of our lead spaces like its background treatment and spacing, so it can be re-used without duplicating functionality.
+[[Feature section]] takes up the full 16 columns of the grid, and presents content and a [[CTA]] using a static [[Feature card]] allowing for this component to stand out with its imagery and feature its content.
 
-![image](https://user-images.githubusercontent.com/3793636/121023337-cde81f80-c768-11eb-9225-5f278c1269f8.png)
+![image](https://user-images.githubusercontent.com/3793636/121033180-92058800-c771-11eb-8177-44d1528147dd.png)
 
 <hr width="40%" />
 
@@ -13,8 +13,8 @@ The [[Lead space wrapper]] combines some of the core functionality of our lead s
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[Tag group]]
-- [[Carbon breadcrumb]]
+- [[Feature card]]
+- [[CTA]]
 
 <br />
 </details>
@@ -31,7 +31,7 @@ The [[Lead space wrapper]] combines some of the core functionality of our lead s
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
-- r1: [Box folder](https://ibm.ent.box.com/folder/138745075952)
+- r1: [Box folder](https://ibm.ent.box.com/folder/137684054266)
 
 <br />
 </details>
