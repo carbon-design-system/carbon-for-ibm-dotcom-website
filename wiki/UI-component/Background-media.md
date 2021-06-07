@@ -30,7 +30,7 @@ The [[Background media]] shares the same core functionality of background media 
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
-- r1: [Box folder](https://ibm.ent.box.com/folder/138745075952)
+- r1: [Box folder](https://ibm.ent.box.com/folder/137924469929)
 
 <br />
 </details>
