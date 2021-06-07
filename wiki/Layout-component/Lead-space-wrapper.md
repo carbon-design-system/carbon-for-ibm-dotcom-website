@@ -1,20 +1,20 @@
-`Core` <!-- category start --><!-- category end -->
+`Core` `Functional` <!-- category start --><!-- category end -->
 
-The [[Lead space]] is a top-level component section that appears at the beginning of a page. 
+The [[Lead space wrapper]] combines some of the core functionality of our lead spaces like its background treatment and spacing, so it can be re-used without duplicating functionality.
 
-![image](https://user-images.githubusercontent.com/3793636/119085174-da2e5780-b9c8-11eb-83f4-556226ebf683.png)
+![image](https://user-images.githubusercontent.com/3793636/121023337-cde81f80-c768-11eb-9225-5f278c1269f8.png)
 
 <hr width="40%" />
 
-<!-- toc start open="true" --><!-- toc end -->
+<!-- toc start -->
+*{{table of contents auto populates}}*
+<!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[Button group]]
 - [[Tag group]]
 - [[Carbon breadcrumb]]
-- [[Lead space wrapper]]
 
 <br />
 </details>
@@ -31,7 +31,7 @@ The [[Lead space]] is a top-level component section that appears at the beginnin
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
-- r1: [Box folder](https://ibm.ent.box.com/folder/94761007991)
+- r1: [Box folder](https://ibm.ent.box.com/folder/138745075952)
 
 <br />
 </details>
