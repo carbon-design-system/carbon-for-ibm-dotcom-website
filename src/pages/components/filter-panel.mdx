@@ -1,0 +1,153 @@
+---
+title: Filter panel
+description: The filter panel is a component that can be customized to provide categorized filters to help users trim down large amounts of content, data and/or search results.
+---
+
+import { ComponentStatus } from 'components/ComponentList';
+import ComponentDescription from 'components/ComponentDescription';
+import ComponentFeedback from 'components/ComponentFeedback';
+
+<ComponentDescription name="Filter panel" type="ui" />
+
+<AnchorLinks>
+
+<AnchorLink>Default</AnchorLink>
+<AnchorLink>Selection methods</AnchorLink>
+<AnchorLink>Anatomy</AnchorLink>
+<AnchorLink>Behaviors</AnchorLink>
+<AnchorLink>Category guidance</AnchorLink>
+<AnchorLink>Design and functional specifications</AnchorLink>
+<AnchorLink>Development documentation</AnchorLink>
+<AnchorLink>Feedback</AnchorLink>
+
+</AnchorLinks>
+
+<!--
+Include additional <AnchorLinks> if you add additional sections within the page. Text must match header text.
+<AnchorLink>Header text you're linking to</AnchorLink>
+-->
+
+## Default
+
+Filter panel includes a heading, configurable filters and an optional children heading area. Filter panel supports multiple categories and selection methods, it is typically placed on the left side of the page.
+
+*placeholder image* ![A visual reference of the Default component](URL or path to the image)
+
+
+### Use case
+
+*supporting image
+<!--
+If there's an example of how this component is used, please add the use case reference image here.
+![A visual reference of the Default component](URL or path to the image)
+-->
+
+## Selection methods
+Choosing the right filter selection method will improve usability and user efficiency. Filter panel supports several selection methods that are appropriate for different situations. Consider the data your users are looking at, what they are trying to achieve, and how they might intuitively narrow down the data.
+
+### Single selection
+Use a single-selection filter when the user can pick only one attribute to modify data results. Under the hood, single selection behaves like a radio button.
+*placeholder image* ![A visual reference of the Default component](URL or path to the image)
+
+Single-selection supports multiple tiers of content. Second tier content is exposed after the user selects the parent filter, tiered content is indented below the parent filter.
+*placeholder image* ![A visual reference of the Default component](URL or path to the image)
+
+### Multiselect
+Use a multiselect filter when the user has the option to pick more than one attribute to modify the data results. Under the hood, multiselects behave like checkboxes.
+*placeholder image* ![A visual reference of the Default component](URL or path to the image)
+
+### Multiple categories
+A category is a set of filter items within the same topic. For example, “size” is a category and small, medium, large, and extra large are its filter choices. Multiple filter categories may be applied to the same data set. For example, the user can filter by size, color, and price range.
+
+
+## Anatomy
+*placeholder image* ![A visual reference of the Default component](URL or path to the image)
+
+1. **Children:** Optional container that allows components like tag group.
+2. **Header:** Customizeable header for the filter panel.
+3. **Category:** Customizable category header for a group of filters (required).
+4. **Filter item:** Customizable filter item, it can be a single or multi select (required).
+5. **Clear button:** Customizable button that deselects all selected filter items within the filter panel.
+
+
+## Behaviors
+
+### Larger breakpoints (max, xl, lg)
+The filter panel spans 4 columns of the 16 column grid with a customizable height. It can be configured with any number of filters and categories. 
+
+* The user may expand multiple filter categories at a time.
+* The user may collapse all categories.
+* The user can collapse categories that have filters selected. 
+
+### Scroll
+Filter panel scrolls with the page. Depending on the amount of filters available to the user, the filter panel could exceed the browser height.
+
+### Keyboard interaction
+Filter panel includes a Skip to main content option for keyboard users so they can jump into the main content and/or search results.
+
+### Smaller breakpoints (md and sm)
+On smaller breakpoints, the filter panel is triggered by a button that can be configured anywhere within the experience. Once the user selects the filter button, a modal will open and display the filter panel, the user can close the modal to view the filtered results. The filter button should indicate how many filters the user has selected.
+
+*placeholder image*
+
+
+## Category guidance
+
+When determining the default display for your user, consider the information you have in your filter, including:
+
+* The ordering of categories
+* The number of categories
+* The number of items within each category
+
+Then decide which categories are open by default and which categories are closed. Try to strike a balance between what the user may need and the cognitive load of seeing all options at once.
+
+### Ordering of categories and items
+The ordering of top level categories is usually determined by relevance to user goals.
+
+Within the categories, we recommend the default ordering of items to be alphabetical unless business goals require a different ordering.
+
+### Number of categories
+
+#### One category
+If there is only one category, consider displaying all the filters open.
+
+*placeholder image*
+
+#### Two to nine categories
+If there are between two and nine categories of filters, consider having the top one to three categories open by default, and the other categories collapsed.
+
+*placeholder image*
+
+#### Ten or more categories
+If there are over ten categories, consider collapsing all of the categories on initial load, or having the first category open.
+
+*placeholder image*
+
+### Number of filter items within a category
+
+#### One to seven filter items
+If there are between one and seven filter items within a category, expose all of the items.
+
+*placeholder image*
+
+#### Eight or more filter items
+If there are eight or more filter items within a given category, consider utilizing the “View all” button. Expose a portion of the filter items so the user can quickly scan the options, once they select the view all button, the rest of the items are revealed. 
+
+*placeholder image*
+
+
+## Design and functional specifications
+
+
+For more details on Filter panel, see <a href="link to design specs" target="https://ibm.box.com/s/19a0hjn61gh3qh59kbgxba43y8uymuqy" rel="noreferrer">design specs</a> and see <a href="link to functional specs" target="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Filter-panel" rel="noreferrer">functional specs</a>.
+
+ <a href="Link to the BOX folder" target="_blank" rel="noreferrer">here</a>.
+
+
+## Development documentation
+
+<ComponentStatus name="Filter panel" type="ui" />
+
+## Feedback
+
+<ComponentFeedback />
