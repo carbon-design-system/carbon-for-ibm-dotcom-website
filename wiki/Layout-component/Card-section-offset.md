@@ -16,7 +16,6 @@ This component provides a visual break in content similar to a [[Lead space]] fe
 - [[Card group]]
 - [[Background media]]
 - [[Content block]]
-- [[Layout]]
 
 <br />
 </details>
