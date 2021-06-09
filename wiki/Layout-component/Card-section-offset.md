@@ -1,4 +1,4 @@
-<!-- category start --><!-- category end -->
+`Decorator` <!-- category start --><!-- category end -->
 
 This component provides a visual break in content similar to a [[Lead space]] featuring additional resources via a [[CTA]], and [[Card]]s.
 
