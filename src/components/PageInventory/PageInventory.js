@@ -50,7 +50,7 @@ export const PageInventory = () => {
 
       pagesOrganized[page.category].push(page);
   });
-console.log(pagesOrganized);
+
   const keys = Object.keys(pagesOrganized);
   
    return (
@@ -64,7 +64,12 @@ console.log(pagesOrganized);
                 <AccordionItem open={true} key={key} title={`${key} (${category.length})`}>
                     <ul>
                         {category.map(({ path, context }) => {
-                            const title = context.frontmatter.title;
+                            let title = path || '';
+
+                            if (context && context.frontmatter && context.frontmatter.title) {
+                                title = context.frontmatter.title;
+                            }
+
                             return (
                                 <li key={path}>
                                     <Link href={path} title={title}>{path}</Link>
