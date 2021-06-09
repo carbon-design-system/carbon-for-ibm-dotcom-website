@@ -1,8 +1,10 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import H2 from 'gatsby-theme-carbon/src/components/markdown/H2';
-import Link from 'gatsby-theme-carbon/src/components/Link';
 import {Accordion, AccordionItem} from 'gatsby-theme-carbon/src/components/Accordion';
+import { Link } from 'gatsby';
+
+import './index.scss';
 
 /**
  * React hook to retrieve list of pages from GraphQl
@@ -20,6 +22,8 @@ const useAllPages = () => {
                     context {
                         frontmatter {
                             title
+                            createdOn
+                            updatedOn
                         }
                     }
                 }
@@ -42,13 +46,18 @@ export const PageInventory = () => {
   pages.forEach(page => {
       const paths = page.path.replace(/^\/|\/$/g, '').split('/');
       page.pageId = paths.pop();
-      page.category = '/' + paths.join('/');
+      page.category = paths.shift() || '/';
       
       if (!pagesOrganized[page.category]) {
-          pagesOrganized[page.category] = [];
+        pagesOrganized[page.category] = [];
+      }
+      
+      if (pagesOrganized[page.pageId]) {
+        pagesOrganized[page.pageId].push(page);
+      } else {
+        pagesOrganized[page.category].push(page);
       }
 
-      pagesOrganized[page.category].push(page);
   });
 
   const keys = Object.keys(pagesOrganized);
@@ -62,21 +71,40 @@ export const PageInventory = () => {
 
             return (
                 <AccordionItem open={true} key={key} title={`${key} (${category.length})`}>
-                    <ul>
+                    <table class="page-table page-inventory">
+                        <tbody>
+                            <tr>
+                                <td></td>
+                                <td>Created</td>
+                                <td>Updated</td>
+                            </tr>
                         {category.map(({ path, context }) => {
                             let title = path || '';
+                            let updatedOn = '';
+                            let createdOn = '';
 
-                            if (context && context.frontmatter && context.frontmatter.title) {
-                                title = context.frontmatter.title;
+                            if (context && context.frontmatter) {
+                                title = context.frontmatter.title || '';
+                                updatedOn = context.frontmatter.updatedOn || context.frontmatter.date || '——';
+                                createdOn = context.frontmatter.createdOn || '——';
                             }
 
                             return (
-                                <li key={path}>
-                                    <Link href={path} title={title}>{path}</Link>
-                                </li>
+                                <tr key={path}>
+                                    <td>
+                                        <Link href={path} title={title}>{path}</Link>
+                                    </td>
+                                    <td>
+                                        {createdOn}
+                                    </td>
+                                    <td>
+                                        {updatedOn}
+                                    </td>
+                                </tr>
                             );
                         })}
-                    </ul>
+                        </tbody>
+                    </table>
                 </AccordionItem>
             );
         })}
