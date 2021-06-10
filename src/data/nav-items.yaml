@@ -102,6 +102,8 @@
       path: /components/feature-card
     - title: Feature card block
       path: /components/feature-card-block
+    - title: Filter panel
+      path: /components/filter-panel
     - title: Footer
       path: /components/footer
     - title: Horizontal rule
