@@ -80,13 +80,13 @@ export const PageInventory = () => {
                             </tr>
                         {category.map(({ path, context }) => {
                             let title = path || '';
-                            let updatedOn = '';
-                            let createdOn = '';
+                            let updatedOn = '——';
+                            let createdOn = '——';
 
                             if (context && context.frontmatter) {
-                                title = context.frontmatter.title || '';
-                                updatedOn = context.frontmatter.updatedOn || context.frontmatter.date || '——';
-                                createdOn = context.frontmatter.createdOn || '——';
+                                title = context.frontmatter.title || title;
+                                updatedOn = context.frontmatter.updatedOn || context.frontmatter.date || updatedOn;
+                                createdOn = context.frontmatter.createdOn || createdOn;
                             }
 
                             return (
