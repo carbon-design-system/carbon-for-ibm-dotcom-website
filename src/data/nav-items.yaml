@@ -140,6 +140,8 @@
       path: /components/quote
     - title: Table of contents
       path: /components/table-of-contents
+    - title: Tag link
+      path: /components/tag-link
     - title: Tabs extended
       path: /components/tabs-extended
     - title: Tabs extended media

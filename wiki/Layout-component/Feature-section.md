@@ -1,20 +1,20 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-The [[Lead space search]] is in the same family of our other Lead space components. It combines the [[Lead space block]], and the [[search typeahead]] components to embed search into the content of your page.
+[[Feature section]] takes up the full 16 columns of the grid, and presents content and a [[CTA]] using a static [[Feature card]] allowing for this component to stand out with its imagery and feature its content.
 
-![image](https://user-images.githubusercontent.com/3793636/119161919-6b301d80-ba1f-11eb-8ca3-27a3f20542c3.png)
+![image](https://user-images.githubusercontent.com/3793636/121033180-92058800-c771-11eb-8177-44d1528147dd.png)
 
 <hr width="40%" />
 
-<!-- toc start open="true" --><!-- toc end -->
+<!-- toc start -->
+*{{table of contents auto populates}}*
+<!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[Lead space block]]
-- [[Search typeahead]]
-- [[Tag group]]
-- [[Carbon breadcrumb]]
+- [[Feature card]]
+- [[CTA]]
 
 <br />
 </details>
@@ -31,7 +31,7 @@ The [[Lead space search]] is in the same family of our other Lead space componen
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
-- r1: [Box folder](https://ibm.ent.box.com/folder/137098284291)
+- r1: [Box folder](https://ibm.ent.box.com/folder/137684054266)
 
 <br />
 </details>

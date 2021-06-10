@@ -623,6 +623,32 @@
         "notAvailable": false
       }
     },
+    "Tag link": {
+      "url": "./tag-link",
+      "description": "This is a clickable tag that can link the topic for more information",
+      "storybook": {
+        "webcomponents": "https://ibmdotcom-web-components.mybluemix.net/?path=/story/components-tag-link--default",
+        "react": "https://ibmdotcom-web-components-react.mybluemix.net/?path=/story/components-tag-link--default"
+      },
+      "webcomponents": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": true,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      }
+    },
     "Video": {
       "url": "./video",
       "designLink": "https://ibm.box.com/s/9q7rdj73m32hufcw1xwl1td6nr88rghm",
