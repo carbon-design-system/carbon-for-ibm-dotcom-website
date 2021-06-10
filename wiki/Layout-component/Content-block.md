@@ -1,6 +1,6 @@
 `Core` <!-- category start --><!-- category end -->
 
-The [[Content block]] is a core component used to help you build more complex patterns by being placed within [[Content section]].
+The [[Content block]] is a reusable core component used to help you build more complex patterns by placing them within the grid or a [[Content section]]. Many of the options available at this level are optional providing you with more flexibility.
 
 <!-- ![image](https://user-images.githubusercontent.com/3793636/119082616-0eebe000-b9c4-11eb-8e2a-fcabf8dad107.png) -->
 
@@ -96,14 +96,14 @@ An optional [[CTA]] that allows a user to navigate to related content.
 
 `optional` `container`
 
-An optional secondary container area that child components, and other content types can be passed into. The information provided in this container should not be supporting content to the component.
+An optional secondary container for child components, and other content types. The content provided in this container should be secondary supporting content towards the component's main content.
 
 ###### Logic
 
 |        | condition         | description                                                     |
 |:-------|:------------------|:----------------------------------------------------------------|
-| `5.1`  | `aside === true`  | Layout <sup>[[5.3](#53-layout)]</sup> is used to wrap content.  |
-| `5.2`  | `aside === false` | Layout <sup>[[5.3](#53-layout)]</sup> is NOT used.              |
+| `5.1`  | `aside === true`  | If aside is true and contains children then [[Layout]] <sup>[[5.3](#53-layout)]</sup> is used to wrap content.  |
+| `5.2`  | `aside === false` | If the aside is not provided or missing children than [[Layout]] <sup>[[5.3](#53-layout)]</sup> is NOT included.              |
 
 
 ###### Example
@@ -114,7 +114,7 @@ An optional secondary container area that child components, and other content ty
 
 `component`
 
-The Layout component helps layout the main content and the Aside <sup>[[5](#5-aside)]</sup> elements next to each other.
+If rendered the [[Layout]] component helps lay the main content and the Aside <sup>[[5](#5-aside)]</sup> container next to each other properly within the grid.
 
 ###### Properties and values
 
@@ -122,7 +122,6 @@ The Layout component helps layout the main content and the Aside <sup>[[5](#5-as
 |:---------|:----------|:--------|
 | `5.3.1`  | `type`    | `8-4`   |
 | `5.3.2`  | `nested`  | `true`  |
-| `5.3.3`  | `border`  | Border can be passed in true or false optionally set by the adopter.  |
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See [[Layout]] for more information.
 

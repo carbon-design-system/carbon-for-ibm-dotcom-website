@@ -58,16 +58,9 @@ This ContentModel is a standard content structure to be used across the IBM.com 
 
 ### 2. SVG data model
 
-| data            | type         |
-|:----------------|:-------------|
-| `image`         | [[Image]]    |
-| `svg`           | SVG <sup>[[2](#2-svg-data-model)]</sup>  |
-| `eyebrow`       | `String`     |
-| `heading`       | `Object`     |
-| `heading.type`  | `String`     |
-| `heading.copy`  | `String`     |
-| `copy`          | [[Markdown utility]]  |
-| `children`      | `Object`     |
-| `cta`           | [[CTA]]      |
+|                | data            | type                 |        |
+|:---------------|:----------------|:---------------------|:-------|
+| *`(required)`*   | `src`         | `String` or `Object` | `SVG`  |
+|                | `...otherProps` | `Attributes`         | Attributes like `ariaLabel`, or `aria-hidden` can be passed in and applied to the `SVG` |
 
 <br />[Back to top](#wiki-wrapper)<br /><br /><br />
