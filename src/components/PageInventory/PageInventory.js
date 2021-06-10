@@ -1,8 +1,8 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import H2 from 'gatsby-theme-carbon/src/components/markdown/H2';
-import {Accordion, AccordionItem} from 'gatsby-theme-carbon/src/components/Accordion';
 import { Link } from 'gatsby';
+import { Accordion, AccordionItem } from 'gatsby-theme-carbon/src/components/Accordion';
 
 import './index.scss';
 
@@ -92,7 +92,7 @@ export const PageInventory = () => {
                             return (
                                 <tr key={path}>
                                     <td>
-                                        <Link href={path} title={title}>{path}</Link>
+                                        <Link to={path} title={title}>{path}</Link>
                                     </td>
                                     <td>
                                         {createdOn}
