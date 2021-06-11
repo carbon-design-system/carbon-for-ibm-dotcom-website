@@ -30,16 +30,28 @@ Include additional <AnchorLinks> if you add additional sections within the page.
 
 Filter panel includes a heading, configurable filters and an optional children heading area. Filter panel supports multiple categories and selection methods, it is typically placed on the left side of the page.
 
-*placeholder image* ![A visual reference of the Default component](../../images/component/filter-panel/filter-panel-default.jpg)
+<Row>
+<Column colMd={8} colLg={8}>
+  
+![A visual reference of the Default component](../../images/component/filter-panel/filter-panel-default.jpg)
 
+</Column>
+</Row>
 
 ### Use case
 
-*placeholder image* ![A visual reference of the Default component in context of a page](../../images/component/filter-panel/filter-panel-usecase.jpg)
+![A visual reference of the Default component in context of a page](../../images/component/filter-panel/filter-panel-usecase.jpg)
 
 ## Anatomy
-*placeholder image* ![A visual reference of the Default component](URL or path to the image)
 
+<Row>
+<Column colMd={8} colLg={8}>
+
+![A visual reference of the Default component](URL or path to the image)
+
+</Column>
+</Row>
+  
 1. **Children:** Optional container that allows components like tag group.
 2. **Header:** Customizeable header for the filter panel.
 3. **Category:** Customizable category header for a group of filters (required).
@@ -52,18 +64,68 @@ Choosing the right filter selection method will improve usability and user effic
 
 ### Single selection
 Use a single-selection filter when the user can pick only one attribute to modify data results. Under the hood, single selection behaves like a radio button.
-*placeholder image* ![A visual reference of the Default component](URL or path to the image)
+
+<DoDontRow>
+<DoDont
+colMd={4} colLg={4}
+caption="Example of single selection with no selected filter.">
+
+![Example image: single selection with no selected filter.](../../images/component/filter-panel/filter-panel-single-selection-example-not-selected.jpg)
+
+</DoDont>
+<DoDont
+colMd={4} colLg={4}
+caption="Example of single selection with a selected filter.">
+
+![Example image: single selection with selected filter.](../../images/component/filter-panel/filter-panel-single-selection-example-selected.jpg)
+
+</DoDont>
+</DoDontRow>
+
 
 Single-selection supports multiple tiers of content. Second tier content is exposed after the user selects the parent filter, tiered content is indented below the parent filter.
-*placeholder image* ![A visual reference of the Default component](URL or path to the image)
+
+<DoDontRow>
+<DoDont
+colMd={4} colLg={4}
+caption="Example of single selection hover state of a parent tier filter item.">
+
+![Example image: single selection hover state of a parent tier filter item.](../../images/component/filter-panel/filter-panel-single-selection-parent-tier.jpg)
+
+</DoDont>
+<DoDont
+colMd={4} colLg={4}
+caption="Example of parent tier filter item selected, with child tier items exposed.">
+
+![Example image: parent tier filter item selected, with child tier items exposed.](../../images/component/filter-panel/filter-panel-single-selection-child-tier.jpg)
+
+</DoDont>
+</DoDontRow>
 
 ### Multiselect
 Use a multiselect filter when the user has the option to pick more than one attribute to modify the data results. Under the hood, multiselects behave like checkboxes.
-*placeholder image* ![A visual reference of the Default component](URL or path to the image)
+
+<DoDontRow>
+<DoDont
+colMd={4} colLg={4}
+caption="Example of multiselect with no selected filter item.">
+
+![Example image: multiselect with no selected filter item.](../../images/component/filter-panel/filter-panel-multiselect-not-selected.jpg)
+
+</DoDont>
+<DoDont
+colMd={4} colLg={4}
+caption="Example of multiselect with multiple filter items selected.">
+
+![Example image: multiselect with multiple filter items selected.](../../images/component/filter-panel/filter-panel-multiselect-selected.jpg)
+
+</DoDont>
+</DoDontRow>
 
 ### Multiple categories
 A category is a set of filter items within the same topic. For example, “size” is a category and small, medium, large, and extra large are its filter choices. Multiple filter categories may be applied to the same data set. For example, the user can filter by size, color, and price range.
 
+![A visual reference of the Filter panel component with multiple categories in context of a page](../../images/component/filter-panel/filter-panel-multiple-categories.jpg)
 
 ## Behaviors
 
