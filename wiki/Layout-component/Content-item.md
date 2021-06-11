@@ -63,11 +63,13 @@ Provides the adopter with option to use either [[Image with caption]] or [[Video
 
 An optional `String` of text formatted using the [[Markdown utility]]. It provides the user with detailed content supporting the topic.
 
-###### Properties and values
+###### Ignored properties
+
+> All other options should be included.
 
 |        | props      | values       |
 |:-------|:-----------|:-------------|
-| `3.1`  | `**bold**` | The bold option is ignored. |
+| `3.1`  | `**bold**` | The bold option should be ignored. |
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See [[Markdown utility]] for more information.
 

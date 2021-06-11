@@ -59,6 +59,15 @@ An optional short `String` of text to indicate a change in topic.
 
 An optional `String` of text formatted using the [[Markdown utility]]. It provides the component with a high level overview of its content.
 
+###### Only include
+
+> All other options should be ignored.
+
+|        | props      | description |
+|:-------|:-----------|:------------|
+| `2.1`  | `*italic*` | The italic option should be included. |
+| `2.2`  | `<p>new line</p>` | The new line paragraph feature should be included. |
+
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See [[Markdown utility]] for more information.
 
 <br />[Back to top](#wiki-wrapper)<br /><br /><br />
