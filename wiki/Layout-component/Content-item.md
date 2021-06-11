@@ -1,6 +1,6 @@
 `Core` <!-- category start --><!-- category end -->
 
-The [[Content item]] component is a commonly used structure and style of content that’s used across many patterns consisting of a heading, media, copy, and [[CTA]].
+The [[Content item]] component is a commonly used structure and style of content that’s used across many patterns consisting of a heading, media, copy, and [[CTA]]. Because of its type size and spacing it is typically used lower in a page's hierarchy.
 
 ![content-item--static](https://user-images.githubusercontent.com/3793636/121725811-5b03df00-caaf-11eb-98fd-45fbc2c9ba3e.png)
 
