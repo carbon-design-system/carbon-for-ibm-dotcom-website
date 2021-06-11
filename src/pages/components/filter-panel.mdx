@@ -31,7 +31,7 @@ Include additional <AnchorLinks> if you add additional sections within the page.
 Filter panel includes a heading, configurable filters and an optional children heading area. Filter panel supports multiple categories and selection methods, it is typically placed on the left side of the page.
 
 <Row>
-<Column colMd={8}>
+<Column colLg={8}>
   
 ![A visual reference of the Default component](../../images/component/filter-panel/filter-panel-default.jpg)
 
@@ -47,12 +47,13 @@ Filter panel includes a heading, configurable filters and an optional children h
 ## Anatomy
 
 <Row>
-<Column colMd={8}>
+<Column colLg={8}>
 
 ![A visual reference of the Default component](URL or path to the image)
 
 </Column>
 </Row>
+  
   
 1. **Children:** Optional container that allows components like tag group.
 2. **Header:** Customizeable header for the filter panel.
@@ -120,6 +121,27 @@ caption="Example of multiselect with multiple filter items selected.">
 
 </DoDont>
 </DoDontRow>
+
+<!-- below is testing the mock gallery example from design language page-->
+
+<Row className="mock-gallery">
+<Column colMd={4} colLg={6}>
+
+
+![Example image: multiselect with no selected filter item.](../../images/component/filter-panel/filter-panel-multiselect-not-selected.jpg)
+
+<Caption>Example of multiselect with no selected filter item.</Caption>
+
+</Column>
+<Column colMd={4} colLg={6}>
+
+
+![Example image: multiselect with multiple filter items selected.](../../images/component/filter-panel/filter-panel-multiselect-selected.jpg)
+
+<Caption>Example of multiselect with multiple filter items selected.</Caption>
+
+</Column>
+</Row>
 
 ### Multiple categories
 A category is a set of filter items within the same topic. For example, “size” is a category and small, medium, large, and extra large are its filter choices. Multiple filter categories may be applied to the same data set. For example, the user can filter by size, color, and price range.
