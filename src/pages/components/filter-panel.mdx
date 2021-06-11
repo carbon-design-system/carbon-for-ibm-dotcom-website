@@ -32,8 +32,8 @@ Filter panel includes a heading, configurable filters and an optional children h
 
 <Row>
 <Column colMd={4} colLg={6}>
-  
-![A visual reference of the Default Filter panel component](../../images/component/filter-panel/filter-panel-default.jpg)
+
+![A visual reference of the anatomy of the Filter panel component](../../images/component/filter-panel/filter-panel-default.jpg)
 
 </Column>
 </Row>
@@ -53,7 +53,7 @@ Filter panel includes a heading, configurable filters and an optional children h
 
 </Column>
 </Row>
-  
+
   
 1. **Children:** Optional container that allows components like tag group.
 2. **Header:** Customizeable header for the filter panel.
@@ -69,28 +69,37 @@ Choosing the right filter selection method will improve usability and user effic
 Use a single-selection filter when the user can pick only one attribute to modify data results. Under the hood, single selection behaves like a radio button.
 
 <Row>
-colMd={4} colLg={4}
-caption="Example of single selection with no selected filter.">
-
+<Column colMd={4} colLg={4}>
 ![Example image: single selection with no selected filter.](../../images/component/filter-panel/filter-panel-single-selection-example-not-selected.jpg)
 
+</Column>
 
-colMd={4} colLg={4}
-caption="Example of single selection with a selected filter.">
-
+<Column colMd={4} colLg={4}>
 ![Example image: single selection with selected filter.](../../images/component/filter-panel/filter-panel-single-selection-example-selected.jpg)
 
+</Column>
 </Row>
 
+<!-->
+<Row>
+colMd={4} colLg={4}
+![Example image: single selection with no selected filter.](../../images/component/filter-panel/filter-panel-single-selection-example-not-selected.jpg)
+<Caption>Example of single selection with no selected filter."</caption>
+
+
+colMd={4} colLg={4}
+![Example image: single selection with selected filter.](../../images/component/filter-panel/filter-panel-single-selection-example-selected.jpg)
+caption="Example of single selection with a selected filter.">
+</Row>
+</-->
 
 Single-selection supports multiple tiers of content. Second tier content is exposed after the user selects the parent filter, tiered content is indented below the parent filter.
 
-<DoDontRow>
-<DoDont
-colMd={4} colLg={4}
-caption="Example of single selection hover state of a parent tier filter item.">
+<Row>
+<Column colMd={4} colLg={4}>
 
 ![Example image: single selection hover state of a parent tier filter item.](../../images/component/filter-panel/filter-panel-single-selection-parent-tier.jpg)
+caption="Example of single selection hover state of a parent tier filter item.">
 
 </DoDont>
 <DoDont
@@ -105,6 +114,23 @@ caption="Example of parent tier filter item selected, with child tier items expo
 ### Multiselect
 Use a multiselect filter when the user has the option to pick more than one attribute to modify the data results. Under the hood, multiselects behave like checkboxes.
 
+<Row>
+<Column colMd={4} colLg={4}>
+![Example image: single selection with no selected filter.](../../images/component/filter-panel/filter-panel-single-selection-example-not-selected.jpg)
+
+<Caption>Example of multiselect with no selected filter item.</Caption>
+
+</Column>
+
+<Column colMd={4} colLg={4}>
+![Example image: single selection with selected filter.](../../images/component/filter-panel/filter-panel-single-selection-example-selected.jpg)
+
+<Caption>Example of multiselect multiple filter items selected.</Caption>
+</Column>
+</Row>
+
+
+<!-->
 <DoDontRow>
 <DoDont
 colMd={4} colLg={4}
@@ -121,6 +147,8 @@ caption="Example of multiselect with multiple filter items selected.">
 
 </DoDont>
 </DoDontRow>
+
+</-->
 
 <!-- below is testing the mock gallery example from design language page-->
 
