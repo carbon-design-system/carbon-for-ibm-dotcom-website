@@ -39,8 +39,8 @@
       path: /guidelines/style-models/overview
     - title: Spacing
       path: /guidelines/spacing
-    - title: Type pairing and spacing
-      path: /guidelines/type-pairing-and-spacing
+    - title: Type pairing
+      path: /guidelines/type-pairing
 
 - title: Components
   pages:
