@@ -43,7 +43,7 @@ The [[Content item]] component is a commonly used structure and style of content
 ### 1. Heading
 `optional` `string`
 
-An optional short `String` of text to indicate a more focused topic. 
+An optional short `String` of text to indicate a more focused topic at an `H4` level. 
 
 <br />[Back to top](#wiki-wrapper)<br /><br /><br />
 
