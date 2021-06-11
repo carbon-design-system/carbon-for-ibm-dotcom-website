@@ -55,7 +55,7 @@ An optional short `String` of text to indicate a change in topic.
 
 ### 2. Copy
 
-`optional` `string`
+`optional` `markdown`
 
 An optional `String` of text formatted using the [[Markdown utility]]. It provides the component with a high level overview of its content.
 
