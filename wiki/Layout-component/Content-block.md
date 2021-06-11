@@ -94,7 +94,7 @@ An optional [[CTA]] that allows a user to navigate to related content.
 |        | props      | values       |
 |:-------|:-----------|:-------------|
 | `4.1`  | `type`     | All types    |
-| `4.2`  | `style`    | All styles   |
+| `4.2`  | `style`    | All styles except for `card`   |
 
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See [[CTA]] for more information.
