@@ -31,7 +31,7 @@ Include additional <AnchorLinks> if you add additional sections within the page.
 Filter panel includes a heading, configurable filters and an optional children heading area. Filter panel supports multiple categories and selection methods, it is typically placed on the left side of the page.
 
 <Row>
-<Column colMd={8} colLg={8}>
+<Column colMd={8}>
   
 ![A visual reference of the Default component](../../images/component/filter-panel/filter-panel-default.jpg)
 
@@ -40,12 +40,14 @@ Filter panel includes a heading, configurable filters and an optional children h
 
 ### Use case
 
+
 ![A visual reference of the Default component in context of a page](../../images/component/filter-panel/filter-panel-usecase.jpg)
+  
 
 ## Anatomy
 
 <Row>
-<Column colMd={8} colLg={8}>
+<Column colMd={8}>
 
 ![A visual reference of the Default component](URL or path to the image)
 
@@ -65,22 +67,19 @@ Choosing the right filter selection method will improve usability and user effic
 ### Single selection
 Use a single-selection filter when the user can pick only one attribute to modify data results. Under the hood, single selection behaves like a radio button.
 
-<DoDontRow>
-<DoDont
+<Row>
 colMd={4} colLg={4}
 caption="Example of single selection with no selected filter.">
 
 ![Example image: single selection with no selected filter.](../../images/component/filter-panel/filter-panel-single-selection-example-not-selected.jpg)
 
-</DoDont>
-<DoDont
+
 colMd={4} colLg={4}
 caption="Example of single selection with a selected filter.">
 
 ![Example image: single selection with selected filter.](../../images/component/filter-panel/filter-panel-single-selection-example-selected.jpg)
 
-</DoDont>
-</DoDontRow>
+</Row>
 
 
 Single-selection supports multiple tiers of content. Second tier content is exposed after the user selects the parent filter, tiered content is indented below the parent filter.
