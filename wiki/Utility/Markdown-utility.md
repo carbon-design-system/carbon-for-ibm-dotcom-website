@@ -4,7 +4,7 @@ The [[Markdown utility]] is a light text formatting utility that will convert a 
 
 <hr width="40%" />
 
-<!-- toc start open="true" depthEnd="1" -->
+<!-- toc start open="true" -->
 *{{toc auto populates}}*
 <!-- toc end -->
 
