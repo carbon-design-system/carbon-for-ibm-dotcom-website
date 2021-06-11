@@ -2,7 +2,7 @@
 
 The [[Content section]] is a core component that can be used as a section level wrapper. It includes a heading and optional children. 
 
-![image](https://user-images.githubusercontent.com/3793636/119083485-a271e080-b9c5-11eb-96ee-4b5785153cae.png) 
+![content-section--static](https://user-images.githubusercontent.com/3793636/121749433-45eb7800-cad0-11eb-95a0-0cbe868e6489.png)
 
 <hr width="40%" />
 
