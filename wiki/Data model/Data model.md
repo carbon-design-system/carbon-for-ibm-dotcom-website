@@ -27,10 +27,8 @@ This ContentModel is a standard content structure to be used across the IBM.com 
 <!-- backlinks end -->
 
 <a name="resources"></a>
-<details open="true">
+<details>
   <summary><strong>Resources</strong></summary><br />
-
-- r1: [Box folder](https://ibm.ent.box.com/folder/99475989554)
 
 <br />
 </details>
