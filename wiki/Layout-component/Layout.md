@@ -6,7 +6,9 @@ The Layout core component helps us to layout our different components with a mor
 
 <hr width="40%" />
 
-<!-- toc start open="true" --><!-- toc end -->
+<!-- toc start open="true" -->
+*{{toc auto populates}}*
+<!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
@@ -16,11 +18,11 @@ The Layout core component helps us to layout our different components with a mor
 <br />
 </details>
 
-<!-- usedby start open="true" -->
+<!-- usedby start -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start open="true" -->
+<!-- backlinks start -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 
