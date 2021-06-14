@@ -39,8 +39,10 @@
       path: /guidelines/right-to-left
     - title: Style models
       path: /guidelines/style-models/overview
-    - title: Type pairing and spacing
-      path: /guidelines/type-pairing-and-spacing
+    - title: Spacing
+      path: /guidelines/spacing
+    - title: Type pairing
+      path: /guidelines/type-pairing
 
 - title: Components
   pages:
@@ -140,6 +142,8 @@
       path: /components/quote
     - title: Table of contents
       path: /components/table-of-contents
+    - title: Tag link
+      path: /components/tag-link
     - title: Tabs extended
       path: /components/tabs-extended
     - title: Tabs extended media

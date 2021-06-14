@@ -13,7 +13,7 @@ The [[Lead space]] is a top-level component section that appears at the beginnin
 
 - [[Button group]]
 - [[Tag group]]
-- [[Lead space wrapper]]
+- [[Carbon breadcrumb]]
 
 <br />
 </details>

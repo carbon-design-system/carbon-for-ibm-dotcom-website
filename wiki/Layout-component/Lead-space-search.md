@@ -13,7 +13,8 @@ The [[Lead space search]] is in the same family of our other Lead space componen
 
 - [[Lead space block]]
 - [[Search typeahead]]
-- [[Lead space wrapper]]
+- [[Tag group]]
+- [[Carbon breadcrumb]]
 
 <br />
 </details>
