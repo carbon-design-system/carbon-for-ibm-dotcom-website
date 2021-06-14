@@ -21,10 +21,6 @@ import ComponentFooter from 'components/ComponentFooter';
 
 </AnchorLinks>
 
-<!--
-Include additional <AnchorLinks> if you add additional sections within the page. Text must match header text.
-<AnchorLink>Header text you're linking to</AnchorLink>
--->
 
 ## Default
 
@@ -54,6 +50,7 @@ Filter panel includes a heading, configurable filters and an optional children h
 </Column>
 </Row>
 
+</br>
   
 1. **Children:** Optional container that allows components like tag group.
 2. **Header:** Customizeable header for the filter panel.
@@ -80,18 +77,6 @@ Use a single-selection filter when the user can pick only one attribute to modif
 </Column>
 </Row>
 
-<!-->
-<Row>
-colMd={4} colLg={4}
-![Example image: single selection with no selected filter.](../../images/component/filter-panel/filter-panel-single-selection-example-not-selected.jpg)
-<Caption>Example of single selection with no selected filter."</caption>
-
-
-colMd={4} colLg={4}
-![Example image: single selection with selected filter.](../../images/component/filter-panel/filter-panel-single-selection-example-selected.jpg)
-caption="Example of single selection with a selected filter.">
-</Row>
-</-->
 
 Single-selection supports multiple tiers of content. Second tier content is exposed after the user selects the parent filter, tiered content is indented below the parent filter.
 
@@ -100,16 +85,17 @@ Single-selection supports multiple tiers of content. Second tier content is expo
 
 ![Example image: single selection hover state of a parent tier filter item.](../../images/component/filter-panel/filter-panel-single-selection-parent-tier.jpg)
 caption="Example of single selection hover state of a parent tier filter item.">
+  
+</Column>
 
-</DoDont>
-<DoDont
-colMd={4} colLg={4}
+<Column colMd={4} colLg={4}>
 caption="Example of parent tier filter item selected, with child tier items exposed.">
 
 ![Example image: parent tier filter item selected, with child tier items exposed.](../../images/component/filter-panel/filter-panel-single-selection-child-tier.jpg)
+caption="Example of single selection hover state of a parent tier filter item.">
 
-</DoDont>
-</DoDontRow>
+  </Column>
+</Row>
 
 ### Multiselect
 Use a multiselect filter when the user has the option to pick more than one attribute to modify the data results. Under the hood, multiselects behave like checkboxes.
@@ -130,27 +116,6 @@ Use a multiselect filter when the user has the option to pick more than one attr
 </Row>
 
 
-<!-->
-<DoDontRow>
-<DoDont
-colMd={4} colLg={4}
-caption="Example of multiselect with no selected filter item.">
-
-![Example image: multiselect with no selected filter item.](../../images/component/filter-panel/filter-panel-multiselect-not-selected.jpg)
-
-</DoDont>
-<DoDont
-colMd={4} colLg={4}
-caption="Example of multiselect with multiple filter items selected.">
-
-![Example image: multiselect with multiple filter items selected.](../../images/component/filter-panel/filter-panel-multiselect-selected.jpg)
-
-</DoDont>
-</DoDontRow>
-
-</-->
-
-<!-- below is testing the mock gallery example from design language page-->
 
 <Row className="mock-gallery">
 <Column colMd={4} colLg={6}>
@@ -162,6 +127,26 @@ caption="Example of multiselect with multiple filter items selected.">
 
 </Column>
 <Column colMd={4} colLg={6}>
+
+
+![Example image: multiselect with multiple filter items selected.](../../images/component/filter-panel/filter-panel-multiselect-selected.jpg)
+
+<Caption>Example of multiselect with multiple filter items selected.</Caption>
+
+</Column>
+</Row>
+
+
+<Row className="mock-gallery">
+<Column colMd={4} colLg={4}>
+
+
+![Example image: multiselect with no selected filter item.](../../images/component/filter-panel/filter-panel-multiselect-not-selected.jpg)
+
+<Caption>Example of multiselect with no selected filter item.</Caption>
+
+</Column>
+<Column colMd={4} colLg={4}>
 
 
 ![Example image: multiselect with multiple filter items selected.](../../images/component/filter-panel/filter-panel-multiselect-selected.jpg)
