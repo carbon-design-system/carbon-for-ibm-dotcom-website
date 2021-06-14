@@ -116,7 +116,7 @@ An optional secondary container for child components, and other content types. T
 
 
 ###### Example
-![content-block-aside](https://user-images.githubusercontent.com/3793636/121601417-88974c80-ca0b-11eb-9b6b-1e02f1596b02.gif)
+![content-block-aside](https://user-images.githubusercontent.com/3793636/121902980-72c8a680-cced-11eb-8635-1531dff0b4e2.gif)
 
 
 #### 5.3 Layout
