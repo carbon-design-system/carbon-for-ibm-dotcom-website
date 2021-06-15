@@ -43,7 +43,6 @@ The [[Content section]] is a core component that can be used as a section level 
 
 > ![image](https://user-images.githubusercontent.com/3793636/117874180-493bdb80-b266-11eb-8945-dde0d95431d6.png) Should consider replacing heading, copy, and CTA with a [[Content item]]. Issue right now is hierarchy `H2` vs `H4`?
 
-<br />
 
 <br />
 
