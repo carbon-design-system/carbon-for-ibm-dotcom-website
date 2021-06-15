@@ -92,7 +92,7 @@ The nested option allows a given layout to sit comfortably within the [[Carbon 2
 
 `optional` `boolean`
 
-The optional border is displayed at the bottom of the [[Layout]] providing a visual indicator for a change of topic.Typically used when nesting the component.
+The optional border is displayed at the bottom of the [[Layout]] providing a visual indicator for a change of topic. Typically used when nesting the component.
 
 ###### Logic
 
@@ -135,4 +135,3 @@ Optionally each column can be set to stick or be fixed to the top of the page.
 
 
 <br />[Back to top](#wiki-wrapper)<br /><br /><br />
-
