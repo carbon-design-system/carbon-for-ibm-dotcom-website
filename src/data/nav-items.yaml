@@ -9,7 +9,12 @@
     - path: /designing
 - title: Developing
   pages:
-    - path: /developing
+    - title: Get started
+      path: /developing
+    - title: Frameworks
+      path: /developing/frameworks/web-components
+    - title: Other packages
+      path: /developing/other-packages
 
 - title: Contributing
   pages:

@@ -1,0 +1,137 @@
+---
+title: Frameworks
+description: Carbon for IBM.com Web Components, using Custom Elements v1 and Shadow DOM v1 specs.
+tabs: ['Web Components','React']
+---
+
+import { Link } from 'gatsby';
+
+<PageDescription>
+
+Carbon for IBM.com Web Components uses the Custom Elements v1 and Shadow DOM v1 specs. Web components is the new browser 
+standard with native support, supported in all modern browsers. 
+
+</PageDescription>
+
+<AnchorLinks>
+<AnchorLink>Install (via import)</AnchorLink>
+<AnchorLink>Install (via CDN)</AnchorLink>
+<AnchorLink>IBM.com shell</AnchorLink>
+<AnchorLink>Available components</AnchorLink>
+<AnchorLink>React wrapper</AnchorLink>
+<AnchorLink>Using with Carbon Web Components</AnchorLink>
+</AnchorLinks>
+
+## Install via import
+
+Using [npm](https://www.npmjs.com/):
+
+```bash
+npm install -S @carbon/ibmdotcom-web-components lit-html lit-element
+```
+
+Using [Yarn](https://yarnpkg.com/en/):
+
+```bash
+yarn add @carbon/ibmdotcom-web-components lit-html lit-element
+```
+
+### lit-html / lit-element
+
+`@carbon/ibmdotcom-web-components` uses [`lit-html`](https://lit-html.polymer-project.org) for reactive templating on 
+top of the Web Components standard, and [`lit-element`](https://lit-element.polymer-project.org) for reactive 
+properties/attributes on top of `lit-html`. These are `peerDependencies` of the project, so they would need to be 
+installed separately.
+
+## Install via CDN
+
+The IBM.com Shell is available via CDN, where a script tag can be added directly to an HTML page and rendered directly
+without the need for front-end bundling:
+ 
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="module">
+      import 'https://1.www.s81c.com/common/carbon-for-ibm-dotcom/latest/ibmdotcom-web-components-dotcom-shell.min.js';
+
+      // The minimum prerequisite to properly set the current language/locale on the page
+      window.digitalData = {
+        page: {
+          pageInfo: {
+            language: 'en-US',
+            ibm: {
+              country: 'US',
+              siteID: 'IBMTESTWWW',
+            },
+          },
+          isDataLayerReady: true,
+        },
+      };
+    </script>
+
+    <!-- The minimum prerequisite to configure available language/locale combinations in the locale selector -->
+    <link rel="alternate" hreflang="en-us" href="https://www.ibm.com/us-en/" />
+    <link rel="alternate" hreflang="x-default" href="https://www.ibm.com" />
+    ...
+  </head>
+  <body>
+    <dds-dotcom-shell-container></dds-dotcom-shell-container>
+  </body>
+</html>
+```
+
+<InlineNotification>
+
+**Note:** Starting in Carbon for IBM.com Web Components v1.6.0, CDN artifacts will be available for all components! More details coming soon!
+
+</InlineNotification> 
+
+## IBM.com shell
+
+If you are looking to get started on a page, you can make use of the `<dds-dotcom-shell>`, which is a UI shell that
+contains the `<dds-masthead>` and the `<dds-footer>`, using Carbon's grid.
+
+View the `<dds-dotcom-shell>` in [Storybook Web Components](http://ibmdotcom-web-components.mybluemix.net/?path=/story/components-dotcom-shell--default).
+
+## Available components
+
+<Row className="resource-card-group">
+
+<Column colMd={4} colLg={4} noGutterSm>
+<ResourceCard
+  subTitle="Carbon for IBM.com Storybook Web Components"
+  href="https://ibmdotcom-web-components.mybluemix.net/"
+>
+
+![Storybook Web Components](./../../../images/icon/js_logo.svg)
+
+</ResourceCard>
+</Column>
+</Row>
+
+## React wrapper
+
+Our team builds new components for Carbon for IBM.com as web components first. Anything that currently does not exist 
+in the <Link to="/developing/frameworks/react">React</Link> framework, are provided as web components with a React 
+wrapper for seamless integration into a React application.
+
+<Row className="resource-card-group">
+
+<Column colMd={4} colLg={4} noGutterSm>
+<ResourceCard
+  subTitle="Carbon for IBM.com Storybook Web Components with React"
+  href="https://ibmdotcom-web-components-react.mybluemix.net/"
+>
+
+![Storybook React](./../../../images/icon/react-icon.svg)
+
+</ResourceCard>
+</Column>
+</Row>
+
+## Using with Carbon Web Components
+
+Carbon for IBM.com Web Components uses the Carbon Web Components library (`carbon-web-components`) under the hood. 
+When building your IBM.com application, both libraries can be used together. Carbon Web Components is the web component 
+version of core Carbon Design System. [Learn more about Carbon Web Components](https://carbondesignsystem.com/developing/frameworks/web-components).
