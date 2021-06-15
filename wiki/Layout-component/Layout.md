@@ -57,37 +57,11 @@ The different types allows an adopter to choose an approved layout option. The d
 
 `required` `container`
 
-The children property allows the adopter to place their content within the correct column to be laid out. The direct child `HTML`/`JSX` provided gets the column styling. For example if you choose a 2 column layout you will need 2 child wrappers, or 3 columns you will need 3 child wrappers. See the code examples below.
+The children property allows the adopter to place their content within the correct column to be laid out.
 
 ###### Examples
 
 ![layout](https://user-images.githubusercontent.com/3793636/122071996-d372e480-cdbc-11eb-8242-38eaee8d583f.gif)
-
-```html
-<!-- Here is an example where you’re using **two** columns. -->
-
-<Layout type=“4-12”>
-  <div>{content for column 1}</div>
-  <div>{content for column 2}</div>
-</Layout>
-
-<!-- Here is an example where you might have **four** columns. -->
-
-<Layout type=“4-4-4-4”>
-  <div>{content for column 1}</div>
-  <div>{content for column 2}</div>
-</Layout>
-
-<!-->
-    Note that `4-4-4-4` layout is not an option at this time.
-
-    Also, notice how each column has a corresponding child.
-    You could also optionally leave off a column from right
-    to left if you don’t need it for a given layout.
- </-->
-```
-
-> ![image](https://user-images.githubusercontent.com/3793636/117873641-a6835d00-b265-11eb-8433-8c9c73a2e999.png) Note the code examples above maybe react specific, but the functionality should stand across any language with how it relates to being built out.
 
 <br />[Back to top](#wiki-wrapper)<br /><br /><br />
 
