@@ -1,25 +1,27 @@
 <!-- category start --><!-- category end -->
 
-The Markdown Utility is a light text formatting utility that will convert a limited set of markdown to valid HTML markup. Each markdown conversion option can be turned on or off.
-
-By default, this utility will use Carbon Classes and strips out extraneous HTML tags; adopters are given the option to modify the default settings. Refer to technical specs and readme files for additional details.
-
+The [[Markdown utility]] is a light text formatting utility that will convert a limited set of markdown to valid HTML markup. Each markdown conversion option can be turned on or off. By default, this utility will use Carbon classes and strips out extraneous `HTML` tags.
 
 <hr width="40%" />
 
-<!-- toc start open="true" --><!-- toc end -->
+<!-- toc start open="true" depthEnd="1" -->
+*{{toc auto populates}}*
+<!-- toc end -->
 
-<details>
+<details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
+
+- [[Carbon link]]
+- [[Carbon list]]
 
 <br />
 </details>
 
-<!-- usedby start open="true" -->
+<!-- usedby start -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start open="true" -->
+<!-- backlinks start -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 
@@ -36,4 +38,20 @@ By default, this utility will use Carbon Classes and strips out extraneous HTML 
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+### 1. Markdown allowed
+
+String will be input into the utility, where it will search for particular string patterns and convert them to the corresponding valid HTML markup.
+
+
+###### logic
+
+|        | type            | markup                   | description  |
+|:-------|:----------------|:-------------------------|:-------------|
+| `1.1`  | *italic*        | `*italic*` or `_italic_` | Renders content between a single `*` or `_` as *italic*. (e.g. `<em>`*text*`</em>`)               |
+| `1.2`  | **bold**        | `**bold**` or `__bold__` | Renders content between a double `*` or `_` as **bold** . (e.g. `<strong>`**text**`</strong>`)    |
+| `1.3`  | paragraph       | `\n\n`                   | Renders content before double new line as a paragraph (e.g. `<p>`...content...`</p>`)             |
+| `1.4`  | unordered list  | ` - list item 1`<br />` * list item 2`   | Renders one or more lines starting with `-` or `*` as an unordered list.          |
+| `1.5`  | ordered list    | ` 1. list item 1`<br />` 2. list item 2` | Renders one or more lines starting with a number `1.` or `*` as an ordered list.  |
+| `1.6`  | Hyperlink       | `[text](url)`            | Renders content as an inline [[Carbon link]]  |
+
+
