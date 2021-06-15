@@ -13,7 +13,7 @@
       path: /developing
     - title: Frameworks
       path: /developing/frameworks/web-components
-    - title: Other Packages
+    - title: Other packages
       path: /developing/other-packages
 
 - title: Contributing
