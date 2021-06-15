@@ -98,8 +98,8 @@ The optional border is displayed at the bottom of the [[Layout]] providing a vis
 
 |     | condition          | description | |
 |:----|:-------------------|:------------|:-|
-| 3.1 | `border === true`  | If border is `true` then the pattern’s border at the bottom should render. |  |
-| 3.2 | `border === false` | If border is `false` then the pattern’s border should NOT render. | `default` |
+| 3.1 | `border === true`  | If border is `true` then the component’s border at the bottom should render. |  |
+| 3.2 | `border === false` | If border is `false` then the component’s border should NOT render. | `default` |
 
 ###### Example 
 
