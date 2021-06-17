@@ -1,0 +1,14 @@
+---
+title: Building for IBM.com
+description: When developing a page on IBM.com, there are several items that will be necessary to include in addition to your application code.
+---
+
+<AnchorLinks>
+
+<AnchorLink>Overview</AnchorLink>
+<AnchorLink>Digital data object</AnchorLink>
+<AnchorLink>Page language</AnchorLink>
+<AnchorLink>Meta tags</AnchorLink>
+<AnchorLink>IBM.com tag management and site analytics</AnchorLink>
+
+</AnchorLinks>
