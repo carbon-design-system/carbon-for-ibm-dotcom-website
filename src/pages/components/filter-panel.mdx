@@ -14,7 +14,7 @@ import ComponentFooter from 'components/ComponentFooter';
 <AnchorLink>Anatomy</AnchorLink>
 <AnchorLink>Selection methods</AnchorLink>
 <AnchorLink>Behaviors</AnchorLink>
-<AnchorLink>Category guidance</AnchorLink>
+<AnchorLink>Recommendations</AnchorLink>
 <AnchorLink>Design and functional specifications</AnchorLink>
 <AnchorLink>Development documentation</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
@@ -32,6 +32,8 @@ Filter panel includes a heading, configurable filters, and an optional children 
 
 ![A visual example of the Filter panel component](../../images/component/filter-panel/filter-panel-default.jpg)
 
+<Caption>Example of the filter panel component</Caption>
+
 </Column>
 
 </Row>
@@ -39,8 +41,9 @@ Filter panel includes a heading, configurable filters, and an optional children 
 ### Use case
 
 
-![A visual example of the Filter panel component in context of a page](../../images/component/filter-panel/filter-panel-usecase.jpg)
+![A visual example of results being filtered by selections from within one category](../../images/component/filter-panel/filter-panel-usecase.jpg)
   
+<Caption>Example of results being filtered by selections from within one category</Caption>
 
 ## Anatomy
 
@@ -138,21 +141,26 @@ Use a multiselect filter when the user has the option to pick more than one attr
 ### Multiple categories
 A category is a set of filter items within the same topic. For example, “size” is a category and small, medium, large, and extra large are its filter choices. Selections from multiple categories may be applied to the same data set. For example, the user can filter by size, color, and price range.
 
-![A visual example of the Filter panel component with multiple categories in context of a page](../../images/component/filter-panel/filter-panel-multiple-categories.jpg)
+![A visual example of the results being filtered by selections from within two categories](../../images/component/filter-panel/filter-panel-multiple-categories.jpg)
+
+<Caption>Example of results being filtered by selections from within two categories</Caption>
 
 ## Behaviors
 
-### Larger breakpoints (lg, xl, max)
-The filter panel spans 4 columns of the 16 column grid with a customizable height. It can be configured with any number of filters and categories. 
+### Expanding and collapsing
+The filter panel can be configured with any number of filters and categories. 
 
 * The user may expand multiple filter categories at a time.
 * The user may collapse all categories.
 * The user can collapse categories that have filters selected. 
 
-### Scroll
+### Larger breakpoints (lg, xl, max)
+The filter panel spans 4 columns of the 16 column grid with a customizable height. 
+
+#### Scroll
 Filter panel scrolls with the page. Depending on the amount of filters available to the user, the filter panel could exceed the browser height.
 
-### Keyboard interaction
+#### Keyboard interaction
 Filter panel includes a Skip to main content option for keyboard users so they can jump into the main content and/or search results.
 
 ### Smaller breakpoints (sm and md)
@@ -162,7 +170,7 @@ On smaller breakpoints, the filter panel is triggered by a button that can be co
 
 <Caption>Example of the filter panel in smaller breakpoints. The user selects the filter button, selects a number of filter items, and closes the modal to view the results.</Caption>
 
-## Category guidance
+## Recommendations
 
 When determining the default display for your user, consider the information you have in your filter, including:
 
