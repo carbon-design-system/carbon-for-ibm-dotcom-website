@@ -271,6 +271,33 @@
         "notAvailable": false
       }
     },
+    "Filter panel": {
+      "url": "./filter-panel",
+      "designLink": "https://ibm.box.com/s/19a0hjn61gh3qh59kbgxba43y8uymuqy",
+      "description": "The filter panel is a component that can be customized to provide categorized filters to help users trim down large amounts of content, data and/or search results.",
+      "storybook": {
+        "webcomponents": "",
+        "react": ""
+      },
+      "webcomponents": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": true,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": true,
+        "notAvailable": false
+      }
+    },
     "Footer": {
       "url": "./footer",
       "designLink": "https://ibm.box.com/s/nsbccv6jigfw78uwq3r0242qks1x1f87",
