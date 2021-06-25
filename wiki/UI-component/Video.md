@@ -60,7 +60,7 @@ Video is used in the following components. Depending on the visual design and co
 
 This is the default rendering of video. It is used for embedding a video directly on page or inline.
 
-
+![Video](https://user-images.githubusercontent.com/15144993/123468112-523aff00-d5bf-11eb-9f5a-4139bb730752.png)
 
 | Data name     | Field |
 | ------------- | ----- |
@@ -72,16 +72,25 @@ This is the default rendering of video. It is used for embedding a video directl
 
 ### CTA - Text
 
-Data
+![CTA - Text](https://user-images.githubusercontent.com/15144993/123468111-523aff00-d5bf-11eb-8ef1-2f05c0de29c6.png)
 
 | Data name     | Field |
 | ------------- | ----- |
 | Video title | CTA text |
 | Duration | appended after CTA text in parenthesis |
 
+### CTA - Button
+
+![CTA - Button](https://user-images.githubusercontent.com/15144993/123468110-523aff00-d5bf-11eb-9b1d-0c65f082d482.png)
+
+| Data name     | Field |
+| ------------- | ----- |
+| Video title | Button label |
+| Duration | appended after Button label in parenthesis |
+
 ### CTA - Card
 
-Data
+![CTA - Card](https://user-images.githubusercontent.com/15144993/123468108-51a26880-d5bf-11eb-93a0-c23ef1c8216b.png)
 
 | Data name     | Field |
 | ------------- | ----- |
@@ -90,18 +99,10 @@ Data
 | Description | Card body copy |
 | Poster image | Image |
 
-### CTA - Button
-
-Data
-
-| Data name     | Field |
-| ------------- | ----- |
-| Video title | Button label |
-| Duration | appended after Button label in parenthesis |
 
 ### Lightbox media viewer
 
-Data
+![Lightbox](https://user-images.githubusercontent.com/15144993/123468106-5109d200-d5bf-11eb-8556-828dc20b5ccd.png)
 
 | Data name     | Field |
 | ------------- | ----- |
