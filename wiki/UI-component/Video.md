@@ -62,7 +62,7 @@ This is the default rendering of video. It is used for embedding a video directl
 
 
 
-| Incoming data | Field |
+| Data name     | Field |
 | ------------- | ----- |
 | Video title   | Caption |
 | Duration | appended after caption in parenthesis |
@@ -74,7 +74,7 @@ This is the default rendering of video. It is used for embedding a video directl
 
 Data
 
-| Incoming data | Field |
+| Data name     | Field |
 | ------------- | ----- |
 | Video title | CTA text |
 | Duration | appended after CTA text in parenthesis |
@@ -83,7 +83,7 @@ Data
 
 Data
 
-| Incoming data | Field |
+| Data name     | Field |
 | ------------- | ----- |
 | Video title | Card text |
 | Duration | CTA text | No |
@@ -94,7 +94,7 @@ Data
 
 Data
 
-| Incoming data | Field |
+| Data name     | Field |
 | ------------- | ----- |
 | Video title | Button label |
 | Duration | appended after Button label in parenthesis |
@@ -103,7 +103,7 @@ Data
 
 Data
 
-| Incoming data | Field |
+| Data name     | Field |
 | ------------- | ----- |
 | Video title | Lightbox headline |
 | Description | Lightbox body copy |
