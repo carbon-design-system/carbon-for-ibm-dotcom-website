@@ -39,11 +39,87 @@ The [[Video]] component utilizes the embeddable Kaltura player <sup>[[r2](#resou
 
 <hr width="40%" />
 
-### 1. Inline embed
+## Data & content
 
-### 2. CTA
+The video component intakes a Kaltura `videoId` and fetches the following data to be rendered on page as content. All of these content can be customized except the video duration.
 
-### 3. Metrics
+See more details at [Kaltura Player API](http://player.kaltura.com/docs/api).
+
+| Data name | Type | Allows override |
+| --------- | ---- | --------------- |
+| Video title | Text | Yes |
+| Description | Text | Yes |
+| Duration | Num | No |
+| Poster image | Image | Yes |
+
+## Rendering & behavior
+
+Video is used in the following components. Depending on the visual design and content requirement of the final component rendered, the above data is used differently.
+
+### Video
+
+This is the root component and default rendering of video. It is used for embedding a video directly on page or inline.
+
+
+
+| Incoming data | Field |
+| ------------- | ----- |
+| Video title   | Caption |
+| Duration | appended after caption in parenthesis |
+| Description | Poster image alt tag |
+| Poster image | Image |
+
+
+### CTA - Text
+
+Data
+
+| Incoming data | Field |
+| ------------- | ----- |
+| Video title | CTA text |
+| Duration | appended after CTA text in parenthesis |
+
+### CTA - Card
+
+Data
+
+| Incoming data | Field |
+| ------------- | ----- |
+| Video title | Card text |
+| Duration | CTA text | No |
+| Description | Card body copy |
+| Poster image | Image |
+
+### CTA - Button
+
+Data
+
+| Incoming data | Field |
+| ------------- | ----- |
+| Video title | Button label |
+| Duration | appended after Button label in parenthesis |
+
+### Lightbox media viewer
+
+Data
+
+| Incoming data | Field |
+| ------------- | ----- |
+| Video title | Lightbox headline |
+| Description | Lightbox body copy |
+| Poster image | Image |
+
+
+## 3. Metrics
+
+The following events will need to be tracked with IBM's IDA Stats event tracking
+
+| Event name | Event code | Description |
+| --- | --- | --- |
+| launched | 0 | Video launched from inline or text link state and started playing |
+| paused | 1 | Video playback has been paused |
+| played | 2 | Video playback has started (should trigger playerState “launched” if the currentTime is 0) |
+| ended | 3 | Video playback has reached the end |
 
 
 <br />
