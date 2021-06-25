@@ -39,7 +39,7 @@ The [[Video]] component utilizes the embeddable Kaltura player <sup>[[r2](#resou
 
 <hr width="40%" />
 
-## Data & content
+## 1. Data & content
 
 The video component intakes a Kaltura `videoId` and fetches the following data to be rendered on page as content. All of these content can be customized except the video duration.
 
@@ -52,7 +52,7 @@ See more details at [Kaltura Player API](http://player.kaltura.com/docs/api).
 | Duration | Number | No |
 | Poster image | Image | Yes |
 
-## Rendering & behavior
+## 2. Rendering & behavior
 
 Video is used in the following components. Depending on the visual design and content requirement of the final component rendered, the above data is used differently.
 
@@ -64,7 +64,7 @@ This is the default rendering of video. It is used for embedding a video directl
 
 | ID  | Data name     | Field |
 | --- | ------------- | ----- |
-| 1   | Video title   | Caption |
+| 1   | Name   | Caption |
 | 2   | Duration | appended after caption in parenthesis |
 | 3   | Description | Poster image alt tag |
 | 4   | Poster image | Image |
@@ -81,7 +81,7 @@ Interactions
 
 | ID  | Data name     | Field |
 | --- | ------------- | ----- |
-| 1   | Video title | CTA text |
+| 1   | Name | CTA text |
 | 2   | Duration | appended after CTA text in parenthesis |
 
 Interactions
@@ -97,7 +97,7 @@ Interactions
 
 | ID  | Data name     | Field |
 | --- | ------------- | ----- |
-| 1   | Video title | Button label |
+| 1   | Name | Button label |
 | 2   | Duration | appended after Button label in parenthesis |
 
 Interactions
@@ -113,7 +113,7 @@ Interactions
 
 | ID  | Data name     | Field |
 | --- | ------------- | ----- |
-| 1   | Video title | Card text |
+| 1   | Name | Card text |
 | 2   | Description | Card body copy |
 | 3   | Duration | CTA text | No |
 | 4   | Poster image | Image |
@@ -131,7 +131,7 @@ Interactions
 
 | ID  | Data name     | Field |
 | --- | ------------- | ----- |
-| 1   | Video title | Lightbox headline |
+| 1   | Name | Lightbox headline |
 | 2   | Description | Lightbox body copy |
 | 3   | Poster image | Image |
 
@@ -174,14 +174,11 @@ The following event object should be passed:
 ```
 ### Metrics Event trigger
 
-4.2 Metrics Event Trigger
-
 The following will trigger the event in IDA Stats:
 
 ```
 window.ibmStats.event({…metrics data object…});
 ```
-
 
 <br />
 
