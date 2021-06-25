@@ -49,7 +49,7 @@ See more details at [Kaltura Player API](http://player.kaltura.com/docs/api).
 | --------- | ---- | --------------- |
 | Video title | Text | Yes |
 | Description | Text | Yes |
-| Duration | Num | No |
+| Duration | Number | No |
 | Poster image | Image | Yes |
 
 ## Rendering & behavior
@@ -58,7 +58,7 @@ Video is used in the following components. Depending on the visual design and co
 
 ### Video
 
-This is the root component and default rendering of video. It is used for embedding a video directly on page or inline.
+This is the default rendering of video. It is used for embedding a video directly on page or inline.
 
 
 
