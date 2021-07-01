@@ -15,6 +15,8 @@
       path: /developing/frameworks/web-components
     - title: Other packages
       path: /developing/other-packages
+    - title: Building for IBM.com
+      path: /developing/building-for-ibm-dotcom
 
 - title: Contributing
   pages:
@@ -107,6 +109,8 @@
       path: /components/feature-card
     - title: Feature card block
       path: /components/feature-card-block
+    - title: Filter panel
+      path: /components/filter-panel
     - title: Footer
       path: /components/footer
     - title: Horizontal rule

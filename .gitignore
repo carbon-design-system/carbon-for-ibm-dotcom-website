@@ -6,3 +6,4 @@ public
 wiki-build
 .env.*
 .DS_Store
+src/pages/developing/building-for-ibm-dotcom/index.mdx
