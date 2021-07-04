@@ -58,7 +58,7 @@ The video component intakes a Kaltura player <sup>[[r2](#resources)]</sup> `vide
 
 ### Video
 
-This is the default rendering of video. It is used for embedding a video directly on page or inline.
+This is the default rendering of [[Video]]. It is used for embedding a Kaltura player <sup>[[r2](#resources)]</sup> directly in the page.
 
 ![video](https://user-images.githubusercontent.com/15144993/123469683-5cf69380-d5c1-11eb-844f-39e26678c961.png)
 
