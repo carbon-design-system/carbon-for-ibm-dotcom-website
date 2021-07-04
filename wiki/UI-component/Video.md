@@ -120,7 +120,7 @@ Interactions
 | 3   | Duration | CTA text | No |
 | 4   | Poster image | Image |
 
-Interactions
+###### Logic
 
 | ID  | Element name | Event | Behavior |
 | --- | ------------ | ----- | -------- |
