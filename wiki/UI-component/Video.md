@@ -43,7 +43,7 @@ The [[Video]] component utilizes the embeddable Kaltura player <sup>[[r2](#resou
 
 The video component intakes a Kaltura player <sup>[[r2](#resources)]</sup> `videoId` and fetches the following data to be rendered on page as content. All of these content can be customized except the video duration.
 
-See more details at [Kaltura Player API](http://player.kaltura.com/docs/api).
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  Check out the Kaltura player <sup>[[r2](#resources)]</sup> for more information
 
 | Data name | Type | Allows override |
 | --------- | ---- | --------------- |
