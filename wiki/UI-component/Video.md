@@ -41,7 +41,7 @@ The [[Video]] component utilizes the embeddable Kaltura player <sup>[[r2](#resou
 
 ## 1. Data & content
 
-The video component intakes a Kaltura `videoId` and fetches the following data to be rendered on page as content. All of these content can be customized except the video duration.
+The video component intakes a Kaltura player <sup>[[r2](#resources)]</sup> `videoId` and fetches the following data to be rendered on page as content. All of these content can be customized except the video duration.
 
 See more details at [Kaltura Player API](http://player.kaltura.com/docs/api).
 
