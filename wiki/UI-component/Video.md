@@ -178,7 +178,7 @@ The following event object should be passed:
 
 The following will trigger the event in IDA Stats:
 
-```
+```javascript
 window.ibmStats.event({…metrics data object…});
 ```
 
