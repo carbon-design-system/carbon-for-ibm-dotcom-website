@@ -112,6 +112,7 @@ Interactions
 
 ![CTA - Card](https://user-images.githubusercontent.com/15144993/123468108-51a26880-d5bf-11eb-93a0-c23ef1c8216b.png)
 
+###### Logic
 | ID  | Data name     | Field |
 | --- | ------------- | ----- |
 | 1   | Name | Card text |
