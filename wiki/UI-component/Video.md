@@ -14,6 +14,7 @@ The [[Video]] component utilizes the embeddable Kaltura player <sup>[[r2](#resou
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
 - [[Lightbox media viewer]]
+- [[Image]]
 - Kaltura player
 
 <br />
