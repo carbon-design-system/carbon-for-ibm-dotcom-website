@@ -54,7 +54,7 @@ The video component intakes a Kaltura player <sup>[[r2](#resources)]</sup> `vide
 
 ## 2. Rendering & behavior
 
-Video is used in the following components. Depending on the visual design and content requirement of the final component rendered, the above data is used differently.
+[[Video]] is used in the following components. Depending on the visual design and content requirement of the final component rendered, the above data is used differently.
 
 ### Video
 
