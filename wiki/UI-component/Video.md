@@ -160,7 +160,7 @@ The following events will need to be tracked with IBM's IDA Stats event tracking
 
 The following event object should be passed:
 
-```
+```json
 {
 	type: 'video',
 	primaryCategory: 'VIDEO',
