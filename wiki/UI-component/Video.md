@@ -146,43 +146,5 @@ Interactions
 | 2   | Kaltura embedded video | See [standard Kaltura Player functionality](http://player.kaltura.com/docs/main) | Contains all available functionality of the standard Kaltura Player |
 | 3   | LightboxMediaViewer | On close | Stops playing video |
 
-## 3. Metrics
-
-The following events will need to be tracked with IBM's IDA Stats event tracking
-
-| Event name | Event code | Description |
-| --- | --- | --- |
-| launched | 0 | Video launched from inline or text link state and started playing |
-| paused | 1 | Video playback has been paused |
-| played | 2 | Video playback has started (should trigger playerState “launched” if the currentTime is 0) |
-| ended | 3 | Video playback has reached the end |
-
-### Metrics Event Object
-
-The following event object should be passed:
-
-```json
-{
-	type: 'video',
-	primaryCategory: 'VIDEO',
-	eventName: [Video Title],
-	eventCategoryGroup: [“inline” or “overlay”],
-	executionPath: [Video ID],
-	execPathReturnCode: [Event Name: “launched”, “paused”, “played”, or “ended”],
-	eventVidStatus: [Event Code: 0-3],
-	eventVidTimeStamp: [Current play time, in seconds. If at the beginning or end, return “start” or “end” instead]
-	eventVidLength: [Video Duration, in seconds],
-	eventVidPlayed: [Percent watched, format: XXX%”]
-}
-```
-### Metrics Event trigger
-
-The following will trigger the event in IDA Stats:
-
-```javascript
-window.ibmStats.event({…metrics data object…});
-```
-
-<br />
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
