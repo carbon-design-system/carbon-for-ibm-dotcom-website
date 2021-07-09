@@ -16,9 +16,9 @@ The Video service intakes a Kaltura player <sup>[[r1](#resources)]</sup> `videoI
 <br />
 </details>
 
-<!-- usedby start open="true" --><!-- usedby end -->
+<!-- usedby start --><!-- usedby end -->
 
-<!-- backlinks start open="true" --><!-- backlinks end -->
+<!-- backlinks start --><!-- backlinks end -->
 
 <a name="resources"></a>
 <details open="true">
@@ -46,5 +46,3 @@ The Video service intakes a Kaltura player <sup>[[r1](#resources)]</sup> `videoI
 | Duration | Number |
 | Poster image | Image |
 
-
-<br />
