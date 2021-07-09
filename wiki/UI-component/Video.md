@@ -33,7 +33,7 @@ The [[Video]] component utilizes the embeddable Kaltura player <sup>[[r2](#resou
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
-- r1: [Box folder](https://ibm.ent.box.com/folder/108837570522)
+- r1: [Box folder](https://ibm.box.com/s/9q7rdj73m32hufcw1xwl1td6nr88rghm)
 - r2: [Kaltura player](http://player.kaltura.com/docs/api)
 
 <br />
