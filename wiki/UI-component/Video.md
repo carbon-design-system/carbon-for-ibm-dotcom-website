@@ -49,7 +49,7 @@ The [[Video]] component utilizes the embeddable Kaltura player <sup>[[r2](#resou
 | with lightbox media viewer | Clicking on `Poster image` | Open LightBoxMediaViewer and video will begin playing. |
 
 
-## Logic
+## Logics
 
 ### Default variant
 
