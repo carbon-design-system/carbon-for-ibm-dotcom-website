@@ -3,9 +3,9 @@
 The [[Video]] component utilizes the embeddable Kaltura player <sup>[[r2](#resources)]</sup> to play video either on page or in [[Lightbox media viewer]]. Video allows custom override of all content returned by the [[Video service]] except video duration.
 
 
-![video-default](https://images.zenhubusercontent.com/5be09c3a6102900c6d16d991/9d88cebd-bee8-4013-8bea-7389cd9c792d)
+![video-inline](https://images.zenhubusercontent.com/5be09c3a6102900c6d16d991/f12785fc-4133-4ac0-a959-4c5fb2fdfa0b)
 
-![video-lightbox](https://images.zenhubusercontent.com/5be09c3a6102900c6d16d991/31dbb15f-5bcd-4e5f-9628-f187335a4813)
+![video-lightbox](https://images.zenhubusercontent.com/5be09c3a6102900c6d16d991/34415287-2c8a-486e-98e5-a2d26cc47f12)
 
 <hr width="40%" />
 
@@ -80,7 +80,7 @@ Poster image should always obeys aspect ratios: 16x9, 9x16, 2x1, 1x2, 4x3, 3x4, 
 
 ### 3. Lightbox Media Viewer
 
-#### 3.1 Heading
+#### 3.A Heading
 
 ##### Logic
 
@@ -90,7 +90,7 @@ Poster image should always obeys aspect ratios: 16x9, 9x16, 2x1, 1x2, 4x3, 3x4, 
 | Text | Adding a custom caption overrides the API call. |
 
 
-#### 3.1 Copy
+#### 3.B Copy
 
 ##### Logic
 
