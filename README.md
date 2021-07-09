@@ -12,7 +12,7 @@ If you are a publisher and would like to make content changes, you can read more
 
 ## Publishing
 
-Changes are currently auto-published to https://www.ibm.com/standards/web/carbon-for-ibm-dotcom once changes are merged back to the `main` branch. Previews can also be viewed once a pull request is created.
+Changes are currently auto-published to https://www.ibm.com/standards/carbon once changes are merged back to the `main` branch. Previews can also be viewed once a pull request is created.
 
 ## Resources
 
