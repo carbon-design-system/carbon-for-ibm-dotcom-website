@@ -1,6 +1,7 @@
 <!-- category start --><!-- category end -->
 
-The [[Video]] component utilizes the embeddable Kaltura player <sup>[[r2](#resources)]</sup> to play video either on page or in [[Lightbox media viewer]].
+The [[Video]] component utilizes the embeddable Kaltura player <sup>[[r2](#resources)]</sup> to play video either on page or in [[Lightbox media viewer]]. Video allows custom override of all content returned by the [[Video service]] except video duration.
+
 
 ![image](https://user-images.githubusercontent.com/3793636/119056886-12b23f00-b991-11eb-8bbc-e74e60c687e1.png)
 
@@ -39,67 +40,59 @@ The [[Video]] component utilizes the embeddable Kaltura player <sup>[[r2](#resou
 
 <hr width="40%" />
 
-## Functions
 
-| Variants | Interaction | Functions |
-| -------- | ----------- | --------- |
-| Default | Clicking on `Poster image` | Poster image is replaced with Kaltura video player and video will begin playing. |  
-| with lightbox media viewer | Clicking on `Poster image` | Open LightBoxMediaViewer and video will begin playing. |
+### 1. Caption
 
-
-## Logics
-
-### Default variant
-
-Video allows custom override of all content returned by the [[Video service]] except video duration.
-
-| ID  | Field |
-| --- | ----- |
-| 1   | Caption |
-| 2   | Poster image |
-| 3   | Poster image alt tag |
-
-##### 1. Caption
+##### Logic
 
 | Condition | Description |
 | --------- | ----------- |
 | `undefined` | Video name prefilled by [[Video service]]. Duration is appended after name in parenthesis. |
 | Text | Adding a custom caption overrides the API call. Duration is appended after custom caption in parenthesis. |
 
-##### 2. Poster image
+### 2. Poster image
 
 Poster image should always obeys aspect ratios: 16x9, 9x16, 2x1, 1x2, 4x3, 3x4, 1x1.
 
+###### Logic
+
 | Condition | Description |
 | --------- | ----------- |
-| `undefined` | Poster image prefilled by [[Video service]] |
+| `undefined` | Poster image prefilled by [[Video service]]. |
 | Image | Adding a custom poster image overrides the API call. |
 
-##### 3. Poster image alt tag
+###### Events
 
-| Condition | Description |
-| --------- | ----------- |
-| `undefined` | Video description prefilled by [[Video service]]. |
-| Text | Adding a custom alt tag description overrides the API call. |
+| Events | Description |
+| ------ | ----------- |
+| onClick | Plays video |  
 
 
-### with Lightbox media viewer variant
+###### Properties & values
 
-| ID  | Field |
-| --- | ----- |
-| 4   | Heading |
-| 5   | Body copy |
+| Name | Description |
+| ----- | ----- |
+| `playing-mode` | Inline (default) replaces poster image. Lightbox opens LightBoxMediaViewer <sup>[[3](#3-lightbox-media-viewer)]</sup>. |  
+| `aspect-ratio` | 16x9 (default), 9x16, 2x1, 1x2, 4x3, 3x4, 1x1 |
 
-##### 4. Heading
+
+### 3. Lightbox Media Viewer
+
+#### 3.1 Heading
+
+##### Logic
 
 | Condition | Description |
 | --------- | ----------- |
 | `undefined` | Video name prefilled by [[Video service]]. |
-| Text | Adding a custom heading overrides the API call. |
+| Text | Adding a custom caption overrides the API call. |
 
-##### 5. Body copy
+
+#### 3.1 Copy
+
+##### Logic
 
 | Condition | Description |
 | --------- | ----------- |
 | `undefined` | Video description prefilled by [[Video service]]. |
-| Text | Adding a custom description overrides the API call. |
+| Text | Adding a custom caption overrides the API call. |
