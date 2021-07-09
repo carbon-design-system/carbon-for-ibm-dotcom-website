@@ -46,10 +46,12 @@ The [[Video]] component utilizes the embeddable Kaltura player <sup>[[r2](#resou
 | Variants | Interaction | Functions |
 | -------- | ----------- | --------- |
 | Default | Clicking on `Poster image` | Poster image is replaced with Kaltura video player and video will begin playing. |  
-| with lightbox media viewer | Clicking on `Poster image` | Open LightBoxMediaViewer and video begin playing |
+| with lightbox media viewer | Clicking on `Poster image` | Open LightBoxMediaViewer and video will begin playing. |
 
 
-## Logic - Default
+## Logic
+
+### Default variant
 
 Video allows custom override of all content returned by the [[Video service]] except video duration.
 
@@ -85,7 +87,7 @@ Poster image should always obeys aspect ratios: 16x9, 9x16, 2x1, 1x2, 4x3, 3x4, 
 | Text | Adding a custom alt tag description overrides the API call. |
 
 
-## Logic - with Lightbox media viewer
+### with Lightbox media viewer variant
 
 | ID  | Field |
 | --- | ----- |
