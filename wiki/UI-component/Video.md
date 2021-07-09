@@ -13,6 +13,7 @@ The [[Video]] component utilizes the embeddable Kaltura player <sup>[[r2](#resou
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
+- [[Video service]]
 - [[Lightbox media viewer]]
 - [[Image]]
 - Kaltura player
@@ -40,111 +41,70 @@ The [[Video]] component utilizes the embeddable Kaltura player <sup>[[r2](#resou
 
 <hr width="40%" />
 
-## 1. Data & content
+## Functions
 
-The video component intakes a Kaltura player <sup>[[r2](#resources)]</sup> `videoId` and fetches the following data to be rendered on page as content. All of these content can be customized except the video duration.
+| Variants | Interaction | Functions |
+| -------- | ----------- | --------- |
+| Default | Clicking on `Poster image` | Poster image is replaced with Kaltura video player and video will begin playing. |  
+| with lightbox media viewer | Clicking on `Poster image` | Open LightBoxMediaViewer and video begin playing |
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  Check out the Kaltura player <sup>[[r2](#resources)]</sup> for more information
 
-| Data name | Type | Allows override |
-| --------- | ---- | --------------- |
-| Name | Text | Yes |
-| Description | Text | Yes |
-| Duration | Number | No |
-| Poster image | Image | Yes |
+## Logic - Default
 
-## 2. Rendering & behavior
-
-[[Video]] is used in the following components. Depending on the visual design and content requirement of the final component rendered, the above data is used differently.
-
-### Video
-
-This is the default rendering of [[Video]]. It is used for embedding a Kaltura player <sup>[[r2](#resources)]</sup> directly in the page.
+Video allows custom override of all content returned by the [[Video service]] except video duration.
 
 ![video](https://user-images.githubusercontent.com/15144993/123469683-5cf69380-d5c1-11eb-844f-39e26678c961.png)
 
-| ID  | Data name     | Field |
-| --- | ------------- | ----- |
-| 1   | Name   | Caption |
-| 2   | Duration | appended after caption in parenthesis |
-| 3   | Description | Poster image alt tag |
-| 4   | Poster image | Image |
+| ID  | Field |
+| --- | ----- |
+| 1   | Caption |
+| 2   | Poster image |
+| 3   | Poster image alt tag |
 
-Interactions
+##### 1. Caption
 
-| ID  | Element name | Event | Behavior | Notes |
-| --- | ------------ | ----- | -------- | ----- |
-| 1   | Poster image | On Click or On Enter key of link | Poster image will be replaced by Kaltura video player that will begin playing <br /> Alternative option to open in LightBoxMediaViewer. | Poster image obeys aspect ratios: 16x9, 9x16, 2x1, 1x2, 4x3, 3x4, 1x1 |
+| Condition | Description |
+| --------- | ----------- |
+| `undefined` | Video name prefilled by [[Video service]]. Duration is appended after name in parenthesis. |
+| Text | Adding a custom caption overrides the API call. Duration is appended after custom caption in parenthesis. |
 
-### CTA - Text
+##### 2. Poster image
 
-![CTA - Text](https://user-images.githubusercontent.com/15144993/123468111-523aff00-d5bf-11eb-8ef1-2f05c0de29c6.png)
+Poster image should always obeys aspect ratios: 16x9, 9x16, 2x1, 1x2, 4x3, 3x4, 1x1.
 
-| ID  | Data name     | Field |
-| --- | ------------- | ----- |
-| 1   | Name | CTA text |
-| 2   | Duration | appended after CTA text in parenthesis |
+| Condition | Description |
+| --------- | ----------- |
+| `undefined` | Poster image prefilled by [[Video service]] |
+| Image | Adding a custom poster image overrides the API call. |
 
-Interactions
+##### 3. Poster image alt tag
 
-| ID  | Element name | Event | Behavior |
-| --- | ------------ | ----- | -------- |
-| 1   | CTA - Text | On Click or On Enter key of link | Open video in LightBoxMediaViewer. |
-
-
-### CTA - Button
-
-![CTA - Button](https://user-images.githubusercontent.com/15144993/123468110-523aff00-d5bf-11eb-9b1d-0c65f082d482.png)
-
-###### Data
-| ID  | Data name     | Field |
-| --- | ------------- | ----- |
-| 1   | Name | Button label |
-| 2   | Duration | appended after Button label in parenthesis |
-
-Interactions
-
-| ID  | Element name | Event | Behavior |
-| --- | ------------ | ----- | -------- |
-| 1   | CTA - Button | On Click or On Enter key of button | Open video in LightBoxMediaViewer. |
+| Condition | Description |
+| --------- | ----------- |
+| `undefined` | Video description prefilled by [[Video service]]. |
+| Text | Adding a custom alt tag description overrides the API call. |
 
 
-### CTA - Card
+## Logic - with Lightbox media viewer
 
-![CTA - Card](https://user-images.githubusercontent.com/15144993/123468108-51a26880-d5bf-11eb-93a0-c23ef1c8216b.png)
+| ID  | Field |
+| --- | ----- |
+| 4   | Heading |
+| 5   | Body copy |
 
-###### Logic
-| ID  | Data name     | Field |
-| --- | ------------- | ----- |
-| 1   | Name | Card text |
-| 2   | Description | Card body copy |
-| 3   | Duration | CTA text | No |
-| 4   | Poster image | Image |
+##### 4. Heading
 
-###### Logic
+| Condition | Description |
+| --------- | ----------- |
+| `undefined` | Video name prefilled by [[Video service]]. |
+| Text | Adding a custom heading overrides the API call. |
 
-| ID  | Element name | Event | Behavior |
-| --- | ------------ | ----- | -------- |
-| 1   | CTA - Card   | On Click or On Enter key of card | Open video in LightBoxMediaViewer. |
+##### 5. Body copy
 
-
-### Lightbox media viewer
-
-![Lightbox](https://user-images.githubusercontent.com/15144993/123468106-5109d200-d5bf-11eb-8556-828dc20b5ccd.png)
-
-| ID  | Data name     | Field |
-| --- | ------------- | ----- |
-| 1   | Name | Lightbox headline |
-| 2   | Description | Lightbox body copy |
-| 3   | Poster image | Image |
-
-Interactions
-
-| ID  | Element name | Event | Behavior |
-| --- | ------------ | ----- | -------- |
-| 1   | LightboxMediaViewer | On open | Begins playing video |
-| 2   | Kaltura embedded video | See [standard Kaltura Player functionality](http://player.kaltura.com/docs/main) | Contains all available functionality of the standard Kaltura Player |
-| 3   | LightboxMediaViewer | On close | Stops playing video |
+| Condition | Description |
+| --------- | ----------- |
+| `undefined` | Video description prefilled by [[Video service]]. |
+| Text | Adding a custom description overrides the API call. |
 
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
