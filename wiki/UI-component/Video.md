@@ -1,6 +1,6 @@
 <!-- category start --><!-- category end -->
 
-The [[Video]] component utilizes the embeddable Kaltura player <sup>[[r2](#resources)]</sup>, as well as an initial state that includes either a poster image with corresponding meta data where the user clicks to view the video, or an inline link with meta data where the user clicks and will open a [[Lightbox media viewer]] with the embedded Kaltura player <sup>[[r2](#resources)]</sup>.
+The [[Video]] component by default uses the embeddable Kaltura player <sup>[[r2](#resources)]</sup> to play video either on page or in [[Lightbox media viewer]].
 
 ![image](https://user-images.githubusercontent.com/3793636/119056886-12b23f00-b991-11eb-8bbc-e74e60c687e1.png)
 
