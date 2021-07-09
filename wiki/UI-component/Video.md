@@ -55,8 +55,6 @@ The [[Video]] component utilizes the embeddable Kaltura player <sup>[[r2](#resou
 
 Video allows custom override of all content returned by the [[Video service]] except video duration.
 
-![video](https://user-images.githubusercontent.com/15144993/123469683-5cf69380-d5c1-11eb-844f-39e26678c961.png)
-
 | ID  | Field |
 | --- | ----- |
 | 1   | Caption |
