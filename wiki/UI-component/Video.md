@@ -3,7 +3,9 @@
 The [[Video]] component utilizes the embeddable Kaltura player <sup>[[r2](#resources)]</sup> to play video either on page or in [[Lightbox media viewer]]. Video allows custom override of all content returned by the [[Video service]] except video duration.
 
 
-![image](https://user-images.githubusercontent.com/3793636/119056886-12b23f00-b991-11eb-8bbc-e74e60c687e1.png)
+![video-default](https://images.zenhubusercontent.com/5be09c3a6102900c6d16d991/9d88cebd-bee8-4013-8bea-7389cd9c792d)
+
+![video-lightbox](https://images.zenhubusercontent.com/5be09c3a6102900c6d16d991/31dbb15f-5bcd-4e5f-9628-f187335a4813)
 
 <hr width="40%" />
 
