@@ -2,8 +2,6 @@
 
 The [[Video]] component utilizes the embeddable Kaltura player <sup>[[r2](#resources)]</sup>, as well as an initial state that includes either a poster image with corresponding meta data where the user clicks to view the video, or an inline link with meta data where the user clicks and will open a [[Lightbox media viewer]] with the embedded Kaltura player <sup>[[r2](#resources)]</sup>.
 
-> ![image](https://user-images.githubusercontent.com/3793636/117874180-493bdb80-b266-11eb-8945-dde0d95431d6.png) Should this component be broken down, and depend on the [[video service]]?
-
 ![image](https://user-images.githubusercontent.com/3793636/119056886-12b23f00-b991-11eb-8bbc-e74e60c687e1.png)
 
 <hr width="40%" />
@@ -105,6 +103,3 @@ Poster image should always obeys aspect ratios: 16x9, 9x16, 2x1, 1x2, 4x3, 3x4, 
 | --------- | ----------- |
 | `undefined` | Video description prefilled by [[Video service]]. |
 | Text | Adding a custom description overrides the API call. |
-
-
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
