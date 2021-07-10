@@ -1,6 +1,6 @@
 `Core` <!-- category start --><!-- category end -->
 
-The [[Content block]] is a reusable core component used to help you build more complex patterns by placing them within the grid or a [[Content section]]. Many of the options available at this level are optional providing you with more flexibility.
+The [[Content block]] is a reusable core component used to help you build more complex patterns by placing them within the [[Carbon 2x grid]] or a [[Content section]]. Many of the options available at this level are optional providing you with more flexibility.
 
 <!-- ![image](https://user-images.githubusercontent.com/3793636/119082616-0eebe000-b9c4-11eb-8e2a-fcabf8dad107.png) -->
 
@@ -49,15 +49,24 @@ The [[Content block]] is a reusable core component used to help you build more c
 
 `optional` `string`
 
-An optional short `String` of text to indicate a change in topic. 
+An optional short `String` of text to indicate a change in topic at an `H2` heading level. 
 
 <br />[Back to top](#wiki-wrapper)<br /><br /><br />
 
 ### 2. Copy
 
-`optional` `string`
+`optional` `markdown`
 
 An optional `String` of text formatted using the [[Markdown utility]]. It provides the component with a high level overview of its content.
+
+###### Only include
+
+> All other options should be ignored.
+
+|        | props      | description |
+|:-------|:-----------|:------------|
+| `2.1`  | `*italic*` | The italic option should be included. |
+| `2.2`  | `<p>new line</p>` | The new line paragraph feature should be included. |
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See [[Markdown utility]] for more information.
 
@@ -85,7 +94,7 @@ An optional [[CTA]] that allows a user to navigate to related content.
 |        | props      | values       |
 |:-------|:-----------|:-------------|
 | `4.1`  | `type`     | All types    |
-| `4.2`  | `style`    | All styles   |
+| `4.2`  | `style`    | All styles except for `card`   |
 
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See [[CTA]] for more information.
@@ -107,14 +116,14 @@ An optional secondary container for child components, and other content types. T
 
 
 ###### Example
-![content-block-aside](https://user-images.githubusercontent.com/3793636/121601417-88974c80-ca0b-11eb-9b6b-1e02f1596b02.gif)
+![content-block-aside](https://user-images.githubusercontent.com/3793636/121902980-72c8a680-cced-11eb-8635-1531dff0b4e2.gif)
 
 
 #### 5.3 Layout
 
-`component`
+`built-in` `component`
 
-If rendered the [[Layout]] component helps lay the main content and the Aside <sup>[[5](#5-aside)]</sup> container next to each other properly within the grid.
+If rendered the [[Layout]] component helps lay the main content and the Aside <sup>[[5](#5-aside)]</sup> container next to each other properly within the [[Carbon 2x grid]].
 
 ###### Properties and values
 

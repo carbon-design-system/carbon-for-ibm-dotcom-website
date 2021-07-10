@@ -7,7 +7,7 @@ For anyone interested in contributing to the Carbon for IBM.com website, we foll
 2. For this site, Gatsby Theme with Markdown is used. Reference this page for details: [markdown cheatsheet](https://gatsby-theme-carbon.now.sh/components/markdown/). 
 2. Create your content, images, etc.
 3. Submit a PR to the `carbon-for-ibm-dotcom-website`.
-4. View the [Contribution overview page](https://www.ibm.com/standards/web/carbon-for-ibm-dotcom/contributions/overview) for contribution details.
+4. View the [Contribution overview page](https://www.ibm.com/standards/carbon/contributions/overview) for contribution details.
 
 ----------------
 
@@ -47,10 +47,10 @@ We support four image sizes based on type:
 
 | SIZE | WIDTH | TYPE |  EXAMPLE |
 |------- |---------|---------|---------|
-| Large/lg    | 1120px    | Wide format images and larger components (Ex. Masthead)      |  Masthead/ Masthead Level 0 image: https://www.ibm.com/standards/web/carbon-for-ibm-dotcom/components/masthead |
-| Medium/md    | 736px    | Full width image       |  Card/Default image: https://www.ibm.com/standards/web/carbon-for-ibm-dotcom/components/card |
+| Large/lg    | 1120px    | Wide format images and larger components (Ex. Masthead)      |  Masthead/ Masthead Level 0 image: https://www.ibm.com/standards/carbon/components/masthead |
+| Medium/md    | 736px    | Full width image       |  Card/Default image: https://www.ibm.com/standards/carbon/components/card |
 | Small/sm    | 448px    | Half width image, and cropped images  |   -  |
-| Extra small/xs    | 352px    | Half width image, ex-small components. Usually a 2 up do/don't pair|  Layout/2X Grid do/don't images:https://www.ibm.com/standards/web/carbon-for-ibm-dotcom/guidelines/layout |
+| Extra small/xs    | 352px    | Half width image, ex-small components. Usually a 2 up do/don't pair|  Layout/2X Grid do/don't images:https://www.ibm.com/standards/carbon/guidelines/layout |
 
 
 Please export images at 2x size to support retina displays.
