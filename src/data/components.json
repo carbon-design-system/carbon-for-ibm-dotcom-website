@@ -1193,6 +1193,33 @@
         "notAvailable": false
       }
     },
+    "Feature section": {
+      "url": "./feature-section",
+      "designLink": "https://ibm.box.com/s/pffea4dd5aug4m3v6za7ewjd1metosg8",
+      "description": "Feature section is a dedicated section for a single story.",
+      "storybook": {
+        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-feature-section--default",
+        "react": ""
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": true,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": true
+      }
+    },
     "Feature card block": {
       "url": "./feature-card-block",
       "designLink": false,
