@@ -107,8 +107,8 @@
       path: /components/expressive-modal
     - title: Feature card
       path: /components/feature-card
-    - title: Feature card block
-      path: /components/feature-card-block
+    - title: Feature section
+      path: /components/feature-section
     - title: Filter panel
       path: /components/filter-panel
     - title: Footer
