@@ -1,5 +1,5 @@
 ---
-title: Carbon CDN Style Helpers
+title: Carbon CDN style helpers
 description: In order to minimize the necessity of using front-end bundlers with the Carbon for IBM.com Web Components CDN artifacts, page level styles artifacts are also available to use.
 ---
 
