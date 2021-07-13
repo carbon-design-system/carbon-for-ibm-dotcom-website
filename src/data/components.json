@@ -1220,34 +1220,6 @@
         "notAvailable": true
       }
     },
-    "Feature card block": {
-      "url": "./feature-card-block",
-      "designLink": false,
-      "functionalLink": false,
-      "description": "Feature card block is used to present information with a group of cards.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-feature-card-block-medium--default",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-featurecardblockmedium--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": true,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
     "Layout": {
       "url": "./layout",
       "designLink": false,

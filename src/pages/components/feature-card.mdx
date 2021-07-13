@@ -11,6 +11,7 @@ import ComponentFooter from "components/ComponentFooter";
 <AnchorLinks>
 
 <AnchorLink>Default</AnchorLink>
+<AnchorLink>Content guidance</AnchorLink>
 <AnchorLink>Design and functional specifications</AnchorLink>
 <AnchorLink>Development documentation</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
@@ -19,14 +20,59 @@ import ComponentFooter from "components/ComponentFooter";
 
 ## Default
 
-Feature card consists of an image, heading, and CTA (call-to-action).
+Feature card is used for highlighting a piece of content on page. It should be used sparingly to be effective.
+
+Feature card has two sizes: medium and large. Medium is the default size, occupying 8 columns and consisting of an image, heading, and CTA (call-to-action). The large feature card occupies 12 columns and allows for the addition of an eyebrow as well as body copy. 
 
 <Row>
-<Column colMd={8} colLg={8}>
+<Column colMd={6} colLg={8}>
 
-![Image of Table of contents component](../../images/component/feature-card/feature-card-default.jpg)
+![Image of Feature card - medium](../../images/component/feature-card/feature-card--md.png)
+
+<Caption>Example of a medium feature card with image, heading, and CTA</Caption>
 
 </Column>
 </Row>
+
+<Row>
+<Column colMd={12} colLg={12}>
+
+![Image of Feature card - large](../../images/component/feature-card/feature-card--lg.png)
+
+<Caption>Example of a large feature card with image, eyebrow, heading, body copy, and CTA</Caption>
+
+</Column>
+</Row>
+
+
+
+## Content guidance
+
+### Feature card -- medium
+
+| Field                                                                   | Field type  | Required | Cardinality | Max character size (English / translated) |
+| ----------------------------------------------------------------------- | ----------- | -------- | ----------- | ----------------------------------------- |
+| Heading                                                                 | Short copy  | Yes      | 1           | XS (65 / 85)                              |
+| Image                                                                   | Media       | Yes      | 1           | –                                         |
+| URL                                                                     | Link        | Yes      | 1           | –                                         |
+| [Type](https://www.ibm.com/standards/carbon/components/cta) (ex. Local) | Option list | Yes      | 1           | –                                         |
+
+
+### Feature card -- large
+
+| Field                                                                   | Field type  | Required | Cardinality | Max character size (English / translated) |
+| ----------------------------------------------------------------------- | ----------- | -------- | ----------- | ----------------------------------------- |
+| Eyebrow                                                                 | Short copy  | No       | 1           | Mini (25 / 35)                            |
+| Heading                                                                 | Short copy  | Yes      | 1           | XS (65 / 85)                              |
+| Copy                                                                    | Long copy   | No       | 1           | LL (200 / 260)                            |
+| Image                                                                   | Media       | Yes      | 1           | –                                         |
+| URL                                                                     | Link        | Yes      | 1           | –                                         |
+| [Type](https://www.ibm.com/standards/carbon/components/cta) (ex. Local) | Option list | Yes      | 1           | –                                         |
+
+
+To see the list of all character count standards, go to this <a href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards" target="_blank">link</a>.
+
+<br />
+
 
 <ComponentFooter name="Feature card" type="ui" />
