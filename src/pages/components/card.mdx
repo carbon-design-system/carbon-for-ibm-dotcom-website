@@ -19,29 +19,59 @@ import ComponentFooter from "components/ComponentFooter";
 </AnchorLinks>
 
 ## Default
-The default Card is a simple text-based card. It includes a main title, optional eyebrow, body copy, and CTA (call-to-action). The Card can be used to create other card-based components such as [Content group cards](https://www.ibm.com/standards/carbon/components/content-group-cards) and [Card section](https://www.ibm.com/standards/carbon/components/card-section).
+The Card is the work horse of many page types. The default Card includes a heading, optional eyebrow, optional copy, optional media, and CTA (call-to-action). By adding and removing optional content, Card can appear as a wide variety of designs. Card can be used to create other card-based components such as [Content group cards](https://www.ibm.com/standards/carbon/components/content-group-cards) and [Card section](https://www.ibm.com/standards/carbon/components/card-section).
+
 
 <Row>
 <Column colMd={8} colLg={8}>
 
-![Image of Card component](../../images/component/card/card-component-default.jpg)
+![Image of Card component](../../images/component/card/card-default-variations.png)
+
+<Caption>Example Cards with varying content configurations</Caption>
 
 </Column>
 </Row>
 
-<br />
 
 ## Variations
 
-### With image
-The Card can also include an image. In this variation, the image appears above the text and is set to 4:3 aspect ratio. This variation can be used to create other card-based components such as Card group images.
+### With pictogram
+
+Card with pictograms features a pictogram element. It can improve the user experience when paired with content that has common visual associations. In addition, pictograms provide a lot of visual interest and can improve the overall page. However, keep im mind meanings of pictograms can differ heavily across cultures, and should be used carefully.
+
+Cards with pictogram allows for two pictogram positioning: top aligned or bottom aligned.
 
 <Row>
 <Column colMd={8} colLg={8}>
 
-![Image of Card component](../../images/component/card/card-component-image.jpg)
+![Image of Card component](../../images/component/card/card-pictogram.png)
+
+<Caption>Example Cards with pictogram</Caption>
 
 </Column>
 </Row>
+
+
+#### Bottom aligning pictogram
+
+Bottom aligning pictogram ensures that the card heading is the first element read, which helps with messaging when it is not immediately deciferable from the pictogram.
+
+When this card is set to have bottom aligned pictogram, it has the bonus feature of showing copy on hover. Keep in mind should you choose to have additional copy on hover, the pictogram will be hidden on mobile in order to keep the copy visible.
+
+<Row>
+<Column colMd={8} colLg={8}>
+
+![Image of Card component](../../images/component/card/card-pictogram-motion.gif)
+
+<Caption>Left: Cards with bottom aligned pictogram. Right: card with top aligned pictogram</Caption>
+
+</Column>
+</Row>
+
+
+#### Top aligning pictogram
+
+Top aligning pictogram should only be used when the pictogram is strongly and precisely associated with the card heading. For example, an airplane for "Aerospace and defence".
+
 
 <ComponentFooter name="Card" type="ui" />
