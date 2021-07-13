@@ -1,7 +1,7 @@
 
 <!-- toc start --><!-- toc end -->
 
-### This is the standard publishing process for the [IBM.com Library website](https://www.ibm.com/standards/web/ibm-dotcom-library/)
+### This is the standard publishing process for the [Carbon for IBM.com website](https://www.ibm.com/standards/carbon/)
 
 ### Resources
 - Idea and retro Mural board for publishing is [here](https://app.mural.co/t/digitaldesignsystemsquadwork2176/m/digitaldesignsystemsquadwork2176/1596216481914/86a1304ba4b3b616e89738e5813215f8cd021dbe)
