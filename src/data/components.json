@@ -30,7 +30,7 @@
     "Button group": {
       "url": "./button-group",
       "designLink": "https://ibm.box.com/s/wwod5e4ouuhgnkppx78zxh0nnvwze0k1",
-      "description": "The Button group component is to be utilized within IBM.com for grouping two or more Button components together and sets all buttons to the same width.",
+      "description": "Button group is used for grouping two or more button components together and sets all buttons to the same width.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-button-group--default",
         "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-buttongroup--default"
@@ -652,7 +652,7 @@
     },
     "Tag link": {
       "url": "./tag-link",
-      "description": "This is a clickable tag that can link the topic for more information",
+      "description": "Tag link is a clickable tag that links the topic to another page with more information.",
       "storybook": {
         "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-tag-link--default",
         "react": "https://ibmdotcom-web-components-react.mybluemix.net/?path=/story/components-tag-link--default"
@@ -679,7 +679,7 @@
     "Video": {
       "url": "./video",
       "designLink": "https://ibm.box.com/s/9q7rdj73m32hufcw1xwl1td6nr88rghm",
-      "description": "Video allows you as an adopter to embed Kaltura videos from the media center in various ways throughout a page.",
+      "description": "Video allows you to embed Kaltura videos from the media center in various ways throughout a page.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-video-player--default",
         "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-videoplayer--default"
@@ -844,7 +844,7 @@
     "Card section carousel": {
       "url": "./card-section-carousel/",
       "designLink": "https://ibm.box.com/s/wyj5uboppri7nc3gn4v1f7ft80qc5eir",
-      "description": "The Card section carousel is an exploratory component, meaning it allows users to browse or explore multiple pieces of content within the same area of the page.",
+      "description": "Card section carousel is an exploratory component, meaning it allows users to browse or explore multiple pieces of content within the same area of the page.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-card-section-carousel--default",
         "react": ""
@@ -1250,7 +1250,7 @@
     "Lead space": {
       "url": "./leadspace",
       "designLink": "https://ibm.box.com/s/d9jey3rlfxqmxu059f0x9dtcx7f5ehuh",
-      "description": "The purpose of a lead space is to help the users understand where they landed, and what type of content they are going to find on the webpage. It will always be positioned at the top.",
+      "description": "Lead space sets context and helps users understand what type of content they are going to find on the webpage. It is always positioned at the top.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-leadspace--default-with-no-image",
         "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-leadspace--default-with-no-image"
@@ -1331,7 +1331,7 @@
     "Pictogram item": {
       "url": "./pictogram-item",
       "designLink": "https://ibm.box.com/s/kjio8inhxhkmf7245l2wccp8zsivka9l",
-      "description": "The Pictogram item component is used to communicate messages at a glance, afford interactivity, and simplify complex ideas.",
+      "description": "Pictogram item is used to communicate messages at a glance, afford interactivity, and simplify complex ideas.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-pictogram-item--default",
         "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-pictogramitem--default"
@@ -1358,7 +1358,7 @@
     "Table of contents": {
       "url": "./table-of-contents",
       "designLink": "https://ibm.box.com/s/yfuicifhfeaefp4rl0pp62dpeacr18ry",
-      "description": "The Table of contents component allows users to quickly navigate through long pages by providing jump links to different sections of the content within a single page.",
+      "description": "The table of contents component allows users to quickly navigate through long pages by providing jump links to different sections of the content within a single page.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-table-of-contents--default",
         "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-table-of-contents--manually-define-menu-items"
