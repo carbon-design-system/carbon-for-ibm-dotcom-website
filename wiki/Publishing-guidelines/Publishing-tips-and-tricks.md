@@ -7,7 +7,7 @@ Here are some tips and tricks for using the Gatsby theme.
 
 Instead of using the full URL string:
 
-`[Related components](https://www.ibm.com/standards/web/carbon-for-ibm-dotcom//patterns/lead-space#related-components-and-patterns)`
+`[Related components](https://www.ibm.com/standards/carbon/patterns/lead-space#related-components-and-patterns)`
 
 simply use the last hash-tag segment:
 

@@ -1,10 +1,9 @@
-<!-- category start --><!-- category end -->
+`core` <!-- category start --><!-- category end -->
 
-The [[Video]] component utilizes the embeddable Kaltura player <sup>[[r2](#resources)]</sup>, as well as an initial state that includes either a poster image with corresponding meta data where the user clicks to view the video, or an inline link with meta data where the user clicks and will open a [[Lightbox media viewer]] with the embedded Kaltura player <sup>[[r2](#resources)]</sup>.
+The [[Video]] component utilizes the embeddable Kaltura player <sup>[[r2](#resources)]</sup> to play video either on page or in [[Lightbox media viewer]]. Video allows custom override of all content returned by the [[Video service]] except video duration.
 
-> ![image](https://user-images.githubusercontent.com/3793636/117874180-493bdb80-b266-11eb-8945-dde0d95431d6.png) Should this component be broken down, and depend on the [[video service]]?
 
-![image](https://user-images.githubusercontent.com/3793636/119056886-12b23f00-b991-11eb-8bbc-e74e60c687e1.png)
+![video-inline](https://images.zenhubusercontent.com/5be09c3a6102900c6d16d991/f12785fc-4133-4ac0-a959-4c5fb2fdfa0b)
 
 <hr width="40%" />
 
@@ -13,17 +12,19 @@ The [[Video]] component utilizes the embeddable Kaltura player <sup>[[r2](#resou
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
+- [[Video service]]
 - [[Lightbox media viewer]]
-- Kaltura player
+- [[Image]]
+- Kaltura player <sup>[[r2](#resources)]</sup>
 
 <br />
 </details>
 
-<!-- usedby start open="true" -->
+<!-- usedby start -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start open="true" -->
+<!-- backlinks start -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 
@@ -31,7 +32,7 @@ The [[Video]] component utilizes the embeddable Kaltura player <sup>[[r2](#resou
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
-- r1: [Box folder](https://ibm.ent.box.com/folder/108837570522)
+- r1: [Box folder](https://ibm.box.com/s/9q7rdj73m32hufcw1xwl1td6nr88rghm)
 - r2: [Kaltura player](http://player.kaltura.com/docs/api)
 
 <br />
@@ -39,6 +40,75 @@ The [[Video]] component utilizes the embeddable Kaltura player <sup>[[r2](#resou
 
 <hr width="40%" />
 
-<br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+### 1. Caption
+`optional` `string`
+
+###### Logic
+
+| | Condition | Description |
+|:--- |:--------- |:----------- |
+| `1.1` | `undefined (default)` |Caption prefilled by [[Video service]]'s provided name. |
+| `1.2` | `String` provided | Adding a custom caption overrides the API call. |
+
+> Duration is appended after string of text in parenthesis. (e.g. `caption string (duration)`)
+
+<br />[Back to top](#wiki-wrapper)<br /><br /><br />
+
+### 2. Poster image
+`required` `component`
+
+###### Logic
+
+| | Condition | Description |
+|:--- |:--------- |:----------- |
+| `2.1` | `undefined (default)` | Poster [[Image]] <sup>[[2](#2-poster-image)]</sup> prefilled by [[Video service]]'s provided image. |
+| `2.1` | [[Image]] | Adding a custom Poster [[Image]] <sup>[[2](#2-poster-image)]</sup> overrides the API call. |
+
+###### Events
+
+| | Events | Description |
+|:--- |:------ |:----------- |
+| `2.3` | `onClick` | Plays video when clicked |  
+
+
+###### Properties & values
+
+| | Name | Description |
+|:-- |:----- |:----- |
+| `2.4` | `playing-mode` | `Inline (default)` replaces Poster [[Image]] <sup>[[2](#2-poster-image)]</sup>.<br /> `Lightbox` opens [[Lightbox media viewer]] <sup>[[3](#3-lightbox-media-viewer)]</sup>. |  
+| `2.5` | `aspect-ratio` | `16x9 (default)`, `9x16`, `2x1`, `1x2`, `4x3`, `3x4`, `1x1` |
+
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See [[Image]] for more information.
+
+<br />[Back to top](#wiki-wrapper)<br /><br /><br />
+
+
+### 3. Lightbox media viewer
+`optional` `component`
+
+<img src="https://images.zenhubusercontent.com/5be09c3a6102900c6d16d991/34415287-2c8a-486e-98e5-a2d26cc47f12" width="400px" />
+
+#### 3.A Heading
+
+##### Logic
+
+| | Condition | Description |
+|:-- |:--------- |:----------- |
+| `3.A.1` | `undefined (default)` | [[Lightbox media viewer]]'s heading is prefilled by [[Video service]]'s provided name. |
+| `3.A.2` | `String` provided | Adding a custom caption overrides the API call. |
+
+
+#### 3.B Copy
+
+##### Logic
+
+|   | Condition | Description |
+|-- | --------- | ----------- |
+| `3.B.1` | `undefined (default)` | [[Lightbox media viewer]]'s copy is prefilled by [[Video service]]'s provided description. |
+| `3.B.2` | `String` provided | Adding custom copy overrides the API call. |
+
+
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See [[Lightbox media viewer]] for more information.
+
+<br />[Back to top](#wiki-wrapper)<br /><br /><br />
