@@ -1193,14 +1193,13 @@
         "notAvailable": false
       }
     },
-    "Feature card block": {
-      "url": "./feature-card-block",
-      "designLink": false,
-      "functionalLink": false,
-      "description": "Feature card block is used to present information with a group of cards.",
+    "Feature section": {
+      "url": "./feature-section",
+      "designLink": "https://ibm.box.com/s/pffea4dd5aug4m3v6za7ewjd1metosg8",
+      "description": "Feature section is a dedicated section for a single story.",
       "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-feature-card-block-medium--default",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-featurecardblockmedium--default"
+        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-feature-section--default",
+        "react": ""
       },
       "webcomponents": {
         "stable": true,
@@ -1212,13 +1211,13 @@
         "notAvailable": false
       },
       "react": {
-        "stable": true,
+        "stable": false,
         "experimental": false,
         "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
-        "notAvailable": false
+        "notAvailable": true
       }
     },
     "Layout": {
