@@ -790,7 +790,7 @@
     "Card group": {
       "url": "./card-group",
       "designLink": "https://ibm.box.com/s/r4nt1w1fe2gnuqn6m9gac48tll7jq5pl",
-      "description": "The Card group component is a collection of Card components that can be used in block and group-level patterns.",
+      "description": "The Card group component arranges cards in a grid and offers useful features that are applied to the group as awhole.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-card-group--default",
         "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-cardgroup--default"
