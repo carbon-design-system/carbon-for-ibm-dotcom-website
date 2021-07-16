@@ -1304,7 +1304,7 @@
      "Lead space search": {
       "url": "./lead-space-search",
       "designLink": "https://ibm.box.com/s/3rjh19oclo961z0q0oaoqtm4gbhzo8b8",
-      "description": "The purpose of a lead space search is to give users a faster route to information discovery by including a prominent search option in the lead space, discoverable from the moment they landed on the page. It will always be positioned at the top.",
+      "description": "Lead space search provides a fast route to information discovery by including a prominent search option in the lead space. As the search is always positioned at the top, it is discoverable by users the moment they land on the page.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components",
         "react": "http://www.ibm.com/standards/carbon/react"
