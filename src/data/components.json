@@ -1057,11 +1057,11 @@
         "notAvailable": false
       }
     },
-    "Content group horizontal": {
-      "url": "./content-group-horizontal",
+    "Content block horizontal": {
+      "url": "./content-block-horizontal",
       "designLink": "https://ibm.box.com/s/rv5kmm0a4d9ded74v6yfk8ad5id5ghmx",
       "functionalLink": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Content-block-horizontal",
-      "description": "Content group horizontal is to present a group of relatively more important pieces of content such as products or solutions with more visual weight.",
+      "description": "Content block horizontal is used to highlight a group of more important pieces of content, such as products or solutions, with more visual weight.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-group-horizontal--default",
         "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-contentgrouphorizontal--default"
