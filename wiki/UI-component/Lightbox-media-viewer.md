@@ -76,14 +76,14 @@ The viewer contains all the details for a given media object being viewed. It pr
 
 `required` `component`
 
-Renders an image or video depending on what the adopters passes.
+Renders an [[Image]] or [[Video]] depending on what the adopters passes.
 
 ###### Logic
 
 | | Condition | Description |
 |:--- |:--------- |:----------- |
 | `2.1.1` | [[Image]]  | If an [[Image]] is provided, render it as the main media piece.  |
-| `2.1.2` | `video.id` | If a video id is provided use the [[Video service]] to get video data and render |
+| `2.1.2` | [[Video]] `ID` | If a [[Video]] `ID` is provided use the [[Video service]] to get [[Video]] data and render |
 
 #### 2.2 Heading
 
