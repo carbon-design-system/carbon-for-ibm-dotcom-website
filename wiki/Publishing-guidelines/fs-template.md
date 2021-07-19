@@ -55,6 +55,14 @@ Brief description might go here. Lorem ipsum dolor sit amet, consectetur adipisc
 
 {{Scoped image | resize}}
 
+###### Events
+
+|        | event  | description  |
+|:-------|:-----------|:-------------|
+| `1.1`  |            |              |
+|        |            |              |
+|        |            |              |
+
 ###### Logic
 
 |        | condition  | description  |
