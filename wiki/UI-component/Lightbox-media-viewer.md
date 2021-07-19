@@ -39,7 +39,7 @@ The [[Lightbox media viewer]] opens up a piece/series of content over the curren
 
 <hr width="40%" />
 
-
+<br />
 
 ###### Events
 
@@ -49,7 +49,7 @@ The [[Lightbox media viewer]] opens up a piece/series of content over the curren
 | onClose | Reset state of Media Viewer. (e.g. stop playing videos) |
 
 
-
+<br /><br /><br />
 
 
 ### 1. Expressive Modal 
