@@ -14,10 +14,11 @@ standard with native support, supported in all modern browsers.
 </PageDescription>
 
 <AnchorLinks>
-<AnchorLink>Install (via import)</AnchorLink>
-<AnchorLink>Install (via CDN)</AnchorLink>
+<AnchorLink>Install via import</AnchorLink>
+<AnchorLink>Install via CDN</AnchorLink>
 <AnchorLink>IBM.com shell</AnchorLink>
 <AnchorLink>Available components</AnchorLink>
+<AnchorLink>Web components template</AnchorLink>
 <AnchorLink>React wrapper</AnchorLink>
 <AnchorLink>Using with Carbon Web Components</AnchorLink>
 </AnchorLinks>
@@ -45,34 +46,14 @@ installed separately.
 
 ## Install via CDN
 
-The IBM.com Shell is available via CDN, where a script tag can be added directly to an HTML page and rendered directly
-without the need for front-end bundling:
+Carbon for IBM.com Web Components are also available via CDN, where a script tag can be added directly to an HTML page 
+and rendered directly without the need for front-end bundling. Here is an example adding the `dotcom-shell` to a page:
  
 ```html
 <!DOCTYPE html>
 <html>
   <head>
-    <script type="module">
-      import 'https://1.www.s81c.com/common/carbon-for-ibm-dotcom/latest/ibmdotcom-web-components-dotcom-shell.min.js';
-
-      // The minimum prerequisite to properly set the current language/locale on the page
-      window.digitalData = {
-        page: {
-          pageInfo: {
-            language: 'en-US',
-            ibm: {
-              country: 'US',
-              siteID: 'IBMTESTWWW',
-            },
-          },
-          isDataLayerReady: true,
-        },
-      };
-    </script>
-
-    <!-- The minimum prerequisite to configure available language/locale combinations in the locale selector -->
-    <link rel="alternate" hreflang="en-us" href="https://www.ibm.com/us-en/" />
-    <link rel="alternate" hreflang="x-default" href="https://www.ibm.com" />
+    <script type="module" src="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v1/latest/dotcom-shell.min.js"></script>
     ...
   </head>
   <body>
@@ -81,11 +62,80 @@ without the need for front-end bundling:
 </html>
 ```
 
-<InlineNotification>
+To see all available CDN links, visit the `Docs` tab for the corresponding components in [Storybook](https://www.ibm.com/standards/carbon/web-components).
 
-**Note:** Starting in Carbon for IBM.com Web Components v1.6.0, CDN artifacts will be available for all components! More details coming soon!
+### Tag versus specific version
 
-</InlineNotification> 
+All components are available either by moving tag versions, or specific versions (starting at `v1.6.0`). 
+
+The latest/next/beta tags are moving versions. While beneficial to always stay on the most recent version, it is 
+recommended to choose a specific version and properly test your application when upgrading to a newer version.
+
+Available tags:
+
+| Tag      | Description                                                                                                                                                                                               |
+| -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `latest` | Updated with every full release                                                                                                                                                                           |
+| `next`   | Updated with every release candidate during code freeze periods. See our release schedule at the pinned issue on our [issue board](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues). |
+| `beta`   | Updated every two weeks                                                                                                                                                                                   |
+
+Here are examples on setting by tag:
+
+```html
+<!-- LATEST tag -->
+<script type="module" src="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v1/latest/dotcom-shell.min.js"></script>
+
+<!-- NEXT tag -->
+<script type="module" src="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v1/next/dotcom-shell.min.js"></script>
+
+<!-- BETA tag -->
+<script type="module" src="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v1/beta/dotcom-shell.min.js"></script>
+```
+
+Here is an example on setting by specific version:
+
+```html
+<script type="module" src="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/version/v1.6.0/dotcom-shell.rtl.min.js"></script>
+```
+
+Check [npmjs.com](https://www.npmjs.com/package/@carbon/ibmdotcom-web-components) to see what is the latest available version.
+
+### Right-to-left (RTL) versions
+
+In addition, the right-to-left (RTL) versions are also available:
+
+```html
+<!-- SPECIFIC version -->
+<script type="module" src="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/version/v1.6.0/dotcom-shell.rtl.min.js"></script>
+
+<!-- LATEST tag -->
+<script type="module" src="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v1/latest/dotcom-shell.rtl.min.js"></script>
+
+<!-- NEXT tag -->
+<script type="module" src="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v1/next/dotcom-shell.rtl.min.js"></script>
+
+<!-- BETA tag -->
+<script type="module" src="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v1/beta/dotcom-shell.rtl.min.js"></script>
+```
+
+### Carbon CDN style helpers (optional)
+
+There are optional CDN artifacts available that can assist with global Carbon
+styles in lieu of including into your specific application bundle.
+
+For example, the following adds Carbon reset and necessary Plex fonts to the page:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v1/latest/plex.css" />
+    ...
+  </head>
+</html>
+```
+<br/>
+<Link to="/developing/carbon-cdn-style-helpers">Learn more about Carbon CDN style helpers</Link>
 
 ## IBM.com shell
 
@@ -109,6 +159,10 @@ View the `<dds-dotcom-shell>` in [Storybook Web Components](http://www.ibm.com/s
 </ResourceCard>
 </Column>
 </Row>
+
+## Web components template
+
+Our team is currently developing a starter application using Carbon for IBM.com Web Components. More details coming soon! 
 
 ## React wrapper
 
