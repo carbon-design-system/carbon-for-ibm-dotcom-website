@@ -96,7 +96,7 @@ The [[Video]] component utilizes the embeddable Kaltura player <sup>[[r2](#resou
 | | Condition | Description |
 |:-- |:--------- |:----------- |
 | `3.A.1` | `undefined (default)` | [[Lightbox media viewer]]'s heading is prefilled by [[Video service]]'s provided name. |
-| `3.A.2` | `String` provided | Adding a custom caption overrides the API call. |
+| `3.A.2` | `String` provided | Adding a custom heading overrides the API call. |
 
 
 #### 3.B Copy
