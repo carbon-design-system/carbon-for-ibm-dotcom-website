@@ -79,24 +79,24 @@
       path: /components/card-section-images
     - title: Carousel
       path: /components/carousel
+    - title: Content block cards
+      path: /components/content-block-cards
+    - title: Content block horizontal
+      path: /components/content-block-horizontal
     - title: Content block media
       path: /components/content-block-media
     - title: Content block segmented
       path: /components/content-block-segmented
     - title: Content block simple
       path: /components/content-block-simple
-    - title: Content block cards
-      path: /components/content-block-cards
     - title: Content group banner
       path: /components/content-group-banner
-    - title: Content group horizontal
-      path: /components/content-group-horizontal
+    - title: Content group cards
+      path: /components/content-group-cards
     - title: Content group pictograms
       path: /components/content-group-pictograms
     - title: Content group simple
       path: /components/content-group-simple
-    - title: Content group cards
-      path: /components/content-group-cards
     - title: Content item horizontal
       path: /components/content-item-horizontal
     - title: CTA
