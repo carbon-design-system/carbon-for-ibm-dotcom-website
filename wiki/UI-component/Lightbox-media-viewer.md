@@ -51,8 +51,7 @@ The [[Lightbox media viewer]] opens up a piece/series of content over the curren
 
 
 
-
-### 1. Expressive Modal 
+### 1. Expressive Modal
 
 `required` `component`
 
@@ -84,6 +83,16 @@ Renders an [[Image]] or [[Video]] depending on what the adopters passes.
 |:--- |:--------- |:----------- |
 | `2.1.1` | [[Image]]  | If an [[Image]] is provided, render it as the main media piece.  |
 | `2.1.2` | [[Video]] `ID` | If a [[Video]] `ID` is provided use the [[Video service]] to get [[Video]] data and render |
+
+###### Events
+
+The following events are only applicable to mobile devices.
+
+| event  | description  |
+|:-----------|:-------------|
+| on tap | Triggers isolated media view on mobile. This view allows user to pinch, zoom and drag. |
+| when zoomed out, on tap again | Returns to default view heading and copy present in the viewer |
+
 
 #### 2.2 Heading
 
@@ -126,6 +135,7 @@ This section outlines how the combined content of `heading` <sup>[[2.2](#22-head
 | `2.4.2` | `y-overflow` `sm` [[Carousel]] <sup>[[3](#3-carousel)]</sup>  | If  [[Carousel]] <sup>[[3](#3-carousel)]</sup> is included at the smallest breakpoint then the above <sup>[2.4.1]</sup> overflow is still in effect. |
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See design specs <sup>[[r1](#resources)]</sup> for more information
+
 
 <br />[Back to top](#wiki-wrapper)<br /><br /><br />
 
