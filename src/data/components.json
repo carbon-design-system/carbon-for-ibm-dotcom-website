@@ -301,7 +301,7 @@
     "Footer": {
       "url": "./footer",
       "designLink": "https://ibm.box.com/s/nsbccv6jigfw78uwq3r0242qks1x1f87",
-      "description": "The footer component is a section that sits at the bottom of any IBM.com page, and acts as the catch—all section that helps users navigate and provides corporate level general and legal information. The footer is required on all pages on IBM.com.",
+      "description": "The footer component is a section that sits at the bottom of any IBM.com page, and acts as the catch-all section that helps users navigate and provides corporate level general and legal information. The footer is required on all pages on IBM.com.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-footer--default",
         "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-footer--default"
