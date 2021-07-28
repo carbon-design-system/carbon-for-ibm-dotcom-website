@@ -2,7 +2,7 @@
 
 The [[Lightbox media viewer]] opens up a piece/series of content over the current page for a closer/detailed look. The background is dimmed to give focus to the content being interacted with. It's great for slideshows and galleries, or anywhere you might not have a lot of room to see the piece of media content in detail.
 
-![image](https://user-images.githubusercontent.com/3793636/119056034-a08d2a80-b98f-11eb-8140-c6a057d69152.png)
+![annotated-lightbox-media-viewer](https://user-images.githubusercontent.com/3793636/127394547-ab241756-45c8-496d-846e-c69fcc1725ea.png)
 
 <hr width="40%" />
 
@@ -65,12 +65,17 @@ The [[Expressive modal]] wraps the Viewer <sup>[[2](#2-viewer)]</sup> or [[Caro
 
 
 
-
 ### 2. Viewer
 
 The viewer contains all the details for a given media object being viewed. It presents a large piece of media to be viewed with supporting `heading` and `copy` to provide the user with more information about what they are looking at.
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See design specs <sup>[[r1](#resources)]</sup> for more information
+
+<br />
+
+<img src="https://user-images.githubusercontent.com/3793636/127394541-5e5aebd5-200e-40c5-ba74-dcd2a6cde8f9.png" />
+
+<br /><br />
 
 #### 2.1 Media
 
@@ -111,7 +116,7 @@ Renders an [[Image]] or [[Video]] depending on what the adopters passes.
 
 
 
-#### 2.4 Content
+#### 2.4 Heading and copy
 
 `optional` `string`
 
@@ -144,5 +149,9 @@ The [[Carousel]] component can be included to help view, and navigate between on
 |:--- |:--------- |:----------- |
 | `3.1` | `2` or more `media` <sup>[[2.1](#21-media)]</sup> | Carousel renders wrapping multiple `viewer` <sup>[[2](#2-viewer)]</sup> to navigate through. |
 | `3.2` | `1` or less `media` <sup>[[2.1](#21-media)]</sup> | Carousel does not render. |
+
+###### Example
+
+![lightbox-media-viewer](https://user-images.githubusercontent.com/3793636/127399627-d851f48a-6555-4e01-8bb4-c5b05a0cb7e3.gif)
 
 <br />[Back to top](#wiki-wrapper)<br /><br /><br />
