@@ -407,33 +407,6 @@
         "notAvailable": false
       }
     },
-    "Image with caption": {
-      "url": "./image-with-caption",
-      "designLink": "https://ibm.box.com/s/mclmewshqcme7g6gykepok78rm882a0j",
-      "description": "Image with caption is used to embed images and has an optional caption. It can support images at 1x1, 2x1, 4x3 and 16x9 aspect ratios.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-image-with-caption--default",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-image-with-caption--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": true,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
     "Leaving IBM": {
       "url": "./leaving-ibm",
       "designLink": "https://ibm.box.com/s/g79wdwdj0syjcfkdlgu5rpwe3zp9s37w",
@@ -1379,33 +1352,6 @@
         "deprecated": false,
         "underConstruction": false,
         "notAvailable": false
-      }
-    },
-    "Tabs extended media": {
-      "url": "./tabs-extended-media",
-      "designLink": "https://ibm.box.com/s/3sun8lo3gu2b4uaa4oxgpxrqit1m7t6i",
-      "description": "Use this component to interactively reveal related content, or as a gateway to pages with more details.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-tabs-extended-with-media--default",
-        "react": ""
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": true,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": false,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": true,
-        "notAvailable": true
       }
     }
   }
