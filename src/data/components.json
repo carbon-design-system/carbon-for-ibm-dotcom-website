@@ -9,21 +9,21 @@
         "react": "https://ibmdotcom-web-components-react.mybluemix.net/?path=/story/components-back-to-top--default"
       },
       "webcomponents": {
-        "stable": false,
+        "stable": true,
         "experimental": false,
         "new": false,
         "updated": false,
         "deprecated": false,
-        "underConstruction": true,
+        "underConstruction": false,
         "notAvailable": false
       },
       "react": {
-        "stable": false,
+        "stable": true,
         "experimental": false,
         "new": false,
         "updated": false,
         "deprecated": false,
-        "underConstruction": true,
+        "underConstruction": false,
         "notAvailable": false
       }
     },
