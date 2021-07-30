@@ -19,7 +19,7 @@
     "prop-types": "^15.7.2",
     "react": "16.8.6",
     "react-dom": "16.8.6",
-    "wiki-helpers": "^1.2.3"
+    "wiki-helpers": "^1.2.4"
   },
   "devDependencies": {
     "@actions/core": "1.2.6",
