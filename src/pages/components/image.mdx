@@ -14,17 +14,6 @@ import ComponentFooter from "components/ComponentFooter";
 
 </InlineNotification>
 
-<CardGroup>
-  <MiniCard
-    title="Image design spec"
-    href="https://ibm.ent.box.com/folder/94834513317?s=zaofzs8ssrfbkgker2lqxyvdnbpxvsly"
-  />
-  <MiniCard
-    title="Image functional spec"
-    href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Image"
-  />
-</CardGroup>
-
 <AnchorLinks>
 <AnchorLink>Overview</AnchorLink>
 <AnchorLink>Options</AnchorLink>
@@ -38,7 +27,7 @@ import ComponentFooter from "components/ComponentFooter";
 
 Image, at its core, is a wrapper that adds an image to the page. You have the option to pass multiple images to the image component to render at the various breakpoints. This is particularly useful if you want to render different images at different screen sizes.
 
-We recommend displaying images at 1:1, 2:1, 4:3, and 16:9 aspect ratios. For guidance on choosing or creating an imagery, see the <a href="https://www.ibm.com/design/language/photography/overview" target="_blank">photography guidelines</a> on the IBM Design Language site. 
+We recommend displaying images at 1:1, 2:1, 4:3, and 16:9 aspect ratios. For guidance on choosing or creating imagery, see the IBM Design Language <a href="https://www.ibm.com/design/language/photography/overview" target="_blank">photography guidelines</a>. 
 
 <Row>
 <Column colMd={8} colLg={8}>
@@ -51,49 +40,59 @@ We recommend displaying images at 1:1, 2:1, 4:3, and 16:9 aspect ratios. For gui
 
 ## Options
 
-### Caption and zoom
+### Border
 
-<CardGroup>
-  <MiniCard
-    title="Image with caption design spec"
-    href="https://ibm.ent.box.com/folder/109643123498?s=mclmewshqcme7g6gykepok78rm882a0j"
-  />
-  <MiniCard
-    title="Image with caption functional spec"
-    href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Image-with-caption"
-  />
-</CardGroup>
+A 1px `$decorative-01` border can be added to the Image component to help frame images. This is useful when the page background and image background are the same or similar colors.
 
-An image can include a caption beneath the image itself to provide more context. With the caption feature, the image can also be clicked to open an overlay (Lightbox media viewer) with a larger version of the image. 
-
-Inside the viewer, the caption becomes the heading and there is an opportunity for additional body text.
-
-For more about Image with caption, see the <a href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Image-with-caption" target="_blank">functional specs</a>.
+The border feature is available for images with and without captions. 
 
 <Row>
 <Column colMd={8} colLg={8}>
 
 ![An image with a border](../../images/component/image/image-options-border.jpg)
+
+</Column>
+</Row>
+<Caption>The border helps to separate the image from a background with the same color.</Caption>
+
+### Caption and zoom
+
+An image can include a caption beneath the image itself to provide more context. Using the Image with caption component, the image can be clicked to open an overlay (<a href="https://www.ibm.com/standards/carbon/components/lightbox-media-viewer" target="_blank">Lightbox media viewer</a>) that houses a larger version of the image or a.
+ 
+Inside the overlay, the caption becomes the heading and there is an opportunity for additional body text.
+
+<Row>
+<Column colMd={8} colLg={8}>
+
+![An image with a border](../../images/component/image/image-option-caption.gif)
 
 </Column>
 </Row>
 <Caption>When an image has a caption, the user can hover over the image and click to trigger a Lightbox overlay with more information.</Caption>
 
-### Border
-
-An image can include a 1px `$decorative-01` border to help frame the images better when the page background and image background colors are the same.
-
-<Row>
-<Column colMd={8} colLg={8}>
-
-![An image with a border](../../images/component/image/image-options-border.jpg)
-
-</Column>
-</Row>
-<Caption>The border helps to separate the image from the background with the same color.</Caption>
+#### Resources
+For more information about Image with caption, see the following resources. 
+<CardGroup>
+  <MiniCard
+    title="Design specifications for Image with caption "
+    href="https://ibm.ent.box.com/folder/109643123498?s=mclmewshqcme7g6gykepok78rm882a0j"
+  />
+  <MiniCard
+    title="Functional specifications for Image for caption"
+    href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Image-with-caption"
+  />
+  <MiniCard
+    title="React Storybook"
+    href="https://www.ibm.com/standards/carbon/react/?path=/story/components-image-with-caption--default"
+  />
+  <MiniCard
+    title="Web Components Storybook"
+    href="https://www.ibm.com/standards/carbon/web-components/?path=/story/components-image-with-caption--default"
+  />
+</CardGroup>
 
 ## Content guidance
-This guidance applies to image when it appears with a caption.
+The following content guidance applies to Image with caption.
 
 | Field                                                                                                             | Field type | Required | Cardinality | Max character size <br/>(English / translated) | Notes                                                                                                           |
 | ----------------------------------------------------------------------------------------------------------------- | ---------- | -------- | ----------- | ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
