@@ -6,9 +6,7 @@ The [[Background media]] shares the same core functionality of background media 
 
 <hr width="40%" />
 
-<!-- toc start -->
-*{{table of contents auto populates}}*
-<!-- toc end -->
+<!-- toc start open="true" depthStart="3" depthEnd="5" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
