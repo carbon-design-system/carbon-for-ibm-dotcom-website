@@ -6,7 +6,7 @@ This component provides a visual break in content similar to a [[Lead space]] fe
 
 <hr width="40%" />
 
-<!-- toc start -->
+<!-- toc start open="true" depthStart="3" depthEnd="5" -->
 *{{table of contents auto populates}}*
 <!-- toc end -->
 
