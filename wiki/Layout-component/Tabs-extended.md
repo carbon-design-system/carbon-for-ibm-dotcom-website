@@ -17,11 +17,11 @@
 <br />
 </details>
 
-<!-- usedby start open="true" -->
+<!-- usedby start -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start open="true" -->
+<!-- backlinks start -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 
