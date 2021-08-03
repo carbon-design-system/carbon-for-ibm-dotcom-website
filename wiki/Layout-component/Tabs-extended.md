@@ -2,7 +2,7 @@
 
 [[Tabs extended]] extends the [[Carbon tabs]] component by adding the accordion to smaller breakpoints. This extension in feature allows the content to be more accessible at smaller breakpoints and mobile users.
 
-![tabs-extended-annotated](https://user-images.githubusercontent.com/3793636/127923431-7dd77985-eab6-4c3f-a7e3-2035d58219ff.gif)
+![tabs-extended-annotated](https://user-images.githubusercontent.com/3793636/128079806-5fad9f31-686f-444b-8224-00559e75506a.gif)
 
 <hr width="40%" />
 
