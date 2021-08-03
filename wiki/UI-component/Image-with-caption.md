@@ -2,7 +2,7 @@
 
 This component wraps the responsive [[Image]] component we’ve built and provides it with a caption, and option to zoom in to see a larger and clearer version of the image.
 
-![component--media--embedded-image--states--design-specs](https://user-images.githubusercontent.com/3793636/128093283-f8a30e41-6c78-43f7-8913-7f292dc917df.jpg)
+![component--media--embedded-image--states--design-specs](https://user-images.githubusercontent.com/3793636/128093861-49d88268-98e8-4e75-b500-74327c57fd63.jpg)
 
 <hr width="40%" />
 
