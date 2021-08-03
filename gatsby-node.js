@@ -32,11 +32,9 @@ async function _createBuildForIBMPage() {
         response.indexOf("prettier-ignore-end") + 23,
         response.length - 1
       );
-      console.log(
-        "fs.readFileSync(buildForIBMdest)",
-        fs.readFileSync(buildForIBMdest)
-      );
-      if (fs.readFileSync(buildForIBMdest) !== `${heading}${final}`) {
+      if (
+        fs.readFileSync(buildForIBMdest).toString() !== `${heading}${final}`
+      ) {
         fs.writeFileSync(buildForIBMdest, `${heading}${final}`);
       }
     })
@@ -75,7 +73,9 @@ async function _createCDNStyleHelpersPage() {
         response.indexOf("prettier-ignore-end") + 23,
         response.length - 1
       );
-      if (fs.readFileSync(styleHelpersdest) !== `${heading}${final}`) {
+      if (
+        fs.readFileSync(styleHelpersdest).toString() !== `${heading}${final}`
+      ) {
         fs.writeFileSync(styleHelpersdest, `${heading}${final}`);
       }
     })
