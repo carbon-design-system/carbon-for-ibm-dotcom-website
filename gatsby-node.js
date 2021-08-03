@@ -1,6 +1,6 @@
-const fetch = require('node-fetch');
-const fs = require('fs');
-const path = require('path');
+const fetch = require("node-fetch");
+const fs = require("fs");
+const path = require("path");
 
 /**
  * Fetches the `Build for IBM.com` document from the main repo and constructs as a Gatsby page
@@ -9,27 +9,36 @@ const path = require('path');
  * @private
  */
 async function _createBuildForIBMPage() {
-  const dest = path.resolve(__dirname, 'src/pages/developing/building-for-ibm-dotcom');
-  const buildForIBMsrc = 'https://raw.githubusercontent.com/carbon-design-system/carbon-for-ibm-dotcom/master/docs/building-for-ibm-dotcom.md';
+  const dest = path.resolve(
+    __dirname,
+    "src/pages/developing/building-for-ibm-dotcom"
+  );
+  const buildForIBMsrc =
+    "https://raw.githubusercontent.com/carbon-design-system/carbon-for-ibm-dotcom/master/docs/building-for-ibm-dotcom.md";
   const buildForIBMheading = `${dest}/heading.txt`;
   const buildForIBMdest = `${dest}/index.mdx`;
 
   // Download the `Building for IBM.com` docs page from the Carbon for IBM.com repo
   await fetch(buildForIBMsrc, {
-    method: 'get',
+    method: "get",
     headers: {
-      'Content-Type': 'text/html',
+      "Content-Type": "text/html",
     },
   })
-    .then(response => response.text())
-    .then(response => {
+    .then((response) => response.text())
+    .then((response) => {
       const heading = fs.readFileSync(buildForIBMheading);
-      const final = response.substring(response.indexOf('prettier-ignore-end') + 23, response.length - 1);
-      if(fs.readFileSync(buildForIBMdest).length === 0){
+      const final = response.substring(
+        response.indexOf("prettier-ignore-end") + 23,
+        response.length - 1
+      );
+      if (
+        fs.readFileSync(buildForIBMdest).toString() !== `${heading}${final}`
+      ) {
         fs.writeFileSync(buildForIBMdest, `${heading}${final}`);
       }
     })
-    .catch(err => {
+    .catch((err) => {
       console.error(err);
     });
 }
@@ -41,27 +50,36 @@ async function _createBuildForIBMPage() {
  * @private
  */
 async function _createCDNStyleHelpersPage() {
-  const dest = path.resolve(__dirname, 'src/pages/developing/carbon-cdn-style-helpers');
-  const styleHelperssrc = 'https://raw.githubusercontent.com/carbon-design-system/carbon-for-ibm-dotcom/master/packages/web-components/docs/carbon-cdn-style-helpers.md';
+  const dest = path.resolve(
+    __dirname,
+    "src/pages/developing/carbon-cdn-style-helpers"
+  );
+  const styleHelperssrc =
+    "https://raw.githubusercontent.com/carbon-design-system/carbon-for-ibm-dotcom/master/packages/web-components/docs/carbon-cdn-style-helpers.md";
   const styleHelpersheading = `${dest}/heading.txt`;
   const styleHelpersdest = `${dest}/index.mdx`;
 
   // Download the `Building for IBM.com` docs page from the Carbon for IBM.com repo
   await fetch(styleHelperssrc, {
-    method: 'get',
+    method: "get",
     headers: {
-      'Content-Type': 'text/html',
+      "Content-Type": "text/html",
     },
   })
-    .then(response => response.text())
-    .then(response => {
+    .then((response) => response.text())
+    .then((response) => {
       const heading = fs.readFileSync(styleHelpersheading);
-      const final = response.substring(response.indexOf('prettier-ignore-end') + 23, response.length - 1);
-      if(fs.readFileSync(styleHelpersdest).length === 0){
+      const final = response.substring(
+        response.indexOf("prettier-ignore-end") + 23,
+        response.length - 1
+      );
+      if (
+        fs.readFileSync(styleHelpersdest).toString() !== `${heading}${final}`
+      ) {
         fs.writeFileSync(styleHelpersdest, `${heading}${final}`);
       }
     })
-    .catch(err => {
+    .catch((err) => {
       console.error(err);
     });
 }
@@ -69,7 +87,7 @@ async function _createCDNStyleHelpersPage() {
 exports.createPages = async () => {
   await _createBuildForIBMPage();
   await _createCDNStyleHelpersPage();
-}
+};
 
 exports.onCreateWebpackConfig = ({ actions }) => {
   // Allows importing html files for component code examples
@@ -78,11 +96,11 @@ exports.onCreateWebpackConfig = ({ actions }) => {
       rules: [
         {
           test: /\.md$/,
-          loaders: ['html-loader', 'markdown-loader'],
+          loaders: ["html-loader", "markdown-loader"],
         },
         {
           test: /\.html$/,
-          loader: 'html-loader',
+          loader: "html-loader",
           options: {
             minimize: false,
           },
@@ -90,7 +108,7 @@ exports.onCreateWebpackConfig = ({ actions }) => {
       ],
     },
     resolve: {
-      modules: [path.resolve(__dirname, 'src'), 'node_modules'],
+      modules: [path.resolve(__dirname, "src"), "node_modules"],
     },
   });
 };
