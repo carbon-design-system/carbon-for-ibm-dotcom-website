@@ -25,7 +25,9 @@ async function _createBuildForIBMPage() {
     .then(response => {
       const heading = fs.readFileSync(buildForIBMheading);
       const final = response.substring(response.indexOf('prettier-ignore-end') + 23, response.length - 1);
-      fs.writeFileSync(buildForIBMdest, `${heading}${final}`);
+      if(fs.readFileSync(buildForIBMdest).length === 0){
+        fs.writeFileSync(buildForIBMdest, `${heading}${final}`);
+      }
     })
     .catch(err => {
       console.error(err);
@@ -55,7 +57,9 @@ async function _createCDNStyleHelpersPage() {
     .then(response => {
       const heading = fs.readFileSync(styleHelpersheading);
       const final = response.substring(response.indexOf('prettier-ignore-end') + 23, response.length - 1);
-      fs.writeFileSync(styleHelpersdest, `${heading}${final}`);
+      if(fs.readFileSync(styleHelpersdest).length === 0){
+        fs.writeFileSync(styleHelpersdest, `${heading}${final}`);
+      }
     })
     .catch(err => {
       console.error(err);
