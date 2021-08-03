@@ -8,7 +8,7 @@ The [[Content block]] is a reusable core component used to help you build more c
 
 <hr width="40%" />
 
-<!-- toc start open="true" -->
+<!-- toc start open="true" depthStart="3" depthEnd="5" -->
 *{{toc auto populates}}*
 <!-- toc end -->
 

@@ -6,7 +6,7 @@ The [[Content group]] is a component that can be used inside of [[Content block]
 
 <hr width="40%" />
 
-<!-- toc start open="true" -->
+<!-- toc start open="true" depthStart="3" depthEnd="5" -->
 *{{tocauto populates}}*
 <!-- toc end -->
 
