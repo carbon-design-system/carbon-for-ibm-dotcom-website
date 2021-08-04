@@ -6,7 +6,7 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 
 <hr width="40%" />
 
-<!-- toc start -->
+<!-- toc start open="true" depthStart="3" depthEnd="5" -->
 *{{table of contents auto populates}}*
 <!-- toc end -->
 
@@ -20,11 +20,11 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 <br />
 </details>
 
-<!-- usedby start open="true" -->
+<!-- usedby start -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start open="true" -->
+<!-- backlinks start -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 
@@ -54,6 +54,14 @@ Brief description might go here. Lorem ipsum dolor sit amet, consectetur adipisc
 Brief description might go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar non felis non rutrum.
 
 {{Scoped image | resize}}
+
+###### Events
+
+|        | event  | description  |
+|:-------|:-----------|:-------------|
+| `1.1`  |            |              |
+|        |            |              |
+|        |            |              |
 
 ###### Logic
 

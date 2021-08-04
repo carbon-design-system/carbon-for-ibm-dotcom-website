@@ -8660,10 +8660,10 @@ gatsby-telemetry@^1.10.0:
     node-fetch "^2.6.1"
     uuid "3.4.0"
 
-gatsby-theme-carbon@1.30.1:
-  version "1.30.1"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-carbon/-/gatsby-theme-carbon-1.30.1.tgz#ef25966f4c7d644a665047e2087153451220e020"
-  integrity sha512-+6zpZGdfMkI4uJIx72U0HIc7PYXAKCQfDk5ldffi0+26k2QW75ckjRIl3zd4wV8/Gxs4sTcxVBrtQT+GSX8fdQ==
+gatsby-theme-carbon@1.30.2:
+  version "1.30.2"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-carbon/-/gatsby-theme-carbon-1.30.2.tgz#1ffe2ee67778c154c9ee0576e7fd2af23c4d059b"
+  integrity sha512-KjCGCLwPQsxWlQDeTAF+2peR5LVCukdbkqurGVWKt7+HyBfMuguiOR8L/1iJSX3QpOjZOA//jexxCuVKPR8mgQ==
   dependencies:
     "@babel/core" "^7.10.4"
     "@carbon/elements" "^10.32.0"
@@ -17477,10 +17477,10 @@ widest-line@^3.1.0:
   dependencies:
     string-width "^4.0.0"
 
-wiki-helpers@^1.2.3:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/wiki-helpers/-/wiki-helpers-1.2.3.tgz#321e2db6896509584d9769150ab0c271cce68c4a"
-  integrity sha512-5dvJ0gyUj+rC2TjFLsD/zvC+U0ordzkaSnx7Qm2ZS2Y/gAXrCgDDwt7s+Dub70MAtESTmDpEzu2cm7lri6HhIQ==
+wiki-helpers@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/wiki-helpers/-/wiki-helpers-1.2.4.tgz#ce05baab5cdecb2b015a6410a9fa43e593d39e4b"
+  integrity sha512-1D2XPDvb/u9+M7+hOOnAIqyxDIRMPIHUmQdewZWfrJT/0xdqOTyj/nPdvkoqCvItVLpK+ZBuUlM2pthCta2cVQ==
   dependencies:
     "@actions/core" "^1.2.7"
     "@actions/github" "^4.0.0"

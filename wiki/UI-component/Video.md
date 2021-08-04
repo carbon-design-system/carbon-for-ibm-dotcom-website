@@ -7,7 +7,7 @@ The [[Video]] component utilizes the embeddable Kaltura player <sup>[[r2](#resou
 
 <hr width="40%" />
 
-<!-- toc start open="true" --><!-- toc end -->
+<!-- toc start open="true" depthStart="3" depthEnd="5" --><!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
@@ -91,22 +91,24 @@ The [[Video]] component utilizes the embeddable Kaltura player <sup>[[r2](#resou
 
 #### 3.A Heading
 
+`optional` `string`
+
 ##### Logic
 
 | | Condition | Description |
 |:-- |:--------- |:----------- |
-| `3.A.1` | `undefined (default)` | [[Lightbox media viewer]]'s heading is prefilled by [[Video service]]'s provided name. |
-| `3.A.2` | `String` provided | Adding a custom caption overrides the API call. |
+| `3.A.2` | if `string` provided | Pass the `string` to [[Lightbox media viewer]] to override `heading` |
 
 
 #### 3.B Copy
 
+`optional` `string`
+
 ##### Logic
 
-|   | Condition | Description |
-|-- | --------- | ----------- |
-| `3.B.1` | `undefined (default)` | [[Lightbox media viewer]]'s copy is prefilled by [[Video service]]'s provided description. |
-| `3.B.2` | `String` provided | Adding custom copy overrides the API call. |
+| | Condition | Description |
+|:-- |:--------- |:----------- |
+| `3.A.2` | if `string` provided | Pass the `string` to [[Lightbox media viewer]] to override `copy` |
 
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See [[Lightbox media viewer]] for more information.

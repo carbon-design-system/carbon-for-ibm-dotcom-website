@@ -6,7 +6,7 @@ The [[Content section]] is a core component that can be used as a section level 
 
 <hr width="40%" />
 
-<!-- toc start open="true" -->
+<!-- toc start open="true" depthStart="3" depthEnd="5" -->
 *{{toc auto populates}}*
 <!-- toc end -->
 
