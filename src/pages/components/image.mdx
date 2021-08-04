@@ -5,6 +5,9 @@ description: The Image component is used as the primary way of embedding images 
 
 import ComponentDescription from "components/ComponentDescription";
 import ComponentFooter from "components/ComponentFooter";
+import sketchSymbol from '../../images/sketch-symbol.svg';
+import githubSymbol from '../../images/icon/github-icon.svg';
+import devtoolSymbol from '../../images/icon/devtool-icon.svg';
 
 <ComponentDescription name="Image" type="ui" />
 
@@ -76,19 +79,27 @@ For more information about Image with caption, see the following resources.
   <MiniCard
     title="Design specifications for Image with caption "
     href="https://ibm.ent.box.com/folder/109643123498?s=mclmewshqcme7g6gykepok78rm882a0j"
-  />
+  >
+    <img src={sketchSymbol} alt="Sketch"/>
+  </MiniCard>
   <MiniCard
     title="Functional specifications for Image for caption"
     href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Image-with-caption"
-  />
+  >
+    <img src={githubSymbol} alt="Github"/>
+  </MiniCard>
   <MiniCard
     title="React Storybook"
     href="https://www.ibm.com/standards/carbon/react/?path=/story/components-image-with-caption--default"
-  />
+  >
+    <img src={devtoolSymbol} alt="Storybook"/>
+  </MiniCard>
   <MiniCard
     title="Web Components Storybook"
     href="https://www.ibm.com/standards/carbon/web-components/?path=/story/components-image-with-caption--default"
-  />
+  >
+    <img src={devtoolSymbol} alt="Storybook"/>
+  </MiniCard>
 </CardGroup>
 
 ## Content guidance
