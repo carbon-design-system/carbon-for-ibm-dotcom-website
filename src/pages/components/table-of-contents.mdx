@@ -5,6 +5,7 @@ description: The Table of contents allows users to quickly navigate through long
 
 import ComponentDescription from "components/ComponentDescription";
 import ComponentFooter from "components/ComponentFooter";
+import ResourceLinks from "components/ResourceLinks";
 
 <ComponentDescription name="Table of contents" type="layout" />
 
@@ -12,11 +13,11 @@ import ComponentFooter from "components/ComponentFooter";
 
 <AnchorLink>Default</AnchorLink>
 <AnchorLink>Variations</AnchorLink>
-<AnchorLink>Design and functional specifications</AnchorLink>
-<AnchorLink>Development documentation</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
+
+<ResourceLinks name="Table of contents" type="layout" />
 
 ## Default
 The Table of Contents (ToC) component renders as left navigation that includes anchor links to various locations on the page. The links themselves can either be dynamically generated based on anchor links and associated title attributes or manually entered by the author to be different from the content on the page.
