@@ -5,13 +5,16 @@ description: Card section is a collection of cards presented in a full-width sec
 
 import ComponentDescription from "components/ComponentDescription";
 import ComponentFooter from "components/ComponentFooter";
+import sketchSymbol from '../../images/sketch-symbol.svg';
+import githubSymbol from '../../images/icon/github-icon.svg';
+import devtoolSymbol from '../../images/icon/devtool-icon.svg';
 
 <ComponentDescription name="Card section" type="layout" />
 
 <AnchorLinks>
 
-<AnchorLink>Default</AnchorLink>
-<AnchorLink>Variations</AnchorLink>
+<AnchorLink>Overview</AnchorLink>
+<AnchorLink>Options</AnchorLink>
 <AnchorLink>Content guidance</AnchorLink>
 <AnchorLink>Design and functional specifications</AnchorLink>
 <AnchorLink>Development documentation</AnchorLink>
@@ -19,7 +22,7 @@ import ComponentFooter from "components/ComponentFooter";
 
 </AnchorLinks>
 
-## Default
+## Overview
 
 Card section is a collection of text-based cards presented in a full-width section with a left-column header. This pattern is typically used for presenting resources or links.
 
@@ -27,7 +30,7 @@ Card section is a collection of text-based cards presented in a full-width secti
 
 <br />
 
-## Variations
+## Options
 
 ### With CTA
 
@@ -37,7 +40,7 @@ In this variation, the last card in the Card group is set to high contrast and c
 
 <br />
 
-## Content guidance
+#### Content guidance
 
 | Field                                                                           | Field type | Required | Cardinality | Max character size (English / translated) | Notes                                                                                                               |
 | ------------------------------------------------------------------------------- | ---------- | -------- | ----------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
@@ -48,5 +51,55 @@ In this variation, the last card in the Card group is set to high contrast and c
 Note: This uses the underlying component "Card group". You can find more information about that component <a href="https://www.ibm.com/standards/carbon/components/card-group">here</a>.
 
 To see the list of all character count standards, go to this <a href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards" target="_blank" rel="noreferrer noopener nofollow">link</a>.
+
+### With images
+Card section images is typically used for presenting resources or links.
+
+![Card section images](../../images/pattern/card-section/card-section-images.jpg)
+
+<br />
+
+#### Resources
+For more information about Card section images, see the following resources. 
+
+<CardGroup>
+  <MiniCard
+    title="Design specifications for Card section images"
+    href="https://ibm.ent.box.com/folder/102045217811?s=u4acyo9oeqya8xidimxtidh8k8y08fza"
+  >
+    <img src={sketchSymbol} alt="Sketch"/>
+  </MiniCard>
+  <MiniCard
+    title="Functional specifications for Card section images"
+    href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Card-section-images"
+  >
+    <img src={githubSymbol} alt="Github"/>
+  </MiniCard>
+  <MiniCard
+    title="React Storybook"
+    href="https://www.ibm.com/standards/carbon/react/?path=/story/components-card-section-images--default"
+  >
+    <img src={devtoolSymbol} alt="Storybook"/>
+  </MiniCard>
+  <MiniCard
+    title="Web Components Storybook"
+    href="https://www.ibm.com/standards/carbon/web-components/?path=/story/components-card-section-images--default"
+  >
+    <img src={devtoolSymbol} alt="Storybook"/>
+  </MiniCard>
+</CardGroup>
+
+
+#### Content guidance
+
+| Field                                                                           | Field type | Required | Cardinality | Max character size (English / translated) | Notes                                            |
+| ------------------------------------------------------------------------------- | ---------- | -------- | ----------- | ----------------------------------------- | ------------------------------------------------ |
+| Headline                                                                        | Short copy | Yes      | 1           | Mini (25 / 35)                            | –                                                |
+| [Card](https://www.ibm.com/standards/carbon/components/card) | Component  | Yes      | 2–6         | –                                         | For this component, you must use the image card. |
+
+Note: This uses the underlying component "Card group". You can find more information about that component <a href="https://www.ibm.com/standards/carbon/components/card-group">here</a>.
+
+To see the list of all character count standards, go to this <a href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards" target="_blank" rel="noreferrer noopener nofollow">link</a>.
+
 
 <ComponentFooter name="Card section" type="layout" />
