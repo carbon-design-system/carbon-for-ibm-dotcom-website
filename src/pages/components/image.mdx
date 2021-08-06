@@ -1,6 +1,6 @@
 ---
 title: Image
-description: The Image component is used as the primary way of embedding images on pages.
+description: There are two image components available. The Image component allows for a simple image on a page. The other, Image with caption, offers the addition of a caption, zoom, and video. 
 ---
 
 import ComponentDescription from "components/ComponentDescription";
@@ -15,17 +15,17 @@ import ResourceLinks from "components/ResourceLinks";
 
 
 <AnchorLinks>
-<AnchorLink>Resources</AnchorLink>
 <AnchorLink>Overview</AnchorLink>
-<AnchorLink>Modifiers</AnchorLink>
+<AnchorLink>Image</AnchorLink>
 <AnchorLink>Image with caption</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
-
 </AnchorLinks>
 
-<ResourceLinks name="Image" type="ui" />
-
 ## Overview
+
+There are two image components available. The Image component allows for a simple image on a page. The other, Image with caption, offers the addition of a caption, zoom, and video. 
+
+## Image
 
 Image, at its core, is a wrapper that adds an image to the page. You have the option to pass multiple images to the image component to render at the various breakpoints. This is particularly useful if you want to render different images at different screen sizes.
 
@@ -40,9 +40,9 @@ We recommend displaying images at 1:1, 2:1, 4:3, and 16:9 aspect ratios. For gui
 </Column>
 </Row>
 
-## Modifiers
+### Modifiers
 
-### Adding a border
+#### Adding a border
 
 A 1px `$decorative-01` border can be added to the Image component to help frame images. This is useful when the page background and image background are the same or similar colors.
 
@@ -56,6 +56,8 @@ The border feature is available for images with and without captions.
 </Column>
 </Row>
 <Caption>The border helps to separate the image from a background with the same color.</Caption>
+
+<ResourceLinks name="Image" type="ui" />
 
 ## Image with caption
 
