@@ -16,8 +16,8 @@ import ResourceLinks from "components/ResourceLinks";
 <AnchorLinks>
 <AnchorLink>Resources</AnchorLink>
 <AnchorLink>Overview</AnchorLink>
-<AnchorLink>Options</AnchorLink>
-<AnchorLink>Content guidance</AnchorLink>
+<AnchorLink>Modifiers</AnchorLink>
+<AnchorLink>Image with caption</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
@@ -34,14 +34,14 @@ We recommend displaying images at 1:1, 2:1, 4:3, and 16:9 aspect ratios. For gui
 <Column colMd={8} colLg={8}>
 
 ![Image of Image default in context](../../images/component/image/image-overview-default.jpg)
- <Caption>Example of an image in Content block media</Caption>
+ <Caption>Example of an image component</Caption>
 
 </Column>
 </Row>
 
-## Options
+## Modifiers
 
-### Border
+### Adding a border
 
 A 1px `$decorative-01` border can be added to the Image component to help frame images. This is useful when the page background and image background are the same or similar colors.
 
@@ -56,7 +56,7 @@ The border feature is available for images with and without captions.
 </Row>
 <Caption>The border helps to separate the image from a background with the same color.</Caption>
 
-### Caption and zoom
+## Image with caption
 
 An image can include a caption beneath the image itself to provide more context. Using the Image with caption component, the image can be clicked to open an overlay (<a href="https://www.ibm.com/standards/carbon/components/lightbox-media-viewer" target="_blank">Lightbox media viewer</a>) that houses a larger version of the image or a video.
  
@@ -71,17 +71,17 @@ Inside the overlay, the caption becomes the heading and there is an opportunity 
 </Row>
 <Caption>When an image has a caption, the user can hover over the image and click to trigger a Lightbox overlay with more information.</Caption>
 
-#### Resources for Image with caption
+### Resources for Image with caption
 
 <CardGroup>
   <MiniCard
-    title="Design specifications for Image with caption "
+    title="Design specifications"
     href="https://ibm.ent.box.com/folder/109643123498?s=mclmewshqcme7g6gykepok78rm882a0j"
   >
     <img src={sketchSymbol} alt="Sketch"/>
   </MiniCard>
   <MiniCard
-    title="Functional specifications for Image for caption"
+    title="Functional specifications"
     href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Image-with-caption"
   >
     <img src={githubSymbol} alt="Github"/>
@@ -100,7 +100,7 @@ Inside the overlay, the caption becomes the heading and there is an opportunity 
   </MiniCard>
 </CardGroup>
 
-## Content guidance
+### Content guidance for Image with caption
 Image is a foundational component and doesn't contain further content than itself. Image with caption allows for more content to be authored. Please follow below content guidance.
 
 | Field                                                                                                             | Field type | Required | Cardinality | Max character size <br/>(English / translated) | Notes                                                                                                           |
