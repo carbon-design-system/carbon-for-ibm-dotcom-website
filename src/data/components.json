@@ -868,33 +868,6 @@
         "notAvailable": false
       }
     },
-    "Card section images": {
-      "url": "./card-section-images",
-      "designLink": "https://ibm.box.com/s/u4acyo9oeqya8xidimxtidh8k8y08fza",
-      "description": "Card section images is a collection of card components with images that, together, occupy a full-width section with a left-column header.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-card-section-images--default",
-        "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-card-section-images--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": true,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
     "Content block cards": {
       "url": "./content-block-cards",
       "designLink": "https://ibm.box.com/s/9pweudf9ptucx8jxzgo3e2m5jpyke5qi",
