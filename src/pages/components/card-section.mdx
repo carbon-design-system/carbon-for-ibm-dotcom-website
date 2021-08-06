@@ -7,27 +7,24 @@ import ComponentDescription from "components/ComponentDescription";
 import ComponentFooter from "components/ComponentFooter";
 import sketchSymbol from '../../images/sketch-symbol.svg';
 import githubSymbol from '../../images/icon/github-icon.svg';
-import devtoolSymbol from '../../images/icon/devtool-icon.svg';
+import reactSymbol from '../../images/react-icon.svg';
+import webComponentsSymbol from '../../images/web-components-icon.svg';
 import ResourceLinks from "components/ResourceLinks";
 
 <ComponentDescription name="Card section" type="layout" />
 
 <AnchorLinks>
-
-<AnchorLink>Overview</AnchorLink>
-<AnchorLink>Options</AnchorLink>
 <AnchorLink>Resources</AnchorLink>
-<AnchorLink>Default</AnchorLink>
-<AnchorLink>Variations</AnchorLink>
-<AnchorLink>Content guidance</AnchorLink>
+<AnchorLink>Overview</AnchorLink>
+<AnchorLink>Modifiers</AnchorLink>
+<AnchorLink>Card Section with images</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
-
 </AnchorLinks>
 
-## Overview
 <ResourceLinks name="Card section" type="layout" />
 
-## Default
+## Overview
+
 
 Card section is a collection of text-based cards presented in a full-width section with a left-column header. This pattern is typically used for presenting resources or links.
 
@@ -35,7 +32,7 @@ Card section is a collection of text-based cards presented in a full-width secti
 
 <br />
 
-## Options
+## Modifiers
 
 ### With CTA
 
@@ -45,7 +42,7 @@ In this variation, the last card in the Card group is set to high contrast and c
 
 <br />
 
-#### Content guidance
+### Content guidance
 
 | Field                                                                           | Field type | Required | Cardinality | Max character size (English / translated) | Notes                                                                                                               |
 | ------------------------------------------------------------------------------- | ---------- | -------- | ----------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
@@ -57,25 +54,24 @@ Note: This uses the underlying component "Card group". You can find more informa
 
 To see the list of all character count standards, go to this <a href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards" target="_blank" rel="noreferrer noopener nofollow">link</a>.
 
-### With images
-Card section images is typically used for presenting resources or links.
+## Card section with images
+Card section with images is typically used for presenting resources or links.
 
 ![Card section images](../../images/pattern/card-section/card-section-images.jpg)
 
 <br />
 
-#### Resources
-For more information about Card section images, see the following resources. 
+### Resources for Card section with images
 
 <CardGroup>
   <MiniCard
-    title="Design specifications for Card section images"
+    title="Design specifications"
     href="https://ibm.ent.box.com/folder/102045217811?s=u4acyo9oeqya8xidimxtidh8k8y08fza"
   >
     <img src={sketchSymbol} alt="Sketch"/>
   </MiniCard>
   <MiniCard
-    title="Functional specifications for Card section images"
+    title="Functional specifications"
     href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Card-section-images"
   >
     <img src={githubSymbol} alt="Github"/>
@@ -84,18 +80,17 @@ For more information about Card section images, see the following resources.
     title="React Storybook"
     href="https://www.ibm.com/standards/carbon/react/?path=/story/components-card-section-images--default"
   >
-    <img src={devtoolSymbol} alt="Storybook"/>
+    <img src={reactSymbol} alt="Storybook"/>
   </MiniCard>
   <MiniCard
     title="Web Components Storybook"
     href="https://www.ibm.com/standards/carbon/web-components/?path=/story/components-card-section-images--default"
   >
-    <img src={devtoolSymbol} alt="Storybook"/>
+    <img src={webComponentsSymbol} alt="Storybook"/>
   </MiniCard>
 </CardGroup>
 
-
-#### Content guidance
+### Content guidance
 
 | Field                                                                           | Field type | Required | Cardinality | Max character size (English / translated) | Notes                                            |
 | ------------------------------------------------------------------------------- | ---------- | -------- | ----------- | ----------------------------------------- | ------------------------------------------------ |
