@@ -1,5 +1,4 @@
 import React from 'react';
-import H2 from 'gatsby-theme-carbon/src/components/markdown/H2';
 import MiniCard from 'gatsby-theme-carbon/src/components/MiniCard/MiniCard';
 import CardGroup from 'gatsby-theme-carbon/src/components/MiniCard/CardGroup';
 import githubIcon from '../../images/icon/github-icon.svg';
@@ -33,7 +32,6 @@ export const ResourceLinks = ({ type, name, designLink = '', functionalLink = ''
     
     return (
         <>
-            <H2>Resources</H2>
             <CardGroup>
                 { designLink ?
                     <MiniCard title="Design specifications" href={designLink}>

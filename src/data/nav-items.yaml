@@ -1,9 +1,9 @@
-- title: All about Carbon for IBM.com
+- title: About Carbon for IBM.com
   pages:
     - title: What is Carbon for IBM.com?
-      path: /all-about-carbon-for-ibm.com/what-is-carbon-for-ibm.com
+      path: /about-carbon-for-ibm.com/what-is-carbon-for-ibm.com
     - title: Get started
-      path: /all-about-carbon-for-ibm.com/get-started
+      path: /about-carbon-for-ibm.com/get-started
 - title: Designing
   pages:
     - path: /designing
