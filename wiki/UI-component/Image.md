@@ -12,16 +12,16 @@ The [[Image]] component is a wrapper that at its base adds an image to the page.
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
 - `<picture>` <sup>[[r2](#resources)]</sup>
-- [[Carbon 2x grid]]
+
 
 <br />
 </details>
 
-<!-- usedby start open="true" -->
+<!-- usedby start -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start open="true" -->
+<!-- backlinks start -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 
@@ -31,6 +31,7 @@ The [[Image]] component is a wrapper that at its base adds an image to the page.
 
 - r1: [Box folder](https://ibm.ent.box.com/folder/94834513317)
 - r2: [`<picture>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)
+- r3: [[Carbon 2x grid]]
 
 <br />
 </details>
@@ -39,4 +40,16 @@ The [[Image]] component is a wrapper that at its base adds an image to the page.
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+### 1. Data model
+
+|   | name              | type      | description  |
+|:--|:------------------|:----------|:-------------|
+| `required`  | `defaultSrc`      | `String`  | Default image URL (usually image for largest breakpoint)  |
+|   | `sources[]`       | `Array`   | `Array` of image `Objects` |
+|   | `sources[].src`   | `Array`   | Image URL for given breakpoint  |
+|   | `sources[].breakpoint`  | `Number`   | min-width breakpoint to render the image.     |
+| `required`  | `alt`             | `String`  | Alternative text  |
+|   | `longDescription` | `String`  | Additional long form text visible to screen readers, hidden from users.  |
+|   | `border`          | `Boolean` | Optional border             |
+
+<br />[Back to top](#wiki-wrapper)<br /><br /><br />
