@@ -117,8 +117,8 @@
       path: /components/footer
     - title: Horizontal rule
       path: /components/horizontal-rule
-    - title: Image
-      path: /components/image
+    - title: Images
+      path: /components/images
     - title: Language selector
       path: /components/language-selector
     - title: Layout
