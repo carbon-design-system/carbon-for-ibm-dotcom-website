@@ -33,7 +33,7 @@ export const ResourceLinks = ({ type, name, designLink = '', functionalLink = ''
     
     return (
         <>
-            <H3>Resources for {name} </H3>
+            <H3>Resources for {name}</H3>
             <CardGroup>
                 { designLink ?
                     <MiniCard title="Design specifications" href={designLink}>
