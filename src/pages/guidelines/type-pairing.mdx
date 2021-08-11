@@ -1,44 +1,61 @@
 ---
 title: Type pairing
-description: Typography can help create clear hierarchies, organize information, and guide users through a product or experience. Together, type pairings and spacing support different levels of architecture or areas that require varying typographic hierarchies, and are the keys to making the best IBM.com experiences through typography.
+description: Typography can help create clear hierarchies, organize information, and guide users through a product or experience. Together, type pairings and spacing support different levels of architecture or areas that require varying typographic hierarchies.
 ---
 
 <PageDescription>
 
-Typography can help create clear hierarchies, organize information, and guide users through a product or experience. It's essential to understand the [typeface](https://www.carbondesignsystem.com/guidelines/typography/overview/#typeface:-ibm-plex), [type scale](https://www.carbondesignsystem.com/guidelines/typography/overview/#scale), [type tokens](https://www.carbondesignsystem.com/guidelines/typography/overview/#type-tokens-and-sets), and the [expressive type sets](https://www.carbondesignsystem.com/guidelines/typography/expressive) before diving into creating an IBM.com experience.
+Typography can help create clear hierarchies, organize information, and guide users through a product or experience. Together, type pairings and spacing support different levels of architecture or areas that require varying typographic hierarchies.
 
 </PageDescription>
 
-<br />
+<AnchorLinks>
 
-## Designing with type pairs
+<AnchorLink>Overview</AnchorLink>
+<AnchorLink>Designing with type pairs</AnchorLink>
+<AnchorLink>Content section</AnchorLink>
+<AnchorLink>Content block</AnchorLink>
+<AnchorLink>Content group</AnchorLink>
+<AnchorLink>Content item</AnchorLink>
+<AnchorLink>Support</AnchorLink>
 
-Consistent type pairing, along with the correct spacing, support different levels of architecture or areas that require varying typographic hierarchies, and are the keys to making the best IBM.com experiences through typography.
+</AnchorLinks>
 
-Below are some common type pairings and spacings when designing for IBM.com to ensure you create clear hierarchies, proper information organization, and the best experience to guide users through the IBM.com journey.
-<br />
+## Overview
+
+Within Carbon, there are two type sets available for use with productive and expressive experiences, and each type set includes styles that have been designed with expectations about hierarchy in mind. People unconsciously use type size as a signal of hierarchy, and so it's important to follow the correct type pairings when choosing which styles to use on your page.
+
+Below are some common type pairings and spacings that provide clear visual cues for hierarchy and information organization.
+
+<InlineNotification>
+
+For more information about typography, type usage, and the type set details see the [Carbon typography guidelines](https://carbondesignsystem.com/guidelines/typography/overview/). 
+
+</InlineNotification>
 
 
-### Content section
+## Content section
 
-Content section pairs `$expressive-heading-02` and `$body-long-02` with no space between the two type styles, the example below shows the large breakpoint.
+Content section pairs `$heading-02` and `$body-02` with no space between the two type styles.
 
 <Row>
 <Column colMd={8} colLg={8}>
 
-![Image of Table of contents component](../../images/guidelines/type-pairing/heading02_bodylong02.jpg)
+![Image of Heading02 and Body02 pairing](../../images/guidelines/type-pairing/heading02_body02.png)
+
+<Caption>Example of $heading-02 and $body-02 pairing, shown at the large breakpoint</Caption>
 
 </Column>
 </Row>
 
-**Tokens**
+### Tokens for Content section
 
 | `Type token` | `Breakpoint` | `info` |
 | --- | --- | --- |
-|`$expressive-heading-02`| Large |Type: IBM Plex Sans <br/>Size: 16px / 1rem <br/>Line-height: 24px / 1.5em <br/>Weight: 600 / Semi-Bold <br/>Letter-spacing: 0px |
-|`$body-long-02`| Large |Type: IBM Plex Sans <br/>Size: 16px / 1rem <br/>Line-height: 24px / 1.375em <br/>Weight: 400 / Regular <br/>Letter-spacing: 0px |
+|`$heading-02`| Large |Type: IBM Plex Sans <br/>Size: 16px / 1rem <br/>Line-height: 24px / 1.5em <br/>Weight: 600 / Semi-Bold <br/>Letter-spacing: 0px |
+|`$body-02`| Large |Type: IBM Plex Sans <br/>Size: 16px / 1rem <br/>Line-height: 24px / 1.5em <br/>Weight: 400 / Regular <br/>Letter-spacing: 0px |
 
-**Spacing**
+### Spacing for Content section
 
 | Breakpoint | `max` | `xlg` | `lg` | `md` | `sm` | 
 | --- | --- | --- | --- | --- | --- |
@@ -47,26 +64,29 @@ Content section pairs `$expressive-heading-02` and `$body-long-02` with no space
 
 <br />
 
-### Content block
+## Content block
 
-Content block pairs `$expressive-heading-05` and `$expressive-heading-03` with 32px of space between the two type styles, the example below shows the large breakpoint.
+Content block pairs `$fluid-heading-05` and `$fluid-heading-03` with 32px of space between the two type styles.
 
 <Row>
 <Column colMd={8} colLg={8}>
 
-![Image of Table of contents component](../../images/guidelines/type-pairing/heading05_heading03.jpg)
+![Image of fluid-heading-05 and fluid-heading-03 pairing](../../images/guidelines/type-pairing/fluidheading05_fluidheading03.png)
+
+<Caption>Example of $fluid-heading-05 and $fluid-heading-03 pairing, shown at the large breakpoint</Caption>
+
 
 </Column>
 </Row>
 
-**Tokens**
+### Tokens for Content block
 
 | `Type token` | `Breakpoint` | `info` |
 | --- | --- | --- |
-|`$expressive-heading-05`| Large |Type: IBM Plex Sans <br/>Size: 42px / 2.625rem <br/>Line-height: 50px / 3.125em <br/>Weight: 300 / Light <br/>Letter-spacing: 0px |
-|`$expressive-heading-03`| Large |Type: IBM Plex Sans <br/>Size: 20px / 1.25rem <br/>Line-height: 28px / 1.75em <br/>Weight: 400 / Regular <br/>Letter-spacing: 0px |
+|`$fluid-heading-05`| Large |Type: IBM Plex Sans <br/>Size: 42px / 2.625rem <br/>Line-height: 50px / 3.125em <br/>Weight: 300 / Light <br/>Letter-spacing: 0px |
+|`$fluid-heading-03`| Large |Type: IBM Plex Sans <br/>Size: 20px / 1.25rem <br/>Line-height: 28px / 1.75em <br/>Weight: 400 / Regular <br/>Letter-spacing: 0px |
 
-**Spacing**
+### Spacing for Content block
 
 | Breakpoint | `max` | `xlg` | `lg` | `md` | `sm` | 
 | --- | --- | --- | --- | --- | --- |
@@ -75,27 +95,28 @@ Content block pairs `$expressive-heading-05` and `$expressive-heading-03` with 3
 
 <br />
 
-### Content group
+## Content group
 
-Content group pairs `$expressive-heading-04` and `$body-long-02` with 32px of space between the two type styles, the example below shows the large breakpoint.
-
+Content group pairs `$fluid-heading-04` and `$body-02` with 32px of space between the two type styles.
 
 <Row>
 <Column colMd={8} colLg={8}>
 
-![Image of Table of contents component](../../images/guidelines/type-pairing/heading04_bodylong02.jpg)
+![Image of fluid-heading-04 and body-02 pairing](../../images/guidelines/type-pairing/fluidheading04_body02.png)
+
+<Caption>Example of $fluid-heading-04 and $body-02 pairing, shown at the large breakpoint</Caption>
 
 </Column>
 </Row>
 
-**Tokens**
+### Tokens for Content group
 
 | `Type token` | `Breakpoint` | `info` |
 | --- | --- | --- |
-|`$expressive-heading-04`| Large |Type: IBM Plex Sans <br/>Size: 28px / 1.75rem <br/>Line-height: 36px / 2.25em <br/>Weight: 400 / Regular <br/>Letter-spacing: 0px |
-|`$body-long-02`| Large |Type: IBM Plex Sans <br/>Size: 16px / 1rem <br/>Line-height: 24px / 1.375em <br/>Weight: 400 / Regular <br/>Letter-spacing: 0px |
+|`$fluid-heading-04`| Large |Type: IBM Plex Sans <br/>Size: 28px / 1.75rem <br/>Line-height: 36px / 2.25em <br/>Weight: 400 / Regular <br/>Letter-spacing: 0px |
+|`$body-02`| Large |Type: IBM Plex Sans <br/>Size: 16px / 1rem <br/>Line-height: 24px / 1.5em <br/>Weight: 400 / Regular <br/>Letter-spacing: 0px |
 
-**Spacing**
+### Spacing for Content group
 
 | Breakpoint | `max` | `xlg` | `lg` | `md` | `sm` | 
 | --- | --- | --- | --- | --- | --- |
@@ -104,33 +125,35 @@ Content group pairs `$expressive-heading-04` and `$body-long-02` with 32px of sp
 
 <br />
 
-### Content item
+## Content item
 
-Content item pairs `$expressive-heading-02` and `$body-long-02` with no space between the two type styles, the example below shows the large breakpoint.
+Content item pairs `$heading-02` and `$body-02` with no space between the two type styles, the example below shows the large breakpoint.
 
 <Row>
 <Column colMd={8} colLg={8}>
 
-![Image of Table of contents component](../../images/guidelines/type-pairing/heading02_bodylong02.jpg)
+![Image of heading-02 and body-02 pairing](../../images/guidelines/type-pairing/heading02_body02.png)
+
+<Caption>Example of $heading-02 and $body-02 pairing, shown at the large breakpoint</Caption>
+
 
 </Column>
 </Row>
 
-**Tokens**
+### Tokens for Content item
 
 | `Type token` | `Breakpoint` | `info` |
 | --- | --- | --- |
-|`$expressive-heading-02`| Large |Type: IBM Plex Sans <br/>Size: 16px / 1rem <br/>Line-height: 24px / 1.5em <br/>Weight: 600 / Semi-Bold <br/>Letter-spacing: 0px |
-|`$body-long-02`| Large |Type: IBM Plex Sans <br/>Size: 16px / 1rem <br/>Line-height: 24px / 1.375em <br/>Weight: 400 / Regular <br/>Letter-spacing: 0px |
+|`$heading-02`| Large |Type: IBM Plex Sans <br/>Size: 16px / 1rem <br/>Line-height: 24px / 1.5em <br/>Weight: 600 / Semi-Bold <br/>Letter-spacing: 0px |
+|`$body-02`| Large |Type: IBM Plex Sans <br/>Size: 16px / 1rem <br/>Line-height: 24px / 1.5em <br/>Weight: 400 / Regular <br/>Letter-spacing: 0px |
 
-**Spacing**
+### Spacing for Content item
 
 | Breakpoint | `max` | `xlg` | `lg` | `md` | `sm` | 
 | --- | --- | --- | --- | --- | --- |
 | Padding top | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px |
 | Padding bottom | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px |
 
-<br />
 
 ## Support
 
