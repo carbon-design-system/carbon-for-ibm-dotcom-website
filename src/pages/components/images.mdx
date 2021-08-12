@@ -1,0 +1,118 @@
+---
+title: Images
+description: The image wrappers display imagery on the page.
+---
+
+import ComponentDescription from "components/ComponentDescription";
+import ComponentFooter from "components/ComponentFooter";
+import sketchSymbol from '../../images/sketch-symbol.svg';
+import githubSymbol from '../../images/icon/github-icon.svg';
+import reactSymbol from '../../images/react-icon.svg';
+import webComponentsSymbol from '../../images/web-components-icon.svg';
+import ResourceLinks from "components/ResourceLinks";
+
+<ComponentDescription name="Image" type="ui" />
+
+
+<AnchorLinks>
+<AnchorLink>Overview</AnchorLink>
+<AnchorLink>Image</AnchorLink>
+<AnchorLink>Image with caption</AnchorLink>
+<AnchorLink>Feedback</AnchorLink>
+</AnchorLinks>
+
+## Overview
+
+There are two image components available. The Image component allows for a simple image on a page. The other, Image with caption, offers the addition of a caption, zoom, and video. 
+
+## Image
+
+Image, at its core, is a wrapper that adds an image to the page. You have the option to pass multiple images to the image component to render at the various breakpoints. This is particularly useful if you want to render different images at different screen sizes.
+
+We recommend displaying images at 1:1, 2:1, 4:3, and 16:9 aspect ratios. For guidance on choosing or creating imagery, see the IBM Design Language <a href="https://www.ibm.com/design/language/photography/overview" target="_blank">photography guidelines</a>. 
+
+<Row>
+<Column colMd={8} colLg={8}>
+
+![Image of Image default in context](../../images/component/image/image-overview-default.jpg)
+ <Caption>Example of an image component</Caption>
+
+</Column>
+</Row>
+
+### Modifiers
+
+#### Adding a border
+
+A 1px `$decorative-01` border can be added to the Image component to help frame images. This is useful when the page background and image background are the same or similar colors.
+
+The border feature is available for images with and without captions. 
+
+<Row>
+<Column colMd={8} colLg={8}>
+
+![An image with a border](../../images/component/image/image-options-border.jpg)
+
+</Column>
+</Row>
+<Caption>The border helps to separate the image from a background with the same color.</Caption>
+
+### Resources for Image
+<ResourceLinks name="Image" type="ui" />
+
+## Image with caption
+
+An image can include a caption beneath the image itself to provide more context. Using the Image with caption component, the image can be clicked to open an overlay (<a href="https://www.ibm.com/standards/carbon/components/lightbox-media-viewer" target="_blank">Lightbox media viewer</a>) that houses a larger version of the image or a video.
+ 
+Inside the overlay, the caption becomes the heading and there is an opportunity for additional body text.
+
+<Row>
+<Column colMd={8} colLg={8}>
+
+![Image with caption animation](../../images/component/image/image-options-caption.gif)
+
+</Column>
+</Row>
+<Caption>When an image has a caption, the user can hover over the image and click to trigger a Lightbox overlay with more information.</Caption>
+
+### Resources for Image with caption
+
+<CardGroup>
+  <MiniCard
+    title="Design specifications"
+    href="https://ibm.ent.box.com/folder/109643123498?s=mclmewshqcme7g6gykepok78rm882a0j"
+  >
+    <img src={sketchSymbol} alt="Sketch"/>
+  </MiniCard>
+  <MiniCard
+    title="Functional specifications"
+    href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Image-with-caption"
+  >
+    <img src={githubSymbol} alt="Github"/>
+  </MiniCard>
+  <MiniCard
+    title="React Storybook"
+    href="https://www.ibm.com/standards/carbon/react/?path=/story/components-image-with-caption--default"
+  >
+    <img src={reactSymbol} alt="React"/>
+  </MiniCard>
+  <MiniCard
+    title="Web Components Storybook"
+    href="https://www.ibm.com/standards/carbon/web-components/?path=/story/components-image-with-caption--default"
+  >
+    <img src={webComponentsSymbol} alt="Web Components"/>
+  </MiniCard>
+</CardGroup>
+
+### Content guidance for Image with caption
+Image is a foundational component and does not contain any additional content. Image with caption provides the opportunity for additional content, as shown in the following table.
+
+| Field                                                                                                             | Field type | Required | Cardinality | Max character size <br/>(English / translated) | Notes                                                                                                           |
+| ----------------------------------------------------------------------------------------------------------------- | ---------- | -------- | ----------- | ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| Heading                                                                                                           | Short copy | No      | 1           | XXS (40 / 55)                                  | If including a caption, this field is required.                                                                             |
+| Description                                                                                                       | Long copy  | No       | 1           | L (150 / 200)                                  | This is only shown in the lightbox media viewer (if enabled)                                                                |
+| Image                                 | Component  | Yes      | 1           | –                                              | –                                                                                                               |
+
+For more information, see the <a href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards" target="_blank" rel="noreferrer">character count standards</a>.
+
+<ComponentFooter name="Image" type="ui" />

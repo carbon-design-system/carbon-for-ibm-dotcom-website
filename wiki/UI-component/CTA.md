@@ -134,7 +134,7 @@ The download [[CTA]] type should be used when you have a file that needs to be d
 
 
 
-### 1. Style
+### 2. Style
 
 The [[CTA]] component wraps a number of our components to allow for different looks and hierarchy depending on the scenario and context. Each style gets the above types <sup>[[1](#1-type)]</sup> that allows them to share functionality.
 

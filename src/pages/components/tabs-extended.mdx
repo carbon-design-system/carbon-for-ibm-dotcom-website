@@ -5,6 +5,11 @@ description: Tabs extended combines tabs and accordion to organize editorial con
 
 import ComponentDescription from "components/ComponentDescription";
 import ComponentFooter from "components/ComponentFooter";
+import sketchSymbol from '../../images/sketch-symbol.svg';
+import githubSymbol from '../../images/icon/github-icon.svg';
+import reactSymbol from '../../images/react-icon.svg';
+import webComponentsSymbol from '../../images/web-components-icon.svg';
+import ResourceLinks from "components/ResourceLinks";
 
 <ComponentDescription name="Tabs extended" type="ui" />
 
@@ -15,29 +20,28 @@ import ComponentFooter from "components/ComponentFooter";
 </InlineNotification>
 
 <AnchorLinks>
-
-<AnchorLink>Default</AnchorLink>
-<AnchorLink>Design and functional specifications</AnchorLink>
-<AnchorLink>Development documentation</AnchorLink>
+<AnchorLink>Overview</AnchorLink>
+<AnchorLink>Tabs extended</AnchorLink>
+<AnchorLink>Tabs extended media</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
-
 </AnchorLinks>
 
-## Default
+## Overview
 
-This component extends  of Carbon Design System's [default tabs](https://carbondesignsystem.com/components/tabs/usage/). On desktop, the component renders as tabs, allowing for large amount of content while keeping the page short. On mobile, it is renders as an accordion, keeping the longer tab labels easily readable.
+Tabs extended uses the Carbon Design System's [tabs component](https://carbondesignsystem.com/components/tabs/usage/). On desktop, the component renders as tabs, allowing for large amounts of content to be organized using less vertical space on the page. On mobile, the component renders as an accordion, making it easy to read and access each section while scrolling.
 
-The tab labels may wrap up to two lines then truncated.
+The tab labels may wrap up to two lines when truncated.
+
+## Tabs extended
 
 <Row>
 <Column colMd={8} colLg={8}>
 
 ![Image of Tabs extended component on desktop](../../images/component/tabs-extended/components--tabs-extended-1.png)
+  <Caption>Example of the tabs extended, on desktop</Caption>
 
 </Column>
 </Row>
-
-### Behavior
 
 On mobile, Tabs extended switches to an accordion for easier browsing.
 
@@ -45,8 +49,58 @@ On mobile, Tabs extended switches to an accordion for easier browsing.
 <Column colMd={6} colLg={6}>
 
 ![Image of Tabs extended component on `sm`](../../images/component/tabs-extended/components--tabs-extended-2.png)
+  <Caption>Example of the tabs extended, on mobile</Caption>
 
 </Column>
 </Row>
+
+### Resources for Tabs extended
+<ResourceLinks name="Tabs extended" type="ui" />
+
+## Tabs extended media
+
+Tabs extended provides an option to include media. It uses [Content item horizontal](/components/content-item-horizontal) with media to create an organized section for displaying content with media. This is useful especially when reducing page length is desired. Keep in mind that when using tabs, some content will be hidden until the user interacts with the component, so they should not be used for information that is considered critical.
+
+<Row>
+<Column colMd={8} colLg={12}>
+
+![Image of Tabs extended with media component](../../images/component/tabs-extended/components--tabs-extended-media-1.jpg)
+  <Caption>Example of the tabs extended media, on desktop</Caption>
+
+</Column>
+</Row>
+
+On mobile, Tabs extended media renders as an accordion for easier browsing.
+
+<Row>
+<Column colMd={4} colLg={6}>
+
+![Image of Tabs extended media component](../../images/component/tabs-extended/components--tabs-extended-media-2.jpg)
+  <Caption>Example of the tabs extended media, on mobile</Caption>
+
+</Column>
+</Row>
+
+### Resources for Tabs extended media
+<CardGroup>
+  <MiniCard
+    title="Design specifications"
+    href="https://ibm.ent.box.com/folder/133803243554"
+  >
+    <img src={sketchSymbol} alt="Sketch"/>
+  </MiniCard>
+  <MiniCard
+    title="Functional specifications"
+    href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Tabs-extended-media"
+  >
+    <img src={githubSymbol} alt="Github"/>
+  </MiniCard>
+  <MiniCard
+    title="Web components Storybook"
+    href="https://www.ibm.com/standards/carbon/web-components/?path=/story/components-tabs-extended-with-media--default"
+  >
+    <img src={webComponentsSymbol} alt="Web Components"/>
+  </MiniCard>
+</CardGroup>
 
 <ComponentFooter name="Tabs extended" type="ui" />

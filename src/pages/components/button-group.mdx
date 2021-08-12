@@ -5,6 +5,7 @@ description: The Button group component is to be utilized within IBM.com for gro
 
 import ComponentDescription from "components/ComponentDescription";
 import ComponentFooter from "components/ComponentFooter";
+import ResourceLinks from "components/ResourceLinks";
 
 <ComponentDescription name="Button group" type="ui" />
 
@@ -15,18 +16,32 @@ import ComponentFooter from "components/ComponentFooter";
 </InlineNotification>
 
 <AnchorLinks>
-
+<AnchorLink>Resources</AnchorLink>
+<AnchorLink>Overview</AnchorLink>
 <AnchorLink>Content guidance</AnchorLink>
-<AnchorLink>Design and functional specifications</AnchorLink>
-<AnchorLink>Development documentation</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
-
 </AnchorLinks>
+
+## Resources
+<ResourceLinks name="Button group" type="ui" />
+
+## Overview
+
+Button group sets buttons at 16px apart, and matches width of all buttons to the longest button in the group.
+
+<Row>
+<Column colMd={8} colLg={8}>
+
+![Image of Video component](../../images/component/button-group/button-group.png)
+
+<Caption>Even though the primary button's label length is shorter, both buttons use the same width.</Caption>
+</Column>
+</Row>
 
 ## Content guidance
 
 | Field                                                                                                            | Field type | Required | Cardinality         | Notes                                                                                |
 | ---------------------------------------------------------------------------------------------------------------- | ---------- | -------- | ------------------- | ------------------------------------------------------------------------------------ |
-| <a href="https://www.carbondesignsystem.com/components/button/usage" target="_blank" rel="noreferrer">Button</a> | Component  | Yes      | Two or more buttons | There is one primary button shown at the end. The rest of the buttons are secondary. |
+| <a href="https://www.carbondesignsystem.com/components/button/usage" target="_blank" rel="noreferrer">Button</a> | Component  | Yes      | Two or more buttons | There is one primary button positioned to the right of the group. Any other buttons are tertiary. |
 
 <ComponentFooter name="Button group" type="ui" />
