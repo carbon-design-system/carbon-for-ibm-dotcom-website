@@ -355,7 +355,7 @@
     "Image": {
       "url": "./image",
       "designLink": "https://ibm.box.com/s/zaofzs8ssrfbkgker2lqxyvdnbpxvsly",
-      "description": "There are two image components available. The Image component allows for a simple image on a page. The other, Image with caption, offers the addition of a caption, zoom, and video.",
+      "description": "The image wrappers display imagery on the page.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-image--default",
         "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-image--default"
