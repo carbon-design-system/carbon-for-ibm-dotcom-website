@@ -1,9 +1,9 @@
 - title: About Carbon for IBM.com
   pages:
-    - title: What is Carbon for IBM.com?
-      path: /about-carbon-for-ibm.com/what-is-carbon-for-ibm.com
-    - title: Get started
-      path: /about-carbon-for-ibm.com/get-started
+    - title: What we provide
+      path: /about-carbon-for-ibm.com/what-we-provide
+    - title: Steps to adopt
+      path: /about-carbon-for-ibm.com/steps-to-adopt
 - title: Designing
   pages:
     - path: /designing
@@ -119,8 +119,6 @@
       path: /components/horizontal-rule
     - title: Image
       path: /components/image
-    - title: Image with caption
-      path: /components/image-with-caption
     - title: Language selector
       path: /components/language-selector
     - title: Layout
@@ -155,8 +153,6 @@
       path: /components/table-of-contents
     - title: Tabs extended
       path: /components/tabs-extended
-    - title: Tabs extended media
-      path: /components/tabs-extended-media
     - title: Tag link
       path: /components/tag-link
     - title: Video
