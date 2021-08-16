@@ -1,6 +1,6 @@
 ---
-title: Image
-description: There are two image components available. The Image component allows for a simple image on a page. The other, Image with caption, offers the addition of a caption, zoom, and video. 
+title: Images
+description: The Image and the Image with caption components offer two ways to display imagery on the page.
 ---
 
 import ComponentDescription from "components/ComponentDescription";
@@ -23,7 +23,7 @@ import ResourceLinks from "components/ResourceLinks";
 
 ## Overview
 
-There are two image components available. The Image component allows for a simple image on a page. The other, Image with caption, offers the addition of a caption, zoom, and video. 
+There are two image components available. The Image component allows for a simple image on a page. The Image with caption component offers the addition of a caption and zoom, which is helpful when showing detailed product shots. 
 
 ## Image
 
@@ -57,11 +57,11 @@ The border feature is available for images with and without captions.
 </Row>
 <Caption>The border helps to separate the image from a background with the same color.</Caption>
 
-<ResourceLinks name="Image" type="ui" />
+<ResourceLinks name="Image" type="ui" multiComponent/>
 
 ## Image with caption
 
-An image can include a caption beneath the image itself to provide more context. Using the Image with caption component, the image can be clicked to open an overlay (<a href="https://www.ibm.com/standards/carbon/components/lightbox-media-viewer" target="_blank">Lightbox media viewer</a>) that houses a larger version of the image or a video.
+An image can include a caption beneath the image itself to provide more context. Using the Image with caption component, the image can be clicked to open an overlay (<a href="https://www.ibm.com/standards/carbon/components/lightbox-media-viewer" target="_blank">Lightbox media viewer</a>) that houses a larger version of the image.
  
 Inside the overlay, the caption becomes the heading and there is an opportunity for additional body text.
 
@@ -106,11 +106,11 @@ Inside the overlay, the caption becomes the heading and there is an opportunity 
 ### Content guidance for Image with caption
 Image is a foundational component and does not contain any additional content. Image with caption provides the opportunity for additional content, as shown in the following table.
 
-| Field                                                                                                             | Field type | Required | Cardinality | Max character size <br/>(English / translated) | Notes                                                                                                           |
-| ----------------------------------------------------------------------------------------------------------------- | ---------- | -------- | ----------- | ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| Heading                                                                                                           | Short copy | No      | 1           | XXS (40 / 55)                                  | If including a caption, this field is required.                                                                             |
-| Description                                                                                                       | Long copy  | No       | 1           | L (150 / 200)                                  | This is only shown in the lightbox media viewer (if enabled)                                                                |
-| Image                                 | Component  | Yes      | 1           | –                                              | –                                                                                                               |
+| Element                | Content type | Required | Instances | Character count <br/>(English/translated) | Notes/Options |
+| ---------------------- | ---------- | -------- | ---------- | ---------------------- | -------------------------|----------------------------------------- |
+| Caption                                                                                                           | Text | Yes      | 1           | 40 / 55                                                           | Becomes heading in lightbox media viewer                                                                             |
+| Copy                                                                                                       | Text  | No       | 1           | 150 / 200                                                             | This is only shown in the lightbox media viewer (if enabled)                                                           |     |
+| Media                                 | Image  | Yes      | 1           | –                                              | –                                                                                                                                 |
 
 For more information, see the <a href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards" target="_blank" rel="noreferrer">character count standards</a>.
 
