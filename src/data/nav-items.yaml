@@ -63,8 +63,8 @@
       path: /components/callout-quote
     - title: Callout with media
       path: /components/callout-with-media
-    - title: Card
-      path: /components/card
+    - title: Cards
+      path: /components/cards
     - title: Card group
       path: /components/card-group
     - title: Card in card
