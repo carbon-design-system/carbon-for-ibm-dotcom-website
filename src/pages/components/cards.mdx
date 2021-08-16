@@ -83,32 +83,20 @@ Feature card has two sizes: medium and large. Medium is the default size, occupy
 
 ### Content guidance
 
-### Feature card -- medium
-
-| Field                                                                   | Field type  | Required | Cardinality | Max character size (English / translated) |
-| ----------------------------------------------------------------------- | ----------- | -------- | ----------- | ----------------------------------------- |
-| Heading                                                                 | Short copy  | Yes      | 1           | XS (65 / 85)                              |
-| Image                                                                   | Media       | Yes      | 1           | –                                         |
-| URL                                                                     | Link        | Yes      | 1           | –                                         |
-| [Type](https://www.ibm.com/standards/carbon/components/cta) (ex. Local) | Option list | Yes      | 1           | –                                         |
-
-
-### Feature card -- large
-
-| Field                                                                   | Field type  | Required | Cardinality | Max character size (English / translated) |
-| ----------------------------------------------------------------------- | ----------- | -------- | ----------- | ----------------------------------------- |
-| Eyebrow                                                                 | Short copy  | No       | 1           | Mini (25 / 35)                            |
-| Heading                                                                 | Short copy  | Yes      | 1           | XS (65 / 85)                              |
-| Copy                                                                    | Long copy   | No       | 1           | LL (200 / 260)                            |
-| Image                                                                   | Media       | Yes      | 1           | –                                         |
-| URL                                                                     | Link        | Yes      | 1           | –                                         |
-| [Type](https://www.ibm.com/standards/carbon/components/cta) (ex. Local) | Option list | Yes      | 1           | –                                         |
+| Element                                                                 | Content type  | Required | Instances | Character count <br/>(English / translated) | Notes                   |
+| ----------------------------------------------------------------------- | ------------- | -------- | --------- | ------------------------------------------- | ----------------------- |
+| Eyebrow                                                                 | Short copy    | No       | 1         | Mini (25 / 35)                              | Feature card large only |
+| Heading                                                                 | Short copy    | Yes      | 1         | XS (65 / 85)                                |                         |
+| Copy                                                                    | Long copy     | No       | 1         | LL (200 / 260)                              | Feature card large only |
+| Image                                                                   | Media         | Yes      | 1         | –                                           |                         |
+| URL                                                                     | Link          | Yes      | 1         | –                                           |                         |
+| [Type](https://www.ibm.com/standards/carbon/components/cta) (ex. Local) | Option list   | Yes      | 1         | –                                           |                         |
 
 
 To see the list of all character count standards, go to this <a href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards" target="_blank">link</a>.
 
 
-### Cards with pictograms
+## Cards with pictograms
 
 The card can also feature a pictogram element. Pictograms provide a lot of visual interest and can improve the overall look of the page. They can also support the user experience when paired with content that has common visual associations. However, keep in mind that meanings of pictograms can differ heavily across cultures, and so they should be selected and used carefully.
 
@@ -124,7 +112,7 @@ Cards with pictogram offers two pictogram positions: top-aligned or bottom-align
 </Column>
 </Row>
 
-#### Bottom-aligned pictogram
+### Bottom-aligned pictogram
 
 Bottom-aligning the pictogram ensures that the card heading is the first element read. This helps when the message is not immediately decipherable from the pictogram.
 
@@ -141,7 +129,7 @@ An added bonus for the bottom-aligned pictogram is the feature of showing copy o
 </Row>
 
 
-#### Top-aligned pictogram
+### Top-aligned pictogram
 
 Top-aligning the pictogram should only be used when the pictogram is strongly and precisely associated with the card heading. For example, an airplane is the perfect choice for "Aerospace and defence", as shown in the above example. 
 
