@@ -7,6 +7,8 @@
     "dev:clean": "yarn clean && yarn dev",
     "build": "gatsby build --prefix-paths",
     "build:clean": "yarn clean && gatsby build --prefix-paths",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "build:analyze": "ANALYZE=true yarn build",
@@ -27,6 +29,12 @@
     "@babel/plugin-transform-classes": "^7.12.13",
     "babel-preset-gatsby": "^0.5.2",
     "dotenv": "8.2.0",
-    "node-fetch": "^2.6.1"
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.24.0",
+    "node-fetch": "^2.6.1",
+    "prettier": "^2.3.2"
   }
 }
