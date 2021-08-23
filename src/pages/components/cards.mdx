@@ -90,6 +90,25 @@ While the entire default Card is clickable, the Static modifier makes it so only
 
 <ResourceLinks name="Card" type="ui" multiComponent/>
 
+### Content guidance for Card
+
+| Element                                                                 | Content type  | Required | Instances | Character count <br/>(English / translated) | Notes                   |
+| ----------------------------------------------------------------------- | ------------- | -------- | --------- | ------------------------------------------- | ----------------------- |
+| Eyebrow                                                                 | Text          | No       | 1         | 20 / 32                                     |                         |
+| Heading                                                                 | Text          | Yes      | 1         | 40 / 55                                     |                         |
+| Media                                                                   | [Image](https://www.ibm.com/standards/carbon/components/images/) or [Video](https://www.ibm.com/standards/carbon/components/video)     | No       | 1         | –                                           | 4:3 aspect ratio in grid, file original aspect ratio in lightbox |
+| Copy                                                                    | Text          | No       | 1         | 200 / 260                                   |                         |
+| [CTA icon](https://www.ibm.com/standards/carbon/components/cta)         | Icon          | No       | 1         | –                                           | Required for card with CTAs, displays after text (see below)     |
+| [CTA text](https://www.ibm.com/standards/carbon/components/cta)         | Link          | No       | 1         | 25 / 35                                     | URL assigned in setup   |
+| [Tag                                                                    | Component     | No       | 1         | 20 / 32                                     |                         |
+
+### Content guidance for Pictogram card
+
+| Element                                                                 | Content type  | Required | Instances | Character count <br/>(English / translated) | Notes                   |
+| ----------------------------------------------------------------------- | ------------- | -------- | --------- | ------------------------------------------- | ----------------------- |
+| Heading                                                                 | Text          | Yes       | 1         | 40 / 55                                    |                         |
+| Copy                                                                    | Text          | No        | 1         | 65 / 85                                    | Hover over copy on bottom-aligned pictogram only. |
+| Pictogram                                                               | Element       | Yes       | 1         | –                                          | Top- or bottom-aligned |
 
 ## Card link
 
@@ -108,8 +127,15 @@ Unlike Card, which can stand on its own, Card link should be part of a layout or
 2. **Body copy (optional):** Can include body copy for additional context.
 3. **Icon:** By default, uses `ArrowRight`.
 
-
 <ResourceLinks name="Card link" type="ui" multiComponent/>
+
+### Content guidance for Card link
+
+| Element                                                                 | Content type  | Required | Instances | Character count <br/>(English / translated) | Notes                   |
+| ----------------------------------------------------------------------- | ------------- | -------- | --------- | ------------------------------------------- | ----------------------- |
+| Heading                                                                 | Text          | Yes       | 1         | 25 / 45                                    |                         |
+| Copy                                                                    | Text          | No        | 1         | 40 / 55                                    |                         |
+| [CTA icon](https://www.ibm.com/standards/carbon/components/cta)         | Icon          | Yes       | 1         | 25 / 35                                    | URL assigned in setup, required for cards with CTAs  |
 
 ## Card in card
 
@@ -124,6 +150,16 @@ Card in card shares the same functionality and text content requirements of a st
 </Row>
 
 <ResourceLinks name="Card in card" type="ui" multiComponent/>
+
+### Content guidance for Card in card
+
+| Element                                                                 | Content type  | Required | Instances | Character count <br/>(English / translated) | Notes                   |
+| ----------------------------------------------------------------------- | ------------- | -------- | --------- | ------------------------------------------- | ----------------------- |
+| Eyebrow                                                                 | Text          | No       | 1         | 20 / 32                                     |                         |
+| Heading                                                                 | Text          | Yes      | 1         | 75 / 100                                    |                         |
+| Media                                                                   | [Image](https://www.ibm.com/standards/carbon/components/images/) or [Video](https://www.ibm.com/standards/carbon/components/video)          | Yes       | 1         | –                                     | Full width, 16:9 aspect ratio                        |
+| [CTA text](https://www.ibm.com/standards/carbon/components/cta)         | Link          | No       | 1         |                                            | Required for cards with CTAs, displays after text (see below)   |
+| [CTA icon](https://www.ibm.com/standards/carbon/components/cta)         | Icon          | No       | 1         | 25 / 35                                    | URL assigned in setup  |
 
 ## Feature card
 
@@ -160,7 +196,7 @@ The large feature card occupies 12 columns and allows for the addition of an eye
 
 <ResourceLinks name="Feature card" type="ui" multiComponent/>
 
-### Content guidance for Feature card
+### Content guidance for Feature card * PENDING REVIEW
 
 | Element                                                                 | Content type  | Required | Instances | Character count <br/>(English / translated) | Notes                   |
 | ----------------------------------------------------------------------- | ------------- | -------- | --------- | ------------------------------------------- | ----------------------- |
