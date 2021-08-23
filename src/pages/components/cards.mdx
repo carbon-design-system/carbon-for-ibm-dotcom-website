@@ -12,8 +12,8 @@ import ResourceLinks from "components/ResourceLinks";
 <AnchorLinks>
 <AnchorLink>Overview</AnchorLink>
 <AnchorLink>Card</AnchorLink>
-<AnchorLink>Card link</AnchorLink>
 <AnchorLink>Card in card</AnchorLink>
+<AnchorLink>Card link</AnchorLink>
 <AnchorLink>Feature card</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 </AnchorLinks>
@@ -23,7 +23,7 @@ import ResourceLinks from "components/ResourceLinks";
 The Card component is one of the main building blocks of IBM.com that can often be used to help users navigate to related information. There are various usages for Card, each with their own strengths and usage. Card can be used to navigate users to information-rich articles. Card link. is presented with other content as a jumping off point for more information. Card in card can put focus on images while using the card to provide more context. Feature card can highlight a piece of content on the page, and should be used sparingly.
 
 ![Image of Card components - Card, Card in card, Feature card, and pictogram card](../../images/component/card/cards-abstract-736-4-context.png)
-<Caption>From top left to bottom right: Card, Card in card, Feature Card, and Pictogram card.</Caption>
+<Caption>From top left to bottom right: Card, Card in card, Card link, and Feature card.</Caption>
 
 ## Card
 
@@ -60,9 +60,17 @@ The card can also be used to create other card-based components such as [Content
 
 ### Modifiers
 
-#### Pictogram card
+#### Logo
+<br/>
+<InlineNotification>
 
-The card can also feature a pictogram element. Pictograms provide a lot of visual interest and can improve the overall look of the page. They can also support the user experience when paired with content that has common visual associations. However, keep in mind that meanings of pictograms can differ heavily across cultures, and so they should be selected and used carefully.
+**Note:** Additional usage guidelines are coming soon.
+
+</InlineNotification>
+
+#### Pictogram
+
+The card can also feature a pictogram element. [Pictograms](https://www.ibm.com/design/language/iconography/pictograms/library) provide a lot of visual interest and can improve the overall look of the page. They can also support the user experience when paired with content that has common visual associations. However, keep in mind that meanings of pictograms can differ heavily across cultures, and so they should be selected and used carefully.
 
 Cards with pictogram offers two pictogram positions: top-aligned or bottom-aligned.
 
@@ -92,17 +100,29 @@ An added bonus for the bottom-aligned pictogram is the feature of showing copy o
 
 Top-aligning the pictogram should only be used when the pictogram is strongly and precisely associated with the card heading. For example, an airplane is the perfect choice for "Aerospace and defence", as shown in the above example. 
 
-#### Logo
-<br/>
-<InlineNotification>
-
-**Note:** Additional usage guidelines are coming soon.
-
-</InlineNotification>
-
 #### Static
 
-While the entire default Card is clickable, the Static modifier makes it so only the text link is clickable on the card. 
+While the entire default Card is clickable, the Static modifier makes it so only the text link is clickable on the card. This is useful for when you have multiple interactive elements on a single card such as CTAs and Tag links.
+
+<Row>
+
+<Column colMd={4} colLg={4}>
+
+![Example image: single selection hover state of a parent tier filter item.](../../images/component/card/cards-modifier-card-static-outline.png)
+
+<Caption>Example of a Card with the static modifier and an outline</Caption>
+
+</Column>
+
+<Column colMd={4} colLg={4}>
+
+![Example image: parent tier filter item selected, with child tier items exposed.](../../images/component/card/cards-modifier-card-static-flat.png)
+
+<Caption>Example of a Card with the static modifier and without the outline</Caption>
+
+</Column>
+
+</Row>
 
 
 <ResourceLinks name="Card" type="ui" multiComponent/>
@@ -127,32 +147,6 @@ While the entire default Card is clickable, the Static modifier makes it so only
 | Copy                                                                    | Text          | No        | 1         | 65 / 85                                    | Hover over copy on bottom-aligned pictogram only. |
 | Pictogram                                                               | Element       | Yes       | 1         | –                                          | Top- or bottom-aligned |
 
-## Card link
-
-Unlike Card, which can stand on its own, Card link should be part of a layout or other component - it should never appear on its own. Card links contain a heading, the CTA (call-to-action), an action icon within a tile, and optional body copy. The entire card is clickable.
-
-### Anatomy of Card link
-<Row>
-<Column colMd={8} colLg={8}>
-
-![Image of Table of contents component](../../images/component/card/card-options-card-link-anatomy.png)
-
-</Column>
-</Row>
-
-1. **Heading:** Customizable header for the Card link.
-2. **Body copy (optional):** Can include body copy for additional context.
-3. **CTA icon:** By default, uses `ArrowRight`.
-
-<ResourceLinks name="Card link" type="ui" multiComponent/>
-
-### Content guidance for Card link
-
-| Element                                                                 | Content type  | Required | Instances | Character count <br/>(English / translated) | Notes                   |
-| ----------------------------------------------------------------------- | ------------- | -------- | --------- | ------------------------------------------- | ----------------------- |
-| Heading                                                                 | Text          | Yes       | 1         | 25 / 45                                    |                         |
-| Copy                                                                    | Text          | No        | 1         | 40 / 55                                    |                         |
-| [CTA icon](https://www.ibm.com/standards/carbon/components/cta)         | Icon          | Yes       | 1         | 25 / 35                                    | URL assigned in setup, required for cards with CTAs  |
 
 ## Card in card
 
@@ -185,6 +179,34 @@ Card in card shares the same functionality and text content requirements of a st
 | [CTA icon](https://www.ibm.com/standards/carbon/components/cta)         | Icon          | No       | 1         | 25 / 35                                    | Required for cards with CTAs, displays after text (see below)  |
 | [CTA text](https://www.ibm.com/standards/carbon/components/cta)         | Link          | No       | 1         |                                            | URL assigned in setup   |
 
+## Card link
+
+Unlike Card, which can stand on its own, Card link should be part of a layout or other component - it should never appear on its own. Card links contain a heading, the CTA (call-to-action), an action icon within a tile, and optional body copy. The entire card is clickable.
+
+### Anatomy of Card link
+<Row>
+<Column colMd={8} colLg={8}>
+
+![Image of Table of contents component](../../images/component/card/card-options-card-link-anatomy.png)
+
+</Column>
+</Row>
+
+1. **Heading:** Customizable header for the Card link.
+2. **Body copy (optional):** Can include body copy for additional context.
+3. **CTA icon:** By default, uses `ArrowRight`.
+
+<ResourceLinks name="Card link" type="ui" multiComponent/>
+
+### Content guidance for Card link
+
+| Element                                                                 | Content type  | Required | Instances | Character count <br/>(English / translated) | Notes                   |
+| ----------------------------------------------------------------------- | ------------- | -------- | --------- | ------------------------------------------- | ----------------------- |
+| Heading                                                                 | Text          | Yes       | 1         | 25 / 45                                    |                         |
+| Copy                                                                    | Text          | No        | 1         | 40 / 55                                    |                         |
+| [CTA icon](https://www.ibm.com/standards/carbon/components/cta)         | Icon          | Yes       | 1         | 25 / 35                                    | URL assigned in setup, required for cards with CTAs  |
+
+
 ## Feature card
 
 Feature card is used for highlighting a piece of content on page. It should be used sparingly to be effective. Feature card has two sizes: medium and large. 
@@ -206,7 +228,6 @@ Medium is the default size, occupying 8 columns and consisting of an image, head
 
 #### Large
 The large feature card occupies 12 columns and allows for the addition of an eyebrow as well as body copy. 
-
 
 <Row>
 <Column colMd={12} colLg={12}>
