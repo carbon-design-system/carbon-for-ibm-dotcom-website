@@ -15,20 +15,19 @@ import ResourceLinks from "components/ResourceLinks";
 <AnchorLink>Card link</AnchorLink>
 <AnchorLink>Card in card</AnchorLink>
 <AnchorLink>Feature card</AnchorLink>
-<AnchorLink>Pictogram card</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 </AnchorLinks>
 
 ## Overview
 
-The Card component 
+The Card component is one of the main building blocks of IBM.com that can often be used to help users navigate to related information. There are various usages for Card, each with their own strengths and usage. Card can be used to navigate users to information-rich articles. Card link. is presented with other content as a jumping off point for more information. Card in card can put focus on images while using the card to provide more context. Feature card can highlight a piece of content on the page, and should be used sparingly.
 
 ![Image of Card components - Card, Card in card, Feature card, and pictogram card](../../images/component/card/cards-abstract-736-4-context.png)
 <Caption>From top left to bottom right: Card, Card in card, Feature Card, and Pictogram card.</Caption>
 
 ## Card
 
-The card component is the workhorse for many different page types. The default design includes a heading and a CTA (call-to-action), and optional extras include include an eyebrow, copy, and media. By adding and removing optional content, the card has a wide range of design possibilities.
+The Card component is the workhorse for many different page types. The default design includes a heading and a CTA (call-to-action), and optional extras include include an eyebrow, copy, and media. By adding and removing optional content, the card has a wide range of design possibilities.
 
 The card can also be used to create other card-based components such as [Content group cards](https://www.ibm.com/standards/carbon/components/content-group-cards) and [Card section](https://www.ibm.com/standards/carbon/components/card-section).
 
@@ -41,6 +40,23 @@ The card can also be used to create other card-based components such as [Content
 
 </Column>
 </Row>
+
+### Anatomy of Card
+<Row>
+<Column colMd={8} colLg={8}>
+
+![Image of Table of contents component](../../images/component/card/card-options-card-anatomy.png)
+
+</Column>
+</Row>
+
+1. **Heading (required):** Customizable header for the Card link.
+2. **Tag:** Add categories or special callouts to each card.
+3. **Body copy (optional):** Can include body copy for additional context.
+4. **CTA icon:** By default, uses `ArrowRight`.
+5. **Media:** Can be an image or a video.
+6. **Eyebrow:** Add additional context to the body copy.
+7. **CTA link:** Can be used with CTA icon to give more context.
 
 ### Modifiers
 
@@ -88,6 +104,7 @@ Top-aligning the pictogram should only be used when the pictogram is strongly an
 
 While the entire default Card is clickable, the Static modifier makes it so only the text link is clickable on the card. 
 
+
 <ResourceLinks name="Card" type="ui" multiComponent/>
 
 ### Content guidance for Card
@@ -114,7 +131,7 @@ While the entire default Card is clickable, the Static modifier makes it so only
 
 Unlike Card, which can stand on its own, Card link should be part of a layout or other component - it should never appear on its own. Card links contain a heading, the CTA (call-to-action), an action icon within a tile, and optional body copy. The entire card is clickable.
 
-### Anatomy
+### Anatomy of Card link
 <Row>
 <Column colMd={8} colLg={8}>
 
@@ -125,7 +142,7 @@ Unlike Card, which can stand on its own, Card link should be part of a layout or
 
 1. **Heading:** Customizable header for the Card link.
 2. **Body copy (optional):** Can include body copy for additional context.
-3. **Icon:** By default, uses `ArrowRight`.
+3. **CTA icon:** By default, uses `ArrowRight`.
 
 <ResourceLinks name="Card link" type="ui" multiComponent/>
 
@@ -141,13 +158,20 @@ Unlike Card, which can stand on its own, Card link should be part of a layout or
 
 Card in card shares the same functionality and text content requirements of a standard card, but requires a large media. Card in card is often used in a [Card group](https://www.ibm.com/standards/carbon/components/card-group) to as a featured card.
 
+### Anatomy of Card in card
 <Row>
 <Column colMd={8} colLg={8}>
 
-![Image of Card in card component](../../images/component/card-in-card/components--card-in-card.jpg)
+![Image of Card in card component](../../images/component/card/card-options-card-in-card-anatomy.jpg)
 
 </Column>
 </Row>
+
+1. **Media:** Can be an image or a video.
+2. **Heading:** Customizable header for the Card link.
+3. **Body copy (optional):** Can include body copy for additional context.
+4. **CTA icon:** By default, uses `ArrowRight`.
+5. **CTA link:** Can be used with CTA icon to give more context.
 
 <ResourceLinks name="Card in card" type="ui" multiComponent/>
 
