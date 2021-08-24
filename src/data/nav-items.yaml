@@ -48,8 +48,6 @@
       path: /guidelines/spacing
     - title: Style models
       path: /guidelines/style-models/overview
-    - title: Type pairing
-      path: /guidelines/type-pairing
 
 - title: Components
   pages:
