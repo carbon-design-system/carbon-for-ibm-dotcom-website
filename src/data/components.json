@@ -355,7 +355,7 @@
     "Image": {
       "url": "./image",
       "designLink": "https://ibm.box.com/s/zaofzs8ssrfbkgker2lqxyvdnbpxvsly",
-      "description": "There are two image components available. The Image component allows for a simple image on a page. The other, Image with caption, offers the addition of a caption, zoom, and video.",
+      "description": "The Image and the Image with caption components offer two ways to display imagery on the page.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-image--default",
         "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-image--default"
@@ -395,6 +395,33 @@
         "updated": false,
         "deprecated": false,
         "underConstruction": true,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      }
+    },
+    "Image with caption": {
+      "url": "./image-with-caption",
+      "designLink": "https://ibm.box.com/s/mclmewshqcme7g6gykepok78rm882a0j",
+      "description": "The Image with caption component is used to embed images and has an optional caption. It can support images at 1x1, 2x1, 4x3 and 16x9 aspect ratios.",
+      "storybook": {
+        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-image-with-caption--default",
+        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-imagewithcaption--default"
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": true,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
         "notAvailable": false
       },
       "react": {

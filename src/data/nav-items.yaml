@@ -71,8 +71,6 @@
       path: /components/card-section
     - title: Card section carousel
       path: /components/card-section-carousel
-    - title: Card section images
-      path: /components/card-section-images
     - title: Carousel
       path: /components/carousel
     - title: Content block cards
@@ -111,8 +109,8 @@
       path: /components/footer
     - title: Horizontal rule
       path: /components/horizontal-rule
-    - title: Image
-      path: /components/image
+    - title: Images
+      path: /components/images
     - title: Language selector
       path: /components/language-selector
     - title: Layout
