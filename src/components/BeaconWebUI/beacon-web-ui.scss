@@ -1,0 +1,20 @@
+#beacon-web-ui-iframe {
+  width: 100%;
+  margin: 0;
+  padding: 3rem 0 0;
+  border: 0;
+
+  &.has-results {
+    height: 80vw;
+  }
+}
+
+.beacon-web-ui__form {
+  display: flex;
+}
+
+@media screen and (min-width: 1054px) {
+  .bx--loading-overlay {
+    margin-left: 110px;
+  }
+}
