@@ -30,7 +30,7 @@ import ResourceLinks from "components/ResourceLinks";
 
 Tabs extended uses the Carbon Design System's [tabs component](https://carbondesignsystem.com/components/tabs/usage/). On desktop, the component renders as tabs, allowing for large amounts of content to be organized using less vertical space on the page. On mobile, the component renders as an accordion, making it easy to read and access each section while scrolling.
 
-The tab labels may wrap up to two lines when truncated.
+Tab labels wrap up to two lines before being truncated. Truncated labels are fully displayed in tooltips on hover and focus.
 
 ## Tabs extended
 
@@ -54,7 +54,7 @@ On mobile, Tabs extended switches to an accordion for easier browsing.
 </Column>
 </Row>
 
-<ResourceLinks name="Tabs extended" type="ui" />
+<ResourceLinks name="Tabs extended" type="ui"  multiComponent/>
 
 ## Tabs extended media
 
@@ -80,26 +80,6 @@ On mobile, Tabs extended media renders as an accordion for easier browsing.
 </Column>
 </Row>
 
-### Resources for Tabs extended media
-<CardGroup>
-  <MiniCard
-    title="Design specifications"
-    href="https://ibm.ent.box.com/folder/133803243554"
-  >
-    <img src={sketchSymbol} alt="Sketch"/>
-  </MiniCard>
-  <MiniCard
-    title="Functional specifications"
-    href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Tabs-extended-media"
-  >
-    <img src={githubSymbol} alt="Github"/>
-  </MiniCard>
-  <MiniCard
-    title="Web components Storybook"
-    href="https://www.ibm.com/standards/carbon/web-components/?path=/story/components-tabs-extended-with-media--default"
-  >
-    <img src={webComponentsSymbol} alt="Web Components"/>
-  </MiniCard>
-</CardGroup>
+<ResourceLinks name="Tabs extended media" type="layout"  multiComponent/>
 
 <ComponentFooter name="Tabs extended" type="ui" />
