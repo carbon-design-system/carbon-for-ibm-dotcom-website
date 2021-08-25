@@ -39,9 +39,9 @@ export const BeaconWebUI = () => {
           pattern={urlPattern}
           required
           id="text-input-1"
-          placeholder="Enter URL to audit, e.g. https://www.ibm.com"
+          placeholder="Enter URL to audit, for example https://www.ibm.com"
         />
-        <Button type="submit">Submit</Button>
+        <Button type="submit">Analyze page</Button>
       </Form>
       <Loading active={isLoading} />
       <iframe id="beacon-web-ui-iframe" title="Beacon for IBM.com" src=""></iframe>
