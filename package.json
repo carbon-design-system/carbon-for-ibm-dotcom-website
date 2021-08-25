@@ -10,6 +10,9 @@
     "format": "prettier --write 'src/**/*.{css,scss,js,json,html,yaml,md,mdx}'",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
+    "postinstall": "husky install",
+    "prepublishOnly": "pinst --disable",
+    "postpublish": "pinst --enable",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "build:analyze": "ANALYZE=true yarn build",
@@ -35,12 +38,13 @@
     "eslint-plugin-import": "^2.24.0",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.24.0",
+    "husky": "^7.0.2",
     "lint-staged": "^11.1.2",
     "node-fetch": "^2.6.1",
     "prettier": "^2.3.2"
   },
   "lint-staged": {
-    "*.{js}": [
+    "*.js": [
       "eslint --fix",
       "prettier --write"
     ],
