@@ -26,7 +26,7 @@ fit within the scope of any of the existing doc fix projects.
 
 ## Publishing Guidelines
 
-### Setup (light content changes in Github)
+### Setup (light content changes in GitHub)
 
 1. Go to the [pages folder](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/tree/main/src/pages) and
    begin making the desired edits by clicking the "Edit" icon in the upper right, or `Create new file` to create a new
@@ -127,7 +127,7 @@ features, by not reporting duplicate issues.
    $ git push origin { YOUR_BRANCH_NAME }
    ```
 
-8. In Github, navigate to
+8. In GitHub, navigate to
    [carbon-design-system/carbon-for-ibm-dotcom](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/)
    and click the button that reads "Compare & pull request".
 

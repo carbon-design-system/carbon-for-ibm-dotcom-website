@@ -44,7 +44,7 @@ export const ResourceLinks = ({ type, name, designLink = '', functionalLink = ''
                 }
                 { functionalLink ?
                     <MiniCard title="Functional specifications" href={functionalLink}>
-                        <img src={githubIcon} alt="Github" />
+                        <img src={githubIcon} alt="GitHub" />
                     </MiniCard> : ''
                 }
                 { components[type][name].storybook.react ?
