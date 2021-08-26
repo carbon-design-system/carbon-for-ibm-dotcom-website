@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "@carbon/icons-react": "^10.27.0",
+    "beacon-for-ibm-dotcom": "^0.2.7",
     "gatsby": "^2.19.17",
     "gatsby-theme-carbon": "1.30.2",
     "prop-types": "^15.7.2",
