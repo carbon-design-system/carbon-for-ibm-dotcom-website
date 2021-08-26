@@ -1,6 +1,6 @@
 ---
 title: Cards
-description: Component guideline page for Card.
+description: Card is a workhorse component which presenting content in a concise and readable style.
 ---
 
 import ComponentDescription from "components/ComponentDescription";
@@ -20,10 +20,16 @@ import ResourceLinks from "components/ResourceLinks";
 
 ## Overview
 
-The Card component is a flexible element that can be used on its own or combined with other components. Card can be used to navigate users to information-rich articles. Card link is presented with other content as a jumping off point for more information. Card in card can put focus on images while using the card to provide more context. Feature card can highlight a piece of content on the page, and should be used sparingly.
+The Card component is a flexible element that can be used on its own or combined with other components. [Card](#card) can be used to navigate users to information-rich articles. [Card link](#card-link) is presented with other content as a jumping off point for more information. [Card in card](#card-in-card) can put focus on images while using the card to provide more context. [Feature card](#feature-card) can highlight a piece of content on the page, and should be used sparingly.
 
-![Image of Card components - Card, Card in card, Feature card, and pictogram card](../../images/component/card/cards-dual-abstract-1120.jpg)
+<Row>
+<Column colMd={8} colLg={8}>
+
+![Image of Card components - Card, Card in card, Feature card, and pictogram card](../../images/component/card/cards-dual-abstract-1120-2.jpg)
 <Caption>From top to bottom: Card, Card in card, Card link, and Feature card.</Caption>
+
+</Column>
+</Row>
 
 ## Card
 
@@ -34,43 +40,34 @@ The card can also be used to create other card-based components such as [Content
 <Row>
 <Column colMd={8} colLg={8}>
 
-![Image of Card component](../../images/component/card/card-default-variations.png)
+![Image of Card anatomy](../../images/component/card/card-options-card-anatomy.png)
+
+</Column>
+</Row>
+
+1. **Heading (required):** Heading has the highest information hierarchy on a card, and should be succinct and descriptive.
+2. **Tag:** Add categories or special callouts to each card.
+3. **Body copy:** Optional body copy can be added for additional descriptions.
+4. **CTA type:** When using an icon, by default will use `ArrowRight`.
+5. **Media:** Can be an image or a video.
+6. **Eyebrow:** Add additional context to the the heading.
+7. **CTA link:** Can be used along with an icon to give more context.
+
+<Row>
+<Column colMd={8} colLg={8}>
+
+![Image of Card component variations](../../images/component/card/card-default-variations.png)
 
 <Caption>Example cards with varying content configurations</Caption>
 
 </Column>
 </Row>
 
-### Anatomy of Card
-<Row>
-<Column colMd={8} colLg={8}>
-
-![Image of Table of contents component](../../images/component/card/card-options-card-anatomy.png)
-
-</Column>
-</Row>
-
-1. **Heading (required):** Customizable header for the Card link.
-2. **Tag:** Add categories or special callouts to each card.
-3. **Body copy (optional):** Can include body copy for additional context.
-4. **CTA icon:** By default, uses `ArrowRight`.
-5. **Media:** Can be an image or a video.
-6. **Eyebrow:** Add additional context to the body copy.
-7. **CTA link:** Can be used with CTA icon to give more context.
-
 ### Modifiers
-
-#### Logo
-<br/>
-<InlineNotification>
-
-**Note:** Additional usage guidelines are coming soon.
-
-</InlineNotification>
 
 #### Pictogram
 
-The card can also feature a pictogram element. [Pictograms](https://www.ibm.com/design/language/iconography/pictograms/library) provide a lot of visual interest and can improve the overall look of the page. They can also support the user experience when paired with content that has common visual associations. However, keep in mind that meanings of pictograms can differ heavily across cultures, and so they should be selected and used carefully.
+The card can also feature a pictogram element. [Pictograms](https://www.ibm.com/design/language/iconography/pictograms/library) provide a lot of visual interest and can improve the overall look of the page. They can support the user experience when paired with content that has common visual associations. However, keep in mind that meanings of pictograms can differ heavily across cultures, and so they should be selected and used carefully.
 
 Cards with pictogram offers two pictogram positions: top-aligned or bottom-aligned.
 
@@ -86,7 +83,7 @@ Cards with pictogram offers two pictogram positions: top-aligned or bottom-align
 
 Bottom-aligning the pictogram ensures that the card heading is the first element read. This helps when the message is not immediately decipherable from the pictogram.
 
-An added bonus for the bottom-aligned pictogram is the feature of showing copy on hover. One thing to note with this feature is that the pictogram is hidden on mobile in order to keep the copy visible.
+An added bonus for the bottom-aligned pictogram is the feature of showing copy on hover. 
 
 <Row>
 <Column colMd={8} colLg={8}>
@@ -124,7 +121,6 @@ While the entire default Card is clickable, the Static modifier makes it so only
 
 </Row>
 
-
 <ResourceLinks name="Card" type="ui" multiComponent/>
 
 ### Content guidance for Card
@@ -135,11 +131,12 @@ While the entire default Card is clickable, the Static modifier makes it so only
 | Heading                                                                 | Text          | Yes      | 1         | 40 / 55                                     |                         |
 | Media                                                                   | [Image](https://www.ibm.com/standards/carbon/components/images/) or [Video](https://www.ibm.com/standards/carbon/components/video)     | No       | 1         | –                                           | 4:3 aspect ratio in grid, file original aspect ratio in lightbox |
 | Copy                                                                    | Text          | No       | 1         | 200 / 260                                   |                         |
-| [CTA icon](https://www.ibm.com/standards/carbon/components/cta)         | Icon          | No       | 1         | –                                           | Required for card with CTAs, displays after text (see below)     |
+| [CTA type](https://www.ibm.com/standards/carbon/components/cta)         | Options list  | Yes      | 1         | –                                           |                         |
 | [CTA text](https://www.ibm.com/standards/carbon/components/cta)         | Link          | No       | 1         | 25 / 35                                     | URL assigned in setup   |
 | Tag                                                                     | Component     | No       | 1         | 20 / 32                                     |                         |
 
 ### Content guidance for Pictogram card
+When a pictogram is added to a Card, the Card's appearance and content guidance changes.
 
 | Element                                                                 | Content type  | Required | Instances | Character count <br/>(English / translated) | Notes                   |
 | ----------------------------------------------------------------------- | ------------- | -------- | --------- | ------------------------------------------- | ----------------------- |
@@ -152,20 +149,19 @@ While the entire default Card is clickable, the Static modifier makes it so only
 
 Card in card shares the same functionality and text content requirements of a standard card, but requires a large media. Card in card is often used in a [Card group](https://www.ibm.com/standards/carbon/components/card-group) to as a featured card.
 
-### Anatomy of Card in card
 <Row>
 <Column colMd={8} colLg={8}>
 
-![Image of Card in card component](../../images/component/card/card-options-card-in-card-anatomy.jpg)
+![Image of Card in card component](../../images/component/card/card-options-card-in-card-anatomy.png)
 
 </Column>
 </Row>
 
 1. **Media:** Can be an image or a video.
-2. **Heading:** Customizable header for the Card link.
-3. **Body copy (optional):** Can include body copy for additional context.
-4. **CTA icon:** By default, uses `ArrowRight`.
-5. **CTA link:** Can be used with CTA icon to give more context.
+2. **Heading:** Heading has the highest information hierarchy on a card, and should be succinct and descriptive.
+3. **Body copy (optional):** Optional body copy can be added for additional descriptions.
+4. **CTA type:** When using an icon, by default will use `ArrowRight`.
+5. **CTA link:** Can be used with an icon to give more context.
 
 <ResourceLinks name="Card in card" type="ui" multiComponent/>
 
@@ -176,14 +172,13 @@ Card in card shares the same functionality and text content requirements of a st
 | Eyebrow                                                                 | Text          | No       | 1         | 20 / 32                                     |                         |
 | Heading                                                                 | Text          | Yes      | 1         | 75 / 100                                    |                         |
 | Media                                                                   | [Image](https://www.ibm.com/standards/carbon/components/images/) or [Video](https://www.ibm.com/standards/carbon/components/video)          | Yes       | 1         | –                                     | Full width, 16:9 aspect ratio                        |
-| [CTA icon](https://www.ibm.com/standards/carbon/components/cta)         | Icon          | No       | 1         | 25 / 35                                    | Required for cards with CTAs, displays after text (see below)  |
-| [CTA text](https://www.ibm.com/standards/carbon/components/cta)         | Link          | No       | 1         |                                            | URL assigned in setup   |
+| [CTA type](https://www.ibm.com/standards/carbon/components/cta)         | Option list   | Yes      | 1         | –                                           |                         |
+| [CTA text](https://www.ibm.com/standards/carbon/components/cta)         | Link          | No       | 1         | –                                           | URL assigned in setup   |
 
 ## Card link
 
-Unlike Card, which can stand on its own, Card link should be part of a layout or other component - it should never appear on its own. Card links contain a heading, the CTA (call-to-action), an action icon within a tile, and optional body copy. The entire card is clickable.
+Unlike Card, which can stand on its own, Card link should be presented with copy - it should never appear on its own. Card links contain a heading, an optional CTA (call-to-action), and optional body copy. The entire card is clickable.
 
-### Anatomy of Card link
 <Row>
 <Column colMd={8} colLg={8}>
 
@@ -192,9 +187,9 @@ Unlike Card, which can stand on its own, Card link should be part of a layout or
 </Column>
 </Row>
 
-1. **Heading:** Customizable header for the Card link.
-2. **Body copy (optional):** Can include body copy for additional context.
-3. **CTA icon:** By default, uses `ArrowRight`.
+1. **Heading (required):** Heading has the highest information hierarchy on a card, and should be succinct and descriptive.
+2. **Body copy:** Optional body copy can be added for additional descriptions.
+3. **CTA type (required):** When using an icon, by default will use `ArrowRight`.
 
 <ResourceLinks name="Card link" type="ui" multiComponent/>
 
@@ -202,10 +197,9 @@ Unlike Card, which can stand on its own, Card link should be part of a layout or
 
 | Element                                                                 | Content type  | Required | Instances | Character count <br/>(English / translated) | Notes                   |
 | ----------------------------------------------------------------------- | ------------- | -------- | --------- | ------------------------------------------- | ----------------------- |
-| Heading                                                                 | Text          | Yes       | 1         | 25 / 45                                    |                         |
+| Heading                                                                 | Text          | Yes       | 1         | 25 / 35                                    |                         |
 | Copy                                                                    | Text          | No        | 1         | 40 / 55                                    |                         |
-| [CTA icon](https://www.ibm.com/standards/carbon/components/cta)         | Icon          | Yes       | 1         | 25 / 35                                    | URL assigned in setup, required for cards with CTAs  |
-
+| [CTA type](https://www.ibm.com/standards/carbon/components/cta)         | Option list   | Yes       | 1         | -                                          |                         |
 
 ## Feature card
 
@@ -216,41 +210,36 @@ Feature card is used for highlighting a piece of content on page. It should be u
 #### Medium
 Medium is the default size, occupying 8 columns and consisting of an image, heading, and CTA (call-to-action). 
 
-<Row>
-<Column colMd={6} colLg={8}>
-
-![Image of Feature card - medium](../../images/component/feature-card/feature-card--md.png)
-
-<Caption>Example of a medium feature card with image, heading, and CTA</Caption>
-
-</Column>
-</Row>
-
 #### Large
 The large feature card occupies 12 columns and allows for the addition of an eyebrow as well as body copy. 
 
 <Row>
 <Column colMd={12} colLg={12}>
 
-![Image of Feature card - large](../../images/component/feature-card/feature-card--lg.png)
-
-<Caption>Example of a large feature card with image, eyebrow, heading, body copy, and CTA</Caption>
+![Image of Feature card - large](../../images/component/card/card-options-feature-card-large-anatomy.png)
 
 </Column>
 </Row>
 
+1. **Image:** Must use a 1:1 aspect ratio.
+2. **Eyebrow:** Add additional context to the the heading.
+3. **Heading (required):** Heading has the highest information hierarchy on a card, and should be succinct and descriptive.
+4. **Body copy:** Optional body copy can be added for additional descriptions.
+5. **CTA type (required):** When using an icon, by default will use `ArrowRight`.
+6. **Type (required):** Determines the size of the Feature card.
+
 <ResourceLinks name="Feature card" type="ui" multiComponent/>
 
-### Content guidance for Feature card * PENDING REVIEW
+### Content guidance for Feature card 
 
 | Element                                                                 | Content type  | Required | Instances | Character count <br/>(English / translated) | Notes                   |
 | ----------------------------------------------------------------------- | ------------- | -------- | --------- | ------------------------------------------- | ----------------------- |
-| Eyebrow                                                                 | Short copy    | No       | 1         | Mini (25 / 35)                              | Feature card large only |
-| Heading                                                                 | Short copy    | Yes      | 1         | XS (65 / 85)                                |                         |
-| Copy                                                                    | Long copy     | No       | 1         | LL (200 / 260)                              | Feature card large only |
-| Image                                                                   | Media         | Yes      | 1         | –                                           |                         |
-| URL                                                                     | Link          | Yes      | 1         | –                                           |                         |
-| [Type](https://www.ibm.com/standards/carbon/components/cta) (ex. Local) | Option list   | Yes      | 1         | –                                           |                         |
+| Eyebrow                                                                 | Copy          | No       | 1         | 25 / 35                            | Large only              |
+| Heading                                                                 | Copy          | Yes      | 1         | 65 / 85                            |                         |
+| Copy                                                                    | Copy          | No       | 1         | 200 / 260                          | Large only              |
+| Image                                                                   | Media         | Yes      | 1         | –                                  | 1:1 aspect ratio        |
+| [CTA type](https://www.ibm.com/standards/carbon/components/cta)         | Option list   | Yes      | 1         | –                                  |                         |
+| [Type](https://www.ibm.com/standards/carbon/components/cta) (ex. Local) | Option list   | Yes      | 1         | –                                  | Medium or large         |
 
 
 For more information, see the [character count standards](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards).
