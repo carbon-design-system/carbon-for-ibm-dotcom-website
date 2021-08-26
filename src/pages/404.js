@@ -13,7 +13,7 @@ import {
 const links = [
   { href: '/help', text: 'Help' },
   { href: 'https://ibm-studios.slack.com/archives/C2PLX8GQ6', text: '#carbon-for-ibm-dotcom' },
-  { href: 'https://www.github.com/carbon-design-system/carbon-for-ibm-dotcom', text: 'Github Repo' },
+  { href: 'https://www.github.com/carbon-design-system/carbon-for-ibm-dotcom', text: 'GitHub Repo' },
 ];
 
 const FourOhFourCustom = () => (
