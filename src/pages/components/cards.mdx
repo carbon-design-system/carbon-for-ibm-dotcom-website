@@ -25,8 +25,8 @@ The Card component is a flexible element that can be used on its own or combined
 <Row>
 <Column colMd={8} colLg={8}>
 
-![Image of Card components - Card, Card in card, Feature card, and pictogram card](../../images/component/card/cards-dual-abstract-736-2.jpg)
-<Caption>From top to bottom: Card, Card in card, Card link, and Feature card.</Caption>
+![From top to bottom: Card, Card in card, Card link, and Feature card.](../../images/component/card/cards-preview-image.png)
+<Caption></Caption>
 
 </Column>
 </Row>
@@ -48,7 +48,7 @@ The card can also be used to create other card-based components such as [Content
 1. **Heading (required):** Heading has the highest information hierarchy on a card, and should be succinct and descriptive.
 2. **Tag:** Add categories or special callouts to each card.
 3. **Body copy:** Optional body copy can be added for additional descriptions.
-4. **CTA type:** When using an icon, by default will use `ArrowRight`.
+4. **CTA type (required):** When using an icon, by default will use `ArrowRight`.
 5. **Media:** Can be an image or a video.
 6. **Eyebrow:** Add additional context to the the heading.
 7. **CTA link:** Can be used along with an icon to give more context.
@@ -67,9 +67,9 @@ The card can also be used to create other card-based components such as [Content
 
 #### Pictogram
 
-The card can also feature a pictogram element. [Pictograms](https://www.ibm.com/design/language/iconography/pictograms/library) provide a lot of visual interest and can improve the overall look of the page. They can support the user experience when paired with content that has common visual associations. However, keep in mind that meanings of pictograms can differ heavily across cultures, and so they should be selected and used carefully.
+The card can also feature a pictogram element. [Pictograms](https://www.ibm.com/design/language/iconography/pictograms/library) provide a lot of visual interest and can improve the overall look of the page. They can support the user experience when paired with content that has common visual associations. However, keep in mind that meanings of pictograms can differ heavily across cultures, and so they should be selected and used carefully. For information about content in pictogram cards, see the [content guidance table](#content-guidance-for-pictogram-card).
 
-Cards with pictogram offers two pictogram positions: top-aligned or bottom-aligned.
+Cards with pictograms offer two pictogram positions: top-aligned or bottom-aligned.
 
 <Row>
 <Column colMd={8} colLg={8}>
@@ -157,10 +157,10 @@ Card in card shares the same functionality and text content requirements of a st
 </Column>
 </Row>
 
-1. **Media:** Can be an image or a video.
-2. **Heading:** Heading has the highest information hierarchy on a card, and should be succinct and descriptive.
-3. **Body copy (optional):** Optional body copy can be added for additional descriptions.
-4. **CTA type:** When using an icon, by default will use `ArrowRight`.
+1. **Media (required):** Can be an image or a video.
+2. **Heading (required):** Heading has the highest information hierarchy on a card, and should be succinct and descriptive.
+3. **Body copy:** Optional body copy can be added for additional descriptions.
+4. **CTA type (required):** When using an icon, by default will use `ArrowRight`.
 5. **CTA link:** Can be used with an icon to give more context.
 
 <ResourceLinks name="Card in card" type="ui" multiComponent/>
@@ -210,6 +210,19 @@ Feature card is used for highlighting a piece of content on page. It should be u
 #### Medium
 Medium is the default size, occupying 8 columns and consisting of an image, heading, and CTA (call-to-action). 
 
+<Row>
+<Column colMd={12} colLg={12}>
+
+![Image of Feature card - medium](../../images/component/card/card-options-feature-card-medium-anatomy.png)
+
+</Column>
+</Row>
+
+1. **Image (required):** Must use a 1:1 aspect ratio.
+3. **Heading (required):** Heading has the highest information hierarchy on a card, and should be succinct and descriptive.
+5. **CTA type (required):** When using an icon, by default will use `ArrowRight`.
+6. **Type (required):** Determines the size of the Feature card.
+
 #### Large
 The large feature card occupies 12 columns and allows for the addition of an eyebrow as well as body copy. 
 
@@ -221,7 +234,7 @@ The large feature card occupies 12 columns and allows for the addition of an eye
 </Column>
 </Row>
 
-1. **Image:** Must use a 1:1 aspect ratio.
+1. **Image (required):** Must use a 1:1 aspect ratio.
 2. **Eyebrow:** Add additional context to the the heading.
 3. **Heading (required):** Heading has the highest information hierarchy on a card, and should be succinct and descriptive.
 4. **Body copy:** Optional body copy can be added for additional descriptions.
