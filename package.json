@@ -7,6 +7,12 @@
     "dev:clean": "yarn clean && yarn dev",
     "build": "gatsby build --prefix-paths",
     "build:clean": "yarn clean && gatsby build --prefix-paths",
+    "format": "prettier --write 'src/**/*.{css,scss,js,json,html,yaml,md,mdx}'",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "postinstall": "husky install",
+    "prepublishOnly": "pinst --disable",
+    "postpublish": "pinst --enable",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "build:analyze": "ANALYZE=true yarn build",
@@ -14,6 +20,7 @@
   },
   "dependencies": {
     "@carbon/icons-react": "^10.27.0",
+    "beacon-for-ibm-dotcom": "^0.2.7",
     "gatsby": "^2.19.17",
     "gatsby-theme-carbon": "1.30.2",
     "prop-types": "^15.7.2",
@@ -27,6 +34,23 @@
     "@babel/plugin-transform-classes": "^7.12.13",
     "babel-preset-gatsby": "^0.5.2",
     "dotenv": "8.2.0",
-    "node-fetch": "^2.6.1"
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.24.0",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
+    "node-fetch": "^2.6.1",
+    "prettier": "^2.3.2"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{css,scss,json,html,yaml,md,mdx}": [
+      "prettier --write"
+    ]
   }
 }
