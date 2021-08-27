@@ -38,8 +38,8 @@
       path: /guidelines
     - title: Content
       path: /guidelines/content
-    - title: Expressive Theme
-      path: /guidelines/expressive-theme
+    - title: Expressive styling
+      path: /guidelines/expressive-styling/overview
     - title: Layout
       path: /guidelines/layout
     - title: Right-to-left language
@@ -48,8 +48,6 @@
       path: /guidelines/spacing
     - title: Style models
       path: /guidelines/style-models/overview
-    - title: Type pairing
-      path: /guidelines/type-pairing
 
 - title: Components
   pages:
