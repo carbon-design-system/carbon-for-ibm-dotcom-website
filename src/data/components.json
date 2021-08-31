@@ -84,7 +84,7 @@
     "Card": {
       "url": "./card",
       "designLink": "https://ibm.box.com/s/hgvu48r1fv2ga2h0yn3qshrtxjc71vch",
-      "description": "Card is a workhorse component which presenting content in a concise and readable style.",
+      "description": "Card is a workhorse component which presents content in a concise and readable style.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-card--default",
         "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-card--default"
