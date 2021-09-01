@@ -18,29 +18,28 @@ async function _createBuildForIBMPage() {
   const buildForIBMheading = `${dest}/heading.txt`;
   const buildForIBMdest = `${dest}/index.mdx`;
 
-  // Download the `Building for IBM.com` docs page from the Carbon for IBM.com repo
-  await fetch(buildForIBMsrc, {
-    method: "get",
-    headers: {
-      "Content-Type": "text/html",
-    },
-  })
-    .then((response) => response.text())
-    .then((response) => {
-      const heading = fs.readFileSync(buildForIBMheading);
-      const final = response.substring(
-        response.indexOf("prettier-ignore-end") + 23,
-        response.length - 1
-      );
-      if (
-        fs.readFileSync(buildForIBMdest).toString() !== `${heading}${final}`
-      ) {
-        fs.writeFileSync(buildForIBMdest, `${heading}${final}`);
-      }
+  if(!fs.existsSync(buildForIBMdest)) {
+    // Download the `Building for IBM.com` docs page from the Carbon for IBM.com repo
+    await fetch(buildForIBMsrc, {
+      method: "get",
+      headers: {
+        "Content-Type": "text/html",
+      },
     })
-    .catch((err) => {
-      console.error(err);
-    });
+      .then((response) => response.text())
+      .then((response) => {
+        const heading = fs.readFileSync(buildForIBMheading);
+        const final = response.substring(
+          response.indexOf("prettier-ignore-end") + 23,
+          response.length - 1
+        );
+
+        fs.writeFileSync(buildForIBMdest, `${heading}${final}`);
+      })
+      .catch((err) => {
+        console.error(err);
+      });
+  }
 }
 
 /**
@@ -59,29 +58,28 @@ async function _createCDNStyleHelpersPage() {
   const styleHelpersheading = `${dest}/heading.txt`;
   const styleHelpersdest = `${dest}/index.mdx`;
 
-  // Download the `Building for IBM.com` docs page from the Carbon for IBM.com repo
-  await fetch(styleHelperssrc, {
-    method: "get",
-    headers: {
-      "Content-Type": "text/html",
-    },
-  })
-    .then((response) => response.text())
-    .then((response) => {
-      const heading = fs.readFileSync(styleHelpersheading);
-      const final = response.substring(
-        response.indexOf("prettier-ignore-end") + 23,
-        response.length - 1
-      );
-      if (
-        fs.readFileSync(styleHelpersdest).toString() !== `${heading}${final}`
-      ) {
-        fs.writeFileSync(styleHelpersdest, `${heading}${final}`);
-      }
+  if(!fs.existsSync(styleHelpersdest)) {
+    // Download the `Building for IBM.com` docs page from the Carbon for IBM.com repo
+    await fetch(styleHelperssrc, {
+      method: "get",
+      headers: {
+        "Content-Type": "text/html",
+      },
     })
-    .catch((err) => {
-      console.error(err);
-    });
+      .then((response) => response.text())
+      .then((response) => {
+        const heading = fs.readFileSync(styleHelpersheading);
+        const final = response.substring(
+          response.indexOf("prettier-ignore-end") + 23,
+          response.length - 1
+        );
+
+        fs.writeFileSync(styleHelpersdest, `${heading}${final}`);
+      })
+      .catch((err) => {
+        console.error(err);
+      });
+  }
 }
 
 exports.createPages = async () => {
