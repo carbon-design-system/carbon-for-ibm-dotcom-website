@@ -3,20 +3,21 @@
   "version": "1.0.0",
   "license": "Apache-2.0",
   "scripts": {
+    "clean": "gatsby clean",
+    "clean:dev-pages": "rimraf src/pages/developing/building-for-ibm-dotcom/index.mdx src/pages/developing/carbon-cdn-style-helpers/index.mdx",
+    "build": "gatsby build --prefix-paths",
+    "build:analyze": "ANALYZE=true yarn build",
+    "build:clean": "yarn clean && gatsby build --prefix-paths",
+    "build:wiki": "node node_modules/wiki-helpers/index.js rootPath=./wiki buildPath=./wiki-build flattenDir=true",
     "dev": "gatsby develop -H 0.0.0.0",
     "dev:clean": "yarn clean && yarn dev",
-    "build": "gatsby build --prefix-paths",
-    "build:clean": "yarn clean && gatsby build --prefix-paths",
     "format": "prettier --write 'src/**/*.{css,scss,js,json,html,yaml,md,mdx}'",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "postinstall": "husky install",
-    "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "build:analyze": "ANALYZE=true yarn build",
-    "build-wiki": "node node_modules/wiki-helpers/index.js rootPath=./wiki buildPath=./wiki-build flattenDir=true"
+    "prepublishOnly": "pinst --disable",
+    "serve": "gatsby serve"
   },
   "dependencies": {
     "@carbon/icons-react": "^10.27.0",
