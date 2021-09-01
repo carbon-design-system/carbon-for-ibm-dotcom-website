@@ -355,7 +355,7 @@
     "Image": {
       "url": "./image",
       "designLink": "https://ibm.box.com/s/zaofzs8ssrfbkgker2lqxyvdnbpxvsly",
-      "description": "Image is used as the primary way of embedding images on pages.",
+      "description": "The Image and the Image with caption components offer two ways to display imagery on the page.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-image--default",
         "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-image--default"
@@ -410,10 +410,10 @@
     "Image with caption": {
       "url": "./image-with-caption",
       "designLink": "https://ibm.box.com/s/mclmewshqcme7g6gykepok78rm882a0j",
-      "description": "Image with caption is used to embed images and has an optional caption. It can support images at 1x1, 2x1, 4x3 and 16x9 aspect ratios.",
+      "description": "The Image with caption component is used to embed images and has an optional caption. It can support images at 1x1, 2x1, 4x3 and 16x9 aspect ratios.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-image-with-caption--default",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-image-with-caption--default"
+        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-imagewithcaption--default"
       },
       "webcomponents": {
         "stable": true,

@@ -1,9 +1,9 @@
-- title: All about Carbon for IBM.com
+- title: About Carbon for IBM.com
   pages:
-    - title: What is Carbon for IBM.com?
-      path: /all-about-carbon-for-ibm.com/what-is-carbon-for-ibm.com
-    - title: Get started
-      path: /all-about-carbon-for-ibm.com/get-started
+    - title: What we provide
+      path: /about-carbon-for-ibm.com/what-we-provide
+    - title: Steps to adopt
+      path: /about-carbon-for-ibm.com/steps-to-adopt
 - title: Designing
   pages:
     - path: /designing
@@ -38,8 +38,8 @@
       path: /guidelines
     - title: Content
       path: /guidelines/content
-    - title: Expressive Theme
-      path: /guidelines/expressive-theme
+    - title: Expressive styling
+      path: /guidelines/expressive-styling/overview
     - title: Layout
       path: /guidelines/layout
     - title: Right-to-left language
@@ -48,8 +48,6 @@
       path: /guidelines/spacing
     - title: Style models
       path: /guidelines/style-models/overview
-    - title: Type pairing
-      path: /guidelines/type-pairing
 
 - title: Components
   pages:
@@ -75,8 +73,6 @@
       path: /components/card-section
     - title: Card section carousel
       path: /components/card-section-carousel
-    - title: Card section images
-      path: /components/card-section-images
     - title: Carousel
       path: /components/carousel
     - title: Content block cards
@@ -117,10 +113,8 @@
       path: /components/footer
     - title: Horizontal rule
       path: /components/horizontal-rule
-    - title: Image
-      path: /components/image
-    - title: Image with caption
-      path: /components/image-with-caption
+    - title: Images
+      path: /components/images
     - title: Language selector
       path: /components/language-selector
     - title: Layout
@@ -155,8 +149,6 @@
       path: /components/table-of-contents
     - title: Tabs extended
       path: /components/tabs-extended
-    - title: Tabs extended media
-      path: /components/tabs-extended-media
     - title: Tag link
       path: /components/tag-link
     - title: Video
