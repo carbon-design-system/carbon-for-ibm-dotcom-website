@@ -162,7 +162,7 @@ The default text style is just a [[Link with icon]]. This type of [[CTA]] can be
 |:--|:-----------|:-------------|
 | `2.1.2` | `video.id && copy` | pre-filled by [[Video service]]'s `name` if not defined. |
 
-> `duration` is appended after string of text in parenthesis. (e.g. `copy string (duration)`)
+> Video `duration` is appended after string of text in parenthesis. (e.g. `copy string (duration)`)
 
 <br />
 
@@ -193,7 +193,7 @@ The button [[CTA]] style can communicate the primary and secondary action for a 
 |:--|:-----------|:-------------|
 | `2.2.2` | `video.id && copy` | pre-filled by [[Video service]]'s `name` if not defined. |
 
-> `duration` is appended after string of text in parenthesis. (e.g. `copy string (duration)`)
+> Video `duration` is appended after string of text in parenthesis. (e.g. `copy string (duration)`)
 
 <br />
 
@@ -222,9 +222,10 @@ The card [[CTA]] style is our generic [[Card]] that take various forms and conte
 
 |   | condition  | description  |
 |:--|:-----------|:-------------|
-| `2.3.2` | `video.id && heading` | pre-filled by [[Video service]]'s `name` if not defined. |
-| `2.3.3` | `video.id && copy` | pre-filled by [[Video service]]'s `description` if not defined. |
-| `2.3.4` | `video.id && cta copy` | pre-filled by [[Video service]]'s `duration` if not defined. |
+| `2.3.2` | `video.id && heading` | pre-filled by [[Video service]]'s `name` if not defined or explicitly set to `false`. |
+| `2.3.3` | `video.id && copy` | pre-filled by [[Video service]]'s `description` if not defined or explicitly set to `false`. |
+| `2.3.4` | `video.id && cta copy` | pre-filled by [[Video service]]'s `duration` if not defined or explicitly set to `false`. |
+| `2.4.5` | `video.id && image` | pre-filled by [[Video service]]'s `poster image` if not defined or explicitly set to `false`. |
 
 <br />
 
@@ -253,9 +254,10 @@ The feature [[CTA]] style is a larger version of [[Card]] with an image to reall
 
 |   | condition  | description  |
 |:--|:-----------|:-------------|
-| `2.3.2` | `video.id && heading` | pre-filled by [[Video service]]'s `name` if not defined. |
-| `2.3.3` | `video.id && copy` | pre-filled by [[Video service]]'s `description` if not defined. |
-| `2.3.4` | `video.id && cta copy` | pre-filled by [[Video service]]'s `duration` if not defined. |
+| `2.4.2` | `video.id && heading` | pre-filled by [[Video service]]'s `name` if not defined. |
+| `2.4.3` | `video.id && copy` | pre-filled by [[Video service]]'s `description` if not defined or explicitly set to `false`. |
+| `2.4.4` | `video.id && cta copy` | pre-filled by [[Video service]]'s `duration` if not explicitly set to `false`. |
+| `2.4.5` | `video.id && image` | pre-filled by [[Video service]]'s `poster image` if not defined. |
 
 <br />
 
@@ -266,7 +268,7 @@ The feature [[CTA]] style is a larger version of [[Card]] with an image to reall
 <br /><br />
 
 
-#### 2.4 Card link
+#### 2.5 Card link
 
 The card link [[CTA]] style is a small [[Card link]] that can be used at higher levels within the page hierarchy.
 
@@ -274,7 +276,7 @@ The card link [[CTA]] style is a small [[Card link]] that can be used at higher 
 
 |   | condition | description |
 |:--|:------|:------|
-| `2.4.1`  | `style === 'cardlink` | Set the data model and component to use: [[Card link]] |
+| `2.5.1`  | `style === 'cardlink` | Set the data model and component to use: [[Card link]] |
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See [[Card link]]
 
@@ -284,8 +286,9 @@ The card link [[CTA]] style is a small [[Card link]] that can be used at higher 
 
 |   | condition  | description  |
 |:--|:-----------|:-------------|
-| `2.3.2` | `video.id && heading` | pre-filled by [[Video service]]'s `name` if not defined. |
-| `2.3.4` | `video.id && cta copy` | pre-filled by [[Video service]]'s `duration` if not defined. |
+| `2.5.2` | `video.id && heading` | pre-filled by [[Video service]]'s `name` if not defined. |
+| `2.5.3` | `video.id && copy` | pre-filled by [[Video service]]'s `description` if not defined or explicitly set to `false`. |
+| `2.5.4` | `video.id && cta copy` | pre-filled by [[Video service]]'s `duration` if not explicitly set to `false`. |
 
 <br />
 
