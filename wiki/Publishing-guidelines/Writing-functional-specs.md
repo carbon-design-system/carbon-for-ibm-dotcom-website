@@ -4,7 +4,7 @@ The functional specs document is a deliverable after a functional analysis has b
 *{{table of contents auto populates}}*
 <!-- toc end -->
 
-##### Basic principles
+### Basic principles
 - Reuse existing
 - Avoid duplication and redundancy
 - Document with consistent
@@ -20,11 +20,15 @@ There is a document with some basic naming strategy that we try to follow as bes
 ### Data model
 At a low level every single one of our components starts here, and deviates as necessary. Here is a link to the [[Data model]].
 
+<br /><br />
+
 ## Understanding the template
 
 The functional spec template is just a set of common tools that I find commonly used across components, and compiled into a single file/template for easy reference and better consistency. All of the sections in this template do not always have to be used, and while I would ask if we could avoid it the fact that we have this template doesn't mean it's the only way or even best way to present a particular component. Use it as a jumping off point, and try your best to stay consistent with it. With all things functional specs related collaboration is important, so we can discuss changing things when reviewing if necessary.
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  here is a link to the functional specs template: [[fs template]]
+
+<br />
 
 ### Meta data
 
@@ -45,14 +49,16 @@ The dependency list is one of the most important aspects of the functional specs
 <details>
   <summary><strong>Example</strong></summary><br />
 
+```html
 - [[Component or wiki page name 1]]
 - [[Component or wiki page name 2]]
 - [[Component or wiki page name 3]]
+```
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  Notice the double brackets with the file name `[[File name]]` in-between. This is different from a markdown link `[text](url)`.
 
 <br />
-</details>
+</details><br /><br />
 
 #### Used by
 
@@ -71,20 +77,22 @@ The resource section is a numbered list of additional resources not included in 
 <details>
   <summary><strong>Example</strong></summary><br />
 
+```html
 - r1: [resource example](www.example.com)
 - r2: [resource example](www.example.com)
 - r3: [resource example](www.example.com)
 - r6: [resource example](www.example.com)
 - r7: [resource example](www.example.com)
+```
 
 <br />
-</details>
+</details><br /><br />
 
 ### Sections
 
 The sections on the page are just some ways I've used in the past to break content down, and provide the functional specs required for development. Ultimately the following levels use at your discretion, and discuss in review, but the following is how I tend to like to use them.
 
-
+<br /><br />
 
 #### Global
 The global level is often where I'll put a visual of the component, and a high level break down of its elements and components. Every once in while I'll add a global option table or a logic conditional table to demonstrate how whole entire component's functionality can be modified. I typically won't include a markdown title to help indicate that it's apart of the highest level of the component.
@@ -106,6 +114,8 @@ Level 3 is rarely used, and only in some of the most complicated components we h
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  The title here is typically `#####` an `h5`.
 
+<br /><br />
+
 #### Anatomy visual
 The anatomy is often added as a high level annotated image within the global section. Often times it dictates the structure/outline of the functional specs. The annotations reference heading numbers that go into detail about a given aspect of the component. If more detail is needed we can break the component into annotated sections, and at level 2 provided a more detailed annotated anatomy image for reference. This ultimately does 2 things for the document. It provides the reader with a visual of what component they are looking at, but it also helps define the structure of the document.
 
@@ -113,7 +123,9 @@ The anatomy is often added as a high level annotated image within the global sec
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  Checkout [[Content block]] to see how it's leveraging the anatomy section.
 
-#### Table template options
+<br />
+
+#### Table templating options
 The table templating options are a few predefined bucketed templates you can use to really get nit and gritty in detail with how the functionality of the component, or the particular aspect of the component functions.
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  The title here is typically `######` an `h6`, and is not included in the table of contents generator. That can be changed by updating the `depthEnd` attribute if needed.
@@ -134,19 +146,17 @@ One thing to point out is that it might not always be necessary document the rev
 <details>
   <summary><strong>Example</strong></summary><br />
 
----
+> *An example of a [[Tabs extended]] component*
 
 ###### Logic
 
 |         | condition   | description  |
 |:--------|:------------|:-------------|
 | `1.0.1` | `@sm` `@md` | Switches to [[Accordion]] layout |
-| `1.0.2` | `@md` `@lg` `@xlg` `@max` | Switches to [[Tabs extended]] layout |
-
----
+| `1.0.2` | `@md` `@lg` `@xlg` `@max` | Switches to [[Carbon tabs]] layout |
 
 <br />
-</details>
+</details><br /><br />
 
 
 #### Events
@@ -166,19 +176,19 @@ While the functional specs tracks events, we want to avoid redundancy and duplic
 <details>
   <summary><strong>Example</strong></summary><br />
 
----
+> *An example of a scrolling animation*
 
-###### Logic
+###### Events
 
-|         | condition   | description  |
+|         | name   | description  |
 |:--------|:------------|:-------------|
-| `1.0.1` | `scrolls-into-view` | Executes looping animation  |
-| `1.0.2` | `scrolls-out-of-view`  | Stops animation from running off screen |
+| `1.0.1` | `scrolls-into-view`   | Animates into view |
+| `1.0.2` | `scrolls-out-of-view` | Resets animation   |
 
 ---
 
 <br />
-</details>
+</details><br /><br />
 
 
 #### State
@@ -203,21 +213,20 @@ Also don't be afraid to break things down into smaller chunks, and reference a l
 <details>
   <summary><strong>Example</strong></summary><br />
 
----
+> *An example of an event card*
 
 ###### States
 
-|         | state       | description  |
+|         | name       | description  |
 |:--------|:------------|:-------------|
-| `1.0.1` | `expired`   | Disable component  |
-| `1.0.2` | `active`    | Enable component   |
+| `1.0.1` | `past`      | Don't render component  |
+| `1.0.2` | `present`   | Enable component's [[CTA]], and adjusts visuals  |
+| `1.0.2` | `future`    | Disable component's [[CTA]], and adjusts visuals  |
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See visual design specs <sup>[[r1](#resources)]</sup>
 
----
-
 <br />
-</details>
+</details><br /><br />
 
 
 #### Example
@@ -233,7 +242,7 @@ One of the fears, or concerns with this section is how easily it can become outd
 
 Don't be tempted to avoid including this section. If used correctly it can really help development understand the functionality we are trying to communicate.
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See the example below to see how content block was abstracted
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See the example below to see how [[Content block]] was abstracted visually
 
 While this is primarily meant to visually show with images, this section does not need to be limited to images as examples. Just remember to prioritize the communication of it.
 
@@ -242,14 +251,18 @@ While this is primarily meant to visually show with images, this section does no
 
 ###### Example
 
+> *An example using [[Content block]]*
+
 ![content-block](https://user-images.githubusercontent.com/3793636/121601206-3f46fd00-ca0b-11eb-9b38-7113fb525854.gif)
 
 <br />
-</details>
+</details><br /><br />
 
-#### Options / data / modifiers
+#### Modifiers
 
-> An option is something the adopter can set, impacting the component either visually or functionally.
+<!-- options, data, modifiers, props -->
+
+> A modifier is something the adopter can set on/in a given component, impacting it either visually or functionally.
 
 ###### Some examples  
 - A data list summarizing how a component, or an aspect of that component leverages the common data model and influences its functionality.
@@ -265,12 +278,14 @@ Depending on the needs you could use the `h6` `######` heading to indicate an op
 <details>
   <summary><strong>Example</strong></summary><br />
 
-###### Options
+> *An example using different sizing options in something like [[Lead space]]*
 
-|            | option   | description  |
+###### Modifiers
+
+|            | name   | description  |
 |:-----------|:---------|:-------------|
 | `1.0.1`    | `size`   | options for size are: `short (default)`, `medium`, `tall`  |
-| `1.0.2`    | `orientation`  | orentation options are: `vertical`, `horizontal`  |
+| `1.0.2`    | `...`  | ...  |
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See visual design specs <sup>[[r1](#resources)]</sup>
 
@@ -287,7 +302,7 @@ Depending on the needs you could use the `h6` `######` heading to indicate an op
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See visual design specs <sup>[[r1](#resources)]</sup>
 
 <br />
-</details>
+</details><br /><br />
 
 #### References
 
@@ -295,15 +310,55 @@ A reference tag can either help point to another section on the page, or point o
 
 Example <sup>[[r1](#resources)]</sup>
 
+<details>
+  <summary><strong>Code</strong></summary><br />
+
+```html
+Example <sup>[[r1](#resources)]</sup>
+```
+
+<br />
+</details><br /><br />
+
 #### Callouts
 
 Callouts can be used to call attention to the reader to something important, or tangental information within the documentation they should consider. I like to use it to reference resources related directly to the content, pose questions on things maybe worth considering in the future, or callout concerns and road blocks.
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  Check something out <sup>[[r1](#resources)]</sup>
 
+<details>
+  <summary><strong>Code</strong></summary><br />
+
+```html
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  Check something out <sup>[[r1](#resources)]</sup>
+```
+
+<br />
+</details><br /><br />
+
 > ![image](https://user-images.githubusercontent.com/3793636/117873641-a6835d00-b265-11eb-8433-8c9c73a2e999.png) Identify a blocker
 
+<details>
+  <summary><strong>Code</strong></summary><br />
+
+```html
+> ![image](https://user-images.githubusercontent.com/3793636/117873641-a6835d00-b265-11eb-8433-8c9c73a2e999.png) Identify a blocker
+```
+
+<br />
+</details><br /><br />
+
 > ![image](https://user-images.githubusercontent.com/3793636/117874180-493bdb80-b266-11eb-8945-dde0d95431d6.png) Add a question / note
+
+<details>
+  <summary><strong>Code</strong></summary><br />
+
+```html
+> ![image](https://user-images.githubusercontent.com/3793636/117874180-493bdb80-b266-11eb-8945-dde0d95431d6.png) Add a question / note
+```
+
+<br />
+</details><br /><br />
 
 #### Back to top
 
