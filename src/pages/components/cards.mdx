@@ -1,6 +1,6 @@
 ---
 title: Cards
-description: Cards are workhorse components because they provide effective calls to action, and the various designs available work with a wide range of content.
+description: Cards are considered “workhorse” components because of their versatility. They provide effective calls to action, and the various designs available work with a wide range of content.
 ---
 
 import ComponentDescription from "components/ComponentDescription";
@@ -34,7 +34,7 @@ Cards present content with calls to action in a concise yet engaging style. [Car
 
 The Card component can be used in many different page types. The default design includes a heading and a call to action, and optional extras include include an eyebrow, copy, and media. By adding and removing optional content, the card offers a wide range of design possibilities.
 
-The card can also be used to create other card-based components such as [Content group cards](https://www.ibm.com/standards/carbon/components/content-group-cards) and [Card section](https://www.ibm.com/standards/carbon/components/card-section).
+The Card component can also be used to create other card-based components such as [Content group cards](https://www.ibm.com/standards/carbon/components/content-group-cards) and [Card section](https://www.ibm.com/standards/carbon/components/card-section).
 
 <Row>
 <Column colMd={8} colLg={8}>
@@ -68,7 +68,7 @@ For information about required and optional elements, see the [content guidance 
 
 #### Pictogram
 
-The card can also feature a pictogram element. [Pictograms](https://www.ibm.com/design/language/iconography/pictograms/library) provide a lot of visual interest and can improve the overall look of the page. They can support the user experience when paired with content that has common visual associations. However, keep in mind that meanings of pictograms can differ heavily across cultures, and so they should be selected and used carefully. For information about content in pictogram cards, see the [content guidance table](#content-guidance-for-pictogram-card).
+The card can also feature a pictogram element. [Pictograms](https://www.ibm.com/design/language/iconography/pictograms/library) provide a lot of visual interest and can enhance the overall look of the page. They can support the user experience when paired with content that has common visual associations. However, keep in mind that meanings of pictograms can differ heavily across cultures, and so they should be selected and used carefully. For information about content in pictogram cards, see the [content guidance table](#content-guidance-for-pictogram-card).
 
 Cards with pictograms offer two pictogram positions: top-aligned or bottom-aligned.
 
@@ -82,7 +82,7 @@ Cards with pictograms offer two pictogram positions: top-aligned or bottom-align
 </Column>
 </Row>
 
-Bottom-aligning the pictogram ensures that the card heading is the first element read. This helps when the message is not immediately decipherable from the pictogram.
+Bottom-aligning the pictogram ensures that the card heading is the first element the user reads. This helps when the message is not immediately decipherable from the pictogram.
 
 An added bonus for the bottom-aligned pictogram is the feature of showing copy on hover. 
 
@@ -100,7 +100,7 @@ Top-aligning the pictogram should only be used when the pictogram is strongly an
 
 #### Static
 
-While the entire default Card is clickable, the Static modifier makes it so only the text link is clickable on the card. This is useful for when you have multiple interactive elements on a single card such as CTAs and Tag links.
+While the entire default Card is clickable, the Static modifier limits the clickable area to the text link. This can be useful when you have multiple interactive elements on a single card such as CTAs and Tag links.
 
 <Row>
 
@@ -136,6 +136,8 @@ While the entire default Card is clickable, the Static modifier makes it so only
 | [CTA text](https://www.ibm.com/standards/carbon/components/cta)         | Link          | No       | 1         | 25 / 35                                     | URL assigned in setup   |
 | Tag                                                                     | Component     | No       | 1         | 20 / 32                                     |                         |
 
+For more information, see the [character count standards](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards).
+
 ### Content guidance for Pictogram card
 When a pictogram is added to a Card, the Card's appearance and content guidance changes.
 
@@ -145,10 +147,11 @@ When a pictogram is added to a Card, the Card's appearance and content guidance 
 | Copy                                                                    | Text          | No        | 1         | 65 / 85                                    | Hover over copy on bottom-aligned pictogram only. |
 | Pictogram                                                               | Element       | Yes       | 1         | –                                          | Top- or bottom-aligned |
 
+For more information, see the [character count standards](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards).
 
 ## Card in card
 
-Card in card shares the same functionality and text content requirements of a standard card, but requires a large media. Card in card is often used in a [Card group](https://www.ibm.com/standards/carbon/components/card-group) to as a featured card.
+Card in card shares the same functionality and text content requirements of a standard card, but requires a large media element. Card in card is often used in a [Card group](https://www.ibm.com/standards/carbon/components/card-group) to as a featured card.
 
 <Row>
 <Column colMd={8} colLg={8}>
@@ -160,7 +163,7 @@ Card in card shares the same functionality and text content requirements of a st
 
 1. **Media:** Can be an image or a video.
 2. **Heading:** Heading has the highest information hierarchy on a card, and should be succinct and descriptive.
-3. **Body copy:** Optional body copy can be added for additional descriptions.
+3. **Body copy:** Optional body copy can be added for additional description.
 4. **CTA type:** When using an icon, the default is `ArrowRight`.
 5. **CTA link:** Can be used with an icon to give more context.
 
@@ -178,9 +181,11 @@ For information about required and optional elements, see the [content guidance 
 | [CTA type](https://www.ibm.com/standards/carbon/components/cta)         | Option list   | Yes      | 1         | –                                           |                         |
 | [CTA text](https://www.ibm.com/standards/carbon/components/cta)         | Link          | No       | 1         | –                                           | URL assigned in setup   |
 
+For more information, see the [character count standards](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards).
+
 ## Card link
 
-Unlike Card, which can stand on its own, Card link should be presented with copy - it should never appear on its own. Card links contain a heading, an optional CTA (call-to-action), and optional body copy. The entire card is clickable.
+Unlike Card, which can be used as a standalone component, Card link should always be accompanied by contextual copy on the page. Card links contain a heading, an optional CTA (call-to-action), and optional body copy. The entire card is clickable.
 
 <Row>
 <Column colMd={8} colLg={8}>
@@ -191,7 +196,7 @@ Unlike Card, which can stand on its own, Card link should be presented with copy
 </Row>
 
 1. **Heading:** Heading has the highest information hierarchy on a card, and should be succinct and descriptive.
-2. **Body copy:** Optional body copy can be added for additional descriptions.
+2. **Body copy:** Optional body copy can be added for additional description.
 3. **CTA type:** When using an icon, the default is `ArrowRight`.
 
 For information about required and optional elements, see the [content guidance table](#content-guidance-for-card-link).
@@ -205,6 +210,8 @@ For information about required and optional elements, see the [content guidance 
 | Heading                                                                 | Text          | Yes       | 1         | 25 / 35                                    |                         |
 | Copy                                                                    | Text          | No        | 1         | 40 / 55                                    |                         |
 | [CTA type](https://www.ibm.com/standards/carbon/components/cta)         | Option list   | Yes       | 1         | -                                          |                         |
+
+For more information, see the [character count standards](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards).
 
 ## Feature card
 
@@ -244,7 +251,7 @@ The large Feature card occupies 12 columns and allows for the addition of an eye
 1. **Image:** Must use a 1:1 aspect ratio.
 2. **Eyebrow:** Add additional context to the the heading.
 3. **Heading:** Heading has the highest information hierarchy on a card, and should be succinct and descriptive.
-4. **Body copy:** Optional body copy can be added for additional descriptions.
+4. **Body copy:** Optional body copy can be added for additional description.
 5. **CTA type:** When using an icon, the default is `ArrowRight`.
 
 For information about required and optional elements, see the [content guidance table](#content-guidance-for-card).
@@ -261,7 +268,6 @@ For information about required and optional elements, see the [content guidance 
 | Image                                                                   | Media         | Yes      | 1         | –                                  | 1:1 aspect ratio        |
 | [CTA type](https://www.ibm.com/standards/carbon/components/cta)         | Option list   | Yes      | 1         | –                                  |                         |
 | [Type](https://www.ibm.com/standards/carbon/components/cta) (ex. Local) | Option list   | Yes      | 1         | –                                  | Medium or large         |
-
 
 For more information, see the [character count standards](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards).
 
