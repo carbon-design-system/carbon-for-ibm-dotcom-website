@@ -57,7 +57,7 @@
     "Card": {
       "url": "./card",
       "designLink": "https://ibm.box.com/s/hgvu48r1fv2ga2h0yn3qshrtxjc71vch",
-      "description": "Card uses Carbon's clickable tile component while presenting content in a concise and readable style.",
+      "description": "Cards are considered “workhorse” components because of their versatility. They provide effective calls to action, and the various designs available work with a wide range of content.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-card--default",
         "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-card--default"
