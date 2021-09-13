@@ -1,11 +1,13 @@
 ---
 title: Video
-description: The Video component allows you as an adopter to embed Kaltura videos from the media center in various ways throughout a page.
+description:
+  The Video component allows you as an adopter to embed Kaltura videos from the
+  media center in various ways throughout a page.
 ---
 
-import ComponentDescription from "components/ComponentDescription";
-import ComponentFooter from "components/ComponentFooter";
-import ResourceLinks from "components/ResourceLinks";
+import ComponentDescription from 'components/ComponentDescription';
+import ComponentFooter from 'components/ComponentFooter';
+import ResourceLinks from 'components/ResourceLinks';
 
 <ComponentDescription name="Video" type="ui" />
 
@@ -22,25 +24,31 @@ import ResourceLinks from "components/ResourceLinks";
 
 ## Overview
 
-The video component defaults to the aspect ratio of the source video, or one of the standard aspect ratios specified below can be used instead. In most cases 16x9 is recommended.
+The video component defaults to the aspect ratio of the source video, or one of
+the standard aspect ratios specified below can be used instead. In most cases
+16x9 is recommended.
 
-By default, the component is prefilled with content returned from the Kaltura service. You can override this default content and provide a custom video title, description, and poster image. If the content is optional for the component you're using, you could also remove the prefilled content.
+By default, the component is prefilled with content returned from the Kaltura
+service. You can override this default content and provide a custom video title,
+description, and poster image. If the content is optional for the component
+you're using, you could also remove the prefilled content.
 
 <Row>
 <Column colMd={8} colLg={8}>
 
-![Image of Video component](../../images/component/video-player/video-player-default.jpg)
+![Image of Video component](../../images/component/video/video-default.jpg)
 
 <Caption>Example of a video component</Caption>
 </Column>
 </Row>
 
-The video can be played in place of the poster image, or inside the [Lightbox Media Viewer](./lightbox-media-viewer). The latter is recommended for a more immersive viewing experience.
+The video can be played in place of the poster image, or inside the
+[Lightbox Media Viewer](./lightbox-media-viewer). The latter is recommended for
+a more immersive viewing experience.
 
 ![Image of Video component in Lightbox media viewer](../../images/component/lightbox-media-viewer/lightbox-media-viewer-use-case-07.jpg)
 
 <Caption>Example of a video inside lightbox media viewer</Caption>
-
 
 ## Content guidance
 
@@ -52,6 +60,7 @@ The video can be played in place of the poster image, or inside the [Lightbox Me
 | Poster image | Image       | No       | 1           | Default to poster image from video source                       |
 | Caption      | Short copy  | No       | 1           | Default to existing caption from video source                   |
 
-To see the list of all character count standards, go to this <a href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards" target="_blank" rel="noreferrer noopener nofollow">link</a>.
+To see the list of all character count standards, go to this
+<a href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards" target="_blank" rel="noreferrer noopener nofollow">link</a>.
 
 <ComponentFooter name="Video" type="ui" />

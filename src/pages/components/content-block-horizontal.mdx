@@ -1,11 +1,13 @@
 ---
 title: Content block horizontal
-description: Content block horizontal can be used to present important areas of interest relating to your topic, such as products or solutions.
+description:
+  Content block horizontal can be used to present important areas of interest
+  relating to your topic, such as products or solutions.
 ---
 
-import ComponentDescription from "components/ComponentDescription";
-import ComponentFooter from "components/ComponentFooter";
-import ResourceLinks from "components/ResourceLinks";
+import ComponentDescription from 'components/ComponentDescription';
+import ComponentFooter from 'components/ComponentFooter';
+import ResourceLinks from 'components/ResourceLinks';
 
 <ComponentDescription name="Content block horizontal" type="layout" />
 
@@ -22,6 +24,14 @@ import ResourceLinks from "components/ResourceLinks";
 
 ## Overview
 
+On a page with largely vertical content, Content block horizontal presents a
+moment to enhance vertical ryhthm by switch up the reading direction. It is also
+a component good for presenting large amount of CTAs with context. Please note
+that no CTA should be used within this Content block except the ones included
+within
+[content item horizontal](https://www.ibm.com/standards/carbon/components/content-item-horizontal)
+components.
+
 <Row>
 <Column colMd={6} colLg={8}>
 
@@ -30,15 +40,15 @@ import ResourceLinks from "components/ResourceLinks";
 </Column>
 </Row>
 
-
 ## Content guidance
 
-| Field                                                                                                                   | Field type | Required | Cardinality | Max character size (English / translated) |
-| ----------------------------------------------------------------------------------------------------------------------- | ---------- | -------- | ----------- | ----------------------------------------- |
-| Headline                                                                                                                | Short copy | Yes      | 1           | XXS (40 / 55)                             |
-| TOC headline override                                                                                                   | Short copy | No       | 1           | Mini (25 / 35)                            |
+| Field                                                                                                | Field type | Required | Cardinality | Max character size (English / translated) |
+| ---------------------------------------------------------------------------------------------------- | ---------- | -------- | ----------- | ----------------------------------------- |
+| Headline                                                                                             | Short copy | Yes      | 1           | XXS (40 / 55)                             |
+| TOC headline override                                                                                | Short copy | No       | 1           | Mini (25 / 35)                            |
 | [Content item – horizontal](https://www.ibm.com/standards/carbon/components/content-item-horizontal) | Component  | Yes      | 1-8         | –                                         |
 
-To see the list of all character count standards, go to this <a href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards" target="_blank" rel="noreferrer noopener nofollow">link</a>.
+To see the list of all character count standards, go to this
+<a href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards" target="_blank" rel="noreferrer noopener nofollow">link</a>.
 
 <ComponentFooter name="Content block horizontal" type="layout" />
