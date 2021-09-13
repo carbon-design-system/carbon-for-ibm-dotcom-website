@@ -117,7 +117,7 @@
       path: /components/lead-space-block
     - title: Lead space search
       path: /components/lead-space-search
-    - title: Leaving IBM
+    - title: Leaving IBM modal
       path: /components/leaving-ibm-modal
     - title: Lightbox media viewer
       path: /components/lightbox-media-viewer
