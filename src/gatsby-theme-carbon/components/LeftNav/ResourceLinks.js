@@ -11,8 +11,8 @@ const links = [
     href: "https://www.ibm.com/standards/web",
   },
   {
-    title: "Design Kit",
-    href: "/designing/#get-the-kit",
+    title: "Design kit",
+    href: "/designing/#install-the-sketch-kit",
   },
 ];
 
