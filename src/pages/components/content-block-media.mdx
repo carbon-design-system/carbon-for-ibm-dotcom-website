@@ -1,11 +1,13 @@
 ---
 title: Content block media
-description: Content block media is used to present information with images in a group setting.
+description:
+  Content block media is used to present information with images in a group
+  setting.
 ---
 
-import ComponentDescription from "components/ComponentDescription";
-import ComponentFooter from "components/ComponentFooter";
-import ResourceLinks from "components/ResourceLinks";
+import ComponentDescription from 'components/ComponentDescription';
+import ComponentFooter from 'components/ComponentFooter';
+import ResourceLinks from 'components/ResourceLinks';
 
 <ComponentDescription name="Content block media" type="layout" />
 
@@ -23,7 +25,9 @@ import ResourceLinks from "components/ResourceLinks";
 
 ## Overview
 
-By default the Content block media starts with a brief overview before going into one or more detailed points. At strategic points it allows for an optional piece of media to support its content.
+By default Content block media starts with a brief overview before going into
+one or more detailed points. At strategic points it allows for an optional piece
+of media to support the content.
 
 ![A visual of Content block media with its overview and supporting content.](../../images/pattern/content-block-media/content-block-with-media.jpg)
 
@@ -33,22 +37,24 @@ By default the Content block media starts with a brief overview before going int
 
 ### With aside elements
 
-This variant is the same as the default version except that it allows for a list of related navigational items off to the side.
+This variant is the same as the default version except that it allows for a list
+of related navigational items positioned to the side.
 
-![A visual of Content block media with optional navigational items off to the side.](../../images/pattern/content-block-media/content-block-with-media-with-aside-elements.jpg)
+![A visual of Content block media with optional navigational items to the side.](../../images/pattern/content-block-media/content-block-with-media-with-aside-elements.jpg)
 
 <br />
 
 ## Content guidance
 
-| Field                                                                                                                                           | Field type | Required | Cardinality | Max character size (English / translated) |
-| ----------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | -------- | ----------- | ----------------------------------------- |
-| Headline                                                                                                                                        | Short copy | Yes      | 1           | XXS (40 / 55)                             |
-| Paragraph                                                                                                                                       | Long copy  | No       | 1           | XL (250 / 325)                            |
-| [Content group – simple](https://www.ibm.com/standards/carbon/components/content-group-simple)                               | Component  | Yes      | Less than 4 | –                                         |
-| [Featured card block – medium](https://www.ibm.com/standards/carbon/components/feature-card-block#feature-card-block-medium) | Component  | No       | 1           | –                                         |
-| [Link list](https://www.ibm.com/standards/carbon/components/link-list)                                                       | Component  | No       | 1           | –                                         |
+| Field                                                        | Field type | Required | Cardinality | Max character size (English / translated) |
+| ------------------------------------------------------------ | ---------- | -------- | ----------- | ----------------------------------------- |
+| Headline                                                     | Short copy | Yes      | 1           | XXS (40 / 55)                             |
+| Paragraph                                                    | Long copy  | No       | 1           | XL (250 / 325)                            |
+| [Content group – simple](../components/content-group-simple) | Component  | Yes      | Less than 4 | –                                         |
+| [Feature card - medium](../components/cards#feature-card)    | Component  | No       | 1           | –                                         |
+| [Link list](../components/link-list)                         | Component  | No       | 1           | –                                         |
 
-You can see the list of all character count standards <a href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards" target="_blank" rel="noreferrer">here</a>.
+For more information, see the
+[character count standards](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards).
 
 <ComponentFooter name="Content block media" type="layout" />

@@ -27,33 +27,6 @@
         "notAvailable": false
       }
     },
-    "Button group": {
-      "url": "./button-group",
-      "designLink": "https://ibm.box.com/s/wwod5e4ouuhgnkppx78zxh0nnvwze0k1",
-      "description": "Button group is used for grouping two or more button components together and sets all buttons to the same width.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-button-group--default",
-        "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-button-group--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": true,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
     "CTA": {
       "url": "./cta",
       "designLink": "https://ibm.box.com/s/unvd38oewwguycqoqg0et75eluiiqhg6",
@@ -434,9 +407,10 @@
         "notAvailable": false
       }
     },
-    "Leaving IBM": {
-      "url": "./leaving-ibm",
+    "Leaving IBM modal": {
+      "url": "./leaving-ibm-modal",
       "designLink": "https://ibm.box.com/s/g79wdwdj0syjcfkdlgu5rpwe3zp9s37w",
+      "functionalLink": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Leaving-ibm",
       "description": "The Leaving IBM notice displays as an overlay when a user clicks an external link.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-leaving-ibm--default",
@@ -1300,7 +1274,7 @@
         "notAvailable": false
       }
     },
-     "Lead space search": {
+    "Lead space search": {
       "url": "./lead-space-search",
       "designLink": "https://ibm.box.com/s/3rjh19oclo961z0q0oaoqtm4gbhzo8b8",
       "description": "Lead space search provides a fast route to information discovery by including a prominent search option in the lead space. As the search is always positioned at the top, it is discoverable by users the moment they land on the page.",
