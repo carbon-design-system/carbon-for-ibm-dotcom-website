@@ -228,36 +228,6 @@ Also don't be afraid to break things down into smaller chunks, and reference a l
 <br />
 </details><br /><br />
 
-
-#### Example
-
-> Examples help support and illustrate a specific aspect of how a component looks or functions.
-
-###### Some examples  
-- An abstract animation to communicate how children are added to a Content block component.
-- An example of how configuration might visually differ from the main image presented above. (e.g. horizontal orientation of a navigation vs. vertical).
-- Snippet of code for the developer to reference and understand in detail what's expected.
-
-One of the fears, or concerns with this section is how easily it can become outdated visually. Because of this it's good to focus more on the functionality, and abstract as much if possible. Sometimes the visuals can remain outdated as long as it still effectively communicates the functionality. Remember design specs are intended for the most up to date visual details, and you can point the reader there for more information.
-
-Don't be tempted to avoid including this section. If used correctly it can really help development understand the functionality we are trying to communicate.
-
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See the example below to see how [[Content block]] was abstracted visually
-
-While this is primarily meant to visually show with images, this section does not need to be limited to images as examples. Just remember to prioritize the communication of it.
-
-<details>
-  <summary><strong>Example</strong></summary><br />
-
-###### Example
-
-> *An example using [[Content block]]*
-
-![content-block](https://user-images.githubusercontent.com/3793636/121601206-3f46fd00-ca0b-11eb-9b38-7113fb525854.gif)
-
-<br />
-</details><br /><br />
-
 #### Modifiers
 
 <!-- options, data, modifiers, props -->
@@ -300,6 +270,35 @@ Depending on the needs you could use the `h6` `######` heading to indicate an op
 | `1.0.3`    | `tall`   | Changes `size to `tall`, and adds `CTA` and `copy` option.  |
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See visual design specs <sup>[[r1](#resources)]</sup>
+
+<br />
+</details><br /><br />
+
+#### Example
+
+> Examples help support and illustrate a specific aspect of how a component looks or functions.
+
+###### Some examples  
+- An abstract animation to communicate how children are added to a Content block component.
+- An example of how configuration might visually differ from the main image presented above. (e.g. horizontal orientation of a navigation vs. vertical).
+- Snippet of code for the developer to reference and understand in detail what's expected.
+
+One of the fears, or concerns with this section is how easily it can become outdated visually. Because of this it's good to focus more on the functionality, and abstract as much if possible. Sometimes the visuals can remain outdated as long as it still effectively communicates the functionality. Remember design specs are intended for the most up to date visual details, and you can point the reader there for more information.
+
+Don't be tempted to avoid including this section. If used correctly it can really help development understand the functionality we are trying to communicate.
+
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See the example below to see how [[Content block]] was abstracted visually
+
+While this is primarily meant to visually show with images, this section does not need to be limited to images as examples. Just remember to prioritize the communication of it.
+
+<details>
+  <summary><strong>Example</strong></summary><br />
+
+###### Example
+
+> *An example using [[Content block]]*
+
+![content-block](https://user-images.githubusercontent.com/3793636/121601206-3f46fd00-ca0b-11eb-9b38-7113fb525854.gif)
 
 <br />
 </details><br /><br />
