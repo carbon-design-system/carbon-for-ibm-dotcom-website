@@ -1,9 +1,9 @@
 - title: About Carbon for IBM.com
   pages:
+    - title: About
+      path: /about-carbon-for-ibm.com/about
     - title: What we provide
       path: /about-carbon-for-ibm.com/what-we-provide
-    - title: Steps to adopt
-      path: /about-carbon-for-ibm.com/steps-to-adopt
 - title: Designing
   pages:
     - path: /designing
