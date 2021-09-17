@@ -38,8 +38,8 @@ const FirstCalloutText = () => (
 );
 
 const FirstCalloutLink = () => (
-  <Link to="/about" className={calloutLink}>
-    Start with overview →
+  <Link to="/about-carbon-for-ibm.com/steps-to-adopt" className={calloutLink}>
+    Steps to adopt →
   </Link>
 );
 
@@ -93,7 +93,7 @@ const customProps = {
     <div className={`bx--grid homepage--callout ${grid} ${firstCallout}`}>
       <Row className={row}>
         <Column className={callout} colLg={7} colMd={5}>
-          <h3>Get Started</h3>
+          <h3>Get started</h3>
           {FirstCalloutText()}
         </Column>
         <Column className={calloutImage} colLg={5} colMd={3}>
