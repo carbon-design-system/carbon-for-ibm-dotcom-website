@@ -55,8 +55,6 @@
       path: /components/overview
     - title: Back to top
       path: /components/back-to-top
-    - title: Button group
-      path: /components/button-group
     - title: Callout quote
       path: /components/callout-quote
     - title: Callout with media
@@ -119,8 +117,8 @@
       path: /components/lead-space-block
     - title: Lead space search
       path: /components/lead-space-search
-    - title: Leaving IBM
-      path: /components/leaving-ibm
+    - title: Leaving IBM modal
+      path: /components/leaving-ibm-modal
     - title: Lightbox media viewer
       path: /components/lightbox-media-viewer
     - title: Link list

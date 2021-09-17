@@ -1,11 +1,16 @@
 ---
 title: Lead space
-description: A Lead space is positioned at the top of a web page and serves as the first site of user engagement. Its primary purpose is to orient the user when they land on a page, inform them of the content, and guide them to the first key piece of content on the page, whether it's a crucial piece of information or a call-to-action.
+description:
+  A Lead space is positioned at the top of a web page and serves as the first
+  site of user engagement. Its primary purpose is to orient the user when they
+  land on a page, inform them of the content, and guide them to the first key
+  piece of content on the page, whether it's a crucial piece of information or a
+  call-to-action.
 ---
 
-import ComponentDescription from "components/ComponentDescription";
-import ComponentFooter from "components/ComponentFooter";
-import ResourceLinks from "components/ResourceLinks";
+import ComponentDescription from 'components/ComponentDescription';
+import ComponentFooter from 'components/ComponentFooter';
+import ResourceLinks from 'components/ResourceLinks';
 
 <ComponentDescription name="Lead space" type="layout" />
 
@@ -26,7 +31,9 @@ import ResourceLinks from "components/ResourceLinks";
 
 ## Lead space left-aligned
 
-This is the most commonly used Lead space style. The left-aligned type draws the users' attention to the Lead space messaging immediately. Used in marketing and product pages, among others.
+This is the most commonly used Lead space style. The left-aligned type draws the
+users' attention to the Lead space messaging immediately. Used in marketing and
+product pages, among others.
 
 There are 4 available heights for the lead space left-aligned:
 
@@ -58,7 +65,9 @@ There are 4 available heights for the lead space left-aligned:
 
 ## Lead space centered
 
-This option has 4 empty columns on the left and right to accommodate pages that have content positioned in the center of the 16-column grid. Used in the Learn page template and other long-form reading experiences.
+This option has 4 empty columns on the left and right to accommodate pages that
+have content positioned in the center of the 16-column grid. Used in the Learn
+page template and other long-form reading experiences.
 
 ![Lead space centered](../../images/pattern/leadspace/Leadspace_Demo_LeftAligned.jpg)
 
@@ -73,32 +82,34 @@ This option has 4 empty columns on the left and right to accommodate pages that 
 
 ### Lead space left-aligned
 
-| Field                                                                                           | Field type | Required | Max character size <br/>(English / translated) | Notes                                                                   |
-| ----------------------------------------------------------------------------------------------- | ---------- | -------- | ---------------------------------------------- | ----------------------------------------------------------------------- |
-| Headline                                                                                        | Short copy | Yes      | XS (65 / 85)                                   | –                                                                       |
-| Description                                                                                     | Short copy | No       | M (120 / 150)                                  | –                                                                       |
-| [Button group](https://www.ibm.com/standards/carbon/components/button-group) | Component  | No       | XXS (40 / 55)                                  | Lead space Short (320px) does not allow a button group or a short copy. |
-| Gradient                                                                                        | True/False | No       | –                                              | True – Show gradient (default) <br/>False – No gradient                 |
-| Background [image](https://www.ibm.com/standards/carbon/components/image)    | Component  | No       | –                                              | Breakpoints require different images.                                   |
+| Field                                                                     | Field type | Required | Max character size <br/>(English / translated) | Notes                                                                   |
+| ------------------------------------------------------------------------- | ---------- | -------- | ---------------------------------------------- | ----------------------------------------------------------------------- |
+| Headline                                                                  | Short copy | Yes      | XS (65 / 85)                                   | –                                                                       |
+| Description                                                               | Short copy | No       | M (120 / 150)                                  | –                                                                       |
+| CTA - Button                                                              | Component  | No       | XXS (40 / 55)                                  | Lead space Short (320px) does not allow a button group or a short copy. |
+| Gradient                                                                  | True/False | No       | –                                              | True – Show gradient (default) <br/>False – No gradient                 |
+| Background [image](https://www.ibm.com/standards/carbon/components/image) | Component  | No       | –                                              | Breakpoints require different images.                                   |
 
 ### Lead space centered
 
-| Field                                                                                           | Field type  | Required | Cardinality        | Max character size <br/>(English / translated) | Notes                                                  |
-| ----------------------------------------------------------------------------------------------- | ----------- | -------- | ------------------ | ---------------------------------------------- | ------------------------------------------------------ |
-| Headline                                                                                        | Short copy  | Yes      | 1                  | XS (65 / 85)                                   | –                                                      |
-| Description                                                                                     | Short copy  | No       | 1                  | M (120 / 150)                                  | –                                                      |
-| [Button group](https://www.ibm.com/standards/carbon/components/button-group) | Component   | No       | Max of two buttons | XXS (40 / 55)                                  | –                                                      |
-| Gradient                                                                                        | True/False  | No       | –                  | –                                              | True – Show gradient (default)<br/>False – No gradient |
-| Background [image](https://www.ibm.com/standards/carbon/components/image)    | Component   | No       | 1                  | –                                              | Breakpoints require different images.                  |
-| Type                                                                                            | Option list | Yes      | –                  | –                                              | Center, Left, or Small                                 |
+| Field                                                                     | Field type  | Required | Cardinality        | Max character size <br/>(English / translated) | Notes                                                  |
+| ------------------------------------------------------------------------- | ----------- | -------- | ------------------ | ---------------------------------------------- | ------------------------------------------------------ |
+| Headline                                                                  | Short copy  | Yes      | 1                  | XS (65 / 85)                                   | –                                                      |
+| Description                                                               | Short copy  | No       | 1                  | M (120 / 150)                                  | –                                                      |
+| CTA - Button                                                              | Component   | No       | Max of two buttons | XXS (40 / 55)                                  | –                                                      |
+| Gradient                                                                  | True/False  | No       | –                  | –                                              | True – Show gradient (default)<br/>False – No gradient |
+| Background [image](https://www.ibm.com/standards/carbon/components/image) | Component   | No       | 1                  | –                                              | Breakpoints require different images.                  |
+| Type                                                                      | Option list | Yes      | –                  | –                                              | Center, Left, or Small                                 |
 
-More more on character count, <a href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards" target="_blank" rel="noreferrer">see all character count standards</a>.
+For more information, see the
+[character count standards](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards).
 
 <br />
 
 ## Usage guidance
 
-For detailed guidelines around usage, also reference the [Lead space pattern page](/patterns/lead-space).
+For detailed guidelines around usage, also reference the
+[Lead space pattern page](/patterns/lead-space).
 
 <br />
 
@@ -106,20 +117,23 @@ For detailed guidelines around usage, also reference the [Lead space pattern pag
 
 There are two themes to choose from when using the Lead space:
 
-### Dark themes (gray 100 or gray 90)
+### Dark themes (Gray 100 or Gray 90)
 
-Use `gray 100` or `gray 90` when the background image has shadows, is dimly lit, or uses a dark color palette.
+Use `Gray 100` or `Gray 90` when the background image has shadows, is dimly lit,
+or uses a dark color palette.
 
 ![Dark theme](../../images/pattern/leadspace/leadspace_colortheme_dark_demo.jpg)
 
 <Caption>
   Dark Lead space – Super – 640px height at xlg 1312px breakpoint
 </Caption>
+
 <br />
 
-### Light themes (white or gray 10)
+### Light themes (White or Gray 10)
 
-Use `white` or `gray 10` when the background image is well-lit or brightly colored.
+Use `White` or `Gray 10` when the background image is well-lit or brightly
+colored.
 
 ![Light_theme](../../images/pattern/leadspace/leadspace_colortheme_light_demo.jpg)
 
@@ -133,7 +147,8 @@ Use `white` or `gray 10` when the background image is well-lit or brightly color
 
 ### Lead space left-aligned
 
-Please use the following recommended expressive type styles for the Lead space left-aligned heading:
+Please use the following recommended expressive type styles for the Lead space
+left-aligned heading:
 
 | Name   | Height | Heading type token      |
 | ------ | ------ | ----------------------- |
@@ -155,10 +170,13 @@ Please use the following recommended expressive type styles for the Lead space l
 
 ### Lead space centered
 
-There are two recommended expressive type styles to choose from when using Lead space centered:
+There are two recommended expressive type styles to choose from when using Lead
+space centered:
 
-- `$expressive-heading-06` is recommended for pages that surface detailed, productive content to users such as product pages.
-- `$display-01` is recommended for pages that have rich, editorial, expressive moments, such as marketing or campaign pages.
+- `$expressive-heading-06` is recommended for pages that surface detailed,
+  productive content to users such as product pages.
+- `$display-01` is recommended for pages that have rich, editorial, expressive
+  moments, such as marketing or campaign pages.
 
 ![Lead space with $expressive-heading-06](../../images/pattern/leadspace/leadspace_typestyles_centered_demo_1.jpg)
 
@@ -226,7 +244,8 @@ There are two recommended expressive type styles to choose from when using Lead 
 1. **Heading:** \$expressive-heading-06
 1. **Short copy:** \$expressive-heading-03
 1. **Button group**
-1. **Inline image (from background image)** \*optional <br/>width: 100% of container, 4:3
+1. **Inline image (from background image)** \*optional <br/>width: 100% of
+   container, 4:3
 
 <br />
 <br />
@@ -240,7 +259,8 @@ There are two recommended expressive type styles to choose from when using Lead 
 1. **Heading:** \$display-01
 1. **Short copy:** \$expressive-heading-03
 1. **Button group**
-1. **Inline image (from background image)** \*optional <br/>width: 100% of container, 4:3
+1. **Inline image (from background image)** \*optional <br/>width: 100% of
+   container, 4:3
 
 ### Lead space centered
 
@@ -255,9 +275,11 @@ There are two recommended expressive type styles to choose from when using Lead 
 1. **Heading:** \$display-01
 2. **Short copy:** \$expressive-heading-03
 3. **Button group**
-4. **Content bottom spacer** <br/>Height: $layout-07 + $layout-06 with background image, <br/>or \$layout-07 without background image
+4. **Content bottom spacer** <br/>Height: $layout-07 + $layout-06 with
+   background image, <br/>or \$layout-07 without background image
 5. **Gradient (applied over image)**
-6. **Background image:** cover, width: 100% of container, position: center bottom.
+6. **Background image:** cover, width: 100% of container, position: center
+   bottom.
 
 <br />
 
@@ -266,12 +288,13 @@ There are two recommended expressive type styles to choose from when using Lead 
 <Row className="resource-card-group">
 
 <Column colMd={4} colLg={4} noGutterSm>
-    <ResourceCard
-      subTitle="Drupal design guide"
-      aspectRatio="2:1"
-      actionIcon="arrowRight"
-      href="http://ibm.biz/Drupal_design_guide"
-      >
+
+<ResourceCard
+subTitle="Drupal design guide"
+aspectRatio="2:1"
+actionIcon="arrowRight"
+href="http://ibm.biz/Drupal_design_guide"
+>
 
 ![React icon](../../images/icon/drupal_logo.svg)
 
