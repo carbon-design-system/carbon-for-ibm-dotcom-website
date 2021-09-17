@@ -38,8 +38,8 @@ const FirstCalloutText = () => (
 );
 
 const FirstCalloutLink = () => (
-  <Link to="/about-carbon-for-ibm.com/steps-to-adopt" className={calloutLink}>
-    Steps to adopt →
+  <Link to="/about-carbon-for-ibm.com/what-we-provide" className={calloutLink}>
+    What we provide →
   </Link>
 );
 
