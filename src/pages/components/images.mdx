@@ -27,9 +27,27 @@ There are two image components available. The Image component allows for a simpl
 
 ## Image
 
+<Row>
+<Column  colLg={8} colMd={8} colSm={4}>
+
 Image, at its core, is a wrapper that adds an image to the page. You have the option to pass multiple images to the image component to render at the various breakpoints. This is particularly useful if you want to render different images at different screen sizes.
 
 We recommend displaying images at 1:1, 2:1, 4:3, and 16:9 aspect ratios. For guidance on choosing or creating imagery, see the IBM Design Language [photography guidelines](https://www.ibm.com/design/language/photography/overview).
+
+</Column>
+
+<Column colMd={2} colLg={3} offsetMd={1} offsetLg={1}>
+  <Aside>
+
+**IBM Web Standards** 
+
+When using media on a page, refer to [Use of images](https://w3.ibm.com/w3publisher/ibm-web-standards-external/standards-mandatory/page-layout-design) in the IBM Web Standards for all type, format, size, and other requirements.
+
+  </Aside>
+</Column>
+
+</Row>
+
 
 <Row>
 <Column colMd={8} colLg={8}>
@@ -61,7 +79,7 @@ The border feature is available for images with and without captions.
 
 ## Image with caption
 
-An image can include a caption beneath the image itself to provide more context. Using the Image with caption component, the image can be clicked to open an overlay ([Lightbox media viewer](https://www.ibm.com/standards/carbon/components/lightbox-media-viewer)) that houses a larger version of the image.
+With the Image with caption component, an image can include a caption beneath to provide more context. In addition, the image can be clicked to open a larger version of the image, using the [Lightbox media viewer](https://www.ibm.com/standards/carbon/components/lightbox-media-viewer) overlay.
  
 Inside the overlay, the caption becomes the heading and there is an opportunity for additional body text.
 
