@@ -1,7 +1,7 @@
-import React from "react";
-import { Row, Column } from "gatsby-theme-carbon";
-import { Link } from "gatsby";
-import HomepageTemplate from "gatsby-theme-carbon/src/templates/Homepage";
+import React from 'react';
+import { Row, Column } from 'gatsby-theme-carbon';
+import { Link } from 'gatsby';
+import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 import {
   grid,
   row,
@@ -11,21 +11,21 @@ import {
   firstCallout,
   leadspaceText,
   leadspaceImage,
-} from "./Homepage.module.scss";
-import Callout from "../../images/homepage/get_started_desktop.png";
-import CalloutTablet from "../../images/homepage/get_started_tablet.png";
-import Callout2X from "../../images/homepage/get_started_desktop2x.png";
-import LeadSpaceImage from "../../images/homepage/banner_hero_image.png";
-import LeadSpaceImageMobile from "../../images/homepage/banner_hero_image_mobile.png";
-import LeadSpaceImageTablet from "../../images/homepage/banner_hero_image_tablet.png";
-import LeadSpaceImage2X from "../../images/homepage/banner_hero_image_2x.png";
-import LeadSpaceImageMobile2X from "../../images/homepage/banner_hero_image_mobile_2x.png";
-import LeadSpaceImageTablet2X from "../../images/homepage/banner_hero_image_tablet_2x.png";
+} from './Homepage.module.scss';
+import Callout from '../../images/homepage/get_started_desktop.png';
+import CalloutTablet from '../../images/homepage/get_started_tablet.png';
+import Callout2X from '../../images/homepage/get_started_desktop2x.png';
+import LeadSpaceImage from '../../images/homepage/banner_hero_image.png';
+import LeadSpaceImageMobile from '../../images/homepage/banner_hero_image_mobile.png';
+import LeadSpaceImageTablet from '../../images/homepage/banner_hero_image_tablet.png';
+import LeadSpaceImage2X from '../../images/homepage/banner_hero_image_2x.png';
+import LeadSpaceImageMobile2X from '../../images/homepage/banner_hero_image_mobile_2x.png';
+import LeadSpaceImageTablet2X from '../../images/homepage/banner_hero_image_tablet_2x.png';
 
 const LeadSpaceText = () => (
   <p className={leadspaceText}>
-    Our vision is that every visitor to IBM.com has a{" "}
-    <strong>productive</strong>, <strong>efficient</strong> and
+    Our vision is that every visitor to IBM.com has a{' '}
+    <strong>productive</strong>,<strong>efficient</strong> and
     <strong> delightful</strong> experience.
   </p>
 );
@@ -38,8 +38,8 @@ const FirstCalloutText = () => (
 );
 
 const FirstCalloutLink = () => (
-  <Link to="/about" className={calloutLink}>
-    Start with overview →
+  <Link to="/about-carbon-for-ibm.com/what-we-provide" className={calloutLink}>
+    What we provide →
   </Link>
 );
 
@@ -51,7 +51,7 @@ const SecondCalloutText = () => (
       you are interested in contributing, check out our contributing guidelines
       to get started.
     </p>
-    <Link to="/contributions" className={calloutLink}>
+    <Link to="/contributing/overview" className={calloutLink}>
       Start contributing →
     </Link>
   </>
@@ -71,15 +71,15 @@ const customProps = {
               <picture>
                 <source
                   media="(min-width: 1056px)"
-                  srcset={`${LeadSpaceImage}, ${LeadSpaceImage2X} 2x`}
+                  srcSet={`${LeadSpaceImage}, ${LeadSpaceImage2X} 2x`}
                 />
                 <source
                   media="(min-width: 672px)"
-                  srcset={`${LeadSpaceImageTablet}, ${LeadSpaceImageTablet2X} 2x`}
+                  srcSet={`${LeadSpaceImageTablet}, ${LeadSpaceImageTablet2X} 2x`}
                 />
                 <source
                   media="(min-width: 0px)"
-                  srcset={`${LeadSpaceImageMobile}, ${LeadSpaceImageMobile2X} 2x`}
+                  srcSet={`${LeadSpaceImageMobile}, ${LeadSpaceImageMobile2X} 2x`}
                 />
                 <img src={LeadSpaceImage} alt="Get started" />
               </picture>
@@ -93,17 +93,17 @@ const customProps = {
     <div className={`bx--grid homepage--callout ${grid} ${firstCallout}`}>
       <Row className={row}>
         <Column className={callout} colLg={7} colMd={5}>
-          <h3>Get Started</h3>
+          <h3>Get started</h3>
           {FirstCalloutText()}
         </Column>
         <Column className={calloutImage} colLg={5} colMd={3}>
           <picture>
             <source
               media="(min-width: 1056px)"
-              srcset={`${Callout}, ${Callout2X} 2x`}
+              srcSet={`${Callout}, ${Callout2X} 2x`}
             />
-            <source media="(min-width: 672px)" srcset={CalloutTablet} />
-            <source media="(min-width: 0px)" srcset={Callout} />
+            <source media="(min-width: 672px)" srcSet={CalloutTablet} />
+            <source media="(min-width: 0px)" srcSet={Callout} />
             <img src={Callout} alt="Get started" />
           </picture>
         </Column>
