@@ -20,7 +20,7 @@ It serves as the source of truth for all aspects of a component and operates as 
 The [Component naming standard](https://ibm.box.com/s/xlq4romcyp50lnvwuaagyzzbmmesuxen) provides guiding principles for naming components based on their anatomy, hierarchy, and appearance. Naming components in a consistent way ensures recognition and increases a component's findability by users of the system. 
 
 ### Data model
-At a low level every single one of our components starts here, and deviates as necessary. Here is a link to the [[Data model]].
+The [[Data model]] is a shared architecture of content across all of our components, and should be used as a starting point when structuring new components or updating existing components.
 
 <br /><br />
 
@@ -64,7 +64,7 @@ The dependency list is one of the most important aspects of the functional specs
 
 #### Used by
 
-By properly linking dependencies we will also run an automation script to collect all the dependencies and create a used by list in addition. Used by components once populated communicates to the reader where this component is used.
+The used by components section communicates to the reader where this component is used in other components. As long as you include this section, and properly link to it in other components' dependencies then this list will create itself.
 
 ###### How to add a used by
 
