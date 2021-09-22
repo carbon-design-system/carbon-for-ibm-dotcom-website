@@ -28,7 +28,7 @@ At a low level every single one of our components starts here, and deviates as n
 
 The [[Functional spec template]] includes the sections most commonly needed to document our components. Using a common format drives consistency across our library and makes it easier for everyone to use. Use only the sections you need and if there’s a better way to present a particular component, we can review and change as necessary. 
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  here is a link to the functional specs template: [[fs template]]
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  here is a link to the functional specs template: [[Functional spec template]]
 
 <br />
 
