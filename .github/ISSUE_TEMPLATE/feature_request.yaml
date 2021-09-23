@@ -22,22 +22,14 @@ body:
   - type: textarea
     id: solution
     attributes:
-      label: The solution
+      label: The proposed solution
       description: "A clear and concise description of what you want to happen"
     validations:
       required: true
   - type: textarea
     id: user-research
     attributes:
-      label: User research
-  - type: textarea
-    id: user-insights
-    attributes:
-      label: User insights
-  - type: textarea
-    id: user-metrics
-    attributes:
-      label: User metrics
+      label: Sample content, references, or audits of solutions solving the same problem in other websites
   - type: checkboxes
     id: terms
     attributes:
