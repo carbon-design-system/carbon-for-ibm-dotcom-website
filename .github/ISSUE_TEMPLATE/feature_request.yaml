@@ -11,7 +11,7 @@ body:
       value: '## Feature Request 💡'
   - type: markdown
     attributes:
-      value: 'If this is a feature request for Carbon for IBM.com and not the website, please open an issue at https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/new/choose.'
+      value: 'If this is a feature request for Carbon for IBM.com and not the Carbon for IBM.com website, please open an issue at https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/new/choose.'
   - type: textarea
     id: problem
     attributes:
