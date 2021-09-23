@@ -275,12 +275,10 @@ Congratulations! You have just added your first web component into your applicat
 
 ## Configure the Dotcom Shell
 
-While we have just added the standard Carbon for IBM.com
-
-<Link to="/components/masthead">masthead</Link> and
-<Link to="/components/footer">footer</Link> to the page, there are more steps necessary to properly configure those components
-in order to load in the proper language and locale translation files, as well as the available translation options in the
-footer's locale selector.
+While we have just added the standard Carbon for IBM.com <Link to="/components/masthead">masthead</Link> and
+<Link to="/components/footer">footer</Link> to the page, there are more steps necessary to properly configure those
+components in order to load in the proper language and locale translation files, as well as the available translation
+options in the footer's locale selector.
 
 ### Setting the Digital Data Object (DDO)
 
@@ -321,8 +319,7 @@ Within the `<head>` of the `index.html` page, set the following object:
 ```
 
 This is the minimum DDO necessary for the page. You can learn more about the configuration of this at
-
-<Link to="/developing/building-for-ibm-dotcom#digital-data-object"> Building for IBM.com</Link>, though to continue to
+<Link to="/developing/building-for-ibm-dotcom#digital-data-object">Building for IBM.com</Link>, though to continue to
 properly set up the Dotcom Shell for this tutorial, we will set the correct fields to properly set the language and
 locale:
 
@@ -485,21 +482,13 @@ you can [manually merge](https://help.github.com/en/articles/syncing-a-fork) in 
 ### Pull request (PR)
 
 Finally, visit [carbon-for-ibm-dotcom-tutorial](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-tutorial)
-to "Compare & pull request". In doing so, make sure that you are comparing to `web-components-step-1` into
+to "Compare & pull request". In doing so, make sure that you are comparing `web-components-step-1` into
 `base: web-components-step-1`. Take notice of the `ibmdotcom-bot` that deploys a preview of your PR every time that you
 push new commits. These previews can be shared and viewed by anybody to assist the PR review process.
 
-<InlineNotification>
+Expect your tutorial step PRs to be reviewed by the Carbon for IBM.com team but not merged. We'll close your PR so we
+can keep the repository's remote branches pristine and ready for the next person!
 
-**Note:** Expect your tutorial step PRs to be reviewed by the Carbon for IBM.com team but not merged. We'll close your
-PR so we can keep the repository's remote branches pristine and ready for the next person!
-
-</InlineNotification>
-
-<InlineNotification>
-
-**Note:** If your PR fails the Github Actions test with the error `Can't make a request in offline mode`, try running
-the following command: `rm -rf .yarn-offline-mirror node_modules && yarn cache clean && yarn install`. Add and commit
-the changes once this completes, and try pushing again.
-
-</InlineNotification>
+If your PR fails the Github Actions test with the error `Can't make a request in offline mode`, try running the
+following command: `rm -rf .yarn-offline-mirror node_modules && yarn cache clean && yarn install`. Add and commit the
+changes once this completes, and try pushing again.

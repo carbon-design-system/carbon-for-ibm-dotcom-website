@@ -1,10 +1,9 @@
 ---
 title: 4. TBD
 description:
-  Welcome to Carbon for IBM.com! This tutorial will guide you in creating an
-  application with Carbon for IBM.com Web Components.
-tabs:
-  ['Overview', 'Step 1', 'Step 2', 'Step 3', 'Step 4', 'Step 5', 'Wrapping up']
+  Welcome to Carbon for IBM.com! This tutorial will guide you in creating an application with Carbon for IBM.com Web
+  Components.
+tabs: ['Overview', 'Step 1', 'Step 2', 'Step 3', 'Step 4', 'Step 5', 'Wrapping up']
 ---
 
 import Preview from 'components/Preview';
@@ -41,16 +40,13 @@ A [preview]() of what you'll build:
 ## Fork, clone, and branch
 
 This tutorial has an accompanying GitHub repository called
-[carbon-for-ibm-dotcom-tutorial](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-tutorial)
-that we'll use as a starting point for each step. If you haven't forked and
-cloned that repository yet, and haven't added the upstream remote, go ahead and
-do so by following the <Link to="/developing/web-components-tutorial">step 1
-instructions</Link>.
+[carbon-for-ibm-dotcom-tutorial](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-tutorial) that we'll use
+as a starting point for each step. If you haven't forked and cloned that repository yet, and haven't added the upstream
+remote, go ahead and do so by following the <Link to="/developing/web-components-tutorial">step 1 instructions</Link>.
 
 ### Branch
 
-With your repository all set up, let's check out the branch for this tutorial
-step's starting point.
+With your repository all set up, let's check out the branch for this tutorial step's starting point.
 
 ```bash
 git fetch upstream
@@ -59,9 +55,8 @@ git checkout -b web-components-step-2 upstream/web-components-step-2
 
 <InlineNotification>
 
-**Note:** This builds on top of step 1, but be sure to check out the upstream
-step 2 branch because it includes the static assets required to get through this
-step.
+**Note:** This builds on top of step 1, but be sure to check out the upstream step 2 branch because it includes the
+static assets required to get through this step.
 
 </InlineNotification>
 
@@ -83,10 +78,8 @@ yarn ci-check
 
 **Note:** Having issues running the CI check?
 
-<Link to="/developing/web-components-tutorial/step-1#continuous-integration-(ci)-check">
-  Step 1
-</Link>
-has troubleshooting notes that may help.
+<Link to="/developing/web-components-tutorial/step-1#continuous-integration-(ci)-check">Step 1</Link> has troubleshooting
+notes that may help.
 
 </InlineNotification>
 
@@ -108,33 +101,20 @@ git push origin web-components-step-2
 
 **Note:** Having issues pushing your changes?
 
-<Link to="/developing/web-components-tutorial/step-1#git-commit-and-push">
-  Step 1
-</Link>
-has troubleshooting notes that may help.
+<Link to="/developing/web-components-tutorial/step-1#git-commit-and-push">Step 1</Link> has troubleshooting notes that may
+help.
 
 </InlineNotification>
 
 ### Pull request (PR)
 
-Finally, visit
-[carbon-for-ibm-dotcom-tutorial](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-tutorial)
-to "Compare & pull request". In doing so, make sure that you are comparing to
-`web-components-step-2` into `base: web-components-step-2`.
+Finally, visit [carbon-for-ibm-dotcom-tutorial](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-tutorial)
+to "Compare & pull request". In doing so, make sure that you are comparing `web-components-step-4` with
+`base: web-components-step-4`.
 
-<InlineNotification>
+Expect your tutorial step PRs to be reviewed by the Carbon for IBM.com team but not merged. We'll close your PR so we
+can keep the repository's remote branches pristine and ready for the next person!
 
-**Note:** Expect your tutorial step PRs to be reviewed by the Carbon for IBM.com
-team but not merged. We'll close your PR so we can keep the repository's remote
-branches pristine and ready for the next person!
-
-</InlineNotification>
-
-<InlineNotification>
-
-**Note:** If your PR fails the Github Actions test with the error
-`Can't make a request in offline mode`, try running the following command:
-`rm -rf .yarn-offline-mirror node_modules && yarn cache clean && yarn install`.
-Add and commit the changes once this completes, and try pushing again.
-
-</InlineNotification>
+If your PR fails the Github Actions test with the error `Can't make a request in offline mode`, try running the
+following command: `rm -rf .yarn-offline-mirror node_modules && yarn cache clean && yarn install`. Add and commit the
+changes once this completes, and try pushing again.
