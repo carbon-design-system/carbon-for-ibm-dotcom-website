@@ -283,7 +283,8 @@ following:
 
 <!-- prettier-ignore-end -->
 
-You can find a description of how to further configure the `dotcom-shell` in our [storybook](https://www.ibm.com/standards/carbon/web-components/?path=/story/components-dotcom-shell--default).
+You can find a description of how to further configure the `dotcom-shell` in our
+[storybook](https://www.ibm.com/standards/carbon/web-components/?path=/story/components-dotcom-shell--default).
 
 <InlineNotification>
 
@@ -299,12 +300,11 @@ application!
 ## Configure the Dotcom Shell
 
 While we have just added the standard Carbon for IBM.com
-
 <Link to="/components/masthead">masthead</Link> and
-<Link to="/components/footer">footer</Link> to the page, there are more steps necessary
-to properly configure those components in order to load in the proper language and
-locale translation files, as well as the available translation options in the footer's
-locale selector.
+<Link to="/components/footer">footer</Link> to the page, there are more steps
+necessary to properly configure those components in order to load in the proper
+language and locale translation files, as well as the available translation
+options in the footer's locale selector.
 
 ### Setting the Digital Data Object (DDO)
 
@@ -347,12 +347,10 @@ Within the `<head>` of the `index.html` page, set the following object:
 
 This is the minimum DDO necessary for the page. You can learn more about the
 configuration of this at
-
-<Link to="/developing/building-for-ibm-dotcom#digital-data-object">
-  Building for IBM.com
-</Link>
-, though to continue to properly set up the Dotcom Shell for this tutorial, we
-will set the correct fields to properly set the language and locale:
+<Link to="/developing/building-for-ibm-dotcom#digital-data-object"> Building for
+IBM.com</Link>, though to continue to properly set up the Dotcom Shell for this
+tutorial, we will set the correct fields to properly set the language and
+locale:
 
 ```html path=src/index.html
 <script>
@@ -395,10 +393,11 @@ languages/locales for this page are US English, French Canadian, Korean, and
 Japanese. It will use the corresponding `href` values to send the user to the
 provided link when selecting in the locale selector. There are obviously many
 ways to configure the page's `cc` and `lc` (server-side vs. client-side, as well
-as the preferred URL strategy). In this tutorial, we will use the query
-parameters of the url in order to inform what the page's language/locale is. To
-do this, let's add the following in the `<head>` below the `window.digitalData`
-declaration:
+as the preferred URL strategy).
+
+In this tutorial, we will use the query parameters of the url in order to inform
+what the page's language/locale is. To do this, let's add the following in the
+`<head>` below the `window.digitalData` declaration:
 
 ```html path=src/index.html
 <script>
