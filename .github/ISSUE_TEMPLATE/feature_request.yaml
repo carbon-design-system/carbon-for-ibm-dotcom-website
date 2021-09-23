@@ -23,7 +23,7 @@ body:
     id: solution
     attributes:
       label: The proposed solution
-      description: "A clear and concise description of what you want to happen"
+      description: "Provide a clear and concise description of what you would like to happen instead."
     validations:
       required: true
   - type: textarea
