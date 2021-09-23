@@ -29,7 +29,8 @@ body:
   - type: textarea
     id: user-research
     attributes:
-      label: Sample content, references, or audits of solutions solving the same problem in other websites
+      label: Examples
+      description: Provide sample content, references, or audits of solutions solving the same problem in other websites.
   - type: checkboxes
     id: terms
     attributes:
