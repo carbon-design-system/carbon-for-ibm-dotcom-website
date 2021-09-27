@@ -22,6 +22,7 @@
   "dependencies": {
     "@carbon/icons-react": "^10.27.0",
     "beacon-for-ibm-dotcom": "^0.2.7",
+    "dotenv": "^10.0.0",
     "gatsby": "^2.19.17",
     "gatsby-theme-carbon": "1.30.2",
     "prop-types": "^15.7.2",
@@ -34,7 +35,6 @@
     "@babel/plugin-proposal-class-properties": "^7.12.13",
     "@babel/plugin-transform-classes": "^7.12.13",
     "babel-preset-gatsby": "^0.5.2",
-    "dotenv": "8.2.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.24.0",
