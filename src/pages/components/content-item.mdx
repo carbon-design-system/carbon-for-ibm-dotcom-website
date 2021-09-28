@@ -1,0 +1,114 @@
+---
+title: Content item
+description:
+  The content item is a basic-level content component that acts as a primary content unit, and it is used inside of a
+  content group to build web experiences on IBM dotcom pages. It can encapsulate basic content (a heading, a
+  description, a media element – image or video – and a CTA) and brings them all together into a content component which
+  solves a specific problem for the user.
+---
+
+import ComponentDescription from 'components/ComponentDescription';
+import ComponentFooter from 'components/ComponentFooter';
+import ResourceLinks from 'components/ResourceLinks';
+
+<ComponentDescription name="Content item" type="layout" />
+
+<AnchorLinks>
+
+<AnchorLink>Resources</AnchorLink>
+<AnchorLink>Overview</AnchorLink>
+<AnchorLink>Behaviors</AnchorLink>
+<AnchorLink>Tips and techniques</AnchorLink>
+<AnchorLink>Content guidance</AnchorLink>
+<AnchorLink>Ready-to-use custom item components</AnchorLink>
+<AnchorLink>Feedback</AnchorLink>
+
+</AnchorLinks>
+
+<ResourceLinks name="Content item" type="layout" />
+
+## Overview
+
+The content item component can be customized for different types of web experiences. It can be used multiple times
+inside of a content group as a list of items of the same type.
+
+![A visual example of the content item component](../../images/component/content-item/component--content-item--overview.png)
+
+<Caption>Anatomy of the content item component</Caption>
+
+<br />
+
+1. **Heading:** Customizable heading for the content item component.
+2. **Media (image or video):** You can add image or video inside of a content item.
+3. **Description:** Use this option for a short description of the content item.
+4. **CTA text link, or button:** Use this as a call-to-action at content item level.
+
+#### When to use
+
+Use content item when you need to organise a group of content elements into a content unit. It can live inside of a
+content group component. One of the advantages of the content item is that it is consistent throughout the IBM dotcom
+pages.
+
+#### When not to use
+
+Do not look at content item as a replacement for a content block or a content group. Do not add it inside a content
+section’s children container. A content item should not live directly inside a content section due to hierarchy
+conflicts.
+
+## Behaviors
+
+The content item elements are persistent throughout the online experience. It is fully responsive and changes how
+elements are displayed based on the browser size.
+
+#### Desktop breakpoints (max, xlg, and lg)
+
+If the browser is wider than the max breakpoint of 1584px, the content item and all other page content will center and
+extra margin will appear on either side of the page layout. The content item usually takes the centered 8 columns of the
+grid. It is possible to layout a content item on 4 columns, making the reading experience in certain situations more
+efficient. If you need item groupings, it is recommended to use the content group component.
+
+![A visual example of the content item component at desktop breakpoints](../../images/component/content-item/component--content-item--behaviors-desktop.png)
+
+<Caption>Content item examples, displayed on 8 grid columns (above) or 4 grid columns (below)</Caption>
+
+#### Md and sm breakpoints
+
+For the medium breakpoint, the content item may take all 8 or, as seen above, just 4 grid columns. For the small
+breakpoint, the content item will always take all 4 grid columns.
+
+![A visual example of the content item component at mobile breakpoints](../../images/component/content-item/component--content-item--behaviors-mobile.png)
+
+<Caption>Content items at md 672px and sm 320px breakpoints</Caption>
+
+## Tips and techniques
+
+The content item elements are persistent throughout the online experience. It is fully responsive and changes how
+elements are displayed based on the browser size.
+
+- Important: always keep multiple related content items in a content group component.
+- If you need to add different types of content items, use a content group component for each type. It’s ok (but not
+  recommended) to have a content group with only one content item.
+- It is recommended to maintain a hierarchical approach when adding content to a web page. Start with a content section,
+  add content blocks to it, then add content groups inside the content blocks and, in the end, add your content items
+  inside the content groups. Be consistent in this approach.
+
+## Content guidance
+
+| Element                                                    | Content type                                                                                                                       | Required | Instances | Character count <br/>(English / translated) | Notes                                                             |
+| ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------- | --------- | ------------------------------------------- | ----------------------------------------------------------------- |
+| Heading                                                    | Text                                                                                                                               | Yes      | 1         | 40 / 55                                     |                                                                   |
+| Copy                                                       | Text                                                                                                                               | No       | 1         | 150 / 200                                   |                                                                   |
+| Media                                                      | [Image](https://www.ibm.com/standards/carbon/components/images/) or [Video](https://www.ibm.com/standards/carbon/components/video) | No       | 1         | –                                           | Image with caption may also be used                               |
+| [CTA](https://www.ibm.com/standards/carbon/components/cta) | Component                                                                                                                          | Yes      | 1         | 25 / 35                                     | Required for the CTA section component, text or button style only |
+
+For more information, see the
+[character count standards](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards).
+
+## Ready-to-use custom item components
+
+| Component name                                                                                     | Relationship                                                                                                                                                                              |
+| -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Content item horizontal](https://www.ibm.com/standards/carbon/components/content-item-horizontal) | Content item horizontal is a content item with link list that takes the last 12 grid columns on desktop breakpoints. It does not have the grid flexibility of the content item component. |
+| [Pictogram item](https://www.ibm.com/standards/carbon/components/pictogram-item)                   | Pictogram item is a content item which adds a pictogram in the first 2 columns of an 8 grid column container. The rest of the content is positions on the last 6 grid columns.            |
+
+<ComponentFooter name="Content item" type="layout" />
