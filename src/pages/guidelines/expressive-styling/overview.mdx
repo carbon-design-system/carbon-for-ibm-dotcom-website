@@ -14,9 +14,9 @@ These pages explain everything you need to know about expressive styling for IBM
 
 <AnchorLink>Recent updates for expressive</AnchorLink>
 <AnchorLink>What is expressive styling?</AnchorLink>
-<AnchorLink>Differences between expressive and productive</AnchorLink>
-<AnchorLink>Expressive variants</AnchorLink>
-<AnchorLink>Preferred productive components</AnchorLink>
+<AnchorLink>Type sizes and styles</AnchorLink>
+<AnchorLink>Icon sizes</AnchorLink>
+<AnchorLink>Component sizes</AnchorLink>
 
 </AnchorLinks>
 
@@ -46,18 +46,14 @@ Expressive styling has been carefully designed and curated to serve people visit
 
 Given these needs and interaction behaviors, the expressive styles are optimized to improve content hierarchy, visual engagement, and set clear expectations as user goes from page to page.
 
-We've created detailed usage guidance for working with the productive and expressive type sets, explaining and illustrating where blending of the type sets can enhance experiences. Learn more on the [Styling strategies](../expressive-styling/styling-strategies) tab. 
+Expressive styling is used primarily for web pages and productive styling is used primarily for products. It's important to understand the differences between the two stylistic expressions so that you can make informed choices when you encounter the different styles.
 
-## Differences between expressive and productive
 
-Expressive styling is used primarily for IBM.com web pages, and productive styling is most used for products. There are some situations where you can blend both stylings, however it's good to understand the basics and the differences between the two stylistic expressions. 
-
-### Type sizes and styles
+## Type sizes and styles
 
 #### Type sizes
 
-The expressive type styles are primarily used for web pages and the larger sizes allow for a more dramatic, graphic use of type in editorial and marketing design. These type styles are excellent for long form reading and scanning, but
-would be distracting for use in product. 
+The expressive type styles are primarily used for web pages and the larger sizes allow for a more dramatic, graphic use of type in editorial and marketing design. These type styles are excellent for long form reading and scanning, but would be distracting for use in product. 
 
 The productive type set is primarily used within product spaces, where users benefit from a more condensed treatment of content to maintain focus on tasks. 
 
@@ -71,94 +67,72 @@ The productive type set is primarily used within product spaces, where users ben
 </Column>
 </Row>
 
-#### Type styles 
+<br/>
 
-Within **Body styles** and **Supporting styles**, the same set of styles are offered. Expressive style names have a suffix of `-02` and productive styles are named with a suffix of `-01`.
+#### Smaller styles 
+
+Within **Body styles** and **Supporting styles**, the same set of styles are offered. Productive styles are named with a suffix of `-01` and expressive style names have a suffix of `-02`. As you can see in the following image, the line heights increase to accommodate the larger expressive type sizes. 
+
+<Row>
+<Column colMd={8} colLg={8}>
+
+![Comparison of expressive and productive type styles](../../../images/guidelines/expressive-theme/compare-typestyles.png)
+
+<Caption>Comparison of naming conventions and different line heights for expressive and productive styles</Caption>
+
+</Column>
+</Row>
+
+<br/>
+
+#### Heading styles 
 
 There are two heading sets and the major difference between them is in how they are implemented in code. Expressive headings are responsive, or fluid, and the type styles change size at different breakpoints. The productive type set uses fixed headings. 
 
-#### Type token differences
-
-The following table shows the differences between the productive and expressive type token sizes and line heights.
-
-** New table coming from Shixie, based on this one....
-
-| Type token | Carbon default scale (size/line-height) | Carbon Expressive scale (size/line-height) |
-|:---|:---|:---|
-|`$code-01`|12px / 16px|14px / 20px|
-|`$code-02`|14px / 20px|16px / 24px|
-|`$caption-01`|12px / 16px|14px / 18px|
-|`$label-01`|12px / 16px|14px / 18px|
-|`$helper-text-01`|12px / 16px|14px / 18px|
-|`$body-short-01`|14px / 18px|16px / 22px|
-|`$body-long-01`|14px / 20px|16px / 24px|
-|`productive-heading-01`|14px / 18px|16px / 22px|
-
-
-
-### Icon sizes
-
-Icon sizes between expressive and productive are different, as they've been designed to match the type size. 
-
-In expressive situations, use 20px by 20px icons to match the larger type sizes. In productive situations, the icon sizes are generally 16px by 16px with some exceptions for success messages where the icons may be 20px by 20px.
-
 <Row>
 <Column colMd={8} colLg={8}>
 
-![Icon size change](../../../images/guidelines/expressive-theme/icon-size.png)
+![Comparison of expressive and productive type styles](../../../images/guidelines/expressive-theme/compare-headings.png)
+
+<Caption>Comparison of productive and expressive heading styles</Caption>
 
 </Column>
 </Row>
 
+## Icon sizes
 
-#### Icon token differences
+The icon sizes between expressive and productive have been designed to match the type size and line height of each type style. 
 
-** Shixie, what do we want to do with this table?
-
-| Icon token | Productive scale | Expressive scale |
-|:---|:---|:---|
-|`$icon-01`|16px|20px|
-|`$icon-02`|20px|20px|
-
-
-
-### Container sizes 
-
-Container sizes are also larger within expressive stylings to accommodate the larger type sizes. The following image shows the increases.
-
-** Shixie, not sure what to say here. I'll wait for updated image. 
+In expressive situations, use 20px by 20px icons to match the larger type sizes. In productive situations, the icon sizes are generally 16px by 16px, with some exceptions for success messages where the icons may be 20px by 20px.
 
 <Row>
 <Column colMd={8} colLg={8}>
 
-![Container size differences](../../../images/guidelines/expressive-theme/container-size.png)
+![Icon size change](../../../images/guidelines/expressive-theme/compare-icon.png)
+
+<Caption>Comparison of productive and expressive icon sizes</Caption>
 
 </Column>
 </Row>
 
+## Component sizes
 
-### Component sizes
-
-Component sizes also increases to accommodate the larger expressive type styles, as shown below with buttons and the checkbox component. 
+Component sizes also increase to accommodate the larger expressive type styles, as shown below with the link, list, and button components.
 
 <Row>
 <Column colMd={8} colLg={8}>
 
-![Component difference examples](../../../images/guidelines/expressive-theme/component-examples.png)
+![Component comparison](../../../images/guidelines/expressive-theme/compare-components.png)
+
+<Caption>Comparison of link, list, and button in productive and expressive stylings</Caption>
 
 </Column>
 </Row>
 
-#### Container token differences
+<br/>
 
-| Container token | Productive scale | Expressive scale |
-|:---|:---|:---|
-|`$container-01`|24px|32px|
-|`$container-02`|32px|40px|
-|`$container-03`|40px|48px|
-|`$container-04`|48px|48px|
-|`$container-05`|64px|72px|
+#### Exceptions for highly interactive components
 
+Where components are highly interactive in nature, we recommend always using productive styling. Components that require higher focus and more active interactions from users are best presented with an efficiency of space. The components include Accordion, Filter panel, Mega menu, and Tabs. 
 
-We do not always used expressive variants of components however. Components with high interactivity levels benefit from being presented using the productive type styles. For example, Accordion, Filter panel, Mega menu, and Tabs. 
-
+There are some situations where you can blend both stylings and we've created detailed usage guidance for working with the productive and expressive type sets on the [Styling strategies](../expressive-styling/styling-strategies) tab. 
