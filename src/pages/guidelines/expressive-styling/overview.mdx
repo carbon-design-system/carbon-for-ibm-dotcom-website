@@ -71,14 +71,23 @@ The productive type set is primarily used within product spaces, where users ben
 
 #### Smaller styles 
 
-Within **Body styles** and **Supporting styles**, the same set of styles are offered. Productive styles are named with a suffix of `-01` and expressive style names have a suffix of `-02`. As you can see in the following image, the line heights increase to accommodate the larger expressive type sizes. 
+Within **Body styles** and **Supporting styles**, the same set of styles are offered. Productive styles are named with a suffix of `-01` and expressive style names have a suffix of `-02`. 
+
+| Usage                | Productive              | Expressive                   |
+| -------------------- | ----------------------- | ---------------------------- |
+| Code                 | `$code-01`              | `$code-02`                   |
+| Label                | `$label-01`             | `$label-02`                  |
+| Body copy            | `$body-long-01`         | `$body-long-02`              |
+| Compact body copy    | `$body-short-01`        | `$body-short-02`             |
+
+As you can see in the following image, the line heights increase to accommodate the larger expressive type sizes. 
 
 <Row>
 <Column colMd={8} colLg={8}>
 
 ![Comparison of expressive and productive type styles](../../../images/guidelines/expressive-theme/compare-typestyles.png)
 
-<Caption>Comparison of naming conventions and different line heights for expressive and productive styles</Caption>
+<Caption>Comparison of different line heights for expressive and productive styles</Caption>
 
 </Column>
 </Row>
@@ -87,7 +96,7 @@ Within **Body styles** and **Supporting styles**, the same set of styles are off
 
 #### Heading styles 
 
-There are two heading sets and the major difference between them is in how they are implemented in code. Expressive headings are responsive, or fluid, and the type styles change size at different breakpoints. The productive type set uses fixed headings. 
+The expressive heading styles have a larger line height than productive. The pixel size is the same between each but the line height increases.
 
 <Row>
 <Column colMd={8} colLg={8}>
@@ -98,6 +107,8 @@ There are two heading sets and the major difference between them is in how they 
 
 </Column>
 </Row>
+
+The smaller expressive headings are fixed but from `$expressive-heading-03` upward the headings are responsive, or fluid. This means they change size at different breakpoints. By comparison, all of the headings in the productive type set are fixed.
 
 ## Icon sizes
 
