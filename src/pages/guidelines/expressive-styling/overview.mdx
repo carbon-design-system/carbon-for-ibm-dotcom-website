@@ -10,17 +10,11 @@ These pages explain everything you need to know about expressive styling for IBM
 
 </PageDescription>
 
-<InlineNotification>
-
-**Note:** The Carbon for IBM.com and Carbon teams have been working to consolidate foundational assets, including expressive and productive type sizes, into Carbon Design System’s core library. As the final step in this work, we removed the expressive wrapper in v1.25.0 (27 Sep 2021) and the Expressive theme will no longer be maintained. [Read more about this change](../../whats-happening/expressive-update).
-
-</InlineNotification>
-
 <AnchorLinks>
 
 <AnchorLink>Recent updates for expressive</AnchorLink>
 <AnchorLink>What is expressive styling?</AnchorLink>
-<AnchorLink>Type tokens and sets</AnchorLink>
+<AnchorLink>Differences between expressive and productive</AnchorLink>
 <AnchorLink>Expressive variants</AnchorLink>
 <AnchorLink>Preferred productive components</AnchorLink>
 
@@ -37,6 +31,7 @@ The Carbon for IBM.com and Carbon teams have been working to consolidate foundat
 We have been working on new design kits, in both Figma and Sketch. We’re releasing the kits iteratively and the [first versions](http:../../whats-happening/expressive-update#what-does-this-mean-for-designers) are available now. They include color tokens, and expressive and productive type styles. We’ll be adding key components from the Carbon for IBM.com library over time. 
 
 #### Expressive variants in the Carbon core library
+
 The Button, Link, and List core components have been available as expressive variants in the Carbon repo since Carbon v10.35 and will be available in the Carbon Sketch kit from v11 forward. We will also be adding these components to the new Carbon for IBM.com design kits.
 
 
@@ -53,84 +48,40 @@ Given these needs and interaction behaviors, the expressive styles are optimized
 
 We've created detailed usage guidance for working with the productive and expressive type sets, explaining and illustrating where blending of the type sets can enhance experiences. Learn more on the [Styling strategies](../expressive-styling/styling-strategies) tab. 
 
+## Differences between expressive and productive
 
-## Type tokens and sets
+Expressive styling is used primarily for IBM.com web pages, and productive styling is most used for products. There are some situations where you can blend both stylings, however it's good to understand the basics and the differences between the two stylistic expressions. 
 
-Carbon uses type tokens across two type sets to manage typography. Type tokens
-are pre-set configurations of typographic elements such as font size, weight, or
-leading (line height) that are specifically calibrated for use alongside
-[IBM Plex](http://ibm.com/plex) in product. Selecting the appropriate type style
-is determined by layout or template structure. Layouts may have several levels
-of architecture or areas that require varying typographic hierarchies.
+### Type sizes and styles
 
-### Expressive and productive type sets
+#### Type sizes
 
-The larger expressive type styles are primarily used for web pages and allow for a more dramatic, graphic use of type in editorial and marketing design. These type styles are excellent for long form reading and scanning, but
-would be distracting for use in product. The productive type set is primarily used within product spaces, where users
-benefit from a more condensed treatment of content to maintain focus on tasks.
-The productive styles work together to support the hierarchy of information and
-set user expectations. 
+The expressive type styles are primarily used for web pages and the larger sizes allow for a more dramatic, graphic use of type in editorial and marketing design. These type styles are excellent for long form reading and scanning, but
+would be distracting for use in product. 
 
-Within **Body styles** and **Supporting styles**, the same set of styles are
-offered. Expressive style names have a suffix of `-02` and productive styles are named with a suffix of `-01`.
-
-There are two heading sets and the major difference between them is in how they
-are implemented in code. Expressive headings are responsive and the type styles change size at different
-breakpoints. The productive type set uses fixed headings. 
-
-For more detail, see [Styling strategies](../expressive-styling/styling-strategies/).
-
-## Expressive variants
-
-** Not sure how we want to shape the next two sections. Want to talk about the benefits. 
-
-Button, Link, List 
-
-These three core components have been available as expressive variants in the Carbon repo since Carbon v10.35 and will be available in the Carbon Sketch kit from v11 forward. 
-
-Also, these components along with other key components from the library, will be available this quarter in the new Carbon for IBM.com design kits. 
-
-## Preferred productive components
-
-Section to talk about Accordion, Filter panel... which other components to mention. 
-
-
-
-
-**REMOVE EVERYTHING FROM HERE DOWN
-
-## Expressive theme availability
-
-<InlineNotification kind="warning">
-
-**Note:** The Expressive theme is being integrated into Carbon Design System’s core library, and so expressive and productive styling will be available from one library source. After this change, the Expressive theme will no longer be maintained. <a href="../../help/expressive-update">Learn more about this change</a>.
-
-</InlineNotification>
-
-The Expressive theme is our initial attempt at achieving expressive styling. It works as a wrapper on top of Carbon's core library, and is enabled in in Carbon for IBM.com (starting in v1.10.0) by default, to guarantee consistency across all IBM.com experiences. 
-
-The Expressive theme is also available as its own offering within the Carbon for IBM.com styles package (available in `v1.9.0`). Read more about how to implement the expressive theme [within any non-IBM.com applications](https://carbon-expressive.mybluemix.net).
-
-As mentioned above, this current approach is changing soon. We will provide more details to ensure your transition is seamless.
-
-## How the Expressive theme works
-
-### Type scale
-
-The Expressive theme increases Carbon Design System’s base type size of 14px to 16px and systematically increased the other type sizes within the system.
+The productive type set is primarily used within product spaces, where users benefit from a more condensed treatment of content to maintain focus on tasks. 
 
 <Row>
 <Column colMd={8} colLg={8}>
 
 ![Base type size change](../../../images/guidelines/expressive-theme/type-size.png)
 
+<Caption>The productive base type size is 14px and the expressive base type size is 16px.</Caption>
+
 </Column>
 </Row>
 
+#### Type styles 
+
+Within **Body styles** and **Supporting styles**, the same set of styles are offered. Expressive style names have a suffix of `-02` and productive styles are named with a suffix of `-01`.
+
+There are two heading sets and the major difference between them is in how they are implemented in code. Expressive headings are responsive, or fluid, and the type styles change size at different breakpoints. The productive type set uses fixed headings. 
 
 #### Type token differences
 
-The following table shows the differences between the default Carbon tokens and the tokens used by the expressive theme.
+The following table shows the differences between the productive and expressive type token sizes and line heights.
+
+** New table coming from Shixie, based on this one....
 
 | Type token | Carbon default scale (size/line-height) | Carbon Expressive scale (size/line-height) |
 |:---|:---|:---|
@@ -144,9 +95,12 @@ The following table shows the differences between the default Carbon tokens and 
 |`productive-heading-01`|14px / 18px|16px / 22px|
 
 
-### Icons
 
-To match the increased type size, the standard 16px by 16px icon size for Carbon's 14px base type has increased to 20px by 20px for the 16px base type in the Expressive theme.
+### Icon sizes
+
+Icon sizes between expressive and productive are different, as they've been designed to match the type size. 
+
+In expressive situations, use 20px by 20px icons to match the larger type sizes. In productive situations, the icon sizes are generally 16px by 16px with some exceptions for success messages where the icons may be 20px by 20px.
 
 <Row>
 <Column colMd={8} colLg={8}>
@@ -159,28 +113,38 @@ To match the increased type size, the standard 16px by 16px icon size for Carbon
 
 #### Icon token differences
 
+** Shixie, what do we want to do with this table?
+
 | Icon token | Productive scale | Expressive scale |
 |:---|:---|:---|
 |`$icon-01`|16px|20px|
 |`$icon-02`|20px|20px|
 
 
-### Containers
 
-Container sizes were increased systematically to accommodate the larger type sizes. The default container size for most components increased from 40px to 48px.
+### Container sizes 
+
+Container sizes are also larger within expressive stylings to accommodate the larger type sizes. The following image shows the increases.
+
+** Shixie, not sure what to say here. I'll wait for updated image. 
 
 <Row>
 <Column colMd={8} colLg={8}>
 
-![Container size change](../../../images/guidelines/expressive-theme/container-size.png)
+![Container size differences](../../../images/guidelines/expressive-theme/container-size.png)
 
 </Column>
 </Row>
 
+
+### Component sizes
+
+Component sizes also increases to accommodate the larger expressive type styles, as shown below with buttons and the checkbox component. 
+
 <Row>
 <Column colMd={8} colLg={8}>
 
-![Component change examples](../../../images/guidelines/expressive-theme/component-examples.png)
+![Component difference examples](../../../images/guidelines/expressive-theme/component-examples.png)
 
 </Column>
 </Row>
@@ -196,28 +160,5 @@ Container sizes were increased systematically to accommodate the larger type siz
 |`$container-05`|64px|72px|
 
 
-## Resources
+We do not always used expressive variants of components however. Components with high interactivity levels benefit from being presented using the productive type styles. For example, Accordion, Filter panel, Mega menu, and Tabs. 
 
-<Row className="resource-card-group">
-<Column colMd={4} colLg={4} noGutterSm>
-    <ResourceCard
-      subTitle="Carbon Design System with the Expressive theme"
-      aspectRatio="2:1"
-      actionIcon="arrowRight"
-      href="https://carbon-expressive.mybluemix.net"
-      >
-
-![React icon](../../../images/icon/react-icon.svg)
-
-</ResourceCard>
-</Column>
-</Row>
-
-
-The table below highlights some of the key changes that are happening as a result of this work. 
-
-| Asset                           | What's changing                       |
-| ------------------------------- | ------------------------------------- |
-| _Carbon for IBM.com design kits_ | We have been working on new design kits, in both Figma and Sketch. We’re releasing the kits iteratively and the [first versions](http:../../whats-happening/expressive-update#what-does-this-mean-for-designers) are available now. They include color tokens, and expressive and productive type styles. We’ll be adding key components from the Carbon for IBM.com library over time.       |
-| _Button, Link, List_            | These three core components have been available as expressive variants in the Carbon repo since Carbon v10.35 and will be available in the Carbon Sketch kit from v11 forward. We will also be adding these components to the new Carbon for IBM.com design kits.        |
-| _Type token names_              | The type token names are currently being updated to aid understanding and use. They will be updated in the Carbon v11 release, and we will provide updates when they're available in Carbon for IBM.com kits.      |
