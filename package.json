@@ -25,6 +25,7 @@
     "dotenv": "^10.0.0",
     "gatsby": "^2.19.17",
     "gatsby-theme-carbon": "1.30.2",
+    "node-fetch": "^2.6.1",
     "prop-types": "^15.7.2",
     "react": "16.8.6",
     "react-dom": "16.8.6",
@@ -42,7 +43,6 @@
     "eslint-plugin-react": "^7.24.0",
     "husky": "^7.0.2",
     "lint-staged": "^11.1.2",
-    "node-fetch": "^2.6.1",
     "prettier": "^2.3.2"
   },
   "lint-staged": {
