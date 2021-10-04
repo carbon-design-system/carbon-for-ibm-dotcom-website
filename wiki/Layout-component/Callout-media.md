@@ -2,7 +2,7 @@
 
 The [[Callout media]] decorates the [[Callout]] and [[Content block simple]]. It calls to attention the content within it with an offset and high contrast moment.
 
-![image](https://user-images.githubusercontent.com/3793636/119080430-b1ee2b00-b9bf-11eb-8836-d18165af7098.png)
+![image](https://user-images.githubusercontent.com/3793636/134920864-1fdc9d28-b9e1-474d-a4c7-8d25ce54740f.png)
 
 <hr width="40%" />
 
@@ -17,11 +17,11 @@ The [[Callout media]] decorates the [[Callout]] and [[Content block simple]]. It
 <br />
 </details>
 
-<!-- usedby start open="true" -->
+<!-- usedby start open="false" -->
 *{{usedby auto populates}}*
 <!-- usedby end -->
 
-<!-- backlinks start open="true" -->
+<!-- backlinks start open="false" -->
 *{{backlinks auto populates}}*
 <!-- backlinks end -->
 
@@ -38,4 +38,35 @@ The [[Callout media]] decorates the [[Callout]] and [[Content block simple]]. It
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+### 1. Callout
+
+[[Callout]] is being used to offset the component through layout and theming. This sets it apart from the rest of the content on the page.
+
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See [[Callout]] for more details.
+
+<br />[Back to top](#wiki-wrapper)<br /><br /><br />
+
+
+### 2. Content block simple
+
+[[Content block simple]] is used in high `highContrast` state and without its [[CTA]]. This component should sit inside of the [[Callout]] children's container.
+
+<br />
+
+###### Overrides
+
+|          | name            | value   | description   |
+|:---------|:----------------|:--------|:--------|
+| `2.0.1`  | `highContrast`  | `true`  | Set value to use high contrast.  |
+| `2.0.2`  | `CTA`           | `null`  | Do not use its [[CTA]].  |
+
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See [[Content block simple]] for more details.
+
+<br />
+
+###### Example 
+
+<img src="https://user-images.githubusercontent.com/3793636/134941350-0781e75e-a881-448f-b68c-e61a0134fedf.gif" alt="callout-quote-media--build" width="320px" />
+
+<br />[Back to top](#wiki-wrapper)<br /><br /><br />
+

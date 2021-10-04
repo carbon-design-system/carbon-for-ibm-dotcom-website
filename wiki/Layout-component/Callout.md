@@ -2,7 +2,7 @@
 
 The [[Callout]] component is a core component meant to offset and call attention to a piece of content within the page by setting it apart using a high-contrast moment.
 
-![image](https://user-images.githubusercontent.com/3793636/119080864-76a02c00-b9c0-11eb-86a7-b26a03922223.png)
+![image](https://user-images.githubusercontent.com/3793636/134919858-2bedbb38-9600-4a47-8b37-b4f161ee1315.png)
 
 <hr width="40%" />
 
@@ -37,4 +37,16 @@ The [[Callout]] component is a core component meant to offset and call attention
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+
+> ![image](https://user-images.githubusercontent.com/3793636/117874180-493bdb80-b266-11eb-8945-dde0d95431d6.png) Should there be a dependency added for [[Layout]] with new modifiers?
+
+### 1. Children
+`required` `container`
+
+The callout's children offsets any block level pattern and set its high contrast modifier to `true`.
+
+###### Example 
+
+<img src="https://user-images.githubusercontent.com/3793636/134932083-23e1865f-9bee-4c9a-96fc-82c9eb9d64f4.gif" alt="callout--children" width="320px" />
+
+<br />[Back to top](#wiki-wrapper)<br /><br /><br />
