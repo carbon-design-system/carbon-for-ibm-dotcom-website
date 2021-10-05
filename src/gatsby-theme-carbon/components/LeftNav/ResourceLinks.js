@@ -10,10 +10,6 @@ const links = [
     title: "IBM.com Web Standards",
     href: "https://www.ibm.com/standards/web",
   },
-  {
-    title: "Design kit",
-    href: "/designing/#install-the-sketch-kit",
-  },
 ];
 
 // shouldOpenNewTabs: true if outbound links should open in a new tab
