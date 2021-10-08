@@ -133,7 +133,7 @@ Level 3 is rarely used, and usually only in some of the most complicated compone
 #### Anatomy visual
 The anatomy is added as a high level annotated image within the [global section](#global). Oftentimes it dictates the structure/outline of the functional specs. The annotations reference heading numbers that detail a given aspect of the component. If more detail is needed, it's possible to break the component into annotated sections, and at [level 2](#level-2) provided a more detailed annotated anatomy image for reference. The anatomy section fulfills two important functions: it orients the reader visually with the component, and sets up the structure of the information to follow, making it easier to read and comprehend. 
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  It's a little more important to keep these visuals up to date, but there is often no reason as long as the anatomy hasn't changed much. Visual specs are still the place to go for up to date visuals.
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  It's important to keep these visuals up to date, but they may become outdated over time and as long as the anatomy hasn't changed much, this is okay. The design specs are always the source of truth for visuals, and we should be sure to point the reader to these also.
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  Check out [[Content block]] to see how it leverages the anatomy section.
 
@@ -146,7 +146,7 @@ The table options are predefined templates you can use to detail the functionali
 
 #### Logic
 
-> The Logic table more or less handles conditional if/else type statements.
+> The Logic table often handles conditional if/else type statements.
 
 ###### Some examples 
 
