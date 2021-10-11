@@ -1331,7 +1331,7 @@
     "Lead space": {
       "url": "./leadspace",
       "designLink": "https://ibm.box.com/s/d9jey3rlfxqmxu059f0x9dtcx7f5ehuh",
-      "description": "Lead space sets context and helps users understand what type of content they are going to find on the webpage. It is always positioned at the top.",
+      "description": "Lead space sets the context and also helps users understand what type of content they are going to find on the page. It is always positioned at the top.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-leadspace--default-with-no-image",
         "react": "https://ibmdotcom-web-components-react.mybluemix.net/?path=/story/components-leadspace--tall"
