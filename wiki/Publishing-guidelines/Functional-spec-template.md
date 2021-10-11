@@ -1,4 +1,6 @@
-<!-- category start --><!-- category end -->
+> ***For documentation on how to use this template more effectively reference the [[Writing functional specs]] page.***
+
+`Tag` <!-- category start -->*`{{Category auto populates}}`*<!-- category end -->
 
 Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar non felis non rutrum. Vestibulum fringilla imperdiet elit non aliquam. Cras consequat in mi non facilisis. Nam pellentesque ante urna, vitae venenatis sem placerat sit amet. Praesent dignissim tristique lobortis. Donec dignissim est in odio auctor, non ultricies diam bibendum. Nam cursus venenatis rutrum.
 
@@ -32,9 +34,9 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
-- r1: [Resource 1]()
-- r2: [Resource 2]()
-- r3: [Resource 3]()
+- r1: [Resource 1](https://example.com)
+- r2: [Resource 2](https://example.com)
+- r3: [Resource 3](https://example.com)
 
 <br />
 </details>
@@ -43,7 +45,11 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 
 <br />
 
+<!-- global component information -->
+
 ### 1. Level 1
+
+`tag` `tag`
 
 Brief description might go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar non felis non rutrum.
 
@@ -51,58 +57,58 @@ Brief description might go here. Lorem ipsum dolor sit amet, consectetur adipisc
 
 
 #### 1.1 Level 2
+
+`tag` `tag`
+
 Brief description might go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar non felis non rutrum.
 
 {{Scoped image | resize}}
 
-###### Events
-
-|        | event  | description  |
-|:-------|:-----------|:-------------|
-| `1.1`  |            |              |
-|        |            |              |
-|        |            |              |
-
 ###### Logic
 
-|        | condition  | description  |
-|:-------|:-----------|:-------------|
-| `1.1`  |            |              |
-|        |            |              |
-|        |            |              |
+|         | condition  | description  |
+|:--------|:-----------|:-------------|
+| `#.#.#` | `...`      | ...          |
+| `#.#.#` | `...`      | ...          |
+| `#.#.#` | `...`      | ...          |
+
+###### Events
+
+|          | name   | description  |
+|:---------|:-------|:-------------|
+| `#.#.#`  | `...`  | ...          |
+| `#.#.#`  | `...`  | ...          |
+| `#.#.#`  | `...`  | ...          |
 
 ###### States
 
-|   | condition   | value  |
-|:--|:------------|:-------|
-|   | `default`   |        |
-|   | `:hover`    |        |
-|   | `:focus`    |        |
-|   | `:active`   |        |
-|   | `:visited`  |        |
+|          | name   | description  |
+|:---------|:-------|:-------------|
+| `#.#.#`  | ...    | ...          |
+| `#.#.#`  | ...    | ...          |
+| `#.#.#`  | ...    | ...          |
 
-###### Data
+###### Modifiers
 
-|              | data  | type  | default  |
-|:-------------|:------|:------|:---------|
-| `required`   |       |       |          |
-|              |       |       |          |
-|              |       |       |          |
+|          | name   | description  |
+|:---------|:-------|:-------------|
+| `#.#.#`  | ...    | ...          |
+| `#.#.#`  | ...    | ...          |
+| `#.#.#`  | ...    | ...          |
 
-###### Code
 
-```javascript
-function example () { ... }
-```
+|          | value  | type   | description  |             |
+|:---------|:-------|:-------|:-------------|:------------|
+| `#.#.#`  | ...    | `...`  | ...          | `default`   |
+| `#.#.#`  | ...    | `...`  | ...          | `required`  |
+| `#.#.#`  | ...    | `...`  | ...          |             |
 
-###### Visual example
+###### Example
 
 {{example image | thumbnail}}  
 
 
 <br />[Back to top](#wiki-wrapper)<br /><br /><br />
-
-
 
 
 ### Callout examples
