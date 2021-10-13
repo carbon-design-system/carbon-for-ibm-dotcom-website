@@ -40,17 +40,26 @@ export const ResourceLinks = ({
       {multiComponent ? <H3>Resources for {name}</H3> : <H2>Resources</H2>}
       <CardGroup>
         {designSpecLink && (
-          <MiniCard title="Design specifications" href={designSpecLink}>
+          <MiniCard
+            linkProps={{ target: '_blank', rel: 'noopener' }}
+            title="Design specifications"
+            href={designSpecLink}
+          >
             <img src={sketchSymbol} alt="Sketch" />
           </MiniCard>
         )}
         {functionalSpecLink && (
-          <MiniCard title="Functional specifications" href={functionalSpecLink}>
+          <MiniCard
+            linkProps={{ target: '_blank', rel: 'noopener' }}
+            title="Functional specifications"
+            href={functionalSpecLink}
+          >
             <img src={githubIcon} alt="GitHub" />
           </MiniCard>
         )}
         {components[type][name].storybook.react && (
           <MiniCard
+            linkProps={{ target: '_blank', rel: 'noopener' }}
             title="React Storybook"
             href={components[type][name].storybook.react}
           >
@@ -59,6 +68,7 @@ export const ResourceLinks = ({
         )}
         {components[type][name].storybook.webcomponents && (
           <MiniCard
+            linkProps={{ target: '_blank', rel: 'noopener' }}
             title="Web Components Storybook"
             href={components[type][name].storybook.webcomponents}
           >
