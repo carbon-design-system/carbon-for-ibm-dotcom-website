@@ -872,7 +872,7 @@
     "Content block": {
       "url": "./content-block",
       "designLink": "https://ibm.box.com/s/9pweudf9ptucx8jxzgo3e2m5jpyke5qi",
-      "description": "Content block is a high-level layout component that acts as the main content unit used inside of a content section to build web experiences on IBM dotcom. It encapsulates other content components (one or multiple content groups) and brings them together into a custom visual, which solves a specific problem for the user.",
+      "description": "Content block is a high-level layout component that acts as the main content unit used inside of a Content section to build web experiences on IBM dotcom. It encapsulates other content components (one or multiple content groups) and brings them together into a custom visual, which solves a specific problem for the user.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/",
         "react": "http://www.ibm.com/standards/carbon/react/"
