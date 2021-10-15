@@ -85,18 +85,20 @@ exports.onCreateWebpackConfig = ({ actions }) => {
       rules: [
         {
           test: /\.md$/,
-          loaders: ['html-loader', 'markdown-loader'],
+          use: ['html-loader', 'markdown-loader'],
         },
         {
           test: /\.html$/,
-          loader: 'html-loader',
-          options: {
-            minimize: false,
+          use: {
+            loader: 'html-loader',
+            options: {
+              minimize: false,
+            },
           },
         },
       ],
     },
-    plugins: [new webpack.IgnorePlugin(/canvas/)],
+    plugins: [new webpack.IgnorePlugin({ resourceRegExp: /canvas/ })],
     resolve: {
       modules: [path.resolve(__dirname, 'src'), 'node_modules'],
     },
