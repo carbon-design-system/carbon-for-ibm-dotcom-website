@@ -18,7 +18,7 @@ const CustomFooter = () => {
         <a href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/issues/new/choose">GitHub</a>.
       </p>
       <p>
-        Last updated Oct 14, 2021
+        Last updated Oct 15, 2021
         <br />
         Copyright &copy; 2021 IBM
       </p>
