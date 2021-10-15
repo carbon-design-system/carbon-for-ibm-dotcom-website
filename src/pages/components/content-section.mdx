@@ -1,9 +1,9 @@
 ---
 title: Content section
 description:
-  Content section is a high-level content component that acts as the main content unit to build web page experiences on
-  IBM dotcom. It encapsulates other content components (one or multiple content blocks and/or content groups) and brings
-  them together into a custom visual which solves a specific problem for the user.
+  Content section is a high-level content component that acts as the main content unit to build web page experiences for
+  IBM.com. It encapsulates other content components (one or multiple Content blocks and/or Content groups) and brings
+  them together, providing flexibility to create many different solutions for users.
 ---
 
 import ComponentDescription from 'components/ComponentDescription';
@@ -19,7 +19,7 @@ import ResourceLinks from 'components/ResourceLinks';
 <AnchorLink>Behaviors</AnchorLink>
 <AnchorLink>Tips and techniques</AnchorLink>
 <AnchorLink>Content guidance</AnchorLink>
-<AnchorLink>Ready-to-use custom block components</AnchorLink>
+<AnchorLink>Related components</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
@@ -28,85 +28,99 @@ import ResourceLinks from 'components/ResourceLinks';
 
 ## Overview
 
-The content section component can be used and customized for different types of web page experiences, boosting
-productivity by not having to recreate it every single time. Because it is naturally decoupled from the dotcom shell, it
-can be used multiple times on a web page, acting as the main structural content unit.
-
-![A visual example of the content section component](../../images/component/content-section/component--content-section--overview.png)
-
-<Caption>Anatomy of the content section component</Caption>
-
-<br />
-
-1. **Heading:** Customizable heading for the content section component.
-2. **Description:** A short description of the content section.
-3. **CTA text link or CTA card link:** Use this component as a general call to action at content section level.
-4. **Children container:** Use this to insert other high-level content units, like content blocks and content groups.
-
-#### When to use
-
-Use content section when you need to organise a web page experience into main content units. One of the advantages of
-the section is that it can take a different color theme from the page theme. Use this option carefuly to avoid an
-unwanted page banding experience (page banding means that constrasting full-width backgrounds are alternating in a web
-page, interrupting the reading experience for the user).
-
-#### When not to use
-
-Do not use a content section to only separate content items, or other related basic content items (like paragraphs)
-inside of a web page. Use a content group instead.
-
-## Behaviors
-
-The content section elements are persistent throughout the online experience. It is fully responsive and changes how
-elements are displayed based on the browser size.
-
-#### Desktop breakpoints (max, xlg, and lg)
-
-If the browser is wider than the max breakpoint of 1584px, the content section and all other page content will center
-and extra margin will appear on either side of the page layout. The content section heading, description and link CTA
-will take the first four (out of 16) columns of the grid, while the children container will take the other 12 columns.
+The Content section component can be used and customized for different types of web page experiences, boosting
+productivity by not having to recreate it every time. Because it is naturally decoupled from the Dotcom shell, it can be
+used multiple times on a web page, acting as the main structural content unit.
 
 <Row>
 
-<Column colMd={4} colLg={12}>
+<Column colMd={8} colLg={10}>
 
-![Content section at xlg 1312px breakpoint encapsulating a content block simple](../../images/component/content-section/component--content-section--behavior-desktop.png)
+![A visual example of the Content section component](../../images/component/content-section/component--content-section--overview.png)
 
-<Caption>Content section at xlg 1312px breakpoint encapsulating a content block simple</Caption>
+<Caption>Anatomy of the Content section component</Caption>
 
 </Column>
 
 </Row>
 
-#### Md and sm breakpoints
+1. **Heading:** A customizable heading for the Content section component.
+2. **Description:** A short description of the Content section.
+3. **CTA text link or CTA card link:** Use this component as a general call to action at the Content section level.
+4. **Child container:** Use this to insert other high-level content units, like content blocks and content groups.
 
-At medium and small breakpoints, the content section will add a significant change: the children container will move
-above the link CTA text link. See the image below.
+#### When to use
 
-![A visual example of the content group component at mobile breakpoints](../../images/component/content-section/component--content-section--behavior-mobile.png)
+Use Content section when you need to organize a web page experience into main content units. One of the advantages of
+Content section is that it can take a different color theme from the page theme. Use this option carefully to avoid an
+unwanted page banding experience. Page banding happens when contrasting full-width backgrounds are alternating on a
+page, interrupting the reading experience for the user.
 
-<Caption>Content section at md 672px and sm 320px breakpoints encapsulating a content block simple</Caption>
+#### When not to use
 
-### Showcase
+Do not use a Content section to separate only content items, or other related basic content items (like paragraphs)
+inside a web page. Use a Content group instead.
 
-This is a showcase of a content section that encapsulates a content block simple, or, in turn, a card block with four
-cards.
+## Behaviors
 
-![A visual example of the content block component](../../images/component/content-section/component--content-section--showcase2.gif)
+The Content section elements are persistent throughout the online experience. It is fully responsive and changes how
+elements are displayed based on the browser size.
 
-<Caption>Showcase of a content section component</Caption>
+#### Desktop breakpoints
+
+If the browser is wider than the max breakpoint of 1584px, the Content section and all other page content will center
+and extra margin will appear on either side of the page layout. The Content section heading, description and link CTA
+will take the first four (out of 16) columns of the grid, while the children container will take the other 12 columns.
+
+#### Mobile breakpoints
+
+At medium and small breakpoints, the Content section will add a significant change: the child container will move above
+the CTA text link. See the image below.
+
+<Row>
+
+<Column colMd={8} colLg={12}>
+
+![A visual example of the Content section component at different breakpoints](../../images/component/content-section/component--content-section--behavior.png)
+
+</Column>
+
+</Row>
+
+<Caption>Content section with a Content block simple, at desktop and mobile breakpoints</Caption>
+
+### Examples
+
+These examples showcase the adaptability of Content section, encapsulating a
+[Content block simple](https://www.ibm.com/standards/carbon/components/content-block-simple), or a
+[Content block cards](https://www.ibm.com/standards/carbon/components/content-block-cards), both ready-to-use
+components.
+
+<Row>
+
+<Column colMd={8} colLg={8}>
+
+![A visual example of the content block component](../../images/component/content-section/component--content-section--showcase.gif)
+
+</Column>
+
+</Row>
+
+<Caption>Showcasing the versatility and adaptability of the Content section component</Caption>
 
 ## Tips and techniques
 
-The content block elements are persistent throughout the online experience. It is fully responsive and changes how
+The Content section elements are persistent throughout the online experience. It is fully responsive and changes how
 elements are displayed based on the browser size.
 
-- Important: keep in mind that on medium and small breakpoints, the children container is positioned between the content
-  section description and the CTA text link.
-- Each type of content unit (content section, content block, content group or content item, and their many options)
-  usually will have a certain type of CTA as the last element in the component architecture.
-- Try to avoid CTA stacking at the end of a content section. If multiple CTAs are present, use different types. Example:
-  a card link from a content block and a CTA text link as the final element of the content section.
+It's important to keep in mind that on medium and small breakpoints, the child container is positioned between the
+Content section description and the CTA text link.
+
+Each type of content unit (content section, content block, content group or content item, and their many options) will
+usually have a certain type of CTA as the last element in the component architecture.
+
+Try to avoid CTA stacking at the end of a Content section. If multiple CTAs are present, use different types. For
+example, a card link from a Content block and a CTA text link as the final element of the Content section.
 
 ## Content guidance
 
@@ -121,12 +135,12 @@ elements are displayed based on the browser size.
 For more information, see the
 [character count standards](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards).
 
-## Ready-to-use custom section components
+## Related components
 
-| Component name                                                                                               | Relationship                                                                                                                                                        |
-| ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Card section](https://www.ibm.com/standards/carbon/components/card-section)                                 | Card section is a content section that includes a content section heading, and that, in the children container, it encapsulates a card group component.             |
-| [Card section carousel](https://www.ibm.com/standards/carbon/components/card-section-carousel)               | Card section carousel is a content section that includes a content section heading and a carousel component for navigation throughout a group of CTA cards.         |
-| [Card section images](https://www.ibm.com/standards/carbon/components/card-section#card-section-with-images) | Card section images is a content section that includes a content section heading, and a card group component encapsulated in the content section children container |
+| Component name                                                                                               | Description                                                                                                                                                       |
+| ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Card section](https://www.ibm.com/standards/carbon/components/card-section)                                 | Card section is a Content section that includes a content section heading and in its child container, it contains a Card group component.                         |
+| [Card section carousel](https://www.ibm.com/standards/carbon/components/card-section-carousel)               | Card section carousel is a Content section that includes a content section heading and a carousel component for navigation throughout a group of CTA cards.       |
+| [Card section images](https://www.ibm.com/standards/carbon/components/card-section#card-section-with-images) | Card section images is a Content section that includes a content section heading, and a Card group component encapsulated in the Content section child container. |
 
 <ComponentFooter name="Content section" type="layout" />
