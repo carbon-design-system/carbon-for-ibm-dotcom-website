@@ -869,6 +869,33 @@
         "notAvailable": false
       }
     },
+    "Content block": {
+      "url": "./content-block",
+      "designLink": "https://ibm.box.com/s/uaq0ovswviefwbv7gd4jn13llvqb23f8",
+      "description": "Content block is a high-level layout component that acts as the main content unit used inside of a Content section to build web experiences on IBM dotcom. It encapsulates other content components (one or multiple content groups) and brings them together into a custom visual, which solves a specific problem for the user.",
+      "storybook": {
+        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/",
+        "react": "http://www.ibm.com/standards/carbon/react/"
+      },
+      "webcomponents": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": true,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": true,
+        "notAvailable": false
+      }
+    },
     "Content block cards": {
       "url": "./content-block-cards",
       "designLink": "https://ibm.box.com/s/9pweudf9ptucx8jxzgo3e2m5jpyke5qi",
@@ -974,6 +1001,33 @@
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
+        "notAvailable": false
+      }
+    },
+    "Content group": {
+      "url": "./content-group",
+      "designLink": "https://ibm.box.com/s/5n0sj6b3kkicnwimxmgnwb5owm46g8wz",
+      "description": "Content group acts as a content unit, and is used inside a Content section or a Content block. It can contain basic content components (one or multiple content items of the same kind), bringing them together into highly-customized solutions for the user.",
+      "storybook": {
+        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/",
+        "react": "http://www.ibm.com/standards/carbon/react/"
+      },
+      "webcomponents": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": true,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": true,
         "notAvailable": false
       }
     },
@@ -1112,6 +1166,33 @@
         "notAvailable": false
       }
     },
+    "Content item": {
+      "url": "./content-item",
+      "designLink": "https://ibm.box.com/s/xfm17x7dwbe4z7kjk482b8hbpjasft7o",
+      "description": "The Content item is a basic-level content component that acts as a primary content unit, and it is used inside a Content group to build web experiences on IBM dotcom pages. It can encapsulate basic content (a heading, a description, a media element – image or video – and a CTA) and brings them all together into a content component which solves a specific problem for the user.",
+      "storybook": {
+        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/",
+        "react": "http://www.ibm.com/standards/carbon/react/"
+      },
+      "webcomponents": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": true,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": true,
+        "notAvailable": false
+      }
+    },
     "Content item horizontal": {
       "url": "./content-item-horizontal",
       "designLink": "https://ibm.box.com/s/911wx1w694l21iazjcw9powshyxmk0du",
@@ -1136,6 +1217,33 @@
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
+        "notAvailable": false
+      }
+    },
+    "Content section": {
+      "url": "./content-section",
+      "designLink": "https://ibm.box.com/s/oqlsa6m0vfownbn1s2y682mnugsf6cuv",
+      "description": "Content section is a high-level content component that acts as the main content unit to build web page experiences for IBM.com. It encapsulates other content components (one or multiple Content blocks and/or Content groups) and brings them together, providing flexibility to create many different solutions for users.",
+      "storybook": {
+        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/",
+        "react": "http://www.ibm.com/standards/carbon/react/"
+      },
+      "webcomponents": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": true,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": true,
         "notAvailable": false
       }
     },
