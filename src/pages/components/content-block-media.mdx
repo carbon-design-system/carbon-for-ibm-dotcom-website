@@ -43,15 +43,15 @@ positioned to the side.
 
 ## Content guidance
 
-| Field                                                        | Field type | Required | Cardinality | Max character size (English / translated) |
-| ------------------------------------------------------------ | ---------- | -------- | ----------- | ----------------------------------------- |
-| Headline                                                     | Short copy | Yes      | 1           | XXS (40 / 55)                             |
-| Paragraph                                                    | Long copy  | No       | 1           | XL (250 / 325)                            |
-| [Content group – simple](../components/content-group-simple) | Component  | Yes      | Less than 4 | –                                         |
-| [Feature card - medium](../components/cards#feature-card)    | Component  | No       | 1           | –                                         |
-| [Link list](../components/link-list)                         | Component  | No       | 1           | –                                         |
+| Element                                                        | Content type | Required | Instances   | Character count <br/>(English / translated) | Notes           |
+| ------------------------------------------------------------ | -------------- | -------- | ----------- | ----------------------------------------- | ------------------- |
+| Headline                                                     | Text           | Yes      | 1           | 40 / 55                                   | Heading override can be used when using table of contents. |
+| Paragraph                                                    | Text           | No       | 1           | 250 / 325                                 |                    |
+| [Content group – simple](../components/content-group-simple) | Component      | Yes      | Less than 4 | –                                         |                    |
+| [CTA](../components/cta)                                     | Component      | No       | 1           | –                                         | [Feature card - medium](../components/cards#feature-card) (local or jump CTA type only). |
+| Aside container                                              | Component      | No       | 1           | –                                         |                 |
 
 For more information, see the
-[character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standard).
+[character count standards](https://www.ibm.com/standards/carbon/guidelines/content/#character-count-standards).
 
 <ComponentFooter name="Content block media" type="layout" />
