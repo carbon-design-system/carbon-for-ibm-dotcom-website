@@ -173,7 +173,10 @@
 
 - title: Resources
   pages:
-    - path: /resources
+    - title: Overview
+      path: /resources
+    - title: Carbon Devtools
+      path: /resources/carbon-devtools
 
 - title: Help
   pages:
