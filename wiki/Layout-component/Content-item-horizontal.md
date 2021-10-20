@@ -3,9 +3,10 @@
 [[Content item horizontal]] is a component for displaying basic text elements
 and [[CTA]]s in a horizontally-distributed column layout.
 
+![component--content-item-horizontal](https://user-images.githubusercontent.com/3793636/138167447-f1b4b258-6d65-4e60-b4b7-087fb3107db6.jpg)
+
 > ![image](https://user-images.githubusercontent.com/3793636/117874180-493bdb80-b266-11eb-8945-dde0d95431d6.png)
-> This component is not technically related to the core [[Content item]].
-> ![image](https://user-images.githubusercontent.com/3793636/119083271-40b17680-b9c5-11eb-823b-164146fa8c83.png)
+> This component is technically not related to the core [[Content item]].
 
 <hr width="40%" />
 
@@ -81,6 +82,8 @@ The media here is can be an [[Image with caption]] or a [[Video]].
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
 > See [[Image with media]] and [[Video]] for more details.
+
+<br />
 
 ###### Left / right examples
 
