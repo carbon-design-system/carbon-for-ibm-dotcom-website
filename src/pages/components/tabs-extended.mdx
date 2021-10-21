@@ -50,6 +50,16 @@ On mobile, Tabs extended switches to an accordion for easier browsing.
 
 <ResourceLinks name="Tabs extended" type="ui"  multiComponent/>
 
+### Content guidance for Tabs extended
+
+| Element                                                          | Content type  | Required | Instances | Character count <br/>(English / translated) | Notes                   |
+| ---------------------------------------------------------------- | ------------- | -------- | --------- | ------------------------------------------- | ------------------------|
+| Child container                                                  | Component     | Yes      | Min 2     | –                                           | Container areas that child components and other content types can be passed into (1 per tab). |
+| [Tabs](https://www.carbondesignsystem.com/components/tabs/usage/)| Component     | Yes      | 2–6       | –                                           | Tab renders as an accordian for medium breakpoint and smaller. |
+| Tab item                                                         | Text          | Yes      | –         | 25 / 35                                     | When using vertical orientation max character count = 40 / 55. |
+
+
+
 ## Tabs extended media
 
 Tabs extended provides an option to include media. It uses [Content item horizontal](/components/content-item-horizontal) with media to create an organized section for displaying content with media. This is useful especially when reducing page length is desired. Keep in mind that when using tabs, some content will be hidden until the user interacts with the component, so they should not be used for information that is considered critical.
@@ -75,5 +85,13 @@ On mobile, Tabs extended media renders as an accordion for easier browsing.
 </Row>
 
 <ResourceLinks name="Tabs extended media" type="layout"  multiComponent/>
+
+### Content guidance for Tabs extended media
+
+| Element                                                          | Content type  | Required | Instances | Character count <br/>(English / translated) | Notes                   |
+| ---------------------------------------------------------------- | ------------- | -------- | --------- | ------------------------------------------- | ------------------------|
+| Tabs extended                                                    | Component     | Yes      | 1     | –                                           |  |
+| [Content item horizontal with media](https://www.ibm.com/standards/carbon/components/content-item-horizontal#content-item-horizontal-with-media)| Component     | Yes      | 1      | –                                           | Max 1 per tab. |
+
 
 <ComponentFooter name="Tabs extended" type="ui" />
