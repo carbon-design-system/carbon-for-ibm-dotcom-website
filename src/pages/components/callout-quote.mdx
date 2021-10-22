@@ -35,14 +35,14 @@ impression on the user.
 
 ## Content guidance
 
-| Field                                                                   | Field type  | Required | Cardinality | Max character size (English / translated)                                                                                                                              |
-| ----------------------------------------------------------------------- | ----------- | -------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Paragraph                                                               | Long copy   | Yes      | 1           | LL (200 / 260)                                                                                                                                                         |
-| Source (ex. name)                                                       | Short copy  | No       | 1           | XS (65 / 85)                                                                                                                                                           |
-| Copy 1 (ex. role)                                                       | Short copy  | No       | 1           | XS (65 / 85)                                                                                                                                                           |
-| Copy 2 (ex. company)                                                    | Short copy  | No       | 1           | XS (65 / 85)                                                                                                                                                           |
-| Quotation mark type                                                     | Option list | No       | –           | Double curved (default) (“”) <br/>Single curved (‘’) <br/>Double angle («») <br/>Single angle (‹›)<br/>Low high reversed double curved („ “)<br/>Corner bracket (「」) |
-| [CTA (text)](https://www.ibm.com/standards/carbon/components/cta/#text) | Component   | No       | 1           | –                                                                                                                                                                      |
+| Element                                                                 | Content type  | Required | Instances | Character count <br/>(English / translated) |  Notes   |
+| ----------------------------------------------------------------------- | ----------- | ---------- | ----------- | ----------------------------------------- | -------- |
+| Primary copy                                                            | Text        | Yes        | 1           | 200 / 260                                 | Quote.         |
+| Copy 1                                                                  | Text        | No         | 1           | 65 / 85                                   | For example, name.         |
+| Copy 2                                                                  | Text        | No         | 1           | 65 / 85                                   | For example, role.         |
+| Copy 3                                                                  | Text        | No         | 1           | 65 / 85                                   | For example, company.         |
+| Quotation mark type                                                     | Option list | No         | 1           | –                                         | Double curved (default) (“”) <br/>Single curved (‘’) <br/>Double angle («») <br/>Single angle (‹›)<br/>Low high reversed double curved („ “)<br/>Corner bracket (「」) |
+| [CTA](https://www.ibm.com/standards/carbon/components/cta/#text)        | Component   | No         | 1           | –                                         | Text style CTA only. |
 
 For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
 
