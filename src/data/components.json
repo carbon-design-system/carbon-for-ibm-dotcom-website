@@ -874,8 +874,8 @@
       "designLink": "https://ibm.box.com/s/uaq0ovswviefwbv7gd4jn13llvqb23f8",
       "description": "Content block is a high-level layout component that acts as the main content unit used inside of a Content section to build web experiences on IBM dotcom. It encapsulates other content components (one or multiple content groups) and brings them together into a custom visual, which solves a specific problem for the user.",
       "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/",
-        "react": "http://www.ibm.com/standards/carbon/react/"
+        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-block--default",
+        "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-content-block--default"
       },
       "webcomponents": {
         "stable": false,
@@ -1009,8 +1009,8 @@
       "designLink": "https://ibm.box.com/s/5n0sj6b3kkicnwimxmgnwb5owm46g8wz",
       "description": "Content group acts as a content unit, and is used inside a Content section or a Content block. It can contain basic content components (one or multiple content items of the same kind), bringing them together into highly-customized solutions for the user.",
       "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/",
-        "react": "http://www.ibm.com/standards/carbon/react/"
+        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-group--default",
+        "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-content-group--default"
       },
       "webcomponents": {
         "stable": false,
@@ -1171,8 +1171,8 @@
       "designLink": "https://ibm.box.com/s/xfm17x7dwbe4z7kjk482b8hbpjasft7o",
       "description": "The Content item is a basic-level content component that acts as a primary content unit, and it is used inside a Content group to build web experiences on IBM dotcom pages. It can encapsulate basic content (a heading, a description, a media element – image or video – and a CTA) and brings them all together into a content component which solves a specific problem for the user.",
       "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/",
-        "react": "http://www.ibm.com/standards/carbon/react/"
+        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-item--default",
+        "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-content-item--default"
       },
       "webcomponents": {
         "stable": false,
