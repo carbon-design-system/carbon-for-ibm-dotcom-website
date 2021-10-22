@@ -1,6 +1,7 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-[[Callout data]] depends on the [[Callout]] component to emphasize a data point in a big way.
+[[Callout data]] depends on the [[Callout]] component to emphasize a data point
+in a big way.
 
 ![image](https://user-images.githubusercontent.com/3793636/119143686-842fd300-ba0d-11eb-8a6d-bbb991ed9bd1.png)
 
@@ -17,14 +18,19 @@
 </details>
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -37,4 +43,5 @@
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[[r1](#resources)]</sup> for more details
