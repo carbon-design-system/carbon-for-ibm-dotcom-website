@@ -11,8 +11,12 @@ import components from '../../data/components.json';
  * @returns {*} Component description
  * @constructor
  */
-export const ComponentDescription = ({ name, type }) => (
+const ComponentDescription = ({ name, type }) => (
   <PageDescription>
-    <P dangerouslySetInnerHTML={{ __html: components[type][name].description }} />
+    <P
+      dangerouslySetInnerHTML={{ __html: components[type][name].description }}
+    />
   </PageDescription>
 );
+
+export default ComponentDescription;
