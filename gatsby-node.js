@@ -11,7 +11,10 @@ const webpack = require('webpack');
  * @private
  */
 async function createBuildForIBMPage() {
-  const dest = path.resolve(__dirname, 'src/pages/developing/building-for-ibm-dotcom');
+  const dest = path.resolve(
+    __dirname,
+    'src/pages/developing/building-for-ibm-dotcom'
+  );
   const buildForIBMsrc =
     'https://raw.githubusercontent.com/carbon-design-system/carbon-for-ibm-dotcom/master/docs/building-for-ibm-dotcom.md';
   const buildForIBMheading = `${dest}/heading.txt`;
@@ -28,7 +31,10 @@ async function createBuildForIBMPage() {
       .then((response) => response.text())
       .then((response) => {
         const heading = fs.readFileSync(buildForIBMheading);
-        const final = response.substring(response.indexOf('prettier-ignore-end') + 23, response.length - 1);
+        const final = response.substring(
+          response.indexOf('prettier-ignore-end') + 23,
+          response.length - 1
+        );
 
         fs.writeFileSync(buildForIBMdest, `${heading}${final}`);
       })
@@ -46,7 +52,10 @@ async function createBuildForIBMPage() {
  * @private
  */
 async function createCDNStyleHelpersPage() {
-  const dest = path.resolve(__dirname, 'src/pages/developing/carbon-cdn-style-helpers');
+  const dest = path.resolve(
+    __dirname,
+    'src/pages/developing/carbon-cdn-style-helpers'
+  );
   const styleHelperssrc =
     'https://raw.githubusercontent.com/carbon-design-system/carbon-for-ibm-dotcom/master/packages/web-components/docs/carbon-cdn-style-helpers.md';
   const styleHelpersheading = `${dest}/heading.txt`;
@@ -63,7 +72,10 @@ async function createCDNStyleHelpersPage() {
       .then((response) => response.text())
       .then((response) => {
         const heading = fs.readFileSync(styleHelpersheading);
-        const final = response.substring(response.indexOf('prettier-ignore-end') + 23, response.length - 1);
+        const final = response.substring(
+          response.indexOf('prettier-ignore-end') + 23,
+          response.length - 1
+        );
 
         fs.writeFileSync(styleHelpersdest, `${heading}${final}`);
       })
