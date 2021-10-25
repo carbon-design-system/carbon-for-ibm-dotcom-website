@@ -85,7 +85,7 @@ The media here is can be an [[Image with caption]] or a [[Video]].
 
 <br />
 
-###### Left / right examples
+###### Right / left examples
 
 <img src="https://user-images.githubusercontent.com/3793636/138164579-8bc107d0-cab3-453d-a074-d8695a6b25ee.png" width="200px" alt="left / right example"/>
 
