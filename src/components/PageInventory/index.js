@@ -1,3 +1,3 @@
-import { PageInventory } from './PageInventory';
+import PageInventory from './PageInventory';
 
 export default PageInventory;

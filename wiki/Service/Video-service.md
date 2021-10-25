@@ -1,8 +1,11 @@
 `Core` <!-- category start --><!-- category end -->
 
-The Video service intakes a Kaltura player <sup>[[r1](#resources)]</sup> `videoId` and fetches the video and associated meta data from Kaltura Media Center.
+The Video service intakes a Kaltura player <sup>[[r1](#resources)]</sup>
+`videoId` and fetches the video and associated meta data from Kaltura Media
+Center.
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873641-a6835d00-b265-11eb-8433-8c9c73a2e999.png) WIP. Need to verify with dev.
+> ![image](https://user-images.githubusercontent.com/3793636/117873641-a6835d00-b265-11eb-8433-8c9c73a2e999.png)
+> WIP. Need to verify with dev.
 
 <hr width="40%" />
 
@@ -21,6 +24,7 @@ The Video service intakes a Kaltura player <sup>[[r1](#resources)]</sup> `videoI
 <!-- backlinks start --><!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -33,16 +37,15 @@ The Video service intakes a Kaltura player <sup>[[r1](#resources)]</sup> `videoI
 
 ### Input
 
-| Data name | Type |
-| --------- | ---- |
+| Data name | Type   |
+| --------- | ------ |
 | `videoID` | Number |
 
 ### Output
 
-| Data name | Type |  
-| --------- | ---- |
-| Name | Text |
-| Description | Text |
-| Duration | Number |
-| Poster image | Image |
-
+| Data name    | Type   |
+| ------------ | ------ |
+| Name         | Text   |
+| Description  | Text   |
+| Duration     | Number |
+| Poster image | Image  |
