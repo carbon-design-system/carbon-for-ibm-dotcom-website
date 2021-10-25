@@ -1,6 +1,8 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-The [[Footnotes]] component allows the adopter add reference links throughout their page content as an anchor link. These anchor links then launches or navigates them to the list of notes highlighting the item clicked on.
+The [[Footnotes]] component allows the adopter add reference links throughout
+their page content as an anchor link. These anchor links then launches or
+navigates them to the list of notes highlighting the item clicked on.
 
 ![image](https://user-images.githubusercontent.com/3793636/119145372-3025ee00-ba0f-11eb-813d-2fa0103caafb.png)
 
@@ -18,14 +20,19 @@ The [[Footnotes]] component allows the adopter add reference links throughout th
 </details>
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -38,4 +45,5 @@ The [[Footnotes]] component allows the adopter add reference links throughout th
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[[r1](#resources)]</sup> for more details

@@ -1,6 +1,8 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-[[Content block horizontal]] is a decorator block component for displaying [[Content item horizontal]] components in the children container of the [[Content Block]] as a list.
+[[Content block horizontal]] is a decorator block component for displaying
+[[Content item horizontal]] components in the children container of the
+[[Content Block]] as a list.
 
 ![image](https://user-images.githubusercontent.com/3793636/119081552-cf23f900-b9c1-11eb-9a33-043534f404e4.png)
 
@@ -18,14 +20,19 @@
 </details>
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -38,4 +45,5 @@
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[[r1](#resources)]</sup> for more details

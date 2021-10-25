@@ -1,3 +1,3 @@
-import { ComponentDescription } from './ComponentDescription';
+import ComponentDescription from './ComponentDescription';
 
 export default ComponentDescription;
