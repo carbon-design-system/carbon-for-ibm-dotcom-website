@@ -1,3 +1,3 @@
-import { ComponentFeedback } from './ComponentFeedback';
+import ComponentFeedback from './ComponentFeedback';
 
 export default ComponentFeedback;

@@ -1,3 +1,3 @@
-import { BeaconWebUI } from "./BeaconWebUI";
+import BeaconWebUI from './BeaconWebUI';
 
 export default BeaconWebUI;

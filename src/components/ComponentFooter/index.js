@@ -1,3 +1,3 @@
-import { ComponentFooter } from './ComponentFooter';
+import ComponentFooter from './ComponentFooter';
 
 export default ComponentFooter;

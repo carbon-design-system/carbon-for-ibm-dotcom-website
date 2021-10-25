@@ -6,4 +6,3 @@ applications:
     buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
     routes:
       - route: carbon-for-ibm-dotcom.mybluemix.net
-
