@@ -1,9 +1,20 @@
 {
   "plugins": ["react"],
-  "extends": ["eslint:recommended", "plugin:react/recommended", "airbnb"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "airbnb",
+    "prettier"
+  ],
   "rules": {
     "react/prop-types": 0,
     "react/jsx-props-no-spreading": 0,
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+  },
+  "globals": {
+    "fetch": false
+  },
+  "env": {
+    "browser": true
   }
 }

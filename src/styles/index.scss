@@ -1,10 +1,10 @@
 // This is where your application styles could go.
 
-@import "homepage";
-@import "feature-card-group";
+@import 'homepage';
+@import 'feature-card-group';
 
-@import "../components/ComponentList/component-list.scss";
-@import "../components/ComponentGallery/component-gallery.scss";
+@import '../components/ComponentList/component-list.scss';
+@import '../components/ComponentGallery/component-gallery.scss';
 
 i {
   font-style: italic;
@@ -62,11 +62,11 @@ td > code {
 .page-table__container {
   overflow-x: auto;
 
-  @include carbon--breakpoint("md") {
+  @include carbon--breakpoint('md') {
     overflow-x: initial;
   }
 }
 
-.bx--side-nav__submenu[aria-expanded="true"] + .bx--side-nav__menu {
+.bx--side-nav__submenu[aria-expanded='true'] + .bx--side-nav__menu {
   max-height: none;
 }
