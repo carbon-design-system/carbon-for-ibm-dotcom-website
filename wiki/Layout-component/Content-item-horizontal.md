@@ -81,7 +81,7 @@ The media here is can be an [[Image with caption]] or a [[Video]].
 | `3.0.4` | `feature`   | Media takes full width of component to grab attention.                                                 |           |
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
-> See [[Image with media]] and [[Video]] for more details.
+> See [[Image with caption]] and [[Video]] for more details.
 
 <br />
 
