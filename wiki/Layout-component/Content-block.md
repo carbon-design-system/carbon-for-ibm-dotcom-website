@@ -139,7 +139,7 @@ towards the component's main content.
 
 `built-in` `component`
 
-If rendered the [[Layout]] component helps lay the main content and the Aside
+If rendered, the [[Layout]] utility helps lay the main content and the Aside
 <sup>[[5](#5-aside)]</sup> container next to each other properly within the [[Carbon 2x grid]].
 
 ###### Properties and values

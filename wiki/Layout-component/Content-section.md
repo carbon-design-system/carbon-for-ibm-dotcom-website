@@ -102,7 +102,7 @@ content.
 An optional container area that child components, and other content types can be
 passed into.
 
-> _When nesting children use with the [[Layout]] component's `8-4` and nested
+> _When nesting children use with the [[Layout]] utility's `8-4` and nested
 > option set to `true` for proper alignment to the [[Carbon 2x grid]]._
 
 ###### Example

@@ -606,7 +606,7 @@ this should rarely happen.
 - Decorators
 - Component
 - UI component
-- Layout component
+- Layout utility
 - Service
 - Utility
 - Core
