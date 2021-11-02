@@ -50,9 +50,9 @@ Embeds the video player on the page where adopter chooses.
 
 |         | name    | description                                                       |
 | :------ | :------ | :---------------------------------------------------------------- |
-| `1.3.1` | `play`  | Records event in Google analytics (GA) when video starts playing. |
-| `1.3.2` | `pause` | Records event in GA when video is paused.                         |
-| `1.3.3` | `end`   | Records event in GA when video is over.                           |
+| `1.2.1` | `play`  | Records event in Google analytics (GA) when video starts playing. |
+| `1.2.2` | `pause` | Records event in GA when video is paused.                         |
+| `1.2.3` | `end`   | Records event in GA when video is over.                           |
 
 <br />[Back to top](#wiki-wrapper)<br /><br /><br />
 
@@ -65,7 +65,7 @@ Allows the adopter to get the raw video data from the Kaltura API
 
 |         | name      | description                                       |
 | :------ | :-------- | :------------------------------------------------ |
-| `3.1.1` | `videoId` | The Kaltura <sup>[r1](#resources)</sup> video id. |
+| `2.1.1` | `videoId` | The Kaltura <sup>[r1](#resources)</sup> video id. |
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
 > See Kaltura API <sup>[r1](#resources)</sup> for more information on what data
