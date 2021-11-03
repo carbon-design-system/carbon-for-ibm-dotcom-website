@@ -1,9 +1,9 @@
 `core` <!-- category start --><!-- category end -->
 
 The [[Video]] component utilizes the embeddable Kaltura player
-<sup>[[r2](#resources)]</sup> to play video either on page or in [[Lightbox media viewer]].
-Video allows custom override of all content returned by the [[Video service]]
-except video duration.
+<sup>[r2](#resources)</sup> to play video either on page or in
+[[Lightbox media viewer]]. Video allows custom override of all content returned
+by the [[Video service]] except video duration.
 
 ![video-inline](https://images.zenhubusercontent.com/5be09c3a6102900c6d16d991/f12785fc-4133-4ac0-a959-4c5fb2fdfa0b)
 
@@ -17,7 +17,7 @@ except video duration.
 - [[Video service]]
 - [[Lightbox media viewer]]
 - [[Image]]
-- Kaltura player <sup>[[r2](#resources)]</sup>
+- Kaltura player <sup>[r2](#resources)</sup>
 
 <br />
 </details>
@@ -69,10 +69,10 @@ _{{backlinks auto populates}}_
 
 ###### Logic
 
-|       | Condition             | Description                                                                                         |
-| :---- | :-------------------- | :-------------------------------------------------------------------------------------------------- |
-| `2.1` | `undefined (default)` | Poster [[Image]] <sup>[[2](#2-poster-image)]</sup> prefilled by [[Video service]]'s provided image. |
-| `2.1` | [[Image]]             | Adding a custom Poster [[Image]] <sup>[[2](#2-poster-image)]</sup> overrides the API call.          |
+|       | Condition             | Description                                                                                       |
+| :---- | :-------------------- | :------------------------------------------------------------------------------------------------ |
+| `2.1` | `undefined (default)` | Poster [[Image]] <sup>[2](#2-poster-image)</sup> prefilled by [[Video service]]'s provided image. |
+| `2.1` | [[Image]]             | Adding a custom Poster [[Image]] <sup>[2](#2-poster-image)</sup> overrides the API call.          |
 
 ###### Events
 
@@ -82,10 +82,10 @@ _{{backlinks auto populates}}_
 
 ###### Properties & values
 
-|       | Name           | Description                                                                                                                                                                  |
-| :---- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `2.4` | `playing-mode` | `Inline (default)` replaces Poster [[Image]] <sup>[[2](#2-poster-image)]</sup>.<br /> `Lightbox` opens [[Lightbox media viewer]] <sup>[[3](#3-lightbox-media-viewer)]</sup>. |
-| `2.5` | `aspect-ratio` | `16x9 (default)`, `9x16`, `2x1`, `1x2`, `4x3`, `3x4`, `1x1`                                                                                                                  |
+|       | Name           | Description                                                                                                                                                              |
+| :---- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `2.4` | `playing-mode` | `Inline (default)` replaces Poster [[Image]] <sup>[2](#2-poster-image)</sup>.<br /> `Lightbox` opens [[Lightbox media viewer]] <sup>[3](#3-lightbox-media-viewer)</sup>. |
+| `2.5` | `aspect-ratio` | `16x9 (default)`, `9x16`, `2x1`, `1x2`, `4x3`, `3x4`, `1x1`                                                                                                              |
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
 > See [[Image]] for more information.

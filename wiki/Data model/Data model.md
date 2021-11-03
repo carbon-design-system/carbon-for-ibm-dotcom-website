@@ -48,17 +48,17 @@ _{{backlinks auto populates}}_
 
 ### 1. Data model
 
-| data           | type                                    |
-| :------------- | :-------------------------------------- |
-| `image`        | [[Image]]                               |
-| `svg`          | SVG <sup>[[2](#2-svg-data-model)]</sup> |
-| `eyebrow`      | `String`                                |
-| `heading`      | `Object`                                |
-| `heading.type` | `String`                                |
-| `heading.copy` | `String`                                |
-| `copy`         | [[Markdown utility]]                    |
-| `children`     | `Object`                                |
-| `cta`          | [[CTA]]                                 |
+| data           | type                                  |
+| :------------- | :------------------------------------ |
+| `image`        | [[Image]]                             |
+| `svg`          | SVG <sup>[2](#2-svg-data-model)</sup> |
+| `eyebrow`      | `String`                              |
+| `heading`      | `Object`                              |
+| `heading.type` | `String`                              |
+| `heading.copy` | `String`                              |
+| `copy`         | [[Markdown utility]]                  |
+| `children`     | `Object`                              |
+| `cta`          | [[CTA]]                               |
 
 <br />[Back to top](#wiki-wrapper)<br /><br /><br />
 
