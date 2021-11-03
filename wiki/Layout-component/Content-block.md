@@ -126,10 +126,10 @@ towards the component's main content.
 
 ###### Logic
 
-|       | condition         | description                                                                                                      |
-| :---- | :---------------- | :--------------------------------------------------------------------------------------------------------------- |
-| `5.1` | `aside === true`  | If aside is true and contains children then [[Layout]] <sup>[[5.3](#53-layout)]</sup> is used to wrap content.   |
-| `5.2` | `aside === false` | If the aside is not provided or missing children than [[Layout]] <sup>[[5.3](#53-layout)]</sup> is NOT included. |
+|       | condition         | description                                                                                                    |
+| :---- | :---------------- | :------------------------------------------------------------------------------------------------------------- |
+| `5.1` | `aside === true`  | If aside is true and contains children then [[Layout]] <sup>[5.3](#53-layout)</sup> is used to wrap content.   |
+| `5.2` | `aside === false` | If the aside is not provided or missing children than [[Layout]] <sup>[5.3](#53-layout)</sup> is NOT included. |
 
 ###### Example
 
@@ -139,8 +139,9 @@ towards the component's main content.
 
 `built-in` `component`
 
-If rendered the [[Layout]] component helps lay the main content and the Aside
-<sup>[[5](#5-aside)]</sup> container next to each other properly within the [[Carbon 2x grid]].
+If rendered, the [[Layout]] utility helps lay the main content and the Aside
+<sup>[5](#5-aside)</sup> container next to each other properly within the
+[[Carbon 2x grid]].
 
 ###### Properties and values
 
