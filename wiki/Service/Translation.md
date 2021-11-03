@@ -12,8 +12,8 @@ library on things like the [[Masthead]] and [[Footer]].
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
 - [[Locale]]
-- Region list API <sup>[[r2](#resources)]</sup>
-- Translation data API <sup>[[r3](#resources)]</sup>
+- Region list API <sup>[r2](#resources)</sup>
+- Translation data API <sup>[r3](#resources)</sup>
 
 <br />
 </details>
@@ -41,4 +41,4 @@ library on things like the [[Masthead]] and [[Footer]].
 <br />
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
-> See box folder <sup>[[r1](#resources)]</sup> for more details
+> See box folder <sup>[r1](#resources)</sup> for more details

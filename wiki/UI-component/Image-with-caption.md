@@ -51,15 +51,15 @@ _{{backlinks auto populates}}_
 
 ###### Events
 
-|         | event              | description                                                                                                                      |
-| :------ | :----------------- | :------------------------------------------------------------------------------------------------------------------------------- |
-| `1.0.1` | `onClick && 4.0.2` | Launches the [[Lightbox media viewer]] <sup>[[4](#4-lightbox-media-viewer)]</sup> if enabled. The whole image area is clickable. |
+|         | event              | description                                                                                                                    |
+| :------ | :----------------- | :----------------------------------------------------------------------------------------------------------------------------- |
+| `1.0.1` | `onClick && 4.0.2` | Launches the [[Lightbox media viewer]] <sup>[4](#4-lightbox-media-viewer)</sup> if enabled. The whole image area is clickable. |
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
 > See [[Image]] for more details
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
-> See design specs <sup>[[r1](#resources)]</sup> for visual states
+> See design specs <sup>[r1](#resources)</sup> for visual states
 
 <br />[Back to top](#wiki-wrapper)<br /><br /><br />
 
@@ -71,16 +71,16 @@ A short descriptive text that lives below the image.
 
 ###### Logic
 
-|         | condition | description                                                                                                 |
-| :------ | :-------- | :---------------------------------------------------------------------------------------------------------- |
-| `2.0.1` | `4.0.2`   | String of text is passed to [[Lightbox media viewer]]'s' <sup>[[4](#4-lightbox-media-viewer)]</sup> heading |
+|         | condition | description                                                                                               |
+| :------ | :-------- | :-------------------------------------------------------------------------------------------------------- |
+| `2.0.1` | `4.0.2`   | String of text is passed to [[Lightbox media viewer]]'s' <sup>[4](#4-lightbox-media-viewer)</sup> heading |
 
 <br />[Back to top](#wiki-wrapper)<br /><br /><br />
 
 ### 3. Button icon
 
 The button icon is displayed only if the [[Lightbox media viewer]]
-<sup>[[4](#4-lightbox-media-viewer)]</sup> is enabled to help communicate to the
+<sup>[4](#4-lightbox-media-viewer)</sup> is enabled to help communicate to the
 user that they can view this image with more detail.
 
 ###### Logic
@@ -91,7 +91,7 @@ user that they can view this image with more detail.
 | `3.0.1` | `4.0.2`   | Button is displayed. |
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
-> See design specs <sup>[[r1](#resources)]</sup> for visual states
+> See design specs <sup>[r1](#resources)</sup> for visual states
 
 <br />
 
@@ -117,8 +117,8 @@ user that they can view this image with more detail.
 
 `component`
 
-The [[Image]] here mirrors the [[Image]] <sup>[[1](#1-image)]</sup> component
-from above.
+The [[Image]] here mirrors the [[Image]] <sup>[1](#1-image)</sup> component from
+above.
 
 <br />
 
@@ -126,7 +126,7 @@ from above.
 
 `string`
 
-This string of text mirrors the Caption <sup>[[2](#2-caption)]</sup> content
+This string of text mirrors the Caption <sup>[2](#2-caption)</sup> content
 outlined above.
 
 <br />
