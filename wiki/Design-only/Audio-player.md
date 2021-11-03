@@ -43,4 +43,4 @@ _{{backlinks auto populates}}_
 <br />
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
-> See box folder <sup>[[r1](#resources)]</sup> for more details
+> See box folder <sup>[r1](#resources)</sup> for more details

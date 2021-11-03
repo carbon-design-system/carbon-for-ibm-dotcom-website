@@ -13,7 +13,7 @@ various breakpoints standardizing the image data model.
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- `<picture>` <sup>[[r2](#resources)]</sup>
+- `<picture>` <sup>[r2](#resources)</sup>
 
 <br />
 </details>

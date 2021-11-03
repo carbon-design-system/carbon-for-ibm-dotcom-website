@@ -1,8 +1,8 @@
 `Core` <!-- category start --><!-- category end -->
 
 The Locale service manages calls to the Region list API
-<sup>[[r2](#resources)]</sup> providing helpful methods to set and get the
-user’s current location for translation services.
+<sup>[r2](#resources)</sup> providing helpful methods to set and get the user’s
+current location for translation services.
 
 <hr width="40%" />
 
@@ -11,7 +11,7 @@ user’s current location for translation services.
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[Region list API]] <sup>[[r2](#resources)]</sup>
+- [[Region list API]] <sup>[r2](#resources)</sup>
 
 <br />
 </details>
@@ -36,4 +36,4 @@ user’s current location for translation services.
 <br />
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
-> See box folder <sup>[[r1](#resources)]</sup> for more details
+> See box folder <sup>[r1](#resources)</sup> for more details

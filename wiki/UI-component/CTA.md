@@ -55,7 +55,7 @@ _{{backlinks auto populates}}_
 
 The [[CTA]] is made up of various types that add a consistent
 functionality/behavior and iconography across the different styles
-<sup>[[2](#2-style)]</sup> of [[CTA]]s.
+<sup>[2](#2-style)</sup> of [[CTA]]s.
 
 <br />
 
@@ -155,7 +155,7 @@ the browser.
 
 The [[CTA]] component wraps a number of our components to allow for different
 looks and hierarchy depending on the scenario and context. Each style gets the
-above types <sup>[[1](#1-type)]</sup> that allows them to share functionality.
+above types <sup>[1](#1-type)</sup> that allows them to share functionality.
 
 <br />
 
