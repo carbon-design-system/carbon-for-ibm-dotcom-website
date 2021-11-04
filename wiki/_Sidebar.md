@@ -1,5 +1,4 @@
 - [[Home]]
-- [[Resources]]
 
 ## Website guidelines
 

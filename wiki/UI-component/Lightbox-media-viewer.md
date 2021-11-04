@@ -63,10 +63,10 @@ _{{backlinks auto populates}}_
 
 `required` `component`
 
-The [[Expressive modal]] wraps the Viewer
-<sup>[[2](#2-viewer)]</sup> or [[Carousel]] <sup>[[3](#3-carousel)]</sup>
-content to be viewed, dims the background, and ultimately launches the
-experience based on a user's interaction.
+The [[Expressive modal]] wraps the Viewer <sup>[2](#2-viewer)</sup> or
+[[Carousel]] <sup>[3](#3-carousel)</sup> content to be viewed, dims the
+background, and ultimately launches the experience based on a user's
+interaction.
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
 > See [[Expressive modal]] for more information
@@ -80,7 +80,7 @@ presents a large piece of media to be viewed with supporting `heading` and
 `copy` to provide the user with more information about what they are looking at.
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
-> See design specs <sup>[[r1](#resources)]</sup> for more information
+> See design specs <sup>[r1](#resources)</sup> for more information
 
 <br />
 
@@ -128,19 +128,19 @@ Renders an [[Image]] or [[Video]] depending on what the adopters passes.
 `optional` `string`
 
 This section outlines how the combined content of `heading`
-<sup>[[2.2](#22-heading)]</sup>, and `copy` <sup>[[2.3](#23-copy)]</sup> behave
+<sup>[2.2](#22-heading)</sup>, and `copy` <sup>[2.3](#23-copy)</sup> behave
 together.
 
 ###### Logic
 
-|         | Condition                                                    | Description                                                                                                                                         |
-| :------ | :----------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `2.4.1` | `y-overflow`                                                 | If content exceeds the height of the viewer area then handle the overflow of content with scrolling and a gradient above and below.                 |
-| `2.4.3` | `y-overflow` `sm`                                            | No overflow needed at the small breakpoint if [[Carousel]] <sup>[[3](#3-carousel)]</sup> isn't being used                                           |
-| `2.4.2` | `y-overflow` `sm` [[Carousel]] <sup>[[3](#3-carousel)]</sup> | If [[Carousel]] <sup>[[3](#3-carousel)]</sup> is included at the smallest breakpoint then the above <sup>[2.4.1]</sup> overflow is still in effect. |
+|         | Condition                                                  | Description                                                                                                                                       |
+| :------ | :--------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `2.4.1` | `y-overflow`                                               | If content exceeds the height of the viewer area then handle the overflow of content with scrolling and a gradient above and below.               |
+| `2.4.3` | `y-overflow` `sm`                                          | No overflow needed at the small breakpoint if [[Carousel]] <sup>[3](#3-carousel)</sup> isn't being used                                           |
+| `2.4.2` | `y-overflow` `sm` [[Carousel]] <sup>[3](#3-carousel)</sup> | If [[Carousel]] <sup>[3](#3-carousel)</sup> is included at the smallest breakpoint then the above <sup>[2.4.1]</sup> overflow is still in effect. |
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
-> See design specs <sup>[[r1](#resources)]</sup> for more information
+> See design specs <sup>[r1](#resources)</sup> for more information
 
 <br />[Back to top](#wiki-wrapper)<br /><br /><br />
 
@@ -153,10 +153,10 @@ one or more pieces of media content.
 
 ###### Logic
 
-|       | Condition                                         | Description                                                                                  |
-| :---- | :------------------------------------------------ | :------------------------------------------------------------------------------------------- |
-| `3.1` | `2` or more `media` <sup>[[2.1](#21-media)]</sup> | Carousel renders wrapping multiple `viewer` <sup>[[2](#2-viewer)]</sup> to navigate through. |
-| `3.2` | `1` or less `media` <sup>[[2.1](#21-media)]</sup> | Carousel does not render.                                                                    |
+|       | Condition                                       | Description                                                                                |
+| :---- | :---------------------------------------------- | :----------------------------------------------------------------------------------------- |
+| `3.1` | `2` or more `media` <sup>[2.1](#21-media)</sup> | Carousel renders wrapping multiple `viewer` <sup>[2](#2-viewer)</sup> to navigate through. |
+| `3.2` | `1` or less `media` <sup>[2.1](#21-media)</sup> | Carousel does not render.                                                                  |
 
 ###### Example
 

@@ -73,15 +73,15 @@ The media here is can be an [[Image with caption]] or a [[Video]].
 
 ###### Alignment modifiers
 
-|         | values      | description                                                                                              |           |
-| :------ | :---------- | :------------------------------------------------------------------------------------------------------- | :-------- |
-| `3.0.1` | `right`     | Aligns the media right, and content left.                                                                | `default` |
-| `3.0.2` | `left`      | Aligns media left, and content right.                                                                    |           |
-| `3.0.3` | `thumbnail` | Sets the smaller size image off to the side. Hides any caption, and eyebrow <sup>[[1](#1-eyebrow)]</sup> |           |
-| `3.0.4` | `feature`   | Media takes full width of component to grab attention.                                                   |           |
+|         | values      | description                                                                                            |           |
+| :------ | :---------- | :----------------------------------------------------------------------------------------------------- | :-------- |
+| `3.0.1` | `right`     | Aligns the media right, and content left.                                                              | `default` |
+| `3.0.2` | `left`      | Aligns media left, and content right.                                                                  |           |
+| `3.0.3` | `thumbnail` | Sets the smaller size image off to the side. Hides any caption, and eyebrow <sup>[1](#1-eyebrow)</sup> |           |
+| `3.0.4` | `feature`   | Media takes full width of component to grab attention.                                                 |           |
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
-> See [[Image with media]] and [[Video]] for more details.
+> See [[Image with caption]] and [[Video]] for more details.
 
 <br />
 

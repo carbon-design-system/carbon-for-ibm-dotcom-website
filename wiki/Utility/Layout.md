@@ -1,7 +1,7 @@
 `Core` <!-- category start --><!-- category end -->
 
 The Layout core component helps us to layout our different components with a
-more standard approach using Carbon’s 2x grid <sup>[[r2](#resources)]</sup> and
+more standard approach using Carbon’s 2x grid <sup>[r2](#resources)</sup> and
 pre-approved layout types.
 
 <hr width="40%" />

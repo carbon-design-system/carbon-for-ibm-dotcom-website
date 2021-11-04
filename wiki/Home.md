@@ -16,10 +16,6 @@ for IBM.com. Production guideline,publishing process, tips & tricks, etc.
 
 <!-- categories start title="Index" type="titleContent" open="false" group="Publishing guidelines" --><!-- categories end -->
 
-## Design office hours
-
-<!-- categories start title="Index" type="titleContent" open="false" group="Design office hours" --><!-- categories end -->
-
 ## Functional specs
 
 <!-- categories start open="true" type="titleContent" group="Layout component, Service, UI component, Utility" --><!-- categories end -->
