@@ -27,7 +27,7 @@ function getImage(component) {
     componentImg = require('./images/coming_soon.svg');
   }
 
-  return componentImg;
+  return componentImg.default;
 }
 
 /**

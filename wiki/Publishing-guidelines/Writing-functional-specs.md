@@ -407,7 +407,7 @@ where they'll be able to see those types of details.
 | `1.0.2` | `future`  | Disable component's [[CTA]], and adjusts visuals |
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
-> See visual design specs <sup>[[r1](#resources)]</sup>
+> See visual design specs <sup>[r1](#resources)</sup>
 
 <br />
 </details><br /><br />
@@ -462,7 +462,7 @@ need to quickly indicate its scope for a dependency.
 | `1.0.2` | `...`  | ...                                                       |
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
-> See visual design specs <sup>[[r1](#resources)]</sup>
+> See visual design specs <sup>[r1](#resources)</sup>
 
 ---
 
@@ -475,7 +475,7 @@ need to quickly indicate its scope for a dependency.
 | `1.0.3` | `tall`            | Changes `size to `tall`, and adds `CTA`and`copy` option.           |
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
-> See visual design specs <sup>[[r1](#resources)]</sup>
+> See visual design specs <sup>[r1](#resources)</sup>
 
 <br />
 </details><br /><br />
@@ -526,13 +526,13 @@ trying to communicate. Just remember to prioritize the communication of it.
 A reference tag can point to another section on the page, or point out a
 resource number for the reader to check out what's related to the content.
 
-Example <sup>[[r1](#resources)]</sup>
+Example <sup>[r1](#resources)</sup>
 
 <details>
   <summary><strong>Code</strong></summary><br />
 
 ```html
-Example <sup>[[r1](#resources)]</sup>
+Example <sup>[r1](#resources)</sup>
 ```
 
 <br />
@@ -546,7 +546,7 @@ resources related directly to the content, pose questions on things maybe worth
 considering in the future, or call out concerns and roadblocks.
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
-> Check something out <sup>[[r1](#resources)]</sup>
+> Check something out <sup>[r1](#resources)</sup>
 
 <details>
   <summary><strong>Code</strong></summary><br />
@@ -554,7 +554,7 @@ considering in the future, or call out concerns and roadblocks.
 ```html
 >
 ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
-Check something out <sup>[[r1](#resources)]</sup>
+Check something out <sup>[r1](#resources)</sup>
 ```
 
 <br />
@@ -606,7 +606,7 @@ this should rarely happen.
 - Decorators
 - Component
 - UI component
-- Layout component
+- Layout utility
 - Service
 - Utility
 - Core
