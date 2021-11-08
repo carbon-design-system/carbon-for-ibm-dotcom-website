@@ -1,6 +1,6 @@
 `Core` <!-- category start --><!-- category end -->
 
-A [[Universal banner]] is the only component allowed to show up above ibm.com [[Masthead]], and should be used exclusively for global and critical announcements (e.g. THINK global event, COVID 19 messages etc).
+A [[Universal banner]] is the only component allowed to show up above the [[Masthead]], and should be used exclusively for global and critical announcements (e.g. THINK global event, COVID 19 messages etc).
 
 ![image](https://user-images.githubusercontent.com/3793636/140759323-201ebe94-7930-4201-addb-7de87504d330.png)
 
