@@ -77,7 +77,7 @@ provides the component with a high level overview of its content.
 
 |       | props             | description                                        |
 | :---- | :---------------- | :------------------------------------------------- |
-| `2.1` | `*italic*`        | The italic option should be included.              |
+| `2.1` | `*italic*`        | The _italic_ option should be included.            |
 | `2.2` | `<p>new line</p>` | The new line paragraph feature should be included. |
 
 > ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
