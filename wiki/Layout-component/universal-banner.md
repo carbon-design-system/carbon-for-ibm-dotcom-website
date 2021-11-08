@@ -135,10 +135,10 @@ An optional [[CTA]] that helps navigate users to more information about this not
 
 ###### Logic
 
-|         | condition          | description                        |
-| :------ | :----------------- | :--------------------------------- |
-| `4.0.3` | `@sm` `@md`, `@lg` | `CTA` style is `text`              |
-| `4.0.4` | `@xlg` `@max`      | `CTA` style is `button` `tertiary` |
+|         | condition           | description                        |
+| :------ | :------------------ | :--------------------------------- |
+| `4.0.3` | `@sm` `@md`         | `CTA` style is `text`              |
+| `4.0.4` | `@lg` `@xlg` `@max` | `CTA` style is `button` `tertiary` |
 
 > ![callout](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
 > See [[CTA]] for more information.
