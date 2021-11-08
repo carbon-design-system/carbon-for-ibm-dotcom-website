@@ -53,6 +53,7 @@ _{{backlinks auto populates}}_
 |         | condition         | description                                                                                    |
 | :------ | :---------------- | :--------------------------------------------------------------------------------------------- |
 | `0.0.1` | content overflows | If the content extends beyond the component's fixed height than the content should be cut off. |
+| `0.0.2` | `@sm`             | Entire banner becomes clickable.                                                               |
 
 <br /><br />
 
@@ -105,10 +106,11 @@ An optional String of text formatted using [[Markdown utility]] with a limited s
 
 > All other options should be ignored.
 
-|       | props      | description                             |
-| :---- | :--------- | :-------------------------------------- |
-| `2.1` | `*italic*` | The _italic_ option should be included. |
-| `2.2` | `**bold**` | The **bold** option should be included. |
+|         | props             | description                                        |
+| :------ | :---------------- | :------------------------------------------------- |
+| `3.0.1` | `*italic*`        | The _italic_ option should be included.            |
+| `3.0.2` | `**bold**`        | The **bold** option should be included.            |
+| `3.0.3` | `<p>new line</p>` | The new line paragraph feature should be included. |
 
 > ![callout](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
 > See [[Markdown utility]] for more information.
