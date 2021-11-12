@@ -76,7 +76,7 @@ An optional [[Image]] component at various sizes.
 | `1.1.2` | `lg` | 8 columns   |           |
 
 > ![callout](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
-> See [[Image]], [[Video]], and [[Lightbox media viewer]] for more information.
+> See [[Image]] for more information.
 
 <!--    | `1.1.3` | `sm`        | 2 columns |     |
 | `1.1.4` | `xsm`   | 1 column    |           | -->
