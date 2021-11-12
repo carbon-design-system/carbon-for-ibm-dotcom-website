@@ -1,9 +1,9 @@
 - title: About Carbon for IBM.com
   pages:
-    - title: About
+    - title: About us
       path: /about-carbon-for-ibm.com/about
-    - title: What we provide
-      path: /about-carbon-for-ibm.com/what-we-provide
+    - title: Adopting the system
+      path: /about-carbon-for-ibm.com/adopting
 - title: What’s happening
   pages:
     - title: Expressive styles in Carbon
