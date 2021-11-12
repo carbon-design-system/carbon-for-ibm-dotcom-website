@@ -16,7 +16,6 @@ A [[Universal banner]] is the only component allowed to show up above the [[Mast
 
 - [[Image]]
 - [[CTA]]
-- [[Lightbox media viewer]]
 - [[Markdown utility]]
 
 <br />
@@ -57,18 +56,17 @@ _{{backlinks auto populates}}_
 
 <br /><br />
 
-### 1. Media
+### 1. Image
 
 `optional` `component`
 
-An optional media element that can include either an [[Image]] or a [[Video]] at various sizes.
+An optional [[Image]] component at various sizes.
 
 ###### Logic
 
-|         | condition            | description                                                                      |
-| :------ | :------------------- | :------------------------------------------------------------------------------- |
-| `1.0.1` | `@sm` `@md`          | Media is hidden                                                                  |
-| `1.0.2` | `onClick` && `video` | If the user clicks a video, than play the video in the [[Lightbox media viewer]] |
+|         | condition   | description         |
+| :------ | :---------- | :------------------ |
+| `1.0.1` | `@sm` `@md` | [[Image]] is hidden |
 
 ###### Sizes
 
@@ -135,10 +133,10 @@ An optional [[CTA]] that helps navigate users to more information about this not
 
 ###### Logic
 
-|         | condition           | description                        |
-| :------ | :------------------ | :--------------------------------- |
-| `4.0.3` | `@sm` `@md`         | `CTA` style is `text`              |
-| `4.0.4` | `@lg` `@xlg` `@max` | `CTA` style is `button` `tertiary` |
+|         | condition                 | description                        |
+| :------ | :------------------------ | :--------------------------------- |
+| `4.0.3` | `@sm`                     | `CTA` style is `text`              |
+| `4.0.4` | `@md` `@lg` `@xlg` `@max` | `CTA` style is `button` `tertiary` |
 
 > ![callout](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
 > See [[CTA]] for more information.
