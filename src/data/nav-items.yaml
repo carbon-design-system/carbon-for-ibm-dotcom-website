@@ -55,6 +55,8 @@
       path: /guidelines/right-to-left
     - title: Spacing
       path: /guidelines/spacing
+    - title: Sticky behavior
+      path: /guidelines/sticky-behavior
     - title: Style models
       path: /guidelines/style-models/overview
 

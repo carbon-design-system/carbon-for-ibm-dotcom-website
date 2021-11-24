@@ -1,0 +1,124 @@
+---
+title: Sticky behavior
+description: Components with sticky behavior that improve the user experience are necessary actions for the user to take. The guidance here helps adopters to identify when to use this behavior based on best practices.
+---
+
+<PageDescription>
+
+Components using a sticky behavior to improve the user experience should be necessary actions for the user to take. The guidance here helps adopters to identify when to use this behavior based on best practices.
+
+</PageDescription>
+
+<AnchorLinks>
+
+<AnchorLink>Persistent vs contextual</AnchorLink>
+<AnchorLink>Before getting started</AnchorLink>
+<AnchorLink>Requirements & considerations</AnchorLink>
+<AnchorLink>Accessibility</AnchorLink>
+<AnchorLink>Considering going sticky?</AnchorLink>
+<AnchorLink>Additional resources</AnchorLink>
+
+</AnchorLinks>
+
+## Designing for sticky moments
+
+Pages often have information that needs to be easily accessible to the user at any moment as they scroll down a page. Components leveraging our sticky behavior guidance helps fix that crucial actionable item in a consistent location no matter where the user is while on the page.
+
+### Persistent vs contextual
+
+There are basically two types of sticky behaviors to choose from. **Persistent** sticky behaviors that make up our [Dotcom shell](/components/dotcom-shell) and are always present and reserved for global actions. **Contextual** sticky behavior is more apart of the page and in context to a specific section of content. Contextual is good for important content like a price and plan name within a pricing table, in page navigation like our [Table of contents horizontal](/components/table-of-contents#vertical-with-heading-content), or even delightful interactions as the user scrolls.
+
+### Before getting started
+
+Before getting started you have to understand a couple things to help make the appropriate decision. Like understanding the current landspace, or even when, and when not to use them. Below are things to keep in mind as you get started.
+
+#### Current landscape
+
+It's important to understand the current landscape of components, and how they behave before diving in. Here is a list of components that use sticky behavior.
+
+- [Masthead](/components/masthead)
+- [Back to top](/components/back-to-top)
+- [Expressive modal](/components/expressive-modal)
+- [Lightbox media viewer](/components/lightbox-media-viewer)
+- [Leadspace with search](/components/lead-space-search)
+- [Modal](https://www.carbondesignsystem.com/components/modal/usage/)
+- Feedback _(not maintained by Carbon)_
+- Let's talk _(not maintained by Carbon)_
+
+#### Consistent location
+
+Can the component be repeated at strategic locations throughout the page, or does is have to be in a fixed position where the user always knows where it is at? For example the masthead helps users understand where they are within the IBM.com experience as a whole.
+
+#### Long page
+
+Is the page so long that it's difficult to scroll to either the top or bottom where the main call to action might be? Like a checkout button, and price changes to their cart within the checkout experience.
+
+#### Worth reducing sales
+
+Studies have shown that basic sticky components can be confused for ads, and actually reduce sales by at least 1% per each sticky component.
+
+#### Surface area
+
+Too many sticky components can really polute the page making it hard for the user to interact with the regular content on the page. We recommend less than 30% of the page be covered by sticky elements. This is more important as you design for smaller devices with smaller surface areas.
+
+### Requirements & considerations
+
+When introducing a new sticky component it's very important to understand the relationship with the other existing sticky components. They need to be able to exist with, enter and exit on cue just like a well oiled machine.
+
+#### Reserved locations
+
+Our persistent sticky components that make up the [Dotcom shell](/components/dotcom-shell) have pre-existing areas where sticky elements can live. For example the top of the page is reserved for the masthead and additional navigational items. The right side of the screen is reserved for secondary actions like support and feedback.
+
+#### Top sticky behavior
+
+The top of the page that holds the [masthead](/components/masthead) and other important components for page navigation should never exceed `48px` as it scrolls down the page. This is to reduce its size, and allow for more area on the page for the user as they are actively reading and interacting with the page. If the user is scrolling up we allow this area to increase to `96px` since they are either trying to get back or exit the page.
+
+The way this works with multiple levels of navigation is that the lowest navigational family like the table of contents gets that prime `48px` realistate. As the user scrolls up the next level of navigation can scroll into view providing a little more context.
+
+[demo visuals of this relationship and trading of spaces]
+
+#### Bottom right behavior **\***
+
+The secondary area for persistent sticky components is aligned to the right of the screen, and aligned bottom. This is because our content is aligned left, and this area provides the least amount of overlap of content. Components like our [back to top](/components/back-to-top) component lives in this space. As new items are added they become stacked. These are no wider than `48px`. Shouldn't contain more than 3/4? (do we have a point of view here? Probably should have one if not...). RTL this area flips to the other side of the screen.
+
+[demo of this visually]
+
+#### No sticky zones
+
+Some areas on the page should avoid any sticky behavior overlapping them. For instance the [footer](/components/footer) should never have any component on top of it. Masthead, navigational items, and other sticky elements should become static and scroll with the rest of the page before it reaches the footer. As the user scrolls back up and there is room to provide these sticky components they can become fixated again.
+
+[demo how this works]
+
+In addition to the footer, it goes without saying that stiky elements, especially within the shell should not overlap with each other.
+
+#### Consider partial stickiness \*\*\*\*
+
+Not everything has to be sticky at one time  
+consider making elements sticky depending on certain actions, or moments (partial stickiness) static until a certain moment, hidden if scrolling in a certain direction.
+
+#### Shrinking viewport **\***
+
+Viewport size should be considered reduced when sticky elements are present  
+This allows for in page anchors to go down the page, and not be hidden by other elements.
+
+#### high contrast \*\*\*\*
+
+Elements should consider types of backgrounds they are on, and still stand out.
+
+#### overflow \*\*\*\*
+
+When sticky a component is removed from the current page flow and does not scroll with the page. If content is cut off then there is no way to scroll to reveal that content. Here are some methods...  
+Ping ponging, Inner scrolling, cutting off
+
+### Accessibility
+
+Tabbing with sticky components  
+Focused items in view
+
+### Considering going sticky?
+
+Consult the Carbon for IBM.com team before adding to the current polution.
+
+## Additional resources
+
+Link to 2x grid influencers in particular
