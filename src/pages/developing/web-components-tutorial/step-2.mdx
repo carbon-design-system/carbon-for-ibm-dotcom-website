@@ -25,6 +25,7 @@ in the page. In this step, we’ll become comfortable with various Carbon for IB
 <AnchorLink>Add Leadspace with Search</AnchorLink>
 <AnchorLink>Add Table of contents - horizontal</AnchorLink>
 <AnchorLink>Add Card section offset</AnchorLink>
+<AnchorLink>Add CTA section with linked list</AnchorLink>
 <AnchorLink>Submit pull request</AnchorLink>
 
 </AnchorLinks>
@@ -57,6 +58,12 @@ With your repository all set up, let's check out the branch for this tutorial st
 git fetch upstream
 git checkout -b web-components-step-2 upstream/web-components-step-2
 ```
+
+<InlineNotification>
+  **Note:** This builds on top of step 1, but be sure to check out the upstream
+  step 2 branch because it includes the static assets required to get through
+  this step.
+</InlineNotification>
 
 ## Component documentation
 
@@ -151,6 +158,107 @@ You should see the `Table of contents` with one item listed. Each item in the `T
 with a unique `name` and title of the item as`data-title.` That's it!
 
 ## Add Card section offset
+
+Now within the `Table of contents`, we'll set up the `Card section offset` component. This component requires image assets that are provided
+in the `src/assets/images` folder.
+
+Import the following in `app.js`:
+
+```javascript path=src/assets/js/app.js
+import '@carbon/ibmdotcom-web-components/es/components/card-section-offset/index.js';
+```
+
+Then replace the following within the `Table of contents`:
+
+<!-- prettier-ignore-start -->
+```html path=src/index.html
+    <a name="1" data-title="First Item"></a>
+    <h1>I am the first item in the table of contents</h1>
+```
+<!-- prettier-ignore-end -->
+
+With the `Card section offset`, noting the anchor element precedding that is included for the `Table of contents`:
+
+<!-- prettier-ignore-start -->
+```html path=src/index.html
+<a name="1" data-title="Main benefits of analytics"></a>
+<dds-card-section-offset>
+  <dds-background-media
+    gradient-direction="left-to-right"
+    mobile-position="top"
+    alt="alt text"
+    default-src="./assets/images/card-section-offset.jpg">
+    <dds-image-item
+      media="(min-width: 620px)"
+      srcset="./assets/images/card-section-offset.jpg">
+    </dds-image-item>
+    <dds-image-item
+      media="(max-width: 619px)"
+      srcset="./assets/images/card-section-offset--sm.jpg">
+    </dds-image-item>
+  </dds-background-media>
+  <dds-content-block-heading slot="heading"
+    >A quick look at the main benefits of
+    analytics
+  </dds-content-block-heading
+    >
+  <dds-text-cta
+    slot="action"
+    cta-type="local"
+    icon-placement="right"
+    href="https://example.com">
+    See the full range of benefits
+  </dds-text-cta>
+  <dds-card-group slot="card-group" cards-per-row="2">
+    <dds-card-group-item empty></dds-card-group-item>
+    <dds-card-group-item cta-type="local" href="https://example.com">
+      <dds-card-eyebrow>Collaboration</dds-card-eyebrow>
+      <dds-card-heading
+        >Connect teams across functions</dds-card-heading
+        >
+      <p>
+        Collaborate in teams across functions to access all trusted data
+        and best-in- class technologies.
+      </p>
+      <dds-card-cta-footer slot="footer"> </dds-card-cta-footer>
+    </dds-card-group-item>
+    <dds-card-group-item cta-type="local" href="https://example.com">
+      <dds-card-eyebrow>Innovation</dds-card-eyebrow>
+      <dds-card-heading
+        >Discover new insights from data</dds-card-heading
+        >
+      <p>
+        Use multiple analytics technologies to learn from data and
+        quickly get new answers for your business.
+      </p>
+      <dds-card-cta-footer slot="footer"> </dds-card-cta-footer>
+    </dds-card-group-item>
+    <dds-card-group-item cta-type="local" href="https://example.com">
+      <dds-card-eyebrow>Fast delivery</dds-card-eyebrow>
+      <dds-card-heading
+        >Accelerate delivery of insights</dds-card-heading
+        >
+      <p>
+        Deliver new insights to your business quickly, and continuously
+        improve them through rapid iteration.
+      </p>
+      <dds-card-cta-footer slot="footer"> </dds-card-cta-footer>
+    </dds-card-group-item>
+  </dds-card-group>
+</dds-card-section-offset>
+```
+<!-- prettier-ignore-end -->
+
+Nice! You now have the `Card section offset` set up! Note that the `Card section offset` utilizes various smaller components
+such as `Background media`, `Card`, `Card Group`, etc which have their own set of properties that can be tweaked. Check out the
+Storybook Docs for them for more information!
+
+## Add CTA section with linked list
+
+With the `CTA section` component in particular, we'll be setting up theming that can be applied to a certain component,
+entire sections, or a page.
+
+Great job in setting these components up! In step 3, you'll learn how to build Content block components within the page.
 
 ## Submit pull request
 
