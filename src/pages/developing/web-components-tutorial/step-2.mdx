@@ -88,7 +88,7 @@ First let's incorporate `Leadspace with search` in our page. This can be done in
 Import the following into `app.js`:
 
 ```javascript path=src/assets/js/app.js
-import '@carbon/ibmdotcom-web-components/es/components/dotcom-shell/index.js';
+import '@carbon/ibmdotcom-web-components/es/components/leadspace-with-search/index.js';
 ```
 
 Next, add the following code (which you can find in the `Leadspace with search` [Storybook Docs](https://www.ibm.com/standards/carbon/web-components/?path=/docs/components-lead-space-search--default)) within the `<dds-dotcom-shell-container>` tags in `index.html`:
@@ -120,7 +120,7 @@ Next, add the following code (which you can find in the `Leadspace with search` 
 <!-- prettier-ignore-end -->
 
 Nice! You have just added the `Leadspace with search` component to the page! But wait...the color of the component doesn't match the design.
-Looking at the props table in the documentation, there is a `adjacent-theme` property we can pass to the component to adjust the theme.
+Looking at the props table in the Storybook documentation, there is an `adjacent-theme` property we can pass to the component to adjust the theme.
 
 Let's do that by setting `adjacent-theme="g90-and-g100"` in `dds-leadspace-with-search`:
 
@@ -136,7 +136,7 @@ Now `Leadspace with search` should display the proper theme. Great job! Let's mo
 
 `Table of contents` is a great component to structure the page. We'll be using the horizontal variation in this step.
 
-Let's added the import to the `app.js` file:
+Let's add the import to the `app.js` file:
 
 ```javascript path=src/assets/js/app.js
 import '@carbon/ibmdotcom-web-components/es/components/table-of-contents/index.js';
@@ -181,7 +181,7 @@ With the `Card section offset`, noting the anchor element precedding that is inc
 
 <!-- prettier-ignore-start -->
 ```html path=src/index.html
-<a name="1" data-title="Main benefits of analytics"></a>
+<a name="3" data-title="Main benefits of analytics"></a>
 <dds-card-section-offset>
   <dds-background-media
     gradient-direction="left-to-right"
@@ -275,7 +275,7 @@ to add the preceding anchor element:
 
 <!-- prettier-ignore-start -->
 ```html path=src/index.html
-<a name="2" data-title="Engage an expert"></a>
+<a name="5" data-title="Engage an expert"></a>
 <div class="dark-theme">
   <dds-cta-section>
     <dds-content-section-heading slot="heading"
