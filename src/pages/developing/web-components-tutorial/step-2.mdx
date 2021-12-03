@@ -260,8 +260,6 @@ entire sections, or a page. To incorporate the g100 theme to our component, we'l
 [theme overview](https://www.carbondesignsystem.com/guidelines/themes/overview/) page. This class, `.dark-theme` can then be used to wrap several components or sections of the page.
 
 ```css path=src/assets/scss/app.scss
-@import '@carbon/themes/scss/themes';
-
 .dark-theme {
   @include carbon--theme($carbon--theme--g100, true);
 
@@ -270,8 +268,14 @@ entire sections, or a page. To incorporate the g100 theme to our component, we'l
 }
 ```
 
-Then create a `<div>` element to wrap our `CTA section` component. This component is also going to be within the `Table of contents` so remember
+Notice the `'@carbon/themes/scss/themes'` import in the app.scss file, that is where we're pulling the carbon theming tokens from!
+
+Then create a `<div>` element with the `.dark-theme` class to wrap our `CTA section` component. This component is also going to be within the `Table of contents` so remember
 to add the preceding anchor element:
+
+```javascript path=src/assets/js/app.js
+import '@carbon/ibmdotcom-web-components/es/components/cta-section/index.js';
+```
 
 <!-- prettier-ignore-start -->
 ```html path=src/index.html
