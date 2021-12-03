@@ -25,7 +25,7 @@ in the page. In this step, we’ll become comfortable with various Carbon for IB
 <AnchorLink>Add Leadspace with Search</AnchorLink>
 <AnchorLink>Add Table of contents - horizontal</AnchorLink>
 <AnchorLink>Add Card section offset</AnchorLink>
-<AnchorLink>Add CTA section with linked list</AnchorLink>
+<AnchorLink>Add CTA section with link list</AnchorLink>
 <AnchorLink>Submit pull request</AnchorLink>
 
 </AnchorLinks>
@@ -70,7 +70,7 @@ git checkout -b web-components-step-2 upstream/web-components-step-2
 In this step, you'll be adding 4 new components to the page; [Leadspace with search](https://www.ibm.com/standards/carbon/web-components/?path=/story/components-lead-space-search--default),
 [Table of contents - horizontal](https://www.ibm.com/standards/carbon/web-components/?path=/story/components-table-of-contents--horizontal),
 [Card section offset](https://www.ibm.com/standards/carbon/web-components/?path=/story/components-card-section-offset--default), and
-[CTA section with linked list](https://www.ibm.com/standards/carbon/web-components/?path=/story/components-cta-section--with-link-list). All components have
+[CTA section with link list](https://www.ibm.com/standards/carbon/web-components/?path=/story/components-cta-section--with-link-list). All components have
 implementation details in the linked Storybook Docs tab. The Docs tab has a link to the codesandbox example of each component, props table to showcase different variations possible, and other
 key information. This is a great place to look back to if you're ever stuck.
 
@@ -253,10 +253,149 @@ Nice! You now have the `Card section offset` set up! Note that the `Card section
 such as `Background media`, `Card`, `Card Group`, etc which have their own set of properties that can be tweaked. Check out the
 Storybook Docs for them for more information!
 
-## Add CTA section with linked list
+## Add CTA section with link list
 
 With the `CTA section` component in particular, we'll be setting up theming that can be applied to a certain component,
-entire sections, or a page.
+entire sections, or a page. To incorporate the g100 theme to our component, we'll create a class in our `app.scss` file and wrap it around our `CTA section`. For more details you can go to Carbon's
+[theme overview](https://www.carbondesignsystem.com/guidelines/themes/overview/) page. This class, `.dark-theme` can then be used to wrap several components or sections of the page.
+
+```css path=src/assets/scss/app.scss
+@import '@carbon/themes/scss/themes';
+
+.dark-theme {
+  @include carbon--theme($carbon--theme--g100, true);
+
+  background-color: var(--cds-ui-background);
+  color: var(--cds-text-01);
+}
+```
+
+Then create a `<div>` element to wrap our `CTA section` component. This component is also going to be within the `Table of contents` so remember
+to add the preceding anchor element:
+
+<!-- prettier-ignore-start -->
+```html path=src/index.html
+<a name="2" data-title="Engage an expert"></a>
+<div class="dark-theme">
+  <dds-cta-section>
+    <dds-content-section-heading slot="heading"
+      >Take the next step</dds-content-section-heading
+      >
+    <dds-cta-block no-border>
+      <dds-content-block-heading
+        >Engage an expert</dds-content-block-heading
+        >
+      <dds-content-block-copy
+        >Schedule a one-on-one, no-cost consultation with experts to
+        accelerate your integration of analytics services.
+      </dds-content-block-copy>
+      <dds-text-cta
+        slot="action"
+        cta-type="local"
+        icon-placement="right"
+        href="example.com"
+        >Book a consultation</dds-text-cta
+        >
+      <dds-link-list slot="link-list" type="end">
+        <dds-link-list-heading
+          >More ways to explore IBM analytics services
+        </dds-link-list-heading>
+        <dds-link-list-item href="https://example.com">
+          Events
+          <svg
+            slot="icon"
+            focusable="false"
+            preserveAspectRatio="xMidYMid meet"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            width="20"
+            height="20"
+            viewBox="0 0 20 20">
+            <path
+              d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+          </svg>
+        </dds-link-list-item>
+        <dds-link-list-item href="https://example.com">
+          Blogs
+          <svg
+            slot="icon"
+            focusable="false"
+            preserveAspectRatio="xMidYMid meet"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            width="20"
+            height="20"
+            viewBox="0 0 20 20">
+            <path
+              d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+          </svg>
+        </dds-link-list-item>
+        <dds-link-list-item href="https://example.com">
+          Training
+          <svg
+            slot="icon"
+            focusable="false"
+            preserveAspectRatio="xMidYMid meet"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            width="20"
+            height="20"
+            viewBox="0 0 20 20">
+            <path
+              d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+          </svg>
+        </dds-link-list-item>
+        <dds-link-list-item href="https://example.com">
+          Developer resources
+          <svg
+            slot="icon"
+            focusable="false"
+            preserveAspectRatio="xMidYMid meet"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            width="20"
+            height="20"
+            viewBox="0 0 20 20">
+            <path
+              d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+          </svg>
+        </dds-link-list-item>
+        <dds-link-list-item href="https://example.com">
+          Research
+          <svg
+            slot="icon"
+            focusable="false"
+            preserveAspectRatio="xMidYMid meet"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            width="20"
+            height="20"
+            viewBox="0 0 20 20">
+            <path
+              d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+          </svg>
+        </dds-link-list-item>
+        <dds-link-list-item href="https://example.com">
+          News
+          <svg
+            slot="icon"
+            focusable="false"
+            preserveAspectRatio="xMidYMid meet"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            width="20"
+            height="20"
+            viewBox="0 0 20 20">
+            <path
+              d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+          </svg>
+        </dds-link-list-item>
+      </dds-link-list>
+    </dds-cta-block>
+  </dds-cta-section>
+</div>
+```
+<!-- prettier-ignore-end -->
 
 Great job in setting these components up! In step 3, you'll learn how to build Content block components within the page.
 
