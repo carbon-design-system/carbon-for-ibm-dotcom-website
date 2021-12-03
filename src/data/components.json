@@ -1195,7 +1195,7 @@
     },
     "Content item horizontal": {
       "url": "./content-item-horizontal",
-      "designLink": "https://ibm.box.com/s/911wx1w694l21iazjcw9powshyxmk0du",
+      "designLink": "https://ibm.box.com/s/yiv7f37ktudwx1do7d9mp4bak17wl4dh",
       "description": "Content item horizontal component displays information in a horizontal orientation.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-item-horizontal--default",
