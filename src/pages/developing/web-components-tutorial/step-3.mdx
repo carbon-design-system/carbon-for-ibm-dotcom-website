@@ -125,7 +125,7 @@ We will wrap `Content section` around `Content block`:
       <dds-content-block>
         <dds-content-block-heading>Always make smarter decisions with Analytics</dds-content-block-heading>
         <dds-content-block-copy>Analytics services on the IBM Cloud can be deployed in the cloud, on premises or in a hybrid environment. IBM Cloud solutions, featuring embedded intelligence capabilities through machine learning (ML), enable you to easily analyze the data and build ML models that can be deployed in cognitive applications. Combine these services to reveal insights.</dds-content-block-copy>
-        // content-block children
+        <!-- content-block children -->
       </dds-content-block>
     </dds-content-section>
 ```
@@ -133,19 +133,19 @@ We will wrap `Content section` around `Content block`:
 
 Great! Now you should see the basic setup with some copy for a `Content block` within a `Content section`.
 
-Now we will replace our `// content-block children` comment and add a `Content group` child component to `Content block`.
+Now we will replace our `<!-- content-block children -->` comment and add a `Content group` child component to `Content block`.
 
 <!-- prettier-ignore-start -->
 ```html path=src/index.html
     <dds-content-group>
       <dds-content-group-heading>Analytics services</dds-content-group-heading>
       <dds-content-group-copy>Work together in a simpler way to find new and unexpected insights quickly and deliver business-changing results with state-of-the-art services.</dds-content-group-copy>
-      // content-group children
+      <!-- content-group children -->
     </dds-content-group>
 ```
 <!-- prettier-ignore-end -->
 
-Lastly, we will replace the `// content-group children` comment with a `Card group` child component.
+Lastly, we will replace the `<!-- content-group children -->` comment with a `Card group` child component.
 
 <!-- prettier-ignore-start -->
 ```html path=src/index.html
@@ -213,12 +213,12 @@ This should end up like this:
       <dds-content-section-heading>Success stories</dds-content-section-heading>
       <dds-content-block>
         <dds-content-block-heading>Customer story: Emory University Hospital</dds-content-block-heading>
-        // card-in-card child
+        <!-- card-in-card child -->
         <dds-content-group>
           <dds-content-group-heading>More customer stories</dds-content-group-heading>
-          // content-group children
+          <!-- content-group children -->
         </dds-content-group>
-        // CTA
+        <!-- CTA -->
       </dds-content-block>
     </dds-content-section>
 ```
@@ -318,9 +318,9 @@ after the Main benefits of analytics `Card section offset` section:
         <dds-content-group>
           <dds-content-group-heading>IBM Analytics Engine features</dds-content-group-heading>
           <dds-content-group-copy>A single Hadoop and Spark service providing an environment to develop and deploy advanced analytics applications in minutes.</dds-content-group-copy>
-          // content-group children
+          <!-- content-group children -->
         </dds-content-group>
-        // aside link-list
+        <!-- aside link-list -->
       </dds-content-block>
     </dds-content-section>
 ```
@@ -328,7 +328,7 @@ after the Main benefits of analytics `Card section offset` section:
 
 Let's start by adding the aside element to `Content block`.
 
-Replace the `// aside link-list` and use the `complementary` slot in `Link list`:
+Replace the `<!-- aside link-list -->` and use the `complementary` slot in `Link list`:
 
 ```html path=src/index.html
 <dds-link-list type="default" slot="complementary">
