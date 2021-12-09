@@ -12,7 +12,7 @@ import { Link } from 'gatsby';
 
 <PageDescription>
 
-Now that we have completed building a page using our many of our components, it's time to try out using some
+Now that we have completed building a page using many of our components, it's time to try out using some
 pure Carbon components within our page, and learn how to use their custom events to our advantage.
 
 </PageDescription>
@@ -20,7 +20,7 @@ pure Carbon components within our page, and learn how to use their custom events
 <AnchorLinks>
 
 <AnchorLink>Fork, clone, and branch</AnchorLink>
-<AnchorLink>Add Tag group and Carbon Tag</AnchorLink>
+<AnchorLink>Add Tag group and Tag</AnchorLink>
 <AnchorLink>Add Content block</AnchorLink>
 <AnchorLink>Add Tabs</AnchorLink>
 <AnchorLink>Add Data table</AnchorLink>
@@ -38,7 +38,7 @@ A [preview]() of what you'll build:
 
 <Preview
   height="400"
-  title="Carbon for IBM.com Tutorial Step 4"
+  title="Carbon for IBM.com tutorial step 4"
   src="https://carbon-design-system.github.io/carbon-for-ibm-dotcom-tutorial/step-5/"
   frameborder="no"
   allowtransparency="true"
@@ -64,18 +64,18 @@ git checkout -b web-components-step-4 upstream/web-components-step-4
 <InlineNotification>
 
 **Note:** This builds on top of step 3, but be sure to check out the upstream step 4 branch because it includes some of the
-components required to get through this step.
+components required to complete this step.
 
 </InlineNotification>
 
 ## Component documentation
 
-In this step, you'll be adding to the page 6 pure Carbon components to the page.
-These components will be showcased at the bottom using the `Tabs` components, to give you a brief look at how they would look in a page.
+In this step, you'll be adding six pure Carbon components to the page.
+These components will be showcased at the bottom using the `Tabs` components, so that you can see how they would look in a page.
 
-The following components that will be used in step 4 are:
+The following Carbon components that will be used in step 4 are:
 
-- [Carbon tag](https://web-components.carbondesignsystem.com/?path=/story/components-tag--default)
+- [Tag](https://web-components.carbondesignsystem.com/?path=/story/components-tag--default)
 - [Tag group](https://ibmdotcom-web-components-canary.mybluemix.net/?path=/story/components-tag-group--default)
 - [Tabs](https://web-components.carbondesignsystem.com/?path=/story/components-tabs--default)
 - [Data table](https://web-components.carbondesignsystem.com/?path=/story/components-data-table--default)
@@ -83,10 +83,10 @@ The following components that will be used in step 4 are:
 - [Radio button](https://web-components.carbondesignsystem.com/?path=/story/components-radio-button--default)
 - [Structured list](https://web-components.carbondesignsystem.com/?path=/story/components-structured-list--default)
 
-All the components have implementation details in the linked Storybook Docs tab. The Docs tab has a link to the codesandbox example of each component, props table to showcase different variations possible, and other
+All the components have implementation details in the linked Storybook Docs tab. The Docs tab has a link to the codesandbox example of each component, props table to showcase possible variations, and other
 key information. This is a great place to look back to if you're ever stuck.
 
-For more background on how `Card` uses Carbon `Tag`, checkout the info
+For more background on how `Card` uses Carbon `Tag`, check out the guidance
 on our website <Link to="/components/cards">here</Link>.
 
 ## Add Tag group and Carbon Tag
@@ -94,7 +94,7 @@ on our website <Link to="/components/cards">here</Link>.
 While many of our components are already built using Carbon, we can still incorporate some of these into our Carbon for IBM.com components.
 
 As a practice run, let's try adding a Carbon `Tag` component into one of our `Card group item` components that we added in Step 3.
-We will also be adding a slotted `Tag group` component within to house the `Tag`s inside the `Card`.
+We will also be adding a slotted `Tag group` component to house the `Tag`s inside the `Card`.
 
 First, let's add the following import to our `app.js` file:
 
@@ -109,8 +109,8 @@ so there's no need to manually import it.
 
 </InlineNotification>
 
-With the imported included, we can now build the `Tag Group` component, adding two `Tag` components within.
-The default color for the `Tag` is green, but we can make the second `Tag` become purple using the `type` attribute.
+With the import included, we can now build the `Tag group` component, adding two `Tag` components within it.
+The default color for the `Tag` is green, but we can make the second `Tag` purple using the `type` attribute.
 
 <!-- prettier-ignore-start -->
 ```html path=src/index.html
@@ -179,7 +179,7 @@ by replacing the `<!-- tag-group -->`:
 ```
 <!-- prettier-ignore-end -->
 
-Great! You just added your first Carbon component into your page.
+Great! You just added your first Carbon component to your page.
 Now that we're over the first hurdle, let's add a couple more to showcase at the bottom of the page.
 
 ## Add Content block
@@ -204,8 +204,8 @@ as we've done in the previous step.
 ## Add Tabs
 
 You're getting the hang of it!
-Now, let's add the `Tabs` component, which will contain four tab buttons that will make it so the user
-can switch between the remaining four components we will add in the next couple steps.
+Now, let's add the `Tabs` component, which will contain four tab buttons that will allow the user
+to switch between the remaining four components we'll be adding in the next couple of steps.
 
 As always, add the correct import for the component in your `app.js` file:
 
@@ -230,10 +230,10 @@ Then, add the component markup in your file:
 <!-- prettier-ignore-end -->
 
 As you probably noted, we will have to add an additional `div` right after the `Tabs` component to ensure the
-tabbing functionality works as expected. The attribute seen in each `Tab` component are also necessary
-for the tab-switching logic to work, so it's important to name them appropiately.
+tabbing functionality works as expected. The attributes seen in each `Tab` component are also necessary
+for the tab-switching logic to work, so it's important to name them appropriately.
 
-The `bx--tab-panels` class can be added in your stylesheet to accomodate a small space between components within the tab space.
+The `bx--tab-panels` class can be added in your style sheet to accommodate a small space between components within the tab space.
 
 ```css path=src/assets/scss/app.scss
 .bx--tab-panels {
@@ -303,18 +303,18 @@ from the according `Tab` component, and wrap it around the `Table` component.
 ```
 <!-- prettier-ignore-end -->
 
-Looking good! We will now add two interactive components
+Looking good! We will now add two interactive components.
 
 ## Add Dropdown and Radio buttons
 
-We'll be importing `Radio button` this time -- `Dropdown` has already been included as part of the `Footer`,
+We'll be importing `Radio button` this time. `Dropdown` has already been included as part of the `Footer`,
 so there's no need to explicitly import it again.
 
 ```javascript path=src/assets/js/app.js
 import 'carbon-web-components/es/components/radio-button/index';
 ```
 
-As with `Data table`, we need to wrap around the components with their proper `id` accordingly.
+As with `Data table`, we need to wrap the components with their proper `id` accordingly.
 Note that we're also adding an extra `div` wrapper to include specific classes to ensure the
 components are centered within the Tab container.
 
@@ -348,7 +348,7 @@ Currently, nothing happens when interacting with these components, but we'll com
 
 ## Add Structured list
 
-Last but not least, we'll be adding `Structured list` following the same method we've been doing.
+Last but not least, we'll be adding `Structured list` following the same method.
 
 Let's import the final component:
 
@@ -389,8 +389,8 @@ import 'carbon-web-components/es/components/radio-button/index';
 ```
 <!-- prettier-ignore-end -->
 
-And thus, you have just added the final component.
-Good job, give yourself a pat in the back!
+Congratulations, you have just added the final component.
+Good job, give yourself a pat on the back!
 
 Just one more activity before we can proceed to Step 5.
 
@@ -400,10 +400,10 @@ If you looked into the Carbon Web Components Storybook for the components we use
 happening in the `Actions` menu after interacting with the components. These are known as events, and for this section
 we will be capturing one and make something happen within our page.
 
-Looking at the components' documentation, the events' names are `bx-dropdown-selected` and `bx-radio-button-group-changed`
+Looking at the component documentation, the event names are `bx-dropdown-selected` and `bx-radio-button-group-changed`
 for the `Dropdown` and `Radio button` components, respectively.
 
-We will be using these events to change the page's theme to the selected option.
+We will be using these events to change the page theme to the selected option.
 
 For that to happen, we will set up the classes containing the remaining themes, as well as slightly refactor
 our `.dark-theme` class we created in Step 2.
@@ -430,7 +430,7 @@ our `.dark-theme` class we created in Step 2.
 Notice the last selector, which will ensure the rules using our color tokens are used in all classes ending in `-theme` to
 avoid repeated code. As our components are already using the `White` theme by default, we don't need to create a class for it.
 
-Now that we have these classes set up in our stylesheet, let's add a `script` element at the bottom of our `index.html` file:
+Now that we have these classes set up in our style sheet, let's add a `script` element at the bottom of our `index.html` file:
 
 <!-- prettier-ignore-start -->
 ```html path=src/index.html
@@ -454,7 +454,7 @@ It will then add the class to the `body` element, which will ensure the whole pa
 
 ...and voila! We just used Carbon components to our advantage by adding a small but cool feature!
 
-The possibilities are endless with custom events, feel free to play around with them some more!
+The possibilities are endless with custom events, feel free to play around with them some more.
 
 ## Submit pull request
 
