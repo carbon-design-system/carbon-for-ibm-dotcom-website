@@ -20,7 +20,14 @@ pure Carbon components within our page, and learn how to use their custom events
 <AnchorLinks>
 
 <AnchorLink>Fork, clone, and branch</AnchorLink>
-<AnchorLink>TBD</AnchorLink>
+<AnchorLink>Add Tag group and Carbon Tag</AnchorLink>
+<AnchorLink>Add Content block</AnchorLink>
+<AnchorLink>Add Tabs</AnchorLink>
+<AnchorLink>Add Data table</AnchorLink>
+<AnchorLink>Add Tabs</AnchorLink>
+<AnchorLink>Add Dropdown and Radio buttons</AnchorLink>
+<AnchorLink>Add Structured list</AnchorLink>
+<AnchorLink>Capture custom events</AnchorLink>
 <AnchorLink>Submit pull request</AnchorLink>
 
 </AnchorLinks>
@@ -32,7 +39,7 @@ A [preview]() of what you'll build:
 <Preview
   height="400"
   title="Carbon for IBM.com Tutorial Step 4"
-  src="https://carbon-design-system.github.io/carbon-for-ibm-dotcom-tutorial/step-4/"
+  src="https://carbon-design-system.github.io/carbon-for-ibm-dotcom-tutorial/step-5/"
   frameborder="no"
   allowtransparency="true"
   allowfullscreen="true"
@@ -56,8 +63,8 @@ git checkout -b web-components-step-4 upstream/web-components-step-4
 
 <InlineNotification>
 
-**Note:** This builds on top of step 3, but be sure to check out the upstream step 4 branch because it includes the
-static assets required to get through this step.
+**Note:** This builds on top of step 3, but be sure to check out the upstream step 4 branch because it includes some of the
+components required to get through this step.
 
 </InlineNotification>
 
@@ -82,7 +89,7 @@ key information. This is a great place to look back to if you're ever stuck.
 For more background on how `Card` uses Carbon `Tag`, checkout the info
 on our website <Link to="/components/cards">here</Link>.
 
-## Add Tag Group and Carbon Tag
+## Add Tag group and Carbon Tag
 
 While many of our components are already built using Carbon, we can still incorporate some of these into our Carbon for IBM.com components.
 
@@ -127,7 +134,7 @@ Next, let's take a quick look at the `Card group` component we added in Step 3:
         <dds-image slot="image" alt="Image alt text" default-src="./assets/images/WC-tutorial-example--client-story-card1.jpg"></dds-image>
         <dds-card-eyebrow>IBM Watson Discovery</dds-card-eyebrow>
         <dds-card-heading>Citi Bank transforms internal audit practice</dds-card-heading>
-        // tag-group
+        <!-- tag group here -->
         <dds-card-cta-footer cta-type='local'>
         </dds-card-cta-footer>
       </dds-card-group-item>
@@ -150,7 +157,7 @@ Next, let's take a quick look at the `Card group` component we added in Step 3:
 <!-- prettier-ignore-end -->
 
 Let's focus on adding `Tag group` to the first `Card group item`
-by replacing the `// tag-group`:
+by replacing the `<!-- tag-group -->`:
 
 <!-- prettier-ignore-start -->
 ```html path=src/index.html
@@ -182,13 +189,13 @@ as we've done in the previous step.
 
 <!-- prettier-ignore-start -->
 ```html path=src/index.html
-      <a name="5" data-title="Carbon components"></a>
+      <a name="6" data-title="Carbon components"></a>
       <dds-content-section>
         <dds-content-section-heading>Carbon components</dds-content-section-heading>
           <dds-content-block>
             <dds-content-block-heading>What is Carbon?</dds-content-block-heading>
             <dds-content-block-copy>Carbon is IBM’s open source design system for products and digital experiences. With the IBM Design Language as its foundation, the system consists of working code, design tools and resources, human interface guidelines, and a vibrant community of contributors.</dds-content-block-copy>
-            // Tabs and content here
+            <!-- Tabs and content here -->
         </dds-content-block>
       </dds-content-section>
 ```
@@ -217,7 +224,7 @@ Then, add the component markup in your file:
       <bx-tab id="radio-buttons" target="panel-radio-buttons" value="radio-buttons">Radio buttons</bx-tab>
     </bx-tabs>
     <div class='bx--tab-panels'>
-      // add individual tab divs here
+      <!-- add individual tab divs here -->
     </div>
 ```
 <!-- prettier-ignore-end -->
@@ -420,8 +427,8 @@ our `.dark-theme` class we created in Step 2.
 }
 ```
 
-Notice the last selector, which will ensure the rules using our color tokens are used in all classes ending in `-theme`.
-As our components are already using the `White` theme by default, we don't need to create a class for it.
+Notice the last selector, which will ensure the rules using our color tokens are used in all classes ending in `-theme` to
+avoid repeated code. As our components are already using the `White` theme by default, we don't need to create a class for it.
 
 Now that we have these classes set up in our stylesheet, let's add a `script` element at the bottom of our `index.html` file:
 
