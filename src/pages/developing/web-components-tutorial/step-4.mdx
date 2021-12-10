@@ -1,5 +1,5 @@
 ---
-title: 4. TBD
+title: 4. Adding custom Carbon components
 description:
   Welcome to Carbon for IBM.com! This tutorial will guide you in creating an application with Carbon for IBM.com Web
   Components.
@@ -12,14 +12,22 @@ import { Link } from 'gatsby';
 
 <PageDescription>
 
-TBD
+Now that we have completed building a page using many of our components, it's time to try out using some
+pure Carbon components within our page, and learn how to use their custom events to our advantage.
 
 </PageDescription>
 
 <AnchorLinks>
 
 <AnchorLink>Fork, clone, and branch</AnchorLink>
-<AnchorLink>TBD</AnchorLink>
+<AnchorLink>Add Tag group and Tag</AnchorLink>
+<AnchorLink>Add Content block</AnchorLink>
+<AnchorLink>Add Tabs</AnchorLink>
+<AnchorLink>Add Data table</AnchorLink>
+<AnchorLink>Add Tabs</AnchorLink>
+<AnchorLink>Add Dropdown and Radio buttons</AnchorLink>
+<AnchorLink>Add Structured list</AnchorLink>
+<AnchorLink>Capture custom events</AnchorLink>
 <AnchorLink>Submit pull request</AnchorLink>
 
 </AnchorLinks>
@@ -30,12 +38,11 @@ A [preview]() of what you'll build:
 
 <Preview
   height="400"
-  title="Carbon for IBM.com Tutorial Step 4"
-  src=""
+  title="Carbon for IBM.com tutorial step 4"
+  src="https://carbon-design-system.github.io/carbon-for-ibm-dotcom-tutorial/step-5/"
   frameborder="no"
   allowtransparency="true"
   allowfullscreen="true"
-  className="bx--iframe bx--iframe--border"
 />
 
 ## Fork, clone, and branch
@@ -51,17 +58,403 @@ With your repository all set up, let's check out the branch for this tutorial st
 
 ```bash
 git fetch upstream
-git checkout -b web-components-step-2 upstream/web-components-step-2
+git checkout -b web-components-step-4 upstream/web-components-step-4
 ```
 
 <InlineNotification>
 
-**Note:** This builds on top of step 1, but be sure to check out the upstream step 2 branch because it includes the
-static assets required to get through this step.
+**Note:** This builds on top of step 3, but be sure to check out the upstream step 4 branch because it includes some of the
+components required to complete this step.
 
 </InlineNotification>
 
-TBD
+## Component documentation
+
+In this step, you'll be adding six pure Carbon components to the page.
+These components will be showcased at the bottom using the `Tabs` components, so that you can see how they would look in a page.
+
+The following Carbon components that will be used in step 4 are:
+
+- [Tag](https://web-components.carbondesignsystem.com/?path=/story/components-tag--default)
+- [Tag group](https://ibmdotcom-web-components-canary.mybluemix.net/?path=/story/components-tag-group--default)
+- [Tabs](https://web-components.carbondesignsystem.com/?path=/story/components-tabs--default)
+- [Data table](https://web-components.carbondesignsystem.com/?path=/story/components-data-table--default)
+- [Dropdown](https://web-components.carbondesignsystem.com/?path=/story/components-dropdown--default)
+- [Radio button](https://web-components.carbondesignsystem.com/?path=/story/components-radio-button--default)
+- [Structured list](https://web-components.carbondesignsystem.com/?path=/story/components-structured-list--default)
+
+All the components have implementation details in the linked Storybook Docs tab. The Docs tab has a link to the codesandbox example of each component, props table to showcase possible variations, and other
+key information. This is a great place to look back to if you're ever stuck.
+
+For more background on how `Card` uses Carbon `Tag`, check out the guidance
+on our website <Link to="/components/cards">here</Link>.
+
+## Add Tag group and Carbon Tag
+
+While many of our components are already built using Carbon, we can still incorporate some of these into our Carbon for IBM.com components.
+
+As a practice run, let's try adding a Carbon `Tag` component into one of our `Card group item` components that we added in Step 3.
+We will also be adding a slotted `Tag group` component to house the `Tag`s inside the `Card`.
+
+First, let's add the following import to our `app.js` file:
+
+```javascript path=src/assets/js/app.js
+import 'carbon-web-components/es/components/tag/tag';
+```
+
+<InlineNotification>
+
+**Note:** `<dds-card>` already imports the `<dds-tag-group` component on its own,
+so there's no need to manually import it.
+
+</InlineNotification>
+
+With the import included, we can now build the `Tag group` component, adding two `Tag` components within it.
+The default color for the `Tag` is green, but we can make the second `Tag` purple using the `type` attribute.
+
+<!-- prettier-ignore-start -->
+```html path=src/index.html
+    <dds-tag-group>
+      <bx-tag>
+        Most popular
+      </bx-tag>
+      <bx-tag type="purple">
+        Enterprise
+      </bx-tag>
+    </dds-tag-group>
+```
+<!-- prettier-ignore-end -->
+
+Next, let's take a quick look at the `Card group` component we added in Step 3:
+
+<!-- prettier-ignore-start -->
+```html path=src/index.html
+    <dds-card-group>
+      <dds-card-group-item cta-type='local' href='https://example.com'>
+        <dds-image slot="image" alt="Image alt text" default-src="./assets/images/WC-tutorial-example--client-story-card1.jpg"></dds-image>
+        <dds-card-eyebrow>IBM Watson Discovery</dds-card-eyebrow>
+        <dds-card-heading>Citi Bank transforms internal audit practice</dds-card-heading>
+        <!-- tag group here -->
+        <dds-card-cta-footer cta-type='local'>
+        </dds-card-cta-footer>
+      </dds-card-group-item>
+      <dds-card-group-item cta-type='local' href='https://example.com'>
+        <dds-image slot="image" alt="Image alt text" default-src="./assets/images/WC-tutorial-example--client-story-card2.jpg"></dds-image>
+        <dds-card-eyebrow>IBM Cloud Pak</dds-card-eyebrow>
+        <dds-card-heading>ING carries out data fabric vision</dds-card-heading>
+        <dds-card-cta-footer cta-type='local'>
+        </dds-card-cta-footer>
+      </dds-card-group-item>
+      <dds-card-group-item cta-type='local' href='https://example.com'>
+        <dds-image slot="image" alt="Image alt text" default-src="./assets/images/WC-tutorial-example--client-story-card3.jpg"></dds-image>
+        <dds-card-eyebrow>IBM Cloud Pak for Data</dds-card-eyebrow>
+        <dds-card-heading>Innocence tackles neonate mortality rates with AI</dds-card-heading>
+        <dds-card-cta-footer cta-type='local'>
+        </dds-card-cta-footer>
+      </dds-card-group-item>
+    </dds-card-group>
+```
+<!-- prettier-ignore-end -->
+
+Let's focus on adding `Tag group` to the first `Card group item`
+by replacing the `<!-- tag-group -->`:
+
+<!-- prettier-ignore-start -->
+```html path=src/index.html
+    <dds-card-group-item cta-type='local' href='https://example.com'>
+      <dds-image slot="image" alt="Image alt text" default-src="./assets/images/WC-tutorial-example--client-story-card1.jpg"></dds-image>
+      <dds-card-eyebrow>IBM Watson Discovery</dds-card-eyebrow>
+      <dds-card-heading>Citi Bank transforms internal audit practice</dds-card-heading>
+      <dds-tag-group>
+        <bx-tag>
+          Most popular
+        </bx-tag>
+        <bx-tag type="purple">
+          Enterprise
+        </bx-tag>
+      </dds-tag-group>
+      <dds-card-cta-footer cta-type='local'>
+      </dds-card-cta-footer>
+    </dds-card-group-item>
+```
+<!-- prettier-ignore-end -->
+
+Great! You just added your first Carbon component to your page.
+Now that we're over the first hurdle, let's add a couple more to showcase at the bottom of the page.
+
+## Add Content block
+
+To ensure the Carbon components align with the rest of the page, let's add `Content block` within a `Content section`
+as we've done in the previous step.
+
+<!-- prettier-ignore-start -->
+```html path=src/index.html
+      <a name="6" data-title="Carbon components"></a>
+      <dds-content-section>
+        <dds-content-section-heading>Carbon components</dds-content-section-heading>
+          <dds-content-block>
+            <dds-content-block-heading>What is Carbon?</dds-content-block-heading>
+            <dds-content-block-copy>Carbon is IBM’s open source design system for products and digital experiences. With the IBM Design Language as its foundation, the system consists of working code, design tools and resources, human interface guidelines, and a vibrant community of contributors.</dds-content-block-copy>
+            <!-- Tabs and content here -->
+        </dds-content-block>
+      </dds-content-section>
+```
+<!-- prettier-ignore-end -->
+
+## Add Tabs
+
+You're getting the hang of it!
+Now, let's add the `Tabs` component, which will contain four tab buttons that will allow the user
+to switch between the remaining four components we'll be adding in the next couple of steps.
+
+As always, add the correct import for the component in your `app.js` file:
+
+```javascript path=src/assets/js/app.js
+import 'carbon-web-components/es/components/tabs/index';
+```
+
+Then, add the component markup in your file:
+
+<!-- prettier-ignore-start -->
+```html path=src/index.html
+    <bx-tabs value="table">
+      <bx-tab id="table" target="panel-table" value="table">Data table</bx-tab>
+      <bx-tab id="list" target="panel-list" value="list">Structured ist</bx-tab>
+      <bx-tab id="dropdown" target="panel-dropdown" value="dropdown">Dropdown</bx-tab>
+      <bx-tab id="radio-buttons" target="panel-radio-buttons" value="radio-buttons">Radio buttons</bx-tab>
+    </bx-tabs>
+    <div class='bx--tab-panels'>
+      <!-- add individual tab divs here -->
+    </div>
+```
+<!-- prettier-ignore-end -->
+
+As you probably noted, we will have to add an additional `div` right after the `Tabs` component to ensure the
+tabbing functionality works as expected. The attributes seen in each `Tab` component are also necessary
+for the tab-switching logic to work, so it's important to name them appropriately.
+
+The `bx--tab-panels` class can be added in your style sheet to accommodate a small space between components within the tab space.
+
+```css path=src/assets/scss/app.scss
+.bx--tab-panels {
+  flex: 1;
+  padding: 1rem;
+  align-self: stretch;
+}
+```
+
+Nice job! Next up, adding the actual components!
+
+## Add Data table
+
+To give you an idea of how useful Carbon components can be in your page, we'll be adding a `Data table` component.
+
+Add the `Data table` import:
+
+```javascript path=src/assets/js/app.js
+import 'carbon-web-components/es/components/data-table/index';
+```
+
+As mentioned before, we'll have to add a `div` containing the `id` attribute with the same value as the `target` attribute
+from the according `Tab` component, and wrap it around the `Table` component.
+
+<!-- prettier-ignore-start -->
+```html path=src/index.html
+    <div id="panel-table" role="tabpanel" aria-labelledby="table">
+      <bx-table>
+        <bx-table-head>
+          <bx-table-header-row>
+            <bx-table-header-cell>Name</bx-table-header-cell>
+            <bx-table-header-cell>Protocol</bx-table-header-cell>
+            <bx-table-header-cell>Port</bx-table-header-cell>
+            <bx-table-header-cell>Rule</bx-table-header-cell>
+            <bx-table-header-cell>Attached Groups</bx-table-header-cell>
+            <bx-table-header-cell>Status</bx-table-header-cell>
+          </bx-table-header-row>
+        </bx-table-head>
+        <bx-table-body>
+          <bx-table-row>
+            <bx-table-cell>Load Balancer 1</bx-table-cell>
+            <bx-table-cell>HTTP</bx-table-cell>
+            <bx-table-cell>80</bx-table-cell>
+            <bx-table-cell>Round Robin</bx-table-cell>
+            <bx-table-cell>Maureen's VM Groups</bx-table-cell>
+            <bx-table-cell>Active</bx-table-cell>
+          </bx-table-row>         
+          <bx-table-row>
+            <bx-table-cell>Load Balancer 2</bx-table-cell>
+            <bx-table-cell>HTTP</bx-table-cell>
+            <bx-table-cell>80</bx-table-cell>
+            <bx-table-cell>Round Robin</bx-table-cell>
+            <bx-table-cell>Maureen's VM Groups</bx-table-cell>
+            <bx-table-cell>Active</bx-table-cell>
+          </bx-table-row>  
+          <bx-table-row>
+            <bx-table-cell>Load Balancer 3</bx-table-cell>
+            <bx-table-cell>HTTP</bx-table-cell>
+            <bx-table-cell>80</bx-table-cell>
+            <bx-table-cell>Round Robin</bx-table-cell>
+            <bx-table-cell>Maureen's VM Groups</bx-table-cell>
+            <bx-table-cell>Active</bx-table-cell>
+          </bx-table-row>   
+        </bx-table-body>
+      </bx-table>
+    </div>
+```
+<!-- prettier-ignore-end -->
+
+Looking good! We will now add two interactive components.
+
+## Add Dropdown and Radio buttons
+
+We'll be importing `Radio button` this time. `Dropdown` has already been included as part of the `Footer`,
+so there's no need to explicitly import it again.
+
+```javascript path=src/assets/js/app.js
+import 'carbon-web-components/es/components/radio-button/index';
+```
+
+As with `Data table`, we need to wrap the components with their proper `id` accordingly.
+Note that we're also adding an extra `div` wrapper to include specific classes to ensure the
+components are centered within the Tab container.
+
+<!-- prettier-ignore-start -->
+```html path=src/index.html
+    <div id="panel-dropdown" role="tabpanel" aria-labelledby="dropdown">
+      <div class="bx--col-lg-8 bx--offset-lg-4 bx--no-gutter">
+        <bx-dropdown trigger-content='Select theme'>
+          <bx-dropdown-item value='white-theme'>White theme</bx-dropdown-item>
+          <bx-dropdown-item value='g10-theme'>Gray 10 theme</bx-dropdown-item>
+          <bx-dropdown-item value='g90-theme'>Gray 90 theme</bx-dropdown-item>
+          <bx-dropdown-item value='dark-theme'>Dark theme</bx-dropdown-item>
+        </bx-dropdown>
+      </div>
+    </div>
+
+    <div id="panel-radio-buttons" role="tabpanel" aria-labelledby="radio-buttons">
+      <div class="bx--col-lg-10 bx--offset-lg-2 bx--no-gutter">
+        <bx-radio-button-group name='theme-changer'>
+          <bx-radio-button value='white-theme' label-text='White theme'></bx-radio-button>
+          <bx-radio-button value='g10-theme' label-text='Gray 10 theme'></bx-radio-button>
+          <bx-radio-button value='g90-theme' label-text='Gray 90 theme'></bx-radio-button>
+          <bx-radio-button value='dark-theme' label-text='Dark theme'></bx-radio-button>
+        </bx-radio-button-group>
+      </div>
+    </div>
+```
+<!-- prettier-ignore-end -->
+
+Currently, nothing happens when interacting with these components, but we'll come back to this later.
+
+## Add Structured list
+
+Last but not least, we'll be adding `Structured list` following the same method.
+
+Let's import the final component:
+
+```javascript path=src/assets/js/app.js
+import 'carbon-web-components/es/components/radio-button/index';
+```
+
+<!-- prettier-ignore-start -->
+```html path=src/index.html
+    <div id="panel-list" role="tabpanel" aria-labelledby="list">
+      <bx-structured-list>
+        <bx-structured-list-head>
+          <bx-structured-list-header-row>
+            <bx-structured-list-header-cell>Cell A</bx-structured-list-header-cell>
+            <bx-structured-list-header-cell>Cell B</bx-structured-list-header-cell>
+            <bx-structured-list-header-cell>Cell C</bx-structured-list-header-cell>
+          </bx-structured-list-header-row>
+        </bx-structured-list-head>
+        <bx-structured-list-body>
+          <bx-structured-list-row>
+            <bx-structured-list-cell>Row 1</bx-structured-list-cell>
+            <bx-structured-list-cell>Row 1</bx-structured-list-cell>
+            <bx-structured-list-cell>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dui magna, finibus id tortor sed, aliquet bibendum augue. Aenean posuere sem vel euismod dignissim.</bx-structured-list-cell>
+          </bx-structured-list-row>
+          <bx-structured-list-row>
+            <bx-structured-list-cell>Row 2</bx-structured-list-cell>
+            <bx-structured-list-cell>Row 2</bx-structured-list-cell>
+            <bx-structured-list-cell>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dui magna, finibus id tortor sed, aliquet bibendum augue. Aenean posuere sem vel euismod dignissim.</bx-structured-list-cell>
+          </bx-structured-list-row>
+          <bx-structured-list-row>
+            <bx-structured-list-cell>Row 3</bx-structured-list-cell>
+            <bx-structured-list-cell>Row 3</bx-structured-list-cell>
+            <bx-structured-list-cell>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dui magna, finibus id tortor sed, aliquet bibendum augue. Aenean posuere sem vel euismod dignissim.</bx-structured-list-cell>
+          </bx-structured-list-row>
+        </bx-structured-list-body>
+      </bx-structured-list>
+    </div>
+```
+<!-- prettier-ignore-end -->
+
+Congratulations, you have just added the final component.
+Good job, give yourself a pat on the back!
+
+Just one more activity before we can proceed to Step 5.
+
+## Capture custom events
+
+If you looked into the Carbon Web Components Storybook for the components we used, you might have had seen some activity
+happening in the `Actions` menu after interacting with the components. These are known as events, and for this section
+we will be capturing one and make something happen within our page.
+
+Looking at the component documentation, the event names are `bx-dropdown-selected` and `bx-radio-button-group-changed`
+for the `Dropdown` and `Radio button` components, respectively.
+
+We will be using these events to change the page theme to the selected option.
+
+For that to happen, we will set up the classes containing the remaining themes, as well as slightly refactor
+our `.dark-theme` class we created in Step 2.
+
+```css path=src/assets/scss/app.scss
+.g10-theme {
+  @include carbon--theme($carbon--theme--g10, true);
+}
+
+.g90-theme {
+  @include carbon--theme($carbon--theme--g90, true);
+}
+
+.dark-theme {
+  @include carbon--theme($carbon--theme--g100, true);
+}
+
+*[class$='-theme'] {
+  background-color: var(--cds-ui-background);
+  color: var(--cds-text-01);
+}
+```
+
+Notice the last selector, which will ensure the rules using our color tokens are used in all classes ending in `-theme` to
+avoid repeated code. As our components are already using the `White` theme by default, we don't need to create a class for it.
+
+Now that we have these classes set up in our style sheet, let's add a `script` element at the bottom of our `index.html` file:
+
+<!-- prettier-ignore-start -->
+```html path=src/index.html
+   <style>
+    function changeTheme(event) {
+      const { value } = event.detail.item || event.detail;
+      document.body.classList.value = value;
+    }
+    
+    document.addEventListener('bx-dropdown-selected', changeTheme)
+    document.addEventListener('bx-radio-button-group-changed', changeTheme)
+   </style>
+```
+<!-- prettier-ignore-end -->
+
+This JavaScript code will add an event listener to the document, which will capture both events when fired.
+Once captured, the `changeTheme` function will run, and will grab the value of the selected item, which we
+aptly named after our classes.
+
+It will then add the class to the `body` element, which will ensure the whole page's theme changes accordingly.
+
+...and voila! We just used Carbon components to our advantage by adding a small but cool feature!
+
+The possibilities are endless with custom events, feel free to play around with them some more.
 
 ## Submit pull request
 
@@ -90,13 +483,13 @@ yarn ci-check
 Before we can create a pull request, stage and commit all of your changes:
 
 ```bash
-git add --all && git commit -m "feat(tutorial): complete step 2"
+git add --all && git commit -m "feat(tutorial): complete step 4"
 ```
 
 Then, push to your repository:
 
 ```bash
-git push origin web-components-step-2
+git push origin web-components-step-4
 ```
 
 <InlineNotification>
