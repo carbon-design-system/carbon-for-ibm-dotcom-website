@@ -1,5 +1,5 @@
 ---
-title: 5. TBD
+title: 5. Deploying to GitHub Pages
 description:
   Welcome to Carbon for IBM.com! This tutorial will guide you in creating an application with Carbon for IBM.com Web
   Components.
@@ -12,26 +12,28 @@ import { Link } from 'gatsby';
 
 <PageDescription>
 
-TBD
+This step takes what we’ve built so far and prepares the app for a production environment.
+We’ll be deploying the production build to GitHub Pages.
 
 </PageDescription>
 
 <AnchorLinks>
 
 <AnchorLink>Fork, clone, and branch</AnchorLink>
-<AnchorLink>TBD</AnchorLink>
+<AnchorLink>Build for production</AnchorLink>
+<AnchorLink>Deploying to GitHub Pages</AnchorLink>
 <AnchorLink>Submit pull request</AnchorLink>
 
 </AnchorLinks>
 
 ## Preview
 
-A [preview]() of what you'll build:
+Here's a [preview]() of what you’ll build. It's not different visually, but is now built for production.
 
 <Preview
   height="400"
-  title="Carbon for IBM.com Tutorial Step 5"
-  src=""
+  title="Carbon for IBM.com tutorial step 5"
+  src="https://carbon-design-system.github.io/carbon-for-ibm-dotcom-tutorial/step-4/"
   frameborder="no"
   allowtransparency="true"
   allowfullscreen="true"
@@ -51,21 +53,67 @@ With your repository all set up, let's check out the branch for this tutorial st
 
 ```bash
 git fetch upstream
-git checkout -b web-components-step-2 upstream/web-components-step-2
+git checkout -b web-components-step-5 upstream/web-components-step-5
 ```
 
-<InlineNotification>
+### Build and start app
 
-**Note:** This builds on top of step 1, but be sure to check out the upstream step 2 branch because it includes the
-static assets required to get through this step.
+If you’re starting fresh in your current directory and not continuing from the previous step, install the app's dependencies:
 
-</InlineNotification>
+```bash
+yarn install
+```
 
-TBD
+## Build for production
+
+Before we deploy our app, we need to create an optimized production build with this command.
+
+Run in your terminal
+
+```bash
+yarn build
+```
+
+Looking at `package.json`, you’ll find `yarn build` runs the `webpack-prod` configurations. This builds the app for production to the `dist` folder.
+It creates minified bundles, lighter weight source maps, and optimizes assets in production mode to improve load time.
+
+## Deploying to Github Pages
+
+Next we'll be pushing the generated `dist` folder to [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)
+which allows you to host your files directly from your repository in Github.
+
+To do this, we'll first commit our `dist` folder so that git know we have a subtree (subfolder with our site).
+
+```bash
+git add dist && git commit -m "chore(deploy): publish build files"
+```
+
+Then we'll use `subtree push` to push to the `gh-pages` branch on Github.
+
+```bash
+git subtree push --prefix dist origin gh-pages
+```
+
+To have GitHub Pages point to the `gh-pages` branch, go to `github.com` to your forked Carbon for IBM.com Web Components tutorial repository. Go to your "Settings" and under the "Pages" tab, specify the branch, `gh-pages`,
+as your source. Once you click save, you should be able to see your site published at the `*.github.io/carbon-for-ibm-dotcom-tutorial/` link shown on the page.
+
+![Screenshot of Github settings dashboard](../../../images/tutorial/deploy-on-github-pages.png)
+
+Congratulations! Your work is now hosted on GitHub Pages!
 
 ## Submit pull request
 
-We're going to submit a pull request to verify completion of this tutorial step.
+We're going to submit a pull request to verify completion of this tutorial step. You'll need your hosted Github Pages link this time.
+
+### Change base url for Cypress
+
+In order to run tests against your deployed site, you will need to change the `baseUrl` field in the `cypress.json` file.
+
+In `cypress.json`, replace the `baseUrl` field with your Github Pages url.
+
+```json path=crypress.json
+"baseUrl": "https://{your username}.github.io/carbon-for-ibm-dotcom-tutorial/",
+```
 
 ### Continuous integration (CI) check
 
@@ -90,13 +138,13 @@ yarn ci-check
 Before we can create a pull request, stage and commit all of your changes:
 
 ```bash
-git add --all && git commit -m "feat(tutorial): complete step 2"
+git add --all && git commit -m "feat(tutorial): complete step 5"
 ```
 
 Then, push to your repository:
 
 ```bash
-git push origin web-components-step-2
+git push origin web-components-step-5
 ```
 
 <InlineNotification>
