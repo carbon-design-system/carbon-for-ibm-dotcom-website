@@ -5,7 +5,7 @@ description: The Style models provide a design framework that defines the founda
 
 <PageDescription>
 
-Style models refer to specific combinations of design elements that make up a shared foundation for pages on IBM.com. Always begin your design with existing style models to ensure consistency in IBM's approach to content, and coherency in our customers' journey.
+Style models refer to specific combinations of design elements that make up a shared foundation for pages on IBM.com. Reuse existing style models can ensure consistency in IBM's approach to content, and coherency in our customers' journey.
 
 </PageDescription>
 
@@ -21,20 +21,37 @@ Style models refer to specific combinations of design elements that make up a sh
 
 ## What are style models?
 
-Style model connects a specific usage of design elements (grid, colors, typography, etc) to the kind of content it best serves. For example, all pages on IBM.com uses the <a href="https://www.carbondesignsystem.com/guidelines/2x-grid/overview/" target="_blank">2x Grid</a>, but the 2x Grid still supports a wide range of behaviors. It can be used with or without max width, left aligned or centered. These design decisions should be consistently based on content needs.
+Style model connects a specific usage of design elements (grid, colors, typography, etc) to the kind of content it best serves. For example, all pages on IBM.com uses the <a href="https://www.carbondesignsystem.com/guidelines/2x-grid/overview/" target="_blank">2x Grid</a>, but the 2x Grid still supports a wide range of behaviors. It can be used with or without max width, left aligned or centered. These design decisions should be made consistently based on content needs.
 
 Here is the list of existing style models identified so far.
 
-| Page content                                | Example usage                                                                                                                                                                                                                                                                                   |
+| Page content                                | Usage and examples                                                                                                                                                                                                                                                                              |
 | ------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Editorial model](#editorial-model)         | Marketing content falls into this category. Think expressive styling and shorter sessions of visits. This covers models previously known as "Editorial navigation", "Listing", "Reading", and "Information gathering"                                                                           |
-| [Dashboard model](#dashboard-model)         | Product interfaces and data visualization dashboards fall into this category, where every inch of the screen needs be utilized at maximum to display information. Users egage with these screens for longer period of time and often actively interacting.                                      |
+| [Editorial model](#editorial-model)         | Marketing content falls into this category. Think expressive styling and shorter sessions of visits. This covers models previously known as "Editorial navigation", "Listing", "Reading", and "Information gathering".                                                                          |
 | [Documentation model](#documentation-model) | Documentation presents a unique combination of needs - controlled line lengths, but also a long duration egnagement. Examples of documentation include IBM Docs, Cloud Docs, and this site documentating the design system guidance. This covers models previously known as "Index navigation". |
+| [Dashboard model](#dashboard-model)         | Sometimes every inch of the screen needs be utilized at maximum to display information and controls. Complex product interfaces and data visualization dashboards typically fall into this category. Users egage with these screens for longer periods of time and often actively interacting.  |
 | Transactional model                         | For checkout, forms. Commonly occuring in e-commerce and registration. This covers models previously known as "Transation" and "Simple transaction"                                                                                                                                             |
 
 ## Editorial model
 
-When used on editorial content, the max width (1584px, or 99rem) should be applied to ensure texts and Call to actions are not drifting to the pereferal for visitors using a big screen. This ensures a complete first impression of the content. Applying a max width to the page also keeps text line length at a reasonable width, which allows for <a href="https://www.ibm.com/design/language/typography/type-basics/#comfortable-reading" target="_blank">comfortable reading</a>.
+When used on editorial content, the max width (1584px, or 99rem) should be applied to ensure texts and Call to actions are not drifting to the peripheral for visitors using a big screen. This ensures a complete first impression of the content. Applying a max width to the page also keeps text line length at a reasonable width, which allows for <a href="https://www.ibm.com/design/language/typography/type-basics/#comfortable-reading" target="_blank">comfortable reading</a>.
+
+<Row>
+<Column colMd={4} colLg={4} >
+<DoDontExample type="do" caption="Editorial model uses max width to keep content centralized.">
+
+![Editorial model uses max width](../../images/guidelines/style-models/style-models-editorial-do-dont-1.png)
+
+</DoDontExample>
+</Column>
+<Column colMd={4} colLg={4} >
+<DoDontExample type="dont" caption="Without max width content stretches and drifts apart on wide screens.">
+
+![Without max width content stretches and drifts apart on wide screens](../../images/guidelines/style-models/style-models-editorial-do-dont-2.png)
+
+</DoDontExample>
+</Column>
+</Row>
 
 ### Grid
 
