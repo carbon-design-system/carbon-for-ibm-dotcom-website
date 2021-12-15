@@ -43,8 +43,6 @@
 
 - title: Guidelines
   pages:
-    - title: Overview
-      path: /guidelines
     - title: Content
       path: /guidelines/content
     - title: Expressive styling
