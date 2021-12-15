@@ -16,7 +16,7 @@ async function createBuildForIBMPage() {
     'src/pages/developing/building-for-ibm-dotcom'
   );
   const buildForIBMsrc =
-    'https://raw.githubusercontent.com/carbon-design-system/carbon-for-ibm-dotcom/master/docs/building-for-ibm-dotcom.md';
+    'https://raw.githubusercontent.com/carbon-design-system/carbon-for-ibm-dotcom/main/docs/building-for-ibm-dotcom.md';
   const buildForIBMheading = `${dest}/heading.txt`;
   const buildForIBMdest = `${dest}/index.mdx`;
 
@@ -57,7 +57,7 @@ async function createCDNStyleHelpersPage() {
     'src/pages/developing/carbon-cdn-style-helpers'
   );
   const styleHelperssrc =
-    'https://raw.githubusercontent.com/carbon-design-system/carbon-for-ibm-dotcom/master/packages/web-components/docs/carbon-cdn-style-helpers.md';
+    'https://raw.githubusercontent.com/carbon-design-system/carbon-for-ibm-dotcom/main/packages/web-components/docs/carbon-cdn-style-helpers.md';
   const styleHelpersheading = `${dest}/heading.txt`;
   const styleHelpersdest = `${dest}/index.mdx`;
 
