@@ -34,7 +34,11 @@ Here is the list of existing style models identified so far.
 
 ## Editorial model
 
+### Grid
+
 When used on editorial content, the max width (1584px, or 99rem) should be applied to ensure texts and Call to actions are not drifting to the peripheral for visitors using a big screen. This ensures a complete first impression of the content. Applying a max width to the page also keeps text line length at a reasonable width, which allows for <a href="https://www.ibm.com/design/language/typography/type-basics/#comfortable-reading" target="_blank">comfortable reading</a>.
+
+Grid should also be centered when the screen width is larger than max width to present content front and center.
 
 <Row>
 <Column colMd={4} colLg={4} >
@@ -53,8 +57,6 @@ When used on editorial content, the max width (1584px, or 99rem) should be appli
 </Column>
 </Row>
 
-### Grid
-
 ### Examples
 
 ## Dashboard model
@@ -63,11 +65,42 @@ When used on a dashboard
 
 ### Grid
 
+<Row>
+<Column colMd={4} colLg={4} >
+<DoDontExample type="do" caption="For dashboards or data visualizations, utilize the full screen width to present as much information as possible.">
+
+![Editorial model uses max width](../../images/guidelines/style-models/style-models-dashboard-do-dont-1.png)
+
+</DoDontExample>
+</Column>
+<Column colMd={4} colLg={4} >
+<DoDontExample type="dont" caption="Containing the dashboard interface in a max width creates frustration.">
+
+![Without max width content stretches and drifts apart on wide screens](../../images/guidelines/style-models/style-models-dashboard-do-dont-2.png)
+
+</DoDontExample>
+</Column>
+</Row>
+
 ### Examples
 
 ## Documentation model
 
 ### Grid
+
+Documentation sites deal with large volumns of text and media content. It benefit from a persistant navigation to help with organization and way finding.
+
+Left aligning grid to allow the navigation to stick to one side of the screen.
+
+<Row>
+<Column colMd={4} colLg={4} >
+<DoDontExample type="do" caption="Documentation benefits from a persistant navigation and a controlled max width.">
+
+![Editorial model uses max width](../../images/guidelines/style-models/style-models-docu-1.png)
+
+</DoDontExample>
+</Column>
+</Row>
 
 ### Examples
 
