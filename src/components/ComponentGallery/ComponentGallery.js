@@ -2,6 +2,7 @@
 /* eslint-disable global-require */
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'gatsby';
 import componentList from '../../data/components.json';
 
 /**
@@ -40,8 +41,8 @@ const renderItem = ({ name, component }) => (
   <li className="component-item" key={name}>
     <div className="bx--aspect-ratio bx--aspect-ratio--align bx--aspect-ratio--1x1">
       <div className="bx--aspect-ratio--object">
-        <a
-          href={component.url}
+        <Link
+          to={component.url}
           className="component-item__link"
           rel="noreferrer"
           target={component.url.indexOf('https://') > -1 ? '_blank' : '_self'}
@@ -52,7 +53,7 @@ const renderItem = ({ name, component }) => (
             className="component-item__img"
           />
           <p className="component-name">{name}</p>
-        </a>
+        </Link>
       </div>
     </div>
   </li>
