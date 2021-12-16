@@ -6,7 +6,7 @@
       "description": "Back to top is a sticky button that appears on long form pages. When triggered it scrolls the the user back to the top of the page.",
       "storybook": {
         "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-back-to-top--default",
-        "react": "https://ibmdotcom-web-components-react.mybluemix.net/?path=/story/components-back-to-top--default"
+        "react": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-back-to-top--default"
       },
       "webcomponents": {
         "stable": true,
@@ -141,7 +141,7 @@
       "description": "The carousel is an exploratory component, meaning it allows users to browse or explore multiple pieces of content within the same area of the page.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-carousel--default",
-        "react": "https://ibmdotcom-web-components-react.mybluemix.net/?path=/story/components-carousel--default"
+        "react": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-carousel--default"
       },
       "webcomponents": {
         "stable": true,
@@ -414,7 +414,7 @@
       "description": "The Leaving IBM notice displays as an overlay when a user clicks an external link.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-leaving-ibm--default",
-        "react": "https://ibmdotcom-web-components-react.mybluemix.net/?path=/story/components-leaving-ibm--default"
+        "react": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-leaving-ibm--default"
       },
       "webcomponents": {
         "stable": true,
@@ -629,7 +629,7 @@
       "description": "Tag link is a clickable tag that links the topic to another page with more information.",
       "storybook": {
         "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-tag-link--default",
-        "react": "https://ibmdotcom-web-components-react.mybluemix.net/?path=/story/components-tag-link--default"
+        "react": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-tag-link--default"
       },
       "webcomponents": {
         "stable": false,
@@ -683,7 +683,7 @@
       "description": "Tabs extended combines tabs and accordion to organize editorial content.",
       "storybook": {
         "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-tabs-extended--default",
-        "react": "https://ibmdotcom-web-components-react.mybluemix.net/?path=/story/components-tabs-extended--default"
+        "react": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-tabs-extended--default"
       },
       "webcomponents": {
         "stable": true,
@@ -821,7 +821,7 @@
       "description": "Card section carousel is an exploratory component, meaning it allows users to browse or explore multiple pieces of content within the same area of the page.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-card-section-carousel--default",
-        "react": "https://ibmdotcom-web-components-react.mybluemix.net/?path=/story/components-card-section-carousel--default"
+        "react": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-card-section-carousel--default"
       },
       "webcomponents": {
         "stable": true,
@@ -1334,7 +1334,7 @@
       "description": "Lead space sets the context and also helps users understand what type of content they are going to find on the page. It is always positioned at the top.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-leadspace--default-with-no-image",
-        "react": "https://ibmdotcom-web-components-react.mybluemix.net/?path=/story/components-leadspace--tall"
+        "react": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-leadspace--tall"
       },
       "webcomponents": {
         "stable": true,
