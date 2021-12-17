@@ -36,7 +36,7 @@ content on the page, and should be used sparingly.
 </Column>
 </Row>
 
-## Card 
+## Card
 
 The Card component can be used in many different page types. The default design includes a heading and a call to action,
 and optional extras include an eyebrow, copy, and media. By adding and removing optional content, the card
@@ -146,6 +146,13 @@ take the user to different pages. Static cards can appear with or without a bord
 
 </Row>
 
+#### Logo
+
+The card can feature a logo at the top of the card. The logo can be used to call out brand success stories or case studies.
+
+The logo image itself should be contained inside a space (2:1 aspect ratio). The container size is fixed at all the breakpoints. A logo grid is available in the [design specifications](https://ibm.ent.box.com/folder/95514001950?s=qqw0soczjpawvuh9j3x19fmcoqk1zsw7).
+The logo is best displayed with either a transparent background or a background color that matches the card background.
+
 <ResourceLinks name="Card" type="ui" multiComponent />
 
 ### Content guidance for Card
@@ -172,6 +179,20 @@ When a pictogram is added to a Card, the Card's appearance and content guidance 
 | Heading   | Text         | Yes      | 1         | 40 / 55                                     |                                                   |
 | Copy      | Text         | No       | 1         | 65 / 85                                     | Hover over copy on bottom-aligned pictogram only. |
 | Pictogram | Element      | Yes      | 1         | –                                           | Top- or bottom-aligned.                           |
+
+For more information, see the
+[character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standard).
+
+### Content guidance for Card logo
+
+| Element        | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes                                                                                                                                |
+| -------------- | ------------ | -------- | --------- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| Logo           | Image        | Yes      | 1         | –                                           | 2:1 aspect ratio in grid, see [design specifications](https://ibm.ent.box.com/folder/95514001950?s=qqw0soczjpawvuh9j3x19fmcoqk1zsw7) |
+| Image alt text | Text         | No       | 1         | 75 / 100                                    | Image description for accessibility.                                                                                                 |
+| Eyebrow        | Text         | Yes      | 1         | 20 / 32                                     |                                                                                                                                      |
+| Heading        | Text         | No       | 1         | 65 / 85                                     |                                                                                                                                      |
+| Copy           | Text         | Yes      | 1         | 200 / 260                                   |                                                                                                                                      |
+| Tag group      | Component    | No       | 1         | 20 / 32                                     | One or more tags.                                                                                                                    |
 
 For more information, see the
 [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standard).
