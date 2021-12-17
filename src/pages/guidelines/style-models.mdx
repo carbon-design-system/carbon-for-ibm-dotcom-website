@@ -1,35 +1,39 @@
 ---
 title: Style models
-description: The Style models provide a design framework that defines the foundational sructures of IBM.com pages in order to establish consistency and coherency across users' journeys in a scalable way.
+description: A style model refer to a specific combination of design elements that make up a shared foundation for pages on IBM.com. Reuse existing style models can ensure consistency in IBM's approach to content, and coherency in our customers' journey.
 ---
 
 <PageDescription>
 
-Style models refer to specific combinations of design elements that make up a shared foundation for pages on IBM.com. Reuse existing style models can ensure consistency in IBM's approach to content, and coherency in our customers' journey.
+A style model refers to a specific combination of design elements that make up a shared foundation for pages on IBM.com. Reuse existing style models can ensure consistency in IBM's approach to content, and coherency in our customers' journey.
 
 </PageDescription>
 
 <AnchorLinks>
 
-<AnchorLink>What are style models?</AnchorLink>
+<AnchorLink>Overview</AnchorLink>
 <AnchorLink>Editorial model</AnchorLink>
 <AnchorLink>Documentation model</AnchorLink>
-<AnchorLink>Dashboard model</AnchorLink>
+<AnchorLink>High density interface model</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
 
-## What are style models?
+## Overview
 
-Style model connects a specific usage of design elements (grid, screen region, key components) to the kind of content it best serves. For example, all pages on IBM.com uses the <a href="https://www.carbondesignsystem.com/guidelines/2x-grid/overview/" target="_blank">2x Grid</a>, but the 2x Grid still supports a wide range of behaviors. It can be used with or without max width, left aligned or centered. These design decisions should be made consistently based on content needs.
+Style model is created to help designers simplify the decisions around how foundational design elements should be used. For example, all pages on IBM.com uses the <a href="https://www.carbondesignsystem.com/guidelines/2x-grid/overview/" target="_blank">2x Grid</a>, but the 2x Grid supports a wide range of behaviors and usage. It can be used with or without max width, left aligned or centered. These design decisions should be made consistently based on content needs. Style model connects a specific usage combination to the kind of content it best serves. In our model, the design elements included are:
 
-Here is the list of existing style models identified so far.
+- Grid
+- Screen regions
+- Key components (Masthead, Footer)
 
-| Page content                                | Usage and examples                                                                                                                                                                                                                                                                              |
-| ------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Editorial model](#editorial-model)         | Marketing content falls into this category. Think expressive styling and shorter sessions of visits. This covers models previously known as "Editorial navigation", "Listing", "Reading", "Information gathering", "Transation" and "Simple transaction"                                        |
-| [Documentation model](#documentation-model) | Documentation presents a unique combination of needs - controlled line lengths, but also a long duration egnagement. Examples of documentation include IBM Docs, Cloud Docs, and this site documentating the design system guidance. This covers models previously known as "Index navigation". |
-| [Dashboard model](#dashboard-model)         | Sometimes every inch of the screen needs be utilized at maximum to display information and controls. Complex product interfaces and data visualization dashboards typically fall into this category. Users egage with these screens for longer periods of time and often actively interacting.  |
+Here is a list of recurring style models we have identified so far.
+
+| Page content                                                  | Usage and examples                                                                                                                                                                                                                                                                                                               |
+| ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Editorial model](#editorial-model) (default)                 | This style model is the bread and butter of marketing pages, which represet the majority of IBM.com. The grid in this model centers content for most comfortable browsing, and allows for a varity of expressive layout. Some low information density product screens, such as the Checkout application, can use this model too. |
+| [Documentation model](#documentation-model)                   | For long form content with deep organizational hierarchy, use the Documentation model. It anticipates a left hand navigational panel, and keep content width under a maximum. Examples of documentation include IBM Docs, Cloud Docs, and this site documentating the design system guidance.                                    |
+| [High density interface model](#high-density-interface-model) | Sometimes every inch of the screen needs be utilized at maximum to display information and controls. Complex product interfaces and data visualization dashboards typically fall into this category. This model uses the full width grid, so the bigger the screen, the more information user will see.                          |
 
 #### &#12288;
 
@@ -52,7 +56,7 @@ The biggest differentiation of the models is the grid. Specifically in how grid 
 
 #### &#12288;
 
-Once the screen is wider than the max breakpoint, the margins (highlighted in the darkest blue below) can expand, or the grid can stretch:
+Once the screen is wider than the max breakpoint, the margins (highlighted in dark blue below) can expand, or the grid can stretch:
 
 <br />
 
@@ -83,17 +87,59 @@ Once the screen is wider than the max breakpoint, the margins (highlighted in th
 <Row>
 <Column colLg={2} colMd={2}>
 
-**Dashboard**<br/> Full width, grid stetches
+**High density interface**<br/> Full width, grid stetches
 
 </Column>
 <Column colLg={10} colMd={6}>
 
-![Dashboard model grid](../../images/guidelines/style-models/grid-above-max--dash.png)
+![High density interface model grid](../../images/guidelines/style-models/grid-above-max--dash.png)
+
+</Column>
+</Row>
+
+<br />
+
+This grid behavior ripples through everything on page. Here is how the Masthead and Footer will behave above max breakpoints:
+
+<Row>
+<Column colMd={4} colLg={4} >
+
+![Dotcom shell on editorial model](../../images/guidelines/style-models/style-models-dotcom-shell-1.png)
+
+<Caption>
+
+**Editorial** model demonstrates the default behavior. The content within the components are contained in the max width, but background colors and dividers are full width.
+
+</Caption>
+
+</Column>
+<Column colMd={4} colLg={4} >
+
+![Dotcom shell on documentation model](../../images/guidelines/style-models/style-models-dotcom-shell-2.png)
+
+<Caption>
+
+**Documentation** model's footer has content left aligned, background full width. But masthead breaks from the grid, where both content and background are full width.
+
+</Caption>
+
+</Column>
+<Column colMd={4} colLg={4} >
+
+![Dotcom shell on high density interface model](../../images/guidelines/style-models/style-models-dotcom-shell-3.png)
+
+<Caption>
+
+**High density interface** model shows both masthead and footer obeying the grid as expected, stretching to full width of screen.
+
+</Caption>
 
 </Column>
 </Row>
 
 ## Editorial model
+
+This style model is the bread and butter of marketing pages, which represet the majority of IBM.com. The grid in this model centers content for most comfortable browsing, and allows for a varity of expressive layout. Some low information density product screens, such as the Checkout application, can use this model too.
 
 ### Grid
 
@@ -128,15 +174,41 @@ Grid should also be centered when the screen width is larger than max width to p
 </Column>
 </Row>
 
-### Screen regions and layout
-
-### Dotcom shell
+### Screen regions and Dotcom shell
 
 Dotcom shell stays within the grid, filling in the margin with background color and horizontal rule.
 
+<Row>
+<Column colMd={4} colLg={4} >
+
+![](../../images/guidelines/style-models/style-models-dotcom-shell-1.png)
+
+</Column>
+</Row>
+
 ### Examples
 
+<Row>
+<Column colMd={4} colLg={4} >
+
+![Example layout using Editorial model](../../images/guidelines/style-models/style-models-editorial-example-layout-1.png)
+
+</Column>
+<Column colMd={4} colLg={4} >
+
+![Example layout using Editorial model](../../images/guidelines/style-models/style-models-editorial-example-layout-2.png)
+
+</Column>
+<Column colMd={4} colLg={4} >
+
+![Example layout using Editorial model](../../images/guidelines/style-models/style-models-editorial-example-layout-3.png)
+
+</Column>
+</Row>
+
 ## Documentation model
+
+For long form content with deep organizational hierarchy, use the Documentation model. It anticipates a left hand navigational panel, and keep content width under a maximum. Examples of documentation include IBM Docs, Cloud Docs, and this site documentating the design system guidance.
 
 ### Grid
 
@@ -180,19 +252,27 @@ Left aligning grid to allow the navigation to anchor to side of the screen, and 
 </Column>
 </Row>
 
-### Screen regions and layout
-
-### Dotcom shell
+### Screen regions and Dotcom shell
 
 Dotcom shell breaks out of grid and is full width. This keeps right side of the Masthead elements anchored.
 
+<Row>
+<Column colMd={4} colLg={4} >
+
+![](../../images/guidelines/style-models/style-models-dotcom-shell-2.png)
+
+</Column>
+</Row>
+
 ### Examples
 
-## Dashboard model
+## High density interface model
 
-High information densitity screens, such as product dashboards, should use the grid without max width. This allows for the design to utilize full screen width to present as much information as possible. This is especially important when presetning data visualizations.
+Sometimes every inch of the screen needs be utilized at maximum to display information and controls. Complex product interfaces and data visualization dashboards typically fall into this category. This model uses the full width grid, so the bigger the screen, the more information user will see.
 
 ### Grid
+
+High information densitity screens, such as product dashboards, should use the grid without max width. This allows for the design to utilize full screen width to present as much information as possible. This is especially important when presetning data visualizations.
 
 <Row>
 <Column colMd={4} colLg={4} >
@@ -211,15 +291,21 @@ High information densitity screens, such as product dashboards, should use the g
 </Column>
 </Row>
 
-### Screen regions and layout
+### Screen regions and Dotcom shell
 
 Reference the 2x Grid <a href="https://carbondesignsystem.com/guidelines/2x-grid/overview/#screen-regions" target="_blank">screen regions</a> guidance on Carbon website for details.
-
-### Dotcom shell
 
 This is style model supports high information density moments, and at IBM.com, we have not yet encountered this use case. If you content fits this cateogry, and is not external facing, consider using simply using Carbon Design System, where UI shell is the default header in place of Dotcom shell.
 
 If Dotcom shell is used for some reason, follows the grid and stretches to full width.
+
+<Row>
+<Column colMd={4} colLg={4} >
+
+![](../../images/guidelines/style-models/style-models-dotcom-shell-3.png)
+
+</Column>
+</Row>
 
 ### Examples
 
