@@ -1,12 +1,12 @@
 {
   "ui": {
     "Back to top": {
-      "url": "./back-to-top",
+      "url": "/components/back-to-top",
       "designLink": "https://ibm.box.com/s/1ol1qe0tdplhet6mh9z2sx5ncqmikd4r",
       "description": "Back to top is a sticky button that appears on long form pages. When triggered it scrolls the the user back to the top of the page.",
       "storybook": {
         "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-back-to-top--default",
-        "react": "https://ibmdotcom-web-components-react.mybluemix.net/?path=/story/components-back-to-top--default"
+        "react": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-back-to-top--default"
       },
       "webcomponents": {
         "stable": true,
@@ -28,7 +28,7 @@
       }
     },
     "CTA": {
-      "url": "./cta",
+      "url": "/components/cta",
       "designLink": "https://ibm.box.com/s/unvd38oewwguycqoqg0et75eluiiqhg6",
       "description": "CTA stands for call to action. A CTA refers to the use of words or phrases that can compel an audience to act in a specific way.",
       "storybook": {
@@ -55,7 +55,7 @@
       }
     },
     "Card": {
-      "url": "./card",
+      "url": "/components/card",
       "designLink": "https://ibm.box.com/s/hgvu48r1fv2ga2h0yn3qshrtxjc71vch",
       "description": "Cards are considered “workhorse” components because of their versatility. They provide effective calls to action, and the various designs available work with a wide range of content.",
       "storybook": {
@@ -82,7 +82,7 @@
       }
     },
     "Card in card": {
-      "url": "./card-in-card",
+      "url": "/components/card-in-card",
       "designLink": "https://ibm.box.com/s/jad2fd65p56odcme9aoy1lgmuo1xaifu",
       "description": "Card in card offers a large media moment, while keeping harmony in a card group.",
       "storybook": {
@@ -109,7 +109,7 @@
       }
     },
     "Card link": {
-      "url": "./card-link",
+      "url": "/components/card-link",
       "designLink": "https://ibm.box.com/s/1u2m0fqdtrumog0ie2c4tfyyyn1clyj7",
       "description": "Card link is a CTA styled like a card that acts as the main CTA for a section of content, it typically appears at the end of a block-pattern.",
       "storybook": {
@@ -136,12 +136,12 @@
       }
     },
     "Carousel": {
-      "url": "./carousel/",
+      "url": "/components/carousel/",
       "designLink": "https://ibm.box.com/s/hmni7qhero9mf5rn593zij0tcay8h9dw",
       "description": "The carousel is an exploratory component, meaning it allows users to browse or explore multiple pieces of content within the same area of the page.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-carousel--default",
-        "react": "https://ibmdotcom-web-components-react.mybluemix.net/?path=/story/components-carousel--default"
+        "react": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-carousel--default"
       },
       "webcomponents": {
         "stable": true,
@@ -163,7 +163,7 @@
       }
     },
     "Dotcom shell": {
-      "url": "./dotcom-shell",
+      "url": "/components/dotcom-shell",
       "designLink": false,
       "functionalLink": false,
       "description": "Dotcom shell includes the <a href=\"./masthead\">Masthead</a>, and <a href=\"./footer\">Footer</a> components, all wrapped in a UI shell using Carbon's grid.",
@@ -191,7 +191,7 @@
       }
     },
     "Expressive modal": {
-      "url": "./expressive-modal",
+      "url": "/components/expressive-modal",
       "designLink": "https://ibm.box.com/s/35er5s6qfjcpcm98jafklc1alcl5vy16",
       "description": "Expressive modal is based on the Carbon modal component with slight styling updates to increase the padding and uses fixed buttons.",
       "storybook": {
@@ -218,7 +218,7 @@
       }
     },
     "Feature card": {
-      "url": "./feature-card",
+      "url": "/components/feature-card",
       "designLink": "https://ibm.box.com/s/292bsxb7tat33ch341u8o4oh6xdx19ct",
       "description": "Feature card is used to emphasize a piece of information with a card on the right-hand side and an image on the left-hand side.",
       "storybook": {
@@ -245,7 +245,7 @@
       }
     },
     "Filter panel": {
-      "url": "./filter-panel",
+      "url": "/components/filter-panel",
       "designLink": "https://ibm.box.com/s/19a0hjn61gh3qh59kbgxba43y8uymuqy",
       "description": "The filter panel is a component that can be customized to provide categorized filters to help users trim down large amounts of content, data and/or search results.",
       "storybook": {
@@ -272,7 +272,7 @@
       }
     },
     "Footer": {
-      "url": "./footer",
+      "url": "/components/footer",
       "designLink": "https://ibm.box.com/s/nsbccv6jigfw78uwq3r0242qks1x1f87",
       "description": "The footer component is a section that sits at the bottom of any IBM.com page, and acts as the catch-all section that helps users navigate and provides corporate level general and legal information. The footer is required on all pages on IBM.com.",
       "storybook": {
@@ -299,7 +299,7 @@
       }
     },
     "Horizontal rule": {
-      "url": "./horizontal-rule",
+      "url": "/components/horizontal-rule",
       "designLink": "https://ibm.box.com/s/ladjc15eyxg61c5wqbshggm3e4zgrnp5",
       "description": "The horizontal rule component is utilized for thematic breaks within the content.",
       "storybook": {
@@ -326,7 +326,7 @@
       }
     },
     "Image": {
-      "url": "./image",
+      "url": "/components/image",
       "designLink": "https://ibm.box.com/s/zaofzs8ssrfbkgker2lqxyvdnbpxvsly",
       "description": "The Image and the Image with caption components offer two ways to display imagery on the page.",
       "storybook": {
@@ -353,7 +353,7 @@
       }
     },
     "Language selector": {
-      "url": "./language-selector",
+      "url": "/components/language-selector",
       "designLink": "https://ibm.box.com/s/nsbccv6jigfw78uwq3r0242qks1x1f87",
       "functionalLink": false,
       "description": "Language selector is for users to select their preferred language on a website. The content on the website will appear in the default language until the users reselect their preferred language then the page content will reload in the reselected language provided a translation is available.",
@@ -381,7 +381,7 @@
       }
     },
     "Image with caption": {
-      "url": "./image-with-caption",
+      "url": "/components/image-with-caption",
       "designLink": "https://ibm.box.com/s/mclmewshqcme7g6gykepok78rm882a0j",
       "description": "The Image with caption component is used to embed images and has an optional caption. It can support images at 1x1, 2x1, 4x3 and 16x9 aspect ratios.",
       "storybook": {
@@ -408,13 +408,13 @@
       }
     },
     "Leaving IBM modal": {
-      "url": "./leaving-ibm-modal",
+      "url": "/components/leaving-ibm-modal",
       "designLink": "https://ibm.box.com/s/g79wdwdj0syjcfkdlgu5rpwe3zp9s37w",
       "functionalLink": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Leaving-ibm",
       "description": "The Leaving IBM notice displays as an overlay when a user clicks an external link.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-leaving-ibm--default",
-        "react": "https://ibmdotcom-web-components-react.mybluemix.net/?path=/story/components-leaving-ibm--default"
+        "react": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-leaving-ibm--default"
       },
       "webcomponents": {
         "stable": true,
@@ -436,7 +436,7 @@
       }
     },
     "Lightbox media viewer": {
-      "url": "./lightbox-media-viewer",
+      "url": "/components/lightbox-media-viewer",
       "designLink": "https://ibm.box.com/s/mpeo1wy0jogkwxn68fahlg62q799ixox",
       "description": "Lightbox media viewer allows the user to view an image or video at a larger size within a modal.",
       "storybook": {
@@ -463,7 +463,7 @@
       }
     },
     "Link list": {
-      "url": "./link-list",
+      "url": "/components/link-list",
       "designLink": "https://ibm.box.com/s/dgnfrnpaqepbuyifa04aoc091v4cnz3d",
       "description": "Link list is used for multiple CTAs, with options for vertical and horizontal lists and varying CTA styling.",
       "storybook": {
@@ -490,7 +490,7 @@
       }
     },
     "Link list section": {
-      "url": "./link-list-section",
+      "url": "/components/link-list-section",
       "designLink": "https://ibm.box.com/s/mktywz4ujxo9yiiu371kgzbib93uc2po",
       "description": "Link list section is used for multiple CTAs, with options for vertical and horizontal lists and varying CTA styling.",
       "storybook": {
@@ -517,7 +517,7 @@
       }
     },
     "Link with icon": {
-      "url": "./link-with-icon",
+      "url": "/components/link-with-icon",
       "designLink": "https://ibm.box.com/s/i3jd6saoz0m851j2ohggrn452bnd51dm",
       "description": "Link with icon is primarily used as a navigational element with an icon as an indicator to the destination or type of content being referenced. Link with icon should not be used within a paragraph.",
       "storybook": {
@@ -544,7 +544,7 @@
       }
     },
     "Locale modal": {
-      "url": "./localemodal",
+      "url": "/components/localemodal",
       "designLink": "https://ibm.box.com/s/nwy0fyiw6mu3qwd3p882pnqmit93rfa5",
       "description": "Locale modal is triggered after selecting the locale button and allows users to change geographic regions and languages, if available.",
       "storybook": {
@@ -571,7 +571,7 @@
       }
     },
     "Masthead": {
-      "url": "./masthead",
+      "url": "/components/masthead",
       "designLink": "https://ibm.box.com/s/knez30xt6kao1amylebbvs97vkemhrbp",
       "description": "Masthead is a fundamental navigational component for IBM.com that displays consistently at the top of each page. It also includes search and profile services for IBM.com.",
       "storybook": {
@@ -598,7 +598,7 @@
       }
     },
     "Quote": {
-      "url": "./quote",
+      "url": "/components/quote",
       "designLink": "https://ibm.box.com/s/0hjsr1foe5y849xs6ixc5g25uf9lgjr6",
       "description": "Quote is used to highlight an impactful client statement or user testimonial.",
       "storybook": {
@@ -625,11 +625,11 @@
       }
     },
     "Tag link": {
-      "url": "./tag-link",
+      "url": "/components/tag-link",
       "description": "Tag link is a clickable tag that links the topic to another page with more information.",
       "storybook": {
         "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-tag-link--default",
-        "react": "https://ibmdotcom-web-components-react.mybluemix.net/?path=/story/components-tag-link--default"
+        "react": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-tag-link--default"
       },
       "webcomponents": {
         "stable": false,
@@ -651,7 +651,7 @@
       }
     },
     "Video": {
-      "url": "./video",
+      "url": "/components/video",
       "designLink": "https://ibm.box.com/s/9q7rdj73m32hufcw1xwl1td6nr88rghm",
       "description": "Video allows you to embed Kaltura videos from the media center in various ways throughout a page.",
       "storybook": {
@@ -678,12 +678,12 @@
       }
     },
     "Tabs extended": {
-      "url": "./tabs-extended",
+      "url": "/components/tabs-extended",
       "designLink": "https://ibm.box.com/s/26zrugvym00408zhpp23gqwnudzmgdd1",
       "description": "Tabs extended combines tabs and accordion to organize editorial content.",
       "storybook": {
         "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-tabs-extended--default",
-        "react": "https://ibmdotcom-web-components-react.mybluemix.net/?path=/story/components-tabs-extended--default"
+        "react": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-tabs-extended--default"
       },
       "webcomponents": {
         "stable": true,
@@ -707,7 +707,7 @@
   },
   "layout": {
     "Callout quote": {
-      "url": "./callout-quote",
+      "url": "/components/callout-quote",
       "designLink": "https://ibm.box.com/s/5p4zb97inftv5bj6dabgk8cpp9fbdr4w",
       "description": "Callout quote is a typographic layout that is used to highlight an impactful client statement or user testimonial.",
       "storybook": {
@@ -734,7 +734,7 @@
       }
     },
     "Callout with media": {
-      "url": "./callout-with-media",
+      "url": "/components/callout-with-media",
       "designLink": "https://ibm.box.com/s/40njlbssuzazldqxcvza8pfmlgdva15y",
       "functionalLink": "https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Callout-media",
       "description": "Callout with media is used to feature a high value media asset such as a customer story.",
@@ -762,7 +762,7 @@
       }
     },
     "Card group": {
-      "url": "./card-group",
+      "url": "/components/card-group",
       "designLink": "https://ibm.box.com/s/r4nt1w1fe2gnuqn6m9gac48tll7jq5pl",
       "description": "Card group arranges cards in a grid and offers useful features that are applied to the group as a whole.",
       "storybook": {
@@ -789,7 +789,7 @@
       }
     },
     "Card section": {
-      "url": "./card-section",
+      "url": "/components/card-section",
       "designLink": "https://ibm.box.com/s/6prfrgt7dftdg47ejy3q3m4x7h47kbmo",
       "description": "Card section is a collection of cards presented in a full-width section with a left-column header that responds to the grid.",
       "storybook": {
@@ -816,12 +816,12 @@
       }
     },
     "Card section carousel": {
-      "url": "./card-section-carousel/",
+      "url": "/components/card-section-carousel/",
       "designLink": "https://ibm.box.com/s/wyj5uboppri7nc3gn4v1f7ft80qc5eir",
       "description": "Card section carousel is an exploratory component, meaning it allows users to browse or explore multiple pieces of content within the same area of the page.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-card-section-carousel--default",
-        "react": "https://ibmdotcom-web-components-react.mybluemix.net/?path=/story/components-card-section-carousel--default"
+        "react": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-card-section-carousel--default"
       },
       "webcomponents": {
         "stable": true,
@@ -843,7 +843,7 @@
       }
     },
     "Card section images": {
-      "url": "./card-section-images",
+      "url": "/components/card-section-images",
       "designLink": "https://ibm.box.com/s/u4acyo9oeqya8xidimxtidh8k8y08fza",
       "description": "Card section images is a collection of card components with images that, together, occupy a full-width section with a left-column header.",
       "storybook": {
@@ -870,7 +870,7 @@
       }
     },
     "Content block": {
-      "url": "./content-block",
+      "url": "/components/content-block",
       "designLink": "https://ibm.box.com/s/uaq0ovswviefwbv7gd4jn13llvqb23f8",
       "description": "Content block is a high-level layout component that acts as the main content unit used inside of a Content section to build web experiences on IBM dotcom. It encapsulates other content components (one or multiple content groups) and brings them together into a custom visual, which solves a specific problem for the user.",
       "storybook": {
@@ -897,7 +897,7 @@
       }
     },
     "Content block cards": {
-      "url": "./content-block-cards",
+      "url": "/components/content-block-cards",
       "designLink": "https://ibm.box.com/s/9pweudf9ptucx8jxzgo3e2m5jpyke5qi",
       "description": "Content block cards is used to present small self-contained pieces of information as cards.",
       "storybook": {
@@ -924,7 +924,7 @@
       }
     },
     "Content block media": {
-      "url": "./content-block-media",
+      "url": "/components/content-block-media",
       "designLink": "https://ibm.box.com/s/9cu22l7vs1dpjy8g8yi3mtoswazqgq2r",
       "description": "Content block media is used to present information with images in a group setting.",
       "storybook": {
@@ -951,7 +951,7 @@
       }
     },
     "Content block segmented": {
-      "url": "./content-block-segmented",
+      "url": "/components/content-block-segmented",
       "designLink": "https://ibm.box.com/s/pkascpokk7ae4t3ixis98hmw4e5y1v56",
       "description": "Content block segmented is a variation of Content block simple with the added ability to add subsections.",
       "storybook": {
@@ -978,7 +978,7 @@
       }
     },
     "Content block simple": {
-      "url": "./content-block-simple",
+      "url": "/components/content-block-simple",
       "designLink": "https://ibm.box.com/s/511cy3utuof76on064vfzmv8dej5nc8c",
       "description": "Content block simple is typically used for the introductory section on a page.",
       "storybook": {
@@ -1005,7 +1005,7 @@
       }
     },
     "Content group": {
-      "url": "./content-group",
+      "url": "/components/content-group",
       "designLink": "https://ibm.box.com/s/5n0sj6b3kkicnwimxmgnwb5owm46g8wz",
       "description": "Content group acts as a content unit, and is used inside a Content section or a Content block. It can contain basic content components (one or multiple content items of the same kind), bringing them together into highly-customized solutions for the user.",
       "storybook": {
@@ -1032,7 +1032,7 @@
       }
     },
     "Content group banner": {
-      "url": "./content-group-banner",
+      "url": "/components/content-group-banner",
       "designLink": "https://ibm.box.com/s/tqp7c0wm99ha0b7jrm0sqhq3whwdjv84",
       "description": "Content group banner is designed as a subtle callout, intended for tangential information or announcements that are supplementary to the page's main focus.",
       "storybook": {
@@ -1059,7 +1059,7 @@
       }
     },
     "Content group cards": {
-      "url": "./content-group-cards",
+      "url": "/components/content-group-cards",
       "designLink": "https://ibm.box.com/s/5sfef66ow9ruw47qye5snhnxey0ioi6t",
       "description": "Content group cards is used to present information through a group of cards with each acting as a call to action that drives to additional or supporting destinations. It is suitable for adding concise buckets of content and links to a long-form reading experience.",
       "storybook": {
@@ -1086,7 +1086,7 @@
       }
     },
     "Content block horizontal": {
-      "url": "./content-block-horizontal",
+      "url": "/components/content-block-horizontal",
       "designLink": "https://ibm.box.com/s/rv5kmm0a4d9ded74v6yfk8ad5id5ghmx",
       "description": "Content block horizontal is used to highlight a group of more important pieces of content, such as products or solutions, with more visual weight.",
       "storybook": {
@@ -1113,7 +1113,7 @@
       }
     },
     "Content group pictograms": {
-      "url": "./content-group-pictograms",
+      "url": "/components/content-group-pictograms",
       "designLink": "https://ibm.box.com/s/af11r4k5fv1wclv1yrl9aic5c68x29ra",
       "description": "Content group pictograms is used to present a group of information, each with a supporting pictogram.",
       "storybook": {
@@ -1140,7 +1140,7 @@
       }
     },
     "Content group simple": {
-      "url": "./content-group-simple",
+      "url": "/components/content-group-simple",
       "designLink": "https://ibm.box.com/s/bkqyb6nzix46vfsy8b0cyg79c3fs0lac",
       "description": "Content group simple is an alternative form of a narrative layout where the content is broken up into smaller pieces to make it more digestible.",
       "storybook": {
@@ -1167,7 +1167,7 @@
       }
     },
     "Content item": {
-      "url": "./content-item",
+      "url": "/components/content-item",
       "designLink": "https://ibm.box.com/s/xfm17x7dwbe4z7kjk482b8hbpjasft7o",
       "description": "The Content item is a basic-level content component that acts as a primary content unit, and it is used inside a Content group to build web experiences on IBM dotcom pages. It can encapsulate basic content (a heading, a description, a media element – image or video – and a CTA) and brings them all together into a content component which solves a specific problem for the user.",
       "storybook": {
@@ -1194,7 +1194,7 @@
       }
     },
     "Content item horizontal": {
-      "url": "./content-item-horizontal",
+      "url": "/components/content-item-horizontal",
       "designLink": "https://ibm.box.com/s/yiv7f37ktudwx1do7d9mp4bak17wl4dh",
       "description": "Content item horizontal component displays information in a horizontal orientation.",
       "storybook": {
@@ -1221,7 +1221,7 @@
       }
     },
     "Content section": {
-      "url": "./content-section",
+      "url": "/components/content-section",
       "designLink": "https://ibm.box.com/s/oqlsa6m0vfownbn1s2y682mnugsf6cuv",
       "description": "Content section is a high-level content component that acts as the main content unit to build web page experiences for IBM.com. It encapsulates other content components (one or multiple Content blocks and/or Content groups) and brings them together, providing flexibility to create many different solutions for users.",
       "storybook": {
@@ -1248,7 +1248,7 @@
       }
     },
     "CTA section": {
-      "url": "./cta-section",
+      "url": "/components/cta-section",
       "designLink": "https://ibm.box.com/s/yz1uixuxjf7lge5yvrup3yb3owj70071",
       "description": "CTA section is used to communicate actions that users can take along with some information that is relevant to the actions.",
       "storybook": {
@@ -1275,7 +1275,7 @@
       }
     },
     "Feature section": {
-      "url": "./feature-section",
+      "url": "/components/feature-section",
       "designLink": "https://ibm.box.com/s/pffea4dd5aug4m3v6za7ewjd1metosg8",
       "description": "Feature section is a dedicated section for a single story.",
       "storybook": {
@@ -1302,7 +1302,7 @@
       }
     },
     "Layout": {
-      "url": "./layout",
+      "url": "/components/layout",
       "designLink": false,
       "description": "The layout component is to be utilized within IBM.com for various abstract layout configurations.",
       "storybook": {
@@ -1329,12 +1329,12 @@
       }
     },
     "Lead space": {
-      "url": "./leadspace",
+      "url": "/components/leadspace",
       "designLink": "https://ibm.box.com/s/d9jey3rlfxqmxu059f0x9dtcx7f5ehuh",
       "description": "Lead space sets the context and also helps users understand what type of content they are going to find on the page. It is always positioned at the top.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-leadspace--default-with-no-image",
-        "react": "https://ibmdotcom-web-components-react.mybluemix.net/?path=/story/components-leadspace--tall"
+        "react": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-leadspace--tall"
       },
       "webcomponents": {
         "stable": true,
@@ -1356,7 +1356,7 @@
       }
     },
     "Lead space block": {
-      "url": "./lead-space-block",
+      "url": "/components/lead-space-block",
       "designLink": "https://ibm.box.com/s/kisml8o6mgrexlvqaa3cv20z1e32sbli",
       "description": "Lead space block is an alternative to the Lead space, enabling a more productive first site of viewer engagement. Lead space &mdash; block is positioned at the top of a web page, with a purpose to orient the user when they land on a page, inform them of the content, and guide them to the first key piece of content on the page, whether it’s a crucial piece of information or a call-to-action button.",
       "storybook": {
@@ -1383,7 +1383,7 @@
       }
     },
     "Lead space search": {
-      "url": "./lead-space-search",
+      "url": "/components/lead-space-search",
       "designLink": "https://ibm.box.com/s/3rjh19oclo961z0q0oaoqtm4gbhzo8b8",
       "description": "Lead space search provides a fast route to information discovery by including a prominent search option in the lead space. As the search is always positioned at the top, it is discoverable by users the moment they land on the page.",
       "storybook": {
@@ -1410,7 +1410,7 @@
       }
     },
     "Logo grid": {
-      "url": "./logo-grid",
+      "url": "/components/logo-grid",
       "designLink": "https://ibm.box.com/s/2c2dt2fivbmbcce29oul7hjaktjaqj26",
       "description": "Logo grid is used to present a group of client or partner logos. Currently the logos are not clickable.",
       "storybook": {
@@ -1437,7 +1437,7 @@
       }
     },
     "Pictogram item": {
-      "url": "./pictogram-item",
+      "url": "/components/pictogram-item",
       "designLink": "https://ibm.box.com/s/kjio8inhxhkmf7245l2wccp8zsivka9l",
       "description": "Pictogram item is used to communicate messages at a glance, afford interactivity, and simplify complex ideas.",
       "storybook": {
@@ -1464,7 +1464,7 @@
       }
     },
     "Table of contents": {
-      "url": "./table-of-contents",
+      "url": "/components/table-of-contents",
       "designLink": "https://ibm.box.com/s/yfuicifhfeaefp4rl0pp62dpeacr18ry",
       "description": "The table of contents component allows users to quickly navigate through long pages by providing jump links to different sections of the content within a single page.",
       "storybook": {
@@ -1491,7 +1491,7 @@
       }
     },
     "Tabs extended media": {
-      "url": "./tabs-extended-media",
+      "url": "/components/tabs-extended-media",
       "designLink": "https://ibm.box.com/s/3sun8lo3gu2b4uaa4oxgpxrqit1m7t6i",
       "description": "Use this component to interactively reveal related content, or as a gateway to pages with more details.",
       "storybook": {

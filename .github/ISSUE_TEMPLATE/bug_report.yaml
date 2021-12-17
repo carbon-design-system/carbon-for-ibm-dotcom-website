@@ -52,7 +52,7 @@ body:
       options:
         - label:
             I agree to follow this project's [Code of
-            conduct](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/blob/master/.github/CODE_OF_CONDUCT.md).
+            conduct](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/blob/main/.github/CODE_OF_CONDUCT.md).
           required: true
         - label:
             I checked the [current

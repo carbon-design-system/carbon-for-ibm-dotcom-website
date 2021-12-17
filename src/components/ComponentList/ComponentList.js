@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Tag } from 'carbon-components-react';
+import { Link } from 'gatsby';
 import components from '../../data/components.json';
 
 /**
@@ -26,13 +27,13 @@ const tags = {
 const renderItem = ({ name, component }) => (
   <tr key={name}>
     <td>
-      <a
-        href={component.url}
+      <Link
+        to={component.url}
         rel="noreferrer"
         target={component.url.indexOf('https://') > -1 ? '_blank' : '_self'}
       >
         {name}
-      </a>
+      </Link>
     </td>
     {/* eslint-disable-next-line react/no-danger */}
     <td dangerouslySetInnerHTML={{ __html: component.description }} />
