@@ -29,11 +29,11 @@ Style models help designers by simplifying decisions around how foundational des
 
 Here is a list of recurring style models we have identified so far.
 
-| Page content                                                  | Usage and examples                                                                                                                                                                                                                                                                                                               |
-| ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [_Editorial model_](#editorial-model)                 | This default style model is the bread and butter of marketing pages, which represents the majority of IBM.com. The grid in this model centers content for most comfortable browsing, and allows for a variety of expressive layouts. Some low information density product screens, such as the Checkout application, can use this model too. |
-| [_Documentation model_](#documentation-model)                   | For long form content with deep organizational hierarchy, use the Documentation model. It anticipates a left hand navigational panel, and keeps content within a maximum width. Examples of documentation include IBM Docs, Cloud Docs, and this site documenting the design system guidance.                                    |
-| [_High density interface model_](#high-density-interface-model) | Sometimes every inch of the screen needs be utilized at maximum to display information and controls. Complex product interfaces and data visualization dashboards typically fall into this category. This model uses the full width grid, so the bigger the screen, the more information the user will see.                          |
+| Page content                                                    | Usage and examples                                                                                                                                                                                                                                                                                                                           |
+| --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [_Editorial model_](#editorial-model)                           | This default style model is the bread and butter of marketing pages, which represents the majority of IBM.com. The grid in this model centers content for most comfortable browsing, and allows for a variety of expressive layouts. Some low information density product screens, such as the Checkout application, can use this model too. |
+| [_Documentation model_](#documentation-model)                   | For long form content with deep organizational hierarchy, use the Documentation model. It anticipates a left hand navigational panel, and keeps content within a maximum width. Examples of documentation include IBM Docs, Cloud Docs, and this site documenting the design system guidance.                                                |
+| [_High density interface model_](#high-density-interface-model) | Sometimes every inch of the screen needs be utilized at maximum to display information and controls. Complex product interfaces and data visualization dashboards typically fall into this category. This model uses the full width grid, so the bigger the screen, the more information the user will see.                                  |
 
 #### &#12288;
 
@@ -176,12 +176,21 @@ Grid should also be centered when the screen width is larger than max width to p
 
 ### Screen regions and Dotcom shell
 
-Dotcom shell stays within the grid, filling in the margin with background color and horizontal rule.
+Begin designing by parsing through the content for hierarchies, and start with the most essential, overarchiing concepts on the top, and granular details below. Reference Layout page for more guidance on [Content hierarchy](/guidelines/layout#content-hierarchy).
+
+{!! Placeholder for image here }
+
+Masthead and footer together make up the shell of the page, also knowns as [Dotcom shell](/components/dotcom-shell). How they are positioned on the grid helps to define expectation of the rest of the page. In Editorial model, dotcom shell stays on the grid. This means the content are aligned to columns, and background colors and their dividers are full width extending into margins.
 
 <Row>
 <Column colMd={4} colLg={4} >
 
 ![](../../images/guidelines/style-models/style-models-dotcom-shell-1.png)
+
+<Caption>
+  Dotcom shell stays within the grid, filling in the margin with background
+  color and its divider.
+</Caption>
 
 </Column>
 </Row>
@@ -192,6 +201,8 @@ Dotcom shell stays within the grid, filling in the margin with background color 
 <Column colMd={8} colLg={12} >
 
 ![Example layout using Editorial model](../../images/guidelines/style-models/style-models-editorial-example-layouts.png)
+
+<Caption>Editorial model supports a wide varity of layouts.</Caption>
 
 </Column>
 </Row>
