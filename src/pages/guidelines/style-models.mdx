@@ -99,7 +99,7 @@ Once the screen is wider than the max breakpoint, the margins (highlighted in da
 
 <br />
 
-This grid behavior ripples through everything on page. Here is how the Masthead and Footer will behave above max breakpoints:
+This difference in grid ripples through everything on page. Here is an overview of how the Masthead and Footer will behave above max breakpoints:
 
 <Row>
 <Column colMd={4} colLg={4} >
@@ -176,9 +176,25 @@ Grid should also be centered when the screen width is larger than max width to p
 
 ### Screen regions and Dotcom shell
 
-Begin designing by parsing through the content for hierarchies, and start with the most essential, overarchiing concepts on the top, and granular details below. Reference Layout page for more guidance on [Content hierarchy](/guidelines/layout#content-hierarchy).
+Begin designing by parsing through the content for hierarchies, and start with the most essential, overarching concepts on the top, and granular details below, and the related or supportive content at the bottom. Try to consider the mobile layout first because it forces us to be disciplined in sequencing content in a logical order.
 
-{!! Placeholder for image here }
+Reference Layout page for more guidance on [Content hierarchy](/guidelines/layout#content-hierarchy).
+
+<Row>
+<Column colMd={8} colLg={8} >
+
+![Lorem ipsum](../../images/guidelines/style-models/style-models-editorial-screen-regions.png)
+
+<Caption>
+  1. Global element: Masthead <br />
+  2. Overarching content: headings, titles, or leading sentences <br />
+  3. Main content: details of the subject matter <br />
+  4. Related content: helpful links, related topics <br />
+  5. Global element: Footer <br />
+</Caption>
+
+</Column>
+</Row>
 
 Masthead and footer together make up the shell of the page, also knowns as [Dotcom shell](/components/dotcom-shell). How they are positioned on the grid helps to define expectation of the rest of the page. In Editorial model, dotcom shell stays on the grid. This means the content are aligned to columns, and background colors and their dividers are full width extending into margins.
 
@@ -255,27 +271,60 @@ Left aligning the grid allows the navigation to anchor to side of the screen, an
 
 ### Screen regions and Dotcom shell
 
-With the documentation model, the Dotcom shell breaks out of grid and is full width. This keeps the right side of the Masthead elements anchored.
+The left hand navigation panel is similar to a table of content, which hides on smaller screens.
+
+<Row>
+<Column colMd={8} colLg={8} >
+
+![Lorem ipsum](../../images/guidelines/style-models/style-models-docu-screen-regions.png)
+
+<Caption>
+  1. Global element: Masthead <br />
+  2. Overarching content: page navigation <br />
+  3. Main content: details of the subject matter <br />
+  4. Related content: helpful links, related topics <br />
+  5. Global element: Footer <br />
+</Caption>
+
+</Column>
+</Row>
+
+With the documentation model, the Dotcom shell breaks out of grid and is full width. This keeps the right side of the Masthead elements (Search and Account functions) anchored to edge of screen.
 
 <Row>
 <Column colMd={4} colLg={4} >
 
 ![Dotcom shell usage on Documentation model](../../images/guidelines/style-models/style-models-dotcom-shell-2.png)
 
-<Caption>Dotcom shell usage on Documentation model</Caption>
+<Caption>
+  In Documentation model, Masthead breaks from the grid and is full width, while
+  Footer sticks to grid.
+</Caption>
 
 </Column>
 </Row>
 
 ### Examples
 
+<Row>
+<Column colMd={6} colLg={8} >
+
+![IBM Docs prototyped using documentation model](../../images/guidelines/style-models/style-models-docu-example.png)
+
+<Caption>IBM Docs prototyped using documentation model</Caption>
+
+</Column>
+</Row>
+
 ## High density interface model
 
 Sometimes every inch of the screen needs be utilized at maximum to display information and controls. Complex product interfaces and data visualization dashboards typically fall into this category. This model uses the full width grid, so the bigger the screen, the more information user will see.
 
+At IBM.com, we have not yet encountered this use case. If your content fits this category, and is not external facing, consdier using <a href="https://carbondesignsystem.com/" target="_blank">Carbon Design System</a>.
+
 ### Grid
 
-High information density screens, such as product dashboards, should use the grid without max width. This allows for the design to utilize full screen width to present as much information as possible. This is especially important when presenting data visualizations.
+The effect of having a max width is not visible at smaller screens. But once the screen is wider than 99rem, presence of a max width will limit the amount of content shown, and create large empty spaces at the same time. Considering the goal is to display maximum content, seeing large empty spaces is a frustrating experience.
 
 <Row>
 <Column colMd={4} colLg={4} >
@@ -296,32 +345,42 @@ High information density screens, such as product dashboards, should use the gri
 
 ### Screen regions and Dotcom shell
 
-Reference the 2x Grid <a href="https://carbondesignsystem.com/guidelines/2x-grid/overview/#screen-regions" target="_blank">screen regions</a> guidance on Carbon website for details.
+If you are using Carbon Design System, reference there are existing guidance on Carbon website that covers <a href="https://carbondesignsystem.com/guidelines/2x-grid/overview/#screen-regions" target="_blank">screen regions</a>.
 
-This style model supports high information density moments, and at IBM.com, we have not yet encountered this use case. If your content fits this category, and is not externally facing, consider using the Carbon Design System, where the UI shell is the default header in place of Dotcom shell.
+In place of Dotcom shell, Carbon Design System offers the <a href="https://carbondesignsystem.com/components/UI-shell-header/usage/" target="_blank">UI shell</a> as the default header.
 
-If Dotcom shell is used for some reason, follows the grid and stretches to full width.
+If you have to use Carbon for IBM.com &mdash; perhaps because your application is external facing, and integrated with marketing content &mdash; you may use the Dotcom shell as well. In this this case, Dotcom shell follows the grid and stretches to full width.
 
 <Row>
 <Column colMd={4} colLg={4} >
 
 ![Carbon shell on High density interface model](../../images/guidelines/style-models/style-models-dotcom-shell-4.png)
 
-<Caption>
-  Carbon shell is typically prefereable on High density interface model
-</Caption>
+<Caption>Carbon shell is more typical on High density interface model</Caption>
 
 </Column>
 <Column colMd={4} colLg={4} >
 
 ![Dotcom shell usage on High density interface model](../../images/guidelines/style-models/style-models-dotcom-shell-3.png)
 
-<Caption>Dotcom shell on High density interface model</Caption>
+<Caption>
+  Dotcom shell on High density interface model stretches to full screen width
+</Caption>
 
 </Column>
 </Row>
 
 ### Examples
+
+<Row>
+<Column colMd={8} colLg={12} >
+
+![A high density interface designed using Carbon Design System](../../images/guidelines/style-models/style-models-highdens-example.png)
+
+<Caption>A high density interface designed using Carbon Design System</Caption>
+
+</Column>
+</Row>
 
 ## Feedback
 
