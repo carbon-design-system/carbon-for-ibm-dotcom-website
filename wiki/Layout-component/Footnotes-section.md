@@ -2,7 +2,7 @@
 
 The [[Footnotes section]] displays the list of footnote references that appeared throughout the content of the page. This section appears directly above the Footer component at the bottom of the page, and uses the [Carbon list] component with additional padding between each link to display links or other notes for each reference. Can include optional follow-up text content below the list section, useful for copyright or other information.
 
-{{Overview image | full width}}
+![image](https://user-images.githubusercontent.com/15643582/146784615-25285f47-013a-45d1-9016-925c267f3807.jpg)
 
 <hr width="40%" />
 
