@@ -1,0 +1,96 @@
+---
+title: Universal banner
+description: Universal banner is used exclusively to feature global and critical announcements. It is the only component that can be positioned above the masthead.
+---
+
+import { ComponentStatus } from 'components/ComponentList';
+import ComponentDescription from 'components/ComponentDescription';
+import ComponentFeedback from 'components/ComponentFeedback';
+
+<ComponentDescription name="Component name" type="layout" />
+
+<!--
+Universal banner is used exclusively to feature global and critical announcements. It is the only component that can be positioned above the masthead.
+-->
+
+<AnchorLinks>
+
+<AnchorLink>Overview</AnchorLink>
+<AnchorLink>Behaviors</AnchorLink>
+<AnchorLink>Modifiers</AnchorLink>
+<AnchorLink>Resources</AnchorLink>
+<AnchorLink>Content guidance</AnchorLink>
+<AnchorLink>Feedback</AnchorLink>
+
+</AnchorLinks>
+
+<!--
+Include additional <AnchorLinks> if you add additional sections within the page. Text must match header text.
+-->
+
+## Overview
+
+Universal banner is intended for high level and critical announcements such as IBM's THINK global event or COVID-19 messaging. The banner is the only component that can be positioned above the masthead. It has a max height to encourage succinct messaging and optional fields for an image, heading, body copy, and CTA.
+
+For non-critical announcements and callouts, use the [Content group banner](https://www.ibm.com/standards/carbon/components/content-group-banner/) component instead.
+
+1. **Image:** Optional image with two size options.
+2. **Heading:** A succinct and optional heading about the announcement.
+3. **Body copy:** A short optional description.
+4. **CTA type:** The optional call to action for the user.
+
+## Behaviors
+
+Note that if the content extends beyond the component's fixed height, the content will be cut off.
+
+### Small breakpoint (sm)
+
+The Universal banner is presented differently at the small breakpoint.
+
+- The image is hidden.
+- The CTA changes from a button to a text link.
+- The entire banner is clickable.
+
+## Modifiers
+
+### Images
+
+Universal banner accommodates two different image size options, one at 4 columns wide and another 8 columns wide for the large, x-large, and max breakpoints.
+
+## Tips and techniques
+
+<!--
+Use this section to explain design decisions and recommendations in more detail. Be sure to include the rationale behind the recommendations.
+
+Examples include:
+— Why the masthead stays white
+— Placement of arrows on cards
+-->
+
+## Resources
+
+<!--
+This section is auto-generated includes mini cards with links to Design specifications, Functional specifications, React Storybook, and Web Components Storybook. Be sure to add the component name below.
+
+<ResourceLinks name="universal banner" type="layout" />
+-->
+
+## Content guidance
+
+<!--
+This section contains a table with the content requirements of the component. Replace the content below with the relevant content guidance for your component.
+
+
+| Element                                                    | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes                                                                               |
+| ---------------------------------------------------------- | ------------ | -------- | --------- | ------------------------------------------- | ----------------------------------------------------------------------------------- |
+| Image                                                      | Media        | No       | 1         | –                                           | Two size options.                                                                                    |
+| Heading                                                    | Text         | No       | 1         | 40 / 55                                     |                                                                                     |
+| Copy                                                       | Text         | No       | 1         | 65 / 85                                     |                  |
+| [CTA](https://www.ibm.com/standards/carbon/components/cta) | Component    | No       | 1         | 20 / 30                                     | Tertiary button, text link on small breakpoint.                                              |
+
+For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
+-->
+
+## Feedback
+
+<ComponentFeedback />
