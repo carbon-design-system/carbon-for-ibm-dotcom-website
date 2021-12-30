@@ -54,8 +54,8 @@
         "notAvailable": false
       }
     },
-    "Card": {
-      "url": "/components/card",
+    "Cards": {
+      "url": "/components/cards",
       "designLink": "https://ibm.box.com/s/hgvu48r1fv2ga2h0yn3qshrtxjc71vch",
       "description": "Cards are considered “workhorse” components because of their versatility. They provide effective calls to action, and the various designs available work with a wide range of content.",
       "storybook": {
@@ -82,7 +82,7 @@
       }
     },
     "Card in card": {
-      "url": "/components/card-in-card",
+      "url": "/components/cards#card-in-card",
       "designLink": "https://ibm.box.com/s/jad2fd65p56odcme9aoy1lgmuo1xaifu",
       "description": "Card in card offers a large media moment, while keeping harmony in a card group.",
       "storybook": {
@@ -109,7 +109,7 @@
       }
     },
     "Card link": {
-      "url": "/components/card-link",
+      "url": "/components/cards#card-link",
       "designLink": "https://ibm.box.com/s/1u2m0fqdtrumog0ie2c4tfyyyn1clyj7",
       "description": "Card link is a CTA styled like a card that acts as the main CTA for a section of content, it typically appears at the end of a block-pattern.",
       "storybook": {
@@ -146,7 +146,7 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
@@ -218,7 +218,7 @@
       }
     },
     "Feature card": {
-      "url": "/components/feature-card",
+      "url": "/components/cards#feature-card",
       "designLink": "https://ibm.box.com/s/292bsxb7tat33ch341u8o4oh6xdx19ct",
       "description": "Feature card is used to emphasize a piece of information with a card on the right-hand side and an image on the left-hand side.",
       "storybook": {
@@ -253,12 +253,12 @@
         "react": ""
       },
       "webcomponents": {
-        "stable": false,
+        "stable": true,
         "experimental": false,
         "new": false,
         "updated": false,
         "deprecated": false,
-        "underConstruction": true,
+        "underConstruction": false,
         "notAvailable": false
       },
       "react": {
@@ -267,8 +267,8 @@
         "new": false,
         "updated": false,
         "deprecated": false,
-        "underConstruction": true,
-        "notAvailable": false
+        "underConstruction": false,
+        "notAvailable": true
       }
     },
     "Footer": {
@@ -325,13 +325,40 @@
         "notAvailable": false
       }
     },
-    "Image": {
-      "url": "/components/image",
+    "Images": {
+      "url": "/components/images",
       "designLink": "https://ibm.box.com/s/zaofzs8ssrfbkgker2lqxyvdnbpxvsly",
       "description": "The Image and the Image with caption components offer two ways to display imagery on the page.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-image--default",
         "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-image--default"
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      }
+    },
+    "Image with caption": {
+      "url": "/components/images#image-with-caption",
+      "designLink": "https://ibm.box.com/s/mclmewshqcme7g6gykepok78rm882a0j",
+      "description": "The Image with caption component is used to embed images and has an optional caption. It can support images at 1x1, 2x1, 4x3 and 16x9 aspect ratios.",
+      "storybook": {
+        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-image-with-caption--default",
+        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-imagewithcaption--default"
       },
       "webcomponents": {
         "stable": true,
@@ -362,36 +389,9 @@
         "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-footer--default-language-only"
       },
       "webcomponents": {
-        "stable": false,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": true,
-        "notAvailable": false
-      },
-      "react": {
         "stable": true,
         "experimental": false,
         "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Image with caption": {
-      "url": "/components/image-with-caption",
-      "designLink": "https://ibm.box.com/s/mclmewshqcme7g6gykepok78rm882a0j",
-      "description": "The Image with caption component is used to embed images and has an optional caption. It can support images at 1x1, 2x1, 4x3 and 16x9 aspect ratios.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-image-with-caption--default",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-imagewithcaption--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": true,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
@@ -419,7 +419,7 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
@@ -431,7 +431,7 @@
         "new": false,
         "updated": false,
         "deprecated": false,
-        "underConstruction": true,
+        "underConstruction": false,
         "notAvailable": false
       }
     },
@@ -513,7 +513,7 @@
         "updated": false,
         "deprecated": false,
         "underConstruction": true,
-        "notAvailable": false
+        "notAvailable": true
       }
     },
     "Link with icon": {
@@ -608,59 +608,6 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Tag link": {
-      "url": "/components/tag-link",
-      "description": "Tag link is a clickable tag that links the topic to another page with more information.",
-      "storybook": {
-        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-tag-link--default",
-        "react": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-tag-link--default"
-      },
-      "webcomponents": {
-        "stable": false,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": true,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Video": {
-      "url": "/components/video",
-      "designLink": "https://ibm.box.com/s/9q7rdj73m32hufcw1xwl1td6nr88rghm",
-      "description": "Video allows you to embed Kaltura videos from the media center in various ways throughout a page.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-video-player--default",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-video-player--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
         "new": false,
         "updated": false,
         "deprecated": false,
@@ -700,11 +647,64 @@
         "new": false,
         "updated": false,
         "deprecated": false,
-        "underConstruction": true,
+        "underConstruction": false,
         "notAvailable": true
       }
     }
   },
+  "Tag link": {
+      "url": "/components/tag-link",
+      "description": "Tag link is a clickable tag that links the topic to another page with more information.",
+      "storybook": {
+        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-tag-link--default",
+        "react": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-tag-link--default"
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": true,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": true
+      }
+    },
+    "Video": {
+      "url": "/components/video",
+      "designLink": "https://ibm.box.com/s/9q7rdj73m32hufcw1xwl1td6nr88rghm",
+      "description": "Video allows you to embed Kaltura videos from the media center in various ways throughout a page.",
+      "storybook": {
+        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-video-player--default",
+        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-video-player--default"
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      }
+    },
   "layout": {
     "Callout quote": {
       "url": "/components/callout-quote",
@@ -717,7 +717,7 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
@@ -745,7 +745,7 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
@@ -772,7 +772,7 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
@@ -799,7 +799,7 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
@@ -826,7 +826,7 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
@@ -838,12 +838,12 @@
         "new": false,
         "updated": false,
         "deprecated": false,
-        "underConstruction": true,
+        "underConstruction": false,
         "notAvailable": false
       }
     },
     "Card section images": {
-      "url": "/components/card-section-images",
+      "url": "/components/card-section#card-section-images",
       "designLink": "https://ibm.box.com/s/u4acyo9oeqya8xidimxtidh8k8y08fza",
       "description": "Card section images is a collection of card components with images that, together, occupy a full-width section with a left-column header.",
       "storybook": {
@@ -853,7 +853,7 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
@@ -878,21 +878,21 @@
         "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-content-block--default"
       },
       "webcomponents": {
-        "stable": false,
+        "stable": true,
         "experimental": false,
         "new": false,
         "updated": false,
         "deprecated": false,
-        "underConstruction": true,
+        "underConstruction": false,
         "notAvailable": false
       },
       "react": {
-        "stable": false,
+        "stable": true,
         "experimental": false,
         "new": false,
         "updated": false,
         "deprecated": false,
-        "underConstruction": true,
+        "underConstruction": false,
         "notAvailable": false
       }
     },
@@ -907,7 +907,34 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      }
+    },
+    "Content block horizontal": {
+      "url": "/components/content-block-horizontal",
+      "designLink": "https://ibm.box.com/s/rv5kmm0a4d9ded74v6yfk8ad5id5ghmx",
+      "description": "Content block horizontal is used to highlight a group of more important pieces of content, such as products or solutions, with more visual weight.",
+      "storybook": {
+        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-group-horizontal--default",
+        "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-content-group-horizontal--default"
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
@@ -934,7 +961,7 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
@@ -961,7 +988,7 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
@@ -988,7 +1015,7 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
@@ -1013,21 +1040,21 @@
         "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-content-group--default"
       },
       "webcomponents": {
-        "stable": false,
+        "stable": true,
         "experimental": false,
         "new": false,
         "updated": false,
         "deprecated": false,
-        "underConstruction": true,
+        "underConstruction": false,
         "notAvailable": false
       },
       "react": {
-        "stable": false,
+        "stable": true,
         "experimental": false,
         "new": false,
         "updated": false,
         "deprecated": false,
-        "underConstruction": true,
+        "underConstruction": false,
         "notAvailable": false
       }
     },
@@ -1069,34 +1096,7 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
         "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Content block horizontal": {
-      "url": "/components/content-block-horizontal",
-      "designLink": "https://ibm.box.com/s/rv5kmm0a4d9ded74v6yfk8ad5id5ghmx",
-      "description": "Content block horizontal is used to highlight a group of more important pieces of content, such as products or solutions, with more visual weight.",
-      "storybook": {
-        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-group-horizontal--default",
-        "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-content-group-horizontal--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": true,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
@@ -1123,7 +1123,7 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
@@ -1150,7 +1150,7 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
@@ -1175,21 +1175,21 @@
         "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-content-item--default"
       },
       "webcomponents": {
-        "stable": false,
+        "stable": true,
         "experimental": false,
         "new": false,
         "updated": false,
         "deprecated": false,
-        "underConstruction": true,
+        "underConstruction": false,
         "notAvailable": false
       },
       "react": {
-        "stable": false,
+        "stable": true,
         "experimental": false,
         "new": false,
         "updated": false,
         "deprecated": false,
-        "underConstruction": true,
+        "underConstruction": false,
         "notAvailable": false
       }
     },
@@ -1229,21 +1229,21 @@
         "react": "http://www.ibm.com/standards/carbon/react/"
       },
       "webcomponents": {
-        "stable": false,
+        "stable": true,
         "experimental": false,
         "new": false,
         "updated": false,
         "deprecated": false,
-        "underConstruction": true,
+        "underConstruction": false,
         "notAvailable": false
       },
       "react": {
-        "stable": false,
+        "stable": true,
         "experimental": false,
         "new": false,
         "updated": false,
         "deprecated": false,
-        "underConstruction": true,
+        "underConstruction": false,
         "notAvailable": false
       }
     },
@@ -1258,7 +1258,7 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
@@ -1312,7 +1312,7 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
@@ -1339,7 +1339,7 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
@@ -1366,7 +1366,7 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
@@ -1420,7 +1420,7 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
@@ -1474,7 +1474,7 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
@@ -1491,7 +1491,7 @@
       }
     },
     "Tabs extended media": {
-      "url": "/components/tabs-extended-media",
+      "url": "/components/tabs-extended#tabs-extended-media",
       "designLink": "https://ibm.box.com/s/3sun8lo3gu2b4uaa4oxgpxrqit1m7t6i",
       "description": "Use this component to interactively reveal related content, or as a gateway to pages with more details.",
       "storybook": {
