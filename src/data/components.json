@@ -54,7 +54,7 @@
         "notAvailable": false
       }
     },
-    "Cards": {
+    "Card": {
       "url": "/components/cards",
       "designLink": "https://ibm.box.com/s/hgvu48r1fv2ga2h0yn3qshrtxjc71vch",
       "description": "Cards are considered “workhorse” components because of their versatility. They provide effective calls to action, and the various designs available work with a wide range of content.",
@@ -325,7 +325,7 @@
         "notAvailable": false
       }
     },
-    "Images": {
+    "Image": {
       "url": "/components/images",
       "designLink": "https://ibm.box.com/s/zaofzs8ssrfbkgker2lqxyvdnbpxvsly",
       "description": "The Image and the Image with caption components offer two ways to display imagery on the page.",
