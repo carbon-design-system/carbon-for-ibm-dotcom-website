@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="320px" viewBox="0 0 320 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>language_selector</title>
+    <g id="language_selector" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#393939" x="71" y="144" width="178" height="32"></rect>
+        <rect id="Rectangle" fill="#8D8D8D" x="71" y="175" width="178" height="1"></rect>
+        <rect id="Rectangle" fill="#8D8D8D" x="83" y="156" width="40" height="8"></rect>
+        <g id="Actions-/-Navigation-/-caret--down-/-16" transform="translate(221.000000, 152.000000)" fill="#C6C6C6">
+            <polygon id="Fill" points="12 6 8 11 4 6"></polygon>
+        </g>
+    </g>
+</svg>

@@ -26,7 +26,7 @@
             </g>
             <rect id="Rectangle-Copy-28" fill="#FFFFFF" x="6" y="44" width="92" height="49"></rect>
             <rect id="Rectangle-Copy-29" fill="#FFFFFF" x="102" y="44" width="92" height="49"></rect>
-            <g transform="translate(180.000000, 7.000000)" id="icon/navigation/close/16-copy-2">
+            <g transform="translate(180.000000, 7.000000)" id="icon/navigation/close/16-copy">
                 <mask id="mask-4" fill="white">
                     <use xlink:href="#path-3"></use>
                 </mask>
@@ -44,25 +44,25 @@
                 <mask id="mask-6" fill="white">
                     <use xlink:href="#path-5"></use>
                 </mask>
-                <use id="icon-color" fill="#6F6F6F" xlink:href="#path-5"></use>
+                <use id="icon-color" fill="#0F62FE" xlink:href="#path-5"></use>
             </g>
             <g transform="translate(12.000000, 79.000000)" id="icons/arrows/ibm-forward-link-copy-15">
                 <mask id="mask-8" fill="white">
                     <use xlink:href="#path-7"></use>
                 </mask>
-                <use id="icon-color" fill="#6F6F6F" xlink:href="#path-7"></use>
+                <use id="icon-color" fill="#0F62FE" xlink:href="#path-7"></use>
             </g>
             <g transform="translate(106.000000, 132.000000)" id="icons/arrows/ibm-forward-link-copy-15">
                 <mask id="mask-10" fill="white">
                     <use xlink:href="#path-9"></use>
                 </mask>
-                <use id="icon-color" fill="#6F6F6F" xlink:href="#path-9"></use>
+                <use id="icon-color" fill="#0F62FE" xlink:href="#path-9"></use>
             </g>
             <g transform="translate(106.000000, 79.000000)" id="icons/arrows/ibm-forward-link-copy-15">
                 <mask id="mask-12" fill="white">
                     <use xlink:href="#path-11"></use>
                 </mask>
-                <use id="icon-color" fill="#6F6F6F" xlink:href="#path-11"></use>
+                <use id="icon-color" fill="#0F62FE" xlink:href="#path-11"></use>
             </g>
         </g>
     </g>
