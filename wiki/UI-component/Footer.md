@@ -41,7 +41,7 @@ _{{backlinks auto populates}}_
 
 - r1: [Box folder](https://ibm.ent.box.com/folder/101562989787)
 - r2:
-  [IBM logo](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/master/packages/styles/icons/svg)
+  [IBM logo](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/tree/main/packages/styles/icons/svg)
 
 <br />
 </details>
