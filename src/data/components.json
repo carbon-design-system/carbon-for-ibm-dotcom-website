@@ -1519,19 +1519,19 @@
     },
     "Universal banner": {
       "url": "/components/universal-banner",
-      "designLink": "https://ibm.box.com/s/3sun8lo3gu2b4uaa4oxgpxrqit1m7t6i",
-      "description": "Use this component to interactively reveal related content, or as a gateway to pages with more details.",
+      "designLink": "https://ibm.box.com/s/fas5qv5zrscudr63y85g28v0k657p83u",
+      "description": "Universal banner is used exclusively to feature global and critical announcements. It is the only component that can be positioned above the masthead.",
       "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-tabs-extended-with-media--default",
+        "webcomponents": "",
         "react": ""
       },
       "webcomponents": {
-        "stable": true,
+        "stable": false,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
-        "underConstruction": false,
+        "underConstruction": true,
         "notAvailable": false
       },
       "react": {
@@ -1541,7 +1541,7 @@
         "updated": false,
         "deprecated": false,
         "underConstruction": true,
-        "notAvailable": true
+        "notAvailable": false
       }
     }
   }
