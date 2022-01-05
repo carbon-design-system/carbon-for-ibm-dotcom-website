@@ -1516,6 +1516,33 @@
         "underConstruction": true,
         "notAvailable": true
       }
+    },
+    "Universal banner": {
+      "url": "/components/universal-banner",
+      "designLink": "https://ibm.box.com/s/3sun8lo3gu2b4uaa4oxgpxrqit1m7t6i",
+      "description": "Use this component to interactively reveal related content, or as a gateway to pages with more details.",
+      "storybook": {
+        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-tabs-extended-with-media--default",
+        "react": ""
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": true,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": true,
+        "notAvailable": true
+      }
     }
   }
 }
