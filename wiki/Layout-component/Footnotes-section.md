@@ -16,6 +16,7 @@ _{{table of contents auto populates}}_
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
 - [[Carbon list]]
+- [[Content section]]
 
 <br />
 </details>
