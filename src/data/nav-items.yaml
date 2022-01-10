@@ -120,6 +120,8 @@
       path: /components/filter-panel
     - title: Footer
       path: /components/footer
+    - title: Footnote section
+      path: /components/footnote-section
     - title: Horizontal rule
       path: /components/horizontal-rule
     - title: Images

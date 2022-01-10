@@ -1301,6 +1301,33 @@
         "notAvailable": true
       }
     },
+    "Footnote section": {
+      "url": "/components/footnote-section",
+      "designLink": "https://ibm.ent.box.com/folder/151933034619",
+      "description": "The Footnote section appears above the Footer and contains a full list of the footnotes used throughout the page",
+      "storybook": {
+        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-footer--default",
+        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-footer--default"
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": true,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": true,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      }
+    },
     "Layout": {
       "url": "/components/layout",
       "designLink": false,
