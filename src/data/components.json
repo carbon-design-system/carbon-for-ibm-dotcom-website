@@ -1516,6 +1516,33 @@
         "underConstruction": true,
         "notAvailable": true
       }
+    },
+    "Universal banner": {
+      "url": "/components/universal-banner",
+      "designLink": "https://ibm.box.com/s/fas5qv5zrscudr63y85g28v0k657p83u",
+      "description": "Universal banner is used exclusively to feature global and critical announcements. It is the only component that can be positioned above the masthead.",
+      "storybook": {
+        "webcomponents": "",
+        "react": ""
+      },
+      "webcomponents": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": true,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": true,
+        "notAvailable": false
+      }
     }
   }
 }
