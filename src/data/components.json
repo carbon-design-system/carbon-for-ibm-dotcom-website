@@ -1310,7 +1310,7 @@
         "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-footer--default"
       },
       "webcomponents": {
-        "stable": true,
+        "stable": false,
         "experimental": false,
         "new": false,
         "updated": true,
