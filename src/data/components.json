@@ -1322,7 +1322,7 @@
         "stable": true,
         "experimental": false,
         "new": false,
-        "updated": true,
+        "updated": false,
         "deprecated": false,
         "underConstruction": false,
         "notAvailable": false
