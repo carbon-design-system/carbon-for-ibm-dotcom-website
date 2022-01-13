@@ -1307,7 +1307,7 @@
       "description": "The Footnote section appears above the Footer and contains a full list of the footnotes used throughout the page.",
       "storybook": {
         "webcomponents": "",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-footer--default"
+        "react": ""
       },
       "webcomponents": {
         "stable": false,
