@@ -1319,7 +1319,7 @@
         "notAvailable": false
       },
       "react": {
-        "stable": true,
+        "stable": false,
         "experimental": false,
         "new": false,
         "updated": false,
