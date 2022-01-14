@@ -38,4 +38,4 @@ _{{backlinks auto populates}}_
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
-- r1: [Resource 1](https://example.com)
+- r1: [Resource 1](https://ibm.ent.box.com/folder/151933034619)
