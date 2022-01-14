@@ -1,4 +1,4 @@
-`Decorator` <!-- category start --><!-- category end -->
+`Decorator` <!-- category start -->_`{{Category auto populates}}`_<!-- category end -->
 
 [[Footnotes]] are used to connect footnote reference in the content and display the full list of footnote references that appeared on the page. The full footnote list appears directly above the [[Footer]] component at the bottom of the page, and uses the [Carbon list] component with additional padding between each link to display links or other notes for each reference. The Footnote references themselves can be dynamically generated based on footnote anchor links entered into the content or manually entered. Can include optional follow-up text content below the list section, useful for copyright or other information.
 
@@ -7,6 +7,8 @@
 <hr width="40%" />
 
 <!-- toc start open="true" depthStart="3" depthEnd="5" -->
+
+_{{table of contents auto populates}}_
 
 <!-- toc end -->
 
@@ -21,9 +23,13 @@
 
 <!-- usedby start -->
 
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start -->
+
+_{{backlinks auto populates}}_
 
 <!-- backlinks end -->
 
@@ -32,4 +38,4 @@
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
-- r1: [Resource 1](https://ibm.ent.box.com/folder/151933034619)
+- r1: [Resource 1](https://example.com)
