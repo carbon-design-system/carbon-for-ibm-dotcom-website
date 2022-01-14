@@ -43,6 +43,8 @@
 
 - title: Guidelines
   pages:
+    - title: Overview
+      path: /guidelines
     - title: Content
       path: /guidelines/content
     - title: Expressive styling
@@ -158,6 +160,8 @@
       path: /components/tabs-extended
     - title: Tag link
       path: /components/tag-link
+    - title: Universal banner
+      path: /components/universal-banner
     - title: Video
       path: /components/video
 
