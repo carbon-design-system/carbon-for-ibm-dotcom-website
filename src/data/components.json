@@ -249,8 +249,8 @@
       "designLink": "https://ibm.box.com/s/19a0hjn61gh3qh59kbgxba43y8uymuqy",
       "description": "The filter panel is a component that can be customized to provide categorized filters to help users trim down large amounts of content, data and/or search results.",
       "storybook": {
-        "webcomponents": "",
-        "react": ""
+        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-filter-panel--default",
+        "react": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-filter-panel--default"
       },
       "webcomponents": {
         "stable": true,
