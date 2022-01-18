@@ -1,5 +1,5 @@
 ---
-title: 2. TBD
+title: 2. Adding out of the box components
 description:
   Welcome to Carbon for IBM.com! This tutorial will guide you in creating an application with Carbon for IBM.com Web
   Components.
@@ -12,30 +12,35 @@ import { Link } from 'gatsby';
 
 <PageDescription>
 
-TBD
+Now that we have an application using the Dotcom Shell, it’s time to include some out of the box components
+from the [Carbon for IBM.com library](https://www.ibm.com/standards/carbon/web-components/?path=/story/overview-getting-started--page)
+in the page. In this step, we’ll become comfortable with various Carbon for IBM.com components.
 
 </PageDescription>
 
 <AnchorLinks>
 
 <AnchorLink>Fork, clone, and branch</AnchorLink>
-<AnchorLink>TBD</AnchorLink>
+<AnchorLink>Component documentation</AnchorLink>
+<AnchorLink>Add Leadspace with Search</AnchorLink>
+<AnchorLink>Add Table of contents - horizontal</AnchorLink>
+<AnchorLink>Add Card section offset</AnchorLink>
+<AnchorLink>Add CTA section with link list</AnchorLink>
 <AnchorLink>Submit pull request</AnchorLink>
 
 </AnchorLinks>
 
 ## Preview
 
-A [preview]() of what you'll build:
+A [preview](https://carbon-design-system.github.io/carbon-for-ibm-dotcom-tutorial/step-3/) of what you'll build:
 
 <Preview
   height="400"
   title="Carbon for IBM.com Tutorial Step 2"
-  src=""
+  src="https://carbon-design-system.github.io/carbon-for-ibm-dotcom-tutorial/step-3/"
   frameborder="no"
   allowtransparency="true"
   allowfullscreen="true"
-  className="bx--iframe bx--iframe--border"
 />
 
 ## Fork, clone, and branch
@@ -56,12 +61,352 @@ git checkout -b web-components-step-2 upstream/web-components-step-2
 
 <InlineNotification>
 
-**Note:** This builds on top of step 1, but be sure to check out the upstream step 2 branch because it includes the
-static assets required to get through this step.
+**Note:** This builds on top of step 1, but be sure to check out the upstream
+step 2 branch because it includes the static assets required to get through
+this step.
 
 </InlineNotification>
 
-TBD
+## Component documentation
+
+In this step, you'll be adding 4 new components to the page; [Leadspace with search](https://www.ibm.com/standards/carbon/web-components/?path=/story/components-lead-space-search--default),
+[Table of contents - horizontal](https://www.ibm.com/standards/carbon/web-components/?path=/story/components-table-of-contents--horizontal),
+[Card section offset](https://www.ibm.com/standards/carbon/web-components/?path=/story/components-card-section-offset--default), and
+[CTA section with link list](https://www.ibm.com/standards/carbon/web-components/?path=/story/components-cta-section--with-link-list). All components have
+implementation details in the linked Storybook Docs tab. The Docs tab has a link to the codesandbox example of each component, props table to showcase different variations possible, and other
+key information. This is a great place to look back to if you're ever stuck.
+
+<InlineNotification>
+
+**Note:** We’ve included the designs for this tutorial app in the `design.jpg`
+file found as a top-level file in the carbon-for-ibm-dotcom-tutorial
+repository. You may notice there are additional components not listed above,
+but dont' worry those additional components we'll be adding in Step 3.
+
+</InlineNotification>
+
+## Add Leadspace with search
+
+First let's incorporate `Leadspace with search` in our page. This can be done in two easy steps.
+
+Import the following into `app.js`:
+
+```javascript path=src/assets/js/app.js
+import '@carbon/ibmdotcom-web-components/es/components/leadspace-with-search/index.js';
+```
+
+Next, add the following code (which you can find in the `Leadspace with search` [Storybook Docs](https://www.ibm.com/standards/carbon/web-components/?path=/docs/components-lead-space-search--default)) within the `<dds-dotcom-shell-container>` tags in `index.html`:
+
+<!-- prettier-ignore-start -->
+```html path=src/index.html
+<div class="bx--grid">
+  <div class="bx--row">
+    <div class="bx--col-lg-8 bx--offset-lg-4 bx--no-gutter">
+      <dds-leadspace-with-search>
+        <dds-leadspace-block-heading slot="heading"
+          >Find analytics services</dds-leadspace-block-heading
+          >
+        <dds-leadspace-block-content slot="content">
+          <dds-leadspace-search-block-heading
+            >Make fast and accurate data-based
+            decisions
+          </dds-leadspace-search-block-heading
+            >
+        </dds-leadspace-block-content>
+        <dds-search-with-typeahead
+          slot="search"
+          leadspace-search></dds-search-with-typeahead>
+      </dds-leadspace-with-search>
+    </div>
+  </div>
+</div>
+```
+<!-- prettier-ignore-end -->
+
+Nice! You have just added the `Leadspace with search` component to the page! But wait...the color of the component doesn't match the design.
+Looking at the props table in the Storybook documentation, there is an `adjacent-theme` property we can pass to the component to adjust the theme.
+
+Let's do that by setting `adjacent-theme="g90-and-g100"` in `dds-leadspace-with-search`:
+
+<!-- prettier-ignore-start -->
+```html path=src/index.html
+  <dds-leadspace-with-search adjacent-theme="g90-and-g100">
+```
+<!-- prettier-ignore-end -->
+
+Now `Leadspace with search` should display the proper theme. Great job! Let's move on to the next component.
+
+## Add Table of contents - horizontal
+
+`Table of contents` is a great component to structure the page. We'll be using the horizontal variation in this step.
+
+Let's add the import to the `app.js` file:
+
+```javascript path=src/assets/js/app.js
+import '@carbon/ibmdotcom-web-components/es/components/table-of-contents/index.js';
+```
+
+Next we'll lay the foundation for the next two components that will be incorporated within the `Table of contents`. Add the following
+below the `Leadspace with search` component.
+
+<!-- prettier-ignore-start -->
+```html path=src/index.html
+  <dds-table-of-contents toc-layout="horizontal" stickyOffset="48">
+    <a name="1" data-title="First Item"></a>
+    <h1>I am the first item in the table of contents</h1>
+  </dds-table-of-contents>
+```
+<!-- prettier-ignore-end -->
+
+You should see the `Table of contents` with one item listed. Each item in the `Table of contents` will need a preceding anchor element
+with a unique `name` and title of the item as`data-title.` That's it!
+
+## Add Card section offset
+
+Now within the `Table of contents`, we'll set up the `Card section offset` component. This component requires image assets that are provided
+in the `src/assets/images` folder.
+
+Import the following in `app.js`:
+
+```javascript path=src/assets/js/app.js
+import '@carbon/ibmdotcom-web-components/es/components/card-section-offset/index.js';
+```
+
+Then replace the following within the `Table of contents`:
+
+<!-- prettier-ignore-start -->
+```html path=src/index.html
+    <a name="1" data-title="First Item"></a>
+    <h1>I am the first item in the table of contents</h1>
+```
+<!-- prettier-ignore-end -->
+
+With the `Card section offset`, noting the anchor element precedding that is included for the `Table of contents`:
+
+<!-- prettier-ignore-start -->
+```html path=src/index.html
+<a name="3" data-title="Main benefits of analytics"></a>
+<dds-card-section-offset>
+  <dds-background-media
+    gradient-direction="left-to-right"
+    mobile-position="top"
+    alt="alt text"
+    default-src="./assets/images/card-section-offset.jpg">
+    <dds-image-item
+      media="(min-width: 620px)"
+      srcset="./assets/images/card-section-offset.jpg">
+    </dds-image-item>
+    <dds-image-item
+      media="(max-width: 619px)"
+      srcset="./assets/images/card-section-offset--sm.jpg">
+    </dds-image-item>
+  </dds-background-media>
+  <dds-content-block-heading slot="heading"
+    >A quick look at the main benefits of
+    analytics
+  </dds-content-block-heading
+    >
+  <dds-text-cta
+    slot="action"
+    cta-type="local"
+    icon-placement="right"
+    href="https://example.com">
+    See the full range of benefits
+  </dds-text-cta>
+  <dds-card-group slot="card-group" cards-per-row="2">
+    <dds-card-group-item empty></dds-card-group-item>
+    <dds-card-group-item cta-type="local" href="https://example.com">
+      <dds-card-eyebrow>Collaboration</dds-card-eyebrow>
+      <dds-card-heading
+        >Connect teams across functions</dds-card-heading
+        >
+      <p>
+        Collaborate in teams across functions to access all trusted data
+        and best-in- class technologies.
+      </p>
+      <dds-card-cta-footer slot="footer"> </dds-card-cta-footer>
+    </dds-card-group-item>
+    <dds-card-group-item cta-type="local" href="https://example.com">
+      <dds-card-eyebrow>Innovation</dds-card-eyebrow>
+      <dds-card-heading
+        >Discover new insights from data</dds-card-heading
+        >
+      <p>
+        Use multiple analytics technologies to learn from data and
+        quickly get new answers for your business.
+      </p>
+      <dds-card-cta-footer slot="footer"> </dds-card-cta-footer>
+    </dds-card-group-item>
+    <dds-card-group-item cta-type="local" href="https://example.com">
+      <dds-card-eyebrow>Fast delivery</dds-card-eyebrow>
+      <dds-card-heading
+        >Accelerate delivery of insights</dds-card-heading
+        >
+      <p>
+        Deliver new insights to your business quickly, and continuously
+        improve them through rapid iteration.
+      </p>
+      <dds-card-cta-footer slot="footer"> </dds-card-cta-footer>
+    </dds-card-group-item>
+  </dds-card-group>
+</dds-card-section-offset>
+```
+<!-- prettier-ignore-end -->
+
+Nice! You now have the `Card section offset` set up! Note that the `Card section offset` utilizes various smaller components
+such as `Background media`, `Card`, `Card Group`, etc which have their own set of properties that can be tweaked. Check out the
+Storybook Docs for them for more information!
+
+## Add CTA section with link list
+
+With the `CTA section` component in particular, we'll be setting up theming that can be applied to a certain component,
+entire sections, or a page. To incorporate the g100 theme to our component, we'll create a class in our `app.scss` file and wrap it around our `CTA section`. For more details you can go to Carbon's
+[theme overview](https://www.carbondesignsystem.com/guidelines/themes/overview/) page. This class, `.dark-theme` can then be used to wrap several components or sections of the page.
+
+```css path=src/assets/scss/app.scss
+.dark-theme {
+  @include carbon--theme($carbon--theme--g100, true);
+
+  background-color: var(--cds-ui-background);
+  color: var(--cds-text-01);
+}
+```
+
+Notice the `'@carbon/themes/scss/themes'` import in the app.scss file, that is where we're pulling the carbon theming tokens from!
+
+Then create a `<div>` element with the `.dark-theme` class to wrap our `CTA section` component. This component is also going to be within the `Table of contents` so remember
+to add the preceding anchor element:
+
+```javascript path=src/assets/js/app.js
+import '@carbon/ibmdotcom-web-components/es/components/cta-section/index.js';
+import '@carbon/ibmdotcom-web-components/es/components/link-list/index.js';
+```
+
+<!-- prettier-ignore-start -->
+```html path=src/index.html
+<a name="5" data-title="Engage an expert"></a>
+<div class="dark-theme">
+  <dds-cta-section>
+    <dds-content-section-heading slot="heading"
+      >Take the next step</dds-content-section-heading
+      >
+    <dds-cta-block no-border>
+      <dds-content-block-heading
+        >Engage an expert</dds-content-block-heading
+        >
+      <dds-content-block-copy
+        >Schedule a one-on-one, no-cost consultation with experts to
+        accelerate your integration of analytics services.
+      </dds-content-block-copy>
+      <dds-text-cta
+        slot="action"
+        cta-type="local"
+        icon-placement="right"
+        href="example.com"
+        >Book a consultation</dds-text-cta
+        >
+      <dds-link-list slot="link-list" type="end">
+        <dds-link-list-heading
+          >More ways to explore IBM analytics services
+        </dds-link-list-heading>
+        <dds-link-list-item href="https://example.com">
+          Events
+          <svg
+            slot="icon"
+            focusable="false"
+            preserveAspectRatio="xMidYMid meet"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            width="20"
+            height="20"
+            viewBox="0 0 20 20">
+            <path
+              d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+          </svg>
+        </dds-link-list-item>
+        <dds-link-list-item href="https://example.com">
+          Blogs
+          <svg
+            slot="icon"
+            focusable="false"
+            preserveAspectRatio="xMidYMid meet"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            width="20"
+            height="20"
+            viewBox="0 0 20 20">
+            <path
+              d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+          </svg>
+        </dds-link-list-item>
+        <dds-link-list-item href="https://example.com">
+          Training
+          <svg
+            slot="icon"
+            focusable="false"
+            preserveAspectRatio="xMidYMid meet"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            width="20"
+            height="20"
+            viewBox="0 0 20 20">
+            <path
+              d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+          </svg>
+        </dds-link-list-item>
+        <dds-link-list-item href="https://example.com">
+          Developer resources
+          <svg
+            slot="icon"
+            focusable="false"
+            preserveAspectRatio="xMidYMid meet"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            width="20"
+            height="20"
+            viewBox="0 0 20 20">
+            <path
+              d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+          </svg>
+        </dds-link-list-item>
+        <dds-link-list-item href="https://example.com">
+          Research
+          <svg
+            slot="icon"
+            focusable="false"
+            preserveAspectRatio="xMidYMid meet"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            width="20"
+            height="20"
+            viewBox="0 0 20 20">
+            <path
+              d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+          </svg>
+        </dds-link-list-item>
+        <dds-link-list-item href="https://example.com">
+          News
+          <svg
+            slot="icon"
+            focusable="false"
+            preserveAspectRatio="xMidYMid meet"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            width="20"
+            height="20"
+            viewBox="0 0 20 20">
+            <path
+              d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+          </svg>
+        </dds-link-list-item>
+      </dds-link-list>
+    </dds-cta-block>
+  </dds-cta-section>
+</div>
+```
+<!-- prettier-ignore-end -->
+
+Great job in setting these components up! In step 3, you'll learn how to build Content block components within the page.
 
 ## Submit pull request
 

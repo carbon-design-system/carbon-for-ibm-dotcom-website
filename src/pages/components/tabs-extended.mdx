@@ -22,11 +22,15 @@ import ResourceLinks from 'components/ResourceLinks';
 
 ## Overview
 
-Tabs extended uses the Carbon Design System's [tabs component](https://carbondesignsystem.com/components/tabs/usage/). On desktop, the component renders as tabs, allowing for large amounts of content to be organized using less vertical space on the page. On mobile, the component renders as an accordion, making it easy to read and access each section while scrolling.
+Tabs are useful for displaying parallel pieces of content that share the same context. It has the additional benefit of reducing screen height, but should be used careful because some information are hidden on load.
 
-Tab labels wrap up to two lines before being truncated. Truncated labels are fully displayed in tooltips on hover and focus.
+Our Tabs extended component references the Carbon Design System's [tabs component](https://carbondesignsystem.com/components/tabs/usage/), and it is built with additional features to optimize for editorial content.
 
 ## Tabs extended
+
+On desktop, Tabs extended renders as tabs. On mobile, the component renders as an accordion, making it easy to read and access each section while scrolling.
+
+Tab labels wrap up to two lines before being truncated. Truncated labels are fully displayed in tooltips on hover and focus.
 
 <Row>
 <Column colMd={8} colLg={8}>
@@ -41,11 +45,27 @@ Tab labels wrap up to two lines before being truncated. Truncated labels are ful
 On mobile, Tabs extended switches to an accordion for easier browsing.
 
 <Row>
-<Column colMd={6} colLg={6}>
+<Column colMd={6} colLg={4}>
+
+![Image of Tabs extended component on `sm`](../../images/component/tabs-extended/components--tabs-extended-3.png)
+
+<Caption>Example of the tabs extended, on mobile</Caption>
+
+</Column>
+</Row>
+
+### Modifiers
+
+#### Orientation
+
+Tabs orientation on desktop can be set to horizontal or vertical. When using the vertical orientation, the tabs are displayed stacked in one column. This allows for longer tab labels.
+
+<Row>
+<Column colMd={8} colLg={8}>
 
 ![Image of Tabs extended component on `sm`](../../images/component/tabs-extended/components--tabs-extended-2.png)
 
-<Caption>Example of the tabs extended, on mobile</Caption>
+<Caption>Example of the tabs extended using vertical orientation</Caption>
 
 </Column>
 </Row>
@@ -67,9 +87,9 @@ For more information, see the [character count standards](https://www.ibm.com/st
 Tabs extended provides an option to include media. It uses [Content item horizontal](/components/content-item-horizontal) with media to create an organized section for displaying content with media. This is useful especially when reducing page length is desired. Keep in mind that when using tabs, some content will be hidden until the user interacts with the component, so they should not be used for information that is considered critical.
 
 <Row>
-<Column colMd={8} colLg={12}>
+<Column colMd={8} colLg={8}>
 
-![Image of Tabs extended with media component](../../images/component/tabs-extended/components--tabs-extended-media-1.jpg)
+![Image of Tabs extended with media component](../../images/component/tabs-extended/components--tabs-extended-media-1.png)
 
 <Caption>Example of the tabs extended media, on desktop</Caption>
 
@@ -79,9 +99,9 @@ Tabs extended provides an option to include media. It uses [Content item horizon
 On mobile, Tabs extended media renders as an accordion for easier browsing.
 
 <Row>
-<Column colMd={4} colLg={6}>
+<Column colMd={4} colLg={4}>
 
-![Image of Tabs extended media component](../../images/component/tabs-extended/components--tabs-extended-media-2.jpg)
+![Image of Tabs extended media component](../../images/component/tabs-extended/components--tabs-extended-media-2.png)
 
 <Caption>Example of the tabs extended media, on mobile</Caption>
 

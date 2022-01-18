@@ -7168,10 +7168,10 @@ gatsby-telemetry@^2.14.0:
     node-fetch "^2.6.1"
     uuid "3.4.0"
 
-gatsby-theme-carbon@2.1.5:
-  version "2.1.5"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-carbon/-/gatsby-theme-carbon-2.1.5.tgz#92a5855d3fbabf8a420f72eea4830e3350c06dbc"
-  integrity sha512-8KRHvmEcIJTE9r5pmVUbp7na5mjNA5z6KaqD0ndQDSId3mZxXDP2VW2a6Dg+OYaGX7nLuf0pr5CcYnblIgMPQg==
+gatsby-theme-carbon@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-carbon/-/gatsby-theme-carbon-2.2.0.tgz#51d2ec459354d68bf53cac7695a4fae1cd95b449"
+  integrity sha512-iaOlsCin0G+Gat2SBzktrJbq5WPBojAQ8+cZaPrliZ0OyrnIrHs4lt2pF7GqHmt/gKfWEono2I2N4S1kBfqKlg==
   dependencies:
     "@babel/core" "^7.14.6"
     "@carbon/elements" "^10.38.0"

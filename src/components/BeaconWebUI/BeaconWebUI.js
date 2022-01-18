@@ -22,7 +22,7 @@ const BeaconWebUI = () => {
       const iframe = document.getElementById('beacon-web-ui-iframe');
       const url = document.getElementById('text-input-1').value;
       fetch(
-        `https://beacon-for-ibm-dotcom-api.herokuapp.com/?raw=true&url=${url}`
+        `https://beacon-for-ibm-dotcom-api.gz4o4xx2g28.us-south.codeengine.appdomain.cloud/?url=${url}`
       )
         .then((response) => response.text())
         .then((data) => {
