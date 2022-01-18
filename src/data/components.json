@@ -385,7 +385,7 @@
       "functionalLink": false,
       "description": "Language selector is for users to select their preferred language on a website. The content on the website will appear in the default language until the users reselect their preferred language then the page content will reload in the reselected language provided a translation is available.",
       "storybook": {
-        "webcomponents": "http://ibmdotcom-web-components-canary.mybluemix.net/?path=/story/components-footer--default-language-only",
+        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-footer--default-language-only",
         "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-footer--default-language-only"
       },
       "webcomponents": {
