@@ -385,7 +385,7 @@
       "functionalLink": false,
       "description": "Language selector is for users to select their preferred language on a website. The content on the website will appear in the default language until the users reselect their preferred language then the page content will reload in the reselected language provided a translation is available.",
       "storybook": {
-        "webcomponents": "http://ibmdotcom-web-components-canary.mybluemix.net/?path=/story/components-footer--default-language-only",
+        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-footer--default-language-only",
         "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-footer--default-language-only"
       },
       "webcomponents": {
@@ -1515,6 +1515,33 @@
         "deprecated": false,
         "underConstruction": true,
         "notAvailable": true
+      }
+    },
+    "Universal banner": {
+      "url": "/components/universal-banner",
+      "designLink": "https://ibm.box.com/s/fas5qv5zrscudr63y85g28v0k657p83u",
+      "description": "Universal banner is used exclusively to feature global and critical announcements. It is the only component that can be positioned above the masthead.",
+      "storybook": {
+        "webcomponents": "",
+        "react": ""
+      },
+      "webcomponents": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": true,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": true,
+        "notAvailable": false
       }
     }
   }
