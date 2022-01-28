@@ -131,7 +131,7 @@ Next, let's take a quick look at the `Card group` component we added in Step 3:
 ```html path=src/index.html
     <dds-card-group>
       <dds-card-group-item cta-type='local' href='https://example.com'>
-        <dds-image slot="image" alt="Image alt text" default-src="./assets/images/WC-tutorial-example--client-story-card1.jpg"></dds-image>
+        <dds-image slot="image" alt="Image alt text" default-src="./assets/images/client-story-card1.jpg"></dds-image>
         <dds-card-eyebrow>IBM Watson Discovery</dds-card-eyebrow>
         <dds-card-heading>Citi Bank transforms internal audit practice</dds-card-heading>
         <!-- tag group here -->
@@ -139,14 +139,14 @@ Next, let's take a quick look at the `Card group` component we added in Step 3:
         </dds-card-cta-footer>
       </dds-card-group-item>
       <dds-card-group-item cta-type='local' href='https://example.com'>
-        <dds-image slot="image" alt="Image alt text" default-src="./assets/images/WC-tutorial-example--client-story-card2.jpg"></dds-image>
+        <dds-image slot="image" alt="Image alt text" default-src="./assets/images/client-story-card2.jpg"></dds-image>
         <dds-card-eyebrow>IBM Cloud Pak</dds-card-eyebrow>
         <dds-card-heading>ING carries out data fabric vision</dds-card-heading>
         <dds-card-cta-footer cta-type='local'>
         </dds-card-cta-footer>
       </dds-card-group-item>
       <dds-card-group-item cta-type='local' href='https://example.com'>
-        <dds-image slot="image" alt="Image alt text" default-src="./assets/images/WC-tutorial-example--client-story-card3.jpg"></dds-image>
+        <dds-image slot="image" alt="Image alt text" default-src="./assets/images/client-story-card3.jpg"></dds-image>
         <dds-card-eyebrow>IBM Cloud Pak for Data</dds-card-eyebrow>
         <dds-card-heading>Innocence tackles neonate mortality rates with AI</dds-card-heading>
         <dds-card-cta-footer cta-type='local'>
@@ -162,7 +162,7 @@ by replacing the `<!-- tag-group -->`:
 <!-- prettier-ignore-start -->
 ```html path=src/index.html
     <dds-card-group-item cta-type='local' href='https://example.com'>
-      <dds-image slot="image" alt="Image alt text" default-src="./assets/images/WC-tutorial-example--client-story-card1.jpg"></dds-image>
+      <dds-image slot="image" alt="Image alt text" default-src="./assets/images/client-story-card1.jpg"></dds-image>
       <dds-card-eyebrow>IBM Watson Discovery</dds-card-eyebrow>
       <dds-card-heading>Citi Bank transforms internal audit practice</dds-card-heading>
       <dds-tag-group>
@@ -353,7 +353,7 @@ Last but not least, we'll be adding `Structured list` following the same method.
 Let's import the final component:
 
 ```javascript path=src/assets/js/app.js
-import 'carbon-web-components/es/components/radio-button/index';
+import 'carbon-web-components/es/components/structured-list/index';
 ```
 
 <!-- prettier-ignore-start -->
@@ -434,7 +434,7 @@ Now that we have these classes set up in our style sheet, let's add a `script` e
 
 <!-- prettier-ignore-start -->
 ```html path=src/index.html
-   <style>
+   <script>
     function changeTheme(event) {
       const { value } = event.detail.item || event.detail;
       document.body.classList.value = value;
@@ -442,7 +442,7 @@ Now that we have these classes set up in our style sheet, let's add a `script` e
     
     document.addEventListener('bx-dropdown-selected', changeTheme)
     document.addEventListener('bx-radio-button-group-changed', changeTheme)
-   </style>
+   </script>
 ```
 <!-- prettier-ignore-end -->
 
