@@ -42,13 +42,6 @@ i {
   }
 }
 
-// Overriding ImageCard size of titles
-.bx--image-card__title {
-  font-size: var(--cds-heading-01-font-size, 0.875rem);
-  line-height: var(--cds-heading-01-line-height, 1.125rem);
-  letter-spacing: var(--cds-heading-01-letter-spacing, 0.16px);
-}
-
 // overriding code style in tables
 td > code {
   white-space: nowrap;

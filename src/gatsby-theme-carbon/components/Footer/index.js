@@ -14,16 +14,17 @@ const CustomFooter = () => {
   const Content = () => (
     <>
       <p>
-        Have questions? Open an issue in{' '}
+        Have questions? <a href="mailto:digdes@us.ibm.com/">Email us</a> for
+        site feedback or open an issue in{' '}
         <a href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/issues/new/choose">
           GitHub
         </a>
         .
       </p>
       <p>
-        Last updated Jan 31, 2022
+        Last updated <span id="last-modified"> </span>
         <br />
-        Copyright &copy; 2021 IBM
+        Copyright &copy; 2022 IBM
       </p>
     </>
   );
@@ -42,6 +43,10 @@ const CustomFooter = () => {
     ],
     secondCol: [
       {
+        href: 'https://medium.com/carbondesign/tagged/carbon-design-system',
+        linkText: 'Medium',
+      },
+      {
         href: 'https://twitter.com/ibmdesign',
         linkText: 'Twitter',
       },
@@ -53,6 +58,26 @@ const CustomFooter = () => {
   };
 
   useEffect(() => {
+    // Auto populate the last modified date
+    const lastModifiedTime = new Date(document.lastModified);
+    const dateOptions = { month: 'long' };
+
+    const month = new Intl.DateTimeFormat('en-US', dateOptions).format(
+      lastModifiedTime
+    );
+    const day = lastModifiedTime.getUTCDate();
+    const year = lastModifiedTime.getUTCFullYear();
+    const hours = lastModifiedTime.getHours();
+    const minutes =
+      lastModifiedTime.getMinutes() < 10
+        ? `0${lastModifiedTime.getMinutes()}`
+        : lastModifiedTime.getMinutes();
+    const ampm = hours >= 12 ? 'PM' : 'AM';
+
+    document.getElementById(
+      'last-modified'
+    ).innerHTML = `${month} ${day}, ${year} at ${hours}:${minutes}${ampm}`;
+
     // Appends the data-autoid for the last footer item
     // eslint-disable-next-line no-undef
     const footer = document.getElementsByTagName('footer');
