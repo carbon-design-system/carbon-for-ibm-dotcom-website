@@ -24,7 +24,7 @@ const CustomFooter = () => {
       <p>
         Last updated <span id="last-modified"> </span>
         <br />
-        Copyright &copy; 2021 IBM
+        Copyright &copy; 2022 IBM
       </p>
     </>
   );
@@ -68,7 +68,10 @@ const CustomFooter = () => {
     const day = lastModifiedTime.getUTCDate();
     const year = lastModifiedTime.getUTCFullYear();
     const hours = lastModifiedTime.getHours();
-    const minutes = lastModifiedTime.getMinutes();
+    const minutes =
+      lastModifiedTime.getMinutes() < 10
+        ? `0${lastModifiedTime.getMinutes()}`
+        : lastModifiedTime.getMinutes();
     const ampm = hours >= 12 ? 'PM' : 'AM';
 
     document.getElementById(
