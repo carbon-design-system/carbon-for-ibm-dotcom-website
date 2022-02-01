@@ -195,6 +195,18 @@ Carbon base styling is applied (IBM Plex Sans font family, font size, weight, co
 Re-compiling all of the Carbon Sass takes a while, even on fast systems. Let's speed this up by moving our custom app
 Sass into a separate file, `app.scss` in the 'src' directory, and import that from `App.js`.
 
+```scss path=src/assets/scss/app.scss
+@import 'carbon-components/scss/globals/scss/css--reset';
+@import '@carbon/type/scss/font-face/mono';
+@import '@carbon/type/scss/font-face/sans';
+@import '@carbon/grid/scss/grid';
+@import '@carbon/themes/scss/themes';
+
+@include carbon--font-face-mono();
+@include carbon--font-face-sans();
+@include carbon--type-reset();
+```
+
 ```javascript path=src/assets/js/app.js
 import '../scss/app.scss';
 ```
