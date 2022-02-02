@@ -1,5 +1,5 @@
 ---
-title: CTA Section
+title: CTA section
 description: CTA section is used to communicate actions that users can take along with some information that is relevant to the actions.
 ---
 
@@ -13,17 +13,17 @@ import ResourceLinks from 'components/ResourceLinks';
 
 <AnchorLink>Resources</AnchorLink>
 <AnchorLink>Overview</AnchorLink>
+<AnchorLink>CTA block</AnchorLink>
+<AnchorLink>CTA section</AnchorLink>
 <AnchorLink>Variants</AnchorLink>
 <AnchorLink>Content guidance</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
 
-<ResourceLinks name="CTA section" type="layout" />
-
 ## Overview
 
-CTA (call-to-action) section is a flexible component that can be configured with a heading, copy, and CTA. This component is typically used at the bottom of a page as the final call to action for the user.
+CTA block is a flexible component that can be configured with a heading, copy, and CTA. CTA section builds on CTA block and adds a content section sub-heading.
 
 <Row>
 <Column colMd={8} colLg={8}>
@@ -33,7 +33,7 @@ CTA (call-to-action) section is a flexible component that can be configured with
 </Column>
 </Row>
 
-CTA section also allows for a collection of various content items or a link list to be added below the primary CTA.
+Both CTA block and CTA section can add a collection of various content items or a link list below the primary CTA.
 
 <Row>
 <Column colMd={8} colLg={8}>
@@ -47,6 +47,38 @@ CTA section also allows for a collection of various content items or a link list
 
 </Column>
 </Row>
+
+### Deciding what to use
+
+| Variants                                  | Use cases                                                                                                                                              |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [CTA block](#cta-block)                   | Heading, introductory copy and CTA(s) this component is typically used at the bottom of a page as the final primary action for the user to take.       |
+| [CTA section](#cta-section)               | CTA section adds a content section heading to CTA block. This is useful when using the horizontal table of contents.                                   |
+| [With content items](#with-content-items) | Both CTA block and CTA section can add various content items: text, media, pictogram or statistics. Each content item can accommodate one to two CTAs. |
+| [With link list](#with-link-list)         | Both CTA block and CTA section can add a link list below the primary CTA.                                                                              |
+
+## CTA block
+
+CTA block combines a heading, copy and CTA(s), this component is typically used at the bottom of a page to guide the user towards the next step in their journey.
+
+### Anatomy
+
+<Row>
+<Column colMd={8} colLg={8}>
+
+![CTA section anatomy image](../../images/component/cta-block/cta-block--anatomy.jpg)
+
+</Column>
+</Row>
+
+1. **Heading:** Descriptive heading.
+2. **Body copy:** Optional body copy can be added for additional description.
+3. **CTA type:** Optional call to action for the user, button or text link can be used.
+4. **Content item or link list:** Optional, add various content items or a link list.
+
+## CTA section
+
+CTA section builds off of CTA block and adds a content section heading in the left most columns. This component is typically used with the Table of contents horizontal.
 
 ### Anatomy
 
@@ -64,17 +96,47 @@ CTA section also allows for a collection of various content items or a link list
 4. **CTA type:** Optional call to action for the user, button or text link can be used.
 5. **Content item or link list:** CTA section allows for adding various content items or a link list.
 
+### Resources for CTA section
+
+<ResourceLinks name="CTA section" type="layout" />
+
 ## Variants
 
-### CTA section with content items
+### With content items
 
-CTA section with content items adds on to CTA section simple, and allows for a variety of content items: text, media, pictogram or statistics.
+This variation adds a collection of content items below the primary content, it could be used to display a list of features, multiple images or videos with descriptions, informative pictograms, or relevant statistics. Each content item can support up to two text style CTAs.
 
-This component could be used to display a list of features, multiple images or videos with descriptions, informative pictograms, or relevant statistics.
+<Row>
+<Column colMd={8} colLg={8}>
 
-### CTA section with link list
+![With content items image](../../images/component/cta-section/cta-section--content-items.jpg)
 
-CTA with link list combines CTA section simple and link list. This component is typically used to collect relevant links at the bottom of a page.
+</Column>
+</Row>
+
+#### Types of content items
+
+<Row>
+<Column colMd={8} colLg={8}>
+
+![With content items image](../../images/component/cta-section/cta-section--content-items-4-up.jpg)
+
+<Caption>From left to right: text, media, pictogram, and statistic.</Caption>
+
+</Column>
+</Row>
+
+### With link list
+
+This variation adds a link list below the primary content and is typically used to collect relevant links or resouces for the user.
+
+<Row>
+<Column colMd={8} colLg={8}>
+
+![With link list image](../../images/component/cta-block/cta-block--link-list.jpg)
+
+</Column>
+</Row>
 
 ## Content guidance
 
