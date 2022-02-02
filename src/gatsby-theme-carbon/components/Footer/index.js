@@ -22,7 +22,7 @@ const CustomFooter = () => {
         .
       </p>
       <p>
-        Last updated Feb 01, 2022
+        Last updated <span id="last-modified"> </span>
         <br />
         Copyright &copy; 2022 IBM
       </p>
@@ -74,9 +74,10 @@ const CustomFooter = () => {
         : lastModifiedTime.getMinutes();
     const ampm = hours >= 12 ? 'PM' : 'AM';
 
-    document.getElementById(
-      'last-modified'
-    ).innerHTML = `${month} ${day}, ${year} at ${hours}:${minutes}${ampm}`;
+    const div = document.getElementById('last-modified');
+    if (div) {
+      div.innerHTML = `${month} ${day}, ${year} at ${hours}:${minutes}${ampm}`;
+    }
 
     // Appends the data-autoid for the last footer item
     // eslint-disable-next-line no-undef
