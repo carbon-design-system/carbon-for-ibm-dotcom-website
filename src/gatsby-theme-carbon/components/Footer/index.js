@@ -22,7 +22,7 @@ const CustomFooter = () => {
         .
       </p>
       <p>
-        Last updated <span id="last-modified"> </span>
+        Last updated Last updated Feb 01, 2022
         <br />
         Copyright &copy; 2022 IBM
       </p>
@@ -58,27 +58,6 @@ const CustomFooter = () => {
   };
 
   useEffect(() => {
-    // Auto populate the last modified date
-    const lastModifiedTime = new Date(document.lastModified);
-    const dateOptions = { month: 'long' };
-
-    const month = new Intl.DateTimeFormat('en-US', dateOptions).format(
-      lastModifiedTime
-    );
-    const day = lastModifiedTime.getUTCDate();
-    const year = lastModifiedTime.getUTCFullYear();
-    const hours = lastModifiedTime.getHours();
-    const minutes =
-      lastModifiedTime.getMinutes() < 10
-        ? `0${lastModifiedTime.getMinutes()}`
-        : lastModifiedTime.getMinutes();
-    const ampm = hours >= 12 ? 'PM' : 'AM';
-
-    const div = document.getElementById('last-modified');
-    if (div) {
-      div.innerHTML = `${month} ${day}, ${year} at ${hours}:${minutes}${ampm}`;
-    }
-
     // Appends the data-autoid for the last footer item
     // eslint-disable-next-line no-undef
     const footer = document.getElementsByTagName('footer');
