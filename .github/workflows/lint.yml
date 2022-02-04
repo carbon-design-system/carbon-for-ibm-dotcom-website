@@ -20,10 +20,11 @@ jobs:
         with:
           token: ${{ secrets.GH_TOKEN }}
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v1
+      - name: Use Node.js 14.x
+        uses: actions/setup-node@v2
         with:
-          node-version: 12
+          node-version: '14.x'
+          cache: yarn
 
       - name: Install Node.js dependencies
         run: yarn install
