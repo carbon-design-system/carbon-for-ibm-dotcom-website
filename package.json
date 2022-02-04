@@ -27,7 +27,7 @@
     "dotenv": "^10.0.0",
     "gatsby": "^3.14.2",
     "gatsby-theme-carbon": "2.2.0",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^2.6.7",
     "prop-types": "^15.7.2",
     "react": "16.8.6",
     "react-dom": "16.8.6",
