@@ -78,11 +78,16 @@
 
 .leadspace-text {
   margin-top: $layout-04;
-  margin-bottom: $layout-05;
+  margin-bottom: $spacing-05;
   @include carbon--type-style('expressive-heading-05', true);
 
   @include carbon--breakpoint-down('md') {
     weight: 300;
+  }
+
+  svg {
+    display: block;
+    margin-top: $spacing-07;
   }
 }
 

@@ -1,31 +1,33 @@
-`Decorator` <!-- category start --><!-- category end -->
+`Decorator` <!-- category start -->_`{{Category auto populates}}`_<!-- category end -->
 
-The [[Footnotes]] component allows the adopter add reference links throughout
-their page content as an anchor link. These anchor links then launches or
-navigates them to the list of notes highlighting the item clicked on.
+[[Footnotes]] are used to connect footnote reference in the content and display the full list of footnote references that appeared on the page. The full footnote list appears directly above the [[Footer]] component at the bottom of the page, and uses the [Carbon list] component with additional padding between each link to display links or other notes for each reference. The Footnote references themselves can be dynamically generated based on footnote anchor links entered into the content or manually entered. Can include optional follow-up text content below the list section, useful for copyright or other information.
 
-![image](https://user-images.githubusercontent.com/3793636/119145372-3025ee00-ba0f-11eb-813d-2fa0103caafb.png)
+![image](https://user-images.githubusercontent.com/15643582/146784615-25285f47-013a-45d1-9016-925c267f3807.jpg)
 
 <hr width="40%" />
 
-<!-- toc start open="true" depthStart="3" depthEnd="5" --><!-- toc end -->
+<!-- toc start open="true" depthStart="3" depthEnd="5" -->
+
+_{{table of contents auto populates}}_
+
+<!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[Markdown utility]]
-- [[Expressive modal]]
+- [[Carbon list]]
+- [[Content section]]
 
 <br />
 </details>
 
-<!-- usedby start open="true" -->
+<!-- usedby start -->
 
 _{{usedby auto populates}}_
 
 <!-- usedby end -->
 
-<!-- backlinks start open="true" -->
+<!-- backlinks start -->
 
 _{{backlinks auto populates}}_
 
@@ -36,14 +38,4 @@ _{{backlinks auto populates}}_
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
-- r1: [Box folder](https://ibm.ent.box.com/folder/125888064064)
-
-<br />
-</details>
-
-<hr width="40%" />
-
-<br />
-
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
-> See box folder <sup>[r1](#resources)</sup> for more details
+- r1: [Resource 1](https://example.com)
