@@ -14,16 +14,16 @@ const CustomFooter = () => {
   const Content = () => (
     <>
       <p>
-        Have questions? Open an issue in{' '}
+        Have questions or site feedback? Reach out in{' '}
         <a href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/issues/new/choose">
           GitHub
         </a>
-        .
+        !
       </p>
       <p>
-        Last updated Jan 12, 2022
+        Last updated Feb 04, 2022
         <br />
-        Copyright &copy; 2021 IBM
+        Copyright &copy; 2022 IBM
       </p>
     </>
   );
@@ -41,6 +41,10 @@ const CustomFooter = () => {
       { href: '#', linkText: '' },
     ],
     secondCol: [
+      {
+        href: 'https://medium.com/carbondesign/tagged/carbon-design-system',
+        linkText: 'Medium',
+      },
       {
         href: 'https://twitter.com/ibmdesign',
         linkText: 'Twitter',
