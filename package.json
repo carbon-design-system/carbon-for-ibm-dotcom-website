@@ -17,7 +17,11 @@
     "postinstall": "husky install",
     "postpublish": "pinst --enable",
     "prepublishOnly": "pinst --disable",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "test:e2e:local": "start-server-and-test 'yarn test:e2e:run' 8080 'cypress run --config video=false --config-file tests/e2e/cypress.json'",
+    "test:e2e:local:with-video": "start-server-and-test 'yarn test:e2e:run' 8080 'cypress run --config-file tests/e2e/cypress.json'",
+    "test:e2e:prod": "cypress run --config video=false --config-file tests/e2e/cypress-prod.json",
+    "test:e2e:run": "http-server -c-1 public --silent"
   },
   "dependencies": {
     "@carbon/icons-react": "^10.27.0",
@@ -38,23 +42,19 @@
     "@babel/plugin-proposal-class-properties": "^7.12.13",
     "@babel/plugin-transform-classes": "^7.12.13",
     "babel-preset-gatsby": "^1.14.0",
+    "cypress": "^9.4.1",
+    "cypress-wait-until": "^1.7.2",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-cypress": "^2.12.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.24.0",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.24.0",
+    "http-server": "^14.1.0",
     "husky": "^7.0.2",
     "lint-staged": "^11.1.2",
-    "prettier": "^2.3.2"
-  },
-  "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "prettier --write"
-    ],
-    "*.{css,scss,json,html,yaml,md,mdx}": [
-      "prettier --write"
-    ]
+    "prettier": "^2.3.2",
+    "start-server-and-test": "^1.14.0"
   }
 }

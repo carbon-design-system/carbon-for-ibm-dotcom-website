@@ -1,0 +1,14 @@
+{
+  "baseUrl": "http://localhost:8080",
+  "browser": "chrome",
+  "headless": true,
+  "fixturesFolder": "tests/e2e/cypress/fixtures",
+  "screenshotsFolder": "tests/e2e/cypress/screenshots",
+  "videosFolder": "tests/e2e/cypress/videos",
+  "integrationFolder": "tests/e2e/cypress/integration",
+  "supportFile": "tests/e2e/cypress/support/index.js",
+  "pluginsFile": "tests/e2e/cypress/plugins/index.js",
+  "testFiles": "**/*.e2e.js",
+  "pageLoadTimeout": 60000,
+  "defaultCommandTimeout": 60000
+}
