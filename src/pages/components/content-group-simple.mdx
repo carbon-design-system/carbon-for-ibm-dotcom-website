@@ -1,8 +1,8 @@
 ---
 title: Content group simple
 description:
-  Content group simple is an alternative form of a narrative pattern where the
-  content is broken up into smaller pieces to make it easier to read.
+  Content group simple is an alternative form of a narrative pattern where the content is broken up into smaller pieces
+  to make it easier to read.
 ---
 
 import ComponentDescription from 'components/ComponentDescription';
@@ -24,9 +24,8 @@ import ResourceLinks from 'components/ResourceLinks';
 
 ## Overview
 
-Content group simple is ideal for grouping content within sections with smaller
-headlines. It includes an optional introductory paragraph, CTA (call-to-action),
-and media (image or video).
+Content group simple is ideal for grouping content within sections with smaller headlines. It includes an optional
+introductory paragraph, CTA (call-to-action), and media (image or video).
 
 ![Default](../../images/pattern/content-group-simple/default.jpg)
 
@@ -34,18 +33,15 @@ and media (image or video).
 
 ## Content guidance
 
-| Field                                                                                                                                                      | Sub-component <br/>field                                                | Field type | Required | Cardinality | Max character size <br/>(English / translated) |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ---------- | -------- | ----------- | ---------------------------------------------- |
-| Headline                                                                                                                                                   |                                                                         | Short copy | Yes      | 1           | XS (65 / 85)                                   |
-| Paragraph                                                                                                                                                  |                                                                         | Long copy  | No       | 1           | XXL (350 / 450)                                |
-| [Image with caption](https://www.ibm.com/standards/carbon/components/image-with-caption) or [Video](https://www.ibm.com/standards/carbon/components/video) |                                                                         | Component  | No       | 1           | –                                              |
-| Content item                                                                                                                                               |                                                                         | Component  | Yes      | 2–6         | –                                              |
-|                                                                                                                                                            | Headline                                                                | Short copy | Yes      | 1           | XS (65 / 85)                                   |
-|                                                                                                                                                            | Paragraph                                                               | Long copy  | Yes      | 1           | XXXXL (1600 / 2400)                            |
-|                                                                                                                                                            | [CTA (text)](https://www.ibm.com/standards/carbon/components/cta/#text) | Component  | No       | 1           | –                                              |
-| [CTA (card)](https://www.ibm.com/standards/carbon/components/cta/#card)                                                                                    |                                                                         | Component  | No       | 1           | –                                              |
+| Element                                                                      | Content type                                                                                                                       | Required | Instances | Character limit <br/>(English / translated) | Notes                                        |
+| ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------- | --------- | ------------------------------------------- | -------------------------------------------- |
+| Heading                                                                      | Text                                                                                                                               | Yes      | 1         | 65 / 85                                     |                                              |
+| Copy                                                                         | Text                                                                                                                               | No       | 1         | 350 / 450                                   |                                              |
+| Media                                                                        | [Image](https://www.ibm.com/standards/carbon/components/images/) or [Video](https://www.ibm.com/standards/carbon/components/video) | No       | 1         | –                                           |                                              |
+| Image alt text                                                               | Text                                                                                                                               | No       | 1         | 75 / 100                                    | Image description for accessibility.         |
+| [Content item](https://www.ibm.com/standards/carbon/components/content-item) | Component                                                                                                                          | Yes      | 2–6       | –                                           |                                              |
+| [CTA](https://www.ibm.com/standards/carbon/components/cta)                   | Component                                                                                                                          | No       | 1         | –                                           | Only card link style and local type allowed. |
 
-For more information, see the
-[character count standards](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards).
+For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
 
 <ComponentFooter name="Content group simple" type="layout" />

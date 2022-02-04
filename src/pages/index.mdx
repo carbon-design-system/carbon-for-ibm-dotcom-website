@@ -1,105 +1,241 @@
-import HomepageTemplate from "gatsby-theme-carbon/src/templates/Homepage";
+import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
 
 export default HomepageTemplate;
 
-### Other resources
+## Getting started
 
-The component libraries give developers a collection of reusable components for
-building websites and user interfaces. See a
-[complete list of resources.](/resources)
+<Row className="resource-card-group feature-card-group">
+<Column colMd={4} colLg={4} noGutterSm>
+    <ImageCard
+      title="Designing"
+      aspectRatio="1:1"
+      href="/designing"
+      actionIcon="arrowRight"
+      titleColor="light"
+      subTitleColor="light"
+      >
+
+![Designing Image](../images/homepage/resource_card_getstarted_designing.png)
+
+  </ImageCard>
+</Column>
+
+<Column colMd={4} colLg={4} noGutterSm>
+    <ImageCard
+      title="Developing"
+      aspectRatio="1:1"
+      href="/developing"
+      actionIcon="arrowRight"
+      titleColor="light"
+      subTitleColor="light"
+      >
+
+![Developing Image](../images/homepage/resource_card_getstarted_developing.png)
+
+  </ImageCard>
+</Column>
+
+<Column colMd={4} colLg={4} noGutterSm>
+    <ImageCard
+      title="Contributing"
+      aspectRatio="1:1"
+      href="/contributing/overview"
+      actionIcon="arrowRight"
+      titleColor="dark"
+      subTitleColor="dark"
+      iconColor="dark"
+      >
+
+![Developing Image](../images/homepage/resource_card_getstarted_contributing.png)
+
+  </ImageCard>
+</Column>
+</Row>
+
+## The Foundations
+
+Carbon for IBM.com is built on strong foundations. Learn how the IBM Web Standards,
+the Carbon Design System, and the IBM Design Language define what's
+possible for your page implementations.
+
+<FeatureCard
+    color="dark"
+    href="https://www.ibm.com/standards/web/"
+    title="IBM Web Standards"
+    actionIcon="arrowRight"
+    className="homepage-feature"
+    >
+
+<ArtDirection>
+
+![Get started for designers](../images/homepage/feature_card_web_standards.png)
+
+![Get started for designers](../images/homepage/feature_card_web_standards.png)
+
+![Get started for designers](../images/homepage/feature_card_web_standards.png)
+
+</ArtDirection>
+
+</FeatureCard>
 
 <Row className="resource-card-group">
   <Column colMd={4} colLg={4} noGutterSm>
     <ResourceCard
-      subTitle="Sketch Theme libraries"
-      actionIcon="arrowRight"
-      href="/resources#carbon"
+      color="dark"
+      title="Carbon Design System"
+      actionIcon="launch"
+      target="_blank"
+      href="https://carbondesignsystem.com/"
       >
 
-![Sketch](./../images/icon/sketch-symbol.svg)
+![Sketch](../images/icon/carbon-color-inverse-icon.svg)
 
 </ResourceCard>
   </Column>
 <Column colLg={4} colMd={4} noGutterSm>
   <ResourceCard
-    subTitle="IBM.com Web Standards"
+    color="dark"
+    title="IBM Design Language"
+    actionIcon="launch"
     target="_blank"
-    href="https://www.ibm.com/standards/web/"
+    href="https://ibm.com/design/language"
     >
 
-![Sketch icon](./../images/icon/bee_icon.svg)
+![Sketch icon](../images/icon/bee-inverse-icon.svg)
+
+</ResourceCard>
+  </Column>
+</Row>
+
+## Resources
+
+<Row className="resource-card-group">
+  <Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      color="dark"
+      title="Sketch kits"
+      actionIcon="arrowRight"
+      href="/designing/sketch-kit"
+      >
+
+![Sketch](../images/icon/sketch-symbol.svg)
+
+</ResourceCard>
+  </Column>
+<Column colLg={4} colMd={4} noGutterSm>
+  <ResourceCard
+    color="dark"
+    title="Figma kit"
+    actionIcon="arrowRight"
+    href="/designing/figma-kit"
+    >
+
+![Sketch icon](../images/icon/figma.svg)
 
 </ResourceCard>
   </Column>
   <Column colMd={4} colLg={4} noGutterSm>
    <ResourceCard
-       subTitle="Carbon for IBM.com Components Repo"
+       color="dark"
+       title="Web components Storybook"
        target="_blank"
-       href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom"
+       href="https://www.ibm.com/standards/carbon/web-components/"
        >
 
-![GitHub icon](./../images/icon/github-icon.svg)
+![GitHub icon](../images/icon/storybook.svg)
 
 </ResourceCard>
   </Column>
 <Column colLg={4} colMd={4} noGutterSm>
   <ResourceCard
-    subTitle="Carbon for IBM.com React Storybook"
+    color="dark"
+    title="React components Storybook"
     target="_blank"
-    href="https://www.ibm.com/standards/carbon/react/?path=/story/overview-get-started--default"
+    href="https://www.ibm.com/standards/carbon/react/"
     >
 
-![React icon](../images/icon/react-icon.svg)
+![React icon](../images/icon/storybook.svg)
 
   </ResourceCard>
 </Column>
 </Row>
 
-### Latest updates
+## Latest news and articles
 
-<Row className="resource-card-group feature-card-group">
-<Column colMd={4} colLg={4} noGutterSm>
-<ResourceCard
-    subTitle="View"
-    title="Roadmap"
-    actionIcon="launch"
-    aspectRatio="1:1"
-    target="_blank"
-    href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom/wiki/Roadmap"
+<Row>
+  <Column colMd={4} colLg={4} noGutterMdLeft>
+    <ArticleCard
+      title="Automating a Design System"
+      author="Jeff Chew"
+      date="Oct 6, 2021"
+      readTime="Read time: 6 min"
+      color="dark"
+      href="https://medium.com/carbondesign/automating-a-design-system-69bd2414f75"
+      actionIcon="arrowRight">
+
+![Article image](../images/homepage/articles-automating.png)
+
+  </ArticleCard>
+  </Column>
+  <Column colMd={4} colLg={4} noGutterMdLeft>
+    <ArticleCard
+      title="Navigating the Browser Blind"
+      author="Ariella Gilmore"
+      date="Sep 14, 2021"
+      readTime="Read time: 4 min"
+      color="dark"
+      href="https://medium.com/carbondesign/navigating-the-browser-blind-520a9ef2d812"
+      actionIcon="arrowRight">
+
+![Article image](../images/homepage/articles-navigating.png)
+
+  </ArticleCard>
+  </Column>
+  <Column colMd={4} colLg={4} noGutterMdLeft>
+    <ArticleCard
+      title="Because, colors are beautiful"
+      author="Shixie"
+      date="Sep 25, 2019
+	"
+      readTime="Read time: 11 min"
+      color="dark"
+      href="https://medium.com/carbondesign/because-colors-are-beautiful-52dd4cc39f09"
+      actionIcon="arrowRight">
+
+![Article image](../images/homepage/articles-colors.jpg)
+
+  </ArticleCard>
+  </Column>
+</Row>
+
+## Community
+
+Our design system is as strong as the community we serve. Connect with us, use our resources,
+contribute back. Let's work together to build great experiences!
+
+<Row className="resource-card-group">
+  <Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      color="dark"
+      title="Slack"
+      actionIcon="arrowRight"
+      href="https://app.slack.com/client/T1GPWGMPT/C2PLX8GQ6"
+      >
+
+![Sketch](../images/icon/slack-mark.svg)
+
+</ResourceCard>
+  </Column>
+<Column colLg={4} colMd={4} noGutterSm>
+  <ResourceCard
+    color="dark"
+    title="GitHub"
+    actionIcon="arrowRight"
+    href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom"
     >
 
-![Automobile Pictogram](../images/icon/automobile.svg)
+![Sketch icon](../images/icon/github-inverse-icon.svg)
 
-  </ResourceCard>
-</Column>
-
-<Column colMd={4} colLg={4} noGutterSm>
-<ResourceCard
-    subTitle="View"
-    title="Release schedule"
-    actionIcon="launch"
-    aspectRatio="1:1"
-    target="_blank"
-    href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/5888"
-    >
-
-![Calendar Pictogram](../images/icon/calendar.svg)
-
-  </ResourceCard>
-</Column>
-
-<Column colMd={4} colLg={4} noGutterSm>
-<ResourceCard
-    subTitle="Join"
-    title="carbon-for-ibm-dotcom"
-    actionIcon="launch"
-    aspectRatio="1:1"
-    target="_blank"
-    href="https://cognitive-app.slack.com/archives/C2PLX8GQ6"
-    >
-
-![Slack Pictogram](../images/icon/slack_pictogram.svg)
-
-  </ResourceCard>
-</Column>
+</ResourceCard>
+  </Column>
 </Row>

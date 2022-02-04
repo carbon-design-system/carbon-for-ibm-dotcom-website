@@ -1,6 +1,8 @@
 `Core` <!-- category start --><!-- category end -->
 
-The [[Filter panel]] is a component made up of different types of [[Filter group]]s and allows the adopter to present and maintain a list and state of filter options.
+The [[Filter panel]] is a component made up of different types of
+[[Filter group]]s and allows the adopter to present and maintain a list and
+state of filter options.
 
 ![image](https://user-images.githubusercontent.com/3793636/119146818-a0813f00-ba10-11eb-8c2c-2f84f667f729.png)
 
@@ -20,14 +22,19 @@ The [[Filter panel]] is a component made up of different types of [[Filter group
 </details>
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -40,4 +47,5 @@ The [[Filter panel]] is a component made up of different types of [[Filter group
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[r1](#resources)</sup> for more details

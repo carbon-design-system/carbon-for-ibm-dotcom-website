@@ -3,9 +3,9 @@ title: Carousel
 description: Carousel is a flexible component that allows users to explore a large amount of content within a limited viewing area.
 ---
 
-import ComponentDescription from "components/ComponentDescription";
-import ComponentFooter from "components/ComponentFooter";
-import ResourceLinks from "components/ResourceLinks";
+import ComponentDescription from 'components/ComponentDescription';
+import ComponentFooter from 'components/ComponentFooter';
+import ResourceLinks from 'components/ResourceLinks';
 
 <ComponentDescription name="Carousel" type="ui" />
 
@@ -19,6 +19,7 @@ import ResourceLinks from "components/ResourceLinks";
 
 <AnchorLink>Resources</AnchorLink>
 <AnchorLink>Overview</AnchorLink>
+<AnchorLink>Content guidance</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
@@ -35,5 +36,11 @@ import ResourceLinks from "components/ResourceLinks";
 </Column>
 </Row>
 
-<ComponentFooter name="Carousel" type="ui" />
+## Content guidance
 
+| Element         | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes                                                                              |
+| --------------- | ------------ | -------- | --------- | ------------------------------------------- | ---------------------------------------------------------------------------------- |
+| Child container | Component    | Yes      | 1         | –                                           | A container area that child components and other content types can be passed into. |
+| Pagination      | Component    | Yes      | 1         | –                                           | Includes numbering and arrow icon buttons.                                         |
+
+<ComponentFooter name="Carousel" type="ui" />

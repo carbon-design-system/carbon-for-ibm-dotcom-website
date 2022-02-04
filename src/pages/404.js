@@ -12,8 +12,14 @@ import {
 
 const links = [
   { href: '/help', text: 'Help' },
-  { href: 'https://ibm-studios.slack.com/archives/C2PLX8GQ6', text: '#carbon-for-ibm-dotcom' },
-  { href: 'https://www.github.com/carbon-design-system/carbon-for-ibm-dotcom', text: 'GitHub Repo' },
+  {
+    href: 'https://ibm-studios.slack.com/archives/C2PLX8GQ6',
+    text: '#carbon-for-ibm-dotcom',
+  },
+  {
+    href: 'https://www.github.com/carbon-design-system/carbon-for-ibm-dotcom',
+    text: 'GitHub Repo',
+  },
 ];
 
 const FourOhFourCustom = () => (
@@ -27,6 +33,7 @@ const FourOhFourCustom = () => (
       {links && (
         <ul className={list}>
           {links.map(({ href, text }, i) => (
+            // eslint-disable-next-line react/no-array-index-key
             <li key={i}>
               <Link className={link} to={href}>
                 {text}

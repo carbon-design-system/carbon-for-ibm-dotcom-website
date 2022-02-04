@@ -1,13 +1,17 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-[[Feature section]] takes up the full 16 columns of the grid, and presents content and a [[CTA]] using a static [[Feature card]] allowing for this component to stand out with its imagery and feature its content.
+[[Feature section]] takes up the full 16 columns of the grid, and presents
+content and a [[CTA]] using a static [[Feature card]] allowing for this
+component to stand out with its imagery and feature its content.
 
 ![image](https://user-images.githubusercontent.com/3793636/121033180-92058800-c771-11eb-8177-44d1528147dd.png)
 
 <hr width="40%" />
 
 <!-- toc start open="true" depthStart="3" depthEnd="5" -->
-*{{table of contents auto populates}}*
+
+_{{table of contents auto populates}}_
+
 <!-- toc end -->
 
 <details open="true">
@@ -20,14 +24,19 @@
 </details>
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -40,4 +49,5 @@
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[r1](#resources)</sup> for more details

@@ -1,6 +1,8 @@
 `Core` <!-- category start --><!-- category end -->
 
-This [[Audio player]] is for embedding within the page. The component should be positioned close to title, description, and other relevant information to set context.
+This [[Audio player]] is for embedding within the page. The component should be
+positioned close to title, description, and other relevant information to set
+context.
 
 ![image](https://user-images.githubusercontent.com/3793636/119145076-e89f6200-ba0e-11eb-9e75-0d7b140217e8.png)
 
@@ -15,14 +17,19 @@ This [[Audio player]] is for embedding within the page. The component should be 
 </details>
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -35,4 +42,5 @@ This [[Audio player]] is for embedding within the page. The component should be 
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[r1](#resources)</sup> for more details

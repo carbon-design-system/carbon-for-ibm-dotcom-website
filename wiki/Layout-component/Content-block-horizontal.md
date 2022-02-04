@@ -1,8 +1,10 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-[[Content block horizontal]] is a decorator block component for displaying [[Content item horizontal]] components in the children container of the [[Content Block]] as a list.
+[[Content block horizontal]] is a decorator block component for displaying
+[[Content item horizontal]] components in the children container of the
+[[Content Block]] as a list.
 
-![image](https://user-images.githubusercontent.com/3793636/119081552-cf23f900-b9c1-11eb-9a33-043534f404e4.png)
+![component--content-block-horizontal](https://user-images.githubusercontent.com/3793636/138486851-4aaa2d46-bd57-4358-8fbf-3ef4d1cb25c2.jpg)
 
 <hr width="40%" />
 
@@ -17,15 +19,20 @@
 <br />
 </details>
 
-<!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+<!-- usedby start -->
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
-<!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+<!-- backlinks start -->
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -38,4 +45,40 @@
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+### 1. Content block
+
+`component`
+
+The [[Content block]] provides us the visual consistency of our other block
+level components. This decorator only uses its `heading`, and `children` options
+where the [[Content item horizontal]] <sup>[2](#2-content-item-horizontal)</sup>
+components will sit in.
+
+#### 1.2 Heading
+
+`required` `string`
+
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See [[Content block]] for more details.
+
+#### 1.2 Children
+
+`required` `container`
+
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See [[Content block]] for more details.
+
+### 2. Content item horizontal
+
+`required` `component`
+
+[[Content item horizontal]] uses the component directly as is, and can display
+**_one or more_** within the [[Content block]] children
+<sup>[1.2](#12-children)</sup> container.
+
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See [[Content item horizontal]] for more details.
+
+###### Example
+
+<img src="https://user-images.githubusercontent.com/3793636/138485114-0f9578da-daea-4b94-99dc-d3e62b3a52ec.gif" width="400px" alt="content-block-horizontal-children" />

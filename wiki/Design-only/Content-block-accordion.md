@@ -1,6 +1,10 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-The [[Content block accordion]] is made up of a [[Content block]] with an [[Accordion]] as its child. The [[Content block]] headline provides the content with an overarching topic, and the [[Accordion]] allows for a large amount of content to be shown or hidden within a small amount of space within a more specific context of the overarching topic.
+The [[Content block accordion]] is made up of a [[Content block]] with an
+[[Accordion]] as its child. The [[Content block]] headline provides the content
+with an overarching topic, and the [[Accordion]] allows for a large amount of
+content to be shown or hidden within a small amount of space within a more
+specific context of the overarching topic.
 
 ![image](https://user-images.githubusercontent.com/3793636/119144701-8a727f00-ba0e-11eb-8991-c12a7f182215.png)
 
@@ -18,14 +22,19 @@ The [[Content block accordion]] is made up of a [[Content block]] with an [[Acco
 </details>
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -38,4 +47,5 @@ The [[Content block accordion]] is made up of a [[Content block]] with an [[Acco
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[r1](#resources)</sup> for more details

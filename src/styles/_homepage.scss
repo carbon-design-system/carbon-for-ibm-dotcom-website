@@ -1,7 +1,4 @@
 .container--homepage {
-  background: $carbon--gray-10;
-  color: $carbon--black-100;
-
   a.bx--link {
     color: $interactive-04;
   }
@@ -17,11 +14,11 @@
       padding-top: 0;
     }
 
-    @include carbon--breakpoint("lg") {
+    @include carbon--breakpoint('lg') {
       padding-left: calc(25% + 1.5rem);
     }
 
-    @include carbon--breakpoint("max") {
+    @include carbon--breakpoint('max') {
       padding-left: 400px;
     }
   }
@@ -39,9 +36,9 @@
 }
 
 //make sure content is above dots
-.container--homepage div[class*="Main-module--main"],
-.container--homepage div[class*="Callout-module--grid"],
-.container--homepage div[class*="NextPrevious-module--wrapper"] {
+.container--homepage div[class*='Main-module--main'],
+.container--homepage div[class*='Callout-module--grid'],
+.container--homepage div[class*='NextPrevious-module--wrapper'] {
   position: relative;
   z-index: 2;
 }

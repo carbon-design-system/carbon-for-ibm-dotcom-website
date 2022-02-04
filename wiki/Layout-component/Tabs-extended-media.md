@@ -1,6 +1,7 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-[[Tabs extended media]] depends on the [[Tabs extended]] component and structures its content using the [[Content item horizontal]] component.
+[[Tabs extended media]] depends on the [[Tabs extended]] component and
+structures its content using the [[Content item horizontal]] component.
 
 ![image](https://user-images.githubusercontent.com/3793636/119085569-9b4cd180-b9c9-11eb-90bc-0edac990d8a5.png)
 
@@ -18,14 +19,19 @@
 </details>
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -38,4 +44,5 @@
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[r1](#resources)</sup> for more details

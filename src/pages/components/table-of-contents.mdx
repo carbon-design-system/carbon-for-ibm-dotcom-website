@@ -3,9 +3,9 @@ title: Table of contents
 description: The Table of contents allows users to quickly navigate through long pages by providing jump links to different sections of the content within a single page.
 ---
 
-import ComponentDescription from "components/ComponentDescription";
-import ComponentFooter from "components/ComponentFooter";
-import ResourceLinks from "components/ResourceLinks";
+import ComponentDescription from 'components/ComponentDescription';
+import ComponentFooter from 'components/ComponentFooter';
+import ResourceLinks from 'components/ResourceLinks';
 
 <ComponentDescription name="Table of contents" type="layout" />
 
@@ -14,6 +14,7 @@ import ResourceLinks from "components/ResourceLinks";
 <AnchorLink>Resources</AnchorLink>
 <AnchorLink>Overview</AnchorLink>
 <AnchorLink>Variations</AnchorLink>
+<AnchorLink>Content guidance</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
@@ -37,19 +38,22 @@ The Table of contents (ToC) component renders as left navigation that includes a
 ![Image of Table of contents component usecase](../../images/component/table-of-contents/table-of-content-default-use-case.jpg)
 
 **When to use:**
-* When the page length is long and requires a lot of scrolling.
-* When users need to know what is included in a page, the table of contents can serve as an outline or summary of the page content.
-* When users need to navigate to a specific section on the page quickly.
+
+- When the page length is long and requires a lot of scrolling.
+- When users need to know what is included in a page, the table of contents can serve as an outline or summary of the page content.
+- When users need to navigate to a specific section on the page quickly.
 
 **When not to use:**
-* When a page is relatively short and the user will not have to scroll very far.
-* When users need to read all the content in a specific order.
+
+- When a page is relatively short and the user will not have to scroll very far.
+- When users need to read all the content in a specific order.
 
 <br />
 
 ## Variations
 
 ### Vertical with heading content
+
 This variation only applies to the vertical Table of Contents (ToC). The area above the Table of contents can be utilized in many ways—showing navigational links, the page title, or an image.
 
 <Row>
@@ -64,12 +68,11 @@ This variation only applies to the vertical Table of Contents (ToC). The area ab
 
 ![Image of With heading content variation usecase](../../images/component/table-of-contents/table-of-content-with-heading-content-use-case.jpg)
 
-
 ### Horizontal
+
 The horizontal variation lays the table of content navigation links into a row. When present, it sticks to the top of the page while scrolling. It then replaces the masthead sticky navigation when the top of its container meets the top of the window.
 
 ![Image of Horizontal variation](../../images/component/table-of-contents/table-of-contents-horizontal.jpg)
-
 
 <Title>Use case</Title>
 
@@ -77,12 +80,21 @@ The horizontal variation lays the table of content navigation links into a row. 
 
 **When to use:**
 
-* Your experience needs to use full width section components or the first 4 columns of the 2x grid.
-* The table of contents needs to be used across alternating full width themed sections throughout a page.
+- Your experience needs to use full width section components or the first 4 columns of the 2x grid.
+- The table of contents needs to be used across alternating full width themed sections throughout a page.
 
 **When not to use:**
 
-* The horizontal version should not be used with a center aligned lead space because the text alignment disrupts the users reading flow, consider using the vertical version with Lead space centered or Lead space block.
+- The horizontal version should not be used with a center aligned lead space because the text alignment disrupts the users reading flow, consider using the vertical version with Lead space centered or Lead space block.
 
+## Content guidance
+
+| Element         | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes                                                                              |
+| --------------- | ------------ | -------- | --------- | ------------------------------------------- | ---------------------------------------------------------------------------------- |
+| Child container | Component    | No       | 1         | –                                           | A container area that child components and other content types can be passed into. |
+| Anchor link     | Link         | Yes      | 3–7       | 25 / 35                                     | Character count applies to TOC heading overrides.                                  |
+| Orientation     | Option list  | Yes      | 1         | –                                           | Vertical or horizontal.                                                            |
+
+For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
 
 <ComponentFooter name="Table of contents" type="layout" />

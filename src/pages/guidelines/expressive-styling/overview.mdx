@@ -1,160 +1,156 @@
 ---
 title: Expressive styling
-description: These pages explain everything you need to know about expressive styling for IBM.com pages. 
+description: These pages explain everything you need to know about expressive styling for IBM.com pages.
 tabs: ['Overview', 'Styling strategies', 'Type pairing']
 ---
 
 <PageDescription>
 
-These pages explain everything you need to know about expressive styling for IBM.com pages. 
+These pages explain everything you need to know about expressive styling for IBM.com pages.
 
 </PageDescription>
 
 <AnchorLinks>
 
-<AnchorLink>Coming soon</AnchorLink>
+<AnchorLink>Recent updates for expressive</AnchorLink>
 <AnchorLink>What is expressive styling?</AnchorLink>
-<AnchorLink>Expressive theme availability</AnchorLink>
-<AnchorLink>How the Expressive theme works</AnchorLink>
-<AnchorLink>Resources</AnchorLink>
+<AnchorLink>Type sizes and styles</AnchorLink>
+<AnchorLink>Icon sizes</AnchorLink>
+<AnchorLink>Component sizes</AnchorLink>
 
 </AnchorLinks>
 
-## Coming soon
+## Recent updates for expressive
 
-The Carbon for IBM.com and Carbon teams are currently working to consolidate foundational assets into the one core library. 
+#### Asset consolidation
 
-| Asset                           | What's changing                       |
-| ------------------------------- | ------------------------------------- |
-| _Carbon for IBM.com design kits_ | New design kits, in both Figma and Sketch, are currently in development. The kits will be available in all four themes and will include color tokens by theme, expressive and productive typestyles, and key components from the Carbon for IBM.com library.       |
-| _Button, Link, List_            | These three core components will be added as expressive variants to the core Carbon library and will be available in the Carbon Sketch kit and Carbon repos from v11 forward. These components will also be in the new Carbon for IBM.com design kits, which will be available soon.        |
-| _Type token names_              | The type token names are currently being updated to aid understanding and use. They will be updated in the Carbon v11 release, and we will provide updates when they're available in Carbon for IBM.com kits.      |
+The Carbon for IBM.com and Carbon teams have been working to consolidate foundational assets, including expressive and productive type sizes, into Carbon Design System’s core library. As the final step in this work, we removed the expressive wrapper in v1.25.0 (27 Sep 2021). [Learn more](../../whats-happening/expressive-update).
 
-We will post updates, including next steps for using the core library assets. 
+#### New design kits
+
+We have been working on new design kits, in both Figma and Sketch. We’re releasing the kits iteratively and the [first versions](../../whats-happening/expressive-update#what-does-this-mean-for-designers) are available now. They include color tokens, and expressive and productive type styles. We’ll be adding key components from the Carbon for IBM.com library over time.
+
+#### Expressive variants in the Carbon core library
+
+The Button, Link, and List core components have been available as expressive variants in the Carbon repo since Carbon v10.35 and will be available in the Carbon Sketch kit from v11 forward. We will also be adding these components to the new Carbon for IBM.com design kits.
 
 ## What is expressive styling?
 
 Expressive styling has been carefully designed and curated to serve people visiting IBM.com. It features larger type sizes and a more editorial approach to allows users to scan, read, and navigate multiple pages with comfort and ease. Specifically, expressive styling supports the following needs:
 
-- Users are trying to learn and explore, and are primarily scanning and reading. 
+- Users are trying to learn and explore, and are primarily scanning and reading.
 - Interactions are more passive through impactful imagery, layout, and long form reading.
-- Users typically traverse a series of pages during one session. 
-- Key performance indicators consider success in terms of click-through rates and final purchases. 
+- Users typically traverse a series of pages during one session.
+- Key performance indicators consider success in terms of click-through rates and final purchases.
 
 Given these needs and interaction behaviors, the expressive styles are optimized to improve content hierarchy, visual engagement, and set clear expectations as user goes from page to page.
 
-We've created detailed usage guidance for working with the productive and expressive type sets, explaining and illustrating where blending of the type sets can enhance experiences. Learn more on the [Styling strategies](../expressive-styling/styling-strategies) tab. 
+Expressive styling is used primarily for web pages and productive styling is used primarily for products. It's important to understand the differences between the two stylistic expressions so that you can make informed choices when you encounter the different styles. See the [Styling strategies](../expressive-styling/styling-strategies) tab to learn how to choose a style.
 
-## Expressive theme availability
+## Type sizes and styles
 
-<InlineNotification kind="warning">
+#### Type sizes
 
-**Note:** The Expressive theme is being integrated into Carbon Design System’s core library, and so expressive and productive styling will be available from one library source. After this change, the Expressive theme will no longer be maintained. <a href="../../help/expressive-update">Learn more about this change</a>.
+The expressive type styles are primarily used for web pages and the larger sizes allow for a more dramatic, graphic use of type in editorial and marketing design. These type styles are excellent for long form reading and scanning, but would be distracting for use in product.
 
-</InlineNotification>
-
-The Expressive theme is our initial attempt at achieving expressive styling. It works as a wrapper on top of Carbon's core library, and is enabled in in Carbon for IBM.com (starting in v1.10.0) by default, to guarantee consistency across all IBM.com experiences. 
-
-The Expressive theme is also available as its own offering within the Carbon for IBM.com styles package (available in `v1.9.0`). Read more about how to implement the expressive theme [within any non-IBM.com applications](https://carbon-expressive.mybluemix.net).
-
-As mentioned above, this current approach is changing soon. We will provide more details to ensure your transition is seamless.
-
-## How the Expressive theme works
-
-### Type scale
-
-The Expressive theme increases Carbon Design System’s base type size of 14px to 16px and systematically increased the other type sizes within the system.
+The productive type set is primarily used within product spaces, where users benefit from a more condensed treatment of content to maintain focus on tasks.
 
 <Row>
 <Column colMd={8} colLg={8}>
 
-![Base type size change](../../../images/guidelines/expressive-theme/type-size.png)
+![Base type size difference](../../../images/guidelines/expressive-theme/compare-body2.png)
+
+<Caption>
+  The productive base type size is 14px and the expressive base type size is
+  16px.
+</Caption>
 
 </Column>
 </Row>
 
+<br />
 
-#### Type token differences
+#### Smaller styles
 
-The following table shows the differences between the default Carbon tokens and the tokens used by the expressive theme.
+Within **Body styles** and **Supporting styles**, the same set of styles are offered. Productive styles are named with a suffix of `-01` and expressive style names have a suffix of `-02`.
 
-| Type token | Carbon default scale (size/line-height) | Carbon Expressive scale (size/line-height) |
-|:---|:---|:---|
-|`$code-01`|12px / 16px|14px / 20px|
-|`$code-02`|14px / 20px|16px / 24px|
-|`$caption-01`|12px / 16px|14px / 18px|
-|`$label-01`|12px / 16px|14px / 18px|
-|`$helper-text-01`|12px / 16px|14px / 18px|
-|`$body-short-01`|14px / 18px|16px / 22px|
-|`$body-long-01`|14px / 20px|16px / 24px|
-|`productive-heading-01`|14px / 18px|16px / 22px|
+| Usage             | Productive       | Expressive       |
+| ----------------- | ---------------- | ---------------- |
+| Code              | `$code-01`       | `$code-02`       |
+| Label             | `$label-01`      | `$label-02`      |
+| Body copy         | `$body-long-01`  | `$body-long-02`  |
+| Compact body copy | `$body-short-01` | `$body-short-02` |
 
-
-### Icons
-
-To match the increased type size, the standard 16px by 16px icon size for Carbon's 14px base type has increased to 20px by 20px for the 16px base type in the Expressive theme.
+As you can see in the following image, the line heights increase to accommodate the larger expressive type sizes.
 
 <Row>
 <Column colMd={8} colLg={8}>
 
-![Icon size change](../../../images/guidelines/expressive-theme/icon-size.png)
+![Comparison of expressive and productive type styles](../../../images/guidelines/expressive-theme/compare-typestyles.png)
+
+<Caption>
+  Comparison of different line heights for expressive and productive styles
+</Caption>
 
 </Column>
 </Row>
 
+<br />
 
-#### Icon token differences
+#### Heading styles
 
-| Icon token | Productive scale | Expressive scale |
-|:---|:---|:---|
-|`$icon-01`|16px|20px|
-|`$icon-02`|20px|20px|
-
-
-### Containers
-
-Container sizes were increased systematically to accommodate the larger type sizes. The default container size for most components increased from 40px to 48px.
+The expressive heading styles have a larger line height than productive. The pixel size is the same between each but the line height increases.
 
 <Row>
 <Column colMd={8} colLg={8}>
 
-![Container size change](../../../images/guidelines/expressive-theme/container-size.png)
+![Comparison of expressive and productive type styles](../../../images/guidelines/expressive-theme/compare-headings.png)
+
+<Caption>Comparison of productive and expressive heading styles</Caption>
 
 </Column>
 </Row>
+
+The smaller expressive headings are fixed but from `$expressive-heading-03` upward the headings are responsive, or fluid. This means they change size at different breakpoints. By comparison, all of the headings in the productive type set are fixed.
+
+For a complete list of type styles, see the <a href="https://www.carbondesignsystem.com/guidelines/typography/overview/" target="_blank" rel="noopener noreferrer"> Typography guidelines</a> on the Carbon Design System site.
+
+## Icon sizes
+
+The icon sizes between expressive and productive have been designed to match the type size and line height of each type style.
+
+In expressive situations, use 20px by 20px icons to match the larger type sizes. In productive situations, the icon sizes are generally 16px by 16px, with some exceptions where the icons may be 20px by 20px.
 
 <Row>
 <Column colMd={8} colLg={8}>
 
-![Component change examples](../../../images/guidelines/expressive-theme/component-examples.png)
+![Icon size change](../../../images/guidelines/expressive-theme/compare-icon.png)
+
+<Caption>Comparison of productive and expressive icon sizes</Caption>
 
 </Column>
 </Row>
 
-#### Container token differences
+## Component sizes
 
-| Container token | Productive scale | Expressive scale |
-|:---|:---|:---|
-|`$container-01`|24px|32px|
-|`$container-02`|32px|40px|
-|`$container-03`|40px|48px|
-|`$container-04`|48px|48px|
-|`$container-05`|64px|72px|
+Component sizes also increase to accommodate the larger expressive type styles, as shown below with the link, list, and button components.
 
+<Row>
+<Column colMd={8} colLg={8}>
 
-## Resources
+![Component comparison](../../../images/guidelines/expressive-theme/compare-components.png)
 
-<Row className="resource-card-group">
-<Column colMd={4} colLg={4} noGutterSm>
-    <ResourceCard
-      subTitle="Carbon Design System with the Expressive theme"
-      aspectRatio="2:1"
-      actionIcon="arrowRight"
-      href="https://carbon-expressive.mybluemix.net"
-      >
+<Caption>
+  Comparison of link, list, and button in productive and expressive stylings
+</Caption>
 
-![React icon](../../../images/icon/react-icon.svg)
-
-</ResourceCard>
 </Column>
 </Row>
+
+<br />
+
+#### Exceptions for highly interactive components
+
+Where components are highly interactive in nature, we recommend always using productive styling. Components that require higher focus and more active interactions from users are best presented with an efficiency of space. The components include Accordion, Filter panel, Mega menu, and Tabs.
+
+There are some situations where you can blend both stylings and we’ve created detailed usage guidance for working with the productive and expressive type sets on the [Styling strategies](../expressive-styling/styling-strategies) tab.

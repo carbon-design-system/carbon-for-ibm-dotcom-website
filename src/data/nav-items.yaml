@@ -1,12 +1,21 @@
 - title: About Carbon for IBM.com
   pages:
-    - title: About
+    - title: About us
       path: /about-carbon-for-ibm.com/about
-    - title: What we provide
-      path: /about-carbon-for-ibm.com/what-we-provide
+    - title: Adopting the system
+      path: /about-carbon-for-ibm.com/adopting
+- title: What’s happening
+  pages:
+    - title: Expressive styles in Carbon
+      path: /whats-happening/expressive-update
 - title: Designing
   pages:
-    - path: /designing
+    - title: Get started
+      path: /designing
+    - title: Sketch kit
+      path: /designing/sketch-kit
+    - title: Figma kit
+      path: /designing/figma-kit
 - title: Developing
   pages:
     - title: Get started
@@ -19,6 +28,8 @@
       path: /developing/building-for-ibm-dotcom
     - title: Carbon CDN style helpers
       path: /developing/carbon-cdn-style-helpers
+    - title: Web Components tutorial
+      path: /developing/web-components-tutorial/overview
 
 - title: Contributing
   pages:
@@ -42,12 +53,12 @@
       path: /guidelines/expressive-styling/overview
     - title: Layout
       path: /guidelines/layout
-    - title: Right-to-left language
+    - title: Right-to-left languages
       path: /guidelines/right-to-left
     - title: Spacing
       path: /guidelines/spacing
     - title: Style models
-      path: /guidelines/style-models/overview
+      path: /guidelines/style-models
 
 - title: Components
   pages:
@@ -69,6 +80,8 @@
       path: /components/card-section-carousel
     - title: Carousel
       path: /components/carousel
+    - title: Content block
+      path: /components/content-block
     - title: Content block cards
       path: /components/content-block-cards
     - title: Content block horizontal
@@ -79,6 +92,8 @@
       path: /components/content-block-segmented
     - title: Content block simple
       path: /components/content-block-simple
+    - title: Content group
+      path: /components/content-group
     - title: Content group banner
       path: /components/content-group-banner
     - title: Content group cards
@@ -87,8 +102,12 @@
       path: /components/content-group-pictograms
     - title: Content group simple
       path: /components/content-group-simple
+    - title: Content item
+      path: /components/content-item
     - title: Content item horizontal
       path: /components/content-item-horizontal
+    - title: Content section
+      path: /components/content-section
     - title: CTA
       path: /components/cta
     - title: CTA section
@@ -143,6 +162,8 @@
       path: /components/tabs-extended
     - title: Tag link
       path: /components/tag-link
+    - title: Universal banner
+      path: /components/universal-banner
     - title: Video
       path: /components/video
 

@@ -1,6 +1,7 @@
 `Core` <!-- category start --><!-- category end -->
 
-The [[Back to top]] button is a fixed button that when clicked on will navigate the user back up to the top of the page.
+The [[Back to top]] button is a fixed button that when clicked on will navigate
+the user back up to the top of the page.
 
 ![image](https://user-images.githubusercontent.com/3793636/119054223-e399ce80-b98c-11eb-9061-cb9c0d4e3463.png)
 
@@ -17,14 +18,19 @@ The [[Back to top]] button is a fixed button that when clicked on will navigate 
 </details>
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -37,4 +43,5 @@ The [[Back to top]] button is a fixed button that when clicked on will navigate 
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[r1](#resources)</sup> for more details

@@ -1,6 +1,8 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-The [[Card section carousel]] combines the [[Content section]], [[Carousel]] components, and [[CTA]] [[Card]]s into a single section decorator that is made up of [[Card]]s for the user to page throw.
+The [[Card section carousel]] combines the [[Content section]], [[Carousel]]
+components, and [[CTA]] [[Card]]s into a single section decorator that is made
+up of [[Card]]s for the user to page throw.
 
 ![image](https://user-images.githubusercontent.com/3793636/119081178-13fb6000-b9c1-11eb-98fc-3ddfff43dad4.png)
 
@@ -19,14 +21,19 @@ The [[Card section carousel]] combines the [[Content section]], [[Carousel]] com
 </details>
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -39,4 +46,5 @@ The [[Card section carousel]] combines the [[Content section]], [[Carousel]] com
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[r1](#resources)</sup> for more details

@@ -1,6 +1,8 @@
 `Core` <!-- category start --><!-- category end -->
 
-This [[Quote]] is a block level component meant to share a snippet of something someone said. This format is a freestanding quote. It hangs the quotations marks, and has different options to handle translations.
+This [[Quote]] is a block level component meant to share a snippet of something
+someone said. This format is a freestanding quote. It hangs the quotations
+marks, and has different options to handle translations.
 
 ![image](https://user-images.githubusercontent.com/3793636/119056706-c49d3b80-b990-11eb-8bb0-d899a93f5ca9.png)
 
@@ -17,14 +19,19 @@ This [[Quote]] is a block level component meant to share a snippet of something 
 </details>
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -37,4 +44,5 @@ This [[Quote]] is a block level component meant to share a snippet of something 
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[r1](#resources)</sup> for more details

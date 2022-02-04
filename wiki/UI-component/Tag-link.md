@@ -1,6 +1,10 @@
 <!-- category start --><!-- category end -->
 
-[[Tag link]] is a short visually contained word or two. It usually indicates some sort of category that can be interacted with as a link or a button to take some sort of action upon (e.g. filtering). While heavily influenced by [[Carbon tag]], this component deviates in functionality and some basic visual differences.
+[[Tag link]] is a short visually contained word or two. It usually indicates
+some sort of category that can be interacted with as a link or a button to take
+some sort of action upon (e.g. filtering). While heavily influenced by
+[[Carbon tag]], this component deviates in functionality and some basic visual
+differences.
 
 ![image](https://user-images.githubusercontent.com/3793636/119057045-62910600-b991-11eb-9026-aff8fd543f0b.png)
 
@@ -15,14 +19,19 @@
 </details>
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -35,4 +44,5 @@
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[r1](#resources)</sup> for more details

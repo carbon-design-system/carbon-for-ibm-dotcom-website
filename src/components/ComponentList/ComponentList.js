@@ -1,108 +1,104 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { Tag } from "carbon-components-react";
-import components from "../../data/components.json";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Tag } from 'carbon-components-react';
+import { Link } from 'gatsby';
+import components from '../../data/components.json';
 
 /**
  * Defined available tags for the components
  * @type {{new: *, stable: *, deprecated: *, experimental: *, underConstruction: *, updated: *, notAvailable: *}}
  * @private
  */
-const _tags = {
+const tags = {
   stable: <Tag type="green">Stable</Tag>,
   experimental: <Tag type="teal">Experimental</Tag>,
   new: <Tag type="purple">New</Tag>,
   updated: <Tag type="blue">Updated</Tag>,
   deprecated: <Tag type="red">Deprecated</Tag>,
   underConstruction: <Tag type="cool-gray">Under construction</Tag>,
-  /*notAvailable: <span className="component-list--unavailable">–</span>,*/
 };
+
+/**
+ * Renders a single component line item
+ * @param {string} name Component name
+ * @param {object} component Current component item object
+ * @returns {*} Table line item
+ */
+const renderItem = ({ name, component }) => (
+  <tr key={name}>
+    <td>
+      <Link
+        to={component.url}
+        rel="noreferrer"
+        target={component.url.indexOf('https://') > -1 ? '_blank' : '_self'}
+      >
+        {name}
+      </Link>
+    </td>
+    {/* eslint-disable-next-line react/no-danger */}
+    <td dangerouslySetInnerHTML={{ __html: component.description }} />
+    <td>
+      {Object.keys(component.react)
+        .filter((key) => component.react[key])
+        .map((key) => (
+          <React.Fragment key={key}>{tags[key]}</React.Fragment>
+        ))}
+    </td>
+    <td>
+      {Object.keys(component.webcomponents)
+        .filter((key) => component.webcomponents[key])
+        .map((key) => (
+          <React.Fragment key={key}>{tags[key]}</React.Fragment>
+        ))}
+    </td>
+  </tr>
+);
 
 /**
  * Component List component
  */
-export class ComponentList extends React.Component {
-  static propTypes = {
-    /**
-     * Component data type [ui|layout]
-     */
-    type: PropTypes.string,
-  };
-
-  static defaultProps = {
-    type: "ui",
-  };
-
-  /**
-   * Renders a single component line item
-   * @param {string} name Component name
-   * @param {object} component Current component item object
-   * @returns {*} Table line item
-   */
-  renderItem = ({ name, component }) => {
-    return (
-      <tr key={name}>
-        <td>
-          <a
-            href={component.url}
-            rel="noreferrer"
-            target={component.url.indexOf("https://") > -1 ? "_blank" : "_self"}
-          >
-            {name}
-          </a>
-        </td>
-        <td dangerouslySetInnerHTML={{ __html: component.description }} />
-        <td>
-          {Object.keys(component.react)
-            .filter((key) => component.react[key])
-            .map((key) => (
-              <React.Fragment key={key}>{_tags[key]}</React.Fragment>
-            ))}
-        </td>
-        <td>
-          {Object.keys(component.webcomponents)
-            .filter((key) => component.webcomponents[key])
-            .map((key) => (
-              <React.Fragment key={key}>{_tags[key]}</React.Fragment>
-            ))}
-        </td>
-      </tr>
-    );
-  };
-
-  render() {
-    const { type } = this.props;
-
-    return (
-      <div className="bx--row component-list">
-        <div className="bx--col-lg-12 bx--no-gutter">
-          <table className="page-table">
-            <thead>
-              <tr>
-                <th>Component</th>
-                <th>Description</th>
-                <th>React</th>
-                <th>Web Components</th>
-              </tr>
-            </thead>
-            <tbody>
-              {Object.keys(components[type]).map((key) =>
-                this.renderItem({ name: key, component: components[type][key] })
-              )}
-            </tbody>
-          </table>
-        </div>
+const ComponentList = (props) => {
+  const { type } = props;
+  return (
+    <div className="bx--row component-list">
+      <div className="bx--col-lg-12 bx--no-gutter">
+        <table className="page-table">
+          <thead>
+            <tr>
+              <th>Component</th>
+              <th>Description</th>
+              <th>React</th>
+              <th>Web Components</th>
+            </tr>
+          </thead>
+          <tbody>
+            {Object.keys(components[type]).map((key) =>
+              renderItem({ name: key, component: components[type][key] })
+            )}
+          </tbody>
+        </table>
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
+
+ComponentList.propTypes = {
+  /**
+   * Component data type [ui|layout]
+   */
+  type: PropTypes.string,
+};
+
+ComponentList.defaultProps = {
+  type: 'ui',
+};
 
 /**
  * Returns the table with the list of tabs and their definitions
  * @returns {*} Tag key table
  * @constructor
  */
-export const TagKey = () => (
+const TagKey = () => (
   <div className="bx--row component-list">
     <div className="bx--col-lg-8 component-list__key">
       <h4 className="page-h4">Key</h4>
@@ -117,42 +113,38 @@ export const TagKey = () => (
         </thead>
         <tbody>
           <tr>
-            <td>{_tags.stable}</td>
+            <td>{tags.stable}</td>
             <td>Component is dev and design production-ready.</td>
           </tr>
           <tr>
-            <td>{_tags.experimental}</td>
+            <td>{tags.experimental}</td>
             <td>
               Component can be used but is not considered stable and changes to
               it may occur.
             </td>
           </tr>
           <tr>
-            <td>{_tags.deprecated}</td>
+            <td>{tags.deprecated}</td>
             <td>
               Component has either been replaced by a new version or it is no
               longer being supported by the system.
             </td>
           </tr>
-          {/*<tr>
-          <td>{_tags.notAvailable}</td>
-          <td>Component is not available in this framework.</td>
-        </tr>*/}
           <tr>
-            <td>{_tags.new}</td>
+            <td>{tags.new}</td>
             <td>
               Component is new to framework in the last major version update.
             </td>
           </tr>
           <tr>
-            <td>{_tags.updated}</td>
+            <td>{tags.updated}</td>
             <td>
               An existing component that had been under review, tweaked, and
               re-released in the last major version.
             </td>
           </tr>
           <tr>
-            <td>{_tags.underConstruction}</td>
+            <td>{tags.underConstruction}</td>
             <td>New components that are currently being worked on.</td>
           </tr>
         </tbody>
@@ -160,3 +152,5 @@ export const TagKey = () => (
     </div>
   </div>
 );
+
+export { ComponentList, TagKey };

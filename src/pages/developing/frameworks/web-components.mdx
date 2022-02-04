@@ -1,26 +1,26 @@
 ---
 title: Frameworks
 description: Carbon for IBM.com Web Components, using Custom Elements v1 and Shadow DOM v1 specs.
-tabs: ['Web Components','React']
+tabs: ['Web Components', 'React']
 ---
 
 import { Link } from 'gatsby';
 
 <PageDescription>
 
-Carbon for IBM.com Web Components uses the Custom Elements v1 and Shadow DOM v1 specs. Web components is the new browser 
-standard with native support, supported in all modern browsers. 
+Carbon for IBM.com Web Components uses the Custom Elements v1 and Shadow DOM v1 specs. Web components is the new browser
+standard with native support, supported in all modern browsers.
 
 </PageDescription>
 
 <AnchorLinks>
-<AnchorLink>Install via import</AnchorLink>
-<AnchorLink>Install via CDN</AnchorLink>
-<AnchorLink>IBM.com shell</AnchorLink>
-<AnchorLink>Available components</AnchorLink>
-<AnchorLink>Web components template</AnchorLink>
-<AnchorLink>React wrapper</AnchorLink>
-<AnchorLink>Using with Carbon Web Components</AnchorLink>
+  <AnchorLink>Install via import</AnchorLink>
+  <AnchorLink>Install via CDN</AnchorLink>
+  <AnchorLink>IBM.com shell</AnchorLink>
+  <AnchorLink>Available components</AnchorLink>
+  <AnchorLink>Web components template</AnchorLink>
+  <AnchorLink>React wrapper</AnchorLink>
+  <AnchorLink>Using with Carbon Web Components</AnchorLink>
 </AnchorLinks>
 
 ## Install via import
@@ -39,21 +39,24 @@ yarn add @carbon/ibmdotcom-web-components lit-html lit-element
 
 ### lit-html / lit-element
 
-`@carbon/ibmdotcom-web-components` uses [`lit-html`](https://lit-html.polymer-project.org) for reactive templating on 
-top of the Web Components standard, and [`lit-element`](https://lit-element.polymer-project.org) for reactive 
-properties/attributes on top of `lit-html`. These are `peerDependencies` of the project, so they would need to be 
+`@carbon/ibmdotcom-web-components` uses [`lit-html`](https://lit-html.polymer-project.org) for reactive templating on
+top of the Web Components standard, and [`lit-element`](https://lit-element.polymer-project.org) for reactive
+properties/attributes on top of `lit-html`. These are `peerDependencies` of the project, so they would need to be
 installed separately.
 
 ## Install via CDN
 
-Carbon for IBM.com Web Components are also available via CDN, where a script tag can be added directly to an HTML page 
+Carbon for IBM.com Web Components are also available via CDN, where a script tag can be added directly to an HTML page
 and rendered directly without the need for front-end bundling. Here is an example adding the `dotcom-shell` to a page:
- 
+
 ```html
 <!DOCTYPE html>
 <html>
   <head>
-    <script type="module" src="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v1/latest/dotcom-shell.min.js"></script>
+    <script
+      type="module"
+      src="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v1/latest/dotcom-shell.min.js"
+    ></script>
     ...
   </head>
   <body>
@@ -66,9 +69,9 @@ To see all available CDN links, visit the `Docs` tab for the corresponding compo
 
 ### Tag versus specific version
 
-All components are available either by moving tag versions, or specific versions (starting at `v1.6.0`). 
+All components are available either by moving tag versions, or specific versions (starting at `v1.6.0`).
 
-The latest/next/beta tags are moving versions. While beneficial to always stay on the most recent version, it is 
+The latest/next/beta tags are moving versions. While beneficial to always stay on the most recent version, it is
 recommended to choose a specific version and properly test your application when upgrading to a newer version.
 
 | Tag      | Description                                                                                                                                                                                               |
@@ -81,19 +84,31 @@ Here are examples of setting by tag:
 
 ```html
 <!-- LATEST tag -->
-<script type="module" src="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v1/latest/dotcom-shell.min.js"></script>
+<script
+  type="module"
+  src="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v1/latest/dotcom-shell.min.js"
+></script>
 
 <!-- NEXT tag -->
-<script type="module" src="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v1/next/dotcom-shell.min.js"></script>
+<script
+  type="module"
+  src="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v1/next/dotcom-shell.min.js"
+></script>
 
 <!-- BETA tag -->
-<script type="module" src="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v1/beta/dotcom-shell.min.js"></script>
+<script
+  type="module"
+  src="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v1/beta/dotcom-shell.min.js"
+></script>
 ```
 
 Here is an example on setting by specific version:
 
 ```html
-<script type="module" src="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/version/v1.6.0/dotcom-shell.rtl.min.js"></script>
+<script
+  type="module"
+  src="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/version/v1.6.0/dotcom-shell.rtl.min.js"
+></script>
 ```
 
 Check [npmjs.com](https://www.npmjs.com/package/@carbon/ibmdotcom-web-components) to see the latest available version.
@@ -104,16 +119,28 @@ In addition, the right-to-left (RTL) versions are also available:
 
 ```html
 <!-- SPECIFIC version -->
-<script type="module" src="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/version/v1.6.0/dotcom-shell.rtl.min.js"></script>
+<script
+  type="module"
+  src="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/version/v1.6.0/dotcom-shell.rtl.min.js"
+></script>
 
 <!-- LATEST tag -->
-<script type="module" src="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v1/latest/dotcom-shell.rtl.min.js"></script>
+<script
+  type="module"
+  src="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v1/latest/dotcom-shell.rtl.min.js"
+></script>
 
 <!-- NEXT tag -->
-<script type="module" src="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v1/next/dotcom-shell.rtl.min.js"></script>
+<script
+  type="module"
+  src="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v1/next/dotcom-shell.rtl.min.js"
+></script>
 
 <!-- BETA tag -->
-<script type="module" src="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v1/beta/dotcom-shell.rtl.min.js"></script>
+<script
+  type="module"
+  src="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v1/beta/dotcom-shell.rtl.min.js"
+></script>
 ```
 
 ### Carbon CDN style helpers (optional)
@@ -127,13 +154,19 @@ For example, the following adds Carbon reset and necessary Plex fonts to the pag
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v1/latest/plex.css" />
+    <link
+      rel="stylesheet"
+      href="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v1/latest/plex.css"
+    />
     ...
   </head>
 </html>
 ```
-<br/>
-Learn more about <Link to="/developing/carbon-cdn-style-helpers">Carbon CDN style helpers.</Link>
+
+<br />
+Learn more about <Link to="/developing/carbon-cdn-style-helpers">
+  Carbon CDN style helpers.
+</Link>
 
 ## IBM.com shell
 
@@ -161,14 +194,14 @@ View the `<dds-dotcom-shell>` in [Storybook Web Components](http://www.ibm.com/s
 ## Web Components template
 
 If you are looking to build out a light static site using Web Components, the
-[Web Components template](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-web-components-template) is available. 
+[Web Components template](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-web-components-template) is available.
 This includes the default configurations for the `<DotcomShell>`, some sample components to get you started, as well as
 configurable translation files to ensure your page can be internationalized.
 
 ## React wrapper
 
-Our team builds new components for Carbon for IBM.com as web components first. Anything that currently does not exist 
-in the <Link to="/developing/frameworks/react">React</Link> framework, are provided as web components with a React 
+Our team builds new components for Carbon for IBM.com as web components first. Anything that currently does not exist
+in the <Link to="/developing/frameworks/react">React</Link> framework, are provided as web components with a React
 wrapper for seamless integration into a React application.
 
 <Row className="resource-card-group">
@@ -176,7 +209,7 @@ wrapper for seamless integration into a React application.
 <Column colMd={4} colLg={4} noGutterSm>
 <ResourceCard
   subTitle="Carbon for IBM.com Storybook Web Components with React"
-  href="https://ibmdotcom-web-components-react.mybluemix.net/"
+  href="https://www.ibm.com/standards/carbon/web-components/react/"
 >
 
 ![Storybook React](./../../../images/icon/react-icon.svg)
@@ -187,6 +220,6 @@ wrapper for seamless integration into a React application.
 
 ## Using with Carbon Web Components
 
-Carbon for IBM.com Web Components uses the Carbon Web Components library (`carbon-web-components`) under the hood. 
-When building your IBM.com application, both libraries can be used together. Carbon Web Components is the web component 
+Carbon for IBM.com Web Components uses the Carbon Web Components library (`carbon-web-components`) under the hood.
+When building your IBM.com application, both libraries can be used together. Carbon Web Components is the web component
 version of core Carbon Design System. [Learn more about Carbon Web Components](https://carbondesignsystem.com/developing/frameworks/web-components).

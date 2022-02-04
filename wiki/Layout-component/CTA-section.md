@@ -1,6 +1,7 @@
 <!-- category start --><!-- category end -->
 
-The [[CTA Section]] which depends on the [[CTA block]] is typically used at the end of the page to help guide the user toward a next step of action.
+The [[CTA Section]] which depends on the [[CTA block]] is typically used at the
+end of the page to help guide the user toward a next step of action.
 
 ![image](https://user-images.githubusercontent.com/3793636/119083582-d77e3300-b9c5-11eb-9c31-f8e403f8dede.png)
 
@@ -18,14 +19,19 @@ The [[CTA Section]] which depends on the [[CTA block]] is typically used at the 
 </details>
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -38,4 +44,5 @@ The [[CTA Section]] which depends on the [[CTA block]] is typically used at the 
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[r1](#resources)</sup> for more details

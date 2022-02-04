@@ -1,6 +1,8 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-The [[Content group pictograms]] component can be used within a [[Content block]]. It includes [[Content group]] with any number of [[Pictogram item]]s nested.
+The [[Content group pictograms]] component can be used within a
+[[Content block]]. It includes [[Content group]] with any number of
+[[Pictogram item]]s nested.
 
 ![image](https://user-images.githubusercontent.com/3793636/119083061-e57f8400-b9c4-11eb-9dd5-7623e844a395.png)
 
@@ -18,14 +20,19 @@ The [[Content group pictograms]] component can be used within a [[Content block]
 </details>
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -38,4 +45,5 @@ The [[Content group pictograms]] component can be used within a [[Content block]
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[r1](#resources)</sup> for more details

@@ -1,6 +1,7 @@
 `Core` <!-- category start --><!-- category end -->
 
-The [[Landscape notification]] is a component that pops up in certain scenarios where we the UI breaks on landscape oriented browsers.
+The [[Landscape notification]] is a component that pops up in certain scenarios
+where we the UI breaks on landscape oriented browsers.
 
 ![image](https://user-images.githubusercontent.com/3793636/119145981-ca863180-ba0f-11eb-9994-27ec49d71f99.png)
 
@@ -17,14 +18,19 @@ The [[Landscape notification]] is a component that pops up in certain scenarios 
 </details>
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -37,4 +43,5 @@ The [[Landscape notification]] is a component that pops up in certain scenarios 
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[r1](#resources)</sup> for more details

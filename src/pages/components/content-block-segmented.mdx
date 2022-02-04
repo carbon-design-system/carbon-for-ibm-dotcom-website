@@ -1,8 +1,8 @@
 ---
 title: Content block segmented
 description:
-  Content block segmented is used for introducing page content. It is similar to
-  Content block simple but has added ability to include subsections.
+  Content block segmented is used for introducing page content. It is similar to Content block simple but has added
+  ability to include subsections.
 ---
 
 import ComponentDescription from 'components/ComponentDescription';
@@ -25,9 +25,8 @@ import ResourceLinks from 'components/ResourceLinks';
 
 ## Overview
 
-Default Content block segmented allows you to break up the narrative content
-into sections. It includes a heading, introductory paragraph, subsections,
-optional CTA (call-to-action), optional media (image or video), and horizontal
+Default Content block segmented allows you to break up the narrative content into sections. It includes a heading,
+introductory paragraph, subsections, optional CTA (call-to-action), optional media (image or video), and horizontal
 rule.
 
 ![Image of content block simple default](../../images/pattern/content-block-segmented/content-block-segmented.jpg)
@@ -38,9 +37,8 @@ rule.
 
 ### With aside elements
 
-This variation includes navigational quick links on the right side. These quick
-links provide an alternate route directing users to resources related to the
-content in the main body.
+This variation includes navigational quick links on the right side. These quick links provide an alternate route
+directing users to resources related to the content in the main body.
 
 ![Image of content block simple with aside elements](../../images/pattern/content-block-segmented/content-block-segmented-with-aside-elements.jpg)
 
@@ -48,16 +46,17 @@ content in the main body.
 
 ## Content guidance
 
-| Field                                                                                                                                                      | Field type | Required | Cardinality | Max character size <br/>(English / translated) |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | -------- | ----------- | ---------------------------------------------- |
-| Heading                                                                                                                                                    | Short copy | Yes      | 1           | XS (65 / 85)                                   |
-| Paragraph                                                                                                                                                  | Long copy  | Yes      | 1           | XXL (350 / 450)                                |
-| [Image with caption](https://www.ibm.com/standards/carbon/components/image-with-caption) or [Video](https://www.ibm.com/standards/carbon/components/video) | Component  | No       | 1           | –                                              |
-| [Content group – simple](https://www.ibm.com/standards/carbon/components/content-group-simple)                                                             | Component  | Yes      | 2–3         | –                                              |
-| [CTA (card)](https://www.ibm.com/standards/carbon/components/cta/#card)                                                                                    | Component  | No       | 1           | –                                              |
-| [Link list](https://www.ibm.com/standards/carbon/components/link-list)                                                                                     | Component  | No       | 1           | –                                              |
+| Element                                                                        | Content type                                                                                                                       | Required | Instances | Character limit <br/>(English / translated) | Notes                                                           |
+| ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- | -------- | --------- | ------------------------------------------- | --------------------------------------------------------------- | --- |
+| Heading                                                                        | Text                                                                                                                               | Yes      | 1         | 65 / 85                                     | Heading override can be used when using table of contents.      |
+| Copy                                                                           | Text                                                                                                                               | Yes      | 1         | 350 / 450                                   |                                                                 |
+| Media                                                                          | [Image](https://www.ibm.com/standards/carbon/components/images/) or [Video](https://www.ibm.com/standards/carbon/components/video) | No       | 1         | –                                           | Image with caption may also be used.                            |     |
+| Image alt text                                                                 | Text                                                                                                                               | No       | 1         | 75 / 100                                    | Image description for accessibility.                            |
+| [Content group](https://www.ibm.com/standards/carbon/components/content-group) | Component                                                                                                                          | Yes      | 2–3       | –                                           |                                                                 |
+| [CTA](https://www.ibm.com/standards/carbon/components/cta/)                    | Component                                                                                                                          | No       | 1         | –                                           | Text and card styles only; jump, local, or external types only. |
+| Aside container                                                                | Component                                                                                                                          | No       | 1         | –                                           |                                                                 |
 
 For more information, see the
-[character count standards](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards).
+[character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
 
 <ComponentFooter name="Content block segmented" type="layout" />

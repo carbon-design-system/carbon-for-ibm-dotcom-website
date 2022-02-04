@@ -1,13 +1,21 @@
 ---
 title: Filter panel
-description: The filter panel is a component that can be customized to provide categorized filters to help users trim down large amounts of content, data, and/or search results.
+description:
+  The filter panel is a component that can be customized to provide categorized filters to help users trim down large
+  amounts of content, data, and/or search results.
 ---
 
 import ComponentDescription from 'components/ComponentDescription';
 import ComponentFooter from 'components/ComponentFooter';
-import ResourceLinks from "components/ResourceLinks";
+import ResourceLinks from 'components/ResourceLinks';
 
 <ComponentDescription name="Filter panel" type="ui" />
+
+<InlineNotification>
+
+**Note:** The View all feature is currently in development and will be available soon.
+
+</InlineNotification>
 
 <AnchorLinks>
 
@@ -25,7 +33,8 @@ import ResourceLinks from "components/ResourceLinks";
 
 ## Overview
 
-Filter panel includes a heading, configurable filters, and an optional children heading area. Filter panel supports multiple categories and selection methods, and it is typically placed on the left side of the page.
+Filter panel includes a heading, configurable filters, and an optional children heading area. Filter panel supports
+multiple categories and selection methods, and it is typically placed on the left side of the page.
 
 <Row>
 
@@ -41,10 +50,11 @@ Filter panel includes a heading, configurable filters, and an optional children 
 
 ### Use case
 
-
 ![A visual example of results being filtered by selections from within one category](../../images/component/filter-panel/filter-panel-usecase.jpg)
 
-<Caption>Example of results being filtered by selections from within one category</Caption>
+<Caption>
+  Example of results being filtered by selections from within one category
+</Caption>
 
 ## Anatomy
 
@@ -60,19 +70,22 @@ Filter panel includes a heading, configurable filters, and an optional children 
 
 <br />
 
-  
 1. **Child/children (optional):** Container that allows for components such as tag group.
 2. **Header:** Customizable header for the filter panel.
 3. **Category (required):** Customizable category header for a group of filters.
 4. **Filter item (required):** Customizable filter item, it can be a single or multi select.
 5. **Clear button:** Customizable button that deselects all selected filter items.
 
-
 ## Selection methods
-Choosing the correct filter selection method will improve usability and user efficiency. Filter panel supports several selection methods that are appropriate for different situations. Consider the data your users are looking at, what they are trying to achieve, and how they might intuitively narrow down the data.
+
+Choosing the correct filter selection method will improve usability and user efficiency. Filter panel supports several
+selection methods that are appropriate for different situations. Consider the data your users are looking at, what they
+are trying to achieve, and how they might intuitively narrow down the data.
 
 ### Single selection
-Use a single-selection filter when the user can pick only one attribute to modify data results. Under the hood, single selection behaves like a radio button.
+
+Use a single-selection filter when the user can pick only one attribute to modify data results. Under the hood, single
+selection behaves like a radio button.
 
 <Row>
 
@@ -80,7 +93,7 @@ Use a single-selection filter when the user can pick only one attribute to modif
 
 ![Example image: single selection with no selected filter.](../../images/component/filter-panel/filter-panel-single-selection-example-not-selected.jpg)
 
-<Caption>Example of single selection with no filter item selected</Caption>
+<Caption>Example of single selection with no filter item selected</Caption>{' '}
 
 </Column>
 
@@ -94,7 +107,8 @@ Use a single-selection filter when the user can pick only one attribute to modif
 
 </Row>
 
-Single selection supports multiple tiers of content. Second tier content is exposed after the user selects the parent filter, and the tiered content is indented below the parent filter.
+Single selection supports multiple tiers of content. Second tier content is exposed after the user selects the parent
+filter, and the tiered content is indented below the parent filter.
 
 <Row>
 
@@ -102,7 +116,9 @@ Single selection supports multiple tiers of content. Second tier content is expo
 
 ![Example image: single selection hover state of a parent tier filter item.](../../images/component/filter-panel/filter-panel-single-selection-parent-tier.jpg)
 
-<Caption>Example of single selection hover state of a parent tier filter item</Caption>
+<Caption>
+  Example of single selection hover state of a parent tier filter item
+</Caption>
 
 </Column>
 
@@ -110,14 +126,18 @@ Single selection supports multiple tiers of content. Second tier content is expo
 
 ![Example image: parent tier filter item selected, with child tier items exposed.](../../images/component/filter-panel/filter-panel-single-selection-child-tier.jpg)
 
-<Caption>Example of parent tier filter item selected, with child tier items exposed</Caption>
+<Caption>
+  Example of parent tier filter item selected, with child tier items exposed
+</Caption>
 
 </Column>
 
 </Row>
 
 ### Multiselect
-Use a multiselect filter when the user has the option to pick more than one attribute to modify the data results. Under the hood, multiselects behave like checkboxes.
+
+Use a multiselect filter when the user has the option to pick more than one attribute to modify the data results. Under
+the hood, multiselects behave like checkboxes.
 
 <Row>
 
@@ -140,55 +160,76 @@ Use a multiselect filter when the user has the option to pick more than one attr
 </Row>
 
 ### Multiple categories
-A category is a set of filter items within the same topic. For example, “size” is a category and small, medium, large, and extra large are its filter choices. Selections from multiple categories may be applied to the same data set. For example, the user can filter by size, color, and price range.
+
+A category is a set of filter items within the same topic. For example, “size” is a category and small, medium, large,
+and extra large are its filter choices. Selections from multiple categories may be applied to the same data set. For
+example, the user can filter by size, color, and price range.
 
 ![A visual example of the results being filtered by selections from within two categories](../../images/component/filter-panel/filter-panel-multiple-categories.jpg)
 
-<Caption>Example of results being filtered by selections from within two categories</Caption>
+<Caption>
+  Example of results being filtered by selections from within two categories
+</Caption>
 
 ## Behaviors
 
 ### Expanding and collapsing
-The filter panel can be configured with any number of filters and categories. 
 
-* The user may expand multiple filter categories at a time.
-* The user may collapse all categories.
-* The user can collapse categories that have filters selected. 
+The filter panel can be configured with any number of filters and categories.
+
+- The user may expand multiple filter categories at a time.
+- The user may collapse all categories.
+- The user can collapse categories that have filters selected.
 
 ### Larger breakpoints (lg, xl, max)
-The filter panel spans 4 columns of the 16 column grid with a customizable height. 
+
+The filter panel spans 4 columns of the 16 column grid with a customizable height.
 
 #### Scroll
-Filter panel scrolls with the page. Depending on the amount of filters available to the user, the filter panel could exceed the browser height.
+
+Filter panel scrolls with the page. Depending on the amount of filters available to the user, the filter panel could
+exceed the browser height.
 
 #### Keyboard interaction
-Filter panel includes a Skip to main content option for keyboard users so they can jump into the main content and/or search results.
+
+Filter panel includes a Skip to main content option for keyboard users so they can jump into the main content and/or
+search results.
 
 ### Smaller breakpoints (sm and md)
-On smaller breakpoints, the filter panel is triggered by a button that can be configured anywhere within the experience. Once the user selects the filter button, a modal will open and display the filter panel, the user can close the modal to view the filtered results. The filter button should indicate how many filters the user has selected.
+
+On smaller breakpoints, the filter panel is triggered by a button that can be configured anywhere within the experience.
+Once the user selects the filter button, a modal will open and display the filter panel, the user can close the modal to
+view the filtered results. The filter button should indicate how many filters the user has selected.
 
 ![A visual example of the Filter panel component at a smaller breakpoint](../../images/component/filter-panel/filter-panel-behaviors-smaller-breakpoints.jpg)
 
-<Caption>From left to right, the small breakpoint screens above demonstrate the following states: no filter applied, filter panel open, and filters active. </Caption>
+<Caption>
+  From left to right, the small breakpoint screens above demonstrate the
+  following states: no filter applied, filter panel open, and filters active.
+</Caption>
 
 ## Recommendations
 
 When determining the default display for your user, consider the information you have in your filter, including:
 
-* The ordering of categories
-* The number of categories
-* The number of items within each category
+- The ordering of categories
+- The number of categories
+- The number of items within each category
 
-Decide which categories should be open by default and which categories can be closed. Try to strike a balance between what the user may need and the cognitive load of seeing too many options at once.
+Decide which categories should be open by default and which categories can be closed. Try to strike a balance between
+what the user may need and the cognitive load of seeing too many options at once.
 
 ### Ordering of categories
+
 The ordering of top level categories is usually determined by relevance to user goals.
 
-Within the categories, we recommend the default ordering of items to be alphabetical unless business goals require a different ordering.
+Within the categories, we recommend the default ordering of items to be alphabetical unless business goals require a
+different ordering.
 
 ### Open or closed?
 
 #### One category
+
 If there is only one category, consider displaying all the filters open.
 
 <Row>
@@ -197,14 +238,18 @@ If there is only one category, consider displaying all the filters open.
 
 ![A visual example of the Filter panel component with one filter category](../../images/component/filter-panel/filter-panel-number-of-categories-one.jpg)
 
-<Caption>Example of Filter panel with one filter category, open by default.</Caption>
+<Caption>
+  Example of Filter panel with one filter category, open by default.
+</Caption>
 
 </Column>
 
 </Row>
 
 #### Two to nine categories
-If there are between two and nine categories of filters, consider having the top one to three categories open by default, and the other categories collapsed.
+
+If there are between two and nine categories of filters, consider having the top one to three categories open by
+default, and the other categories collapsed.
 
 <Row>
 
@@ -212,14 +257,19 @@ If there are between two and nine categories of filters, consider having the top
 
 ![A visual example of the Filter panel component with seven filter categories](../../images/component/filter-panel/filter-panel-number-of-categories-two-to-nine.jpg)
 
-<Caption>Example of Filter panel with seven filter categories, the first two categories open by default, the other five categories collapsed.</Caption>
+<Caption>
+  Example of Filter panel with seven filter categories, the first two categories
+  open by default, the other five categories collapsed.
+</Caption>
 
 </Column>
 
 </Row>
 
 #### Ten or more categories
-If there are over ten categories, consider collapsing all of the categories on initial load, or having the first category open.
+
+If there are over ten categories, consider collapsing all of the categories on initial load, or having the first
+category open.
 
 <Row>
 
@@ -227,15 +277,19 @@ If there are over ten categories, consider collapsing all of the categories on i
 
 ![A visual example of the Filter panel component with ten filter categories](../../images/component/filter-panel/filter-panel-number-of-categories-ten.jpg)
 
-<Caption>Example of Filter panel with ten filter categories, the first category open by default, the other nine categories collapsed.</Caption>
+<Caption>
+  Example of Filter panel with ten filter categories, the first category open by
+  default, the other nine categories collapsed.
+</Caption>
 
 </Column>
 
-</Row> 
+</Row>
 
 ### Number of items per category
 
 #### One to seven filter items
+
 If there are between one and seven filter items within a category, expose all of the items.
 
 <Row>
@@ -244,14 +298,19 @@ If there are between one and seven filter items within a category, expose all of
 
 ![A visual example of a filter category with seven filter items](../../images/component/filter-panel/filter-panel-number-of-items-one-to-seven.jpg)
 
-<Caption>Example of a filter category with seven filter items open by default.</Caption>
+<Caption>
+  Example of a filter category with seven filter items open by default.
+</Caption>
 
 </Column>
 
-</Row> 
+</Row>
 
 #### Eight or more filter items
-If there are eight or more filter items within a given category, consider utilizing the “View all” button. Expose a portion of the filter items so the user can quickly scan the options, once they select the view all button, the rest of the items are revealed. 
+
+If there are eight or more filter items within a given category, consider utilizing the “View all” button. Expose a
+portion of the filter items so the user can quickly scan the options, once they select the view all button, the rest of
+the items are revealed.
 
 <Row>
 
@@ -259,7 +318,11 @@ If there are eight or more filter items within a given category, consider utiliz
 
 ![A visual example of a filter category partially open with View all](../../images/component/filter-panel/filter-panel-number-of-items-eight-collapsed.jpg)
 
-<Caption>Example of a filter category with five filter items exposed, followed by a View all button that will display the remaining filter items within the category.</Caption>
+<Caption>
+  Example of a filter category with five filter items exposed, followed by a
+  View all button that will display the remaining filter items within the
+  category.
+</Caption>
 
 </Column>
 
@@ -267,11 +330,13 @@ If there are eight or more filter items within a given category, consider utiliz
 
 ![A visual example of a filter category fully open](../../images/component/filter-panel/filter-panel-number-of-items-eight-open.jpg)
 
-<Caption>Example of a the filter category with all filter items open after the user selected the View all button.</Caption>
+<Caption>
+  Example of a the filter category with all filter items open after the user
+  selected the View all button.
+</Caption>
 
 </Column>
 
-</Row> 
-
+</Row>
 
 <ComponentFooter name="Filter panel" type="ui" />

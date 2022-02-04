@@ -1,8 +1,10 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873641-a6835d00-b265-11eb-8433-8c9c73a2e999.png) Need to archive
+> ![image](https://user-images.githubusercontent.com/3793636/117873641-a6835d00-b265-11eb-8433-8c9c73a2e999.png)
+> Need to archive
 
-The [[Card section simple]] is a decorator of the [[Content Section]] with a specific expression of the [[Card group]] in the children container.
+The [[Card section simple]] is a decorator of the [[Content Section]] with a
+specific expression of the [[Card group]] in the children container.
 
 ![image](https://user-images.githubusercontent.com/3793636/119081324-60df3680-b9c1-11eb-8767-57b452af5e18.png)
 
@@ -19,14 +21,19 @@ The [[Card section simple]] is a decorator of the [[Content Section]] with a spe
 </details>
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -39,4 +46,5 @@ The [[Card section simple]] is a decorator of the [[Content Section]] with a spe
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[r1](#resources)</sup> for more details

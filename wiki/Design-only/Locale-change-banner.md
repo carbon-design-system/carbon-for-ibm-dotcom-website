@@ -1,6 +1,8 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-The [[Locale change banner]] is a component used when users are forwarded to a page that has a different locale setting than the previous pages or is different from their preferences. 
+The [[Locale change banner]] is a component used when users are forwarded to a
+page that has a different locale setting than the previous pages or is different
+from their preferences.
 
 ![image](https://user-images.githubusercontent.com/3793636/119146113-ed184a80-ba0f-11eb-9866-1ac954d79e0d.png)
 
@@ -17,14 +19,19 @@ The [[Locale change banner]] is a component used when users are forwarded to a p
 </details>
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -37,4 +44,5 @@ The [[Locale change banner]] is a component used when users are forwarded to a p
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[r1](#resources)</sup> for more details

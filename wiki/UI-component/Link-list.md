@@ -1,6 +1,8 @@
 `Core` <!-- category start --><!-- category end -->
 
-The [[Link list]] is a simple enough component where it lists out a collection of links with a descriptive heading. It is typically meant to be used off to the side of a main [[Content block]].
+The [[Link list]] is a simple enough component where it lists out a collection
+of links with a descriptive heading. It is typically meant to be used off to the
+side of a main [[Content block]].
 
 ![image](https://user-images.githubusercontent.com/3793636/119056084-b6025480-b98f-11eb-8391-c14a00e64d38.png)
 
@@ -17,14 +19,19 @@ The [[Link list]] is a simple enough component where it lists out a collection o
 </details>
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -37,4 +44,5 @@ The [[Link list]] is a simple enough component where it lists out a collection o
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[r1](#resources)</sup> for more details

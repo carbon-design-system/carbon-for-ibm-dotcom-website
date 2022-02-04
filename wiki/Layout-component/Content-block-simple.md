@@ -1,6 +1,8 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-The [[Content block simple]] is a decorator of the [[Content block]], which includes a single [[Content item]], optional media ([[Image with caption]] or [[Video]]) and ends with a [[CTA]].
+The [[Content block simple]] is a decorator of the [[Content block]], which
+includes a single [[Content item]], optional media ([[Image with caption]] or
+[[Video]]) and ends with a [[CTA]].
 
 ![image](https://user-images.githubusercontent.com/3793636/119082343-79505080-b9c3-11eb-89b3-124946e4f98c.png)
 
@@ -20,14 +22,19 @@ The [[Content block simple]] is a decorator of the [[Content block]], which incl
 </details>
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -40,4 +47,5 @@ The [[Content block simple]] is a decorator of the [[Content block]], which incl
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[r1](#resources)</sup> for more details

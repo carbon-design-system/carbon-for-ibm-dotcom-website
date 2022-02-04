@@ -1,6 +1,7 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-The cookies component is present on every page of IBM.com and allows the user to handle how their cookies how handled throughout their experience.
+The cookies component is present on every page of IBM.com and allows the user to
+handle how their cookies how handled throughout their experience.
 
 ![image](https://user-images.githubusercontent.com/3793636/119145168-010f7c80-ba0f-11eb-9d9d-ff60485aa861.png)
 
@@ -18,14 +19,19 @@ The cookies component is present on every page of IBM.com and allows the user to
 </details>
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -38,4 +44,5 @@ The cookies component is present on every page of IBM.com and allows the user to
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[r1](#resources)</sup> for more details

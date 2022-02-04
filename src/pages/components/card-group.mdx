@@ -3,9 +3,9 @@ title: Card group
 description: The Card group component arranges cards in a grid and offers useful features that are applied to the group as a whole.
 ---
 
-import ComponentDescription from "components/ComponentDescription";
-import ComponentFooter from "components/ComponentFooter";
-import ResourceLinks from "components/ResourceLinks";
+import ComponentDescription from 'components/ComponentDescription';
+import ComponentFooter from 'components/ComponentFooter';
+import ResourceLinks from 'components/ResourceLinks';
 
 <ComponentDescription name="Card group" type="layout" />
 
@@ -14,6 +14,8 @@ import ResourceLinks from "components/ResourceLinks";
 <AnchorLink>Resources</AnchorLink>
 <AnchorLink>Overview</AnchorLink>
 <AnchorLink>Variations</AnchorLink>
+<AnchorLink>Modifiers</AnchorLink>
+<AnchorLink>Content guidance</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
@@ -45,7 +47,10 @@ Card in card can be used with the card group component to give focus to the firs
 
 ![Image of Card in card component](../../images/component/card-group/card-group-2.png)
 
-<Caption>Card group with card in card above. The example shown here is using the narrow grid.</Caption>
+<Caption>
+  Card group with card in card above. The example shown here is using the narrow
+  grid.
+</Caption>
 
 </Column>
 </Row>
@@ -60,7 +65,11 @@ Cards per row dictates the number of cards in a row. Sometimes this can be adjus
 
 ![Image of Card in card component](../../images/component/card-group/card-group-column.png)
 
-<Caption>To avoid having a single card on a row (as shown in the left image), you change change the cards per row setting from 3 to 2, to achieve a 2x2 configuration (as shown in the right image). </Caption>
+<Caption>
+  To avoid having a single card on a row (as shown in the left image), you
+  change change the cards per row setting from 3 to 2, to achieve a 2x2
+  configuration (as shown in the right image).
+</Caption>
 
 ### Offset
 
@@ -69,5 +78,15 @@ Offset adds empty card slots to the beginning of the group, and can be used to a
 ![Image of Card in card component](../../images/component/card-group/card-group-offset.png)
 
 <Caption>Card groups with 3 cards in two different shapes.</Caption>
+
+## Content guidance
+
+| Element                                                                            | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes                                                             |
+| ---------------------------------------------------------------------------------- | ------------ | -------- | --------- | ------------------------------------------- | ----------------------------------------------------------------- |
+| [Card](https://www.ibm.com/standards/carbon/components/cards#card)                 | Component    | Yes      | Min 2     | –                                           | Maximum of 1 offset card when using offset styling. Default is 0. |
+| [Card in card](https://www.ibm.com/standards/carbon/components/cards#card-in-card) | Component    | No       | 1         | –                                           | 1 card in card above a maximum of 6 cards in a 3:X layout.        |
+| CTA card                                                                           | UI Element   | No       | 1         | 25 / 35                                     |                                                                   |
+
+For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
 
 <ComponentFooter name="Card group" type="layout" />

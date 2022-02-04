@@ -1,11 +1,11 @@
 ---
 title: Link with icon
-description: The Link with icon is primarily used as a navigational element with an icon as an indicator to the destination or type of content being referenced. 
+description: The Link with icon is primarily used as a navigational element with an icon as an indicator to the destination or type of content being referenced.
 ---
 
-import ComponentDescription from "components/ComponentDescription";
-import ComponentFooter from "components/ComponentFooter";
-import ResourceLinks from "components/ResourceLinks";
+import ComponentDescription from 'components/ComponentDescription';
+import ComponentFooter from 'components/ComponentFooter';
+import ResourceLinks from 'components/ResourceLinks';
 
 <ComponentDescription name="Link with icon" type="ui" />
 
@@ -13,15 +13,16 @@ import ResourceLinks from "components/ResourceLinks";
 
 <AnchorLink>Resources</AnchorLink>
 <AnchorLink>Overview</AnchorLink>
+<AnchorLink>Content guidance</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
-
+  
 </AnchorLinks>
 
 <ResourceLinks name="Link with icon" type="ui" />
 
 ## Overview
 
-Link with icon should not be used within a paragraph. The icon can be placed on the left or right side of the text and is vertically centered. 
+Link with icon should not be used within a paragraph. The icon can be placed on the left or right side of the text and is vertically centered.
 
 <Row>
 <Column colMd={8} colLg={8}>
@@ -34,5 +35,11 @@ Link with icon should not be used within a paragraph. The icon can be placed on 
 <Title>Use case</Title>
 
 ![Image of Table of contents component](../../images/component/link-with-icon/link-with-icon-use-case.jpg)
+
+## Content guidance
+
+| Element                                                                  | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes |
+| ------------------------------------------------------------------------ | ------------ | -------- | --------- | ------------------------------------------- | ----- |
+| [CTA (text)](https://www.ibm.com/standards/carbon/components/cta#styles) | Link         | No       | 1         | 20 / 32                                     |       |
 
 <ComponentFooter name="Link with icon" type="ui" />

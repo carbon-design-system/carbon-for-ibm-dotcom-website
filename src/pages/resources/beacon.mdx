@@ -3,8 +3,8 @@ title: Beacon compliance evaluator
 description: Use the Beacon Web UI to run IBM.com-specific audits on your pages.
 ---
 
-import ComponentFooter from "components/ComponentFooter";
-import BeaconWebUI from "components/BeaconWebUI";
+import ComponentFooter from 'components/ComponentFooter';
+import BeaconWebUI from 'components/BeaconWebUI';
 
 <PageDescription>
 
@@ -20,11 +20,13 @@ The Beacon web UI helps you evaluate your IBM.com web pages. It’s based on Goo
 </AnchorLinks>
 
 ## Check for compliance
+
 Audits are run page by page. To run an audit, enter the page URL below and click `Analyze page`.
 
 <BeaconWebUI url="https://www.ibm.com" />
 
 ## What’s included
+
 The audits provide actionable results including:
 
 - Components and common areas that are causing problems for adopters, such as Leadspace, CTA Section, Cards, Content Block, and Content Section.
@@ -37,7 +39,8 @@ The audits provide actionable results including:
 The tool is in beta but is ready to use and the Carbon for IBM.com team will be adding more compliance audits over time. If there’s anything you’d like to see included, [let us know on Slack](https://cognitive-app.slack.com/archives/C2PLX8GQ6).
 
 ## What’s not included
-The tool is designed to be used for IBM.com sites only with a focus on compliance with IBM standards. It does not perform accessibility or SEO checks. 
+
+The tool is designed to be used for IBM.com sites only with a focus on compliance with IBM standards. It does not perform accessibility or SEO checks.
 
 If you’re looking for general web audits, use Google Lighthouse, which is available as an [npm package](https://www.npmjs.com/package/lighthouse) and built-in Chrome extension.
 

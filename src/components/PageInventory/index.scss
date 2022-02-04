@@ -1,25 +1,25 @@
 table.page-inventory {
-    tr {
-        border: 0;
-    }
+  tr {
+    border: 0;
+  }
 
-    tr td {
-        padding: .25rem;
-        width: 6.5rem;
-        min-width: 6.5rem;
-        padding-right: 16px;
-        
-        &:last-child {
-            padding-right: 0;
-        }
-    }
+  tr td {
+    padding: 0.25rem;
+    width: 6.5rem;
+    min-width: 6.5rem;
+    padding-right: 16px;
 
-    td:first-child {
-        width: 100%;
-        min-width: 100%;
+    &:last-child {
+      padding-right: 0;
     }
-    
-    tr:first-child td {
-        font-weight: bold;
-    }
+  }
+
+  td:first-child {
+    width: 100%;
+    min-width: 100%;
+  }
+
+  tr:first-child td {
+    font-weight: bold;
+  }
 }

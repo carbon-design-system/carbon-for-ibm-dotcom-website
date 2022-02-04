@@ -1,6 +1,8 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-The [[Content group simple]] is a decorator of the [[Content group]], which includes an optional media item ([[Image with caption]] or [[Video]]) and [[Content item]]s within the children container. 
+The [[Content group simple]] is a decorator of the [[Content group]], which
+includes an optional media item ([[Image with caption]] or [[Video]]) and
+[[Content item]]s within the children container.
 
 ![image](https://user-images.githubusercontent.com/3793636/119083135-034ce900-b9c5-11eb-9903-b6459e52e037.png)
 
@@ -20,14 +22,19 @@ The [[Content group simple]] is a decorator of the [[Content group]], which incl
 </details>
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -40,4 +47,5 @@ The [[Content group simple]] is a decorator of the [[Content group]], which incl
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[r1](#resources)</sup> for more details

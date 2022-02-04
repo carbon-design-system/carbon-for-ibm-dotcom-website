@@ -1,11 +1,15 @@
 `Standard` <!-- category start --><!-- category end -->
 
-This ContentModel is a standard content structure to be used across the IBM.com Library. It defines, and standardizes the content hierarchy in a way that allows us to be consistent and speak the same language as we build out new components.
+This ContentModel is a standard content structure to be used across the IBM.com
+Library. It defines, and standardizes the content hierarchy in a way that allows
+us to be consistent and speak the same language as we build out new components.
 
 <hr width="40%" />
 
 <!-- toc start -->
-*{{table of contents auto populates}}*
+
+_{{table of contents auto populates}}_
+
 <!-- toc end -->
 
 <details open="true">
@@ -19,14 +23,19 @@ This ContentModel is a standard content structure to be used across the IBM.com 
 </details>
 
 <!-- usedby start -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details>
   <summary><strong>Resources</strong></summary><br />
 
@@ -39,26 +48,25 @@ This ContentModel is a standard content structure to be used across the IBM.com 
 
 ### 1. Data model
 
-| data            | type         |
-|:----------------|:-------------|
-| `image`         | [[Image]]    |
-| `svg`           | SVG <sup>[[2](#2-svg-data-model)]</sup>  |
-| `eyebrow`       | `String`     |
-| `heading`       | `Object`     |
-| `heading.type`  | `String`     |
-| `heading.copy`  | `String`     |
-| `copy`          | [[Markdown utility]]  |
-| `children`      | `Object`     |
-| `cta`           | [[CTA]]      |
+| data           | type                                  |
+| :------------- | :------------------------------------ |
+| `image`        | [[Image]]                             |
+| `svg`          | SVG <sup>[2](#2-svg-data-model)</sup> |
+| `eyebrow`      | `String`                              |
+| `heading`      | `Object`                              |
+| `heading.type` | `String`                              |
+| `heading.copy` | `String`                              |
+| `copy`         | [[Markdown utility]]                  |
+| `children`     | `Object`                              |
+| `cta`          | [[CTA]]                               |
 
 <br />[Back to top](#wiki-wrapper)<br /><br /><br />
 
-
 ### 2. SVG data model
 
-|                | data            | type                 |        |
-|:---------------|:----------------|:---------------------|:-------|
-| *`(required)`*   | `src`         | `String` or `Object` | `SVG`  |
+|                | data            | type                 |                                                                                         |
+| :------------- | :-------------- | :------------------- | :-------------------------------------------------------------------------------------- |
+| _`(required)`_ | `src`           | `String` or `Object` | `SVG`                                                                                   |
 |                | `...otherProps` | `Attributes`         | Attributes like `ariaLabel`, or `aria-hidden` can be passed in and applied to the `SVG` |
 
 <br />[Back to top](#wiki-wrapper)<br /><br /><br />

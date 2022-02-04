@@ -1,6 +1,8 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-The [[Expressive modal]] is more or less a theming of [[Carbon modal]] to increase readability and reduce strain for more expressive or editorial environments.
+The [[Expressive modal]] is more or less a theming of [[Carbon modal]] to
+increase readability and reduce strain for more expressive or editorial
+environments.
 
 ![image](https://user-images.githubusercontent.com/3793636/119055706-1ba21100-b98f-11eb-97c8-43d5fbfec5b4.png)
 
@@ -17,14 +19,19 @@ The [[Expressive modal]] is more or less a theming of [[Carbon modal]] to increa
 </details>
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -37,4 +44,5 @@ The [[Expressive modal]] is more or less a theming of [[Carbon modal]] to increa
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[r1](#resources)</sup> for more details

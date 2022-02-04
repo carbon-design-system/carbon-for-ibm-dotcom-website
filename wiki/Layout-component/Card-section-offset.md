@@ -1,13 +1,16 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-This component provides a visual break in content similar to a [[Lead space]] featuring additional resources via a [[CTA]], and [[Card]]s.
+This component provides a visual break in content similar to a [[Lead space]]
+featuring additional resources via a [[CTA]], and [[Card]]s.
 
 ![image](https://user-images.githubusercontent.com/3793636/121016598-eef94200-c761-11eb-89ca-b82fbf312473.png)
 
 <hr width="40%" />
 
 <!-- toc start open="true" depthStart="3" depthEnd="5" -->
-*{{table of contents auto populates}}*
+
+_{{table of contents auto populates}}_
+
 <!-- toc end -->
 
 <details open="true">
@@ -21,14 +24,19 @@ This component provides a visual break in content similar to a [[Lead space]] fe
 </details>
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -41,4 +49,5 @@ This component provides a visual break in content similar to a [[Lead space]] fe
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[r1](#resources)</sup> for more details

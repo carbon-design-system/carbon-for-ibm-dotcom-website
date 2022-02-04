@@ -3,9 +3,9 @@ title: Link list section
 description: The Link list section component is used for multiple CTAs, with options for vertical and horizontal lists and varying CTA styling.
 ---
 
-import ComponentDescription from "components/ComponentDescription";
-import ComponentFooter from "components/ComponentFooter";
-import ResourceLinks from "components/ResourceLinks";
+import ComponentDescription from 'components/ComponentDescription';
+import ComponentFooter from 'components/ComponentFooter';
+import ResourceLinks from 'components/ResourceLinks';
 
 <ComponentDescription name="Link list section" type="ui" />
 
@@ -14,6 +14,7 @@ import ResourceLinks from "components/ResourceLinks";
 <AnchorLink>Resources</AnchorLink>
 <AnchorLink>Overview</AnchorLink>
 <AnchorLink>Variations</AnchorLink>
+<AnchorLink>Content guidance</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
@@ -71,5 +72,14 @@ This variation divides the content’s remaining 12 column layout into 3 columns
 
 </Column>
 </Row>
+
+## Content guidance
+
+| Element                                                     | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes                                                                                                       |
+| ----------------------------------------------------------- | ------------ | -------- | --------- | ------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| Heading                                                     | Text         | Yes      | 1         | 40 / 55                                     |                                                                                                             |
+| [CTA](https://www.ibm.com/standards/carbon/components/cta/) | Component    | Yes      | Max 16    | 40 / 55                                     | Uses [Link list end of section](https://www.ibm.com/standards/carbon/components/link-list/#end-of-section). |
+
+For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
 
 <ComponentFooter name="Link list section" type="ui" />

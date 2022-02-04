@@ -1,8 +1,6 @@
 ---
 title: Content block media
-description:
-  Content block media is used to present information with images in a group
-  setting.
+description: Content block media is used to present information with images in a group setting.
 ---
 
 import ComponentDescription from 'components/ComponentDescription';
@@ -25,9 +23,8 @@ import ResourceLinks from 'components/ResourceLinks';
 
 ## Overview
 
-By default Content block media starts with a brief overview before going into
-one or more detailed points. At strategic points it allows for an optional piece
-of media to support the content.
+By default Content block media starts with a brief overview before going into one or more detailed points. At strategic
+points it allows for an optional piece of media to support the content.
 
 ![A visual of Content block media with its overview and supporting content.](../../images/pattern/content-block-media/content-block-with-media.jpg)
 
@@ -37,8 +34,8 @@ of media to support the content.
 
 ### With aside elements
 
-This variant is the same as the default version except that it allows for a list
-of related navigational items positioned to the side.
+This variant is the same as the default version except that it allows for a list of related navigational items
+positioned to the side.
 
 ![A visual of Content block media with optional navigational items to the side.](../../images/pattern/content-block-media/content-block-with-media-with-aside-elements.jpg)
 
@@ -46,15 +43,15 @@ of related navigational items positioned to the side.
 
 ## Content guidance
 
-| Field                                                        | Field type | Required | Cardinality | Max character size (English / translated) |
-| ------------------------------------------------------------ | ---------- | -------- | ----------- | ----------------------------------------- |
-| Headline                                                     | Short copy | Yes      | 1           | XXS (40 / 55)                             |
-| Paragraph                                                    | Long copy  | No       | 1           | XL (250 / 325)                            |
-| [Content group – simple](../components/content-group-simple) | Component  | Yes      | Less than 4 | –                                         |
-| [Feature card - medium](../components/cards#feature-card)    | Component  | No       | 1           | –                                         |
-| [Link list](../components/link-list)                         | Component  | No       | 1           | –                                         |
+| Element                                                    | Content type | Required | Instances   | Character limit <br/>(English / translated) | Notes                                                                                    |
+| ---------------------------------------------------------- | ------------ | -------- | ----------- | ------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| Headline                                                   | Text         | Yes      | 1           | 40 / 55                                     | Heading override can be used when using table of contents.                               |
+| Copy                                                       | Text         | No       | 1           | 250 / 325                                   |                                                                                          |
+| [Content group simple](../components/content-group-simple) | Component    | Yes      | Less than 4 | –                                           |                                                                                          |
+| [CTA](../components/cta)                                   | Component    | No       | 1           | –                                           | [Feature card - medium](../components/cards#feature-card) (local or jump CTA type only). |
+| Aside container                                            | Component    | No       | 1           | –                                           |                                                                                          |
 
 For more information, see the
-[character count standards](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards).
+[character count standards](https://www.ibm.com/standards/carbon/guidelines/content/#character-count-standards).
 
 <ComponentFooter name="Content block media" type="layout" />

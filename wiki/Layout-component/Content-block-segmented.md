@@ -1,6 +1,8 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-The [[Content block segmented]] component allows for a lot of content to be present at once. It’s laid out in a way to be easily consumed and understood by its users.
+The [[Content block segmented]] component allows for a lot of content to be
+present at once. It’s laid out in a way to be easily consumed and understood by
+its users.
 
 ![image](https://user-images.githubusercontent.com/3793636/119082233-4443fe00-b9c3-11eb-8497-826dbd73b905.png)
 
@@ -20,17 +22,23 @@ The [[Content block segmented]] component allows for a lot of content to be pres
 <br />
 </details>
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873641-a6835d00-b265-11eb-8433-8c9c73a2e999.png) Need to re-evaluate dependency list
+> ![image](https://user-images.githubusercontent.com/3793636/117873641-a6835d00-b265-11eb-8433-8c9c73a2e999.png)
+> Need to re-evaluate dependency list
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -43,4 +51,5 @@ The [[Content block segmented]] component allows for a lot of content to be pres
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[r1](#resources)</sup> for more details

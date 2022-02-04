@@ -1,6 +1,8 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-The [[Link list section]] provides additional resources based on the [[Link list]] component, but expands its emphasis to the entire section of a page. Usually used as a link farm at the end of the page.
+The [[Link list section]] provides additional resources based on the
+[[Link list]] component, but expands its emphasis to the entire section of a
+page. Usually used as a link farm at the end of the page.
 
 ![image](https://user-images.githubusercontent.com/3793636/119085233-f7fbbc80-b9c8-11eb-8a66-5ac24be134b0.png)
 
@@ -18,14 +20,19 @@ The [[Link list section]] provides additional resources based on the [[Link list
 </details>
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -38,4 +45,5 @@ The [[Link list section]] provides additional resources based on the [[Link list
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[r1](#resources)</sup> for more details

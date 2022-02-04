@@ -1,6 +1,8 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-[[Search typeahead]] brings together [[Carbon search]] and the [[Search typeahead service]] to provide this reusable search component with typeahead functionality.
+[[Search typeahead]] brings together [[Carbon search]] and the
+[[Search typeahead service]] to provide this reusable search component with
+typeahead functionality.
 
 ![image](https://user-images.githubusercontent.com/3793636/119173730-43e04d00-ba2d-11eb-8a8d-0c8e6e3aec39.png)
 
@@ -18,14 +20,19 @@
 </details>
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -38,4 +45,5 @@
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[r1](#resources)</sup> for more details

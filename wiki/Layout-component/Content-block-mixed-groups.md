@@ -1,6 +1,8 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-The [[Content block mixed groups]] component leverages the [[Content block]] as the overall container, and allows only a few opinionated group level components to be included.
+The [[Content block mixed groups]] component leverages the [[Content block]] as
+the overall container, and allows only a few opinionated group level components
+to be included.
 
 ![image](https://user-images.githubusercontent.com/3793636/119081943-ae0fd800-b9c2-11eb-9d24-05ad185cc2b9.png)
 
@@ -20,14 +22,19 @@ The [[Content block mixed groups]] component leverages the [[Content block]] as 
 </details>
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -40,4 +47,5 @@ The [[Content block mixed groups]] component leverages the [[Content block]] as 
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[r1](#resources)</sup> for more details

@@ -1,0 +1,509 @@
+---
+title: 1. Installing Carbon for IBM.com
+description:
+  Welcome to Carbon for IBM.com! This tutorial will guide you in creating an application with Carbon for IBM.com Web
+  Components.
+tabs:
+  ['Overview', 'Step 1', 'Step 2', 'Step 3', 'Step 4', 'Step 5', 'Wrapping up']
+---
+
+import Preview from 'components/Preview';
+import { Link } from 'gatsby';
+
+<PageDescription>
+
+Starting with a light version of
+[web components template](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-web-components-template), let's
+install Carbon for IBM.com and begin using Carbon for IBM.com Web Components. By the end you will have a web components
+application that uses the Dotcom Shell to navigate between pages.
+
+</PageDescription>
+
+<AnchorLinks>
+
+<AnchorLink>Fork, clone, and branch</AnchorLink>
+<AnchorLink>Build and start</AnchorLink>
+<AnchorLink>Install Carbon for IBM.com</AnchorLink>
+<AnchorLink>Install and build Sass</AnchorLink>
+<AnchorLink>Add Dotcom Shell</AnchorLink>
+<AnchorLink>Configure the Dotcom Shell</AnchorLink>
+<AnchorLink>Add IBM.com tag management and site analytics</AnchorLink>
+<AnchorLink>Add page meta data</AnchorLink>
+<AnchorLink>Submit pull request</AnchorLink>
+
+</AnchorLinks>
+
+## Preview
+
+A [preview](https://carbon-design-system.github.io/carbon-for-ibm-dotcom-tutorial/step-2/) of what you will build:
+
+<Preview
+  height="400"
+  title="Carbon for IBM.com Tutorial Step 1"
+  src="https://carbon-design-system.github.io/carbon-for-ibm-dotcom-tutorial/step-2/"
+  frameborder="no"
+  allowtransparency="true"
+  allowfullscreen="true"
+/>
+
+## Fork, clone, and branch
+
+This tutorial has an accompanying GitHub repository called
+[carbon-for-ibm-dotcom-tutorial](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-tutorial) that we'll use
+as a starting point for each step.
+
+### Fork
+
+To begin, fork [carbon-for-ibm-dotcom-tutorial](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-tutorial)
+using your GitHub account.
+
+### Clone
+
+Go to your forked repository, copy the SSH or HTTPS URL and in your terminal run the two commands to get the repository
+in your local file system and enter that directory.
+
+```bash
+git clone [your fork SSH/HTTPS]
+cd carbon-for-ibm-dotcom-tutorial
+```
+
+### Add upstream remote
+
+Add a remote called `upstream` so we can eventually submit a pull request once you have completed this tutorial step.
+
+```bash
+git remote add upstream git@github.com:carbon-design-system/carbon-for-ibm-dotcom-tutorial.git
+```
+
+Or, if you prefer to use HTTPS instead of SSH with your remotes:
+
+```bash
+git remote add upstream https://github.com/carbon-design-system/carbon-for-ibm-dotcom-tutorial.git
+```
+
+Verify that your forked repository remotes are correct:
+
+```bash
+git remote -v
+```
+
+Your terminal should output something like this:
+
+```bash
+origin	[your forked repo] (fetch)
+origin	[your forked repo] (push)
+upstream	git@github.com:carbon-design-system/carbon-for-ibm-dotcom-tutorial.git (fetch)
+upstream	git@github.com:carbon-design-system/carbon-for-ibm-dotcom-tutorial.git (push)
+```
+
+### Branch
+
+Now that we have our repository set up, let's check out the branch for this tutorial step's starting point. Run the two
+commands:
+
+```bash
+git fetch upstream
+git checkout -b web-components-step-1 upstream/web-components-step-1
+```
+
+## Build and start
+
+We have the repository forked to your GitHub account, cloned down to your machine, and the starting branch checked out.
+Next, install the web component application's dependencies with:
+
+```bash
+yarn
+```
+
+After the dependencies are installed, you can start the app with:
+
+```bash
+yarn start
+```
+
+Your default browser should open up with an empty page that says:
+`Hello Carbon for IBM.com! Well, not quite yet. This is the starting point for the Carbon for IBM.com tutorial.`
+
+## Install Carbon for IBM.com
+
+Even though we installed existing dependencies, we've yet to install the Carbon for IBM.com packages.
+
+- `@carbon/ibmdotcom-web-components` - web components
+
+Stop your development server with `CTRL-C` and install Carbon for IBM.com dependencies with:
+
+```bash
+yarn add @carbon/ibmdotcom-web-components@1.14.0
+```
+
+In addition to `Carbon for IBM.com` dependencies, additional Carbon packages will need to be included to build the
+overall experience:
+
+```bash
+yarn add carbon-web-components@1.19.0 carbon-components@10.49.0 @carbon/type@10.38.0 @carbon/grid@10.39.0 @carbon/themes@10.47.0
+```
+
+## Install and build Sass
+
+We need to run a Sass build as the Carbon styles are authored in Sass. It is already included in the web components
+template, though to avoid having to add the `~` prefix when importing SCSS files from `node_modules`, create a `.env`
+file at the project root that contains:
+
+```bash path=.env
+SASS_PATH="node_modules"
+```
+
+For the Windows operating system, use:
+
+```bash path=.env
+SASS_PATH=./node_modules
+```
+
+Then, start the app again. If your app's currently running, you'll need to restart it for the new environment variable
+to be used.
+
+```bash
+yarn start
+```
+
+### Import carbon-component styles
+
+To render the page with Carbon styles, various imports would have to be included in the application. The minimal styles
+necessary would be a page reset, IBM Plex fonts, Carbon grid and themes to be loaded.
+
+In `src/assets/scss/index.scss`, import the Carbon styles by adding the following at the top of the file:
+
+```scss path=src/assets/scss/index.scss
+@import 'carbon-components/scss/globals/scss/css--reset';
+@import '@carbon/type/scss/font-face/mono';
+@import '@carbon/type/scss/font-face/sans';
+@import '@carbon/grid/scss/grid';
+@import '@carbon/themes/scss/themes';
+```
+
+Now that the imports are included, we can invoke the scss mixins for setting the IBM Plex fonts and page reset styles:
+
+```scss path=src/assets/scss/index.scss
+@include carbon--font-face-mono();
+@include carbon--font-face-sans();
+@include carbon--type-reset();
+```
+
+Making this change to `index.scss` will cause all of the Carbon Sass to re-compile. Once finished re-compiling the
+Carbon base styling is applied (IBM Plex Sans font family, font size, weight, colors, and so on.)
+
+Re-compiling all of the Carbon Sass takes a while, even on fast systems. Let's speed this up by moving our custom app
+Sass into a separate file, `app.scss` in the 'src' directory, and import that from `App.js`.
+
+```scss path=src/assets/scss/app.scss
+@import 'carbon-components/scss/globals/scss/css--reset';
+@import '@carbon/type/scss/font-face/mono';
+@import '@carbon/type/scss/font-face/sans';
+@import '@carbon/grid/scss/grid';
+@import '@carbon/themes/scss/themes';
+
+@include carbon--font-face-mono();
+@include carbon--font-face-sans();
+@include carbon--type-reset();
+```
+
+```javascript path=src/assets/js/app.js
+import '../scss/app.scss';
+```
+
+By modifying `index.scss` as little as possible and storing all app-specific styling in `app.scss` we will make compile
+times much quicker. Storing the app-specific styling in a separate file also makes good organizational sense.
+
+Next, we'll import a `button-group` from Carbon for IBM.com to test that our dependencies are working properly. At the
+top of `app.js`, import the `button-group` by adding the following:
+
+```javascript path=src/assets/js/app.js
+import '@carbon/ibmdotcom-web-components/es/components/button-group/index.js';
+```
+
+In the `index.html` page, you can now replace:
+
+<!-- prettier-ignore-start -->
+
+```html path=src/index.html
+<body>
+  Hello Carbon for IBM.com! Well, not quite yet. This is the starting point for the Carbon for IBM.com tutorial.
+</body>
+```
+
+<!-- prettier-ignore-end -->
+
+with:
+
+<!-- prettier-ignore-start -->
+
+```html path=src/index.html
+<body>
+  <dds-button-group>
+    <dds-button-group-item href="https://example.com">
+      Lorem ipsum
+    </dds-button-group-item>
+    <dds-button-group-item href="https://example.com">
+      Dolor sit amet
+    </dds-button-group-item>
+  </dds-button-group>
+</body>
+```
+
+<!-- prettier-ignore-end -->
+
+Congratulations, you've imported your first component! You should see a Carbon styled button group on the page.
+
+## Add Dotcom Shell
+
+Next, we're going to add the `dotcom-shell` and configure it for the page. To start, import the following into `app.js`:
+
+```javascript path=src/assets/js/app.js
+import '@carbon/ibmdotcom-web-components/es/components/dotcom-shell/index.js';
+```
+
+In the `index.html` page, replace the previously added `button-group` with the following:
+
+<!-- prettier-ignore-start -->
+
+```html path=src/index.html
+<body>
+  <dds-dotcom-shell-container>
+    <main>Hello World!</main>
+  </dds-dotcom-shell-container>
+</body>
+```
+
+<!-- prettier-ignore-end -->
+
+You can find a description of how to further configure the `dotcom-shell` in our
+[storybook](https://www.ibm.com/standards/carbon/web-components/?path=/story/components-dotcom-shell--default).
+
+<InlineNotification>
+
+**Note:** When creating navigation headers, it's important to have a `Skip to content` link so keyboard users can skip
+the navigation items and go straight to the main content.
+
+</InlineNotification>
+
+Congratulations! You have just added your first web component into your application!
+
+## Configure the Dotcom Shell
+
+<!-- prettier-ignore -->
+While we have just added the standard Carbon for IBM.com <Link to="/components/masthead">masthead</Link> and <Link to="/components/footer">footer</Link> to the page, there are more steps necessary to properly configure those components in order to load in the proper language and locale translation files, as well as the available translation options in the footer's locale selector.
+
+### Setting the Digital Data Object (DDO)
+
+The Digital Data Object (DDO) is a critical part of any IBM.com page. It is a flexible, customizable collection of
+metadata that also provides tools and services such as live chat and analytics to page authors. All pages require the
+DDO.
+
+Within the `<head>` of the `index.html` page, set the following object:
+
+```html path=src/index.html
+<script>
+  window.digitalData = {
+    page: {
+      category: {
+        primaryCategory: '', // e.g. SB03
+      },
+      pageInfo: {
+        effectiveDate: '', // e.g. 2014-11-19
+        expiryDate: '', // e.g. 2017-11-19
+        language: '', // e.g. en-US
+        publishDate: '', // e.g. 2014-11-19
+        publisher: '', // e.g. IBM Corporation
+        version: 'Carbon for IBM.com',
+        ibm: {
+          contentDelivery: '', // e.g. ECM/Filegen
+          contentProducer: '', // e.g. ECM/IConS Adopter 34 - GS83J2343G3H3ERG - 11/19/2014 05:14:02 PM
+          country: '', // e.g. US
+          industry: '', // e.g. B,U
+          owner: '', // e.g. Some Person/City/IBM
+          siteID: '', // e.g. MySiteID
+          subject: '', // e.g. SW492
+          type: '', // e.g CT305
+        },
+      },
+    },
+  };
+</script>
+```
+
+<!-- prettier-ignore -->
+This is the minimum DDO necessary for the page. You can learn more about the configuration of this at <Link to="/developing/building-for-ibm-dotcom#digital-data-object">Building for IBM.com</Link>, though to continue to properly set up the Dotcom Shell for this tutorial, we will set the correct fields to properly set the language and locale:
+
+```html path=src/index.html
+<script>
+  window.digitalData = {
+    page: {
+        ...
+        pageInfo: {
+            ...
+            language: 'en-US',
+            ...
+            ibm: {
+                ...
+                country: 'US',
+                ...
+            }
+        }
+    }
+  };
+</script>
+```
+
+This will configure the `masthead` and `footer` to load in the US English translation files.
+
+### Configure available languages
+
+Your application will load in the available language/locale selections in the footer's locale selector based on the way
+the page is configured. In order to set this up, add the following to the `<head>` of the `index.html` file:
+
+```html path=src/index.html
+<link rel="alternate" hreflang="en-us" href="./index.html?cc=us&lc=en" />
+<link rel="alternate" hreflang="fr-ca" href="./index.html?cc=ca&lc=fr" />
+<link rel="alternate" hreflang="ko-kr" href="./index.html?cc=kr&lc=ko" />
+<link rel="alternate" hreflang="ja-jp" href="./index.html?cc=jp&lc=ja" />
+```
+
+The above block will inform the locale selector that the available languages/locales for this page are US English,
+French Canadian, Korean, and Japanese. It will use the corresponding `href` values to send the user to the provided link
+when selecting in the locale selector. There are obviously many ways to configure the page's `cc` and `lc` (server-side
+vs. client-side, as well as the preferred URL strategy).
+
+In this tutorial, we will use the query parameters of the url in order to inform what the page's language/locale is. To
+do this, let's add the following in the `<head>` below the `window.digitalData` declaration:
+
+```html path=src/index.html
+<script>
+  window.digitalData = {
+    ...
+  };
+
+  var params = new URLSearchParams(window.location.search);
+
+  if(params.has('lc') && params.has('cc')) {
+    var currentLang = params.get('lc') + '-' + params.get('cc').toUpperCase();
+    document.getElementsByTagName("html")[0].setAttribute("lang", currentLang);
+    digitalData.page.pageInfo.language = currentLang;
+    digitalData.page.pageInfo.ibm.country = params.get('cc').toUpperCase();
+  }
+</script>
+```
+
+The above script will grab the query parameter values, then properly set into the `digitalData` object.
+
+Now refresh the page and click the locale selector in the footer in your application. Click into each region and see the
+available language/locales. They should match the configured values in your `<head>`.
+
+Click an available option, then watch your application redirect to the same page, but now it should load your selected
+language/locale in the `masthead` and `footer`.
+
+## Add IBM.com tag management and site analytics
+
+It is required to include the common script tag that allows tag management and site analytics on all IBM.com pages. Add
+the following to the `<head>` of `index.html`:
+
+```html path=src/index.html
+<script
+  src="//1.www.s81c.com/common/stats/ibm-common.js"
+  type="text/javascript"
+  async="async"
+></script>
+```
+
+## Add page meta data
+
+To wrap up this tutorial step, let's add the required meta tags for an IBM.com page. Add the following to the `<head>`:
+
+```html path=src/index.html
+<meta charset="UTF-8" />
+
+<link rel="icon" href="//www.ibm.com/favicon.ico" />
+
+<meta name="dcterms.date" content="YYYY-MM-DD" /> // replace with today's date
+<meta name="dcterms.rights" content="© Copyright IBM Corp. 2021" />
+<meta name="geo.country" content="US" />
+<meta name="robots" content="index,follow" />
+```
+
+## Submit pull request
+
+We're going to submit a pull request to verify completion of this tutorial step and demonstrate a couple of related
+concepts.
+
+### Continuous integration (CI) check
+
+We have a `ci-check` script defined in `package.json` that verifies file formatting for files that have been touched
+since the last Git commit with tools called [Prettier](https://prettier.io) and [Stylelint](https://stylelint.io/). It
+will also run various lint checks in JavaScript code called [ESLint](https://eslint.org/). You'd typically also have
+that script run your test suite as part of your CI build. Go ahead and make sure everything looks good with:
+
+```bash
+yarn ci-check
+```
+
+<InlineNotification>
+
+**Note:** If the `ci-check` is giving an error, it's likely that some of your source files are not properly formatted.
+This could happen if your text editor isn't formatting with Prettier on save. To get `ci-check` to pass, run
+`yarn lint:styles` and `yarn lint` to review and correct the issues, then re-run `yarn ci-check`.
+
+</InlineNotification>
+
+### Git commit and push
+
+Before we can create a pull request, stage and commit all of your changes:
+
+```bash
+git add --all && git commit -m "feat(tutorial): complete step 1"
+```
+
+<InlineNotification>
+
+**Note:** You'll notice that your commit includes binaries in the `.yarn-offline-mirror` folder. That's expected as the
+repository is configured to run [Yarn offline](https://yarnpkg.com/blog/2016/11/24/offline-mirror) for more reliable
+builds. Future tutorial steps that don't install new packages won't have `.yarn-offline-mirror` commit changes.
+
+</InlineNotification>
+
+Then, push to your repository:
+
+```bash
+git push origin web-components-step-1
+```
+
+<InlineNotification>
+
+**Note:** If your Git remote protocol is HTTPS instead of SSH, you may be prompted to authenticate with GitHub when you
+push changes. If your GitHub account has two-factor authentication enabled, we recommend that you follow these
+instructions to
+[create a personal access token for the command line](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line)
+. That lets you use your token instead of password when performing Git operations over HTTPS.
+
+</InlineNotification>
+
+<InlineNotification>
+
+**Note:** If you receive a `non-fast-forward` error, it's likely that your forked repository is behind the original
+repository and needs to be updated. This can happen if the tutorial was updated after you began working on it. To fix,
+run `git pull upstream web-components-step-1` to merge the changes into your branch, then you can try pushing again. Or,
+you can [manually merge](https://help.github.com/en/articles/syncing-a-fork) in the upstream changes.
+
+</InlineNotification>
+
+### Pull request (PR)
+
+Finally, visit [carbon-for-ibm-dotcom-tutorial](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-tutorial)
+to "Compare & pull request". In doing so, make sure that you are comparing `web-components-step-1` into
+`base: web-components-step-1`. Take notice of the `ibmdotcom-bot` that deploys a preview of your PR every time that you
+push new commits. These previews can be shared and viewed by anybody to assist the PR review process.
+
+Expect your tutorial step PRs to be reviewed by the Carbon for IBM.com team but not merged. We'll close your PR so we
+can keep the repository's remote branches pristine and ready for the next person!
+
+If your PR fails the Github Actions test with the error `Can't make a request in offline mode`, try running the
+following command: `rm -rf .yarn-offline-mirror node_modules && yarn cache clean && yarn install`. Add and commit the
+changes once this completes, and try pushing again.

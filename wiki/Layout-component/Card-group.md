@@ -1,6 +1,7 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-[[Card group]] is a decorator component that allows adopters to display multiple [[Card]] components together in a grid layout.
+[[Card group]] is a decorator component that allows adopters to display multiple
+[[Card]] components together in a grid layout.
 
 ![image](https://user-images.githubusercontent.com/3793636/119081126-f7f7be80-b9c0-11eb-8562-31018abd76b6.png)
 
@@ -19,14 +20,19 @@
 </details>
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -39,4 +45,5 @@
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[r1](#resources)</sup> for more details

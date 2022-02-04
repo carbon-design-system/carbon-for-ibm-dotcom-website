@@ -1,4 +1,3 @@
-
 <!-- toc start --><!-- toc end -->
 
 Here are some tips and tricks for using the Gatsby theme.
@@ -17,11 +16,11 @@ simply use the last hash-tag segment:
 
 Instead of linking with markdown as follows:
 
-```[link](https://ibm.box.com/s/26ze6is6ff50nohlx5v28fubkh2w2f2x)```
+`[link](https://ibm.box.com/s/26ze6is6ff50nohlx5v28fubkh2w2f2x)`
 
 Link using the HTML anchor tag as follows:
 
-```<a href="https://ibm.box.com/s/26ze6is6ff50nohlx5v28fubkh2w2f2x" target="_blank">link</a>```
+`<a href="https://ibm.box.com/s/26ze6is6ff50nohlx5v28fubkh2w2f2x" target="_blank">link</a>`
 
 <hr>
 
@@ -32,12 +31,13 @@ Add the `&mdash;` in between the name and the &mdash; will show up.
 <hr>
 
 ### Applying grid to images and content
+
 Use the following two React components to create rows and columns.
 
-`<Row>` creates a row.
-`<Column>` creates a column.
+`<Row>` creates a row. `<Column>` creates a column.
 
-The following example creates a column structure that spans 8 columns, leaving the right 4 columns empty.
+The following example creates a column structure that spans 8 columns, leaving
+the right 4 columns empty.
 
 ```
 <Row>

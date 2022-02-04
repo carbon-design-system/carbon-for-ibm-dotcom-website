@@ -3,9 +3,9 @@ title: Link list
 description: The Link list component is used to present links as a group.
 ---
 
-import ComponentDescription from "components/ComponentDescription";
-import ComponentFooter from "components/ComponentFooter";
-import ResourceLinks from "components/ResourceLinks";
+import ComponentDescription from 'components/ComponentDescription';
+import ComponentFooter from 'components/ComponentFooter';
+import ResourceLinks from 'components/ResourceLinks';
 
 <ComponentDescription name="Link list" type="ui" />
 
@@ -23,7 +23,8 @@ import ResourceLinks from "components/ResourceLinks";
 
 ## Overview
 
-The Link list displays links in a card format, with a semibold heading and the icon shown below the link text. It is typically used for resource links on the side of the main page content.
+The Link list displays links in a card format, with a semibold heading and the icon shown below the link text. It is
+typically used for resource links on the side of the main page content.
 
 <Row>
 <Column colMd={8} colLg={8}>
@@ -43,7 +44,9 @@ The Link list displays links in a card format, with a semibold heading and the i
 
 ### Vertical
 
-This variation displays links as a minimal, vertical list with an icon. It is typically used for resource links on the side of the main page content and features options to include a semibold heading or a horizontal rule at the bottom. The icons can be placed on the left or right side of the text.
+This variation displays links as a minimal, vertical list with an icon. It is typically used for resource links on the
+side of the main page content and features options to include a semibold heading or a horizontal rule at the bottom. The
+icons can be placed on the left or right side of the text.
 
 <Row>
 <Column colMd={8} colLg={8}>
@@ -78,7 +81,9 @@ Link list – vertical with cards combines Link list – vertical and the defaul
 
 ### End of section
 
-This variation displays links as a vertical list with a semibold heading, divided by a horizontal rule, where icons appear to the far right of the text. It is typically used at the end of a content section to list a number of CTAs for the user.
+This variation displays links as a vertical list with a semibold heading, divided by a horizontal rule, where icons
+appear to the far right of the text. It is typically used at the end of a content section to list a number of CTAs for
+the user.
 
 <Row>
 <Column colMd={8} colLg={8}>
@@ -96,11 +101,11 @@ This variation displays links as a vertical list with a semibold heading, divide
 
 ## Content guidance
 
-| Field                                                                                | Field type | Required | Cardinality | Max character size (English / translated) | Notes |
-| ------------------------------------------------------------------------------------ | ---------- | -------- | ----------- | ----------------------------------------- | ----- |
-| Headline                                                                             | Short copy | Yes      | 1           | XXXS (30 / 45)                            | –     |
-| [CTA (text)](https://www.ibm.com/standards/carbon/components/cta) | Component  | Yes      | 2–3         | –                                         | –     |
+| Element                                                          | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes                                                |
+| ---------------------------------------------------------------- | ------------ | -------- | --------- | ------------------------------------------- | ---------------------------------------------------- |
+| Heading                                                          | Text         | Yes      | 1         | 30 / 45                                     | Not required for horizontal and vertical variations. |
+| [CTA](https://www.ibm.com/standards/carbon/components/cta/#text) | Component    | Yes      | 2–3       | 40 / 55                                     | Text style CTA is required.                          |
 
-To see the list of all character count standards, go to this <a href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards" target="_blank" rel="noreferrer noopener nofollow">link</a>.
+For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
 
 <ComponentFooter name="Link list" type="ui" />

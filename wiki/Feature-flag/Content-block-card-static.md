@@ -1,6 +1,7 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-The [[Content block card static]] is an experimental component extending [[Content block cards]] and adding to it.
+The [[Content block card static]] is an experimental component extending
+[[Content block cards]] and adding to it.
 
 ![image](https://user-images.githubusercontent.com/3793636/119144398-3c5d7b80-ba0e-11eb-95e9-04b8ae262dda.png)
 
@@ -18,14 +19,19 @@ The [[Content block card static]] is an experimental component extending [[Conte
 </details>
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -38,4 +44,5 @@ The [[Content block card static]] is an experimental component extending [[Conte
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[r1](#resources)</sup> for more details

@@ -11,36 +11,37 @@ body:
       value: '## Feature Request 💡'
   - type: markdown
     attributes:
-      value: 'If this is a feature request for Carbon for IBM.com and not the website, please open an issue at https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/new/choose.'
+      value: 'If this is a feature request for Carbon for IBM.com and not the Carbon for IBM.com website, please open an issue at https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/new/choose.'
   - type: textarea
     id: problem
     attributes:
       label: The problem
-      description: "A clear and concise description of what the problem this new feature is trying to solve. (ex. I'm always frustrated when...)"
+      description: "Provide a clear and concise description of what the problem this new feature is trying to solve. (For example, I find it frustrating when...)"
     validations:
       required: true
   - type: textarea
     id: solution
     attributes:
       label: The proposed solution
-      description: "A clear and concise description of what you want to happen"
+      description: "Provide a clear and concise description of what you would like to happen instead."
     validations:
       required: true
   - type: textarea
     id: user-research
     attributes:
-      label: Sample content, references, or audits of solutions solving the same problem in other websites
+      label: Examples
+      description: Provide sample content, references, or audits of solutions solving the same problem in other websites.
   - type: checkboxes
     id: terms
     attributes:
-      label: Code of Conduct
+      label: Code of conduct
       description: Please confirm the following
       options:
         - label:
             I agree to follow this project's [Code of
-            Conduct](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/blob/master/.github/CODE_OF_CONDUCT.md)
+            conduct](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/blob/main/.github/CODE_OF_CONDUCT.md).
           required: true
         - label:
             I checked the [current
             issues](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/issues) for
-            duplicate issues
+            duplicate issues.

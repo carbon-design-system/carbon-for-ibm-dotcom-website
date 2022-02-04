@@ -3,22 +3,17 @@ title: Quote
 description: The Quote component is used to highlight an impactful client statement or user testimonial.
 ---
 
-import ComponentDescription from "components/ComponentDescription";
-import ComponentFooter from "components/ComponentFooter";
-import ResourceLinks from "components/ResourceLinks";
+import ComponentDescription from 'components/ComponentDescription';
+import ComponentFooter from 'components/ComponentFooter';
+import ResourceLinks from 'components/ResourceLinks';
 
 <ComponentDescription name="Quote" type="ui" />
-
-<InlineNotification>
-
-**Note:** Additional usage guidelines are coming soon.
-
-</InlineNotification>
 
 <AnchorLinks>
 
 <AnchorLink>Resources</AnchorLink>
 <AnchorLink>Overview</AnchorLink>
+<AnchorLink>Content guidance</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
@@ -36,5 +31,18 @@ import ResourceLinks from "components/ResourceLinks";
 
 </Column>
 </Row>
+
+## Content guidance
+
+| Element                                                          | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes                                                                                                                                                                  |
+| ---------------------------------------------------------------- | ------------ | -------- | --------- | ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Primary copy                                                     | Text         | Yes      | 1         | 200 / 260                                   | Quote.                                                                                                                                                                 |
+| Copy 1                                                           | Text         | No       | 1         | 65 / 85                                     | For example, name.                                                                                                                                                     |
+| Copy 2                                                           | Text         | No       | 1         | 65 / 85                                     | For example, role.                                                                                                                                                     |
+| Copy 3                                                           | Text         | No       | 1         | 65 / 85                                     | For example, company.                                                                                                                                                  |
+| Quotation mark type                                              | Option list  | No       | 1         | –                                           | Double curved (default) (“”) <br/>Single curved (‘’) <br/>Double angle («») <br/>Single angle (‹›)<br/>Low high reversed double curved („ “)<br/>Corner bracket (「」) |
+| [CTA](https://www.ibm.com/standards/carbon/components/cta/#text) | Component    | No       | 1         | –                                           | Text style CTA only.                                                                                                                                                   |
+
+For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
 
 <ComponentFooter name="Quote" type="ui" />

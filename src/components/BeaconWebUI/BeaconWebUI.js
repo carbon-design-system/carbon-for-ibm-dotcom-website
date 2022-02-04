@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Form, Loading, TextInput } from "carbon-components-react";
+import { Button, Form, Loading, TextInput } from 'carbon-components-react';
 import './beacon-web-ui.scss';
 
 /**
@@ -8,11 +8,11 @@ import './beacon-web-ui.scss';
  * @returns {*} Beacon web UI component
  * @constructor
  */
-export const BeaconWebUI = () => {
+const BeaconWebUI = () => {
   const [isLoading, setIsLoading] = useState(false);
 
   /* eslint-disable no-useless-escape */
-  const urlPattern = '^(http|https):\/\/[^ "]+$';
+  const urlPattern = '^(http|https)://[^ "]+$';
 
   const formProps = {
     className: 'beacon-web-ui__form',
@@ -21,14 +21,16 @@ export const BeaconWebUI = () => {
       setIsLoading(true);
       const iframe = document.getElementById('beacon-web-ui-iframe');
       const url = document.getElementById('text-input-1').value;
-      fetch(`https://beacon-for-ibm-dotcom-api.herokuapp.com/?raw=true&url=${url}`)
-        .then(response => response.text())
-        .then(data => {
+      fetch(
+        `https://beacon-for-ibm-dotcom-api.gz4o4xx2g28.us-south.codeengine.appdomain.cloud/?url=${url}`
+      )
+        .then((response) => response.text())
+        .then((data) => {
           setIsLoading(false);
           iframe.classList.add('has-results');
           iframe.srcdoc = data;
         });
-    }
+    },
   };
 
   return (
@@ -44,7 +46,9 @@ export const BeaconWebUI = () => {
         <Button type="submit">Analyze page</Button>
       </Form>
       <Loading active={isLoading} />
-      <iframe id="beacon-web-ui-iframe" title="Beacon for IBM.com" src=""></iframe>
+      <iframe id="beacon-web-ui-iframe" title="Beacon for IBM.com" src="" />
     </>
   );
-}
+};
+
+export default BeaconWebUI;

@@ -3,9 +3,9 @@ title: Lightbox media viewer
 description: The Lightbox media viewer allows the user to view an image or video at a larger size within a modal.
 ---
 
-import ComponentDescription from "components/ComponentDescription";
-import ComponentFooter from "components/ComponentFooter";
-import ResourceLinks from "components/ResourceLinks";
+import ComponentDescription from 'components/ComponentDescription';
+import ComponentFooter from 'components/ComponentFooter';
+import ResourceLinks from 'components/ResourceLinks';
 
 <ComponentDescription name="Lightbox media viewer" type="ui" />
 
@@ -13,6 +13,7 @@ import ResourceLinks from "components/ResourceLinks";
 
 <AnchorLink>Resources</AnchorLink>
 <AnchorLink>Overview</AnchorLink>
+<AnchorLink>Content guidance</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
@@ -40,5 +41,15 @@ The Lightbox media viewer consists of an static image or video, heading, and des
 ![Image of Lightbox media viewer use case 05](../../images/component/lightbox-media-viewer/lightbox-media-viewer-use-case-05.jpg)
 ![Image of Lightbox media viewer use case 06](../../images/component/lightbox-media-viewer/lightbox-media-viewer-use-case-06.jpg)
 ![Image of Lightbox media viewer use case 07](../../images/component/lightbox-media-viewer/lightbox-media-viewer-use-case-07.jpg)
+
+## Content guidance
+
+| Element                                                               | Content type                                                                                                                       | Required | Instances | Character limit <br/>(English / translated) | Notes                                                                                                                   |
+| --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------- | --------- | ------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Heading                                                               | Text                                                                                                                               | No       | 1         | 40 / 55                                     |                                                                                                                         |
+| Copy                                                                  | Text                                                                                                                               | No       | 1         | 200 / 260                                   |                                                                                                                         |
+| Media                                                                 | [Image](https://www.ibm.com/standards/carbon/components/images/) or [Video](https://www.ibm.com/standards/carbon/components/video) | Yes      | 1         | –                                           | The image size should be at 1x1, 2x1, 16x9, 15x4 or 12x11 aspect ratios. The video size should be at 16x9 aspect ratio. |
+| Image alt text                                                        | Text                                                                                                                               | No       | 1         | 75 / 100                                    | Image description for accessibility.                                                                                    |
+| [Carousel](https://www.ibm.com/standards/carbon/components/carousel/) | Component                                                                                                                          | No       | 1         | –                                           | Can be included to help view, and navigate between two or more pieces of media content.                                 |
 
 <ComponentFooter name="Lightbox media viewer" type="ui" />

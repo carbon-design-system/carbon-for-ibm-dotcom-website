@@ -3,18 +3,19 @@ title: Content group cards
 description: Content group cards is used to present information through a group of cards with each acting as a call to action that drives to additional or supporting destinations.
 ---
 
-import ComponentDescription from "components/ComponentDescription";
-import ComponentFooter from "components/ComponentFooter";
-import ResourceLinks from "components/ResourceLinks";
+import ComponentDescription from 'components/ComponentDescription';
+import ComponentFooter from 'components/ComponentFooter';
+import ResourceLinks from 'components/ResourceLinks';
 
 <ComponentDescription name="Content group cards" type="layout" />
 
 <AnchorLinks>
 
 <AnchorLink>Resources</AnchorLink>
-<AnchorLink>Overview</AnchorLink>
+<AnchorLink>Overview</AnchorLink> 
+<AnchorLink>Content guidance</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
-
+  
 </AnchorLinks>
 
 <ResourceLinks name="Content group cards" type="layout" />
@@ -24,5 +25,15 @@ import ResourceLinks from "components/ResourceLinks";
 Content group cards includes a section heading, body copy, and any number of card components listed below. This pattern can be used multiple times within a content block.
 
 ![Image of content group cards](../../images/pattern/content-group-with-cards/content-group-with-cards.jpg)
+
+## Content guidance
+
+| Element                                                                  | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes |
+| ------------------------------------------------------------------------ | ------------ | -------- | --------- | ------------------------------------------- | ----- |
+| Heading                                                                  | Text         | Yes      | 1         | 40 / 55                                     |       |
+| Copy                                                                     | Text         | No       | 1         | 350 / 450                                   |       |
+| [Card group](https://www.ibm.com/standards/carbon/components/card-group) | Component    | Yes      | 1         | –                                           |       |
+
+For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content/#character-count-standards).
 
 <ComponentFooter name="Content group cards" type="layout" />

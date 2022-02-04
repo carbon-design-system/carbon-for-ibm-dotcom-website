@@ -3,9 +3,9 @@ title: Feature section
 description: Feature section is a dedicated section for a single story.
 ---
 
-import ComponentDescription from "components/ComponentDescription";
-import ComponentFooter from "components/ComponentFooter";
-import ResourceLinks from "components/ResourceLinks";
+import ComponentDescription from 'components/ComponentDescription';
+import ComponentFooter from 'components/ComponentFooter';
+import ResourceLinks from 'components/ResourceLinks';
 
 <ComponentDescription name="Feature section" type="layout" />
 
@@ -19,6 +19,7 @@ Additional usage guidelines will be available soon.
 
 <AnchorLink>Resources</AnchorLink>
 <AnchorLink>Overview</AnchorLink>
+<AnchorLink>Content guidance</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
@@ -36,5 +37,18 @@ Feature section is a full-width section, designed to create a visual break from 
 
 </Column>
 </Row>
+
+## Content guidance
+
+| Element                                                                      | Content type                                                     | Required | Instances | Character limit <br/>(English / translated) | Notes                                |
+| ---------------------------------------------------------------------------- | ---------------------------------------------------------------- | -------- | --------- | ------------------------------------------- | ------------------------------------ |
+| Eyebrow                                                                      | Text                                                             | No       | 1         | 25 / 35                                     |                                      |
+| Heading                                                                      | Text                                                             | Yes      | 1         | 65 / 85                                     |                                      |
+| Copy                                                                         | Text                                                             | Yes      | 1         | 200 / 260                                   |                                      |
+| Media                                                                        | [Image](https://www.ibm.com/standards/carbon/components/images/) | Yes      | 1         | –                                           | 1:1 aspect ratio.                    |
+| Image alt text                                                               | Text                                                             | No       | 1         | 75 / 100                                    | Image description for accessibility. |
+| [Card link](https://www.ibm.com/standards/carbon/components/cards#card-link) | Component                                                        | Yes      | 1         | –                                           |                                      |
+
+For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
 
 <ComponentFooter name="Feature section" type="layout" />

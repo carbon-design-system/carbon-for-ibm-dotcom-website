@@ -1,11 +1,8 @@
 ---
 title: Lead space
 description:
-  A Lead space is positioned at the top of a web page and serves as the first
-  site of user engagement. Its primary purpose is to orient the user when they
-  land on a page, inform them of the content, and guide them to the first key
-  piece of content on the page, whether it's a crucial piece of information or a
-  call-to-action.
+  Lead space sets the context and helps users understand what type of content they are going to find on the page. It is
+  always positioned at the top.
 ---
 
 import ComponentDescription from 'components/ComponentDescription';
@@ -17,289 +14,158 @@ import ResourceLinks from 'components/ResourceLinks';
 <AnchorLinks>
 
 <AnchorLink>Resources</AnchorLink>
-<AnchorLink>Lead space left-aligned</AnchorLink>
-<AnchorLink>Lead space centered</AnchorLink>
+<AnchorLink>Overview</AnchorLink>
+<AnchorLink>Variants</AnchorLink>
+<AnchorLink>Behaviors</AnchorLink>
+<AnchorLink>Modifiers</AnchorLink>
 <AnchorLink>Content guidance</AnchorLink>
-<AnchorLink>Usage guidance</AnchorLink>
-<AnchorLink>Color themes</AnchorLink>
-<AnchorLink>Type styles</AnchorLink>
+<AnchorLink>Related components</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
 
 <ResourceLinks name="Lead space" type="layout" />
 
-## Lead space left-aligned
+## Overview
 
-This is the most commonly used Lead space style. The left-aligned type draws the
-users' attention to the Lead space messaging immediately. Used in marketing and
-product pages, among others.
+A lead space is positioned at the top of a web page and serves as one of the most efficient and powerful communication
+tools. Its primary purpose is to orient the user and quickly inform them of the page content.
 
-There are 4 available heights for the lead space left-aligned:
+There are five variants, designed for specific situations. [Super](#super) is the most prominent variant. It is used at
+the start of a user's journey, for homepages and landing pages. [Tall](#tall) and [Medium](#medium) are variants that
+follow the users throughout their pre-purchase or post-purchase journey, and [Short](#short) is a height efficient type
+of lead space, for users that are engaged in the purchase stages of their journey. [Centered](#centered) lead space can
+be a powerful tool for long-form reading experiences.
 
-| Name   | Height | Heading type token      |
-| ------ | ------ | ----------------------- |
-| Super  | 640 px | \$display-01            |
-| Tall   | 560 px | \$expressive-heading-06 |
-| Medium | 480 px | \$expressive-heading-05 |
-| Short  | 320 px | \$expressive-heading-06 |
+<Row>
 
-<br />
-<br />
+<Column colMd={4} colLg={8}>
 
-![Lead space left-aligned](../../images/pattern/leadspace/leadspace_leftaligned_01.jpg)
+![Lead space variants](../../images/component/lead-space/component--lead-space--variants.gif)
 
-<Caption>
-  Example: Lead space – Tall – 560px height at max 1584px breakpoint, with
-  $expressive-heading-06 heading
-</Caption>
-
-![Lead space left-aligned](../../images/pattern/leadspace/leadspace_leftaligned_02.jpg)
-
-<Caption>
-  Example: Lead space – Medium – 480px height at max 1584px breakpoint, with
-  $expressive-heading-05
-</Caption>
-
-<br />
-
-## Lead space centered
-
-This option has 4 empty columns on the left and right to accommodate pages that
-have content positioned in the center of the 16-column grid. Used in the Learn
-page template and other long-form reading experiences.
-
-![Lead space centered](../../images/pattern/leadspace/Leadspace_Demo_LeftAligned.jpg)
-
-<Caption>
-  Example: Lead space centered at max 1584px breakpoint, with
-  $expressive-heading-05
-</Caption>
-
-<br />
-
-## Content guidance
-
-### Lead space left-aligned
-
-| Field                                                                     | Field type | Required | Max character size <br/>(English / translated) | Notes                                                                   |
-| ------------------------------------------------------------------------- | ---------- | -------- | ---------------------------------------------- | ----------------------------------------------------------------------- |
-| Headline                                                                  | Short copy | Yes      | XS (65 / 85)                                   | –                                                                       |
-| Description                                                               | Short copy | No       | M (120 / 150)                                  | –                                                                       |
-| CTA - Button                                                              | Component  | No       | XXS (40 / 55)                                  | Lead space Short (320px) does not allow a button group or a short copy. |
-| Gradient                                                                  | True/False | No       | –                                              | True – Show gradient (default) <br/>False – No gradient                 |
-| Background [image](https://www.ibm.com/standards/carbon/components/image) | Component  | No       | –                                              | Breakpoints require different images.                                   |
-
-### Lead space centered
-
-| Field                                                                     | Field type  | Required | Cardinality        | Max character size <br/>(English / translated) | Notes                                                  |
-| ------------------------------------------------------------------------- | ----------- | -------- | ------------------ | ---------------------------------------------- | ------------------------------------------------------ |
-| Headline                                                                  | Short copy  | Yes      | 1                  | XS (65 / 85)                                   | –                                                      |
-| Description                                                               | Short copy  | No       | 1                  | M (120 / 150)                                  | –                                                      |
-| CTA - Button                                                              | Component   | No       | Max of two buttons | XXS (40 / 55)                                  | –                                                      |
-| Gradient                                                                  | True/False  | No       | –                  | –                                              | True – Show gradient (default)<br/>False – No gradient |
-| Background [image](https://www.ibm.com/standards/carbon/components/image) | Component   | No       | 1                  | –                                              | Breakpoints require different images.                  |
-| Type                                                                      | Option list | Yes      | –                  | –                                              | Center, Left, or Small                                 |
-
-For more information, see the
-[character count standards](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards).
-
-<br />
-
-## Usage guidance
-
-For detailed guidelines around usage, also reference the
-[Lead space pattern page](/patterns/lead-space).
-
-<br />
-
-## Color themes
-
-There are two themes to choose from when using the Lead space:
-
-### Dark themes (Gray 100 or Gray 90)
-
-Use `Gray 100` or `Gray 90` when the background image has shadows, is dimly lit,
-or uses a dark color palette.
-
-![Dark theme](../../images/pattern/leadspace/leadspace_colortheme_dark_demo.jpg)
-
-<Caption>
-  Dark Lead space – Super – 640px height at xlg 1312px breakpoint
-</Caption>
-
-<br />
-
-### Light themes (White or Gray 10)
-
-Use `White` or `Gray 10` when the background image is well-lit or brightly
-colored.
-
-![Light_theme](../../images/pattern/leadspace/leadspace_colortheme_light_demo.jpg)
-
-<Caption>
-  Light Lead space – Super – 640px height at xlg 1312px breakpoint
-</Caption>
-
-<br />
-
-## Type styles
-
-### Lead space left-aligned
-
-Please use the following recommended expressive type styles for the Lead space
-left-aligned heading:
-
-| Name   | Height | Heading type token      |
-| ------ | ------ | ----------------------- |
-| Super  | 640 px | \$display-01            |
-| Tall   | 560 px | \$expressive-heading-06 |
-| Medium | 480 px | \$expressive-heading-05 |
-| Short  | 320 px | \$expressive-heading-06 |
-
-<br />
-<br />
-
-![Lead space with $expressive-heading-06](../../images/pattern/leadspace/LeadSpace_TypeStyles_$expressive-heading-06.jpg)
-
-<Caption>
-  $expressive-heading-06 can be used to highlight the name of the product,
-  offering or title of topic. This option is optimal if using all Lead space
-  components together. 
-</Caption>
-
-### Lead space centered
-
-There are two recommended expressive type styles to choose from when using Lead
-space centered:
-
-- `$expressive-heading-06` is recommended for pages that surface detailed,
-  productive content to users such as product pages.
-- `$display-01` is recommended for pages that have rich, editorial, expressive
-  moments, such as marketing or campaign pages.
-
-![Lead space with $expressive-heading-06](../../images/pattern/leadspace/leadspace_typestyles_centered_demo_1.jpg)
-
-<Caption>
-  $expressive-heading-06 can be used to highlight the name of the product,
-  offering or title of topic. This option is optimal if using all Lead space and
-  components together.
-</Caption>
-
-<br />
-
-![Lead space with $display-01](../../images/pattern/leadspace/leadspace_typestyles_centered_demo_2.jpg)
-
-<Caption>
-  $display-01 can be used to celebrate strong, editorial messaging.
-</Caption>
-
-<br />
-
-### Lead space left-aligned
-
-![$expressive-heading-06 at 1312 xlg breakpoint](../../images/pattern/leadspace/leadspace_leftaligned_specs_01.jpg)
-
-<Caption>
-  Example: $expressive-heading-05 at xlg breakpoint (1312px) for a Medium (480px
-  height) lead space
-</Caption>
-
-<br />
-
-1. **Heading:** \$expressive-heading-05
-1. **Content spacer:** safe space between heading and short copy
-1. **Short copy:** \$expressive-heading-03
-1. **Button group**
-1. **Gradient (applied over image)**
-1. **Background image** \*optional: cover, width: 100% of container
-
-<br />
-<br />
-
-![$display-01 at 1312 xlg breakpoint](../../images/pattern/leadspace/leadspace_specs_left_demo_2.jpg)
-
-<Caption>
-  Example: $display-01 at xlg breakpoint (1312px) for a Super (640px) lead space
-</Caption>
-
-<br />
-
-1. **Heading:** \$display-01
-1. **Content spacer:** safe space between heading and short copy
-1. **Short copy:** \$expressive-heading-03
-1. **Button group**
-1. **Gradient (applied over image)**
-1. **Background image** \*optional: cover, width: 100% of container
-
-<br />
-<br />
-
-![$expressive-heading-06 mobile display](../../images/pattern/leadspace/leadspace_leftaligned_specs_03.jpg)
-
-<Caption>$expressive-heading-06 mobile display</Caption>
-
-<br />
-
-1. **Heading:** \$expressive-heading-06
-1. **Short copy:** \$expressive-heading-03
-1. **Button group**
-1. **Inline image (from background image)** \*optional <br/>width: 100% of
-   container, 4:3
-
-<br />
-<br />
-
-![$display-01 mobile display](../../images/pattern/leadspace/leadspace_leftaligned_specs_04.jpg)
-
-<Caption>$display-01 mobile display</Caption>
-
-<br />
-
-1. **Heading:** \$display-01
-1. **Short copy:** \$expressive-heading-03
-1. **Button group**
-1. **Inline image (from background image)** \*optional <br/>width: 100% of
-   container, 4:3
-
-### Lead space centered
-
-![leadspace_specs_dark_centered_demo](../../images/pattern/leadspace/leadspace_specs_dark_centered_aligned_demo.jpg)
-
-<Caption>
-  Example: $display-01 at max breakpoint (1584px) for a Super (640px) lead space
-</Caption>
-
-<br />
-
-1. **Heading:** \$display-01
-2. **Short copy:** \$expressive-heading-03
-3. **Button group**
-4. **Content bottom spacer** <br/>Height: $layout-07 + $layout-06 with
-   background image, <br/>or \$layout-07 without background image
-5. **Gradient (applied over image)**
-6. **Background image:** cover, width: 100% of container, position: center
-   bottom.
-
-<br />
-
-<ComponentFooter name="Lead space" type="layout" />
-
-<Row className="resource-card-group">
-
-<Column colMd={4} colLg={4} noGutterSm>
-
-<ResourceCard
-subTitle="Drupal design guide"
-aspectRatio="2:1"
-actionIcon="arrowRight"
-href="http://ibm.biz/Drupal_design_guide"
->
-
-![React icon](../../images/icon/drupal_logo.svg)
-
-</ResourceCard>
+<Caption>The Lead space variants</Caption>
 
 </Column>
 
 </Row>
+
+### Deciding what to use
+
+| Variants              | Use cases                                                                                                                                                                                                                                              |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [Super](#super)       | Used mainly for home pages, landing pages and more expressive marketing experiences. Available for left-aligned content.                                                                                                                               |
+| [Tall](#tall)         | This variant is the default lead space. It is more efficient when used for pre-purchase learn pages. Available for left-aligned content.                                                                                                               |
+| [Medium](#medium)     | Closely related to Tall, this variant can be used for pre-purchase and post-purchase stage. It is generally a safe choice, because it captures attention while still allowing a lot of content above the fold. Available for left-aligned content.     |
+| [Short](#short)       | This is the shortest, yet very efficient variant. It is mostly used in the purchase stage experiences, for example, the product pricing pages, where the users are more focused on the product or service details. Available for left-aligned content. |
+| [Centered](#centered) | This is a special variant that can be used for learning pages, long-form reading experiences, and use cases. When center-aligning content, the Lead space height varies based on the content.                                                          |
+
+## Variants
+
+### Super
+
+Super is a left-aligned lead space variant with a big, fluid heading that immediately draws the user's attention. It has
+a 640px fixed height for the desktop experience, and it is variable in height for smaller screens. It can be used on
+many different page types, but its main purpose is for use on homepages and landing pages, helping products and services
+to create strong emotional connections with the audience.
+
+![Super lead space](../../images/component/lead-space/component--lead-space--super.jpg)
+
+<Caption>Super (640px height), with tag links as a navigational option</Caption>
+
+1. **Tag group:** Tag group consists of a number of clickable tags that link the topic to other pages with more
+   information.
+1. **Heading:** Heading has the highest information hierarchy on a lead space, and should be succinct and descriptive.
+1. **Short copy:** Optional copy can be added for additional description.
+1. **Button group:** A group of CTAs that provides options for users to continue their journey.
+1. **Background media:** Optional component that adds a background image and a gradient for accessibility.
+
+### Tall
+
+Tall is the left-aligned default Lead space variant, and it is mostly used in the pre-purchase stages of the buying
+cycle, like the learning stage. It can communicate a message very clearly with its semibold, big type heading. It has a
+560px fixed height for the desktop experience, and it is variable in height for smaller screens.
+
+![Tall lead space](../../images/component/lead-space/component--lead-space--tall.jpg)
+
+<Caption>Tall (560px height), with its prominent semibold heading</Caption>
+
+### Medium
+
+Medium is a left-aligned lead space variant mostly used in the pre-purchase and post-purchase stages of the buying
+cycle. It is generally a safe choice, because it captures attention while still allowing a lot of content to peek above
+the fold. Avoid using this height variant if the page is a homepage or you are creating a landing page experience. It
+has a 480px fixed height for desktop viewports, and it is also variable in height for smaller screens.
+
+![Medium lead space](../../images/component/lead-space/component--lead-space--medium.jpg)
+
+<Caption>
+  Medium (480px height), with tag links and no background media option
+</Caption>
+
+### Short
+
+Short is an efficient and precise left-aligned lead space variant mostly used in the purchase stages of the buying
+cycle. Short can also be used to lead additional info following a landing page, for example the product pricing page. It
+has a 320px fixed height for the desktop experience, and it is variable in height for smaller screens.
+
+![Short lead space](../../images/component/lead-space/component--lead-space--short.jpg)
+
+<Caption>
+  Short (320px height), with tag links but no background media option
+</Caption>
+
+### Centered
+
+This lead space has four empty columns on the left and right to accommodate pages that have content positioned in the
+center of the 16-column grid. Used in the learn pages templates and other long-form reading experiences. It has a fluid
+height and a prominent heading.
+
+![Centered lead space](../../images/component/lead-space/component--lead-space--centered.jpg)
+
+<Caption>
+  Centered (variable height), designed to accommodate longer copy
+</Caption>
+
+## Behaviors
+
+On small breakpoint (320px), the background image switches to an inline image and is positioned last, after the button
+group, as shown below.
+
+![Lead space on mobile](../../images/component/lead-space/component--lead-space--super--behaviors.jpg)
+
+<Caption>Lead space behavior change on mobile (right)</Caption>
+
+## Modifiers
+
+#### Breadcrumbs
+
+Breadcrumbs can be used above the Lead space heading, replacing the Tag group to cover a wider range of needs and
+navigational purposes.
+
+![Lead space with breadcrumbs](../../images/component/lead-space/component--lead-space--super--modifiers.jpg)
+
+<Caption>Lead space with breadcrumbs</Caption>
+
+## Content guidance
+
+| Element                                                            | Content type                                                                                                                       | Required | Instances | Character limit <br/>(English / translated) | Notes                                                                                                  |
+| ------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- | -------- | --------- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| Parent navigation                                                  | Option list                                                                                                                        | No       | 1         | –                                           | Breadcrumbs or Tag group.                                                                              |
+| Heading                                                            | Text                                                                                                                               | Yes      | 1         | 40 / 55                                     |                                                                                                        |
+| Copy                                                               | Text                                                                                                                               | No       | 1         | 120 / 150                                   | Lead space short variant (320px height) does not allow copy under the heading.                         |
+| [CTA](https://www.ibm.com/standards/carbon/components/cta/#button) | Component                                                                                                                          | No       | 1         | 25 / 35                                     | Button style CTA only. Lead space short variant (320px height) does not allow a CTA under the heading. |
+| Background media                                                   | [Image](https://www.ibm.com/standards/carbon/components/images/) or [Video](https://www.ibm.com/standards/carbon/components/video) | No       | 1         | –                                           |                                                                                                        |
+| Image alt text                                                     | Text                                                                                                                               | No       | 1         | 75 / 100                                    | Image description for accessibility.                                                                   |
+
+For more information, see the
+[character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
+
+## Related components
+
+| Component name                                                                         | Relationship                                                                                                               |
+| -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| [Lead space block](https://www.ibm.com/standards/carbon/components/lead-space-block)   | Lead space block is an alternative lead space component, enabling a more productive first site of viewer engagement.       |
+| [Lead space search](https://www.ibm.com/standards/carbon/components/lead-space-search) | Lead space search provides a fast route to information discovery by including a prominent search option in the lead space. |
+| Lead space video                                                                       | Coming soon.                                                                                                               |
+
+<ComponentFooter name="Lead space" type="layout" />

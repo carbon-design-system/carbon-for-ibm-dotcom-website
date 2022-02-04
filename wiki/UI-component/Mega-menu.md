@@ -1,6 +1,9 @@
 `Core` <!-- category start --><!-- category end -->
 
-The [[Mega menu]] is a component that is used in tandem with the [[Masthead L0]] to help customers navigate throughout the IBM.com experience. The [[Mega menu]] is designed to handle large amounts of navigation items, and other various types of content to aid in the user’s journey.
+The [[Mega menu]] is a component that is used in tandem with the [[Masthead L0]]
+to help customers navigate throughout the IBM.com experience. The [[Mega menu]]
+is designed to handle large amounts of navigation items, and other various types
+of content to aid in the user’s journey.
 
 ![image](https://user-images.githubusercontent.com/3793636/119056453-56587900-b990-11eb-8f48-c385877d09a3.png)
 
@@ -14,17 +17,23 @@ The [[Mega menu]] is a component that is used in tandem with the [[Masthead L0]]
 <br />
 </details>
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873641-a6835d00-b265-11eb-8433-8c9c73a2e999.png) Re-evaluate dependency list
+> ![image](https://user-images.githubusercontent.com/3793636/117873641-a6835d00-b265-11eb-8433-8c9c73a2e999.png)
+> Re-evaluate dependency list
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -37,4 +46,5 @@ The [[Mega menu]] is a component that is used in tandem with the [[Masthead L0]]
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[r1](#resources)</sup> for more details

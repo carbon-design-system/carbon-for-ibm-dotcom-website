@@ -1,6 +1,8 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-[[Card link]] is a decorated [[Card]] by prescribing a specific data content and visual pattern. This component is typically intended to be used by the [[CTA]] component to give it its functionality and icon.
+[[Card link]] is a decorated [[Card]] by prescribing a specific data content and
+visual pattern. This component is typically intended to be used by the [[CTA]]
+component to give it its functionality and icon.
 
 ![card-link](https://user-images.githubusercontent.com/3793636/127712386-ed585110-8f52-4cda-9d19-5383719507df.png)
 
@@ -17,14 +19,19 @@
 </details>
 
 <!-- usedby start -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -38,24 +45,28 @@
 <br />
 
 ### 1. Card
+
 `required` `component`
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See [[Card]] for more information
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See [[Card]] for more information
 
 <br />
 
-#### 1.1 Heading 
+#### 1.1 Heading
+
 `required` `string`
 
 <br />
 
 #### 1.2 Copy
+
 `optional` `string`
 
 <br />
 
 #### 1.3 CTA
-`required` `icon only`
 
+`required` `icon only`
 
 <br />[Back to top](#wiki-wrapper)<br /><br /><br />

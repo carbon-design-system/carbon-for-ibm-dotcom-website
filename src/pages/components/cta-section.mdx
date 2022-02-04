@@ -1,10 +1,9 @@
 ---
 title: CTA Section
 description:
-  CTA (call-to-action) section is used to communicate actions that users can
-  take at key points in your narrative, such as at the bottom of an important
-  section or page where the user is ready to progress to subsequent stages in
-  the journey.
+  CTA (call-to-action) section is used to communicate actions that users can take at key points in your narrative, such
+  as at the bottom of an important section or page where the user is ready to progress to subsequent stages in the
+  journey.
 ---
 
 import ComponentDescription from 'components/ComponentDescription';
@@ -26,11 +25,9 @@ import ResourceLinks from 'components/ResourceLinks';
 
 ## Overview
 
-CTA (call-to-action) section is divided into two sub-sections. The first
-consists of a heading, introductory copy and primary button CTA. This area is
-used to highlight the primary action that the user may take. The second
-sub-section consists of two paragraph lists and is used to provide information
-and links to additional destinations.
+CTA (call-to-action) section is divided into two sub-sections. The first consists of a heading, introductory copy and
+primary button CTA. This area is used to highlight the primary action that the user may take. The second sub-section
+consists of two paragraph lists and is used to provide information and links to additional destinations.
 
 ![default](../..//images/pattern/cta-section/cta-section.jpg)
 
@@ -38,18 +35,25 @@ and links to additional destinations.
 
 ## Content guidance
 
-| Field                                                                                                   | Sub-component <br/>field                                                | Field type | Required | Cardinality       | Max character size <br/>(English / translated) | Notes                                                          |
-| ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ---------- | -------- | ----------------- | ---------------------------------------------- | -------------------------------------------------------------- |
-| Headline                                                                                                |                                                                         | Short copy | Yes      | 1                 | XXS (40 / 55)                                  | –                                                              |
-| Paragraph                                                                                               |                                                                         | Long copy  | No       | 1                 | L (150 / 200)                                  | –                                                              |
-| CTA                                                                                                     |                                                                         | Component  | Yes      | 1–2 buttons       | –                                              | –                                                              |
-| Content items                                                                                           |                                                                         | Component  | No       | 1–2 content items | –                                              | You can choose either Content items or the Link list component |
-|                                                                                                         | Headline                                                                | Short copy | Yes      | 1                 | Micro (20 / 32)                                | –                                                              |
-|                                                                                                         | Paragraph                                                               | Long copy  | Yes      | 1                 | L (150 / 200)                                  | –                                                              |
-|                                                                                                         | [CTA (text)](https://www.ibm.com/standards/carbon/components/cta/#text) | Component  | Yes      | 1                 | –                                              | –                                                              |
-| [Link list (end of section)](https://www.ibm.com/standards/carbon/components/link-list/#end-of-section) |                                                                         | Component  | No       | 1                 | –                                              | You can choose either Content items or the Link list component |
+### CTA section
 
-For more information, see the
-[character count standards](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards).
+| Element                                                                                                  | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes                                                                                  |
+| -------------------------------------------------------------------------------------------------------- | ------------ | -------- | --------- | ------------------------------------------- | -------------------------------------------------------------------------------------- |
+| Heading                                                                                                  | Text         | Yes      | 1         | 40 / 55                                     |                                                                                        |
+| Copy                                                                                                     | Text         | No       | 1         | 150 / 200                                   |                                                                                        |
+| [CTA](https://www.ibm.com/standards/carbon/components/cta#button)                                        | Component    | Yes      | 1–2       | –                                           | Button style CTA only.                                                                 |
+| [Content item](https://www.ibm.com/standards/carbon/components/cta-section#content-item-for-cta-section) | Component    | No       | 1–6       | –                                           | You can choose either Content items or the Link list component, up to 6 content items. |
+| [Link list](https://www.ibm.com/standards/carbon/components/link-list/#end-of-section)                   | Component    | No       | 1         | –                                           | You can choose either Content items or the Link list component, up to 12 links.        |
+
+### Content item for CTA section
+
+| Element                                                    | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes                                                              |
+| ---------------------------------------------------------- | ------------ | -------- | --------- | ------------------------------------------- | ------------------------------------------------------------------ |
+| Heading                                                    | Text         | Yes      | 1         | 20 / 32                                     |                                                                    |
+| Copy                                                       | Text         | Yes      | 1         | 150 / 200                                   |                                                                    |
+| [CTA](https://www.ibm.com/standards/carbon/components/cta) | Component    | Yes      | 1         | 25 / 35                                     | Required for the CTA section component, text or button style only. |
+| Style                                                      | Option list  | Yes      | 1         | –                                           | Text, stats, pictogram, or media.                                  |
+
+For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
 
 <ComponentFooter name="CTA section" type="layout" />

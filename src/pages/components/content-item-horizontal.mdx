@@ -3,9 +3,9 @@ title: Content item horizontal
 description: The content item horizontal component displays information in a horizontal orientation.
 ---
 
-import ComponentDescription from "components/ComponentDescription";
-import ComponentFooter from "components/ComponentFooter";
-import ResourceLinks from "components/ResourceLinks";
+import ComponentDescription from 'components/ComponentDescription';
+import ComponentFooter from 'components/ComponentFooter';
+import ResourceLinks from 'components/ResourceLinks';
 
 <ComponentDescription name="Content item horizontal" type="layout" />
 
@@ -20,6 +20,7 @@ import ResourceLinks from "components/ResourceLinks";
 <AnchorLink>Resources</AnchorLink>
 <AnchorLink>Overview</AnchorLink>
 <AnchorLink>Variations</AnchorLink>
+<AnchorLink>Content guidance</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
@@ -42,7 +43,9 @@ This variation shows a similar layout and is capable of featuring one piece of m
 
 ![Content item horizontal media](../../images/component/content-item-horizontal/content-item-horiz-media.png)
 
-<Caption>Examples of content item horizontal with media in two different configurations</Caption>
+<Caption>
+  Examples of content item horizontal with media in two different configurations
+</Caption>
 
 ### Content item horizontal with thumbnail
 
@@ -51,5 +54,18 @@ When imagery is secondary, use the content item horizontal with thumbnail. This 
 ![Content item horizontal thumbnail](../../images/component/content-item-horizontal/content-item-horiz-thumbnail.png)
 
 <Caption>Example of content item horizontal with thumbnail</Caption>
+
+## Content guidance
+
+| Element                                                                | Content type                                                                                                                       | Required | Instances | Character limit <br/>(English / translated) | Notes                                                                                                                                           |
+| ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------- | --------- | ------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| Eyebrow                                                                | Text                                                                                                                               | No       | 1         | 25 / 35                                     |                                                                                                                                                 |
+| Heading                                                                | Text                                                                                                                               | Yes      | 1         | 40 / 55                                     |                                                                                                                                                 |
+| Copy                                                                   | Text                                                                                                                               | Yes      | 1         | 200 / 260                                   |                                                                                                                                                 |
+| [Link list](https://www.ibm.com/standards/carbon/components/link-list) | Component                                                                                                                          | No       | Min 1     | –                                           | At least 1 CTA required: local, external, or download type. Text style only.                                                                    |
+| Media                                                                  | [Image](https://www.ibm.com/standards/carbon/components/images/) or [Video](https://www.ibm.com/standards/carbon/components/video) | No       | 1         | –                                           | Default variation does not allow media. Media variation supports image, image with caption, and video. Thumbnail variation only supports image. |
+| Image alt text                                                         | Text                                                                                                                               | No       | 1         | 75 / 100                                    | Image description for accessibility.                                                                                                            |
+
+For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
 
 <ComponentFooter name="Content item horizontal" type="layout" />

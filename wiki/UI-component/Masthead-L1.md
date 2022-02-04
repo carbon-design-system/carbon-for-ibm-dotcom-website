@@ -1,8 +1,11 @@
 `Core` <!-- category start --><!-- category end -->
 
-The [[Masthead L1]] component is an optional navigational pattern for IBM.com that allows adopters to add an additional micro navigation across a topic/category of pages.
+The [[Masthead L1]] component is an optional navigational pattern for IBM.com
+that allows adopters to add an additional micro navigation across a
+topic/category of pages.
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873641-a6835d00-b265-11eb-8433-8c9c73a2e999.png) Need to break this work down with maybe an overview page?
+> ![image](https://user-images.githubusercontent.com/3793636/117873641-a6835d00-b265-11eb-8433-8c9c73a2e999.png)
+> Need to break this work down with maybe an overview page?
 
 ![image](https://user-images.githubusercontent.com/3793636/119056331-21e4bd00-b990-11eb-8190-ef13c714dd8e.png)
 
@@ -18,17 +21,23 @@ The [[Masthead L1]] component is an optional navigational pattern for IBM.com th
 <br />
 </details>
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873641-a6835d00-b265-11eb-8433-8c9c73a2e999.png) Dependency list needs to be re-evaluated
+> ![image](https://user-images.githubusercontent.com/3793636/117873641-a6835d00-b265-11eb-8433-8c9c73a2e999.png)
+> Dependency list needs to be re-evaluated
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -41,4 +50,5 @@ The [[Masthead L1]] component is an optional navigational pattern for IBM.com th
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[r1](#resources)</sup> for more details

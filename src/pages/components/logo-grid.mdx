@@ -1,11 +1,13 @@
 ---
 title: Logo grid
-description: Logo grid is used to present a group of client or partner logos. This pattern is commonly used to establish credibility of the given product or service.
+description:
+  Logo grid is used to present a group of client or partner logos. This pattern is commonly used to establish
+  credibility of the given product or service.
 ---
 
-import ComponentDescription from "components/ComponentDescription";
-import ComponentFooter from "components/ComponentFooter";
-import ResourceLinks from "components/ResourceLinks";
+import ComponentDescription from 'components/ComponentDescription';
+import ComponentFooter from 'components/ComponentFooter';
+import ResourceLinks from 'components/ResourceLinks';
 
 <ComponentDescription name="Logo grid" type="layout" />
 
@@ -23,7 +25,8 @@ import ResourceLinks from "components/ResourceLinks";
 
 ## Overview
 
-Logo grid consists of a heading and a group of logos. Each logo should be contained inside a space (4:3 aspect ratio) and the logos are not clickable.
+Logo grid consists of a heading and a group of logos. Each logo should be contained inside a space (4:3 aspect ratio)
+and the logos are not clickable.
 
 ![default](../..//images/pattern/logo-grid/logo-grid-default.png)
 
@@ -31,11 +34,13 @@ Logo grid consists of a heading and a group of logos. Each logo should be contai
 
 ## Logo placement
 
-Logos should be centered within a 4:3 aspect ratio to create optical alignment, visual hierarchy, and ensure all brands have equal representation.
+Logos should be centered within a 4:3 aspect ratio to create optical alignment, visual hierarchy, and ensure all brands
+have equal representation.
 
 ### Grid template
 
-Use the [logo grid template](https://ibm.box.com/s/t85vh5blf8lbya13ro2c40pzp49m5es1) to size logos and align them within the varying grid guides to achieve equal visual hierarchy.
+Use the [logo grid template](https://ibm.box.com/s/t85vh5blf8lbya13ro2c40pzp49m5es1) to size logos and align them within
+the varying grid guides to achieve equal visual hierarchy.
 
 <Row>
 
@@ -63,7 +68,6 @@ The grid is meant to be used as a guideline. Make optical adjustments when neces
 
 </Row>
 
-
 <Row className="resource-card-group">
   <Column colMd={4} colLg={4} noGutterSm>
 <ResourceCard
@@ -71,7 +75,8 @@ The grid is meant to be used as a guideline. Make optical adjustments when neces
   href="https://ibm.box.com/s/t85vh5blf8lbya13ro2c40pzp49m5es1"
 >
 
-![Sketch icon](../../images/sketch-symbol.svg)
+![Sketch icon](../../images/icon/sketch-symbol.svg)
+
 </ResourceCard>
 </Column>
 </Row>
@@ -79,7 +84,9 @@ The grid is meant to be used as a guideline. Make optical adjustments when neces
 ### Tips and techniques
 
 #### Alignment
-Logos should be vertically and horizontally centered within a 4:3 aspect ratio. Consider the weight, width, and height when aligning the logo to the grid to find equal weight with all logos. Don’t fit every logo to the max width.
+
+Logos should be vertically and horizontally centered within a 4:3 aspect ratio. Consider the weight, width, and height
+when aligning the logo to the grid to find equal weight with all logos. Don’t fit every logo to the max width.
 
 <DoDontRow>
   <DoDont caption="Always place logo in the center of the template and scale to fit the height or width within the logo grid guides.">
@@ -95,6 +102,7 @@ Logos should be vertically and horizontally centered within a 4:3 aspect ratio. 
 </DoDontRow>
 
 #### Orientation
+
 When available, use horizontally-oriented logos to fit comfortably within the grid and to maintain visual hierarchy.
 
 <DoDontRow>
@@ -111,6 +119,7 @@ When available, use horizontally-oriented logos to fit comfortably within the gr
 </DoDontRow>
 
 #### Type
+
 Use logos that include the company name or wordmark, rather than an icon, to ensure brand recognition.
 
 <DoDontRow>
@@ -127,7 +136,9 @@ Use logos that include the company name or wordmark, rather than an icon, to ens
 </DoDontRow>
 
 #### Color
-When placed in a group, ensure visual consistency by using either all full-color logos or all monotone logos.  Don’t mix full color and monotone, unless the brand colors are black and white.
+
+When placed in a group, ensure visual consistency by using either all full-color logos or all monotone logos. Don’t mix
+full color and monotone, unless the brand colors are black and white.
 
 <DoDontRow>
   <DoDont caption="Do use full color logos when placed in a group.">
@@ -144,12 +155,13 @@ When placed in a group, ensure visual consistency by using either all full-color
 
 ## Content guidance
 
-| Field                                                                                | Field type | Required | Cardinality | Max character size (English / translated) |
-| ------------------------------------------------------------------------------------ | ---------- | -------- | ----------- | ----------------------------------------- |
-| Headline                                                                             | Short copy | No       | 1           | S (75 / 100)                              |
-| [Image](https://www.ibm.com/standards/carbon/components/image)    | Component  | Yes      | 3–12        | –                                         |
-| [CTA (card)](https://www.ibm.com/standards/carbon/components/cta) | Component  | No       | 1           | –                                         |
+| Element                                                         | Content type                                                    | Required | Instances | Character limit <br/>(English / translated) | Notes                                   |
+| --------------------------------------------------------------- | --------------------------------------------------------------- | -------- | --------- | ------------------------------------------- | --------------------------------------- |
+| Heading                                                         | Text                                                            | Yes      | 1         | 75 / 100                                    |                                         |
+| Media                                                           | [Image](https://www.ibm.com/standards/carbon/components/images) | Yes      | 3–12      | –                                           |                                         |
+| Image alt text                                                  | Text                                                            | No       | 3–12      | 75 / 100                                    | Image description(s) for accessibility. |
+| [CTA](https://www.ibm.com/standards/carbon/components/cta#card) | Component                                                       | No       | 1         | –                                           | Local type and card style only.         |
 
-To see the list of all character count standards, go to this <a href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/Character-count-standards" target="_blank" rel="noreferrer noopener nofollow">link</a>.
+For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
 
 <ComponentFooter name="Logo grid" type="layout" />

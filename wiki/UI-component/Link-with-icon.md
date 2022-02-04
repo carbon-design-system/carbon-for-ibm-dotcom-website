@@ -1,6 +1,7 @@
 `Core` <!-- category start --><!-- category end -->
 
-The [[Link with icon]] is a [[Carbon link]] that includes an icon, available from [[Carbon icons]].
+The [[Link with icon]] is a [[Carbon link]] that includes an icon, available
+from [[Carbon icons]].
 
 ![image](https://user-images.githubusercontent.com/3793636/119056134-c74b6100-b98f-11eb-8993-48ce1ed1e4ad.png)
 
@@ -18,14 +19,19 @@ The [[Link with icon]] is a [[Carbon link]] that includes an icon, available fro
 </details>
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -38,4 +44,5 @@ The [[Link with icon]] is a [[Carbon link]] that includes an icon, available fro
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[r1](#resources)</sup> for more details

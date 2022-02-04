@@ -1,6 +1,8 @@
 `Core` <!-- category start --><!-- category end -->
 
-The [[Locale modal]] is a step by step interface that guides the user through selecting and setting a country and language for their experience across IBM.com.
+The [[Locale modal]] is a step by step interface that guides the user through
+selecting and setting a country and language for their experience across
+IBM.com.
 
 ![image](https://user-images.githubusercontent.com/3793636/119056171-daf6c780-b98f-11eb-85c9-f440bd1e78fa.png)
 
@@ -22,14 +24,19 @@ The [[Locale modal]] is a step by step interface that guides the user through se
 </details>
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -42,4 +49,5 @@ The [[Locale modal]] is a step by step interface that guides the user through se
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[r1](#resources)</sup> for more details

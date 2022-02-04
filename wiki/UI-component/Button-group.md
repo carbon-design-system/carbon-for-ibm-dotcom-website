@@ -1,6 +1,9 @@
 `Core` <!-- category start --><!-- category end -->
 
-The [[Button group]] is a component that is utilized within IBM.com for grouping one or more [[Carbon button]] components together. Width of the buttons will grow/shrink based on the length of the Button content, and the group should match in widths.
+The [[Button group]] is a component that is utilized within IBM.com for grouping
+one or more [[Carbon button]] components together. Width of the buttons will
+grow/shrink based on the length of the Button content, and the group should
+match in widths.
 
 ![image](https://user-images.githubusercontent.com/3793636/119054516-5f941680-b98d-11eb-8020-c351900f75b3.png)
 
@@ -17,14 +20,19 @@ The [[Button group]] is a component that is utilized within IBM.com for grouping
 </details>
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -37,4 +45,5 @@ The [[Button group]] is a component that is utilized within IBM.com for grouping
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[r1](#resources)</sup> for more details

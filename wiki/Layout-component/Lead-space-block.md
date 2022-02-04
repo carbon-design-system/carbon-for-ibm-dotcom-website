@@ -1,6 +1,7 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-The [[Lead space block]] is a decorator component and consists of an H1 above a [[Content block]]. 
+The [[Lead space block]] is a decorator component and consists of an H1 above a
+[[Content block]].
 
 ![image](https://user-images.githubusercontent.com/3793636/119085117-b2d78a80-b9c8-11eb-80fe-c302f117c30f.png)
 
@@ -20,14 +21,19 @@ The [[Lead space block]] is a decorator component and consists of an H1 above a 
 </details>
 
 <!-- usedby start open="true" -->
-*{{usedby auto populates}}*
+
+_{{usedby auto populates}}_
+
 <!-- usedby end -->
 
 <!-- backlinks start open="true" -->
-*{{backlinks auto populates}}*
+
+_{{backlinks auto populates}}_
+
 <!-- backlinks end -->
 
 <a name="resources"></a>
+
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
@@ -40,4 +46,5 @@ The [[Lead space block]] is a decorator component and consists of an H1 above a 
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)  See box folder <sup>[[r1](#resources)]</sup> for more details
+> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See box folder <sup>[r1](#resources)</sup> for more details
