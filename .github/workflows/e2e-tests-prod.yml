@@ -1,0 +1,34 @@
+name: e2e-tests-prod
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"
+
+concurrency:
+  group: e2e-tests-prod-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  e2e-tests:
+    if: github.repository == 'carbon-design-system/carbon-for-ibm-dotcom-website'
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: ['14.x']
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js 14.x
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14.x'
+          cache: yarn
+      - name: Install dependencies
+        run: yarn install
+      - name: Run e2e tests
+        run: yarn test:e2e:prod
+      - uses: act10ns/slack@v1
+        if: failure()
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        with:
+          status: ${{ job.status }}
