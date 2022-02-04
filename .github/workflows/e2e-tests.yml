@@ -12,7 +12,7 @@ concurrency:
 
 jobs:
   e2e-tests:
-    if: github.repository == 'jeffchew/carbon-for-ibm-dotcom-nextjs-test'
+    if: github.repository == 'carbon-design-system/carbon-for-ibm-dotcom-nextjs-test'
     runs-on: ubuntu-latest
     strategy:
       matrix:
