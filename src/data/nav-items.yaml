@@ -28,6 +28,8 @@
       path: /developing/building-for-ibm-dotcom
     - title: Carbon CDN style helpers
       path: /developing/carbon-cdn-style-helpers
+    - title: Web Components tutorial
+      path: /developing/web-components-tutorial/overview
 
 - title: Contributing
   pages:
@@ -56,7 +58,7 @@
     - title: Spacing
       path: /guidelines/spacing
     - title: Style models
-      path: /guidelines/style-models/overview
+      path: /guidelines/style-models
 
 - title: Components
   pages:
