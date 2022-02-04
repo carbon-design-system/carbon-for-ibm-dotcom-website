@@ -24,6 +24,16 @@ jobs:
         with:
           node-version: '14.x'
           cache: yarn
+      - name: Caching Gatsby
+        id: gatsby-cache-build
+        uses: actions/cache@v2
+        with:
+          path: |
+            public
+            .cache
+          key: ${{ runner.os }}-gatsby-build-${{ github.run_id }}
+          restore-keys: |
+            ${{ runner.os }}-gatsby-build-
       - name: Install dependencies
         run: yarn install
       - name: Set env vars
@@ -34,6 +44,9 @@ jobs:
           GATSBY_CPU_COUNT: 1
       - name: Building Gatsby
         run: yarn build
+        env:
+          GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES: true
+          CI: true
       - name: Run e2e tests
         run: yarn test:e2e:local
       - uses: act10ns/slack@v1
