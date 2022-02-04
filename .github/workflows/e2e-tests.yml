@@ -35,7 +35,7 @@ jobs:
       - name: Building Gatsby
         run: yarn build
       - name: Run e2e tests
-        run: yarn test:e2e:local:no-percy
+        run: yarn test:e2e:local
       - uses: act10ns/slack@v1
         if: failure()
         env:
