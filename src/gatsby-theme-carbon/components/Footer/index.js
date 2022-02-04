@@ -14,12 +14,11 @@ const CustomFooter = () => {
   const Content = () => (
     <>
       <p>
-        Have questions? <a href="mailto:digdes@us.ibm.com/">Email us</a> for
-        site feedback or open an issue in{' '}
+        Have questions or site feedback? Reach out in{' '}
         <a href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/issues/new/choose">
           GitHub
         </a>
-        .
+        !
       </p>
       <p>
         Last updated Feb 04, 2022
