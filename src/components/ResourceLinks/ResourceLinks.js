@@ -4,9 +4,9 @@ import H3 from 'gatsby-theme-carbon/src/components/markdown/H3';
 import MiniCard from 'gatsby-theme-carbon/src/components/MiniCard/MiniCard';
 import CardGroup from 'gatsby-theme-carbon/src/components/MiniCard/CardGroup';
 import githubIcon from '../../images/icon/github-icon.svg';
-import reactIcon from '../../images/react-icon.svg';
-import sketchSymbol from '../../images/sketch-symbol.svg';
-import webComponentsIcon from '../../images/web-components-icon.svg';
+import reactIcon from '../../images/icon/react-icon.svg';
+import sketchSymbol from '../../images/icon/sketch-symbol.svg';
+import webComponentsIcon from '../../images/icon/web-components-icon.svg';
 import components from '../../data/components.json';
 
 /**

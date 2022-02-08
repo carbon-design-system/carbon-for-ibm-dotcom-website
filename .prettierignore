@@ -3,3 +3,4 @@ node_modules
 .yarn
 .github
 public
+tests/e2e/cypress/fixtures

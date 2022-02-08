@@ -9,3 +9,7 @@ wiki-build
 *.log
 src/pages/developing/building-for-ibm-dotcom/index.mdx
 src/pages/developing/carbon-cdn-style-helpers/index.mdx
+
+# Cypress output files
+tests/e2e/cypress/screenshots
+tests/e2e/cypress/videos

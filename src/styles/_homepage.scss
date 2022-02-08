@@ -1,7 +1,4 @@
 .container--homepage {
-  background: $carbon--gray-10;
-  color: $carbon--black-100;
-
   a.bx--link {
     color: $interactive-04;
   }
@@ -44,4 +41,8 @@
 .container--homepage div[class*='NextPrevious-module--wrapper'] {
   position: relative;
   z-index: 2;
+}
+
+.container--homepage div[class*='NextPrevious-module--grid'] {
+  padding-top: 0;
 }
