@@ -1,6 +1,6 @@
 ---
 title: CTA block & section
-description: CTA section is used to communicate actions that users can take along with some information that is relevant to the actions.
+description: CTA block and section are used to communicate actions that users can take along with some information that is relevant to the actions.
 ---
 
 import ComponentDescription from 'components/ComponentDescription';
@@ -16,24 +16,27 @@ import ResourceLinks from 'components/ResourceLinks';
 <AnchorLink>CTA section</AnchorLink>
 <AnchorLink>With content items</AnchorLink>
 <AnchorLink>With link list</AnchorLink>
-<AnchorLink>Content guidance</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
 
 ## Overview
 
-CTA block is a flexible component that can be configured with a heading, copy, and CTA. CTA section builds on CTA block and adds a content section sub-heading. Both CTA block and section typically appear near the end of a page to direct the user to the next step in the process or towards related content.
+[CTA block](#cta-block) is a flexible component that can be configured with a heading, copy, and CTA(s). [CTA section](#cta-section) builds on CTA block and adds a content section heading.
+
+Both CTA block and section typically appear near the end of a page to direct the user to the next step in the process or towards related content.
 
 <Row>
 <Column colMd={8} colLg={8}>
 
-![CTA section example image](../../images/component/cta-section/cta-section--overview.jpg)
+![CTA section example image](../../images/component/cta-block/cta-block--overview.jpg)
+
+<Caption>Example of CTA block.</Caption>
 
 </Column>
 </Row>
 
-Both CTA block and CTA section can add a collection of various content items or a link list below the primary CTA, this can be useful when there are multiple resources or features the user might be interested in.
+Both CTA block and CTA section can add a collection of various [content items](#with-content-items) or a [link list](#with-link-list) below the primary CTA, this can be useful when there are multiple resources or features the user might be interested in exploring.
 
 <Row>
 <Column colMd={8} colLg={8}>
@@ -41,8 +44,8 @@ Both CTA block and CTA section can add a collection of various content items or 
 ![From left to right: CTA section with content items, CTA section with link list.](../../images/component/cta-section/cta-section--overview--mini-comp.jpg)
 
 <Caption>
-  From left to right: CTA section with content items, CTA section with link
-  list.
+  From left to right: CTA section with content items, CTA section with link list
+  in the gray 10 theme.
 </Caption>
 
 </Column>
@@ -98,13 +101,13 @@ CTA section builds off of CTA block and adds a content section heading in the le
 </Column>
 </Row>
 
-1. **Section heading:** Optional section sub-heading to describe the section, this is often used with the Table of contents horizontal.
-2. **Heading:** Customizable heading.
+1. **Content section heading:** Heading to describe the section, this is often used with the Table of contents horizontal.
+2. **Heading:** Optional customizable heading.
 3. **Body copy:** Optional body copy can be added for additional description.
-4. **CTA type:** Optional call to action for the user, button or text link can be used.
+4. **CTA type:** Optional call to action for the user, a button or text link can be used.
 5. **Content item or link list:** CTA section allows for adding various content items or a link list.
 
-<ResourceLinks name="CTA section" type="layout" />
+<ResourceLinks name="CTA section" type="layout" multiComponent />
 
 ### Content guidance for CTA section
 
@@ -129,6 +132,8 @@ This variation adds a collection of content items below the primary content, it 
 
 ![With content items image](../../images/component/cta-section/cta-section--content-items.jpg)
 
+<Caption>CTA section with text content items.</Caption>
+
 </Column>
 </Row>
 
@@ -146,12 +151,12 @@ This variation adds a collection of content items below the primary content, it 
 
 ### Deciding what to use
 
-| Type      | Use cases                                                                 |
-| --------- | ------------------------------------------------------------------------- |
-| Text      | Use text when the item needs doesn't need any supporting context.         |
-| Media     | Use when all items have a supporting image or video.                      |
-| Pictogram | Use when a pictogram can enhance the user's understanding of the content. |
-| Statistic | Use when an expressive statistic can support the item.                    |
+| Type      | Use cases                                                                                                                                                                |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Text      | Use when the content is easily understood and does not need any supporting context.                                                                                      |
+| Media     | Use when all items have a supporting image or video. See the [photography guidelines](https://www.ibm.com/design/language/photography/overview)                          |
+| Pictogram | Use when a pictogram can enhance the user's understanding of the content. See the [pictogram libary](https://www.carbondesignsystem.com/guidelines/pictograms/library/). |
+| Statistic | Use when an engaging statistic can support the content.                                                                                                                  |
 
 ### Content guidance for content item
 
@@ -159,7 +164,7 @@ This variation adds a collection of content items below the primary content, it 
 | ---------------------------------------------------------- | ------------ | -------- | --------- | ------------------------------------------- | ------------------------------------------------------------------ |
 | Heading                                                    | Text         | Yes      | 1         | 20 / 32                                     |                                                                    |
 | Copy                                                       | Text         | Yes      | 1         | 150 / 200                                   |                                                                    |
-| [CTA](https://www.ibm.com/standards/carbon/components/cta) | Component    | Yes      | 1         | 25 / 35                                     | Required for the CTA section component, button or text style only. |
+| [CTA](https://www.ibm.com/standards/carbon/components/cta) | Component    | Yes      | 1-2       | 25 / 35                                     | Required for the CTA section component, button or text style only. |
 | Style                                                      | Option list  | Yes      | 1         | –                                           | Text, stats, pictogram, or media.                                  |
 
 For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
@@ -172,6 +177,8 @@ This variation adds a link list below the primary content and is typically used 
 <Column colMd={8} colLg={8}>
 
 ![With link list image](../../images/component/cta-block/cta-block--link-list.jpg)
+
+<Caption>CTA block with link list.</Caption>
 
 </Column>
 </Row>
