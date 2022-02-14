@@ -27,7 +27,7 @@ import ResourceLinks from 'components/ResourceLinks';
 
 The footer is a required component on all IBM.com pages, there are three sizes available: [default](#default), [short](#short) and [micro](#micro), and each size has a specific usecase. The footer includes the IBM logo, navigational links, locale selector and required legal links.
 
-The footer is generated automatically based on the country and lagnguage code that you set on your page in the metadata.
+The footer is generated automatically based on the country and language code that is set on the page in the metadata.
 
 ![Image of default footer](../../images/component/footer/footerV2-default-01.jpg)
 
@@ -120,6 +120,10 @@ Also, for the small breakpoint, the legal links are stacked on top of each other
 
 Micro footer variation only shows the required legal links and the optional locale selector to maximize the space for the page content. Adjunct legal links are not allowed. If you need them, please use either the default, or the short footer.
 
+#### When to use
+
+This footer is reserved for stand-alone experiences such as product demos, or slide shows. All other pages and experiences on IBM.com should use the default or the short variations.
+
 ### Anatomy
 
 ![Image of minimal footer](../../images/component/footer/footerV2-micro-anatomy.jpg)
@@ -129,14 +133,6 @@ Micro footer variation only shows the required legal links and the optional loca
 1. **Legal links:** The general legal links are present on every IBM footer and cannot be changed.
 2. **Locale selector:** Use the locale selector to trigger the locale modal component to allow users to change geographic regions and languages, if available.
 
-![Image of micro footer](../../images/component/footer/footerV2-micro-01.jpg)
-
-<Caption>Micro footer at the 1312px (xlg) breakpoint</Caption>
-
-#### When to use
-
-This footer is reserved for stand-alone experiences such as product demos, or slide shows. All other pages and experiences on IBM.com should use the default or the short variations.
-
 ### Behavior
 
 The micro footer spans the full width of the viewport and is the last element in the browser window. It is fully responsive and changes how elements are displayed based on the browser size.
@@ -145,21 +141,51 @@ The micro footer spans the full width of the viewport and is the last element in
 
 If the browser is wider than the max breakpoint of 1584px, the footer and all other page content will center and extra margin will appear on either side of the page layout.
 
-![Image of Default footer](../../images/component/footer/footerV2-micro-01.jpg)
-
-<Caption>Micro footer at the 1584px (max) breakpoint</Caption>
-
 #### Md and sm breakpoints
 
 At medium breakpoint, the micro footer will also stack the legal links. For the small breakpoint, the legal links are stacked on top of each other on one column.
 
 ![Image of Default footer](../../images/component/footer/footerV2-micro-behaviour.jpg)
 
-<Caption>Micro footer at the 672px (md) and the 320px (sm) breakpoints</Caption>{' '}
+<Caption>Micro footer at the 672px (md) and the 320px (sm) breakpoints</Caption>
 
 ## Modifiers
 
 ### Locale or language selector
+
+All footer sizes have the option to choose between using the locale selector or language selector.
+
+#### Locale selector
+
+The footer defaults to the locale selector, which displays the country and language of a given page within a button. It allows the user to change their locale through the [locale modal](https://www.ibm.com/standards/carbon/components/localemodal) by selecting the desired region, followed by the desired language.
+
+<Row>
+
+<Column colMd={4} colLg={6}>
+
+![A visual example of the Locale selector](../../images/component/footer/footer--modifier-locale.png)
+
+<Caption>The locale selector, displaying United States – English.</Caption>
+
+</Column>
+
+</Row>
+
+#### Language selector
+
+The [language selector](https://www.ibm.com/standards/carbon/components/language-selector) displays only the language of a given page. It uses a combo box, and allows the user to select a language from the list or type in theeir desired language.
+
+<Row>
+
+<Column colMd={4} colLg={6}>
+
+![A visual example of the Locale selector](../../images/component/footer/footer--modifier-language.png)
+
+<Caption>The language selector, displaying English.</Caption>
+
+</Column>
+
+</Row>
 
 ### Adjunct legal links
 
