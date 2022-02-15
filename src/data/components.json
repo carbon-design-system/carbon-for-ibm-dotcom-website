@@ -1247,13 +1247,40 @@
         "notAvailable": false
       }
     },
+    "CTA block": {
+      "url": "/components/cta-block-and-section",
+      "designLink": "https://ibm.ent.box.com/folder/132927464120?s=1mbmay093kclwwjhuhmux0kqzptvpgj3",
+      "description": "CTA block and section are used to communicate actions that users can take along with some information that is relevant to the actions.",
+      "storybook": {
+        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-cta-block--default",
+        "react": ""
+      },
+      "webcomponents": {
+        "stable": false,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      }
+    },
     "CTA section": {
-      "url": "/components/cta-section",
+      "url": "/components/cta-block-and-section",
       "designLink": "https://ibm.box.com/s/yz1uixuxjf7lge5yvrup3yb3owj70071",
       "description": "CTA section is used to communicate actions that users can take along with some information that is relevant to the actions.",
       "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-cta-section--default",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-cta-section--default"
+        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-cta-section--simple",
+        "react": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-cta-section--simple"
       },
       "webcomponents": {
         "stable": true,
