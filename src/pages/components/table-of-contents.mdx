@@ -119,12 +119,16 @@ Both vertical and horizontal versions of the ToC change to a dropdown on md and 
 
 ### Labels
 
-Table of contents labels and the section headlines they link to should be the same or a shortened version of the headline. The default or vertical ToC can accommodate multi-line labels, and therefore can generally match the section headline.
+Table of contents labels and the page headings they link to should be the same or a shortened version of the headline. The default or vertical ToC can accommodate multi-line labels, and therefore can generally match the section headline.
 
 #### Examples
 
-- Label: Connect; Section: Connect with IBM
-- Label: Connect with IBM; Section: Connect with IBM
+| ToC orientation | ToC label                          | Page heading                       |
+| --------------- | ---------------------------------- | ---------------------------------- |
+| Horizontal      | Overview                           | Overview                           |
+| Horizontal      | Connect                            | Connect with IBM                   |
+| Vertical        | Connect with IBM                   | Connect with IBM                   |
+| Vertical        | Why IT infrastructure is imporatnt | Why IT infrastructure is imporatnt |
 
 ### Number of ToC items
 
@@ -137,7 +141,7 @@ The ToC should never extend more than the screen height so that it can be effect
 | Element         | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes                                                                              |
 | --------------- | ------------ | -------- | --------- | ------------------------------------------- | ---------------------------------------------------------------------------------- |
 | Child container | Component    | No       | 1         | –                                           | A container area that child components and other content types can be passed into. |
-| Anchor link     | Link         | Yes      | 3–7       | 25 / 35                                     | Character count applies to TOC heading overrides.                                  |
+| Anchor link     | Link         | Yes      | 3–7       | 25 / 35                                     | Character count applies to ToC heading overrides.                                  |
 | Orientation     | Option list  | Yes      | 1         | –                                           | Vertical or horizontal.                                                            |
 
 For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
