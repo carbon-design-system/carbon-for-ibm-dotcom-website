@@ -14,6 +14,9 @@ import ResourceLinks from 'components/ResourceLinks';
 <AnchorLink>Resources</AnchorLink>
 <AnchorLink>Overview</AnchorLink>
 <AnchorLink>Variations</AnchorLink>
+<AnchorLink>Modifiers</AnchorLink>
+<AnchorLink>Behaviors</AnchorLink>
+<AnchorLink>Tips and techniques</AnchorLink>
 <AnchorLink>Content guidance</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
@@ -23,19 +26,21 @@ import ResourceLinks from 'components/ResourceLinks';
 
 ## Overview
 
-The Table of contents (ToC) component renders as left navigation that includes anchor links to various locations on the page. The links themselves can either be dynamically generated based on anchor links and associated title attributes or manually entered by the author to be different from the content on the page.
+The Table of contents (ToC) component renders as left navigation that includes anchor links to various locations on the page. The links themselves can either be dynamically generated based on anchor links and associated title attributes or manually entered by the author.
 
 <Row>
-<Column colMd={8} colLg={8}>
 
-![Image of Table of contents component](../../images/component/table-of-contents/table-of-content-default.jpg)
+<Column colMd={4} colLg={6}>
+
+![A visual example of the table of contents component](../../images/component/table-of-contents/table-of-contents.png)
 
 </Column>
+
 </Row>
 
-<Title>Use case</Title>
+![Image of the default table of contents within a page](../../images/component/table-of-contents/table-of-contents--default.png)
 
-![Image of Table of contents component usecase](../../images/component/table-of-contents/table-of-content-default-use-case.jpg)
+<Caption>Example of the default Table of contents within a page.</Caption>
 
 **When to use:**
 
@@ -45,6 +50,7 @@ The Table of contents (ToC) component renders as left navigation that includes a
 
 **When not to use:**
 
+- When there is only one section, there is no need to include the ToC
 - When a page is relatively short and the user will not have to scroll very far.
 - When users need to read all the content in a specific order.
 
@@ -52,47 +58,101 @@ The Table of contents (ToC) component renders as left navigation that includes a
 
 ## Variations
 
-### Vertical with heading content
-
-This variation only applies to the vertical Table of Contents (ToC). The area above the Table of contents can be utilized in many ways—showing navigational links, the page title, or an image.
-
-<Row>
-<Column colMd={8} colLg={8}>
-
-![Image of With heading content variation](../../images/component/table-of-contents/table-of-content-with-heading-content.jpg)
-
-</Column>
-</Row>
-
-<Title>Use case</Title>
-
-![Image of With heading content variation usecase](../../images/component/table-of-contents/table-of-content-with-heading-content-use-case.jpg)
-
 ### Horizontal
 
-The horizontal variation lays the table of content navigation links into a row. When present, it sticks to the top of the page while scrolling. It then replaces the masthead sticky navigation when the top of its container meets the top of the window.
+The horizontal variation displays the Table of content navigation links in a row. When present, it sticks to the top of the page while scrolling. It then replaces the Masthead sticky navigation when the top of its container meets the top of the window.
 
-![Image of Horizontal variation](../../images/component/table-of-contents/table-of-contents-horizontal.jpg)
+![Image of the horizontal table of contents within a page](../../images/component/table-of-contents/table-of-contents--horizontal.png)
 
-<Title>Use case</Title>
-
-![Image of Horizontal variation usecase](../../images/component/table-of-contents/table-of-contents-horizontal-use-case.jpg)
+<Caption>Example of the horizontal Table of contents within a page.</Caption>
 
 **When to use:**
 
-- Your experience needs to use full width section components or the first 4 columns of the 2x grid.
-- The table of contents needs to be used across alternating full width themed sections throughout a page.
+- Your experience needs to use full width section components or the first four columns of the 2x grid.
+- The Table of contents needs to be used across alternating full width themed sections throughout a page.
 
 **When not to use:**
 
-- The horizontal version should not be used with a center aligned lead space because the text alignment disrupts the users reading flow, consider using the vertical version with Lead space centered or Lead space block.
+- The horizontal version should not be used with a center aligned lead space because the text alignment disrupts the user's reading flow. In that situation, consider using the vertical version with Lead space centered or Lead space block.
+- The horizontal version should not be placed immediately below the IBM masthead.
+
+## Modifiers
+
+### Vertical with heading content
+
+This variation only applies to the vertical Table of contents (ToC). The area above the Table of contents can be utilized in many ways—showing navigational links, the page title, or an image.
+
+![Image of the vertical table of contents with heading content](../../images/component/table-of-contents/table-of-contents--with-heading.png)
+
+<Caption>
+  Example of the vertical Table of contents with heading content.
+</Caption>
+
+## Behaviors
+
+### Sticky behavior
+
+The Table of contents is sticky to provide context to the user about where they are within a given page.
+
+#### Larger breakpoints (lg, xl, and max)
+
+- The default or vertical ToC is sticky within the first four columns on lg, xlg, and max breakpoints.
+- The horizontal ToC sticks to the top of the page and pushes the Masthead out of view on the lg, xlg and max breakpoints.
+
+#### Smaller breakpoints (sm and med)
+
+Both vertical and horizontal versions of the ToC change to a dropdown on md and sm breakpoints. The dropdown sticks to the top of the page and pushes the Masthead out of view. When the user scrolls up the Masthead re-appears and pushes the ToC down.
+
+<Row>
+
+<Column colMd={4} colLg={6}>
+
+![A visual example of the table of contents component at the small breakpoint](../../images/component/table-of-contents/table-of-contents--small.png)
+
+</Column>
+
+</Row>
+
+<Caption>Example of the Table of contents at the small breakpoint.</Caption>
+
+## Tips and techniques
+
+### Number of ToC items
+
+We recommend having a maximum of seven items in the vertical Table of contents. When there are too many ToC items, the component can become taller than the screen height, resulting in a double scroll for users and disrupting the sticky behavior.
+
+The ToC should never extend more than the screen height so that it can be effective as a sticky element.
+
+### Labels
+
+The Table of contents labels should inform users what information they will find within a given section of a page.
+
+Table of contents labels and the page headers they link to should be the same or a shortened version of the page header to establish a clear relationship between the ToC and the corresponding page section, see some of the example images below.
+
+#### Default
+
+The default ToC can accommodate multi-line labels, and therefore can generally match the page header.
+
+![Image of the vertical table of contents and corresponding page title](../../images/component/table-of-contents/table-of-contents--labels-vertical.png)
+
+1. ToC label
+2. Content block header
+
+#### Horizontal
+
+The horizontal ToC is best suited for simple one to two word labels that are shortened versions of the page header. The horizontal ToC is typically used in conjunction with [Content section](https://www.ibm.com/standards/carbon/components/content-section) components that render a header in the first four columns from the left, allowing for a more descriptive [Content block](https://www.ibm.com/standards/carbon/components/content-block) headline.
+
+![Image of the horizontal table of contents and corresponding page title](../../images/component/table-of-contents/table-of-contents--labels-horizontal.png)
+
+1. ToC label
+2. Content section header
 
 ## Content guidance
 
 | Element         | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes                                                                              |
 | --------------- | ------------ | -------- | --------- | ------------------------------------------- | ---------------------------------------------------------------------------------- |
 | Child container | Component    | No       | 1         | –                                           | A container area that child components and other content types can be passed into. |
-| Anchor link     | Link         | Yes      | 3–7       | 25 / 35                                     | Character count applies to TOC heading overrides.                                  |
+| Anchor link     | Link         | Yes      | 3–7       | 25 / 35                                     | Character count applies to ToC heading overrides.                                  |
 | Orientation     | Option list  | Yes      | 1         | –                                           | Vertical or horizontal.                                                            |
 
 For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
