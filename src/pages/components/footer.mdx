@@ -13,9 +13,11 @@ import ResourceLinks from 'components/ResourceLinks';
 
 <AnchorLink>Resources</AnchorLink>
 <AnchorLink>Overview</AnchorLink>
-<AnchorLink>Variations</AnchorLink>
-<AnchorLink>Anatomy</AnchorLink>
-<AnchorLink>Behavior</AnchorLink>
+<AnchorLink>Default</AnchorLink>
+<AnchorLink>Short</AnchorLink>
+<AnchorLink>Micro</AnchorLink>
+<AnchorLink>Modifiers</AnchorLink>
+<AnchorLink>Content guidance</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
@@ -24,7 +26,9 @@ import ResourceLinks from 'components/ResourceLinks';
 
 ## Overview
 
-Default footer includes all high-level corporate navigation, the required legal links, the optional adjunct legal links, the locale selector and branding. This footer is generated automatically, based on the country and language code that you set on your page in the metadata.
+The Footer is a required component on all IBM.com pages. There are three sizes available: [Default](#default), [Short](#short) and [Micro](#micro), and each size has a specific use case. The Footer includes the IBM logo, navigational links, Locale or Language selector and required legal links.
+
+The Footer is generated automatically based on the country and language code that is set on the page in the metadata.
 
 ![Image of default footer](../../images/component/footer/footerV2-default-01.jpg)
 
@@ -32,39 +36,165 @@ Default footer includes all high-level corporate navigation, the required legal 
   Default footer at 1584px max breakpoint, without optional adjunct legal links
 </Caption>
 
+## Default
+
+The Default footer includes all high-level corporate navigation, required legal links, locale selector, branding, and optional adjunct legal links.
+
 #### When to use
 
 Default footer is suitable for most of the IBM.com pages. Examples include the IBM.com US home page.
 
-## Variations
+### Anatomy
 
-### Short
+![Image of minimal footer](../../images/component/footer/footerV2-default-anatomy.jpg)
 
-Short footer removes all the high-level corporate navigation, leaving the required legal links, the optional adjunct legal links, the locale selector and branding.
+<Caption>
+  Default footer at the 1584px (max) breakpoint with one adjunct legal link
+</Caption>
 
-![Image of minimal footer](../../images/component/footer/footerV2-short-01.jpg)
+1. **IBM logo:** Links to the IBM homepage and is a required branding element of the Footer. The IBM logo should not be altered.
+1. **Link group heading:** The link group heading is present for all the link groups.
+1. **Link:** The Default footer links are carefully considered from the main navigation level and should not be changed.
+1. **Locale selector:** Use the locale selector to trigger the locale modal component to allow users to change geographic regions and languages, if available.
+1. **Legal links:** The general legal links are present on every IBM Footer and cannot be changed.
+1. **Adjunct legal link(s) (Optional)**: Use up to two adjunct legal links for notes or messages legally required to provide regarding changes, policies or trademark issues.
 
-<Caption>Short footer at 1312px xlg breakpoint</Caption>
+### Behavior
+
+Default footer spans the full width of the viewport and is the last element in the browser window. The Footer elements are persistent throughout the online experience. It is fully responsive and changes how elements are displayed based on the browser size.
+
+#### Max breakpoint
+
+If the browser is wider than the max breakpoint of 1584px, the Default footer and all other page content will center and extra margin will appear on either side of the page layout.
+
+#### Md and sm breakpoints
+
+At the medium breakpoint, the Locale selector moves above the link groups and below the IBM logo. Additionally, at the small breakpoint, the link groups are nested into accordions. See the image below.
+
+![Image of Default footer](../../images/component/footer/footerV2-default-behaviour.jpg)
+
+<Caption>
+  From left to right: Default footer at 672px (md) and 320px (sm) breakpoints.
+</Caption>
+
+## Short
+
+Short footer removes all the high-level corporate navigation, leaving the required legal links, locale selector, branding, and optional adjunct legal links.
 
 #### When to use
 
 Short footer is reserved for approved transactional pages, such as check out and registration experiences.
 
-### Micro
+### Anatomy
 
-Micro footer variation only shows the required legal links and the optional locale selector to maximize the space for the page content. Adjunct legal links are not allowed. If you need them, please use either the default, or the short footer.
+![Image of minimal footer](../../images/component/footer/footerV2-short-anatomy.jpg)
 
-![Image of micro footer](../../images/component/footer/footerV2-micro-01.jpg)
+<Caption>
+  Short footer at the 1584px (max) breakpoint with one adjunct legal link.
+</Caption>
 
-<Caption>Micro footer at the 1312px (xlg) breakpoint</Caption>
+1. **IBM logo:** Links to the IBM homepage and is a required branding element of the Footer. The IBM logo should not be altered.
+2. **Locale selector:** Use the locale selector to trigger the locale modal component to allow users to change geographic regions and languages, if available.
+3. **Legal links:** The general legal links are present on every IBM Footer and cannot be changed.
+4. **Adjunct legal link(s) (optional)**: Use up to two adjunct legal links for notes or messages legally required to provide regarding changes, policies or trademark issues.
+
+### Behavior
+
+The Short footer spans the full width of the viewport and is the last element in the browser window. It is fully responsive and changes how elements are displayed based on the browser size.
+
+#### Max breakpoint
+
+If the browser is wider than the max breakpoint of 1584px, the Short footer and all other page content will center and extra margin will appear on either side of the page layout.
+
+#### Md and sm breakpoints
+
+At the medium breakpoint, the legal links stack into two columns.
+At the small breakpoint, the legal links are stacked on top of each other in one column. See the image below.
+
+![Image of Default footer](../../images/component/footer/footerV2-short-behaviour.jpg)
+
+<Caption>
+  From left to right: Short footer at 672px (md) and 320px (sm) breakpoints.
+</Caption>
+
+## Micro
+
+The Micro footer variation only shows the required legal links and the optional locale selector to maximize the space for the page content. Adjunct legal links are not allowed. If you need them, please use either the Default, or the Short footer.
 
 #### When to use
 
-This footer is reserved for stand-alone experiences such as product demos, or slide shows. All other pages and experiences on IBM.com should use the default or the short variations.
+This Footer is reserved for stand-alone experiences such as product demos or slide shows. All other pages and experiences on IBM.com should use the Default or the Short variations.
 
-### With adjunct legal links
+### Anatomy
 
-Only the default and the short footers may contain up to 2 adjunct legal links for legally required notes or messages. They are displayed at the very bottom of the page, under the main legal links.
+![Image of minimal footer](../../images/component/footer/footerV2-micro-anatomy.jpg)
+
+<Caption>Micro footer at the 1584px (max) breakpoint</Caption>
+
+1. **Legal links:** The general legal links are present on every IBM Footer and cannot be changed.
+2. **Locale selector:** Use the locale selector to trigger the locale modal component to allow users to change geographic regions and languages, if available.
+
+### Behavior
+
+The Micro footer spans the full width of the viewport and is the last element in the browser window. It is fully responsive and changes how elements are displayed based on the browser size.
+
+#### Max breakpoint
+
+If the browser is wider than the max breakpoint of 1584px, the Footer and all other page content will center and extra margin will appear on either side of the page layout.
+
+#### Md and sm breakpoints
+
+At the medium breakpoint, the Micro footer will also stack the legal links. For the small breakpoint, the legal links are stacked on top of each other in one column.
+
+![Image of Default footer](../../images/component/footer/footerV2-micro-behaviour.jpg)
+
+<Caption>Micro footer at the 672px (md) and the 320px (sm) breakpoints</Caption>
+
+## Modifiers
+
+### Theme
+
+As a mandatory component of the IBM.com web experience, the Footer should remain consistent, creating a branded anchor across all pages. The Footer is only available in the gray 90 theme to maintain consistency across all pages.
+
+### Locale or Language selector
+
+All Footer sizes have the option to choose between using the Locale selector or Language selector.
+
+#### Locale selector
+
+The Footer defaults to the Locale selector, which displays the country and language of a given page within a button. It allows the user to change their locale through the [Locale modal](https://www.ibm.com/standards/carbon/components/localemodal) by selecting the desired region, followed by the desired language.
+
+<Row>
+
+<Column colMd={4} colLg={6}>
+
+![A visual example of the Locale selector](../../images/component/footer/footer--modifier-locale.png)
+
+<Caption>The Locale selector, displaying United States – English.</Caption>
+
+</Column>
+
+</Row>
+
+#### Language selector
+
+The [Language selector](https://www.ibm.com/standards/carbon/components/language-selector) displays only the Language of a given page. It uses a combo box, and allows the user to select a language from the list or type in their desired language.
+
+<Row>
+
+<Column colMd={4} colLg={6}>
+
+![A visual example of the Locale selector](../../images/component/footer/footer--modifier-language.png)
+
+<Caption>The Language selector, displaying English.</Caption>
+
+</Column>
+
+</Row>
+
+### Adjunct legal links
+
+Only the Default and the Short footers may contain up to two adjunct legal links for legally required notes or messages. They are displayed at the very bottom of the page, under the IBM required legal links.
 
 ![Image of micro footer](../../images/component/footer/footerV2-default-withAdjunctlegallinks.jpg)
 
@@ -73,7 +203,7 @@ Only the default and the short footers may contain up to 2 adjunct legal links f
   link
 </Caption>
 
-1. **Legal links:** The general legal links are present on every IBM footer and cannot be changed.
+1. **Legal links:** The general legal links are present on every IBM Footer and cannot be changed.
 2. **Adjunct legal link:** Use up to two adjunct legal links regarding changes, policies or trademark issues.
 
 ![Image of micro footer](../../images/component/footer/footerV2-short-withAdjunctlegallinks.jpg)
@@ -85,115 +215,26 @@ Only the default and the short footers may contain up to 2 adjunct legal links f
 
 #### When to use
 
-Use up to two adjunct legal links for legally required notes or messages legally required to provide, regarding changes, policies or trademark issues.
+Use up to two adjunct legal links for legally required notes or messages legally required to provide regarding changes, policies or trademark issues.
 
-An adjunct legal link will open a web page or a modale window with detailed changes to policies or trademark issues.
+An adjunct legal link will open a web page or a modal window with detailed changes to policies or trademark issues.
 
 #### When not to use
 
 Do not use an adjunct legal link to write footnotes or content-related notices. Include only links with basic text; do not include imagery or special formatting.
 
-## Anatomy
+## Content guidance
 
-### Default
+The links within the Footer cannot be changed, please contact the IA guild for any questions or request to alter the links.
 
-![Image of minimal footer](../../images/component/footer/footerV2-default-anatomy.jpg)
+| Element                                                                                                                                                                   | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes                                                                                                        |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------- | --------- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Logo                                                                                                                                                                      | Image        | Yes      | 1         | –                                           | Required, should not be altered, and links to IBM homepage. The logo is not required in the Micro variation. |
+| Size                                                                                                                                                                      | Option list  | Yes      | 1         | –                                           | Default, Short, or Micro.                                                                                    |
+| [Locale selector](https://www.ibm.com/standards/carbon/components/localemodal), or [Language selector](https://www.ibm.com/standards/carbon/components/language-selector) | Component    | Yes      | 1         | –                                           | Locale selector, or language selector.                                                                       |
+| Legal links                                                                                                                                                               | Text         | Yes      | 5         | –                                           | Links present on every IBM Footer and cannot be changed.                                                     |
+| Adjunct legal links                                                                                                                                                       | Text         | No       | 2         | 20 / 32                                     | Optional legal content that appears below the required legal links.                                          |
 
-<Caption>
-  Default Footer at the 1584px (max) breakpoint width one adjunct legal link
-</Caption>
-
-1. **IBM logo:** Links to the IBM homepage and is a required piece of the footer. The IBM logo should not be altered.
-1. **Link group heading:** The link group heading is present for all the link groups.
-1. **Link:** The default footer links are carefuly considered from the main navigation level and should not be changed.
-1. **Locale selector:** Use the locale selector to trigger the locale modal component to allow users to change geographic regions and languages, if available.
-1. **Legal links:** The general legal links are present on every IBM footer and cannot be changed.
-1. **Adjunct legal link(s)** \*optional: Use up to two adjunct legal links for legally required notes or messages legally required to provide, regarding changes, policies or trademark issues.
-
-### Short
-
-![Image of minimal footer](../../images/component/footer/footerV2-short-anatomy.jpg)
-
-<Caption>
-  Short footer at the 1584px (max) breakpoint width one adjunct legal link
-</Caption>
-
-1. **IBM logo:** Links to the IBM homepage and is a required piece of the footer. The IBM logo should not be altered.
-2. **Locale selector:** Use the locale selector to trigger the locale modal component to allow users to change geographic regions and languages, if available.
-3. **Legal links:** The general legal links are present on every IBM footer and cannot be changed.
-4. **Adjunct legal link(s)** \*optional: Use up to two adjunct legal links for legally required notes or messages legally required to provide, regarding changes, policies or trademark issues.
-
-### Micro
-
-![Image of minimal footer](../../images/component/footer/footerV2-micro-anatomy.jpg)
-
-<Caption>Micro footer at the 1584px (max) breakpoint</Caption>
-
-1. **Legal links:** The general legal links are present on every IBM footer and cannot be changed.
-2. **Locale selector:** Use the locale selector to trigger the locale modal component to allow users to change geographic regions and languages, if available.
-
-## Behavior
-
-### Default
-
-Default footer spans the full width of the viewport and is the last element in the browser window. The footer elements are persistent throughout the online experience. It is fully responsive and changes how elements are displayed based on the browser size.
-
-#### Max breakpoint
-
-If the browser is wider than the max breakpoint of 1584px, the default footer and all other page content will center and extra margin will appear on either side of the page layout.
-
-![Image of Default footer](../../images/component/footer/footerV2-default-01.jpg)
-
-<Caption>Default footer at the 1584px (max) breakpoint</Caption>
-
-#### Md and sm breakpoints
-
-At medium breakpoint, the default Footer will add a significant change: the Locale selector will move above the link groups and below the IBM logo.
-Also, for the small breakpoint, besides the Locale selector new placement, the link groups become an accordion. See the image below.
-
-![Image of Default footer](../../images/component/footer/footerV2-default-behaviour.jpg)
-
-<Caption>Default footer at 672px (md) and 320px (sm) breakpoints</Caption>
-
-### Short
-
-The short footer spans the full width of the viewport and is the last element in the browser window. It is fully responsive and changes how elements are displayed based on the browser size.
-
-#### Max breakpoint
-
-If the browser is wider than the max breakpoint of 1584px, the short footer and all other page content will center and extra margin will appear on either side of the page layout.
-
-![Image of Default footer](../../images/component/footer/footerV2-short-01.jpg)
-
-<Caption>Default footer at 1584px (max) breakpoint</Caption>{' '}
-
-#### Md and sm breakpoints
-
-At medium breakpoint, the short footer will stack the legal links on two columns.
-Also, for the small breakpoint, the legal links are stacked on top of each other on one column. See the image below.
-
-![Image of Default footer](../../images/component/footer/footerV2-short-behaviour.jpg)
-
-<Caption>Short footer at 672px (md) and 320px (sm) breakpoints</Caption>{' '}
-
-### Micro
-
-The micro footer spans the full width of the viewport and is the last element in the browser window. It is fully responsive and changes how elements are displayed based on the browser size.
-
-#### Max breakpoint
-
-If the browser is wider than the max breakpoint of 1584px, the footer and all other page content will center and extra margin will appear on either side of the page layout.
-
-![Image of Default footer](../../images/component/footer/footerV2-micro-01.jpg)
-
-<Caption>Micro footer at the 1584px (max) breakpoint</Caption>
-
-#### Md and sm breakpoints
-
-At medium breakpoint, the micro footer will also stack the legal links. For the small breakpoint, the legal links are stacked on top of each other on one column.
-
-![Image of Default footer](../../images/component/footer/footerV2-micro-behaviour.jpg)
-
-<Caption>Micro footer at the 672px (md) and the 320px (sm) breakpoints</Caption>{' '}
+For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content/#character-count-standards).
 
 <ComponentFooter name="Footer" type="ui" />
