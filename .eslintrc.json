@@ -1,5 +1,5 @@
 {
-  "plugins": ["react"],
+  "plugins": ["react", "cypress"],
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",

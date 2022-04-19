@@ -102,19 +102,18 @@ Next, add the following code (which you can find in the `Leadspace with search` 
 <div class="bx--grid">
   <div class="bx--row">
     <div class="bx--col-lg-8 bx--offset-lg-4 bx--no-gutter">
-      <dds-leadspace-with-search>
-        <dds-leadspace-block-heading slot="heading"
-          >Find analytics services</dds-leadspace-block-heading
-          >
-        <dds-leadspace-block-content slot="content">
-          <dds-leadspace-search-block-heading
+      <dds-leadspace-with-search adjacent-theme="g90-and-g100">
+        <dds-leadspace-with-search-heading>Find analytics services</dds-leadspace-with-search-heading>
+        <dds-leadspace-with-search-content>
+          <dds-leadspace-with-search-content-heading
             >Make fast and accurate data-based
             decisions
-          </dds-leadspace-search-block-heading
+          </dds-leadspace-with-search-content-heading
             >
-        </dds-leadspace-block-content>
+        </dds-leadspace-with-search-content>
         <dds-search-with-typeahead
           slot="search"
+          searchPlaceholder="Search for an IBM analytics service..."
           leadspace-search></dds-search-with-typeahead>
       </dds-leadspace-with-search>
     </div>
@@ -287,7 +286,7 @@ import '@carbon/ibmdotcom-web-components/es/components/link-list/index.js';
 <a name="5" data-title="Engage an expert"></a>
 <div class="dark-theme">
   <dds-cta-section>
-    <dds-content-section-heading slot="heading"
+    <dds-content-section-heading
       >Take the next step</dds-content-section-heading
       >
     <dds-cta-block no-border>
