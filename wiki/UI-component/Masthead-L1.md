@@ -4,10 +4,7 @@ The [[Masthead L1]] component is an optional navigational pattern for IBM.com
 that allows adopters to add an additional micro navigation across a
 topic/category of pages.
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873641-a6835d00-b265-11eb-8433-8c9c73a2e999.png)
-> Need to break this work down with maybe an overview page?
-
-![image](https://user-images.githubusercontent.com/3793636/119056331-21e4bd00-b990-11eb-8190-ef13c714dd8e.png)
+![image](https://user-images.githubusercontent.com/3793636/149961723-1f080e10-7224-4f9a-81a4-62f358d8cb61.png)
 
 <hr width="40%" />
 
@@ -16,21 +13,18 @@ topic/category of pages.
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[Masthead L0]] (navigation)
+- [[Masthead navigation]]
 
 <br />
 </details>
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873641-a6835d00-b265-11eb-8433-8c9c73a2e999.png)
-> Dependency list needs to be re-evaluated
-
-<!-- usedby start open="true" -->
+<!-- usedby start -->
 
 _{{usedby auto populates}}_
 
 <!-- usedby end -->
 
-<!-- backlinks start open="true" -->
+<!-- backlinks start -->
 
 _{{backlinks auto populates}}_
 
@@ -50,5 +44,31 @@ _{{backlinks auto populates}}_
 
 <br />
 
-> ![image](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
-> See box folder <sup>[r1](#resources)</sup> for more details
+###### Logic
+
+|         | condition                 | description                                                |
+| :------ | :------------------------ | :--------------------------------------------------------- |
+| `0.0.1` | `viewport width <= 800px` | [[Masthead L1]] is hidden, moves under [[Masthead mobile]] |
+
+<br />
+
+#### 1. Site name
+
+`required` `CTA`
+
+The site name is an optional link that links the user to a parent hierarchical structure within the IBM IA
+
+###### Events
+
+|         | name      | description                  |
+| :------ | :-------- | :--------------------------- |
+| `1.0.0` | `onClick` | Navigates to the target URL. |
+
+<br /><br />
+
+#### 2. Navigation
+
+`optional` `component`
+
+> ![callout](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
+> See [[Masthead navigation]] for more details.
