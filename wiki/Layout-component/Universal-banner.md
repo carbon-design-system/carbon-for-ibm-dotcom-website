@@ -52,7 +52,7 @@ _{{backlinks auto populates}}_
 |         | condition         | description                                                                                    |
 | :------ | :---------------- | :--------------------------------------------------------------------------------------------- |
 | `0.0.1` | content overflows | If the content extends beyond the component's fixed height than the content should be cut off. |
-| `0.0.2` | `@sm` `@md@       | Entire banner becomes clickable.                                                               |
+| `0.0.2` | `@sm` `@md`       | Entire banner becomes clickable.                                                               |
 
 <br /><br />
 
@@ -87,7 +87,7 @@ An optional [[Image]] component at various sizes.
 
 `optional` `string`
 
-An optional String of text that indicates the main point of the banner.
+An optional String of text that indicates the main message of the banner.
 
 > ![callout](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
 > See design specs <sup>[r1](#resources)</sup> for changes.
@@ -133,10 +133,10 @@ An optional [[CTA]] that helps navigate users to more information about this not
 
 ###### Logic
 
-|         | condition                 | description                        |
-| :------ | :------------------------ | :--------------------------------- |
-| `4.0.3` | `@sm`                     | `CTA` style is `text`              |
-| `4.0.4` | `@md` `@lg` `@xlg` `@max` | `CTA` style is `button` `tertiary` |
+|         | condition           | description                        |
+| :------ | :------------------ | :--------------------------------- |
+| `4.0.3` | `@sm` `@md`         | `CTA` style is an `icon`           |
+| `4.0.4` | `@lg` `@xlg` `@max` | `CTA` style is `button` `tertiary` |
 
 > ![callout](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
 > See [[CTA]] for more information.
