@@ -79,25 +79,15 @@ It creates minified bundles, lighter weight source maps, and optimizes assets in
 
 ## Deploying to Github Pages
 
-Next we'll be pushing the generated `dist` folder to [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)
-which allows you to host your files directly from your repository in Github.
+Next we'll be deploying to [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages) which allows you to host your files directly from your repository in Github.
 
-To do this, we'll first commit our `dist` folder so that git know we have a subtree (subfolder with our site).
+Normally, you would create a branch named `gh-pages` and push your application's build files to the branch. Since you have forked the tutorial repository, you may notice there is already a `gh-pages` branch in your forked instance. The `gh-pages` branch currently contains the build files for each step.
 
-```bash
-git add dist && git commit -m "chore(deploy): publish build files"
-```
-
-Then we'll use `subtree push` to push to the `gh-pages` branch on Github.
-
-```bash
-git subtree push --prefix dist origin gh-pages
-```
-
-To have GitHub Pages point to the `gh-pages` branch, go to `github.com` to your forked Carbon for IBM.com Web Components tutorial repository. Go to your "Settings" and under the "Pages" tab, specify the branch, `gh-pages`,
-as your source. Once you click save, you should be able to see your site published at the `*.github.io/carbon-for-ibm-dotcom-tutorial/step-5/` link shown on the page.
+To have GitHub Pages point to the `gh-pages` branch, go to your forked Carbon for IBM.com Web Components tutorial repository on `github.com`. Go to your "Settings" and under the "Pages" tab, specify the branch, `gh-pages`, as your source.
 
 ![Screenshot of Github settings dashboard](../../../images/tutorial/deploy-on-github-pages.png)
+
+Once you click save, you should be able to see your site published at the `*.github.io/carbon-for-ibm-dotcom-tutorial/step-5/` link shown on the page.
 
 Congratulations! Your work is now hosted on GitHub Pages!
 
