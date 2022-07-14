@@ -4,10 +4,6 @@
       path: /about-carbon-for-ibm.com/about
     - title: Adopting the system
       path: /about-carbon-for-ibm.com/adopting
-- title: What’s happening
-  pages:
-    - title: Expressive styles in Carbon
-      path: /whats-happening/expressive-update
 - title: Designing
   pages:
     - title: Get started
