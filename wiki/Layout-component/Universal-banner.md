@@ -2,7 +2,7 @@
 
 A [[Universal banner]] is the only component allowed to show up above the [[Masthead]], and should be used exclusively for global and critical announcements (e.g. THINK global event, COVID 19 messages etc).
 
-![image](https://user-images.githubusercontent.com/3793636/140759323-201ebe94-7930-4201-addb-7de87504d330.png)
+![universal-banner-func-spec](https://user-images.githubusercontent.com/15643582/170297987-2aa86d23-f994-41ff-bad9-0b03444315d3.png)
 
 > ![image](https://user-images.githubusercontent.com/3793636/117874180-493bdb80-b266-11eb-8945-dde0d95431d6.png)
 > There are a lot of similarities between this component and the [[Content group banner]]. Can these features be absorbed into that, or can [[Content group banner]] depend on this component or vice versa?
@@ -52,7 +52,7 @@ _{{backlinks auto populates}}_
 |         | condition         | description                                                                                    |
 | :------ | :---------------- | :--------------------------------------------------------------------------------------------- |
 | `0.0.1` | content overflows | If the content extends beyond the component's fixed height than the content should be cut off. |
-| `0.0.2` | `@sm`             | Entire banner becomes clickable.                                                               |
+| `0.0.2` | `@sm` `@md`       | Entire banner becomes clickable.                                                               |
 
 <br /><br />
 
@@ -70,10 +70,10 @@ An optional [[Image]] component at various sizes.
 
 ###### Sizes
 
-|         | name | description |           |
-| :------ | :--- | :---------- | :-------- |
-| `1.1.1` | `md` | 4 columns   | `default` |
-| `1.1.2` | `lg` | 8 columns   |           |
+|         | name  | description |           |
+| :------ | :---- | :---------- | :-------- |
+| `1.1.1` | `@md` | 4 columns   | `default` |
+| `1.1.2` | `@lg` | 8 columns   |           |
 
 > ![callout](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
 > See [[Image]] for more information.
@@ -87,7 +87,7 @@ An optional [[Image]] component at various sizes.
 
 `optional` `string`
 
-An optional String of text that indicates the main point of the banner.
+An optional String of text that indicates the main message of the banner.
 
 > ![callout](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
 > See design specs <sup>[r1](#resources)</sup> for changes.
@@ -133,10 +133,10 @@ An optional [[CTA]] that helps navigate users to more information about this not
 
 ###### Logic
 
-|         | condition                 | description                        |
-| :------ | :------------------------ | :--------------------------------- |
-| `4.0.3` | `@sm`                     | `CTA` style is `text`              |
-| `4.0.4` | `@md` `@lg` `@xlg` `@max` | `CTA` style is `button` `tertiary` |
+|         | condition           | description                        |
+| :------ | :------------------ | :--------------------------------- |
+| `4.0.3` | `@sm` `@md`         | `CTA` style is an `icon`           |
+| `4.0.4` | `@lg` `@xlg` `@max` | `CTA` style is `button` `tertiary` |
 
 > ![callout](https://user-images.githubusercontent.com/3793636/117873919-f6faba80-b265-11eb-81a5-039bdcd822e8.png)
 > See [[CTA]] for more information.
