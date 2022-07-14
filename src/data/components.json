@@ -1549,7 +1549,7 @@
       "designLink": "https://ibm.box.com/s/fas5qv5zrscudr63y85g28v0k657p83u",
       "description": "Universal banner is used exclusively to feature global and critical announcements. It is the only component that can be positioned above the masthead.",
       "storybook": {
-        "webcomponents": "",
+        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-universal-banner--default",
         "react": ""
       },
       "webcomponents": {
