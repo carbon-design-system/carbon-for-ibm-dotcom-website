@@ -75,6 +75,15 @@ export const ResourceLinks = ({
             <img src={webComponentsIcon} alt="Web Components" />
           </MiniCard>
         )}
+        {components[type][name].storybook.reactwrapper && (
+          <MiniCard
+            linkProps={{ target: '_blank', rel: 'noopener' }}
+            title="React wrapper Storybook"
+            href={components[type][name].storybook.reactwrapper}
+          >
+            <img src={reactIcon} alt="Web Components" />
+          </MiniCard>
+        )}
       </CardGroup>
     </>
   );
