@@ -72,7 +72,7 @@ export const ResourceLinks = ({
             title="React wrapper Storybook"
             href={components[type][name].storybook.reactwrapper}
           >
-            <img src={reactIcon} alt="React wrapper" />
+            <img src={reactIcon} alt="React" />
           </MiniCard>
         )}
         {components[type][name].storybook.webcomponents && (
