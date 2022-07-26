@@ -66,15 +66,6 @@ export const ResourceLinks = ({
             <img src={reactIcon} alt="React" />
           </MiniCard>
         )}
-        {components[type][name].storybook.webcomponents && (
-          <MiniCard
-            linkProps={{ target: '_blank', rel: 'noopener' }}
-            title="Web Components Storybook"
-            href={components[type][name].storybook.webcomponents}
-          >
-            <img src={webComponentsIcon} alt="Web Components" />
-          </MiniCard>
-        )}
         {components[type][name].storybook.reactwrapper && (
           <MiniCard
             linkProps={{ target: '_blank', rel: 'noopener' }}
@@ -82,6 +73,15 @@ export const ResourceLinks = ({
             href={components[type][name].storybook.reactwrapper}
           >
             <img src={reactIcon} alt="React" />
+          </MiniCard>
+        )}
+        {components[type][name].storybook.webcomponents && (
+          <MiniCard
+            linkProps={{ target: '_blank', rel: 'noopener' }}
+            title="Web Components Storybook"
+            href={components[type][name].storybook.webcomponents}
+          >
+            <img src={webComponentsIcon} alt="Web Components" />
           </MiniCard>
         )}
       </CardGroup>
