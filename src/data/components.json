@@ -197,7 +197,7 @@
       "designLink": "https://ibm.box.com/s/35er5s6qfjcpcm98jafklc1alcl5vy16",
       "description": "Expressive modal is based on the Carbon modal component with slight styling updates to increase the padding and uses fixed buttons.",
       "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-modal--default",
+        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-expressive-modal--default",
         "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-expressive-modal--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-expressive-modal--default"
       },
