@@ -940,7 +940,7 @@
       "designLink": "https://ibm.box.com/s/rv5kmm0a4d9ded74v6yfk8ad5id5ghmx",
       "description": "Content block horizontal is used to highlight a group of more important pieces of content, such as products or solutions, with more visual weight.",
       "storybook": {
-        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-block-block--default",
+        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-block-horizontal--default",
         "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-content-block-horizontal--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-content-block-horizontal--default"
       },
