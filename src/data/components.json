@@ -1244,7 +1244,7 @@
       "description": "Content section is a high-level content component that acts as the main content unit to build web page experiences for IBM.com. It encapsulates other content components (one or multiple Content blocks and/or Content groups) and brings them together, providing flexibility to create many different solutions for users.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/",
-        "react": "http://www.ibm.com/standards/carbon/react/",
+        "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-content-section--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-content-section--default"
       },
       "webcomponents": {
