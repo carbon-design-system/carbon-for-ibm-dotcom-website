@@ -30,7 +30,7 @@
     "carbon-components-react": "^7.46.0",
     "dotenv": "^10.0.0",
     "gatsby": "^3.14.2",
-    "gatsby-theme-carbon": "2.3.1",
+    "gatsby-theme-carbon": "2.3.2",
     "node-fetch": "^2.6.7",
     "prop-types": "^15.7.2",
     "react": "16.8.6",
