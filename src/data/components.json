@@ -970,7 +970,7 @@
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-block-media--default",
         "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-content-block-media--default",
-        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-content-block-horizontal--default"
+        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-content-block-media--default"
       },
       "webcomponents": {
         "stable": true,
