@@ -1519,7 +1519,7 @@
       "description": "The table of contents component allows users to quickly navigate through long pages by providing jump links to different sections of the content within a single page.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-table-of-contents--default",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-table-of-contents--manually-define-menu-items",
+        "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-table-of-contents--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-table-of-contents--default"
       },
       "webcomponents": {
