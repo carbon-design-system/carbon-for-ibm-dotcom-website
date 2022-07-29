@@ -1435,7 +1435,7 @@
       "designLink": "https://ibm.box.com/s/3rjh19oclo961z0q0oaoqtm4gbhzo8b8",
       "description": "Lead space search provides a fast route to information discovery by including a prominent search option in the lead space. As the search is always positioned at the top, it is discoverable by users the moment they land on the page.",
       "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components",
+        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-lead-space-search--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-lead-space-search--default"
       },
       "webcomponents": {
