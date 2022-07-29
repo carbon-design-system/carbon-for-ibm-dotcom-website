@@ -6,7 +6,7 @@
       "description": "Back to top is a sticky button that appears on long form pages. When triggered it scrolls the the user back to the top of the page.",
       "storybook": {
         "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-back-to-top--default",
-        "react": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-back-to-top--default"
+        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-back-to-top--default"
       },
       "webcomponents": {
         "stable": true,
@@ -56,7 +56,7 @@
     },
     "Card": {
       "url": "/components/cards",
-      "designLink": "https://ibm.box.com/s/hgvu48r1fv2ga2h0yn3qshrtxjc71vch",
+      "designLink": "https://ibm.ent.box.com/folder/95514001950?s=qqw0soczjpawvuh9j3x19fmcoqk1zsw7",
       "description": "Cards are considered “workhorse” components because of their versatility. They provide effective calls to action, and the various designs available work with a wide range of content.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-card--default",
