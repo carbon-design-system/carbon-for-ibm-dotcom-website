@@ -25,7 +25,7 @@ behavior in prototype and production work.
 
 ## Choose your framework
 
-Carbon for IBM.com is available in either <Link to="/developing/frameworks/web-components">Web Components</Link> or <Link to="/developing/frameworks/react">React</Link>. Choosing a framework would depend on the needs of your application.
+Carbon for IBM.com is available in either <Link to="/developing/frameworks/web-components">Web Components</Link>, <Link to="/developing/frameworks/react-wrapper">React wrapper</Link>, or <Link to="/developing/frameworks/react">React</Link>. Choosing a framework would depend on the needs of your application.
 
 ### Web components
 
@@ -39,25 +39,35 @@ Web components are also fully rendered in Google search crawlers (which currentl
 search engines), with light support in other crawlers like Bing and Yahoo.
 
 If you're running an Angular, Vue, or vanilla application, our team recommends using web components. Web components
-would also work in React applications. Our team provides <Link to="/developing/frameworks/web-components#react-wrapper">React wrapper</Link>
+would also work in React applications. Our team provides <Link to="/developing/frameworks/react-wrapper">React wrapper</Link>
 versions of Carbon for IBM.com Web Components.
 
 <p>
-  <Link to="/developing/frameworks/web-components">
-    Get started with Carbon for IBM.com Web Components
-  </Link>
+Get started with  <Link to="/developing/frameworks/web-components">Carbon for IBM.com Web Components</Link>
 </p>
 
+### React wrapper
+Our team builds new components for Carbon for IBM.com as Web components first and also provides each components with a React wrapper for seamless integration into a React application.
+
+<p>
+Get started with  <Link to="/developing/frameworks/react-wrapper">Carbon for IBM.com React wrapper</Link>
+</p>
+
+
 ### React
+
+<InlineNotification kind="warning">
+
+**Note:** The [@carbon/ibmdotcom-react](https://www.npmjs.com/package/@carbon/ibmdotcom-react) package will be deprecated in Carbon for IBM.com V2. This package will fall into maintaince-mode, with updates only for potential security issues and high severity bugs. For an estimated timeline on the V2 release, you can view the Carbon for IBM.com [roadmap](https://github.com/carbon-design-system/carbon-for-ibm-dotcom#workspaces/carbon-for-ibmcom-5d449f3642eb1962336cbe52/roadmap). In Carbon for IBM.com V2, [@carbon/ibmdotcom-web-components](https://www.npmjs.com/package/@carbon/ibmdotcom-web-components) will be the main package moving forward. Applications using React can use the [react-wrapper](/developing/frameworks/react-wrapper) components supported by the the Carbon for IBM.com Web Components package.
+
+</InlineNotification>
 
 React is also supported by our team. One of the most popular front-end frameworks today, it is the front-end framework
 that is also supported by the core Carbon Design System team. If your application runs on React, our team recommends
 Carbon for IBM.com React.
 
 <p>
-  <Link to="/developing/frameworks/react">
-    Get started with Carbon for IBM.com React
-  </Link>
+Get started with <Link to="/developing/frameworks/react">Carbon for IBM.com React</Link>
 </p>
 
 ## Building for IBM.com
