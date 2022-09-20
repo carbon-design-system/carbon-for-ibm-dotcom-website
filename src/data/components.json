@@ -38,7 +38,7 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
@@ -66,7 +66,7 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
@@ -93,20 +93,20 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
         "notAvailable": false
       },
       "react": {
-        "stable": false,
+        "stable": true,
         "experimental": false,
         "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
-        "notAvailable": true
+        "notAvailable": false
       }
     },
     "Card link": {
@@ -177,7 +177,7 @@
         "stable": true,
         "experimental": false,
         "new": false,
-        "updated": true,
+        "updated": false,
         "deprecated": false,
         "underConstruction": false,
         "notAvailable": false
@@ -186,7 +186,7 @@
         "stable": true,
         "experimental": false,
         "new": false,
-        "updated": true,
+        "updated": false,
         "deprecated": false,
         "underConstruction": false,
         "notAvailable": false
@@ -266,13 +266,13 @@
         "notAvailable": false
       },
       "react": {
-        "stable": false,
+        "stable": true,
         "experimental": false,
         "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
-        "notAvailable": true
+        "notAvailable": false
       }
     },
     "Footer": {
@@ -431,7 +431,7 @@
         "notAvailable": false
       },
       "react": {
-        "stable": false,
+        "stable": true,
         "experimental": false,
         "new": false,
         "updated": false,
@@ -505,7 +505,7 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
@@ -588,7 +588,7 @@
         "stable": true,
         "experimental": false,
         "new": false,
-        "updated": true,
+        "updated": false,
         "deprecated": false,
         "underConstruction": false,
         "notAvailable": false
@@ -649,13 +649,13 @@
         "notAvailable": false
       },
       "react": {
-        "stable": false,
+        "stable": true,
         "experimental": false,
         "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
-        "notAvailable": true
+        "notAvailable": false
       }
     },
     "Tag link": {
@@ -675,13 +675,13 @@
         "notAvailable": false
       },
       "react": {
-        "stable": false,
+        "stable": true,
         "experimental": false,
         "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
-        "notAvailable": true
+        "notAvailable": false
       }
     },
     "Video": {
@@ -1085,20 +1085,20 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
         "notAvailable": false
       },
       "react": {
-        "stable": false,
+        "stable": true,
         "experimental": false,
         "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
-        "notAvailable": true
+        "notAvailable": false
       }
     },
     "Content group cards": {
@@ -1222,7 +1222,7 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
@@ -1275,7 +1275,7 @@
         "react": ""
       },
       "webcomponents": {
-        "stable": false,
+        "stable": true,
         "experimental": false,
         "new": false,
         "updated": false,
@@ -1331,20 +1331,20 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
         "notAvailable": false
       },
       "react": {
-        "stable": false,
+        "stable": true,
         "experimental": false,
         "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
-        "notAvailable": true
+        "notAvailable": false
       }
     },
     "Layout": {
@@ -1441,7 +1441,7 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
@@ -1450,7 +1450,7 @@
       "react": {
         "stable": true,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
@@ -1552,20 +1552,20 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
         "notAvailable": false
       },
       "react": {
-        "stable": false,
+        "stable": true,
         "experimental": false,
         "new": false,
         "updated": false,
         "deprecated": false,
-        "underConstruction": true,
-        "notAvailable": true
+        "underConstruction": false,
+        "notAvailable": false
       }
     },
     "Universal banner": {
@@ -1577,21 +1577,21 @@
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-universal-banner--default"
       },
       "webcomponents": {
-        "stable": false,
+        "stable": true,
         "experimental": false,
         "new": false,
         "updated": false,
         "deprecated": false,
-        "underConstruction": true,
+        "underConstruction": false,
         "notAvailable": false
       },
       "react": {
-        "stable": false,
+        "stable": true,
         "experimental": false,
         "new": false,
         "updated": false,
         "deprecated": false,
-        "underConstruction": true,
+        "underConstruction": false,
         "notAvailable": false
       }
     }
