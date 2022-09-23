@@ -642,7 +642,7 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
@@ -668,7 +668,7 @@
       "webcomponents": {
         "stable": true,
         "experimental": false,
-        "new": true,
+        "new": false,
         "updated": false,
         "deprecated": false,
         "underConstruction": false,
