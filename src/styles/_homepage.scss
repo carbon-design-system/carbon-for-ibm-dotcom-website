@@ -22,6 +22,16 @@
       padding-left: 400px;
     }
   }
+
+  .bx--resource-card__icon--img {
+    height: 32px;
+    width: 32px;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
 }
 
 // Dots background pattern
