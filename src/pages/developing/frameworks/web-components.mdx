@@ -1,7 +1,7 @@
 ---
 title: Frameworks
 description: Carbon for IBM.com Web Components, using Custom Elements v1 and Shadow DOM v1 specs.
-tabs: ['Web Components', 'React']
+tabs: ['Web Components', 'React', 'React wrapper']
 ---
 
 import { Link } from 'gatsby';
@@ -28,21 +28,20 @@ standard with native support, supported in all modern browsers.
 Using [npm](https://www.npmjs.com/):
 
 ```bash
-npm install -S @carbon/ibmdotcom-web-components lit-html lit-element
+npm install -S @carbon/ibmdotcom-web-components
 ```
 
 Using [Yarn](https://yarnpkg.com/en/):
 
 ```bash
-yarn add @carbon/ibmdotcom-web-components lit-html lit-element
+yarn add @carbon/ibmdotcom-web-components
 ```
 
 ### lit-html / lit-element
 
 `@carbon/ibmdotcom-web-components` uses [`lit-html`](https://lit-html.polymer-project.org) for reactive templating on
 top of the Web Components standard, and [`lit-element`](https://lit-element.polymer-project.org) for reactive
-properties/attributes on top of `lit-html`. These are `peerDependencies` of the project, so they would need to be
-installed separately.
+properties/attributes on top of `lit-html`. These are already installed as `dependencies` within the project.
 
 ## Install via CDN
 
@@ -71,14 +70,14 @@ To see all available CDN links, visit the `Docs` tab for the corresponding compo
 
 All components are available either by moving tag versions, or specific versions (starting at `v1.6.0`).
 
-The latest/next/beta tags are moving versions. While beneficial to always stay on the most recent version, it is
-recommended to choose a specific version and properly test your application when upgrading to a newer version.
+The `latest`/`next` tags are moving versions. When `latest`/`next` tags are updated, Akamai caches can take up to 24 hours to clear, which could result in instability during that time. It is highly recommended to instead use a specific version for applications on production and to properly test your application when upgrading to a newer version
+
+Please ensure only one version of artifacts is used at a time, having multiple versions will cause rendering issues.
 
 | Tag      | Description                                                                                                                                                                                               |
 | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `latest` | Updated with every full release                                                                                                                                                                           |
+| `latest` | Updated on Friday at 6pm EST with every full release                                                                                                                                                      |
 | `next`   | Updated with every release candidate during code freeze periods. See our release schedule at the pinned issue on our [issue board](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues). |
-| `beta`   | Updated every two weeks                                                                                                                                                                                   |
 
 Here are examples of setting by tag:
 
@@ -185,7 +184,7 @@ View the `<dds-dotcom-shell>` in [Storybook Web Components](http://www.ibm.com/s
   href="https://www.ibm.com/standards/carbon/web-components/"
 >
 
-![Storybook Web Components](./../../../images/icon/js_logo.svg)
+![Storybook Web Components](./../../../images/icon/web-components-icon.svg)
 
 </ResourceCard>
 </Column>
