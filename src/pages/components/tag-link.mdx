@@ -9,12 +9,6 @@ import ResourceLinks from 'components/ResourceLinks';
 
 <ComponentDescription name="Tag link" type="ui" />
 
-<InlineNotification>
-
-**Note:** Additional usage guidelines are coming soon.
-
-</InlineNotification>
-
 <AnchorLinks>
 
 <AnchorLink>Resources</AnchorLink>
@@ -32,7 +26,9 @@ import ResourceLinks from 'components/ResourceLinks';
 
 ## Overview
 
-Tag link is a clickable tag that links the topic to another page for users to find more information about the topic.
+Tag link is a clickable tag that links the topic to another page for users to find more information about the topic. It uses Carbon's [Tag](https://carbondesignsystem.com/components/tag/usage/) as a base, and uses a larger type token and additional spacing around the label. Unlike Tag, Tag link has set color styles for the label and background.
+
+Tag link is primarily used in an optional group in the [Lead space](https://www.ibm.com/standards/carbon/components/leadspace). Used in this way, the Tag links add categories and additional context to the Lead space.
 
 <Row>
 <Column colMd={8} colLg={12}>
@@ -46,7 +42,7 @@ Tag link is a clickable tag that links the topic to another page for users to fi
 
 | Element | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes               |
 | ------- | ------------ | -------- | --------- | ------------------------------------------- | ------------------- |
-| Copy    | Text         | No       | 1         | 25 / 35                                     | URL added in setup. |
+| Label   | Text         | No       | 1         | 25 / 35                                     | URL added in setup. |
 
 ## Feedback
 
