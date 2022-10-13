@@ -658,9 +658,9 @@
         "notAvailable": false
       }
     },
-    "Tag link": {
-      "url": "/components/tag-link",
-      "description": "Tag link is a clickable tag that links the topic to another page with more information.",
+    "Tags": {
+      "url": "/components/tags",
+      "description": "Tags help label and categorize content using keywords. Tag link enables a tag to be clickable and navigate users to related content.",
       "storybook": {
         "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-tag-link--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-tag-link--default"

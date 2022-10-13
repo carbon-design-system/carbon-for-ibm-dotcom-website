@@ -1,0 +1,65 @@
+---
+title: Tags
+description: Tags help label and categorize content using keywords. Tag link enables a tag to be clickable and navigate users to related content.
+---
+
+import ComponentDescription from 'components/ComponentDescription';
+import ComponentFeedback from 'components/ComponentFeedback';
+import ResourceLinks from 'components/ResourceLinks';
+
+<ComponentDescription name="Tags" type="ui" />
+
+<AnchorLinks>
+
+<AnchorLink>Resources</AnchorLink>
+<AnchorLink>Overview</AnchorLink>
+<AnchorLink>Tag</AnchorLink>
+<AnchorLink>Tag link</AnchorLink>
+<AnchorLink>Tag group</AnchorLink>
+<AnchorLink>Feedback</AnchorLink>
+  
+</AnchorLinks>
+
+<ResourceLinks
+  name="Tags"
+  designLink={'https://ibm.box.com/s/y5dx0hxzcsn6i6xv6i1vwlsec300gbm5'}
+  type="ui"
+/>
+
+## Overview
+
+TBD
+
+## Tag
+
+The Carbon tag is primarily used inside the [Card](https://www.ibm.com/standards/carbon/components/cards) component in Carbon for IBM.com. This enables Cards to display labels that categorize the Card's contents or highlight aspects of the content.
+
+For more information on Tag, visit the [Tag guidance](https://carbondesignsystem.com/components/tag/usage/) for the Carbon Design System.
+
+## Tag link
+
+Tag link is a clickable element that links the topic to another page for users to find more information about the topic. It uses Carbon's [Tag](https://carbondesignsystem.com/components/tag/usage/) as a base, and uses a larger type token and additional spacing around the label. Unlike Tag, Tag link has limited color styles for the label and background.
+
+Tag link is primarily used inside of a Tag group (see more below).
+
+### Content guidance for Tag link
+
+| Element | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes               |
+| ------- | ------------ | -------- | --------- | ------------------------------------------- | ------------------- |
+| Label   | Text         | No       | 1         | 25 / 35                                     | URL added in setup. |
+
+## Tag group
+
+Tag group is a collection of Tag links that can be added to the [Lead space](https://www.ibm.com/standards/carbon/components/leadspace). Tag group adds additional context to the Lead space content, and each Tag link can navigate users to a broader category within IBM.com.
+
+<Row>
+<Column colMd={8} colLg={12}>
+
+![Tag link in lead space](../../images/component/tags/components--tag-link.jpg)
+
+</Column>
+</Row>
+
+## Feedback
+
+<ComponentFeedback />
