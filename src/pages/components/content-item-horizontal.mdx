@@ -9,18 +9,12 @@ import ResourceLinks from 'components/ResourceLinks';
 
 <ComponentDescription name="Content item horizontal" type="layout" />
 
-<InlineNotification>
-
-**Note:** Additional usage guidelines are coming soon.
-
-</InlineNotification>
-
 <AnchorLinks>
 
 <AnchorLink>Resources</AnchorLink>
 <AnchorLink>Overview</AnchorLink>
 <AnchorLink>Variations</AnchorLink>
-<AnchorLink>Content guidance</AnchorLink>
+<AnchorLink>Tips and techniques</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
@@ -29,43 +23,204 @@ import ResourceLinks from 'components/ResourceLinks';
 
 ## Overview
 
-Content item horizontal is ideal when heading and copy text are short. A horizontally-distributed column layout helps to reduce page height, and it provides vertical scannability when multiples of these components are stacked.
+Content item horizontal can be used to make content easily scannable, especially when multiples of these components are stacked vertically.
 
-Don't use this component if your heading and/or copy text are lengthy. Too much copy in this component results in a squeezed and tall text block that increases page height and is uncomfortable to read.
+By default, this component is best suited for shorter lengths of copy, though each variation can support different amounts of content.
 
-![Content item horizontal default](../../images/component/content-item-horizontal/content-item-horiz-default.png)
+![Content item horizontal anatomy](../../images/component/content-item-horizontal/content-item-horiz-anatomy.png)
+
+1. **Eyebrow:** Optional eyebrow provides additional context for the heading in short form.
+2. **Heading:** Heading has the highest information hierarchy, and should be succinct and descriptive.
+3. **Body copy:** Description that supports the heading.
+4. **CTA:** Optional call to action.
+5. **Media:** Image or video.
 
 ## Variations
 
-### Content item horizontal with media
+### Content item horizontal
 
-This variation shows a similar layout and is capable of featuring one piece of media (image or video). Media is required for this component to work. Media can be positioned either left or right of the text content.
+The default version of content item horizontal is the only variation that does not require an image. This variant is ideal for supporting text-only lists or using multiple instances, some with an image and some text only images.
 
-![Content item horizontal media](../../images/component/content-item-horizontal/content-item-horiz-media.png)
+![Content item horizontal default](../../images/component/content-item-horizontal/content-item-horiz-default.png)
+
+<Caption>Example of content item horizontal.</Caption>
+
+<Row>
+
+<Column colMd={4} colLg={4}>
+
+![Example of using text-only](../../images/component/content-item-horizontal/cih-default-1.png)
 
 <Caption>
-  Examples of content item horizontal with media in two different configurations
+  Example of using the text only content item horizontal variant in a group.
 </Caption>
+
+</Column>
+
+<Column colMd={4} colLg={4}>
+
+![Example of using an image and text-only](../../images/component/content-item-horizontal/cih-default-2.png)
+
+<Caption>
+  Example of using content item horizontal with an image, followed by two
+  text-only instances.
+</Caption>
+
+</Column>
+
+</Row>
+
+<div style="padding-top: 24px;"></div>
+
+**Content guidance for content item horizontal**
+
+| Element                                                    | Content type                                                                                                                       | Required | Instances | Character limit <br/>(English / translated) | Notes                                          |
+| ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------- | --------- | ------------------------------------------- | ---------------------------------------------- |
+| Eyebrow                                                    | Text                                                                                                                               | No       | 1         | 25 / 35                                     |                                                |
+| Heading                                                    | Text                                                                                                                               | Yes      | 1         | 40 / 55                                     |                                                |
+| Copy                                                       | Text                                                                                                                               | Yes      | 1         | 200 / 260                                   |                                                |
+| [CTA](https://www.ibm.com/standards/carbon/components/CTA) | Component                                                                                                                          | No       | 1–2       | –                                           | CTA is optional. Text style only.              |
+| Media                                                      | [Image](https://www.ibm.com/standards/carbon/components/images/) or [Video](https://www.ibm.com/standards/carbon/components/video) | No       | 1         | –                                           | Supports image, image with caption, and video. |
+| Image alt text                                             | Text                                                                                                                               | No       | 1         | 75 / 100                                    | Image description for accessibility.           |
+
+For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
+
+### Content item horizontal with media
+
+Content item horizontal with media arranges the eyebrow, heading and body copy into four columns and the image is positioned to the side of the content. This variant works best when there is limited body copy that does not exceed beyond the image height. If you need additional body copy, use the default variant or content item horizontal with featured media variant.
+
+Content item horizontal with media allows for the media to be positioned to the left or the right of the content.
+_Note: Nielsen Norman recommends users scan content more effeciently when text and images are aligned rather than alternating._
+
+![Content item horizontal with media](../../images/component/content-item-horizontal/content-item-horiz-media.png)
+
+<Caption>Example of content item horizontal with media.</Caption>
+
+<DoDontRow>
+<DoDont type="do" caption="Do use multiple instances in the same orientation to create scannable list." >
+
+![example of same orientation](../../images/component/content-item-horizontal/cih-media-do-1.png)
+
+</DoDont>
+<DoDont type="do" caption="Do use the alternating orientations to create a dynamic layout.">
+
+![example of alternating orientation](../../images/component/content-item-horizontal/cih-media-do-2.png)
+
+</DoDont>
+<DoDont type="dont" caption="Don’t use the alternating image in a non-sequential way ie: right, left, left.">
+
+![example of non-sequential](../../images/component/content-item-horizontal/cih-media-dont.png)
+
+</DoDont>
+</DoDontRow>
+
+<div style="padding-top: 24px;"></div>
+
+**Content guidance for content item horizontal with media**
+
+| Element                                                    | Content type                                                                                                                       | Required | Instances | Character limit <br/>(English / translated) | Notes                                                          |
+| ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------- | --------- | ------------------------------------------- | -------------------------------------------------------------- |
+| Eyebrow                                                    | Text                                                                                                                               | No       | 1         | 25 / 35                                     |                                                                |
+| Heading                                                    | Text                                                                                                                               | Yes      | 1         | 40 / 55                                     |                                                                |
+| Copy                                                       | Text                                                                                                                               | Yes      | 1         | 75 / 100                                    |                                                                |
+| [CTA](https://www.ibm.com/standards/carbon/components/cta) | Component                                                                                                                          | No       | 1–2       | –                                           | CTA is optional. Text style only.                              |
+| Media                                                      | [Image](https://www.ibm.com/standards/carbon/components/images/) or [Video](https://www.ibm.com/standards/carbon/components/video) | Yes      | 1         | –                                           | Media variation supports image, image with caption, and video. |
+| Image alt text                                             | Text                                                                                                                               | No       | 1         | 75 / 100                                    | Image description for accessibility.                           |
+
+For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
+
+### Content item horizontal with featured media
+
+Content item horizontal with featured media enlarges the media to 12 columns to emphasize the chosen media. This variant is best suited for highlighting a piece of content or key product feature. Use this variation sparingly: if all content items on the page are “featured” then all items are visually the same or none are emphasized.
+
+![Content item horizontal with media](../../images/component/content-item-horizontal/content-item-horiz-featured.png)
+
+<Caption>Example of content item horizontal with featured media.</Caption>
+
+<div style="padding-top: 24px;"></div>
+
+**Content guidance for content item horizontal with featured media**
+
+| Element                                                    | Content type                                                                                                                       | Required | Instances | Character limit <br/>(English / translated) | Notes                                                                   |
+| ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------- | --------- | ------------------------------------------- | ----------------------------------------------------------------------- |
+| Eyebrow                                                    | Text                                                                                                                               | No       | 1         | 25 / 35                                     |                                                                         |
+| Heading                                                    | Text                                                                                                                               | Yes      | 1         | 40 / 55                                     |                                                                         |
+| Copy                                                       | Text                                                                                                                               | Yes      | 1         | 200 / 260                                   |                                                                         |
+| [CTA](https://www.ibm.com/standards/carbon/components/CTA) | Component                                                                                                                          | No       | 1–2       | –                                           | CTA is optional. Text style only.                                       |
+| Media                                                      | [Image](https://www.ibm.com/standards/carbon/components/images/) or [Video](https://www.ibm.com/standards/carbon/components/video) | Yes      | 1         | –                                           | Featured media variation supports image, image with caption, and video. |
+| Image alt text                                             | Text                                                                                                                               | No       | 1         | 75 / 100                                    | Image description for accessibility.                                    |
+
+For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
 
 ### Content item horizontal with thumbnail
 
-When imagery is secondary, use the content item horizontal with thumbnail. This is ideal for listing blogs and events where a thumbnail image is a nice-to-have but not essential to the message.
+Content item with thumbnail is ideal for smaller, supporting content where an image is a nice-to-have but not essential to the message, such as third party logos, pictograms, listing blogs or events.
 
-![Content item horizontal thumbnail](../../images/component/content-item-horizontal/content-item-horiz-thumbnail.png)
+![Content item horizontal with thumbnail](../../images/component/content-item-horizontal/content-item-horiz-thumbnail.png)
 
-<Caption>Example of content item horizontal with thumbnail</Caption>
+<Caption>Example of content item horizontal with thumbnail.</Caption>
 
-## Content guidance
+<DoDontRow>
+  <DoDont type="do" caption="Do use multiple instances of the content item horizontal with thumbnail to create a scannable list.">
 
-| Element                                                                | Content type                                                                                                                       | Required | Instances | Character limit <br/>(English / translated) | Notes                                                                                                                                           |
-| ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------- | --------- | ------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| Eyebrow                                                                | Text                                                                                                                               | No       | 1         | 25 / 35                                     |                                                                                                                                                 |
-| Heading                                                                | Text                                                                                                                               | Yes      | 1         | 40 / 55                                     |                                                                                                                                                 |
-| Copy                                                                   | Text                                                                                                                               | Yes      | 1         | 200 / 260                                   |                                                                                                                                                 |
-| [Link list](https://www.ibm.com/standards/carbon/components/link-list) | Component                                                                                                                          | No       | Min 1     | –                                           | At least 1 CTA required: local, external, or download type. Text style only.                                                                    |
-| Media                                                                  | [Image](https://www.ibm.com/standards/carbon/components/images/) or [Video](https://www.ibm.com/standards/carbon/components/video) | No       | 1         | –                                           | Default variation does not allow media. Media variation supports image, image with caption, and video. Thumbnail variation only supports image. |
-| Image alt text                                                         | Text                                                                                                                               | No       | 1         | 75 / 100                                    | Image description for accessibility.                                                                                                            |
+![Do use multiple instances of content item with thumbnail.](../../images/component/content-item-horizontal/cih-thumb-do.png)
+
+  </DoDont>
+  <DoDont type="dont" caption="Don’t combine the content item horizontal with thumbnail with another content item horizontal variant.">
+
+![Do not combine thumbnail variant with other content item horizontal variants.](../../images/component/content-item-horizontal/cih-thumb-dont.png)
+
+  </DoDont>
+</DoDontRow>
+
+<div style="padding-top: 24px;"></div>
+
+**Content guidance for content item horizontal with thumbnail**
+
+| Element                                                    | Content type                                                     | Required | Instances | Character limit <br/>(English / translated) | Notes                                    |
+| ---------------------------------------------------------- | ---------------------------------------------------------------- | -------- | --------- | ------------------------------------------- | ---------------------------------------- |
+| Eyebrow                                                    | Text                                                             | No       | 1         | 25 / 35                                     |                                          |
+| Heading                                                    | Text                                                             | Yes      | 1         | 40 / 55                                     |                                          |
+| Copy                                                       | Text                                                             | Yes      | 1         | 75 / 100                                    |                                          |
+| [CTA](https://www.ibm.com/standards/carbon/components/cta) | Component                                                        | No       | 1–2       | –                                           | CTA is optional. Text style only.        |
+| Media                                                      | [Image](https://www.ibm.com/standards/carbon/components/images/) | Yes      | 1         | –                                           | Thumbnail variation only supports image. |
+| Image alt text                                             | Text                                                             | No       | 1         | 75 / 100                                    | Image description for accessibility.     |
 
 For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
+
+## Tips and techniques
+
+### Groups
+
+Content item horizontal is most successful when presented as a group of two or more to create a scannable list for the user. We recommend limiting the groups to five conent items.
+
+### Combining variants
+
+The different variations of content item horizontal can be combined to create a dynamic layout.
+
+<Row>
+
+<Column colMd={4} colLg={6}>
+
+![Example of using the same variant](../../images/component/content-item-horizontal/cih-tips-tricks-single.png)
+
+<Caption>
+  Example of using the same content item horizontal variant in a group.
+</Caption>
+
+</Column>
+
+<Column colMd={4} colLg={6}>
+
+![Example of using different variants](../../images/component/content-item-horizontal/cih-tips-tricks-mix.png)
+
+<Caption>
+  Example of using different content item horizontal variants in a group to
+  emphasize the first item.
+</Caption>
+
+</Column>
+
+</Row>
 
 <ComponentFooter name="Content item horizontal" type="layout" />
