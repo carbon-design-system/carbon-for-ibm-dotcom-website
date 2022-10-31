@@ -154,8 +154,8 @@
       path: /components/table-of-contents
     - title: Tabs extended
       path: /components/tabs-extended
-    - title: Tag link
-      path: /components/tag-link
+    - title: Tags
+      path: /components/tags
     - title: Universal banner
       path: /components/universal-banner
     - title: Video

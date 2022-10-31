@@ -658,12 +658,66 @@
         "notAvailable": false
       }
     },
-    "Tag link": {
-      "url": "/components/tag-link",
-      "description": "Tag link is a clickable tag that links the topic to another page with more information.",
+    "Tags": {
+      "url": "/components/tags",
+      "description": "Tags help label and categorize content using keywords. Tag link enables a tag to be clickable and navigate users to related content.",
       "storybook": {
         "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-tag-link--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-tag-link--default"
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      }
+    },
+    "Tag link": {
+      "url": "/components/tags#tag-link",
+      "designLink": "https://ibm.box.com/s/y5dx0hxzcsn6i6xv6i1vwlsec300gbm5",
+      "description": "Tag link enables a tag to be clickable and navigate users to related content.",
+      "storybook": {
+        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-tag-link--default",
+        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-tag-link--default"
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      }
+    },
+    "Tag group": {
+      "url": "/components/tags#tag-group",
+      "designLink": "https://ibm.box.com/s/t2njzzny00mgy67cxj0r420nacvpvc83",
+      "description": "Tag link enables a tag to be clickable and navigate users to related content.",
+      "storybook": {
+        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-tag-group",
+        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-tag-group"
       },
       "webcomponents": {
         "stable": true,
