@@ -5,10 +5,15 @@ description: The new Figma design kit contains type styles, color tokens, and co
 
 <PageDescription>
 
-The Carbon for IBM.com team has developed a Figma design kit that contains
-type styles, color tokens, and components.
+The Carbon for IBM.com team has developed a Figma design kit that contains components and grid styles.
 
 </PageDescription>
+
+<InlineNotification>
+
+**Beta White theme is now available!** The _Carbon for IBM.com (White Theme)_ is now available to internal users. The library is marked as BETA as we continue to add new components and update the library. As we make updates, some components may receive breaking changes due to these enhancements. The previous library, 🚫 _Carbon for IBM.com (White theme) Beta [To be deprecated]_, will be deprecated one month after the release of the new Beta library. You may need to switch instances of components to the new library to stay current with updates.
+
+</InlineNotification>
 
 <AnchorLinks>
 
@@ -23,9 +28,7 @@ type styles, color tokens, and components.
 <Row>
 <Column  colLg={8} colMd={8} colSm={4}>
 
-We have a new Figma kit for delivering Carbon for IBM.com components. The kit contains libraries for each theme and includes color tokens, expressive and productive type styles, components, and grid templates.
-
-We’ll be adding more components over time, and Figma will notify you when library updates are available.
+We have a new Figma kit for delivering Carbon for IBM.com components. The kit contains libraries for each theme and includes components and grid templates. We’ll be adding more components over time, and Figma will notify you when library updates are available.
 
 Once you are in the IBM organization, you will automatically have access to the Carbon for IBM.com Figma libraries.
 
@@ -37,7 +40,7 @@ Unlike Sketch, Figma does not need time to "install" or "download" a library fil
 
 1. In the menu, click the Figma dropdown then select `Libraries`. Alternatively, click the `Asset` panel, and then the open book, or `Library` icon.
 2. In the Libraries list, search for `Carbon for IBM.com`.
-3. Select the theme to enable.
+3. Select the theme to enable. Note that any themes marked with 🚫 and have _[To be deprecated]_ in the name will eventually be removed. You may need to swap instances with new libraries as they are released.
 
 </Column>
 <Column colMd={2} colLg={3} offsetMd={1} offsetLg={1}>
@@ -68,7 +71,7 @@ If you are new to Figma, they offer <a href="https://www.youtube.com/c/Figmadesi
 
 ## Using the Figma kit
 
-Our Figma resources are set up to help you design using key IBM assets. Learn more about using the [2x Grid](#2x-grid), [Components](#components), [Text styles](#text-styles), and [Color styles](#color-styles) in Figma.
+Our Figma resources are set up to help you design using key IBM assets. Learn more about using the [2x Grid](#2x-grid) and [Components](#components) in Figma below.
 
 ### 2x Grid
 
@@ -132,55 +135,23 @@ Some components contain variants that allow you to change properties such as bre
 
 Some components will contain additional guidance and links to documentation. When selecting a component, check the `Design` panel for a description and link to any relevant documentation.
 
-### Text styles
-
-Carbon for IBM.com text styles are available in each library.
-
-#### To apply text styles to text:
-
-1. Select the text to change.
-2. In the `Design panel → Text`, click `Style`.
-3. Select the text style to apply. Hover for additional usage guidance.
-
-Text styles within components are carefully considered. It’s important that you do not detach the symbol to change default styles.
-
-<Column  colLg={12} colMd={8} colSm={4}>
-
-![Text styles in Figma](../../images/get-started/Designing_Text_Styles_Figma.jpg)
-
-<Caption>
-  In the Design panel, open the text styles overlay in the “Text” section to
-  view and apply text styles
-</Caption>
-
-</Column>
-
-### Color styles
-
-Carbon for IBM.com color styles are available in each library.
-
-#### To apply color styles to an element:
-
-1. Select the text to change.
-2. In the `Design panel → Fill`, click `Style`.
-3. Select the text style to apply. Hover for additional usage guidance.
-
-<Column  colLg={12} colMd={8} colSm={4}>
-
-![Color styles in Figma](../../images/get-started/Designing_Color_Styles_Figma.jpg)
-
-<Caption>
-  In the Design panel, open the color styles overlay in the “Fill” section to
-  view and apply color styles
-</Caption>
-
-</Column>
-
 ### Other Figma resources
 
-#### Bring in colors
+#### Using Carbon text styles
 
-For full IBM brand palette colors, open the `Libraries` overlay in Figma, select or search for “Color Styles - IBM Design Language”.
+The Carbon for IBM.com libraries use the type tokens from the `(v10) Text Styles - IBM Design Language` library. If you have the Text styles library active, you can apply those type tokens to your designs. To apply text styles to text:
+
+1. Select the text element to change.
+2. In the `Design panel → Text`, click `Style`.
+3. Select the text style to apply from the `(v10) Text Styles - IBM Design Language` library. Hover for additional usage guidance.
+
+#### Using Carbon color tokens
+
+The Carbon for IBM.com libraries use the color tokens from the [v10 Carbon core libraries](https://carbondesignsystem.com/designing/kits/figma). The color tokens used from the Carbon core libraries should match the Carbon for IBM.com library (ex. the Carbon core White theme color tokens should be used for Carbon for IBM.com White theme components). If you have one or more of the Carbon core libraries active, you can apply those type tokens to your designs. To apply color tokens to an element:
+
+1. Select the element to change.
+2. In the `Design panel → Fill`, click `Style`.
+3. Select the text style to apply. Hover for additional usage guidance.
 
 #### Bring in icons and pictograms
 

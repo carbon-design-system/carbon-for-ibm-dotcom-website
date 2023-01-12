@@ -3,8 +3,7 @@ title: 1. Installing Carbon for IBM.com
 description:
   Welcome to Carbon for IBM.com! This tutorial will guide you in creating an application with Carbon for IBM.com Web
   Components.
-tabs:
-  ['Overview', 'Step 1', 'Step 2', 'Step 3', 'Step 4', 'Step 5', 'Wrapping up']
+tabs: ['Overview', 'Step 1', 'Step 2', 'Step 3', 'Step 4', 'Step 5']
 ---
 
 import Preview from 'components/Preview';
@@ -423,7 +422,7 @@ To wrap up this tutorial step, let's add the required meta tags for an IBM.com p
 
 <link rel="icon" href="//www.ibm.com/favicon.ico" />
 
-<meta name="dcterms.date" content="YYYY-MM-DD" /> // replace with today's date
+<meta name="dcterms.date" content="YYYY-MM-DD" /> <!--  replace with today's date -->
 <meta name="dcterms.rights" content="© Copyright IBM Corp. 2021" />
 <meta name="geo.country" content="US" />
 <meta name="robots" content="index,follow" />
@@ -491,6 +490,12 @@ instructions to
 repository and needs to be updated. This can happen if the tutorial was updated after you began working on it. To fix,
 run `git pull upstream web-components-step-1` to merge the changes into your branch, then you can try pushing again. Or,
 you can [manually merge](https://help.github.com/en/articles/syncing-a-fork) in the upstream changes.
+
+</InlineNotification>
+
+<InlineNotification>
+
+**Note:** If you check Git Actions against the recent commit on your forked instance and notice that the "Build GH Pages" action is failing, this is expected if you have only copied over the `main` branch when forking your repository. This should not affect the status checks when you open your pull request, so feel free to ignore.
 
 </InlineNotification>
 

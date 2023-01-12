@@ -13,6 +13,7 @@ Carbon for IBM.com uses uniform components, elements, and spacing to encourage c
 
 <AnchorLink>Designing with space</AnchorLink>
 <AnchorLink>Spacing token and scale</AnchorLink>
+<AnchorLink>Component spacing patterns</AnchorLink>
 <AnchorLink>FAQ</AnchorLink>
 <AnchorLink>Support</AnchorLink>
 
@@ -20,9 +21,9 @@ Carbon for IBM.com uses uniform components, elements, and spacing to encourage c
 
 ## Designing with space
 
-Every part of a UI should be intentional, including the empty space, also known as white space, between elements. The amount of space between items creates relationships and hierarchy. You can learn more about white space and how space can help you create relationships and hierarchy on the [Carbon spacing guideline page](https://www.carbondesignsystem.com/guidelines/spacing/overview/#designing-with-space).
+Every part of a UI should be intentional, including the empty space, also known as white space, between elements. The amount of space between items creates relationships and hierarchy. You can learn more about white space and how space can help you create relationships and hierarchy on the [Carbon spacing guidelines](https://www.carbondesignsystem.com/guidelines/spacing/overview/#designing-with-space) page.
 
-When designing for IBM.com, the spacing scale and type tokens are used to ensure the information is well organized with consistency.
+When designing for IBM.com, the spacing scale and type tokens are used to ensure the information is well organized and consistent. See the [Type pairings guidance](../expressive-styling/type-pairing) to learn more about the type hierarchy of the Carbon for IBM.com components.
 
 <br />
 
@@ -101,11 +102,43 @@ designs. This scale is applied and used within all Carbon components.
 
 <br />
 
+## Content component spacing patterns
+
+Component vertical spacing is determined by the component type. Actual vertical spacing may differ by component - check the component's design specs.
+
+### Spacing for Content section
+
+| Breakpoint    | `max`             | `xlg`             | `lg`              | `md`              | `sm`              |
+| ------------- | ----------------- | ----------------- | ----------------- | ----------------- | ----------------- |
+| Margin top    | `spacing-09` 48px | `spacing-09` 48px | `spacing-09` 48px | `spacing-09` 48px | `spacing-09` 48px |
+| Margin bottom | `spacing-10` 64px | `spacing-10` 64px | `spacing-10` 64px | `spacing-10` 64px | `spacing-10` 64px |
+
+### Spacing for Content block
+
+| Breakpoint     | `max`              | `xlg`              | `lg`               | `md`              | `sm`              |
+| -------------- | ------------------ | ------------------ | ------------------ | ----------------- | ----------------- |
+| Padding top    | `spacing-10` 64px  | `spacing-10` 64px  | `spacing-10` 64px  | `spacing-07` 32px | `spacing-07` 32px |
+| Padding bottom | `spacing-13` 160px | `spacing-13` 160px | `spacing-13` 160px | `spacing-12` 96px | `spacing-10` 64px |
+
+### Spacing for Content group
+
+| Breakpoint    | `max`             | `xlg`             | `lg`              | `md`              | `sm`              |
+| ------------- | ----------------- | ----------------- | ----------------- | ----------------- | ----------------- |
+| Margin top    | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px |
+| Margin bottom | `spacing-09` 48px | `spacing-09` 48px | `spacing-09` 48px | `spacing-09` 48px | `spacing-07` 32px |
+
+### Spacing for Content item
+
+| Breakpoint     | `max`             | `xlg`             | `lg`              | `md`              | `sm`              |
+| -------------- | ----------------- | ----------------- | ----------------- | ----------------- | ----------------- |
+| Padding top    | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px |
+| Padding bottom | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px |
+
 ## FAQ
 
 #### Are there any differences when designing with expressive type sets vs. productive type sets?
 
-Yes, please see the [Type pairing guideline](https://www.ibm.com/standards/carbon/guidelines/type-pairing) to learn more.
+Yes, please see the [Expressive styling](../expressive-styling/overview) to learn more about styling strategies and type pairings.
 
 #### Are there any other spacing options besides the one listed in the Spacing scale and token section?
 
@@ -127,11 +160,11 @@ applying it to fit the 5% grid margins.
 
 No, the tokens themselves do not change values based on the screen size.
 However, it is acceptable at page breakpoints to jump a step(s) on the spacing
-scale to fit spacing needs (i.e., at 1440 px `padding-right: $spacing-05` but at
-breakpoint 768px `padding-right: $spacing-03`).
+scale to fit spacing needs (i.e., at 1312px `padding-right: $spacing-05` but at
+breakpoint 672px `padding-right: $spacing-03`).
 
 <br />
 
 ## Support
 
-If you need additional guidance on designing with space, please reach out to the Digital Design System team via the [#carbon-for-ibm-dotcom slack channel](https://cognitive-app.slack.com/archives/C2PLX8GQ6).
+If you need additional guidance on designing with space, please reach out to the Carbon for IBM.com team via the [#carbon-for-ibm-dotcom slack channel](https://cognitive-app.slack.com/archives/C2PLX8GQ6).
