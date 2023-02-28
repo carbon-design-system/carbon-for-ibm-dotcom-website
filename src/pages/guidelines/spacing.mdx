@@ -129,10 +129,10 @@ Component vertical spacing is determined by the component type. Actual vertical 
 
 ### Spacing for Content item
 
-| Breakpoint     | `max`             | `xlg`             | `lg`              | `md`              | `sm`              |
-| -------------- | ----------------- | ----------------- | ----------------- | ----------------- | ----------------- |
-| Padding top    | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px |
-| Padding bottom | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px |
+| Breakpoint    | `max`             | `xlg`             | `lg`              | `md`              | `sm`              |
+| ------------- | ----------------- | ----------------- | ----------------- | ----------------- | ----------------- |
+| Margin top    | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px |
+| Margin bottom | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px |
 
 ## FAQ
 
@@ -162,6 +162,10 @@ No, the tokens themselves do not change values based on the screen size.
 However, it is acceptable at page breakpoints to jump a step(s) on the spacing
 scale to fit spacing needs (i.e., at 1312px `padding-right: $spacing-05` but at
 breakpoint 672px `padding-right: $spacing-03`).
+
+#### What is the difference between margin and padding?
+
+Padding represents the amount of inner space an element has, whereas margin represents negative space surrounding the component. Note that when two components are nested together, padding values will stack one on top of the other. Margin values will instead merge with the highest spacing value retained. Learn more about the CSS Box Model [here](https://www.w3schools.com/css/css_boxmodel.asp).
 
 <br />
 
