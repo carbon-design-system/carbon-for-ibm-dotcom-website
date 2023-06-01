@@ -37,11 +37,6 @@
       path: /contributing/components
     - title: Patterns
       path: /contributing/patterns
-
-- title: What's Happening
-  pages:
-    - title: What's Happening
-      path: /whats-happening/whats-happening-v2
   hasDivider: true
 
 - title: Guidelines
