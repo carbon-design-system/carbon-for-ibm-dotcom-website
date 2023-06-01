@@ -38,10 +38,9 @@
     - title: Patterns
       path: /contributing/patterns
 
-- title: What's happening
+- title: What's Happening
   pages:
-    - title: v2 announcement
-      path: /whats-happening/v2-announcement
+    - path: /whats-happening
   hasDivider: true
 
 - title: Guidelines
