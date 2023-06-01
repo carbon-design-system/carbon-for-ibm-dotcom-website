@@ -40,7 +40,8 @@
 
 - title: What's happening
   pages:
-    - path: /whats-happening
+    - title: v2 announcement
+      path: /whats-happening/v2-announcement
   hasDivider: true
 
 - title: Guidelines
