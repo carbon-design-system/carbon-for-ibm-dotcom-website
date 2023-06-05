@@ -4,6 +4,11 @@
       path: /about-carbon-for-ibm.com/about
     - title: Adopting the system
       path: /about-carbon-for-ibm.com/adopting
+
+- title: What’s happening
+  pages:
+    - path: /whats-happening
+
 - title: Designing
   pages:
     - title: Get started
@@ -37,10 +42,6 @@
       path: /contributing/components
     - title: Patterns
       path: /contributing/patterns
-
-- title: What’s Happening
-  pages:
-    - path: /whats-happening
   hasDivider: true
 
 - title: Guidelines
