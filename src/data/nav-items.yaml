@@ -4,6 +4,11 @@
       path: /about-carbon-for-ibm.com/about
     - title: Adopting the system
       path: /about-carbon-for-ibm.com/adopting
+
+- title: What’s happening
+  pages:
+    - path: /whats-happening
+
 - title: Designing
   pages:
     - title: Get started
@@ -12,6 +17,7 @@
       path: /designing/sketch-kit
     - title: Figma kit
       path: /designing/figma-kit
+
 - title: Developing
   pages:
     - title: Get started
