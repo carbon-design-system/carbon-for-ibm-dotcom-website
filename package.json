@@ -2,14 +2,17 @@
   "name": "carbon-for-ibm-dotcom-website",
   "version": "1.0.0",
   "license": "Apache-2.0",
+  "engines": {
+    "node": ">=18.x"
+  },
   "scripts": {
     "clean": "gatsby clean",
     "clean:dev-pages": "rimraf src/pages/developing/building-for-ibm-dotcom/index.mdx src/pages/developing/carbon-cdn-style-helpers/index.mdx",
-    "build": "gatsby build --prefix-paths",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider gatsby build --prefix-paths",
     "build:analyze": "ANALYZE=true yarn build",
-    "build:clean": "yarn clean && gatsby build --prefix-paths",
+    "build:clean": "yarn clean && yarn build --prefix-paths",
     "build:wiki": "node node_modules/wiki-helpers/index.js rootPath=./wiki buildPath=./wiki-build flattenDir=true",
-    "dev": "gatsby develop -H 0.0.0.0",
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider gatsby develop -H 0.0.0.0",
     "dev:clean": "yarn clean && yarn dev",
     "format": "prettier --write 'src/**/*.{css,scss,js,json,html,yaml,md,mdx}'",
     "lint": "eslint .",
@@ -25,7 +28,6 @@
   },
   "dependencies": {
     "@carbon/icons-react": "^10.27.0",
-    "beacon-for-ibm-dotcom": "^0.2.7",
     "carbon-components": "^10.46.0",
     "carbon-components-react": "^7.46.0",
     "dotenv": "^10.0.0",
