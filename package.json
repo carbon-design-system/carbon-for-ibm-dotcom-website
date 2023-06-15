@@ -21,8 +21,8 @@
     "postpublish": "pinst --enable",
     "prepublishOnly": "pinst --disable",
     "serve": "gatsby serve",
-    "test:e2e:local": "start-server-and-test 'yarn test:e2e:run' 8080 'cypress run --config video=false --config-file tests/e2e/cypress.json'",
-    "test:e2e:local:with-video": "start-server-and-test 'yarn test:e2e:run' 8080 'cypress run --config-file tests/e2e/cypress.json'",
+    "test:e2e:local": "npx -y start-server-and-test 'yarn test:e2e:run' 8080 'cypress run --config video=false --config-file tests/e2e/cypress.json'",
+    "test:e2e:local:with-video": "npx -y start-server-and-test 'yarn test:e2e:run' 8080 'cypress run --config-file tests/e2e/cypress.json'",
     "test:e2e:prod": "cypress run --config video=false --config-file tests/e2e/cypress-prod.json",
     "test:e2e:run": "npx -y http-server -c-1 public --silent"
   },
@@ -55,7 +55,6 @@
     "eslint-plugin-react": "^7.24.0",
     "husky": "^7.0.2",
     "lint-staged": "^11.1.2",
-    "prettier": "^2.3.2",
-    "start-server-and-test": "^1.14.0"
+    "prettier": "^2.3.2"
   }
 }
