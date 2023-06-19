@@ -2,14 +2,17 @@
   "name": "carbon-for-ibm-dotcom-website",
   "version": "1.0.0",
   "license": "Apache-2.0",
+  "engines": {
+    "node": ">=18.x"
+  },
   "scripts": {
     "clean": "gatsby clean",
     "clean:dev-pages": "rimraf src/pages/developing/building-for-ibm-dotcom/index.mdx src/pages/developing/carbon-cdn-style-helpers/index.mdx",
-    "build": "gatsby build --prefix-paths",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider gatsby build --prefix-paths",
     "build:analyze": "ANALYZE=true yarn build",
-    "build:clean": "yarn clean && gatsby build --prefix-paths",
+    "build:clean": "yarn clean && yarn build --prefix-paths",
     "build:wiki": "node node_modules/wiki-helpers/index.js rootPath=./wiki buildPath=./wiki-build flattenDir=true",
-    "dev": "gatsby develop -H 0.0.0.0",
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider gatsby develop -H 0.0.0.0",
     "dev:clean": "yarn clean && yarn dev",
     "format": "prettier --write 'src/**/*.{css,scss,js,json,html,yaml,md,mdx}'",
     "lint": "eslint .",
@@ -18,14 +21,13 @@
     "postpublish": "pinst --enable",
     "prepublishOnly": "pinst --disable",
     "serve": "gatsby serve",
-    "test:e2e:local": "start-server-and-test 'yarn test:e2e:run' 8080 'cypress run --config video=false --config-file tests/e2e/cypress.json'",
-    "test:e2e:local:with-video": "start-server-and-test 'yarn test:e2e:run' 8080 'cypress run --config-file tests/e2e/cypress.json'",
+    "test:e2e:local": "npx -y start-server-and-test 'yarn test:e2e:run' 8080 'cypress run --config video=false --config-file tests/e2e/cypress.json'",
+    "test:e2e:local:with-video": "npx -y start-server-and-test 'yarn test:e2e:run' 8080 'cypress run --config-file tests/e2e/cypress.json'",
     "test:e2e:prod": "cypress run --config video=false --config-file tests/e2e/cypress-prod.json",
-    "test:e2e:run": "http-server -c-1 public --silent"
+    "test:e2e:run": "npx -y http-server -c-1 public --silent"
   },
   "dependencies": {
     "@carbon/icons-react": "^10.27.0",
-    "beacon-for-ibm-dotcom": "^0.2.7",
     "carbon-components": "^10.46.0",
     "carbon-components-react": "^7.46.0",
     "dotenv": "^10.0.0",
@@ -51,10 +53,8 @@
     "eslint-plugin-import": "^2.24.0",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.24.0",
-    "http-server": "^14.1.0",
     "husky": "^7.0.2",
     "lint-staged": "^11.1.2",
-    "prettier": "^2.3.2",
-    "start-server-and-test": "^1.14.0"
+    "prettier": "^2.3.2"
   }
 }
