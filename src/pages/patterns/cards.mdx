@@ -57,17 +57,17 @@ Examples of cards used as a call-to-action:
 - Use to progress users to associated content and resources
 - Use to direct readers to other web pages that directly relate to the topic at
   hand
-- Use sparingly, to enhance learning of use cases only
+- Use sparingly so that multiple cards are not competing for the user's attention
 
 ### When not to use call-to-action cards
 
-- Do not use if the desination does not have immediately relevant information
+- Do not use if the destination lacks immediately relevant information
 - Do not use if the next section on the page is a group of cards
 - Do not use as a global replacement or alternative for buttons
 
 ## Navigational
 
-A group of cards can be used to help users navigate to various pieces of
+A group of cards can be used to present users with a visual collection of related pathways for the user to explore. Users can then navigate to any piece of
 information about the subject matter they are interested in learning about or
 the offering they intend to purchase.
 
@@ -85,8 +85,8 @@ Examples of card-based designs that serve navigational intent:
 ### When to use navigational cards
 
 - Use to present a range of potential pathways to users
-- Use to present content in a scannable and accessible way
-- Use as an interactive browsing device
+- Use to present content in an easily scannable and accessible way
+- Use as an interactive browsing collection
 
 ### When not to use navigational cards
 
@@ -96,8 +96,7 @@ Examples of card-based designs that serve navigational intent:
 
 ## Featured content
 
-Cards can be used to surface key associated content, showcase significant
-supporting material, or aesthetically highlight an important next step.
+[Feature card](../components/card#feature-card) can be used at the end of related content to provide a stronger call to action for users to navigate to an important next step. If the content calls for an even more prominent but considered CTA, consider [Feature section](../components/feature-section).
 
 Examples of cards that can be used to call attention to features:
 
@@ -110,22 +109,22 @@ Examples of cards that can be used to call attention to features:
   examples that address the user’s need.
 </Caption>
 
-### When to use featured content cards
+### When to use Feature cards
 
 - Use to call attention to important content
 - Use when linking to a single destination
 - Use to feature compelling imagery and messaging
 
-### When not to use featured content cards
+### When not to use Feature cards
 
-- Do not use if the information is not vital to the main content or user need
+- Do not use if the information is less relevant to the main content or user need
 - Do not use if you want the user to stay on the current page
 - Do not use as a decorative element
 
 ## Informational
 
 Cards are often used to organize a group of related items into short, digestible
-content pieces.
+content pieces. Keep in mind that using groups of cards repeatedly in a single page can make the content feel less engaging and harder to recall. To avoid overusing groups of cards in your content, consider displaying a group of [content items](../components/content-item) to vary the design of a page.
 
 Examples of cards that can be used to inform users:
 
@@ -142,20 +141,21 @@ Examples of cards that can be used to inform users:
 
 - Use to give equal hierarchy to all content items
 - Use to link users to important features, services or topics
-- Use to group multiple text-based content items together
+- Use to group multiple pieces of content together
 
 ### When not to use informational cards
 
 - Do not use to group unrelated content or resources
 - Do not use to display lists of features
 - Do not use to accommodate long-form reading
+- Do not over use on a single page if the content does not call for it
 
 ## Resources
 
 Cards can be used to link to diverse resources such as learning material or
 media that support the main content or offering. Grouping resources together
-using cards provides a preview to each resource and allows a user to choose
-their own journey based on their needs.
+using cards provides a preview of each resource and allows a user to choose
+their own path based on their needs.
 
 Examples of cards that can be used to showcase diverse resources:
 
@@ -189,16 +189,21 @@ on a card.
 
 - Use the `arrow—right` icon to indicate moving to a different page
 - Use the `arrow—down` icon to indicate jumping to a section of the same page
-- Use the `launch` icon to indicate opening a separate application or website
+- Use the `launch` icon to indicate opening a separate website or application
 - Use the `download` icon to indicate a file download
 - Use the `video` icon to indicate launching a video player
 
 <Title>Icon position</Title>
 
-In general, the usual content flow which places the CTA as the last element
-applies to cards too.
+In general, icons appear at the bottom of cards to visually support the card's function and book-end the content inside the card.
 
 1. The default position: lower-left corner
+
+<InlineNotification>
+
+In the Carbon for IBM.com v2 package, the default position of the icon will be the lower-right corner of the card.
+
+</InlineNotification>
 
 <Row>
 <Column colMd={8} colLg={8}>
@@ -219,8 +224,7 @@ applies to cards too.
 </Column>
 </Row>
 
-3. For large cards used either in a group of small number or alone, depending on
-   the design, the icon can be placed on in the lower-right corner.
+3. In larger cards, such as Feature card, the icon can be placed on in the lower-right corner.
 
 <Row>
 <Column colMd={8} colLg={8}>
@@ -241,7 +245,7 @@ card.
 
 Card icons act as the primary indicator or call-to-action and therefore should
 use the color token `$interactive-04` when possible. In some cases, white arrows
-may be used on gray90 or gray100 cards.
+may be used on cards with a gray90 or gray100 theme.
 
 When grouping multiple cards together, all icons should use the same color
 token.
@@ -252,8 +256,8 @@ Do not use icons as a way to express brand colors or gradients.
 
 <Title>Components</Title>
 
-- [Card](../components/card)
-- [Card link](../components/card-link)
+- [Card](../components/cards)
+- [Card link](../components/cards#card-link)
 - [Card section](../components/card-section)
 - [Content group cards](../components/content-group-cards)
 - [Feature card](../components/cards#feature-card)
