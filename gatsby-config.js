@@ -9,7 +9,7 @@ module.exports = {
     description:
       'This is the Carbon for IBM.com website, which includes documentation and guidelines around design and development for IBM.com',
     keywords: 'gatsby,theme,carbon,ibm',
-    homepageTheme: 'dark',
+    homepageTheme: 'white',
     interiorTheme: 'g10',
   },
   plugins: [
