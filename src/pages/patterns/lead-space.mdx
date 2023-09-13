@@ -1,13 +1,11 @@
 ---
 title: Lead space
-description: A Lead space is positioned at the top of a web page and serves as the first site of viewer engagement. Its primary purpose is to orient the user when they land on a page, inform them of the content, and guide them to the first key piece of content on the page, whether it’s a crucial piece of information or a call-to-action.
+description: The lead space is positioned at the top of a web page and serves as the first site of viewer engagement. Its primary purpose is to orient the user when they land on a page, inform them of the content, and guide them to the first key piece of content on the page, whether it’s a crucial piece of information or a call-to-action.
 ---
 
 <PageDescription>
 
-A Lead space is positioned at the top of a web page and serves as the first site of user engagement. Its primary purpose is to orient the user when they land on a page, inform them of the content, and guide them to the first key piece of content on the page, whether it's a crucial piece of information or a call-to-action.
-
-When designed and implemented effectively, the Lead space can be used to engage visitors immediately in one of the most important moments in the user’s journey through a complex web environment. It is the first section below the masthead and can include a stylized background, headline, supporting message and call to action to accommodate user needs.
+The lead space is positioned at the top of a web page and serves as the first site of user engagement. Its primary purpose is to orient the user when they land on a page, inform them of the content, and guide them to the first key piece of content on the page, whether it's a crucial piece of information or a call-to-action.
 
 </PageDescription>
 
@@ -23,6 +21,7 @@ When designed and implemented effectively, the Lead space can be used to engage 
 
 <AnchorLinks>
 
+<AnchorLink>Overview</AnchorLink>
 <AnchorLink>Anatomy</AnchorLink>
 <AnchorLink>Layout</AnchorLink>
 <AnchorLink>Height standards</AnchorLink>
@@ -34,9 +33,19 @@ When designed and implemented effectively, the Lead space can be used to engage 
 
 </AnchorLinks>
 
+<InlineNotification>
+
+**Note that button group has been updated:** the primary button will appear first, followed by the tertiary button. All example images with two buttons are outdated, please reference the [Lead space storybook](https://www.ibm.com/standards/carbon/web-components/?path=/story/components-lead-space--super) for live examples.
+
+</InlineNotification>
+
+## Overview
+
+When designed and implemented effectively, the lead space can be used to engage visitors immediately in one of the most important moments in the user’s journey through a complex web environment. It is the first section below the [masthead](/components/masthead) and can include a background image or video, headline, supporting message and call to action to accommodate user needs.
+
 ## Anatomy
 
-Here are some of the elements that are commonly used and currently available. As we continue to build and offer additional options, we will share new designs on this page.
+Here are some of the elements that are commonly used and currently available.
 
 ![Anatomy of the lead space](../../images/pattern/leadspace/leadspace_patterns_anatomy_dark_demo.jpg)
 
@@ -44,22 +53,22 @@ Here are some of the elements that are commonly used and currently available. As
 
 ### Best practices
 
-Here are some best practices when it comes to layout in Lead space:
+Here are some best practices for designing an effective layout for lead space:
 
-- Headline should orient the user on what the page is about.
+- The headline should orient the user on what the page is about.
 - The copy below the headline should have a clear relationship to the headline.
 - Buttons are positioned after the headline and the copy.
 - Image should be relevent to the content of the page. For more details, see the [Imagery section](#imagery).
 
-For actual implementations, please see the component pages linked [below](#related-components-and-patterns).
+For more information on the different lead space options, please see [Related components and patterns](#related-components-and-patterns).
 
 ### Content alignment
 
-On IBM.com pages, there are two layout options&mdash;left-aligned and center-aligned. Follow these guidelines to select the right layout for your page.
+On IBM.com pages, there are two lead space layout options&mdash;left-aligned and center-aligned. Follow these guidelines to select the right layout for your page.
 
 1. Align to the primary content of the given page.
 
-2. When there is a background image in the Lead space, using left-aligned layout is recommended regardless of the primary content alignment.
+2. When there is a background image in the Lead space, using the left-aligned lead space is recommended regardless of the primary content alignment.
 
 <Row>
 <Column colMd={4} colLg={4} >
@@ -87,8 +96,8 @@ The size of a left-align lead space height usually reflects the intent of the pa
 
 | Name   | Height | Recommended usage                                                                      |
 | :----- | :----- | :------------------------------------------------------------------------------------- |
-| Super  | 640px  | Brand or immersive experience centric pages                                            |
-| Tall   | 560px  | High level and messaging centric pages                                                 |
+| Super  | 640px  | Brand or immersive experience pages                                                    |
+| Tall   | 560px  | High level and messaging pages                                                         |
 | Medium | 480px  | Functional or navigational pages                                                       |
 | Short  | 320px  | Minimal and utilitarian. This lead space does not allow a button group and short copy. |
 
@@ -98,10 +107,10 @@ Lead space centered does not have fixed heights. It is ideal for objective state
 
 ## Content
 
-- Copy in the Lead space creates an immediate impact while informing web visitors about the page or service quickly and effectively.
+- Copy in the lead space creates an immediate impact while informing web visitors about the page or service quickly and effectively.
 - Copy should be brief and relevant. This will help to orient and inform the user as quickly as possible.
-- Don’t rely on the Lead space to deliver the majority of the messaging and information about your topic or offering. The rest of the page is for delivering your message.
-- A Lead space is not required for all scenarios; follow the guidance for the page type you are creating.
+- Don’t rely on the lead space to deliver the majority of the messaging and information about your topic or offering. The rest of the page is for delivering your message.
+- A lead space is not required for all scenarios; follow the guidance for the page type you are creating.
 
 ## Imagery
 
@@ -111,19 +120,18 @@ Images are used to enhance the content or introduce a supporting narrative. Ther
 - Landscape photography
 - Illustration
 
-Usage: Images should never impact the readability or legibility of the Lead space copy.
+Usage: Images should never impact the readability or legibility of the lead space copy.
 
-- Where possible, images should blend into the background to avoid hard lines or optical divisions across the Lead space.
-- Consider using a gradient overlay to darken the left area of a background image, if it impacts the text.
-- If using a full-width image in the background, the image should be larger in size than the Lead space size, to allow for browser resizing. If you choose this option, include additional padding around the image.
-- Only use one image per Lead space.
-- Do not use videos.
+- Where possible, images should blend into the background to avoid hard lines or optical divisions across the lead space.
+- If the background would impact the readibility of the headline or body copy, consider using a gradient overlay to create the proper contrast for the left area of a lead space.
+- If using a full-width image in the background, the image should be larger in size than the lead space size, to allow for browser resizing. If you choose this option, include additional padding around the image.
+- Only use one image per lead space.
 
 <Row>
 <Column colMd={4} colLg={6} >
   <DoDontExample type="do" caption="Use a gradient overlay to ensure maximum readability of text.">
 
-![Use a gradient overlay to ensure maximum readability of text.](../../images/pattern/leadspace/Leadspace_UsageGuidance_Imagery_Do.jpg)
+![Use a gradient overlay when necessary to ensure maximum readability of text.](../../images/pattern/leadspace/Leadspace_UsageGuidance_Imagery_Do.jpg)
 
   </DoDontExample>
 </Column>  
@@ -143,7 +151,7 @@ Usage: Images should never impact the readability or legibility of the Lead spac
 
 ## Call to action
 
-The maximum number of CTAs per Lead space is two. Note, however, that it is not required to use a call to action in a Lead space.
+The maximum number of CTAs per lead space is two. Note, however, that it is not required to use a call to action in a lead space.
 
 #### How to use CTA copy
 
@@ -182,33 +190,16 @@ You may choose to use a single CTA to encourage users to do any of the following
 
 Usage: Use a primary button only. Icon is optional.
 
-Caution: Using a CTA in your Lead space will direct your users to a new section, modal or page. 
-If you do not want users to leave the page before discovering information below, consider using a Lead space without any CTAs. Keep in mind that scroll depth is a valuable KPI; driving users off of your page as soon as they land can be counterproductive.
+Caution: Using a CTA in your lead space will direct your users to a new section, modal or page. 
+If you do not want users to leave the page before discovering information below, consider using a lead space without any CTAs. Keep in mind that scroll depth is a valuable KPI; driving users off of your page as soon as they land can be counterproductive.
 
 #### Double CTA
 
-The Double CTA Lead space provides two options for users to continue their journey.
+The Double CTA lead space provides two options for users to continue their journey.
 
 Usage: Use a primary and tertiary style button. Icons are optional.
 
-Recommendation: Research has shown that there is a benefit to placing the primary button on the right&mdash;while the placement does not impact click-through rate, users remember both buttons better. Our default positioning recommendation is placing the primary button on the right. If you are to deviate from this, please validate that there is an improvement and let us know.
-
-<Row>
-<Column colMd={4} colLg={6} >
-  <DoDontExample type="do" caption="Always place primary CTA on the right or at the bottom when stacking.">
-
-![Always place primary CTA on the right or at the bottom when stacking.](../../images/pattern/leadspace/Leadspace_UsageGuidance_DoubleCTA_Do1.jpg)
-
-  </DoDontExample>
-</Column>  
-<Column colMd={4} colLg={6}>
-  <DoDontExample caption="Never place primary CTA on the left when using two buttons.">
-
-![Never place primary CTA on the left when using two buttons.](../../images/pattern/leadspace/Leadspace_UsageGuidance_DoubleCTA_Don't1.jpg)
-
-  </DoDontExample>
-</Column>
-</Row>
+When using a Double CTA, the primary button appears as the first button in the group. The tertiary button appears as the second button.
 
 ## Pattern in use
 
@@ -256,4 +247,3 @@ Recommendation: Research has shown that there is a benefit to placing the primar
 <Title>Patterns</Title>
 
 - [Call-to-action](../patterns/call-to-action)
-- [Cards](../patterns/cards)
