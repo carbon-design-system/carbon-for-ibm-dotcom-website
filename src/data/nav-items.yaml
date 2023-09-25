@@ -116,6 +116,8 @@
       path: /components/dotcom-shell
     - title: Expressive modal
       path: /components/expressive-modal
+    - title: Feature card
+      path: /components/feature-card
     - title: Feature section
       path: /components/feature-section
     - title: Filter panel
