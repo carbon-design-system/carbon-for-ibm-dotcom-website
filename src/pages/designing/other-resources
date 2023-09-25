@@ -1,0 +1,167 @@
+---
+title: Other resources
+description:
+  Additional resources you need to work with Carbon for IBM.com, including Figma libraries and
+  templates, color palettes, fonts, GitHub repos, and design tools.
+---
+
+<PageDescription>
+
+Additional resources you need to work with Carbon for IBM.com, including Figma libraries and
+templates, color palettes, GitHub repos, and design tools.
+
+</PageDescription>
+
+<AnchorLinks>
+  <AnchorLink>Introduction</AnchorLink>
+  <AnchorLink>Elements</AnchorLink>
+  <AnchorLink>Fonts</AnchorLink>
+  <AnchorLink>Data visualization</AnchorLink>
+  <AnchorLink>GitHub repos</AnchorLink>
+  <AnchorLink>Accessibility</AnchorLink>
+
+</AnchorLinks>
+
+## Introduction
+
+This page includes Figma kits, tools, templates, and plugins that have been
+created to help you get up and running.
+
+To use the Figma libraries you'll find here, you need a Figma license. IBMers
+can follow instructions in the
+[Design Toolbox](https://w3.ibm.com/design/toolbox/?_ga=2.66930222.1444443535.1682545160-2098201107.1682093352#/ui-design-tools/figma/README)
+to get a license. To get started with Figma, visit the
+[Design kits](/designing/kits/figma) page.
+
+## Elements
+
+<Row className="resource-card-group">
+<Column colLg={4} colMd={4} noGutterSm>
+  <ResourceCard
+    subTitle="IBM Icons"
+    href="https://www.figma.com/file/J5c0d85dSJn9JnBhSYYLmD/Icons---IBM-Design-Language?node-id=129%3A2"
+    actionIcon="launch">
+    <MdxIcon name="figma" />
+  </ResourceCard>
+</Column>
+<Column colLg={4} colMd={4} noGutterSm>
+  <ResourceCard
+    subTitle="IBM Pictograms"
+    href="https://www.figma.com/file/PkUl9UBuvA41GPpyl84NBc/Pictograms---IBM-Design-Language"
+    actionIcon="launch">
+    <MdxIcon name="figma" />
+  </ResourceCard>
+</Column>
+<Column colLg={4} colMd={4} noGutterSm>
+  <ResourceCard
+    subTitle="IBM Design Language Color Palette"
+    href="https://www.figma.com/file/Gvwx2RnAZzDKTjVuC5xOlO/Color-Styles---IBM-Design-Language?node-id=129%3A2"
+    actionIcon="launch">
+    <MdxIcon name="figma" />
+  </ResourceCard>
+</Column>
+<Column colLg={4} colMd={4} noGutterSm>
+  <ResourceCard
+    subTitle="Carbon v11 Text Styles"
+    href="https://www.figma.com/file/rK06GY6bvEfokuzrFGdtWB/(v11)-Text-Styles---IBM-Design-Language?node-id=129%3A2"
+    actionIcon="launch">
+    <MdxIcon name="figma" />
+  </ResourceCard>
+</Column>
+<Column colLg={4} colMd={4} noGutterSm>
+  <ResourceCard
+    subTitle="RGB color palettes (.ase and .clr)"
+    href="https://github.com/carbon-design-system/carbon/raw/v10/packages/colors/artifacts/IBM_Colors.zip"
+    actionIcon="download">
+
+![](/images/ase.png)
+
+
+  </ResourceCard>
+</Column>
+<Column colLg={4} colMd={4} noGutterSm>
+  <ResourceCard
+    subTitle="Color contrast checker"
+    href="https://marijohannessen.github.io/color-contrast-checker/"
+    >
+
+![](images/color-contrast-icon.png)
+
+  </ResourceCard>
+</Column>
+</Row>
+
+## Fonts
+
+Carbon uses the open-source typeface [IBM Plex](https://github.com/ibm/plex) –
+carefully designed to meet IBM's needs as a global technology company and
+reflect IBM's spirit, beliefs, and design principles.
+
+## Data visualization
+
+The Carbon Charts library includes basic and complex chart assets, along with
+usage guidance, theming guidance, palettes, and sample layouts.
+
+<Row className="resource-card-group">
+
+<Column colLg={4} colMd={4} noGutterSm>
+  <ResourceCard
+    subTitle="Carbon Charts library"
+    href="https://www.figma.com/file/tOT3OKhwLm7xObQPy3pHtc/(Alpha)-Carbon-Charts-Library?type=design&node-id=2511-2877&mode=design&t=6DRCuLLwambWGN5P-0"
+    actionIcon="launch">
+    <MdxIcon name="figma" />
+  </ResourceCard>
+</Column>
+</Row>
+
+## GitHub repos
+
+<Row className="resource-card-group">
+<Column colLg={4} colMd={4} noGutterSm>
+  <ResourceCard
+    subTitle="Carbon design kit"
+    href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom-design-kit"
+    >
+
+<MdxIcon name="github" />
+
+  </ResourceCard>
+</Column>
+<Column colLg={4} colMd={4} noGutterSm>
+  <ResourceCard
+    subTitle="IBM Design Language and Icon Kits"
+    href="https://github.com/IBM/design-kit"
+    >
+
+<MdxIcon name="github" />
+
+  </ResourceCard>
+</Column>
+</Row>
+
+## Accessibility
+
+The IBM Accessibility kit includes checklists, bite-sized guidance, and handoff
+assets to make sure your designs are accessible for implementation.
+
+<Row className="resource-card-group">
+
+<Column colLg={4} colMd={4} noGutterSm>
+  <ResourceCard
+    subTitle="IBM Accessibility kit"
+    href="https://www.figma.com/file/zJlvN4TRbslRtyjFuxIDom/IBM-Accessibility-Design-Kit?node-id=0%3A1"
+    actionIcon="launch">
+
+![Figma icon](./images/figma.svg)
+
+  </ResourceCard>
+</Column>
+<Column colLg={4} colMd={4} noGutterSm>
+  <ResourceCard
+    subTitle="Stark accessibility checker"
+    href="https://www.figma.com/community/plugin/732603254453395948/Stark"
+    actionIcon="launch">
+    <MdxIcon name="figma" />
+  </ResourceCard>
+</Column>
+</Row>
