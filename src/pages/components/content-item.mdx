@@ -15,17 +15,16 @@ import ResourceLinks from 'components/ResourceLinks';
 
 <AnchorLinks>
 
-<AnchorLink>Resources</AnchorLink>
 <AnchorLink>Overview</AnchorLink>
+<AnchorLink>Modifiers</AnchorLink>
 <AnchorLink>Behaviors</AnchorLink>
 <AnchorLink>Tips and techniques</AnchorLink>
 <AnchorLink>Content guidance</AnchorLink>
+<AnchorLink>Resources</AnchorLink>
 <AnchorLink>Related components</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
-
-<ResourceLinks name="Content item" type="layout" />
 
 ## Overview
 
@@ -44,13 +43,6 @@ inside of a Content group as a list of items of the same type.
 
 <Caption>Anatomy of Content item component</Caption>
 
-<br />
-
-1. **Heading:** A customizable heading for the Content item component.
-2. **Media (image or video):** You can add image or video inside of a Content item.
-3. **Description:** Use this option for a short description of the Content item.
-4. **CTA:** Use this as a call to action for the Content item.
-
 #### When to use
 
 Use Content item when you need to organize a group of content elements into a content unit. It can live inside of a
@@ -62,6 +54,18 @@ pages.
 Do not look to Content item as a replacement for a Content block or a Content group. Do not add it inside a Content
 section’s children container. A Content item should not live directly inside a Content section due to conflicts of
 hierarchy.
+
+## Modifiers
+
+### Orientation
+
+Vertical and horizontal. Some additions are scoped to one orientation.
+
+Some media add-ons are only available in one orientation. See below.
+
+### Media (Add-on?)
+
+Pictogram, Logo (vertical only), Image, Percentage (vertical only)
 
 ## Behaviors
 
@@ -114,6 +118,8 @@ For consistency reasons, it's important to always keep multiple related Content 
 If you need to add different types of Content items, use a Content group component for each type. It’s okay (but not
 recommended) to have a Content group with only one Content item.
 
+<ResourceLinks name="Content item" type="layout" />
+
 ## Content guidance
 
 | Element                                                    | Content type                                                                                                                       | Required | Instances | Character limit <br/>(English / translated) | Notes                                |
@@ -125,12 +131,5 @@ recommended) to have a Content group with only one Content item.
 | Image alt text                                             | Text                                                                                                                               | No       | 1         | 75 / 100                                    | Image description for accessibility. |
 
 For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
-
-## Related components
-
-| Component name                                                                                     | Description                                                                                                                                                                               |
-| -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Content item horizontal](https://www.ibm.com/standards/carbon/components/content-item-horizontal) | Content item horizontal is a Content item with link list that takes the last 12 grid columns on desktop breakpoints. It does not have the grid flexibility of the Content item component. |
-| [Pictogram item](https://www.ibm.com/standards/carbon/components/pictogram-item)                   | Pictogram item is a Content item which adds a pictogram in the first 2 columns of an 8 grid column container. The rest of the content is positions on the last 6 grid columns.            |
 
 <ComponentFooter name="Content item" type="layout" />
