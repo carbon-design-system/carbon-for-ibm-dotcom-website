@@ -23,7 +23,7 @@ import ResourceLinks from 'components/ResourceLinks';
 ## Overview
 
 Cards present content with calls to action in a concise yet engaging style. [Card](#card) is often used to navigate
-users to information-rich articles. [Card link](#card-link) is presented within the context of other content and
+users throughout IBM.com. [Card link](#card-link) is presented within the context of other content and
 provides a path to more information about the subject. [Card in card](#card-in-card) provides a rich image option, with
 an inset card providing the call to action for more information. [Feature card](#feature-card) highlights a piece of
 content on the page, and should be used sparingly.
@@ -51,26 +51,7 @@ The Card component can also be used to create other card-based components such a
 
 ![Image of Card anatomy](../../images/component/card/card-options-card-anatomy.png)
 
-</Column>
-</Row>
-
-1. **Heading:** Heading has the highest information hierarchy on a card, and should be succinct and descriptive.
-2. **Body copy:** Optional body copy can be added for additional descriptions.
-3. **Tag:** Add categories or special callouts to each card.
-4. **CTA type:** When using an icon, the default is `ArrowRight`.
-5. **Media:** Can be an image or a video.
-6. **Eyebrow:** Provides additional context for the heading in short form.
-7. **CTA link:** Can be used along with an icon to give more context.
-
-For information about required and optional elements, see the [content guidance table](#content-guidance-for-card).
-
-<Row>
-<Column colMd={8} colLg={8}>
-
-![Image of Card component variations](../../images/component/card/card-default-variations.png)
-
-<Caption>Example cards with varying content configurations</Caption>
-
+<Caption>The default card on the left, and a video card on the right.</Caption>
 </Column>
 </Row>
 
@@ -80,37 +61,36 @@ For information about required and optional elements, see the [content guidance 
 
 The card can feature a logo at the top of the card. A logo can provide quick identification of a brand and be particularly useful for company success stories or case studies. For information about content in logo cards, see the [content guidance table](#content-guidance-for-logo-card).
 
-The logo image is contained within a set aspect ratio of 2:1 and is a fixed size at all breakpoints. A logo grid template is available in the card [design specifications](https://ibm.ent.box.com/folder/95514001950?s=qqw0soczjpawvuh9j3x19fmcoqk1zsw7) file to help place the logos correctly within the image container and ensure all logos appear at an equal visual hierarchy.
+The logo is contained within a set image aspect ratio of 2:1 and the image container is a fixed size at all breakpoints. The logo inside the container will scale to fit, meaning the image will try to maximize in height or width within the image container. Additionally logos are vertically centered and pinned to the left to align with the text within the card.
+
+Logo cards can be set to the same color as the theme background or the default color.
 
 <Row>
 
-<Column colMd={4} colLg={4}>
+<Column colMd={8} colLg={8}>
 
 ![Example image: card with logo](../../images/component/card/card-modifier-logo-1.png)
 
-<Caption>Example of card with logo modifier</Caption>
-
-</Column>
-
-<Column colMd={4} colLg={4}>
-
-![Example image: card with logo and overlay of logo grid](../../images/component/card/card-modifier-logo-2.png)
-
-<Caption>Logo grid overlaying a card with logo modifier</Caption>
+<Caption>
+  Logo card set in the theme background on the left and the default color on the
+  right.
+</Caption>
 
 </Column>
 
 </Row>
 
-The logo is best displayed with a transparent background, or a background color that matches the card color can be used when necessary. See the [color usage guidance](https://www.carbondesignsystem.com/guidelines/color/usage) to set the correct color within a given theme when producing the logo images. Follow any brand guidance when using company logos and consider what color the logo will be placed on and provide an image that will be accessible for the user. See the [Logo grid tips and techniques](https://www.ibm.com/standards/carbon/components/logo-grid/#tips-and-techniques) for additional logo usage guidance.
+The logo is best displayed with a transparent background, or a background color that matches the card color can be used when necessary. Follow any brand guidance when using company logos and consider what color the logo will be placed on and provide an image that will be accessible for the user.
+
+IBM teams should utilize the centralized logo assets from the [Digital Asset Management system](https://w3.ibm.com/w3publisher/digital-asset-management).
 
 <DoDontRow>
-  <DoDont caption="Use a combination of theme and backgound that provides enough contrast between the card and the logo">
+  <DoDont caption="Not sure if we're removing Do/Do not here">
 
 ![Use themes that provide enough contrast between the card and the logo](../../images/component/card/card-modifier-logo-do.png)
 
   </DoDont>
-  <DoDont type="dont" caption="Avoid using logos on a theme that do not provide enough contrast">
+  <DoDont type="dont" caption="Not sure if we're removing Do/Do not here">
 
 ![Avoid using logos on a theme that would not provide enough contrast](../../images/component/card/card-modifier-logo-do-not.png)
 
@@ -136,10 +116,7 @@ Cards with pictograms offer two pictogram alignments: top-aligned or bottom-alig
 
 ![Image of Card component](../../images/component/card/card-pictogram.png)
 
-<Caption>
-  Left: Card with bottom-aligned pictogram. Right: Card with top-aligned
-  pictogram.
-</Caption>
+<Caption>Test caption</Caption>
 
 </Column>
 </Row>
@@ -151,9 +128,9 @@ Top-aligning the pictogram should only be used when the pictogram is strongly an
 
 #### Static
 
-By default, the entire Card is clickable with a single destination, but by adding the Static modifier you can add
-multiple links to a single card. This can be useful when you have multiple interactive elements on a single card that
-take the user to different pages. Static cards can appear with or without a border.
+Unlike other cards, static cards are non-actionable or not clickable. These cards have no stroke or border around the outside of the card to help indicate to the user that they are non-actionable.
+
+Static card can support a text link, however, we highly encourage teams to utilize the [content item](../components/content-item) component instead of static cards to ensure that page variation – we are seeing many pages filled with only cards – and ensure that users do not confuse static cards with actionable cards.
 
 <Row>
 
@@ -223,9 +200,7 @@ For more information, see the
 
 ## Card in card
 
-Card in card shares the same functionality and text content requirements of a standard card, but requires a large media
-element. Card in card is often used in a [Card group](https://www.ibm.com/standards/carbon/components/card-group) to as
-a featured card.
+Card in card features a large media element, image or video, with an inner card layered on top of the media. Card in card can be used on its own or paired with a [card group](../components/card-group) as the featured card.
 
 <Row>
 <Column colMd={8} colLg={8}>
@@ -235,11 +210,9 @@ a featured card.
 </Column>
 </Row>
 
-1. **Media:** Can be an image or a video.
-2. **Eyebrow:** Provides additional context for the heading in short form.
-3. **Heading:** Heading has the highest information hierarchy on a card, and should be succinct and descriptive.
-4. **CTA type:** When using an icon, the default is `ArrowRight`.
-5. **CTA link:** Can be used with an icon to give more context.
+### Behavior
+
+The entire media area is interactive. In the mobile breakpoint the inner card will stack below the media.
 
 For information about required and optional elements, see the
 [content guidance table](#content-guidance-for-card-in-card).
