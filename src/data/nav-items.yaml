@@ -15,6 +15,8 @@
       path: /designing
     - title: Design kit
       path: /designing/design-kit
+    - title: Other resources
+      path: /designing/other-resources
 
 - title: Developing
   pages:
