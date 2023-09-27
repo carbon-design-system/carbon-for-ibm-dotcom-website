@@ -11,101 +11,71 @@ import ResourceLinks from 'components/ResourceLinks';
 
 <AnchorLinks>
 
-<AnchorLink>Resources</AnchorLink>
 <AnchorLink>Overview</AnchorLink>
 <AnchorLink>Variations</AnchorLink>
 <AnchorLink>Content guidance</AnchorLink>
+<AnchorLink>Resources</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
 
-<ResourceLinks name="Link list" type="ui" />
-
 ## Overview
 
-The Link list displays links in a card format, with a semibold heading and the icon shown below the link text. It is
+The Link list displays links in a group format, with subtle divider lines, an optional heading and the icon shown to the right of the link text. It is
 typically used for resource links on the side of the main page content.
 
 <Row>
 <Column colMd={8} colLg={8}>
 
-![Image of Table of contents component](../../images/component/link-list/link-list-default.jpg)
+![Image of link list component](../../images/component/link-list/link-list-overview.png)
 
 </Column>
 </Row>
 
-<Title>Use case</Title>
-
-![Image of Table of contents component](../../images/component/link-list/link-list-default-use-case.jpg)
-
-<br />
-
 ## Variations
+
+### End of section
+
+This variation is similar to the default variation and can support up to 16 CTAs. It is typically used at the end of a paragraph or content section to list a number of CTAs for
+the user and will spread the links out across the grid based on the number of CTAs.
+
+![Image of link list end of section component](../../images/component/link-list/link-list-end-of-section.png)
+
+### Horizontal
+
+This variation displays links in a horizontal row with an icon. It is typically used within the main body of the page.
+
+<Row>
+<Column colMd={8} colLg={8}>
+
+![Image of link list horizontal component](../../images/component/link-list/link-list-horizontal.png)
+
+</Column>
+</Row>
 
 ### Vertical
 
-This variation displays links as a minimal, vertical list with an icon. It is typically used for resource links on the
+This variation displays a set of links in a vertical list, and each link is displayed with an icon. It is typically used for resource links on the
 side of the main page content and features options to include a semibold heading or a horizontal rule at the bottom. The
 icons can be placed on the left or right side of the text.
 
 <Row>
 <Column colMd={8} colLg={8}>
 
-![Image of Table of contents component](../../images/component/link-list/link-list-vertical.jpg)
+![Image of link list vertical component](../../images/component/link-list/link-list-vertical.png)
 
 </Column>
 </Row>
-
-<Title>Use case</Title>
-
-![Image of Table of contents component](../../images/component/link-list/link-list-vertical-use-case.jpg)
-
-<!-- Vertical with cards is not currently used in an existing pattern or component, so the section below is commented out, until an active use case surfaces. -->
-
-<!--
-### Vertical with cards
-Link list – vertical with cards combines Link list – vertical and the default Link list, stacked one on top of the other, respectively. This variation is typically used for varying resource links on the side of the main content of the page.
-
-<Row>
-<Column colMd={8} colLg={8}>
-
-![Image of Table of contents component](../../images/component/link-list/link-list-vertical-with-cards.jpg)
-
-</Column>
-</Row>
-
-<Title>Use case</Title>
-
-![Image of Table of contents component](../../images/component/link-list/link-list-vertical-with-cards-use-case.jpg)
- -->
-
-### End of section
-
-This variation displays links as a vertical list with a semibold heading, divided by a horizontal rule, where icons
-appear to the far right of the text. It is typically used at the end of a content section to list a number of CTAs for
-the user.
-
-<Row>
-<Column colMd={8} colLg={8}>
-
-![Image of Table of contents component](../../images/component/link-list/link-list-end-of-section.jpg)
-
-</Column>
-</Row>
-
-<Title>Use case</Title>
-
-![Image of Table of contents component](../../images/component/link-list/link-list-end-of-section-use-case.jpg)
-
-<br />
 
 ## Content guidance
 
-| Element                                                          | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes                                                |
-| ---------------------------------------------------------------- | ------------ | -------- | --------- | ------------------------------------------- | ---------------------------------------------------- |
-| Heading                                                          | Text         | Yes      | 1         | 30 / 45                                     | Not required for horizontal and vertical variations. |
-| [CTA](https://www.ibm.com/standards/carbon/components/cta/#text) | Component    | Yes      | 2–3       | 40 / 55                                     | Text style CTA is required.                          |
+| Element                                                          | Content type | Required | Instances     | Character limit <br/>(English / translated) | Notes                                                                            |
+| ---------------------------------------------------------------- | ------------ | -------- | ------------- | ------------------------------------------- | -------------------------------------------------------------------------------- |
+| Heading                                                          | Text         | No       | 1             | 30 / 45                                     | Not required for horizontal and vertical variations.                             |
+| [CTA](https://www.ibm.com/standards/carbon/components/cta/#text) | Component    | Yes      | 2–3; up to 16 | 40 / 55                                     | Text style CTA is required. The end of section variant can support up to 16 CTAs |
 
 For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
+
+<ResourceLinks name="Link list" type="ui" />
 
 <ComponentFooter name="Link list" type="ui" />
