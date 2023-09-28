@@ -494,33 +494,6 @@
         "notAvailable": false
       }
     },
-    "Link list section": {
-      "url": "/components/link-list-section",
-      "designLink": "https://ibm.box.com/s/mktywz4ujxo9yiiu371kgzbib93uc2po",
-      "description": "Link list section is used for multiple CTAs, with options for vertical and horizontal lists and varying CTA styling.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-link-list-section--default",
-        "react": ""
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": false,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": true,
-        "notAvailable": true
-      }
-    },
     "Link with icon": {
       "url": "/components/link-with-icon",
       "designLink": "https://ibm.box.com/s/i3jd6saoz0m851j2ohggrn452bnd51dm",
@@ -833,33 +806,6 @@
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-card-group--default",
         "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-card-group--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-card-group--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Card section images": {
-      "url": "/components/card-section#card-section-images",
-      "designLink": "https://ibm.box.com/s/u4acyo9oeqya8xidimxtidh8k8y08fza",
-      "description": "Card section images is a collection of card components with images that, together, occupy a full-width section with a left-column header.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-card-section-images--default",
-        "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-card-section-images--default"
       },
       "webcomponents": {
         "stable": true,
