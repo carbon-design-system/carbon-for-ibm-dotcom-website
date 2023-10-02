@@ -20,6 +20,12 @@ import ResourceLinks from 'components/ResourceLinks';
   <AnchorLink>Feedback</AnchorLink>
 </AnchorLinks>
 
+<InlineNotification>
+
+All cards have been updated to follow the guidance for base and clickable [tiles](https://carbondesignsystem.com/components/tile/usage/) from Carbon Design System.
+
+</InlineNotification>
+
 ## Overview
 
 Cards present content with calls to action in a concise yet engaging style. [Card](#card) is often used to navigate
@@ -30,13 +36,26 @@ content on the page, and should be used sparingly.
 
 As of Carbon's v11's update to [tile](https://carbondesignsystem.com/components/tile/usage/), clickable cards display a border to indicate their interactivity. Cards that are static will display no border.
 
+<Row>
+<Column colMd={8} colLg={8}>
+
+![Examples of different cards: card – default, card in card, feature card, and card link](../../images/component/card/card-overview.png)
+
+<Caption>
+  Examples of different cards: card – default, card in card, feature card, and
+  card link
+</Caption>
+
+</Column>
+</Row>
+
 ## Card
 
-The card component can be used in many different page types. The default design includes a heading and a call to action,
+The Card component can be used in many different page types. The default design includes a heading and a call to action,
 and optional extras include an eyebrow, copy, and media. By adding and removing optional content, the card
 offers a wide range of design possibilities.
 
-The card component can also be used to create other card-based components such as
+The Card component can also be used to create other card-based components such as
 [Content group cards](https://www.ibm.com/standards/carbon/components/content-group-cards) and
 [Card section](https://www.ibm.com/standards/carbon/components/card-section).
 
@@ -49,7 +68,7 @@ The card component can also be used to create other card-based components such a
 </Column>
 </Row>
 
-### Content guidance for card
+### Content guidance for Card
 
 | Element                                                    | Content type                                                                                                                       | Required | Instances | Character limit <br/>(English / translated) | Notes                                                             |
 | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------- | --------- | ------------------------------------------- | ----------------------------------------------------------------- |
@@ -58,7 +77,7 @@ The card component can also be used to create other card-based components such a
 | Media                                                      | [Image](https://www.ibm.com/standards/carbon/components/images/) or [Video](https://www.ibm.com/standards/carbon/components/video) | No       | 1         | –                                           | 4:3 aspect ratio in grid, file original aspect ratio in lightbox. |
 | Image alt text                                             | Text                                                                                                                               | No       | 1         | 75 / 100                                    | Image description for accessibility.                              |
 | Copy                                                       | Text                                                                                                                               | No       | 1         | 200 / 260                                   |                                                                   |
-| [CTA](https://www.ibm.com/standards/carbon/components/cta) | Component                                                                                                                          | Yes      | 1         | 25 / 35                                     | Text style only.                                                  |
+| [CTA](https://www.ibm.com/standards/carbon/components/cta) | Component                                                                                                                          | Yes      | 1         | –                                           | Icon style only.                                                  |
 | Tag group                                                  | Component                                                                                                                          | No       | 1         | 20 / 32                                     | One or more tags.                                                 |
 
 For more information, see the
@@ -93,7 +112,7 @@ The logo is best displayed with a transparent background, or a background color 
 
 IBM teams should utilize the centralized logo assets from the [Digital Asset Management system](https://w3.ibm.com/w3publisher/digital-asset-management).
 
-### Content guidance for card – logo
+### Content guidance for Card – logo
 
 When a logo is added to a Card, the Card's appearance and content guidance changes.
 
@@ -138,7 +157,7 @@ message is not immediately decipherable from the pictogram.
 
 Top-aligning the pictogram should only be used when the pictogram is strongly and precisely associated with the card heading.
 
-### Content guidance for card – pictogram
+### Content guidance for Card – pictogram
 
 When a pictogram is added to a Card, the Card's appearance and content guidance changes.
 
@@ -189,7 +208,7 @@ The entire media area is interactive. In the mobile breakpoint the inner card wi
 
 <ResourceLinks name="Card in card" type="ui" multiComponent />
 
-### Content guidance for card in card
+### Content guidance for Card in card
 
 | Element                                                    | Content type                                                                                                                       | Required | Instances | Character limit <br/>(English / translated) | Notes                                |
 | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------- | --------- | ------------------------------------------- | ------------------------------------ |
@@ -197,7 +216,7 @@ The entire media area is interactive. In the mobile breakpoint the inner card wi
 | Heading                                                    | Text                                                                                                                               | Yes      | 1         | 65 / 85                                     |                                      |
 | Media                                                      | [Image](https://www.ibm.com/standards/carbon/components/images/) or [Video](https://www.ibm.com/standards/carbon/components/video) | Yes      | 1         | –                                           | Full width, 16:9 aspect ratio.       |
 | Image alt text                                             | Text                                                                                                                               | No       | 1         | 75 / 100                                    | Image description for accessibility. |
-| [CTA](https://www.ibm.com/standards/carbon/components/cta) | Component                                                                                                                          | Yes      | 1         | 25 / 35                                     | Card style only.                     |
+| [CTA](https://www.ibm.com/standards/carbon/components/cta) | Component                                                                                                                          | Yes      | 1         | –                                           | Icon style only.                     |
 
 For more information, see the
 [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
@@ -220,7 +239,7 @@ The entire card link is clickable. Card link maintains a 2:1 aspect ratio across
 
 <ResourceLinks name="Card link" type="ui" multiComponent />
 
-### Content guidance for card link
+### Content guidance for Card link
 
 | Element                                                    | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes            |
 | ---------------------------------------------------------- | ------------ | -------- | --------- | ------------------------------------------- | ---------------- |
