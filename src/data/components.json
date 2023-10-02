@@ -221,9 +221,9 @@
       }
     },
     "Feature card": {
-      "url": "/components/cards#feature-card",
+      "url": "/components/feature-card",
       "designLink": "https://ibm.box.com/s/292bsxb7tat33ch341u8o4oh6xdx19ct",
-      "description": "Feature card is used to emphasize a piece of information with a card on the right-hand side and an image on the left-hand side.",
+      "description": "Feature card acts as a more prominent call-to-action that drives users to related content. The card features an image on one side and copy on the other.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-feature-card--default",
         "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-feature-card--default",
