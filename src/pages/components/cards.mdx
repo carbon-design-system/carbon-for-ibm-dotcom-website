@@ -32,11 +32,11 @@ As of Carbon's v11's update to [tile](https://carbondesignsystem.com/components/
 
 ## Card
 
-The Card component can be used in many different page types. The default design includes a heading and a call to action,
+The card component can be used in many different page types. The default design includes a heading and a call to action,
 and optional extras include an eyebrow, copy, and media. By adding and removing optional content, the card
 offers a wide range of design possibilities.
 
-The Card component can also be used to create other card-based components such as
+The card component can also be used to create other card-based components such as
 [Content group cards](https://www.ibm.com/standards/carbon/components/content-group-cards) and
 [Card section](https://www.ibm.com/standards/carbon/components/card-section).
 
@@ -48,6 +48,21 @@ The Card component can also be used to create other card-based components such a
 <Caption>The default card on the left, and a video card on the right.</Caption>
 </Column>
 </Row>
+
+### Content guidance for card
+
+| Element                                                    | Content type                                                                                                                       | Required | Instances | Character limit <br/>(English / translated) | Notes                                                             |
+| ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------- | --------- | ------------------------------------------- | ----------------------------------------------------------------- |
+| Eyebrow                                                    | Text                                                                                                                               | No       | 1         | 20 / 32                                     |                                                                   |
+| Heading                                                    | Text                                                                                                                               | Yes      | 1         | 65 / 85                                     |                                                                   |
+| Media                                                      | [Image](https://www.ibm.com/standards/carbon/components/images/) or [Video](https://www.ibm.com/standards/carbon/components/video) | No       | 1         | –                                           | 4:3 aspect ratio in grid, file original aspect ratio in lightbox. |
+| Image alt text                                             | Text                                                                                                                               | No       | 1         | 75 / 100                                    | Image description for accessibility.                              |
+| Copy                                                       | Text                                                                                                                               | No       | 1         | 200 / 260                                   |                                                                   |
+| [CTA](https://www.ibm.com/standards/carbon/components/cta) | Component                                                                                                                          | Yes      | 1         | 25 / 35                                     | Text style only.                                                  |
+| Tag group                                                  | Component                                                                                                                          | No       | 1         | 20 / 32                                     | One or more tags.                                                 |
+
+For more information, see the
+[character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
 
 ### Modifiers
 
@@ -78,6 +93,22 @@ The logo is best displayed with a transparent background, or a background color 
 
 IBM teams should utilize the centralized logo assets from the [Digital Asset Management system](https://w3.ibm.com/w3publisher/digital-asset-management).
 
+### Content guidance for card – logo
+
+When a logo is added to a Card, the Card's appearance and content guidance changes.
+
+| Element        | Content type                                                     | Required | Instances | Character limit <br/>(English / translated) | Notes                                                                                                                                 |
+| -------------- | ---------------------------------------------------------------- | -------- | --------- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| Logo           | [Image](https://www.ibm.com/standards/carbon/components/images/) | Yes      | 1         | –                                           | 2:1 aspect ratio in grid, see [design specifications](https://ibm.ent.box.com/folder/95514001950?s=qqw0soczjpawvuh9j3x19fmcoqk1zsw7). |
+| Image alt text | Text                                                             | No       | 1         | 75 / 100                                    | Image description of logo for accessibility.                                                                                          |
+| Eyebrow        | Text                                                             | Yes      | 1         | 20 / 32                                     |                                                                                                                                       |
+| Heading        | Text                                                             | No       | 1         | 65 / 85                                     |                                                                                                                                       |
+| Copy           | Text                                                             | Yes      | 1         | 200 / 260                                   |                                                                                                                                       |
+| Tag group      | Component                                                        | No       | 1         | 20 / 32                                     | One or more tags.                                                                                                                     |
+
+For more information, see the
+[character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
+
 #### Pictogram
 
 The card can also feature a pictogram element.
@@ -107,11 +138,24 @@ message is not immediately decipherable from the pictogram.
 
 Top-aligning the pictogram should only be used when the pictogram is strongly and precisely associated with the card heading.
 
+### Content guidance for card – pictogram
+
+When a pictogram is added to a Card, the Card's appearance and content guidance changes.
+
+| Element   | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes                                             |
+| --------- | ------------ | -------- | --------- | ------------------------------------------- | ------------------------------------------------- |
+| Heading   | Text         | Yes      | 1         | 40 / 55                                     |                                                   |
+| Copy      | Text         | No       | 1         | 65 / 85                                     | Hover over copy on bottom-aligned pictogram only. |
+| Pictogram | Element      | Yes      | 1         | –                                           | Top- or bottom-aligned.                           |
+
+For more information, see the
+[character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
+
 #### Static
 
 Unlike other cards, static cards are non-actionable or not clickable. These cards have no stroke or border around the outside of the card to help indicate to the user that they are non-actionable.
 
-Static card can support a text link, however, we highly encourage teams to utilize the [content item](../components/content-item) component instead of static cards to ensure that page variation – we are seeing many pages filled with only cards – and ensure that users do not confuse static cards with actionable cards.
+Static card can support a text link, however, we highly encourage teams to utilize the [content item](../components/content-item) component instead of static cards to ensure that page variation – we are seeing many pages filled with only cards – and ensure that users do not confuse static cards with actionable cards. When a card is set to static, it uses the same content guidance as the [default card](../cards#content-guidance-for-card).
 
 <Row>
 
@@ -126,50 +170,6 @@ Static card can support a text link, however, we highly encourage teams to utili
 </Row>
 
 <ResourceLinks name="Card" type="ui" multiComponent />
-
-### Content guidance for Card
-
-| Element                                                    | Content type                                                                                                                       | Required | Instances | Character limit <br/>(English / translated) | Notes                                                             |
-| ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------- | --------- | ------------------------------------------- | ----------------------------------------------------------------- |
-| Eyebrow                                                    | Text                                                                                                                               | No       | 1         | 20 / 32                                     |                                                                   |
-| Heading                                                    | Text                                                                                                                               | Yes      | 1         | 65 / 85                                     |                                                                   |
-| Media                                                      | [Image](https://www.ibm.com/standards/carbon/components/images/) or [Video](https://www.ibm.com/standards/carbon/components/video) | No       | 1         | –                                           | 4:3 aspect ratio in grid, file original aspect ratio in lightbox. |
-| Image alt text                                             | Text                                                                                                                               | No       | 1         | 75 / 100                                    | Image description for accessibility.                              |
-| Copy                                                       | Text                                                                                                                               | No       | 1         | 200 / 260                                   |                                                                   |
-| [CTA](https://www.ibm.com/standards/carbon/components/cta) | Component                                                                                                                          | Yes      | 1         | 25 / 35                                     | Text style only.                                                  |
-| Tag group                                                  | Component                                                                                                                          | No       | 1         | 20 / 32                                     | One or more tags.                                                 |
-
-For more information, see the
-[character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
-
-### Content guidance for Card – logo
-
-When a logo is added to a Card, the Card's appearance and content guidance changes.
-
-| Element        | Content type                                                     | Required | Instances | Character limit <br/>(English / translated) | Notes                                                                                                                                 |
-| -------------- | ---------------------------------------------------------------- | -------- | --------- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| Logo           | [Image](https://www.ibm.com/standards/carbon/components/images/) | Yes      | 1         | –                                           | 2:1 aspect ratio in grid, see [design specifications](https://ibm.ent.box.com/folder/95514001950?s=qqw0soczjpawvuh9j3x19fmcoqk1zsw7). |
-| Image alt text | Text                                                             | No       | 1         | 75 / 100                                    | Image description of logo for accessibility.                                                                                          |
-| Eyebrow        | Text                                                             | Yes      | 1         | 20 / 32                                     |                                                                                                                                       |
-| Heading        | Text                                                             | No       | 1         | 65 / 85                                     |                                                                                                                                       |
-| Copy           | Text                                                             | Yes      | 1         | 200 / 260                                   |                                                                                                                                       |
-| Tag group      | Component                                                        | No       | 1         | 20 / 32                                     | One or more tags.                                                                                                                     |
-
-For more information, see the
-[character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
-
-### Content guidance for Card – pictogram
-
-When a pictogram is added to a Card, the Card's appearance and content guidance changes.
-
-| Element   | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes                                             |
-| --------- | ------------ | -------- | --------- | ------------------------------------------- | ------------------------------------------------- |
-| Heading   | Text         | Yes      | 1         | 40 / 55                                     |                                                   |
-| Copy      | Text         | No       | 1         | 65 / 85                                     | Hover over copy on bottom-aligned pictogram only. |
-| Pictogram | Element      | Yes      | 1         | –                                           | Top- or bottom-aligned.                           |
-
-For more information, see the
-[character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
 
 ## Card in card
 
@@ -189,7 +189,7 @@ The entire media area is interactive. In the mobile breakpoint the inner card wi
 
 <ResourceLinks name="Card in card" type="ui" multiComponent />
 
-### Content guidance for Card in card
+### Content guidance for card in card
 
 | Element                                                    | Content type                                                                                                                       | Required | Instances | Character limit <br/>(English / translated) | Notes                                |
 | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------- | --------- | ------------------------------------------- | ------------------------------------ |
@@ -204,9 +204,7 @@ For more information, see the
 
 ## Card link
 
-Unlike Card, which can be used as a standalone component, Card link should always be accompanied by contextual copy on
-the page. Card links contain a heading, an optional CTA (call-to-action), and optional body copy. The entire card is
-clickable.
+Card links are used as an alternative to a [link](https://carbondesignsystem.com/components/link/usage/) or [button](https://carbondesignsystem.com/components/button/usage/), and are useful for descriptive call to actions as they can support a heading and optional body copy. Unlike card, which can be used as a standalone component, card link should always be accompanied by contextual content.
 
 <Row>
 <Column colMd={6} colLg={6}>
@@ -216,9 +214,13 @@ clickable.
 </Column>
 </Row>
 
+### Behavior
+
+The entire card link is clickable. Card link maintains a 2:1 aspect ratio across all breakpoints.
+
 <ResourceLinks name="Card link" type="ui" multiComponent />
 
-### Content guidance for Card link
+### Content guidance for card link
 
 | Element                                                    | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes            |
 | ---------------------------------------------------------- | ------------ | -------- | --------- | ------------------------------------------- | ---------------- |
