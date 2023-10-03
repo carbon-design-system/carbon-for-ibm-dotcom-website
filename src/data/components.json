@@ -940,7 +940,7 @@
     "Content section": {
       "url": "/components/content-section",
       "designLink": "https://ibm.box.com/s/oqlsa6m0vfownbn1s2y682mnugsf6cuv",
-      "description": "Content section is a high-level content component that acts as the main content unit to build web page experiences for IBM.com. It encapsulates other content components (one or multiple Content blocks and/or Content groups) and brings them together, providing flexibility to create many different solutions for users.",
+      "description": "Content section is the main layout component used to to build web experiences on IBM.com. It encapsulates two types of headings and can accept many child components to enable maximum customization and flexibility.",
       "storybook": {
         "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-section--default",
         "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-content-section--default",
