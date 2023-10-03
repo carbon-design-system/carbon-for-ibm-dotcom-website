@@ -1,9 +1,7 @@
 ---
 title: Content section
 description:
-  Content section is a high-level content component that acts as the main content unit to build web page experiences for
-  IBM.com. It encapsulates other content components (one or multiple Content blocks and/or Content groups) and brings
-  them together, providing flexibility to create many different solutions for users.
+  Content section is the main layout component used to to build web experiences on IBM.com. It encapsulates two types of headings and can accept many child components to enable maximum customization and flexibility.
 ---
 
 import ComponentDescription from 'components/ComponentDescription';
@@ -14,23 +12,19 @@ import ResourceLinks from 'components/ResourceLinks';
 
 <AnchorLinks>
 
-<AnchorLink>Resources</AnchorLink>
 <AnchorLink>Overview</AnchorLink>
+<AnchorLink>Modifiers</AnchorLink>
 <AnchorLink>Behaviors</AnchorLink>
-<AnchorLink>Tips and techniques</AnchorLink>
+<AnchorLink>Gallery</AnchorLink>
+<AnchorLink>Resources</AnchorLink>
 <AnchorLink>Content guidance</AnchorLink>
-<AnchorLink>Related components</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
 
-<ResourceLinks name="Content section" type="layout" />
-
 ## Overview
 
-The Content section component can be used and customized for different types of web page experiences, boosting
-productivity by not having to recreate it every time. Because it is naturally decoupled from the Dotcom shell, it can be
-used multiple times on a web page, acting as the main structural content unit.
+The content section acts as the heading level two on all pages after the lead space component. The content section is used to divide the main categories or sections of the page to help guide the user through the content or narrative.
 
 <Row>
 
@@ -51,26 +45,44 @@ used multiple times on a web page, acting as the main structural content unit.
 
 <Caption>Anatomy of the Content section component</Caption>
 
-1. **Heading:** A customizable heading for the Content section.
-2. **Description:** A short description.
-3. **CTA text link or CTA card link:** Use this as a general call to action at the Content section level.
-4. **Child container:** Use this to insert other high-level content units, like content blocks and content groups.
-
 </Column>
 
 </Row>
 
-#### When to use
+### Anatomy
 
-Use Content section when you need to organize a web page experience into main content units. One of the advantages of
-Content section is that it can take a different color theme from the page theme. Use this option carefully to avoid an
-unwanted page banding experience. Page banding happens when contrasting full-width backgrounds are alternating on a
-page, interrupting the reading experience for the user.
+1. **Content section heading:** A customizable heading for the Content section.
+2. **Content block heading:** A customizable heading for the Content section.
+3. **Sub heading:** A customizable heading for the Content section.
+4. **Copy:** A short description.
+5. **Child container:** Use this to insert other high-level content units, like content blocks and content groups.
+6. **CTA text link or CTA card link:** Use this as a general call to action at the Content section level.
+7. **Border:** Use this as a general call to action at the Content section level.
 
-#### When not to use
 
-Do not use a Content section to separate only content items, or other related basic content items (like paragraphs)
-inside a web page. Use a [Content group](https://www.ibm.com/standards/carbon/components/content-group) instead.
+## Modifiers
+
+### Headings
+
+The content section has two types of optional headings that can be turned on and off to fit the layout needs. 
+
+#### Content section heading
+
+Toggle off the content section heading to utilize the vertical table of contents component for long form reading experiences that allow the user to quickly navigate through the content.
+
+#### Content block heading
+
+Toggle off the content block heading for concise layout samples, this layout works well with the horizontal table of contents component.
+
+### Children
+
+The content section can accept child components which allows designers and authors maximum flexibility when creating page layouts. The most common layouts on IBM.com are 8 column and 12 column components.
+
+#### 8 column child
+
+#### 12 column child
+
+There is no limit to how many child components the content section can accept, consider the story you are trying to tell, the overall hierarchy of the page and how many content sections should be used to break up the content. View the [gallery](#gallery) to see examples of content section with various child components.
 
 ## Behaviors
 
@@ -123,37 +135,24 @@ components.
   Showcasing the versatility and adaptability of the Content section component
 </Caption>
 
-## Tips and techniques
+## Gallery
 
-The Content section elements are persistent throughout the online experience. It is fully responsive and changes how
-elements are displayed based on the browser size.
+The content section is the main building block for establishing sections throughout pages of the IBM.com platform. Here are some examples of various layouts you can create by utilizing the extreme flexibility the content section provides by utilizing the  varying heading options and adding custom children.
 
-It's important to keep in mind that on medium and small breakpoints, the child container is positioned between the
-Content section description and the CTA text link.
-
-Each type of content unit (content section, content block, content group or content item, and their many options) will
-usually have a certain type of CTA as the last element in the component architecture.
-
-Try to avoid CTA stacking at the end of a Content section. If multiple CTAs are present, use different types. For
-example, a card link from a Content block and a CTA text link as the final element of the Content section.
+<ResourceLinks name="Content section" type="layout" />
 
 ## Content guidance
 
 | Element                                                    | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes                                                                                        |
 | ---------------------------------------------------------- | ------------ | -------- | --------- | ------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| Heading                                                    | Text         | No       | 1         | 25 / 35                                     |                                                                                              |
+| Content section heading                                    | Text         | No       | 1         | 25 / 35                                     |                                                                                              |
+| Content block heading                                      | Text         | No       | 1         | 25 / 35                                     |                                                                                              |
+| Sub heading                                                | Text         | No       | 1         | 25 / 35                                     |                                                                                              |
 | Copy                                                       | Text         | No       | 1         | 65 / 85                                     |                                                                                              |
-| Child container                                            | Component    | No       | 1         | –                                           | An optional container area that child components and other content types can be passed into. |
-| [CTA](https://www.ibm.com/standards/carbon/components/cta) | Component    | No       | 1         | 25 / 35                                     | Text style only. Jump link type is not allowed.                                              |
+| Child container                                            | Component    | No       | 1+        | –                                           | An optional container area that child components and other content types can be passed into. |
+| [CTA](https://www.ibm.com/standards/carbon/components/cta) | Component    | No       | 1         | 25 / 35                                     |                                                                                              |
+| Border                                                     | Component    | No       | 1         | –                                           |                                                                                              |
 
 For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
-
-## Related components
-
-| Component name                                                                                               | Description                                                                                                                                                       |
-| ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Card section](https://www.ibm.com/standards/carbon/components/card-section)                                 | Card section is a Content section that includes a content section heading and in its child container, it contains a Card group component.                         |
-| [Card section carousel](https://www.ibm.com/standards/carbon/components/card-section-carousel)               | Card section carousel is a Content section that includes a content section heading and a carousel component for navigation throughout a group of CTA cards.       |
-| [Card section images](https://www.ibm.com/standards/carbon/components/card-section#card-section-with-images) | Card section images is a Content section that includes a content section heading, and a Card group component encapsulated in the Content section child container. |
 
 <ComponentFooter name="Content section" type="layout" />
