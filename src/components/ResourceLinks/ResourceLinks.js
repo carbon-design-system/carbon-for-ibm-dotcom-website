@@ -3,9 +3,9 @@ import H2 from 'gatsby-theme-carbon/src/components/markdown/H2';
 import H3 from 'gatsby-theme-carbon/src/components/markdown/H3';
 import MiniCard from 'gatsby-theme-carbon/src/components/MiniCard/MiniCard';
 import CardGroup from 'gatsby-theme-carbon/src/components/MiniCard/CardGroup';
-import githubIcon from '../../images/icon/github-icon.svg';
+// import githubIcon from '../../images/icon/github-icon.svg';
 import reactIcon from '../../images/icon/react-icon.svg';
-import sketchSymbol from '../../images/icon/sketch-symbol.svg';
+// import sketchSymbol from '../../images/icon/sketch-symbol.svg';
 import webComponentsIcon from '../../images/icon/web-components-icon.svg';
 import components from '../../data/components.json';
 
@@ -23,40 +23,24 @@ import components from '../../data/components.json';
 export const ResourceLinks = ({
   type,
   name,
-  designLink = '',
-  functionalLink = '',
+  // designLink = '',
+  // functionalLink = '',
   multiComponent,
 }) => {
-  const component = components[type][name];
-  const wikiURLBase =
-    'https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/';
-  const wikiName = name.replace(/ /g, '-');
-  const functionalSpecLink =
-    functionalLink || component.functionalLink || wikiURLBase + wikiName;
-  const designSpecLink = designLink || component.designLink;
+  // const component = components[type][name];
+  // const wikiURLBase =
+
+  'https://github.com/carbon-design-system/carbon-for-ibm-dotcom-website/wiki/';
+
+  // const wikiName = name.replace(/ /g, '-');
+  // const functionalSpecLink =
+  //  functionalLink || component.functionalLink || wikiURLBase + wikiName;
+  // const designSpecLink = designLink || component.designLink;
 
   return (
     <>
       {multiComponent ? <H3>Resources for {name}</H3> : <H2>Resources</H2>}
       <CardGroup>
-        {designSpecLink && (
-          <MiniCard
-            linkProps={{ target: '_blank', rel: 'noopener' }}
-            title="Design specifications"
-            href={designSpecLink}
-          >
-            <img src={sketchSymbol} alt="Sketch" />
-          </MiniCard>
-        )}
-        {functionalSpecLink && (
-          <MiniCard
-            linkProps={{ target: '_blank', rel: 'noopener' }}
-            title="Functional specifications"
-            href={functionalSpecLink}
-          >
-            <img src={githubIcon} alt="GitHub" />
-          </MiniCard>
-        )}
         {components[type][name].storybook.react && (
           <MiniCard
             linkProps={{ target: '_blank', rel: 'noopener' }}
