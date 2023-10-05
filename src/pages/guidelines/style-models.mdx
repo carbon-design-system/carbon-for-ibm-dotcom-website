@@ -27,7 +27,7 @@ In our models, the design elements included are:
 
 - Grid
 - Screen regions
-- Key components (Masthead, Footer)
+- Key components (masthead, footer)
 
 Here is a list of recurring style models we have identified so far.
 
@@ -39,7 +39,7 @@ Here is a list of recurring style models we have identified so far.
 
 #### &#12288;
 
-The biggest differentiator between the models is the grid. Specifically in how grid behaves above max breakpoint. Below is the 2x Grid at max breakpoint (1584px or 99rem).
+The biggest differentiator between the models is the grid. Specifically in how the grid behaves above max breakpoint. Below is the 2x Grid at max breakpoint (1584px or 99rem).
 
 <br />
 
@@ -89,7 +89,7 @@ Once the screen is wider than the max breakpoint, the margins (highlighted in da
 <Row>
 <Column colLg={2} colMd={2}>
 
-**High density interface**<br/> Full width, grid stetches
+**High density interface**<br/> Full width, grid stretches
 
 </Column>
 <Column colLg={10} colMd={6}>
@@ -101,7 +101,7 @@ Once the screen is wider than the max breakpoint, the margins (highlighted in da
 
 <br />
 
-This difference in grid ripples through everything on page. Here is an overview of how the Masthead and Footer will behave above max breakpoints:
+This difference in grid ripples through everything on page. Below is a visual overview of how the masthead and footer will behave above max breakpoints in the editorial and documentation models, and the Carbon UI shell in the high density interface model above max breakpoint:
 
 <Row>
 <Column colMd={4} colLg={4} >
@@ -128,11 +128,11 @@ The **documentation model** has left-aligned content in the footer, while the ba
 </Column>
 <Column colMd={4} colLg={4} >
 
-![Dotcom shell on high density interface model](../../images/guidelines/style-models/style-models-dotcom-shell-3.png)
+![Carbon shell on High density interface model](../../images/guidelines/style-models/style-models-dotcom-shell-4.png)
 
 <Caption>
 
-The **high density interface model** shows both masthead and footer obeying the grid as expected, stretching to full width of screen.
+The **high density interface model** shows the Carbon UI shell obeying the grid as expected, stretching to full width of the screen.
 
 </Caption>
 
@@ -198,7 +198,7 @@ Refer to the Layout page in our Guidelines section for more guidance on [Content
 </Column>
 </Row>
 
-Masthead and footer together make up the shell of the page, also known as [Dotcom shell](/components/dotcom-shell). How they are positioned on the grid helps to define the expectations for the rest of the page. In the Editorial model, Dotcom shell stays on the grid. This means the content elements are aligned to columns, and background colors and their dividers are full width extending into margins.
+The masthead and footer together make up the shell of the page, also known as [Dotcom shell](/components/dotcom-shell). How they are positioned on the grid helps to define the expectations for the rest of the page. In the Editorial model, Dotcom shell stays on the grid. This means the content elements are aligned to columns, and background colors and their dividers are full width extending into margins.
 
 <Row>
 <Column colMd={4} colLg={4} >
@@ -281,17 +281,17 @@ The left hand navigation panel is similar to a table of contents, which hides on
 ![Lorem ipsum](../../images/guidelines/style-models/style-models-docu-screen-regions.png)
 
 <Caption>
-  1. Global element: Masthead <br />
+  1. Global element: masthead <br />
   2. Overarching content: page navigation <br />
   3. Main content: details of the subject matter <br />
   4. Related content: helpful links, related topics <br />
-  5. Global element: Footer <br />
+  5. Global element: footer <br />
 </Caption>
 
 </Column>
 </Row>
 
-With the documentation model, the Dotcom shell breaks out of the grid and is full width. This keeps the right side of the Masthead elements (Search and Account functions) anchored to the screen edge.
+With the documentation model, the Dotcom shell breaks out of the grid and is full width. This keeps the right side of the masthead elements (Search and Account functions) anchored to the screen edge.
 
 <Row>
 <Column colMd={4} colLg={4} >
@@ -299,8 +299,8 @@ With the documentation model, the Dotcom shell breaks out of the grid and is ful
 ![Dotcom shell usage on Documentation model](../../images/guidelines/style-models/style-models-dotcom-shell-2.png)
 
 <Caption>
-  In Documentation model, Masthead breaks from the grid and is full width, while
-  Footer sticks to grid.
+  In Documentation model, masthead breaks from the grid and is full width, while
+  footer sticks to grid.
 </Caption>
 
 </Column>
@@ -351,8 +351,7 @@ If you are using Carbon Design System, refer to their existing guidance on <a hr
 
 In place of Dotcom shell, Carbon Design System offers the <a href="https://carbondesignsystem.com/components/UI-shell-header/usage/" target="_blank">UI shell</a> as the default header.
 
-If you have to use Carbon for IBM.com &mdash; perhaps because your application is external facing, and integrated with marketing content &mdash; you can use the Dotcom shell as well. In this this case, Dotcom shell follows the grid and stretches to full width.
-
+If you have to use Carbon for IBM.com &mdash; perhaps because your application is external facing, and integrated with marketing content &mdash; and you believe your experience could benefit from a high density interface model, please open a [feature request](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/new/choose) on our Github.
 <Row>
 <Column colMd={4} colLg={4} >
 
@@ -361,15 +360,7 @@ If you have to use Carbon for IBM.com &mdash; perhaps because your application i
 <Caption>Carbon shell is more typical on High density interface model</Caption>
 
 </Column>
-<Column colMd={4} colLg={4} >
 
-![Dotcom shell usage on High density interface model](../../images/guidelines/style-models/style-models-dotcom-shell-3.png)
-
-<Caption>
-  Dotcom shell on High density interface model stretches to full screen width
-</Caption>
-
-</Column>
 </Row>
 
 ### Examples
@@ -386,4 +377,4 @@ If you have to use Carbon for IBM.com &mdash; perhaps because your application i
 
 ## Feedback
 
-These user intents and style models are not set in stone—they and are intended to evolve over time. If for any reason, the existing user intents or style models do not meet the user needs, please contact the Digital Design System team via the <a href="https://cognitive-app.slack.com/archives/C2PLX8GQ6" target="_blank">#carbon-for-ibm-dotcom</a> slack channel.
+These user intents and style models are not set in stone—they and are intended to evolve over time. If for any reason, the existing user intents or style models do not meet the user needs, please contact the Carbon for IBM.com team via the <a href="https://cognitive-app.slack.com/archives/C2PLX8GQ6" target="_blank">#carbon-for-ibm-dotcom</a> slack channel.
