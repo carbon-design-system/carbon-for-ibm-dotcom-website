@@ -16,8 +16,8 @@ import ResourceLinks from 'components/ResourceLinks';
 <AnchorLink>Resources</AnchorLink>
 <AnchorLink>Overview</AnchorLink>
 <AnchorLink>Variants</AnchorLink>
-<AnchorLink>Behaviors</AnchorLink>
 <AnchorLink>Modifiers</AnchorLink>
+<AnchorLink>Behaviors</AnchorLink>
 <AnchorLink>Content guidance</AnchorLink>
 <AnchorLink>Related components</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
@@ -108,6 +108,8 @@ Short is an efficient and precise left-aligned lead space variant mostly used in
 cycle. Short can also be used to lead additional info following a landing page, for example the product pricing page. It
 has a 320px fixed height for the desktop experience, and it is variable in height for smaller screens.
 
+Unlike other lead space sizes, the short version does not have a subheading or button group.
+
 ![Short lead space](../../images/component/lead-space/component--lead-space--short.jpg)
 
 <Caption>
@@ -125,15 +127,6 @@ height and a prominent heading.
 <Caption>
   Centered (variable height), designed to accommodate longer copy
 </Caption>
-
-## Behaviors
-
-On small breakpoint (320px), the background image switches to an inline image and is positioned last, after the button
-group, as shown below.
-
-![Lead space on mobile](../../images/component/lead-space/component--lead-space--super--behaviors.jpg)
-
-<Caption>Lead space behavior change on mobile (right)</Caption>
 
 ## Modifiers
 
@@ -170,6 +163,14 @@ When a user clicks the play button, the video will begin playing in the backgrou
 - If the background video contains critical information for users to complete their goal on the page, do not deliver the video in the lead space.
 - If the required video is long and information dense.
 
+### Gradient
+
+The gradient can be added or removed based on the asset needs. We strongly recommend using the gradient when the heading content would be difficult to read due to low contrast with the background. If using an illustration, be aware of visual elements that would overlap to make it harder to read. See the [design specs](https://www.figma.com/file/Gfb6xdHwKdBgNloNqlSbnG/Lead-space-v2?type=design&node-id=1031%3A20561&mode=design&t=xrvdzPlkLXOPoTg8-1) for guidance by lead space size.
+
+### Heading highlight
+
+The lead space heading can be modified to highlight a word or phrase. This can be used to highlight product names, industries, or particular value. The highlighted word or phrase can be anywhere in the heading, but it should only ever appear once in a single lead space. This only applies to the heading, and does not extend to any other lead space element.
+
 ### Parent navigation
 
 All Lead space variants have the option to include parent navigation of breadcrumbs or tag links to aid in way-finding.
@@ -190,6 +191,15 @@ A collection of [Tag links](https://www.ibm.com/standards/carbon/components/tag-
 ![Lead space with tag links](../../images/component/lead-space/component--lead-space--medium--tag-links.jpg)
 
 <Caption>Lead space medium with tag links</Caption>
+
+## Behaviors
+
+On small breakpoint (320px), the background image switches to an inline image and is positioned last, after the button
+group, as shown below.
+
+![Lead space on mobile](../../images/component/lead-space/component--lead-space--super--behaviors.jpg)
+
+<Caption>Lead space behavior change on mobile (right)</Caption>
 
 ## Content guidance
 
