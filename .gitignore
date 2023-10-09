@@ -7,6 +7,8 @@ wiki-build
 .env.*
 .DS_Store
 *.log
+
+# Gets updated automatically from `gatsby-node.js`
 src/pages/developing/building-for-ibm-dotcom/index.mdx
 src/pages/developing/carbon-cdn-style-helpers/index.mdx
 
