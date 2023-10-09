@@ -84,8 +84,8 @@
       path: /components/content-group-banner
     - title: Content item
       path: /components/content-item
-    - title: Content item horizontal
-      path: /components/content-item-horizontal
+    - title: Content item row
+      path: /components/content-item-row
     - title: Content section
       path: /components/content-section
     - title: CTA
