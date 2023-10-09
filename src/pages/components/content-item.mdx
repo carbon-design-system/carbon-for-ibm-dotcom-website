@@ -1,8 +1,8 @@
 ---
 title: Content item
 description:
-  The content item is a basic-level content component that is used inside a
-  content group to build web experiences on IBM dotcom pages. It can encapsulate media and text content and allow for more variation in an editorial experience.
+  The content item component is a basic-level content component that is used inside a
+  higher level content component to build web experiences on IBM.com pages. It can encapsulate media and text content and allows for more variation in an editorial experience.
 ---
 
 import ComponentDescription from 'components/ComponentDescription';
@@ -41,8 +41,7 @@ The content item component can be customized for different types of web experien
 #### When to use
 
 Use content item when you need to organize a group of content elements into a content unit. It can live inside of
-larger content components such as [content section](../components/content-section) or [content group](../components/content-group) . One of the advantages of the content item is that it is consistent throughout the IBM.com
-pages.
+larger content components such as [content section](../components/content-section) or [content group](../components/content-group) . One of the advantages of the content item is that it is consistent throughout the IBM.com pages.
 
 #### When not to use
 
@@ -52,13 +51,13 @@ Do not look to content item as a replacement for a content section or a content 
 
 ### Media
 
-Content item can be displayed with a relevant Pictogram, Logo, Image, or Percentage to visually enhance the messaging. Only one media element can be added to each content item. Certain media elements allow for vertical or horizontal orientation.
+Content item can be displayed with a relevant Pictogram, Logo, Image, or Statistic to visually enhance the messaging. Only one media element can be added to each content item. Certain media elements allow for vertical or horizontal orientation.
 
 <Row>
 
 <Column colMd={8} colLg={8}>
 
-![Examples of content item with different media: logo, image, percentage, pictogram](../../images/component/content-item/content-item-media.png)
+![Examples of content item with different media: logo, image, statistic, pictogram](../../images/component/content-item/content-item-media.png)
 
 </Column>
 
@@ -66,14 +65,14 @@ Content item can be displayed with a relevant Pictogram, Logo, Image, or Percent
 
 <Caption>
   Examples of content item featuring different media. From top left to bottom
-  right: logo, image, percentage, pictogram
+  right: logo, image, statistic, pictogram
 </Caption>
 
 | Variant      | Purpose                                                                                                                                                                                                                                                                                                                                                                                  |
 | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | _Logo_       | A logo added to a content item can draw attention to key IBM partners and clients. Consider using content item with an image when there is no need for a link (i.e. instead of a [card – logo](../components/cards)). _Logo can only appear in vertically-aligned content item_.                                                                                                         |
 | _Image_      | Adding a relevant image can capture attention as the user scrolls the page content. High resolution photography and illustration can vary page content and provide visual interest. Consider using content item with an image when there is no need for a link (i.e. instead of a [card](../components/cards)). _Image can appear in a horizontally or vertically-aligned content item_. |
-| _Percentage_ | Adding a percentage to content item can highlight key data points, outcomes, and trends. These make it easier to focus attention around a product or case study. _Percentage can only be displayed in a vertically-aligned content item_.                                                                                                                                                |
+| _Statistice_ | Adding a statistic to content item can highlight key data points, outcomes, and trends. These make it easier to focus attention around a product or case study. _Statistic can only be displayed in a vertically-aligned content item_.                                                                                                                                                  |
 | _Pictogram_  | Pictograms add visual interest to content items that help reinforce understanding about a particular topic. Pictograms excel at representing abstract ideas such as industries, technology, and functions. _Pictogram can appear in a horizontally or vertically-aligned content item_.                                                                                                  |
 
 ### Orientation
@@ -100,10 +99,10 @@ Once a media element is added to a content item, you can select its orientation 
 
 </Row>
 
-| Variant      | Purpose                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| _Vertical_   | The vertical orientation places the media addition above the heading and body copy content across all breakpoints. Vertical orientation supports all media additions for content item: Image, Pictogram, App icon, Percentage, and Logos.                                                                                                                                                                                                     |
-| _Horizontal_ | The horizontal orientation places the media side-by-side with the heading and body copy content across larger breakpoints. Note that on the mobile breakpoint, content items that are horizontally aligned will swap to a vertical alignment for better visibility. Horizontal orientation supports the following media for content item: Image, Pictogram, and App icon. Percentage and Logo are only available in the vertical orientation. |
+| Variant      | Purpose                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| _Vertical_   | The vertical orientation places the media addition above the heading and body copy content across all breakpoints. Vertical orientation supports all media additions for content item: Image, Pictogram, App icon, Statistic, and Logos.                                                                                                                                                                                                     |
+| _Horizontal_ | The horizontal orientation places the media side-by-side with the heading and body copy content across larger breakpoints. Note that on the mobile breakpoint, content items that are horizontally aligned will swap to a vertical alignment for better visibility. Horizontal orientation supports the following media for content item: Image, Pictogram, and App icon. Statistic and Logo are only available in the vertical orientation. |
 
 ## Behaviors
 
@@ -116,11 +115,6 @@ and the margins on either side of the page layout will increase. The content ite
 of the grid. It is possible to lay out a content item on 4 columns, making the reading experience in certain situations
 more efficient.
 
-#### Mobile breakpoints
-
-For the medium breakpoint, the content item may take all 8 or, as seen below, just 4 grid columns. For the small
-breakpoint, the content item will always take all 4 grid columns.
-
 <ResourceLinks name="Content item" type="layout" />
 
 ## Content guidance
@@ -132,6 +126,8 @@ breakpoint, the content item will always take all 4 grid columns.
 | Media                                                      | [Image](https://www.ibm.com/standards/carbon/components/images/) or [Video](https://www.ibm.com/standards/carbon/components/video) | No       | 1         | –                                           | Image with caption may also be used. |
 | [CTA](https://www.ibm.com/standards/carbon/components/cta) | Component                                                                                                                          | No       | 1         | 25 / 35                                     | Text or button style only.           |
 | Image alt text                                             | Text                                                                                                                               | No       | 1         | 75 / 100                                    | Image description for accessibility. |
+| Statistic heading                                          | Text                                                                                                                               | Yes      | 1         | 5 / 5                                       | Statistic variant only               |
+| Pictogram                                                  | Media                                                                                                                              | Yes      | 1         | –                                           | Pictogram variant only               |
 
 For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
 
