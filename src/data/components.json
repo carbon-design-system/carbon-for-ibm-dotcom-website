@@ -909,14 +909,14 @@
         "notAvailable": false
       }
     },
-    "Content item horizontal": {
-      "url": "/components/content-item-horizontal",
+    "Content item row": {
+      "url": "/components/content-item-row",
       "designLink": "https://ibm.box.com/s/yiv7f37ktudwx1do7d9mp4bak17wl4dh",
-      "description": "Content item horizontal component displays information in a horizontal orientation.",
+      "description": "Content item row component displays information in a horizontal orientation.",
       "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-item-horizontal--default",
-        "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-content-item-horizontal--default",
-        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-content-item-horizontal--default"
+        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-item-row--default",
+        "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-content-item-row--default",
+        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-content-item-row--default"
       },
       "webcomponents": {
         "stable": true,

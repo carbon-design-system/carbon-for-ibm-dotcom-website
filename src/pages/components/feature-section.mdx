@@ -9,26 +9,20 @@ import ResourceLinks from 'components/ResourceLinks';
 
 <ComponentDescription name="Feature section" type="layout" />
 
-<InlineNotification>
-
-Additional usage guidelines will be available soon.
-
-</InlineNotification>
-
 <AnchorLinks>
 
-<AnchorLink>Resources</AnchorLink>
 <AnchorLink>Overview</AnchorLink>
+<AnchorLink>Modifiers</AnchorLink>
+<AnchorLink>Behaviors</AnchorLink>
+<AnchorLink>Resources</AnchorLink>
 <AnchorLink>Content guidance</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
 
-<ResourceLinks name="Feature section" type="layout" />
-
 ## Overview
 
-Feature section is a full-width section designed to create a visual break from the rest of the page and focus the viewer's attention on a single story. It contains expressive imagery and a CTA linking people to more details. Feature section is meant to be used sparingly to draw attention – avoid stacking multiple Feature sections in a row or including too many on a single page.
+Feature section is a full-width section designed to create a visual break from the rest of the page and focus the viewer's attention on a single story. It contains expressive imagery and a CTA linking to more details. Feature section is intended to be used sparingly to draw attention – avoid stacking multiple feature sections in a row or including too many on a single page.
 
 <Row>
 <Column colMd={8} colLg={12}>
@@ -37,6 +31,26 @@ Feature section is a full-width section designed to create a visual break from t
 
 </Column>
 </Row>
+
+## Modifiers
+
+### Color schemes
+
+Feature section has additional color schemes to enable more flexibility, these include the default `regular` color scheme, as well as `inverse`, `purple` , and `cyan`.
+
+Note that the color scheme effects the background color adjacent to the imagery, choose a color that supports your image, and avoid using illustrations that have a `10` value from the [IBM Design Language color pallet](https://www.ibm.com/design/language/color#the-palette) (ie `blue 10`, `green 10`, etc).
+
+## Behaviors
+
+### Desktop
+
+The feature section spans the full width of the 16 column grid, and therefore it cannot be used in combination with the vertical table of contents component, utilize the [horizontal table of contents](../components/table-of-contents#horizontal) instead.
+
+### Media
+
+The image maintains a 1:1 aspect ratio across all breakpoints.
+
+<ResourceLinks name="Feature section" type="layout" />
 
 ## Content guidance
 
