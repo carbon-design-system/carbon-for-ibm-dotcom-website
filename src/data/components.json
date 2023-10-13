@@ -884,7 +884,7 @@
     "Content item": {
       "url": "/components/content-item",
       "designLink": "https://ibm.box.com/s/xfm17x7dwbe4z7kjk482b8hbpjasft7o",
-      "description": "The Content item is a basic-level content component that acts as a primary content unit, and it is used inside a Content group to build web experiences on IBM dotcom pages. It can encapsulate basic content (a heading, a description, a media element – image or video – and a CTA) and brings them all together into a content component which solves a specific problem for the user.",
+      "description": "The content item component is a basic-level content component that is used inside a higher level content component to build web experiences on IBM.com pages. It can encapsulate media and text content and allows for more variation in an editorial experience.",
       "storybook": {
         "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-item--default",
         "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-content-item--default",
