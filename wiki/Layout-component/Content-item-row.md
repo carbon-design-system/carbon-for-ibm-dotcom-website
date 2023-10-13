@@ -1,9 +1,9 @@
 `Core` <!-- category start --><!-- category end -->
 
-[[Content item horizontal]] is a component for displaying basic text elements
+[[Content item row]] is a component for displaying basic text elements
 and [[CTA]]s in a horizontally-distributed column layout.
 
-![component--content-item-horizontal](https://user-images.githubusercontent.com/3793636/138167447-f1b4b258-6d65-4e60-b4b7-087fb3107db6.jpg)
+![component--content-item-row](https://user-images.githubusercontent.com/3793636/138167447-f1b4b258-6d65-4e60-b4b7-087fb3107db6.jpg)
 
 > ![image](https://user-images.githubusercontent.com/3793636/117874180-493bdb80-b266-11eb-8945-dde0d95431d6.png)
 > This component is technically not related to the core [[Content item]].
