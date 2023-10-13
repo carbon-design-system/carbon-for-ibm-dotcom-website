@@ -133,17 +133,13 @@ All lead space variants have the option to include a background image or video t
 
 An image can be used in the lead space to draw attention to the first content on the page. At the medium and small breakpoints, the image will appear behind the heading, body copy, and button group. When creating imagery for the lead space, keep the focus of the image on the area that appears without the gradient.
 
-![Lead space with video](../../images/component/lead-space/component--lead-space--tall--background-image.jpg)
-
-<Caption>Lead space tall with background image</Caption>
-
 #### Background video (Accessibility info TBD)
 
 A video can be used instead of an image as an animated background for the lead space. Videos are paused by default, and the user can begin the video by clicking the play button. Like background images, ensure that the focus of the video is clearly visible based on the location of the gradient overlay.
 
 When a user clicks the play button, the video will begin playing in the background of the lead space. The design intent of a video used in this way is to create ambiance - if you require a video to convey more information, consider another [video](https://www.ibm.com/standards/carbon/components/video)-related component.
 
-![Lead space with video](../../images/component/lead-space/component--lead-space--super--background-video.jpg)
+![Lead space with video](../../images/component/lead-space/lead-space-modifier-video.png)
 
 <Caption>Lead space super with background video</Caption>
 
@@ -162,6 +158,26 @@ When a user clicks the play button, the video will begin playing in the backgrou
 
 The gradient that sits between the background media and the other lead space elements can be added or removed based on the asset needs. We strongly recommend using the gradient when the heading content would be difficult to read due to low contrast with the background. If using an illustration in the background, be aware of visual elements that would overlap with the lead space copy that would make it harder to read without a gradient. See the [design specs](https://www.figma.com/file/Gfb6xdHwKdBgNloNqlSbnG/Lead-space-v2?type=design&node-id=1031%3A20561&mode=design&t=xrvdzPlkLXOPoTg8-1) for illustration guidance by lead space size.
 
+<Row>
+
+<Column colMd={6} colLg={6}>
+
+![A lead space with a photographic background and a lead space overlaying it](../../images/component/lead-space/lead-space-modifier-gradient-01.png)
+
+<Caption>An example lead space with a gradient</Caption>
+
+</Column>
+
+<Column colMd={6} colLg={6}>
+
+![A lead space with a illustration background without a gradient overlay](../../images/component/lead-space/lead-space-modifier-gradient-02.png)
+
+<Caption>An example lead space without a gradient</Caption>
+
+</Column>
+
+</Row>
+
 ### Heading
 
 #### Heading type
@@ -171,6 +187,28 @@ For the left-aligned lead spaces, the type token can be one of two options: a la
 #### Heading highlight
 
 The lead space heading can be modified to highlight a word or phrase. This can be used to highlight product names, industries, or particular value. The highlighted word or phrase can be anywhere in the heading, but it should only ever appear once in a single lead space. This only applies to the heading, and does not extend to any other lead space element. The highlight is available for both lead space heading types.
+
+<Row>
+
+<Column colMd={6} colLg={6}>
+
+![A lead space with the heading "A new data-driven architecture" with "data-driven" highlighted in blue](../../images/component/lead-space/lead-space-modifier-heading-highlight-01.png)
+
+<Caption>
+  An example of a word highlighted near the center of the heading
+</Caption>
+
+</Column>
+
+<Column colMd={6} colLg={6}>
+
+![A lead space with the heading "IBM Security Framing & Discovery Workshop" with "IBM Security" highlighted in blue](../../images/component/lead-space/lead-space-modifier-heading-highlight-02.png)
+
+<Caption>An example of a word highlighted at the start of the heading</Caption>
+
+</Column>
+
+</Row>
 
 ### Wayfinding
 
@@ -188,11 +226,27 @@ A collection of [Tag links](https://www.ibm.com/standards/carbon/components/tag-
 ## Behaviors
 
 On small breakpoint (320px), the background image or video switches to an inline image and is positioned last, after the button
-group, as shown below.
+group, as shown below. The button group displays the primary button first in the order across breakpoints. On mobile, the buttons stack with the primary button appearing first.
 
-![Lead space on mobile](../../images/component/lead-space/component--lead-space--super--behaviors.jpg)
+<Row>
 
-<Caption>Lead space behavior change on mobile (right)</Caption>
+<Column colMd={8} colLg={8}>
+
+![Lead space variants](../../images/component/lead-space/lead-space-behavior-01.png)
+
+<Caption>The Lead space variants</Caption>
+
+</Column>
+
+<Column colMd={4} colLg={4}>
+
+![Lead space variants](../../images/component/lead-space/lead-space-behavior-02.png)
+
+<Caption>The Lead space variants</Caption>
+
+</Column>
+
+</Row>
 
 <ResourceLinks name="Lead space" type="layout" />
 
