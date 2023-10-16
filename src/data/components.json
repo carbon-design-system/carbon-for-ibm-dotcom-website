@@ -833,6 +833,24 @@
         "notAvailable": false
       }
     },
+    "Content item row": {
+      "url": "/components/content-item-row",
+      "designLink": "https://ibm.box.com/s/yiv7f37ktudwx1do7d9mp4bak17wl4dh",
+      "description": "Content item row component displays information in a horizontal orientation.",
+      "storybook": {
+        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-item-row--default",
+        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-content-item-row--default"
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      }
+    },
     "Content section": {
       "url": "/components/content-section",
       "designLink": "https://ibm.box.com/s/oqlsa6m0vfownbn1s2y682mnugsf6cuv",
