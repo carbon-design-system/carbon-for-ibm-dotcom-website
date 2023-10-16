@@ -41,24 +41,6 @@ export const ResourceLinks = ({
     <>
       {multiComponent ? <H3>Resources for {name}</H3> : <H2>Resources</H2>}
       <CardGroup>
-        {components[type][name].storybook.react && (
-          <MiniCard
-            linkProps={{ target: '_blank', rel: 'noopener' }}
-            title="React Storybook"
-            href={components[type][name].storybook.react}
-          >
-            <img src={reactIcon} alt="React" />
-          </MiniCard>
-        )}
-        {components[type][name].storybook.reactwrapper && (
-          <MiniCard
-            linkProps={{ target: '_blank', rel: 'noopener' }}
-            title="React wrapper Storybook"
-            href={components[type][name].storybook.reactwrapper}
-          >
-            <img src={reactIcon} alt="React wrapper" />
-          </MiniCard>
-        )}
         {components[type][name].storybook.webcomponents && (
           <MiniCard
             linkProps={{ target: '_blank', rel: 'noopener' }}
@@ -66,6 +48,15 @@ export const ResourceLinks = ({
             href={components[type][name].storybook.webcomponents}
           >
             <img src={webComponentsIcon} alt="Web Components" />
+          </MiniCard>
+        )}
+        {components[type][name].storybook.reactwrapper && (
+          <MiniCard
+            linkProps={{ target: '_blank', rel: 'noopener' }}
+            title="Web Components React wrapper Storybook"
+            href={components[type][name].storybook.reactwrapper}
+          >
+            <img src={reactIcon} alt="Web Components React wrapper" />
           </MiniCard>
         )}
       </CardGroup>
