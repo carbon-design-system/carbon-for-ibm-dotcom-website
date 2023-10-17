@@ -105,15 +105,35 @@ As with tabs extended, some content will be hidden until the user interacts with
 
 ### Content guidance for Tabs extended media
 
-| Element                                                                                                                     | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes          |
-| --------------------------------------------------------------------------------------------------------------------------- | ------------ | -------- | --------- | ------------------------------------------- | -------------- |
-| Tabs extended                                                                                                               | Component    | Yes      | 1         | –                                           |                |
-| [Content item row with media](https://www.ibm.com/standards/carbon/components/content-item-row#content-item-row-with-media) | Component    | Yes      | 1         | –                                           | Max 1 per tab. |
+| Element                                                                                   | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes          |
+| ----------------------------------------------------------------------------------------- | ------------ | -------- | --------- | ------------------------------------------- | -------------- |
+| Tabs extended                                                                             | Component    | Yes      | 1         | –                                           |                |
+| [Content item row with media](../components/content-item-row#content-item-row-with-media) | Component    | Yes      | 1         | –                                           | Max 1 per tab. |
 
 ## Behaviors
 
 ### Overflow
 
 When the tabs extended options would be hidden due to the window becoming too small, overflow buttons will automatically appear on the sides of the component. These buttons allow users to navigate the entire tabs extended to see all options regardless of screen size. Note that this functionality occurs across all breakpoints, not just mobile.
+
+<Row>
+
+<Column colMd={8} colLg={8}>
+
+![Tabs extended with an overflow on desktop, in which case an overflow button appears to indicate that there is more content out of view](../../images/component/tabs-extended/tabs-extended-behavior-01.png)
+
+<Caption>Tabs extended with an overflow on desktop.</Caption>
+
+</Column>
+
+<Column colMd={4} colLg={4}>
+
+![Tabs extended with an overflow on mobile, in which case an overflow button appears to indicate that there is more content out of view](../../images/component/tabs-extended/tabs-extended-behavior-02.png)
+
+<Caption>Tabs extended with an overflow on mobile.</Caption>
+
+</Column>
+
+</Row>
 
 <ComponentFooter name="Tabs extended" type="ui" />
