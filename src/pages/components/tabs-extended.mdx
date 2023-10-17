@@ -15,7 +15,8 @@ import ResourceLinks from 'components/ResourceLinks';
 
 <AnchorLinks>
   <AnchorLink>Overview</AnchorLink>
-  <AnchorLink>Variants</AnchorLink>
+  <AnchorLink>Tabs extended</AnchorLink>
+  <AnchorLink>Tabs extended with media</AnchorLink>
   <AnchorLink>Behaviors</AnchorLink>
   <AnchorLink>Feedback</AnchorLink>
 </AnchorLinks>
@@ -30,41 +31,23 @@ import ResourceLinks from 'components/ResourceLinks';
 
 Tabs extended displays parallel pieces of related content, allowing users to explore the displayed content of their choice. It also has the benefit of reducing the amount of scrolling the user may have to do on a given page, but should be used carefully because some information is hidden on load. If the information in a tab would be key to the page content, consider laying out the content using a different component.
 
-The Tabs extended component uses the Carbon Design System's [tabs](https://carbondesignsystem.com/components/tabs/usage/) component directly, and includes additional style updates to optimize for editorial content.
+The tabs extended component uses the Carbon Design System's [tabs](https://carbondesignsystem.com/components/tabs/usage/) component directly, and includes additional style updates to optimize for editorial content.
 
 <Row>
 <Column colMd={8} colLg={8}>
 
-![Image of Tabs extended component on desktop](../../images/component/tabs-extended/components--tabs-extended-1.png)
+![Image of Tabs extended component on desktop. Tabs extended displays a set of options with different labels, with one option in semibold type to indicate that it is selected](../../images/component/tabs-extended/tabs-extended-overview-01.png)
 
-<Caption>Example of the tabs extended, on desktop</Caption>
+<Caption>Example of the tabs extended on desktop</Caption>
 
 </Column>
 </Row>
 
 Like tabs, tabs extended will expand a given item horizontally to display the whole label without truncating. Keep this in mind as you write selection items for tabs extended, as overly long labels can push other options out of the initial view. Also consider translation lengthening the label.
 
-We recommend nesting similar components in sequence, rather than varying the types of components displayed in a given tabs experience.
+## Tabs extended
 
-<Row>
-
-<Column colMd={6} colLg={6}>
-
-![Tabs extended displaying content item row. The first item in tabs extended is selected, and the corresponding content is displayed](../../images/component/tabs-extended/tabs-extended-overview-02.png)
-
-<Caption>Tabs extended displaying the first instance of content</Caption>
-
-</Column>
-
-<Column colMd={6} colLg={6}>
-
-![Tabs extended displaying content item row. The second item in tabs extended is selected, and the corresponding content is displayed](../../images/component/tabs-extended/tabs-extended-overview-03.png)
-
-<Caption>Tabs extended displaying the second instance of content</Caption>
-
-</Column>
-
-</Row>
+Tabs extended can nest other components inside its content area to display them in sequence. We recommend nesting similar components in sequence, rather than varying the types of components displayed in a given tabs experience.
 
 <ResourceLinks name="Tabs extended" type="ui" multiComponent />
 
@@ -78,32 +61,44 @@ We recommend nesting similar components in sequence, rather than varying the typ
 
 For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
 
-## Variants
+## Tabs extended with media
 
-### Tabs extended with media
-
-Tabs extended with media is a prebuilt variant of tabs extended which provides an option where the tab panel is pre-populated with the [Content item row](/components/content-item-row) with media component to create an organized section for displaying content paired with media. Keep in mind that when using tabs, some content will be hidden until the user interacts with the component, so they should not be used for information that is considered critical.
+Tabs extended with media is a prebuilt variant of tabs extended which provides an option where the tab panel is pre-populated with the [Content item row](/components/content-item-row) with media component to create an organized section for displaying content paired with media.
 
 <Row>
 <Column colMd={8} colLg={8}>
 
-![Image of Tabs extended with media component](../../images/component/tabs-extended/components--tabs-extended-media-1.png)
+![Image of Tabs extended component on desktop. Tabs extended displays a set of options with different labels, with one option in semibold type to indicate that it is selected](../../images/component/tabs-extended/tabs-extended-with-media-01.png)
 
-<Caption>Example of the tabs extended media, on desktop</Caption>
+<Caption>Example of the tabs extended on desktop</Caption>
 
 </Column>
 </Row>
 
-On mobile, Tabs extended media renders as an accordion for easier browsing.
+As with tabs extended, some content will be hidden until the user interacts with the component, so tabs extended with media should not be used for information that is considered critical.
 
 <Row>
-<Column colMd={4} colLg={4}>
 
-![Image of Tabs extended media component](../../images/component/tabs-extended/components--tabs-extended-media-2.png)
+<Column colMd={6} colLg={6}>
 
-<Caption>Example of the tabs extended media, on mobile</Caption>
+![Tabs extended displaying content item row. The first item in tabs extended is selected, and the corresponding content is displayed](../../images/component/tabs-extended/tabs-extended-with-media-02.png)
+
+<Caption>
+  Tabs extended with media displaying the first instance of content
+</Caption>
 
 </Column>
+
+<Column colMd={6} colLg={6}>
+
+![Tabs extended displaying content item row. The second item in tabs extended is selected, and the corresponding content is displayed](../../images/component/tabs-extended/tabs-extended-with-media-03.png)
+
+<Caption>
+  Tabs extended with media displaying the second instance of content
+</Caption>
+
+</Column>
+
 </Row>
 
 <ResourceLinks name="Tabs extended media" type="layout" multiComponent />
