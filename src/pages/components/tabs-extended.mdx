@@ -20,17 +20,19 @@ import ResourceLinks from 'components/ResourceLinks';
   <AnchorLink>Feedback</AnchorLink>
 </AnchorLinks>
 
+<InlineNotification>
+
+**Breaking change:** Previously, tabs extended was a separate component in Carbon for IBM.com v1. In v2, tabs extended will use Carbon Design System's tab directly with automatic style updates.
+
+</InlineNotification>
+
 ## Overview
 
-Tabs are useful for displaying parallel pieces of related content. It also has the benefit of reducing the amount of scrolling the user may have to do on a given page, but should be used carefully because some information is hidden on load. If the information in a tab would be key to the page content, consider laying out the content using a different component.
+Tabs extended displays parallel pieces of related content, allowing users to explore the displayed content of their choice. It also has the benefit of reducing the amount of scrolling the user may have to do on a given page, but should be used carefully because some information is hidden on load. If the information in a tab would be key to the page content, consider laying out the content using a different component.
 
 The Tabs extended component uses the Carbon Design System's [tabs](https://carbondesignsystem.com/components/tabs/usage/) component directly, and includes additional style updates to optimize for editorial content. Like tabs, tabs extended will expand a given item horizontally to display the whole label without truncating. Keep this in mind as you write selection items for tabs extended, as overly long labels can push other options out of the initial view.
 
-<InlineNotification>
-
-**Breaking change:** Previously, tabs extended was a separate component in v1. In v2, tabs extended will use Carbon Design System's tab directly with automatic style updates.
-
-</InlineNotification>
+We recommend nesting similar components in sequence, rather than varying the types of components displayed in a given tabs experience.
 
 <Row>
 <Column colMd={8} colLg={8}>
