@@ -30,7 +30,7 @@ import ResourceLinks from 'components/ResourceLinks';
 
 Tabs extended displays parallel pieces of related content, allowing users to explore the displayed content of their choice. It also has the benefit of reducing the amount of scrolling the user may have to do on a given page, but should be used carefully because some information is hidden on load. If the information in a tab would be key to the page content, consider laying out the content using a different component.
 
-The Tabs extended component uses the Carbon Design System's [tabs](https://carbondesignsystem.com/components/tabs/usage/) component directly, and includes additional style updates to optimize for editorial content. Like tabs, tabs extended will expand a given item horizontally to display the whole label without truncating. Keep this in mind as you write selection items for tabs extended, as overly long labels can push other options out of the initial view.
+The Tabs extended component uses the Carbon Design System's [tabs](https://carbondesignsystem.com/components/tabs/usage/) component directly, and includes additional style updates to optimize for editorial content. Like tabs, tabs extended will expand a given item horizontally to display the whole label without truncating. Keep this in mind as you write selection items for tabs extended, as overly long labels can push other options out of the initial view. Also consider translation lengthening the label.
 
 We recommend nesting similar components in sequence, rather than varying the types of components displayed in a given tabs experience.
 
@@ -43,6 +43,18 @@ We recommend nesting similar components in sequence, rather than varying the typ
 
 </Column>
 </Row>
+
+<ResourceLinks name="Tabs extended" type="ui" multiComponent />
+
+### Content guidance for Tabs extended
+
+| Element                                                                                                                | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes                                                                                         |
+| ---------------------------------------------------------------------------------------------------------------------- | ------------ | -------- | --------- | ------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| Child container                                                                                                        | Component    | Yes      | Min 2     | –                                           | Container areas that child components and other content types can be passed into (1 per tab). |
+| <a href="https://www.carbondesignsystem.com/components/tabs/usage/" target="_blank" rel="noopener noreferrer">Tabs</a> | Component    | Yes      | 2–6       | –                                           | Tab renders as an accordion for medium breakpoint and smaller.                                |
+| Tab item                                                                                                               | Text         | Yes      | –         | 25 / 35                                     | When using vertical orientation max character count = 40 / 55.                                |
+
+For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
 
 ## Variants
 
@@ -86,19 +98,5 @@ On mobile, Tabs extended media renders as an accordion for easier browsing.
 ### Overflow
 
 When the tabs extended options would be hidden due to the window becoming too small, overflow buttons will automatically appear on the sides of the component. These buttons allow users to navigate the entire tabs extended to see all options regardless of screen size. Note that this functionality occurs across all breakpoints, not just mobile.
-
-<ResourceLinks name="Tabs extended" type="ui" multiComponent />
-
-### Content guidance for Tabs extended
-
-| Element                                                                                                                | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes                                                                                         |
-| ---------------------------------------------------------------------------------------------------------------------- | ------------ | -------- | --------- | ------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| Child container                                                                                                        | Component    | Yes      | Min 2     | –                                           | Container areas that child components and other content types can be passed into (1 per tab). |
-| <a href="https://www.carbondesignsystem.com/components/tabs/usage/" target="_blank" rel="noopener noreferrer">Tabs</a> | Component    | Yes      | 2–6       | –                                           | Tab renders as an accordion for medium breakpoint and smaller.                                |
-| Tab item                                                                                                               | Text         | Yes      | –         | 25 / 35                                     | When using vertical orientation max character count = 40 / 55.                                |
-
-For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
-
-For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
 
 <ComponentFooter name="Tabs extended" type="ui" />
