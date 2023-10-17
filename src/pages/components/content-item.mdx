@@ -1,10 +1,8 @@
 ---
 title: Content item
 description:
-  The Content item is a basic-level content component that acts as a primary content unit, and it is used inside a
-  content group to build web experiences on IBM dotcom pages. It can encapsulate basic content (a heading, a
-  description, a media element – image or video – and a CTA) and brings them all together into a content component which
-  solves a specific problem for the user.
+  The content item component is a basic-level content component that is used inside a
+  higher level content component to build web experiences on IBM.com pages. It can encapsulate media and text content and allows for more variation in an editorial experience.
 ---
 
 import ComponentDescription from 'components/ComponentDescription';
@@ -15,122 +13,120 @@ import ResourceLinks from 'components/ResourceLinks';
 
 <AnchorLinks>
 
-<AnchorLink>Resources</AnchorLink>
 <AnchorLink>Overview</AnchorLink>
+<AnchorLink>Modifiers</AnchorLink>
 <AnchorLink>Behaviors</AnchorLink>
-<AnchorLink>Tips and techniques</AnchorLink>
+<AnchorLink>Resources</AnchorLink>
 <AnchorLink>Content guidance</AnchorLink>
-<AnchorLink>Related components</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
 
-<ResourceLinks name="Content item" type="layout" />
-
 ## Overview
 
-The Content item component can be customized for different types of web experiences. It can be used multiple times
-inside of a Content group as a list of items of the same type.
+The content item component can be customized for different types of web experiences. It can be used on its own or in a collection of items of the same type. It is recommended to maintain a consistent, hierarchical approach when adding content to a web page.
 
 <Row>
 
 <Column colMd={8} colLg={8}>
 
-![A visual example of the Content item component](../../images/component/content-item/component--content-item--overview.png)
+![A visual example of the content item component](../../images/component/content-item/content-item-overview.png)
 
 </Column>
 
 </Row>
 
-<Caption>Anatomy of Content item component</Caption>
-
-<br />
-
-1. **Heading:** A customizable heading for the Content item component.
-2. **Media (image or video):** You can add image or video inside of a Content item.
-3. **Description:** Use this option for a short description of the Content item.
-4. **CTA:** Use this as a call to action for the Content item.
+<Caption>A content item featuring a vertical orientation and an image</Caption>
 
 #### When to use
 
-Use Content item when you need to organize a group of content elements into a content unit. It can live inside of a
-Content group component. One of the advantages of the content item is that it is consistent throughout the IBM.com
-pages.
+Use content item when you need to organize a group of content elements into a content unit. It can live inside of
+larger content components such as [content section](../components/content-section) or [content group](../components/content-group) . One of the advantages of the content item is that it is consistent throughout the IBM.com pages. Consider using content item when there is no need for a link.
 
 #### When not to use
 
-Do not look to Content item as a replacement for a Content block or a Content group. Do not add it inside a Content
-section’s children container. A Content item should not live directly inside a Content section due to conflicts of
-hierarchy.
+Do not look to content item as a replacement for a content section or a content group.
 
-## Behaviors
+## Modifiers
 
-The Content item elements are persistent throughout the online experience. The component is fully responsive and the
-display adjusts with different browser sizes.
+### Media
 
-#### Desktop breakpoints
-
-If the browser is wider than the max breakpoint of 1584px, the Content item and all other page content will center and
-and the margins on either side of the page layout will increase. The Content item usually takes the centered 8 columns
-of the grid. It is possible to lay out a Content item on 4 columns, making the reading experience in certain situations
-more efficient. If you need item groupings, it is recommended to use the Content group component.
-
-#### Mobile breakpoints
-
-For the medium breakpoint, the Content item may take all 8 or, as seen below, just 4 grid columns. For the small
-breakpoint, the Content item will always take all 4 grid columns.
+Content item can be displayed with a relevant Pictogram, Logo, Image, or Statistic to visually enhance the messaging. Only one media element can be added to each content item. Certain media elements allow for vertical or horizontal orientation.
 
 <Row>
 
-<Column colMd={4} colLg={6}>
+<Column colMd={8} colLg={8}>
 
-![A visual example of the Content item component](../../images/component/content-item/component--content-item--behaviors-desktop.png)
+![Examples of content item with different media: logo, image, statistic, pictogram](../../images/component/content-item/content-item-media.png)
 
-<Caption>Content item on 8 columns</Caption>
+</Column>
+
+</Row>
+
+<Caption>
+  Examples of content item featuring different media. From top left to bottom
+  right: Logo, Image, Statistic, Pictogram
+</Caption>
+
+| Variant      | Purpose                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| _Logo_       | A logo added to a content item can draw attention to key IBM partners and clients. Logo uses a set aspect ratio for the image container to ensure all logos maintain a similar hierarchy within a group. IBM teams should utilize the centralized logo assets from the [Digital Asset Management system](https://w3.ibm.com/w3publisher/digital-asset-management). _Logo can only appear in vertically-aligned content item_.                               |
+| _Image_      | Adding a relevant image can capture attention as the user scrolls the page content. High resolution photography and illustration can vary page content and provide visual interest. _Image can appear in a horizontally or vertically-aligned content item_.                                                                                                                                                                                                |
+| _Statistics_ | Adding a statistic to content item can highlight key data points, outcomes, and trends. These make it easier to focus attention around a product or case study. _Statistic can only be displayed in a vertically-aligned content item_.                                                                                                                                                                                                                     |
+| _Pictogram_  | Pictograms add visual interest to content items that help reinforce understanding about a particular topic. Pictograms excel at representing abstract ideas such as industries, technology, and functions. The Pictogram option can also display an [IBM app icon](https://www.ibm.com/design/language/iconography/app-icons/library) at the same size instead of a Pictogram. _Pictogram can appear in a horizontally or vertically-aligned content item_. |
+
+### Orientation
+
+Once a media element is added to a content item, you can select its orientation for certain media elements: either vertical or horizontal. Note that when used in a group, each content item should have the same orientation.
+
+<Row>
+
+<Column colMd={4} colLg={4}>
+
+![Content item with vertically alignment, where the pictogram appears above the heading, copy, and link](../../images/component/content-item/content-item-orientation-I.png)
+
+<Caption>Content item with vertical alignment</Caption>
 
 </Column>
 
 <Column colMd={4} colLg={4}>
 
-![A visual example of the Content item component](../../images/component/content-item/component--content-item--behaviors-mobile.png)
+![Content item with horizontal alignment, where the pictogram appears next to the heading, copy, and link](../../images/component/content-item/content-item-orientation-II.png)
 
-<Caption>Content item on 4 columns</Caption>
+<Caption>Content item with horizontal alignment</Caption>
 
 </Column>
 
 </Row>
 
-## Tips and techniques
+| Variant      | Purpose                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| _Vertical_   | The vertical orientation places the media addition above the heading and body copy content across all breakpoints. Vertical orientation supports all media additions for content item: Image, Pictogram, Statistic, and Logos.                                                                                                                                                                                                                 |
+| _Horizontal_ | The horizontal orientation places the media side-by-side with the heading and body copy content across larger breakpoints. Note that on the mobile breakpoint, content items that are horizontally aligned will swap to a vertical alignment for better visibility. Horizontal orientation supports the following media for content item: Image, Pictogram, and App icon. _Statistic and Logo are only available in the vertical orientation._ |
 
-The Content item elements are persistent throughout the online experience. It is fully responsive and changes how
-elements are displayed based on the browser size.
+## Behaviors
 
-It is recommended to maintain a consistent, hierarchical approach when adding content to a web page. Start with a
-Content section, add Content blocks to it, then add Content groups inside the Content blocks and, in the end, add your
-Content items inside of the Content groups.
+Content item has multiple options that are fully responsive.
 
-For consistency reasons, it's important to always keep multiple related Content items in a Content group.
+#### Desktop breakpoints
 
-If you need to add different types of Content items, use a Content group component for each type. It’s okay (but not
-recommended) to have a Content group with only one Content item.
+If the browser is wider than the max breakpoint of 1584px, the content item and all other page content will center and the margins on either side of the page layout will increase.
+
+The vertically oriented content items span 8 columns of the 16 column grid, while the horizontally oriented content items span 4 columns of the grid. Depending on the content of the page, one orientation may work better for your design than the other.
+
+<ResourceLinks name="Content item" type="layout" />
 
 ## Content guidance
 
-| Element                                                    | Content type                                                                                                                       | Required | Instances | Character limit <br/>(English / translated) | Notes                                |
-| ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------- | --------- | ------------------------------------------- | ------------------------------------ |
-| Heading                                                    | Text                                                                                                                               | No       | 1         | 40 / 55                                     |                                      |
-| Copy                                                       | Text                                                                                                                               | No       | 1         | 150 / 200                                   |                                      |
-| Media                                                      | [Image](https://www.ibm.com/standards/carbon/components/images/) or [Video](https://www.ibm.com/standards/carbon/components/video) | No       | 1         | –                                           | Image with caption may also be used. |
-| [CTA](https://www.ibm.com/standards/carbon/components/cta) | Component                                                                                                                          | No       | 1         | 25 / 35                                     | Text or button style only.           |
-| Image alt text                                             | Text                                                                                                                               | No       | 1         | 75 / 100                                    | Image description for accessibility. |
+| Element                                                    | Content type                                                                                                                                   | Required | Instances | Character limit <br/>(English / translated) | Notes                                |
+| ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------- | ------------------------------------------- | ------------------------------------ |
+| Heading                                                    | Text                                                                                                                                           | No       | 1         | 40 / 55                                     |                                      |
+| Copy                                                       | Text                                                                                                                                           | No       | 1         | 150 / 200                                   |                                      |
+| Media                                                      | [Image](https://www.ibm.com/standards/carbon/components/images/), [Video](https://www.ibm.com/standards/carbon/components/video), or Pictogram | No       | 1         | –                                           | Image with caption may also be used. |
+| Image alt text                                             | Text                                                                                                                                           | No       | 1         | 75 / 100                                    | Image description for accessibility. |
+| Statistic heading                                          | Text                                                                                                                                           | Yes      | 1         | 5 / 5                                       | Statistic variant only               |
+| [CTA](https://www.ibm.com/standards/carbon/components/cta) | Component                                                                                                                                      | No       | 1         | 25 / 35                                     | Text or button style only.           |
 
 For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
-
-## Related components
-
-| Component name                                                                       | Description                                                                                                                                                                        |
-| ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Content item row](https://www.ibm.com/standards/carbon/components/content-item-row) | Content item row is a Content item with link list that takes the last 12 grid columns on desktop breakpoints. It does not have the grid flexibility of the Content item component. |
-| [Pictogram item](https://www.ibm.com/standards/carbon/components/pictogram-item)     | Pictogram item is a Content item which adds a pictogram in the first 2 columns of an 8 grid column container. The rest of the content is positions on the last 6 grid columns.     |
 
 <ComponentFooter name="Content item" type="layout" />

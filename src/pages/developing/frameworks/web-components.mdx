@@ -1,7 +1,7 @@
 ---
 title: Frameworks
 description: Carbon for IBM.com Web Components, using Custom Elements v1 and Shadow DOM v1 specs.
-tabs: ['Web Components', 'React', 'React wrapper']
+tabs: ['Web Components', 'React wrapper']
 ---
 
 import { Link } from 'gatsby';
@@ -19,7 +19,6 @@ standard with native support, supported in all modern browsers.
   <AnchorLink>IBM.com shell</AnchorLink>
   <AnchorLink>Available components</AnchorLink>
   <AnchorLink>Web components template</AnchorLink>
-  <AnchorLink>React wrapper</AnchorLink>
   <AnchorLink>Using with Carbon Web Components</AnchorLink>
 </AnchorLinks>
 
@@ -37,11 +36,10 @@ Using [Yarn](https://yarnpkg.com/en/):
 yarn add @carbon/ibmdotcom-web-components
 ```
 
-### lit-html / lit-element
+### lit
 
-`@carbon/ibmdotcom-web-components` uses [`lit-html`](https://lit-html.polymer-project.org) for reactive templating on
-top of the Web Components standard, and [`lit-element`](https://lit-element.polymer-project.org) for reactive
-properties/attributes on top of `lit-html`. These are already installed as `dependencies` within the project.
+`@carbon/ibmdotcom-web-components` uses [`lit`](https://lit.dev/) for reactive templating on
+top of the Web Components standard.
 
 ## Install via CDN
 
@@ -180,7 +178,7 @@ View the `<dds-dotcom-shell>` in [Storybook Web Components](http://www.ibm.com/s
 
 <Column colMd={4} colLg={4} noGutterSm>
 <ResourceCard
-  subTitle="Carbon for IBM.com Storybook Web Components"
+  subTitle="Carbon for IBM.com Web Components Storybook"
   href="https://www.ibm.com/standards/carbon/web-components/"
   target="_blank"
 >
@@ -198,29 +196,8 @@ If you are looking to build out a light static site using Web Components, the
 This includes the default configurations for the `<DotcomShell>`, some sample components to get you started, as well as
 configurable translation files to ensure your page can be internationalized.
 
-## React wrapper
-
-Our team builds new components for Carbon for IBM.com as web components first. Anything that currently does not exist
-in the <Link to="/developing/frameworks/react">React</Link> framework, are provided as web components with a React
-wrapper for seamless integration into a React application.
-
-<Row className="resource-card-group">
-
-<Column colMd={4} colLg={4} noGutterSm>
-<ResourceCard
-  subTitle="Carbon for IBM.com Storybook Web Components with React"
-  href="https://www.ibm.com/standards/carbon/web-components/react/"
-  target="_blank"
->
-
-![Storybook React](./../../../images/icon/react-icon.svg)
-
-</ResourceCard>
-</Column>
-</Row>
-
 ## Using with Carbon Web Components
 
-Carbon for IBM.com Web Components uses the Carbon Web Components library (`carbon-web-components`) under the hood.
-When building your IBM.com application, both libraries can be used together. Carbon Web Components is the web component
-version of core Carbon Design System. [Learn more about Carbon Web Components](https://carbondesignsystem.com/developing/frameworks/web-components).
+Carbon for IBM.com Web Components uses the [@carbon/web-components](https://www.npmjs.com/package/@carbon/web-components) package under the hood.
+When building your IBM.com application, both libraries can be used together. `@carbon/web-components` is the web component
+version of Carbon Design System's [@carbon/react](https://www.npmjs.com/package/@carbon/react) package. [Learn more about Carbon Web Components](https://carbondesignsystem.com/developing/frameworks/web-components).
