@@ -1,14 +1,15 @@
 ---
 title: Frameworks
 description: Carbon for IBM.com Web Components, using Custom Elements v1 and Shadow DOM v1 specs.
-tabs: ['Web Components', 'React', 'React wrapper']
+tabs: ['Web Components', 'React wrapper']
 ---
 
 import { Link } from 'gatsby';
 
 <PageDescription>
 
-Our team builds new components for Carbon for IBM.com as web components first. Anything that currently does not exist in the React framework, is provided as a web component with a React wrapper for seamless integration into a React application.
+Our team builds new components for Carbon for IBM.com as web components first. All components are provided as web components with a React
+wrapper for seamless integration into a React application.
 
 </PageDescription>
 
@@ -18,7 +19,6 @@ Our team builds new components for Carbon for IBM.com as web components first. A
   <AnchorLink>Getting started</AnchorLink>
   <AnchorLink>NextJS template</AnchorLink>
   <AnchorLink>Available components</AnchorLink>
-  <AnchorLink>Using with Carbon Web Components</AnchorLink>
 </AnchorLinks>
 
 ## Why React wrappers?
@@ -40,11 +40,10 @@ Using [Yarn](https://yarnpkg.com/en/):
 yarn add @carbon/ibmdotcom-web-components
 ```
 
-### lit-html / lit-element
+### lit
 
-`@carbon/ibmdotcom-web-components` uses [`lit-html`](https://lit-html.polymer-project.org) for reactive templating on
-top of the Web Components standard, and [`lit-element`](https://lit-element.polymer-project.org) for reactive
-properties/attributes on top of `lit-html`. These are already installed as `dependencies` within the project.
+`@carbon/ibmdotcom-web-components` uses [`lit`](https://lit.dev/) for reactive templating on
+top of the Web Components standard.
 
 ## Getting started
 
@@ -56,10 +55,9 @@ properties/attributes on top of `lit-html`. These are already installed as `depe
 
 ## NextJS template
 
-If you are looking to build out a light static site, the
-[NextJS template](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-nextjs-template) is available (using the
-React version of the Carbon for IBM.com). We also have a [NextJS test](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-nextjs-test) page
-setup which includes both React and React wrapper components.
+To build a light static site, the
+[NextJS test](https://github.com/carbon-design-system/carbon-for-ibm-dotcom-nextjs-test) page
+is available which includes all components with React wrappers.
 
 ## Available components
 
@@ -67,7 +65,7 @@ setup which includes both React and React wrapper components.
 
 <Column colMd={4} colLg={4} noGutterSm>
 <ResourceCard
-  subTitle="Carbon for IBM.com Storybook React wrapper"
+  subTitle="Carbon for IBM.com React wrapper Storybook"
   href="https://www.ibm.com/standards/carbon/web-components/react/"
   target="_blank"
 >
@@ -77,11 +75,3 @@ setup which includes both React and React wrapper components.
 </ResourceCard>
 </Column>
 </Row>
-
-## Using with Carbon Web Components
-
-Carbon for IBM.com Web Components uses the Carbon Web Components library (`carbon-web-components`) under the hood.
-When building your IBM.com application, both libraries can be used together. Carbon Web Components is the web component
-version of core Carbon Design System. Just like how Carbon for IBM.com offers React wrappers, Carbon Web Components also offers React wrappers.
-[Learn more about Carbon Web Components](https://carbondesignsystem.com/developing/frameworks/web-components).
-The pure Carbon React library (`@carbon/react`) can also be used with the React wrappers.
