@@ -713,7 +713,7 @@
     "Content group": {
       "url": "/components/content-group",
       "designLink": "https://ibm.box.com/s/5n0sj6b3kkicnwimxmgnwb5owm46g8wz",
-      "description": "Content group acts as a content unit, and is used inside a Content section or a Content block. It can contain basic content components (one or multiple content items of the same kind), bringing them together into highly-customized solutions for the user.",
+      "description": "Content group acts as a content unit, and is used inside a content section or a content block. It can contain basic content components (one or multiple content items of the same kind), bringing them together into highly-customized solutions for the user.",
       "storybook": {
         "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-group--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-content-group--default"
