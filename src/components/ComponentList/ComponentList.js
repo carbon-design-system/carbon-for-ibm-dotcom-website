@@ -38,13 +38,6 @@ const renderItem = ({ name, component }) => (
     {/* eslint-disable-next-line react/no-danger */}
     <td dangerouslySetInnerHTML={{ __html: component.description }} />
     <td>
-      {Object.keys(component.react)
-        .filter((key) => component.react[key])
-        .map((key) => (
-          <React.Fragment key={key}>{tags[key]}</React.Fragment>
-        ))}
-    </td>
-    <td>
       {Object.keys(component.webcomponents)
         .filter((key) => component.webcomponents[key])
         .map((key) => (
@@ -67,7 +60,6 @@ const ComponentList = (props) => {
             <tr>
               <th>Component</th>
               <th>Description</th>
-              <th>React</th>
               <th>Web Components</th>
             </tr>
           </thead>

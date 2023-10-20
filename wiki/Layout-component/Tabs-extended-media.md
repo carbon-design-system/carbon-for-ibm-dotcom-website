@@ -1,7 +1,7 @@
 `Decorator` <!-- category start --><!-- category end -->
 
 [[Tabs extended media]] depends on the [[Tabs extended]] component and
-structures its content using the [[Content item horizontal]] component.
+structures its content using the [[Content item row]] component.
 
 ![image](https://user-images.githubusercontent.com/3793636/119085569-9b4cd180-b9c9-11eb-90bc-0edac990d8a5.png)
 
@@ -13,7 +13,7 @@ structures its content using the [[Content item horizontal]] component.
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
 - [[Tabs extended]]
-- [[Content item horizontal]]
+- [[Content item row]]
 
 <br />
 </details>
