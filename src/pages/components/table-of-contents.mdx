@@ -112,19 +112,15 @@ The horizontal variation displays the table of content navigation links in a row
 - The horizontal version should not be used with a center aligned lead space because the text alignment disrupts the user's reading flow. In that situation, consider using the vertical ToC with lead space centered or lead space block.
 - The horizontal version should not be placed immediately below the IBM masthead.
 
-## Behaviors
+### Behaviors
 
-### Sticky behavior
+#### Sticky behavior
 
 The table of contents is sticky to provide context to the user about where they are within a given page. We recommend focusing the user and showcasing a single form of navigation at a time on a given page, as the user scrolls down the page the table of contents will stick to the top of the browser window and push the masthead out of the viewport. If the user scrolls back up the page, the masthead will come back into view. 
 
 #### Desktop (lg, xl, and max)
 
-The horizontal ToC sticks to the top of the page and pushes the Masthead out of view on the lg, xlg and max breakpoints.
-
-#### Mobile (sm and md)
-
-Both vertical and horizontal versions of the ToC change to a dropdown on md and sm breakpoints. The dropdown sticks to the top of the page and pushes the Masthead out of view. When the user scrolls up the Masthead re-appears and pushes the ToC down.
+The horizontal ToC sticks to the top of the page and pushes the masthead out of view on the lg, xlg and max breakpoints.
 
 #### Mobile
 
@@ -160,27 +156,43 @@ The ToC should never extend more than the screen height so that it can be effect
 
 ### Labels
 
-The Table of contents labels should inform users what information they will find within a given section of a page.
+The table of contents labels should inform users what information they will find within a given section of a page.
 
-Table of contents labels and the page headers they link to should be the same or a shortened version of the page header to establish a clear relationship between the ToC and the corresponding page section, see some of the example images below.
+Table of contents labels and the page headers they link to should be the same or a shortened version of the content block heading to establish a clear relationship between the ToC and the corresponding page section, see the example image below.
 
-#### Default
+#### Vertical
 
 The default ToC can accommodate multi-line labels, and therefore can generally match the page header.
 
-![Image of the vertical table of contents and corresponding page title](../../images/component/table-of-contents/table-of-contents--labels-vertical.png)
+<Row>
+
+<Column colMd={8} colLg={8}>
+
+![Image of the vertical table of contents and corresponding page title](../../images/component/table-of-contents/toc-vertical-labels.png)
+
+</Column>
+
+</Row>
 
 1. ToC label
 2. Content block header
 
 #### Horizontal
 
-The horizontal ToC is best suited for simple one to two word labels that are shortened versions of the page header. The horizontal ToC is typically used in conjunction with [Content section](https://www.ibm.com/standards/carbon/components/content-section) components that render a header in the first four columns from the left, allowing for a more descriptive [Content block](https://www.ibm.com/standards/carbon/components/content-block) headline.
+The horizontal ToC is best suited for simple one to two word labels that are shortened versions of the content section or content block heading. The horizontal ToC is typically used in conjunction with [content section](https://www.ibm.com/standards/carbon/components/content-section) components that render a header in the first four columns from the left, allowing for a more descriptive [content block](https://www.ibm.com/standards/carbon/components/content-block) headline. However, the horizontal ToC can also be paired with the content block heading as seen in the example image below.
 
-![Image of the horizontal table of contents and corresponding page title](../../images/component/table-of-contents/table-of-contents--labels-horizontal.png)
+<Row>
+
+<Column colMd={8} colLg={8}>
+
+![Image of the horizontal table of contents and corresponding page title](../../images/component/table-of-contents/toc-horizontal-labels.png)
+
+</Column>
+
+</Row>
 
 1. ToC label
-2. Content section header
+2. Content block header
 
 <ResourceLinks name="Table of contents" type="layout" />
 
