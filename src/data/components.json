@@ -216,7 +216,7 @@
     "Image": {
       "url": "/components/images",
       "designLink": "https://ibm.box.com/s/zaofzs8ssrfbkgker2lqxyvdnbpxvsly",
-      "description": "The Image and the Image with caption components offer two ways to display imagery on the page.",
+      "description": "The image components offer multiple ways to display imagery in the page.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-image--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-image--default"

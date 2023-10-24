@@ -1,6 +1,6 @@
 ---
 title: Images
-description: The Image and the Image with caption components offer two ways to display imagery on the page.
+description: The image components offer multiple ways to display imagery in the page.
 ---
 
 import ComponentDescription from 'components/ComponentDescription';
@@ -15,17 +15,13 @@ import ResourceLinks from 'components/ResourceLinks';
 
 <AnchorLinks>
   <AnchorLink>Overview</AnchorLink>
-  <AnchorLink>Image</AnchorLink>
-  <AnchorLink>Image with caption</AnchorLink>
+  <AnchorLink>Modifiers</AnchorLink>
   <AnchorLink>Feedback</AnchorLink>
 </AnchorLinks>
 
 ## Overview
 
-There are two image components available. The Image component allows for a simple image on a page. The Image with
-caption component offers the addition of a caption and zoom, which is helpful when showing detailed product shots.
-
-## Image
+Opening TBD
 
 <Row>
 <Column  colLg={8} colMd={8} colSm={4}>
@@ -63,11 +59,11 @@ IBM Web Standards for all type, format, size, and other requirements.
 </Column>
 </Row>
 
-### Modifiers
+## Modifiers
 
-#### Adding a border
+### Border
 
-A 1px `$decorative-01` border can be added to the Image component to help frame images. This is useful when the page
+A light gray border can be added to the Image component to help frame images. This is useful when the page
 background and image background are the same or similar colors.
 
 The border feature is available for images with and without captions.
@@ -83,19 +79,9 @@ The border feature is available for images with and without captions.
 
 <ResourceLinks name="Image" type="ui" multiComponent />
 
-### Content guidance for Image
+### Caption
 
-| Element        | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes                                |
-| -------------- | ------------ | -------- | --------- | ------------------------------------------- | ------------------------------------ |
-| Image alt text | Text         | No       | 1         | 75/100                                      | Image description for accessibility. |
-
-## Image with caption
-
-With the Image with caption component, an image can include a caption beneath to provide more context. In addition, the
-image can be clicked to open a larger version of the image, using the
-[Lightbox media viewer](https://www.ibm.com/standards/carbon/components/lightbox-media-viewer) overlay.
-
-Inside the overlay, the caption becomes the heading and there is an opportunity for additional body text.
+With the Image with caption component, an image can include a caption beneath to provide more context.
 
 <Row>
 <Column colMd={8} colLg={8}>
@@ -106,12 +92,16 @@ Inside the overlay, the caption becomes the heading and there is an opportunity 
 </Row>
 <Caption>When an image has a caption, the user can hover over the image and click to trigger a Lightbox overlay with more information.</Caption>
 
-<ResourceLinks name="Image with caption" type="ui" multiComponent />
+### Lightbox
 
-### Content guidance for Image with caption
+In addition, the image can be clicked to open a larger version of the image, using the
+[Lightbox media viewer](https://www.ibm.com/standards/carbon/components/lightbox-media-viewer) overlay.
 
-Image is a foundational component and does not contain any additional content. Image with caption provides the
-opportunity for additional content, as shown in the following table.
+Inside the overlay, the caption becomes the heading and there is an opportunity for additional body text.
+
+<ResourceLinks name="Image" type="ui" />
+
+### Content guidance
 
 | Element        | Content type | Required | Instances | Character limit <br/>(English/translated) | Notes/Options                                                 |
 | -------------- | ------------ | -------- | --------- | ----------------------------------------- | ------------------------------------------------------------- | --- |
