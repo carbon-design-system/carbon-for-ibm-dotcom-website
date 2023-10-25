@@ -52,9 +52,9 @@ IBM Web Standards for all type, format, size, and other requirements.
 <Row>
 <Column colMd={8} colLg={8}>
 
-![Image of Image default in context](../../images/component/image/image-overview-default.jpg)
+![Example of an image component featuring photography of a team collaborating at a table](../../images/component/image/image-overview.png)
 
-<Caption>Example of an image component</Caption>
+<Caption>Example of an image component using photography.</Caption>
 
 </Column>
 </Row>
@@ -69,26 +69,26 @@ background and image background are the same or similar colors.
 <Row>
 <Column colMd={8} colLg={8}>
 
-![An image with a border](../../images/component/image/image-options-border.jpg)
+![Example of an illustration used in the image component with a matching background to the page. A light gray border separates the image background from the page background](../../images/component/image/image-modifier-border.png)
 
 </Column>
 </Row>
-<Caption>The border helps to separate the image from a background with the same color.</Caption>
+<Caption>The border helps to separate the illustration from a background with the same color.</Caption>
 
 <ResourceLinks name="Image" type="ui" multiComponent />
 
 ### Caption
 
-If an image would benefit from additional context, a caption can be added immediately beneath the media. Captions paired with imagery are useful in editorial experiences.
+If an image would benefit from additional context, a caption can be added immediately beneath the media. Captions paired with imagery are useful in editorial experiences where the image cannot appear on its own or needs additional information.
 
 <Row>
 <Column colMd={8} colLg={8}>
 
-![Image with caption animation](../../images/component/image/image-options-caption.gif)
+![Example of an image with a caption underneath. The image features a computer generated render of a quantum computer inside a laboratory. The caption underneath reads "A rendering of the first IBM Quantum System One on a university campus being installed at RPI."](../../images/component/image/image-modifier-caption.png)
 
 </Column>
 </Row>
-<Caption>Example of an image with an added caption.</Caption>
+<Caption>Example of an image with an added caption underneath.</Caption>
 
 ### Lightbox
 
@@ -98,9 +98,31 @@ Inside the overlay, the caption becomes the heading and there is an opportunity 
 
 If both a border and Lightbox are enabled on a particular image, the Lightbox border will be displayed instead of the lighter border property. If Lightbox is enabled, the cursor will change to `zoom-in` mode while hovering to reinforce the click interaction.
 
+<Row>
+
+<Column colMd={6} colLg={6}>
+
+![Example of an illustration image with lightbox enabled, which adds a border around the iamge and a button with a dark background at the bottom corner with a zoom icon.](../../images/component/image/image-modifier-lightbox-01.png)
+
+<Caption>An example of Lightbox with a light contrast button.</Caption>
+
+</Column>
+
+<Column colMd={6} colLg={6}>
+
+![Example of an image featuring photography with lightbox enabled, which adds a border around the iamge and a button with a light background at the bottom corner with a zoom icon.](../../images/component/image/image-modifier-lightbox-02.png)
+
+<Caption>An example of Lightbox with a dark contrast button.</Caption>
+
+</Column>
+
+</Row>
+
 #### Contrast
 
 Lightbox has two contrast settings: light-contrast and dark-contrast. Either can be chosen to create appropriate contrast between the background media and the lightbox button. These contrast options are not tied to theme, rather they are selected based on the background media.
+
+Note that the border is effected by the Carbon theme, but the Lightbox contrast setting is independent and chosen by the adopter based on the imagery needs.
 
 <ResourceLinks name="Image" type="ui" />
 
@@ -108,10 +130,10 @@ Lightbox has two contrast settings: light-contrast and dark-contrast. Either can
 
 | Element        | Content type | Required | Instances | Character limit <br/>(English/translated) | Notes/Options                                                 |
 | -------------- | ------------ | -------- | --------- | ----------------------------------------- | ------------------------------------------------------------- |
-| Caption        | Text         | No       | 1         | 40 / 55                                   | Becomes heading in lightbox media viewer.                     |
-| Copy           | Text         | No       | 1         | 150 / 200                                 | This is only shown in the lightbox media viewer (if enabled). |
 | Media          | Image        | Yes      | 1         | –                                         | –                                                             |
 | Image alt text | Text         | No       | 1         | 75/100                                    | Image description for accessibility.                          |
+| Caption        | Text         | No       | 1         | 40 / 55                                   | Becomes heading in lightbox media viewer.                     |
+| Copy           | Text         | No       | 1         | 150 / 200                                 | This is only shown in the lightbox media viewer (if enabled). |
 
 For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
 
