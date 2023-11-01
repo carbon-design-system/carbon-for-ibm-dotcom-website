@@ -13,17 +13,15 @@ import ComponentFeedback from 'components/ComponentFeedback';
 
 <AnchorLinks>
 
-<AnchorLink>Resources</AnchorLink>
 <AnchorLink>Overview</AnchorLink>
 <AnchorLink>Anatomy</AnchorLink>
 <AnchorLink>Modifiers</AnchorLink>
 <AnchorLink>Behaviors</AnchorLink>
+<AnchorLink>Resources</AnchorLink>
 <AnchorLink>Content guidance</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
-
-<ResourceLinks name="Lead space search" type="layout" />
 
 ## Overview
 
@@ -32,26 +30,6 @@ Lead space search includes a heading, a Carbon [search](https://carbondesignsyst
 ![A visual example of the Lead space search component](../../images/component/lead-space-search/lead-space-search-default.jpg)
 
 <Caption>Example of the lead space search component</Caption>
-
-## Anatomy
-
-![A visual example of the anatomy of the lead space search component](../../images/component/lead-space-search/lead-space-search-anatomy.png)
-
-<Caption>Anatomy of the lead space search component</Caption>
-
-1. **Heading:** Customizable heading for the lead space search component.
-2. **Subheading:** Optional supporting copy under the heading.
-3. **Search:** Search field component displayed prominently.
-4. **Background media:** Optional media that sits behind the heading and subheading elements.
-
-### Use case
-
-![A visual example of typeahead results being shown by the typehead search from within the lead space search component](../../images/component/lead-space-search/lead-space-search-usecase.jpg)
-
-<Caption>
-  Example of lead space search, showing the typeahead feature. Typeahead
-  suggests results as the user types in the search field.
-</Caption>
 
 ### When to use
 
@@ -64,6 +42,17 @@ Use lead space search when you are displaying multiple items and you need to pro
 If you are not building a content-heavy page, a knowledge base experience, or if you do not need to display a great number of products or services, with categories and other classification criteria, you should consider using another lead space component such as [lead space](../components/leadspace), [lead space centered](../components/lead-space), or [lead space block](../components/lead-space-block).
 
 Lead space search has a contextual, local search, and is not used for global search. If you need a global search option, you can find it in the masthead.
+
+## Anatomy
+
+![A visual example of the anatomy of the lead space search component](../../images/component/lead-space-search/lead-space-search-anatomy.png)
+
+<Caption>Anatomy of the lead space search component</Caption>
+
+1. **Heading:** Customizable heading for the lead space search component.
+2. **Subheading:** Optional supporting copy under the heading.
+3. **Search:** Search field component displayed prominently.
+4. **Background media:** Optional media that sits behind the heading and subheading elements.
 
 ## Modifiers
 
@@ -122,12 +111,6 @@ Note that if the table of contents component is present, the lead space search s
 
 The search component spans 10 columns of the 16 column grid with an overhang of 16px left and right.
 
-![A visual example of the sticky scrolling behavior of lead space search](../../images/component/lead-space-search/lead-space-search--behaviour-desktop.gif)
-
-<Caption>
-  Optional sticky scrolling behavior of the lead space search component
-</Caption>
-
 #### Keyboard interaction
 
 Lead space search includes a `skip to main content` option for keyboard users so they can jump into the main content and/or search results.
@@ -138,29 +121,16 @@ The search component spans 8 columns of the grid for the `md` breakpoint and 4 c
 
 The component can scroll with the page, or adopt a sticky behaviour for the search container. There is no option to display a sticky heading because the search component takes the maximum number of columns.
 
-<Row>
-
-<Column colMd={4} colLg={8}>
-
-![A visual example of the scrolling behavior of the lead space search component on mobile breakpoints](../../images/component/lead-space-search/lead-space-search--behaviour-mobile.gif)
-
-<Caption>
-  Optional sticky scrolling behavior of the lead space search component on small
-  breakpoint
-</Caption>
-
-</Column>
-
-</Row>
+<ResourceLinks name="Lead space search" type="layout" />
 
 ## Content guidance
 
-| Element                 | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes                                    |
-| ----------------------- | ------------ | -------- | --------- | ------------------------------------------- | ---------------------------------------- |
-| Parent navigation       | Option list  | No       | 1         | –                                           | Breadcrumbs or Tag group.                |
-| Heading                 | Text         | Yes      | 1         | 40 / 55                                     |                                          |
-| Sub-heading             | Text         | No       | 1         | 200 / 260                                   |                                          |
-| Search placeholder copy | Text         | Yes      | 1         | 40 / 55                                     | Longer phrases may be cut off on mobile. |
+| Element                 | Content type                                                                                                                               | Required | Instances | Character limit <br/>(English / translated) | Notes                                    |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | -------- | --------- | ------------------------------------------- | ---------------------------------------- |
+| Wayfinding              | [Breadcrumbs](https://carbondesignsystem.com/components/breadcrumb/usage/) or [Tags](https://carbondesignsystem.com/components/tag/usage/) | No       | 1         | –                                           | Breadcrumbs or Tag group.                |
+| Heading                 | Text                                                                                                                                       | Yes      | 1         | 40 / 55                                     |                                          |
+| Sub-heading             | Text                                                                                                                                       | No       | 1         | 200 / 260                                   |                                          |
+| Search placeholder copy | Text                                                                                                                                       | Yes      | 1         | 40 / 55                                     | Longer phrases may be cut off on mobile. |
 
 For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
 
