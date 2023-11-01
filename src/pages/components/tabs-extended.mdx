@@ -15,9 +15,9 @@ import ResourceLinks from 'components/ResourceLinks';
 
 <AnchorLinks>
   <AnchorLink>Overview</AnchorLink>
-  <AnchorLink>Tabs extended</AnchorLink>
-  <AnchorLink>Tabs extended with media</AnchorLink>
   <AnchorLink>Behaviors</AnchorLink>
+  <AnchorLink>Resources</AnchorLink>
+  <AnchorLink>Content guidance</AnchorLink>
   <AnchorLink>Feedback</AnchorLink>
 </AnchorLinks>
 
@@ -34,7 +34,7 @@ Tabs extended displays parallel pieces of related content, allowing users to exp
 The tabs extended component uses the Carbon Design System's [tabs](https://carbondesignsystem.com/components/tabs/usage/) component directly, and includes automatic style updates to optimize for editorial content.
 
 <Row>
-<Column colMd={8} colLg={8}>
+<Column colMd={8} colLg={12}>
 
 ![Image of Tabs extended component on desktop. Tabs extended displays a set of options with different labels, with one option in semibold type to indicate that it is selected](../../images/component/tabs-extended/tabs-extended-overview-01.png)
 
@@ -45,70 +45,7 @@ The tabs extended component uses the Carbon Design System's [tabs](https://carbo
 
 Like tabs, tabs extended will expand a given item horizontally to display the whole label without truncating. Keep this in mind as you write selection items for tabs extended, as overly long labels can push other options out of the initial view. Also consider translation lengthening the label.
 
-## Tabs extended
-
 Tabs extended can nest other components inside its content area to display them based on the user's selection. We recommend nesting similar components in sequence, rather than varying the types of components displayed in a given tabs experience.
-
-<ResourceLinks name="Tabs extended" type="ui" multiComponent />
-
-### Content guidance for Tabs extended
-
-| Element                                                                                                                | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes                                                                                         |
-| ---------------------------------------------------------------------------------------------------------------------- | ------------ | -------- | --------- | ------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| Child container                                                                                                        | Component    | Yes      | Min 2     | –                                           | Container areas that child components and other content types can be passed into (1 per tab). |
-| <a href="https://www.carbondesignsystem.com/components/tabs/usage/" target="_blank" rel="noopener noreferrer">Tabs</a> | Component    | Yes      | 2–6       | –                                           |                                                                                               |
-| Tab item                                                                                                               | Text         | Yes      | –         | 25 / 35                                     |                                                                                               |
-
-For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
-
-## Tabs extended with media
-
-Tabs extended with media is a prebuilt variant of tabs extended which provides an option where the tab panel is pre-populated with the [Content item row](/components/content-item-row) with media component to create an organized section for displaying content paired with media.
-
-<Row>
-<Column colMd={8} colLg={8}>
-
-![Image of Tabs extended component on desktop. Tabs extended displays a set of options with different labels, with one option in semibold type to indicate that it is selected](../../images/component/tabs-extended/tabs-extended-with-media-01.png)
-
-<Caption>Example of the tabs extended on desktop</Caption>
-
-</Column>
-</Row>
-
-As with tabs extended, some content will be hidden until the user interacts with the component, so tabs extended with media should not be used for information that is considered critical.
-
-<Row>
-
-<Column colMd={6} colLg={6}>
-
-![Tabs extended displaying content item row. The first item in tabs extended is selected, and the corresponding content is displayed](../../images/component/tabs-extended/tabs-extended-with-media-02.png)
-
-<Caption>
-  Tabs extended with media displaying the first instance of content
-</Caption>
-
-</Column>
-
-<Column colMd={6} colLg={6}>
-
-![Tabs extended displaying content item row. The second item in tabs extended is selected, and the corresponding content is displayed](../../images/component/tabs-extended/tabs-extended-with-media-03.png)
-
-<Caption>
-  Tabs extended with media displaying the second instance of content
-</Caption>
-
-</Column>
-
-</Row>
-
-<ResourceLinks name="Tabs extended media" type="layout" multiComponent />
-
-### Content guidance for Tabs extended media
-
-| Element                                                                                   | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes          |
-| ----------------------------------------------------------------------------------------- | ------------ | -------- | --------- | ------------------------------------------- | -------------- |
-| Tabs extended                                                                             | Component    | Yes      | 1         | –                                           |                |
-| [Content item row with media](../components/content-item-row#content-item-row-with-media) | Component    | Yes      | 1         | –                                           | Max 1 per tab. |
 
 ## Behaviors
 
@@ -135,5 +72,16 @@ When the tabs extended options would be hidden due to the window becoming too sm
 </Column>
 
 </Row>
+
+<ResourceLinks name="Tabs extended" type="ui" />
+
+## Content guidance for Tabs extended
+
+| Element                                                                                                                | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes                                                                                         |
+| ---------------------------------------------------------------------------------------------------------------------- | ------------ | -------- | --------- | ------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| <a href="https://www.carbondesignsystem.com/components/tabs/usage/" target="_blank" rel="noopener noreferrer">Tabs</a> | Component    | Yes      | 2–6       | 25 / 35                                     |                                                                                               |
+| Child container                                                                                                        | Component    | Yes      | Min 2     | –                                           | Container areas that child components and other content types can be passed into (1 per tab). |
+
+For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
 
 <ComponentFooter name="Tabs extended" type="ui" />
