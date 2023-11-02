@@ -216,7 +216,7 @@
     "Image": {
       "url": "/components/images",
       "designLink": "https://ibm.box.com/s/zaofzs8ssrfbkgker2lqxyvdnbpxvsly",
-      "description": "The Image and the Image with caption components offer two ways to display imagery on the page.",
+      "description": "The image component offers multiple options to best display imagery in the page.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-image--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-image--default"
@@ -413,59 +413,6 @@
       "storybook": {
         "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-tabs-extended--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-tabs-extended--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Tags": {
-      "url": "/components/tags",
-      "description": "Tags help label and categorize content using keywords. Tag link enables a tag to be clickable and navigate users to related content.",
-      "storybook": {
-        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-tag-link--default",
-        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-tag-link--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Tag link": {
-      "url": "/components/tags#tag-link",
-      "designLink": "https://ibm.box.com/s/y5dx0hxzcsn6i6xv6i1vwlsec300gbm5",
-      "description": "Tag link enables a tag to be clickable and navigate users to related content.",
-      "storybook": {
-        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-tag-link--default",
-        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-tag-link--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Tag group": {
-      "url": "/components/tags#tag-group",
-      "designLink": "https://ibm.box.com/s/t2njzzny00mgy67cxj0r420nacvpvc83",
-      "description": "Tag link enables a tag to be clickable and navigate users to related content.",
-      "storybook": {
-        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-tag-group",
-        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-tag-group"
       },
       "webcomponents": {
         "stable": true,
@@ -942,7 +889,7 @@
     "Lead space": {
       "url": "/components/leadspace",
       "designLink": "https://ibm.box.com/s/d9jey3rlfxqmxu059f0x9dtcx7f5ehuh",
-      "description": "Lead space sets the context and also helps users understand what type of content they are going to find on the page. It is always positioned at the top.",
+      "description": "Lead space sets the context of the page and helps users understand what type of content they are going to find. It is always positioned at the top of the page.",
       "storybook": {
         "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-lead-space--super",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-leadspace--tall"
