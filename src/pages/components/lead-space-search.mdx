@@ -24,9 +24,15 @@ import ComponentFeedback from 'components/ComponentFeedback';
 
 </AnchorLinks>
 
+<InlineNotification>
+
+**Note:** In v2, lead space search no longer supports a media background to ensure the space remains accessible across breakpoints. The adjacent theme modifier has also been simplified for implementation.
+
+</InlineNotification>
+
 ## Overview
 
-Lead space search includes a heading, a Carbon [search](https://carbondesignsystem.com/components/search/usage/) field, an optional subheading, and an optional background image. This version of the lead space is especially useful when the page displays many options that a user could be interested in.
+Lead space search includes a heading, an optional subheading, and a Carbon [search](https://carbondesignsystem.com/components/search/usage/) field. This version of the lead space is especially useful when the page displays many options that a user could be interested in.
 
 <Row>
 
@@ -42,15 +48,15 @@ Lead space search includes a heading, a Carbon [search](https://carbondesignsyst
 
 ### When to use
 
-The search field is one of the most frequently used design elements in a content-heavy web experience. To be effective, the search should be displayed prominently as it can be the fastest route to information discovery. Finding information quickly is essential for reducing bounce rate, extending the time users spend on the page, and can also motivating them to take action.
+The search field is one of the most frequently used design elements in a content-heavy web experience. To be effective, the search should be displayed at the top of the page content as it can be the fastest route to information discovery. Finding information quickly is essential for reducing bounce rate, extending the time users spend on the page, and can motivating them to take action.
 
-Use lead space search when you are displaying multiple items and you need to provide an efficient way for users to find items relevant to them. Lead space search is an excellent choice for content-heavy pages and knowledge base experiences. It can be used together with the filter panel component for even greater discoverability.
+Use lead space search when the page displays multiple items and users need an efficient way to find items relevant to them. Lead space search is an excellent choice for content-heavy pages and knowledge base experiences. It can be used together with the [filter panel](../components/filter-panel) component for even greater discoverability.
 
 ### When not to use
 
-If you are not building a content-heavy page, a knowledge base experience, or if you do not need to display a great number of products or services, with categories and other classification criteria, you should consider using another lead space component such as [lead space](../components/leadspace), [lead space centered](../components/lead-space), or [lead space block](../components/lead-space-block).
+If you are not building a content-heavy page, a knowledge base experience, or if you do not need to display a great number of products or services, with categories and other classification criteria, you should consider using another lead space component such as [lead space](../components/leadspace) or [lead space block](../components/lead-space-block).
 
-Lead space search has a contextual, local search, and is not used for global search. If you need a global search option, you can find it in the masthead.
+Lead space search has a contextual, local search, and is not used for global search. If you need a global search option, you can find it in the [masthead](../components/masthead).
 
 ## Anatomy
 
@@ -69,7 +75,6 @@ Lead space search has a contextual, local search, and is not used for global sea
 1. **Heading:** Customizable heading for the lead space search component.
 2. **Subheading:** Optional supporting copy under the heading.
 3. **Search:** Search field component displayed prominently.
-4. **Background media:** Optional media that sits behind the heading and subheading elements.
 
 ## Modifiers
 
