@@ -11,20 +11,20 @@ import ResourceLinks from 'components/ResourceLinks';
 
 <AnchorLinks>
 
-<AnchorLink>Resources</AnchorLink>
 <AnchorLink>Overview</AnchorLink>
 <AnchorLink>Variations</AnchorLink>
 <AnchorLink>Modifiers</AnchorLink>
+<AnchorLink>Resources</AnchorLink>
 <AnchorLink>Content guidance</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
 
-<ResourceLinks name="Card group" type="layout" />
-
 ## Overview
 
-Card group by default arranges cards on a collapsed grid, and applies a 1px border between neighboring cards. An optional CTA card in an inverse theme can be added for visual impact. Only one CTA card is allowed per group.
+Card group by default arranges cards on a collapsed grid, and applies a 1px border between neighboring cards. Other grid modes can be used to separate the cards in different ways, depending on your needs. An optional CTA card in an inverse theme can be added for visual impact. Only one CTA card is allowed per group to properly guide attention.
+
+Card group works well when each card can link to a separate resource. If you are looking for a component to only display information instead of linking, consider using [content items](../components/content-item).
 
 <Row>
 <Column colMd={8} colLg={8}>
@@ -40,7 +40,7 @@ Card group by default arranges cards on a collapsed grid, and applies a 1px bord
 
 ### Card group with card in card
 
-Card in card can be used with the card group component to give focus to the first card.
+Card in card can be used with the card group component to give focus to the first card. This works well when you need to give prominence to a single card in the group.
 
 <Row>
 <Column colMd={8} colLg={8}>
@@ -57,8 +57,6 @@ Card in card can be used with the card group component to give focus to the firs
 
 ## Modifiers
 
-Card group allows the following properties to be modified to achieve a wide range of designs.
-
 ### Cards per row
 
 Cards per row dictates the number of cards in a row. Sometimes this can be adjusted based on total card number or breakpoint to avoid orphaning single card in the last row.
@@ -73,11 +71,13 @@ Cards per row dictates the number of cards in a row. Sometimes this can be adjus
 
 ### Offset
 
-Offset adds empty card slots to the beginning of the group, and can be used to achieve L shape card groups.
+Offset adds an empty card slot to the beginning of the group, and can be used to achieve provide some white space at the start of the card group. This can help vary the layout of card groups within a particular page.
 
 ![Image of Card in card component](../../images/component/card-group/card-group-offset.png)
 
 <Caption>Card groups with 3 cards in two different shapes.</Caption>
+
+<ResourceLinks name="Card group" type="layout" />
 
 ## Content guidance
 
