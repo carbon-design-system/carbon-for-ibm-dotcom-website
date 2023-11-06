@@ -111,7 +111,7 @@
       "url": "/components/dotcom-shell",
       "designLink": false,
       "functionalLink": false,
-      "description": "Dotcom shell includes the <a href=\"./masthead\">Masthead</a>, and <a href=\"./footer\">Footer</a> components, all wrapped in a UI shell using Carbon's grid.",
+      "description": "Dotcom shell includes the masthead and footer components, all wrapped in a UI shell using the 2x grid.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-dotcom-shell--default"
       },
@@ -675,24 +675,6 @@
         "notAvailable": false
       }
     },
-    "Content group banner": {
-      "url": "/components/content-group-banner",
-      "designLink": "https://ibm.box.com/s/tqp7c0wm99ha0b7jrm0sqhq3whwdjv84",
-      "description": "Content group banner is designed as a subtle callout, intended for tangential information or announcements that are supplementary to the page's main focus.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-group-banner--default",
-        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-content-group-banner--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
     "Content group cards": {
       "url": "/components/content-group-cards",
       "designLink": "https://ibm.box.com/s/5sfef66ow9ruw47qye5snhnxey0ioi6t",
@@ -858,6 +840,24 @@
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-feature-section--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-feature-section--default"
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      }
+    },
+    "In page banner": {
+      "url": "/components/in-page-banner",
+      "designLink": "https://ibm.box.com/s/tqp7c0wm99ha0b7jrm0sqhq3whwdjv84",
+      "description": "In page banner is designed as a subtle callout, intended for tangential information or announcements that are supplementary to the page's main focus.",
+      "storybook": {
+        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-in-page-banner--default",
+        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-in-page-banner--default"
       },
       "webcomponents": {
         "stable": true,

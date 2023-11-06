@@ -78,8 +78,6 @@
       path: /components/carousel
     - title: Content group
       path: /components/content-group
-    - title: Content group banner
-      path: /components/content-group-banner
     - title: Content item
       path: /components/content-item
     - title: Content item row
@@ -104,6 +102,8 @@
       path: /components/horizontal-rule
     - title: Images
       path: /components/images
+    - title: In page banner
+      path: /components/in-page-banner
     - title: Language selector
       path: /components/language-selector
     - title: Lead space
