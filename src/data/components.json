@@ -907,7 +907,7 @@
     "Lead space block": {
       "url": "/components/lead-space-block",
       "designLink": "https://ibm.box.com/s/kisml8o6mgrexlvqaa3cv20z1e32sbli",
-      "description": "Lead space block is an alternative to the Lead space, enabling a more streamlined introduction to the page. Lead space block is positioned at the top of a web page to orient the user when they land on a page, inform them of the content, and guide them to the first key piece of content on the page.",
+      "description": "Lead space block is an alternative to the Lead space, enabling a more streamlined first view of the page.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-lead-space-block--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-lead-space-block--default"
