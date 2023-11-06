@@ -1,4 +1,5 @@
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
+import { Bee, DevicePairing, DesignAndDevelopment } from '@carbon/pictograms-react';
 
 export default HomepageTemplate;
 
@@ -102,6 +103,7 @@ The <a href="https://www.ibm.com/standards/web/" target="_blank">IBM Web Standar
     bodyText="Essential assets and guidance  used to express our brand in any IBM experience we design."
     href="https://www.ibm.com/design/language/"
     >
+    <Bee style={{ color: '#8a3ffc'}} aria-label="Bee" className="my-custom-class" />
   </SquareCard>
 
   <SquareCard
@@ -110,6 +112,7 @@ The <a href="https://www.ibm.com/standards/web/" target="_blank">IBM Web Standar
     bodyText="Elements packages and core components used as the basis for Carbon for IBM.com."
     href="https://carbondesignsystem.com/"
     >
+    <DevicePairing style={{ color: '#0f62fe'}} aria-label="DevicePairing" className="my-custom-class" />
   </SquareCard>
 
   <SquareCard
@@ -118,6 +121,7 @@ The <a href="https://www.ibm.com/standards/web/" target="_blank">IBM Web Standar
     bodyText="{<>Necessary guidance ensuring legal and technical compliance and design excellence.<br />IBM ID required</>}"
     href="https://www.ibm.com/standards/web/"
     >
+    <DesignAndDevelopment style={{ color: '#007d79'}} aria-label="DesignAndDevelopment" className="my-custom-class" />
   </SquareCard>
 
 </Row>
