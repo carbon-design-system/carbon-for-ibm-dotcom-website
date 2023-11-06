@@ -111,7 +111,7 @@
       "url": "/components/dotcom-shell",
       "designLink": false,
       "functionalLink": false,
-      "description": "Dotcom shell includes the <a href=\"./masthead\">Masthead</a>, and <a href=\"./footer\">Footer</a> components, all wrapped in a UI shell using Carbon's grid.",
+      "description": "Dotcom shell includes the masthead and footer components, all wrapped in a UI shell using the 2x grid.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-dotcom-shell--default"
       },
