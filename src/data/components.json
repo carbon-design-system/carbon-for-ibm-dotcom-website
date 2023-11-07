@@ -409,7 +409,7 @@
     "Tabs extended": {
       "url": "/components/tabs-extended",
       "designLink": "https://ibm.box.com/s/26zrugvym00408zhpp23gqwnudzmgdd1",
-      "description": "Tabs extended combines tabs and accordion to organize editorial content.",
+      "description": "Tabs extended leverages the Carbon tab component with style updates to better organize editorial content.",
       "storybook": {
         "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-tabs-extended--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-tabs-extended--default"
