@@ -1,6 +1,6 @@
 ---
 title: Footer
-description: The Footer component page
+description: The Footer is required on all IBM.com pages, and is placed at the bottom of a page. It acts as the catch-all section that helps users navigate and provides corporate level general and legal information.
 ---
 
 import ComponentDescription from 'components/ComponentDescription';
@@ -11,22 +11,20 @@ import ResourceLinks from 'components/ResourceLinks';
 
 <AnchorLinks>
 
-<AnchorLink>Resources</AnchorLink>
 <AnchorLink>Overview</AnchorLink>
 <AnchorLink>Default</AnchorLink>
 <AnchorLink>Short</AnchorLink>
 <AnchorLink>Micro</AnchorLink>
 <AnchorLink>Modifiers</AnchorLink>
+<AnchorLink>Resources</AnchorLink>
 <AnchorLink>Content guidance</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
 
-<ResourceLinks name="Footer" type="ui" />
-
 ## Overview
 
-The Footer is a required component on all IBM.com pages. There are three sizes available: [Default](#default), [Short](#short) and [Micro](#micro), and each size has a specific use case. The Footer includes the IBM logo, navigational links, Locale or Language selector and required legal links.
+The Footer is a required component on all IBM.com pages. There are three sizes available: [Default](#default), [Short](#short) and [Micro](#micro), and each size has a specific use case. The Footer includes the IBM logo, navigational links, locale or language selector and required legal links.
 
 The Footer is generated automatically based on the country and language code that is set on the page in the metadata.
 
@@ -69,7 +67,7 @@ If the browser is wider than the max breakpoint of 1584px, the Default footer an
 
 #### Md and sm breakpoints
 
-At the medium breakpoint, the Locale selector moves above the link groups and below the IBM logo. Additionally, at the small breakpoint, the link groups are nested into accordions. See the image below.
+At the medium breakpoint, the locale selector moves above the link groups and below the IBM logo. Additionally, at the small breakpoint, the link groups are nested into accordions. See the image below.
 
 ![Image of Default footer](../../images/component/footer/footerV2-default-behaviour.jpg)
 
@@ -119,7 +117,7 @@ At the small breakpoint, the legal links are stacked on top of each other in one
 
 ## Micro
 
-The Micro footer variation only shows the required legal links and the optional locale selector to maximize the space for the page content. Adjunct legal links are not allowed. If you need them, please use either the Default, or the Short footer.
+The Micro footer variation only shows the required branding, legal links, and the optional locale selector to maximize the space for the page content. Adjunct legal links are not allowed. If you need them, please use either the Default, or the Short footer.
 
 #### When to use
 
@@ -131,8 +129,9 @@ This Footer is reserved for stand-alone experiences such as product demos or sli
 
 <Caption>Micro footer at the 1584px (max) breakpoint</Caption>
 
-1. **Legal links:** The general legal links are present on every IBM Footer and cannot be changed.
-2. **Locale selector:** Use the locale selector to trigger the locale modal component to allow users to change geographic regions and languages, if available.
+1. **IBM logo:** TBD
+2. **Legal links:** The general legal links are present on every IBM Footer and cannot be changed.
+3. **Locale selector:** Use the locale selector to trigger the locale modal component to allow users to change geographic regions and languages, if available.
 
 ### Behavior
 
@@ -148,29 +147,32 @@ At the medium breakpoint, the Micro footer will also stack the legal links. For 
 
 ![Image of Default footer](../../images/component/footer/footerV2-micro-behaviour.jpg)
 
-<Caption>Micro footer at the 672px (md) and the 320px (sm) breakpoints</Caption>
+<Caption>
+  {' '}
+  Micro footer at the 672px (md) and the 320px (sm) breakpoints{' '}
+</Caption>
 
 ## Modifiers
 
 ### Theme
 
-As a mandatory component of the IBM.com web experience, the Footer should remain consistent, creating a branded anchor across all pages. The Footer is only available in the gray 90 theme to maintain consistency across all pages.
+As a mandatory component of the IBM.com web experience, the Footer should remain consistent, creating a branded anchor across all pages. The Footer is only available in the gray 100 theme to maintain consistency across all pages.
 
-### Locale or Language selector
+### Locale or language selector
 
-All Footer sizes have the option to choose between using the Locale selector or Language selector.
+All Footer sizes have the option to choose between using the locale selector or language selector.
 
 #### Locale selector
 
-The Footer defaults to the Locale selector, which displays the country and language of a given page within a button. It allows the user to change their locale through the [Locale modal](https://www.ibm.com/standards/carbon/components/localemodal) by selecting the desired region, followed by the desired language.
+The Footer defaults to the locale selector, which displays the country and language of a given page within a button. It allows the user to change their locale through the [Locale modal](https://www.ibm.com/standards/carbon/components/localemodal) by selecting the desired region, followed by the desired language.
 
 <Row>
 
 <Column colMd={4} colLg={6}>
 
-![A visual example of the Locale selector](../../images/component/footer/footer--modifier-locale.png)
+![A visual example of the locale selector](../../images/component/footer/footer--modifier-locale.png)
 
-<Caption>The Locale selector, displaying United States – English.</Caption>
+<Caption>The locale selector, displaying United States – English.</Caption>
 
 </Column>
 
@@ -178,7 +180,7 @@ The Footer defaults to the Locale selector, which displays the country and langu
 
 #### Language selector
 
-The [Language selector](https://www.ibm.com/standards/carbon/components/language-selector) displays only the Language of a given page. It uses a combo box, and allows the user to select a language from the list or type in their desired language.
+The [language selector](https://www.ibm.com/standards/carbon/components/language-selector) displays only the language of a given page. It uses a combo box, and allows the user to select a language from the list or type in their desired language.
 
 <Row>
 
@@ -186,7 +188,7 @@ The [Language selector](https://www.ibm.com/standards/carbon/components/language
 
 ![A visual example of the Locale selector](../../images/component/footer/footer--modifier-language.png)
 
-<Caption>The Language selector, displaying English.</Caption>
+<Caption>The language selector, displaying English.</Caption>
 
 </Column>
 
@@ -223,6 +225,8 @@ An adjunct legal link will open a web page or a modal window with detailed chang
 
 Do not use an adjunct legal link to write footnotes or content-related notices. Include only links with basic text; do not include imagery or special formatting.
 
+<ResourceLinks name="Footer" type="ui" />
+
 ## Content guidance
 
 The links within the Footer cannot be changed, please contact the IA guild for any questions or request to alter the links.
@@ -231,7 +235,7 @@ The links within the Footer cannot be changed, please contact the IA guild for a
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------- | --------- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | Logo                                                                                                                                                                      | Image        | Yes      | 1         | –                                           | Required, should not be altered, and links to IBM homepage. The logo is not required in the Micro variation. |
 | Size                                                                                                                                                                      | Option list  | Yes      | 1         | –                                           | Default, Short, or Micro.                                                                                    |
-| [Locale selector](https://www.ibm.com/standards/carbon/components/localemodal), or [Language selector](https://www.ibm.com/standards/carbon/components/language-selector) | Component    | Yes      | 1         | –                                           | Locale selector, or language selector.                                                                       |
+| [locale selector](https://www.ibm.com/standards/carbon/components/localemodal), or [language selector](https://www.ibm.com/standards/carbon/components/language-selector) | Component    | Yes      | 1         | –                                           | locale selector, or language selector.                                                                       |
 | Legal links                                                                                                                                                               | Text         | Yes      | 5         | –                                           | Links present on every IBM Footer and cannot be changed.                                                     |
 | Adjunct legal links                                                                                                                                                       | Text         | No       | 2         | 20 / 32                                     | Optional legal content that appears below the required legal links.                                          |
 
