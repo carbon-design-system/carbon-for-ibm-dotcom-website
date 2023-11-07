@@ -11,36 +11,46 @@ import ResourceLinks from 'components/ResourceLinks';
 
 <AnchorLinks>
 
-<AnchorLink>Resources</AnchorLink>
 <AnchorLink>Overview</AnchorLink>
-<AnchorLink>Variations</AnchorLink>
-<AnchorLink>Modifiers</AnchorLink>
-<AnchorLink>Behaviors</AnchorLink>
+<AnchorLink>Vertical</AnchorLink>
+<AnchorLink>Horizontal</AnchorLink>
 <AnchorLink>Tips and techniques</AnchorLink>
+<AnchorLink>Resources</AnchorLink>
 <AnchorLink>Content guidance</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
 
-<ResourceLinks name="Table of contents" type="layout" />
-
 ## Overview
 
-The Table of contents (ToC) component renders as left navigation that includes anchor links to various locations on the page. The links themselves can either be dynamically generated based on anchor links and associated title attributes or manually entered by the author.
+The table of contents (ToC) component acts as in-page navigation that includes anchor links to various locations on the page. The links themselves can either be dynamically generated based on content sections with their corresponding anchor links and associated title attributes, or manually entered by the author.
 
 <Row>
 
-<Column colMd={4} colLg={6}>
+<Column colMd={6} colLg={8}>
 
-![A visual example of the table of contents component](../../images/component/table-of-contents/table-of-contents.png)
+![A visual diagram of the two table of contents variants](../../images/component/table-of-contents/table-of-contents-overview.png)
 
 </Column>
 
 </Row>
 
-![Image of the default table of contents within a page](../../images/component/table-of-contents/table-of-contents--default.png)
+<Caption>Vertical table of contents on the left, horizontal table of contents on the right</Caption>
 
-<Caption>Example of the default Table of contents within a page.</Caption>
+### Deciding what to use
+
+| Variants              | Use cases                                                                                                                                   |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Vertical](#vertical)       | This is the default variant and occupies the first 4 columns of the 16 column grid.                                                                                                                               |
+| [Horizontal](#horizontal)   | This variant is is best used with components that span the full 16 column grid, such as [Feature section](../components/feature-section).                                                                         |
+
+## Vertical
+
+The vertical table of contents renders as a vertical list of anchor links in the first 4 columns of the 16 column grid. 
+
+![Image of the default table of contents within a page](../../images/component/table-of-contents/toc-vertical.png)
+
+<Caption>Example of the vertical table of contents within a page.</Caption>
 
 #### When to use:
 
@@ -54,75 +64,87 @@ The Table of contents (ToC) component renders as left navigation that includes a
 - When a page is relatively short and the user will not have to scroll very far.
 - When users need to read all the content in a specific order.
 
-<br />
+### Behaviors
 
-## Variations
+#### Desktop
 
-### Horizontal
+The default or vertical ToC is sticky within the first four columns on lg, xlg, and max breakpoints and follows the user down the page. The section the user is in will be highlighted as they scroll down the page.
 
-The horizontal variation displays the Table of content navigation links in a row. When present, it sticks to the top of the page while scrolling. It then replaces the Masthead sticky navigation when the top of its container meets the top of the window.
+#### Mobile
 
-![Image of the horizontal table of contents within a page](../../images/component/table-of-contents/table-of-contents--horizontal.png)
-
-<Caption>Example of the horizontal Table of contents within a page.</Caption>
-
-#### When to use:
-
-- Your experience needs to use full width section components or the first four columns of the 2x grid.
-- The Table of contents needs to be used across alternating full width themed sections throughout a page.
-
-#### When not to use:
-
-- The horizontal version should not be used with a center aligned lead space because the text alignment disrupts the user's reading flow. In that situation, consider using the vertical version with Lead space centered or Lead space block.
-- The horizontal version should not be placed immediately below the IBM masthead.
-
-## Modifiers
-
-### Vertical with heading content
-
-This variation only applies to the vertical Table of contents (ToC). The area above the Table of contents can be utilized in many ways—showing navigational links, the page title, or an image.
-
-![Image of the vertical table of contents with heading content](../../images/component/table-of-contents/table-of-contents--with-heading.png)
-
-<Caption>
-  Example of the vertical Table of contents with heading content.
-</Caption>
-
-#### When to use:
-
-- The vertical version can take up the first four columns of the 2x grid to help the user navigate related content.
-
-#### When not to use:
-
-- The vertical version should not be used when any of the associated content components uses a different theme (for example, the page theme is White, but one of the table of contents components uses a Gray 100 theme). In that situation, consider using only one theme throughout the vertical table of contents or using the horizontal version instead.
-- The vertical version should not contain any components that use a section header.
-
-## Behaviors
-
-### Sticky behavior
-
-The Table of contents is sticky to provide context to the user about where they are within a given page.
-
-#### Larger breakpoints (lg, xl, and max)
-
-- The default or vertical ToC is sticky within the first four columns on lg, xlg, and max breakpoints.
-- The horizontal ToC sticks to the top of the page and pushes the Masthead out of view on the lg, xlg and max breakpoints.
-
-#### Smaller breakpoints (sm and med)
-
-Both vertical and horizontal versions of the ToC change to a dropdown on md and sm breakpoints. The dropdown sticks to the top of the page and pushes the Masthead out of view. When the user scrolls up the Masthead re-appears and pushes the ToC down.
+In smaller breakpoints the vertical table of contents transitions to a horizontal orientation, similar to the horizontal variant. The user can swipe to the right and left to access the links that are outside of the browser viewport. 
 
 <Row>
 
-<Column colMd={4} colLg={6}>
+<Column colMd={8} colLg={8}>
 
-![A visual example of the table of contents component at the small breakpoint](../../images/component/table-of-contents/table-of-contents--small.png)
+![Image of the vertical table of contents at tablet breakpoint](../../images/component/table-of-contents/toc-vertical-behavior-01.png)
+
+<Caption>Example of vertical table of contents at the medium breakpoint</Caption>
+
+</Column>
+
+<Column colMd={8} colLg={4}>
+
+![Image of the vertical table of contents at small breakpoint](../../images/component/table-of-contents/toc-vertical-behavior-02.png)
+
+<Caption>Example of vertical table of contents at the small breakpoint</Caption>
 
 </Column>
 
 </Row>
 
-<Caption>Example of the Table of contents at the small breakpoint.</Caption>
+## Horizontal
+
+The horizontal variation displays the table of content navigation links in a row. When present, it sticks to the top of the page while scrolling. It then replaces the masthead sticky navigation when the top of its container meets the top of the window.
+
+![Image of the horizontal table of contents within a page](../../images/component/table-of-contents/toc-horizontal.png)
+
+<Caption>Example of the horizontal table of contents within a page.</Caption>
+
+#### When to use:
+
+- Your experience needs to use full width section components or the first four columns of the 2x grid.
+- The table of contents needs to be used across alternating full width sections throughout a page.
+
+#### When not to use:
+
+- The horizontal version should not be used with a center aligned lead space because the text alignment disrupts the user's reading flow. In that situation, consider using the vertical ToC with lead space centered or lead space block.
+- The horizontal version should not be placed immediately below the IBM masthead.
+
+### Behaviors
+
+#### Sticky behavior
+
+The table of contents is sticky to provide context to the user about where they are within a given page. We recommend focusing the user and showcasing a single form of navigation at a time on a given page, as the user scrolls down the page the table of contents will stick to the top of the browser window and push the masthead out of the viewport. If the user scrolls back up the page, the masthead will come back into view. 
+
+#### Desktop (lg, xl, and max)
+
+The horizontal ToC sticks to the top of the page and pushes the masthead out of view on the lg, xlg and max breakpoints.
+
+#### Mobile
+
+In smaller breakpoints the horizontal table of contents maintains the same form as the desktop, and the user can swipe to the right and left to access the links that are outside of the browser viewport. 
+
+<Row>
+
+<Column colMd={8} colLg={8}>
+
+![Image of the horizontal table of contents at tablet breakpoint](../../images/component/table-of-contents/toc-horizontal-behavior-01.png)
+
+<Caption>Example of horizontal table of contents at the medium breakpoint</Caption>
+
+</Column>
+
+<Column colMd={8} colLg={4}>
+
+![Image of the horizontal table of contents at small breakpoint](../../images/component/table-of-contents/toc-horizontal-behavior-02.png)
+
+<Caption>Example of horizontal table of contents at the small breakpoint</Caption>
+
+</Column>
+
+</Row>
 
 ## Tips and techniques
 
@@ -134,27 +156,45 @@ The ToC should never extend more than the screen height so that it can be effect
 
 ### Labels
 
-The Table of contents labels should inform users what information they will find within a given section of a page.
+The table of contents labels should inform users what information they will find within a given section of a page.
 
-Table of contents labels and the page headers they link to should be the same or a shortened version of the page header to establish a clear relationship between the ToC and the corresponding page section, see some of the example images below.
+Table of contents labels and the page headers they link to should be the same or a shortened version of the content block heading to establish a clear relationship between the ToC and the corresponding page section, see the example image below.
 
-#### Default
+#### Vertical
 
 The default ToC can accommodate multi-line labels, and therefore can generally match the page header.
 
-![Image of the vertical table of contents and corresponding page title](../../images/component/table-of-contents/table-of-contents--labels-vertical.png)
+<Row>
+
+<Column colMd={8} colLg={8}>
+
+![Image of the vertical table of contents and corresponding page title](../../images/component/table-of-contents/toc-vertical-labels.png)
+
+</Column>
+
+</Row>
 
 1. ToC label
 2. Content block header
 
 #### Horizontal
 
-The horizontal ToC is best suited for simple one to two word labels that are shortened versions of the page header. The horizontal ToC is typically used in conjunction with [Content section](https://www.ibm.com/standards/carbon/components/content-section) components that render a header in the first four columns from the left, allowing for a more descriptive [Content block](https://www.ibm.com/standards/carbon/components/content-block) headline.
+The horizontal ToC is best suited for simple one to two word labels that are shortened versions of the content section or content block heading. The horizontal ToC is typically used in conjunction with [content section](https://www.ibm.com/standards/carbon/components/content-section) components that render a header in the first four columns from the left, allowing for a more descriptive [content block](https://www.ibm.com/standards/carbon/components/content-block) headline. However, the horizontal ToC can also be paired with the content block heading as seen in the example image below.
 
-![Image of the horizontal table of contents and corresponding page title](../../images/component/table-of-contents/table-of-contents--labels-horizontal.png)
+<Row>
+
+<Column colMd={8} colLg={8}>
+
+![Image of the horizontal table of contents and corresponding page title](../../images/component/table-of-contents/toc-horizontal-labels.png)
+
+</Column>
+
+</Row>
 
 1. ToC label
-2. Content section header
+2. Content block header
+
+<ResourceLinks name="Table of contents" type="layout" />
 
 ## Content guidance
 
