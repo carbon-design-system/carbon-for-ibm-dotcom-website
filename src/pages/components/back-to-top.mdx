@@ -22,7 +22,9 @@ import ResourceLinks from 'components/ResourceLinks';
 
 ## Overview
 
-Back to top lives in the bottom right of the page, and only appears if the page is long enough as users are scrolling down the page. Once it reaches the footer it becomes static and scrolls with the rest of the content on the page until users scroll up again.
+Back to top lives in the bottom right of the page, and only appears when the document height is 3x greater than the viewport.
+Once it reaches the top of the footer it becomes static and scrolls with the rest of the content on the page until users scroll up again.
+Upon interacting with the component, the page will scroll back to the top, and the component will disappear accordingly.
 
 <Row>
 <Column colMd={8} colLg={8}>
@@ -31,6 +33,8 @@ Back to top lives in the bottom right of the page, and only appears if the page 
 
 </Column>
 </Row>
+
+![Default Back to top component](../../images/component/back-to-top/back-to-top-demo.gif)
 
 <Title>Use case</Title>
 
