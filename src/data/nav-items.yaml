@@ -104,8 +104,6 @@
       path: /components/images
     - title: In page banner
       path: /components/in-page-banner
-    - title: Language selector
-      path: /components/language-selector
     - title: Lead space
       path: /components/leadspace
     - title: Lead space block

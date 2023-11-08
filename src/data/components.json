@@ -248,24 +248,6 @@
         "notAvailable": false
       }
     },
-    "Language selector": {
-      "url": "/components/language-selector",
-      "designLink": "https://ibm.box.com/s/nsbccv6jigfw78uwq3r0242qks1x1f87",
-      "functionalLink": false,
-      "description": "Language selector is for users to select their preferred language on a website. The content on the website will appear in the default language until the users reselect their preferred language then the page content will reload in the reselected language provided a translation is available.",
-      "storybook": {
-        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-footer--default-language-only"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
     "Leaving IBM modal": {
       "url": "/components/leaving-ibm-modal",
       "designLink": "https://ibm.box.com/s/g79wdwdj0syjcfkdlgu5rpwe3zp9s37w",
