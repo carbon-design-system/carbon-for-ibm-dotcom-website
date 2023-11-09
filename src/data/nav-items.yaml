@@ -104,8 +104,8 @@
       path: /components/images
     - title: In page banner
       path: /components/in-page-banner
-    - title: Language selector
-      path: /components/language-selector
+    # - title: Language selector
+    #   path: /components/language-selector
     - title: Lead space
       path: /components/leadspace
     - title: Lead space block
@@ -122,8 +122,8 @@
       path: /components/link-with-icon
     - title: Locale modal
       path: /components/localemodal
-    - title: Logo grid
-      path: /components/logo-grid
+    # - title: Logo grid
+    #   path: /components/logo-grid
     - title: Masthead
       path: /components/masthead
     - title: Quote
@@ -137,18 +137,18 @@
     - title: Video
       path: /components/video
 
-- title: Patterns
-  pages:
-    - title: Overview
-      path: /patterns
-    - title: Call-to-action
-      path: /patterns/call-to-action
-    - title: Cards
-      path: /patterns/cards
-    - title: In-page navigation
-      path: /patterns/in-page-navigation
-    - title: Lead space
-      path: /patterns/lead-space
+# - title: Patterns
+#   pages:
+#     - title: Overview
+#       path: /patterns
+#     - title: Call-to-action
+#       path: /patterns/call-to-action
+#     - title: Cards
+#       path: /patterns/cards
+#     - title: In-page navigation
+#       path: /patterns/in-page-navigation
+#     - title: Lead space
+#       path: /patterns/lead-space
 
 - title: Help
   pages:
