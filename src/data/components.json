@@ -851,6 +851,24 @@
         "notAvailable": false
       }
     },
+    "Global banner": {
+      "url": "/components/global-banner",
+      "designLink": "https://ibm.box.com/s/fas5qv5zrscudr63y85g28v0k657p83u",
+      "description": "Global banner is used exclusively to feature global and critical announcements. It is the only component that can be positioned above the masthead.",
+      "storybook": {
+        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-global-banner--default",
+        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-global-banner--default"
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      }
+    },
     "In page banner": {
       "url": "/components/in-page-banner",
       "designLink": "https://ibm.box.com/s/tqp7c0wm99ha0b7jrm0sqhq3whwdjv84",
@@ -1001,24 +1019,6 @@
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-tabs-extended-with-media--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-tabs-extended-media--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Global banner": {
-      "url": "/components/global-banner",
-      "designLink": "https://ibm.box.com/s/fas5qv5zrscudr63y85g28v0k657p83u",
-      "description": "Global banner is used exclusively to feature global and critical announcements. It is the only component that can be positioned above the masthead.",
-      "storybook": {
-        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-global-banner--default",
-        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-global-banner--default"
       },
       "webcomponents": {
         "stable": true,
