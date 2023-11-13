@@ -1,6 +1,6 @@
 ---
 title: Content block
-description: "Content block is a high-level layout component that acts as the main content unit used inside of a Content section to build web experiences on IBM dotcom. It encapsulates other content components (one or multiple content groups) and brings them together into a custom visual, which solves a specific problem for the user.
+description: Content block is one of the main layout components that can be used to build web experiences on IBM.com. It includes a large heading, subheading, body copy and CTA, and can accept many child components to enable customization and flexibility.
 ---
 
 import ComponentDescription from 'components/ComponentDescription';
@@ -23,7 +23,7 @@ import ResourceLinks from 'components/ResourceLinks';
 
 ## Overview
 
-The content section acts as the heading level two on all pages after the lead space component. The content section is used to divide the main categories or sections of the page to help guide the user through the content or narrative.
+The content block acts as the heading level two on pages after the lead space component and spans 12 columns of the 16 column grid. The content block is commonly used to divide the main categories or sections of the page to help guide the user through the content or narrative.
 
 ![Image of the content section](../../images/component/content-section/content-section-overview.png)
 
@@ -33,87 +33,24 @@ The content section acts as the heading level two on all pages after the lead sp
 
 ![Anatomy image of the content section](../../images/component/content-section/content-section-anatomy.png)
 
-1. **Content section heading:** An optional, customizable heading for the Content section.
-2. **Content block heading:** An optional, customizable heading for the Content section.
-3. **Sub heading:** An opptional, customizable sub heading for the Content section.
-4. **Copy:** An optional short description.
-5. **Child container:** Insert additional components to enhance the narrative, such as content group, content item or card group.
-6. **CTA:** Use this as a general call to action, typically used to encompass the entire content section.
-7. **Border:** An optional bottom border.
+1. **Content block heading:** An optional, customizable heading for the Content section.
+2. **Sub heading:** An optional, customizable sub heading for the Content section.
+3. **Copy:** An optional short description.
+4. **Child container:** Insert additional components to enhance the narrative, such as content group, content item or card group.
+5. **CTA:** Use this as a general call to action, typically used to encompass the entire content section.
+6. **Border:** An optional bottom border.
+
+### Usage
+
+Content block is often paired with the content section or the vertical table of contents to guide the user through the narrative and activate the first four columns of the 16 column grid.
 
 ## Modifiers
 
-### Headings
-
-The content section has two types of optional headings – **content section** and **content block** – that can be turned on and off to fit the layout needs.
-
-![Image of the content section](../../images/component/content-section/content-section-modifier-heading-01.png)
-
-<Caption>Example of the content section.</Caption>
-
-#### Content section heading
-
-Turn off the content section heading to utilize the vertical [table of contents](../components/table-of-contents) component for long form reading experiences that allow the user to quickly navigate through the content.
-
-<Row>
-
-<Column colMd={4} colLg={6}>
-
-![Example highlighting content section heading](../../images/component/content-section/content-section-modifier-heading-02.png)
-
-<Caption>
-  Example of the content section component, where the content section heading is
-  highlighted.
-</Caption>
-
-</Column>
-
-<Column colMd={4} colLg={6}>
-
-![Example highlighting table of contents](../../images/component/content-section/content-section-modifier-heading-03.png)
-
-<Caption>
-  Example of replacing the content section heading with the vertical table of
-  contents.
-</Caption>
-
-</Column>
-
-</Row>
-
-#### Content block heading
-
-Turn off the content block heading for concise layout samples, this layout works well with the horizontal table of contents component.
-
-<Row>
-
-<Column colMd={4} colLg={6}>
-
-![Example highlighting content block heading](../../images/component/content-section/content-section-modifier-heading-04.png)
-
-<Caption>
-  Example of the content section component, where the content block heading is
-  highlighted.
-</Caption>
-
-</Column>
-
-<Column colMd={4} colLg={6}>
-
-![Example highlighting the removal of the content block heading](../../images/component/content-section/content-section-modifier-heading-05.png)
-
-<Caption>
-  Example of turning off the content section's content block heading, and all
-  remaining content shifts upward to top align with the content section heading.
-</Caption>
-
-</Column>
-
-</Row>
+Content block is often paired with the content section or the vertical table of contents to guide the user through the narrative and activate the first four columns of the 16 column grid.
 
 ### Children
 
-The content section can accept many different types of child components, which allows designers and authors maximum flexibility when creating page layouts. The most common layouts on IBM.com are 8 column and 12 column components.
+Similar to the content section, the content block can accept child components which allows designers and authors maximum flexibility when creating page layouts. The most common layouts on IBM.com are 8 column and 12 column components.
 
 #### 8 column child
 
@@ -164,16 +101,15 @@ elements are displayed based on the browser size, at tablet and mobile breakpoin
 
 ## Gallery
 
-The content section is the main building block for establishing sections throughout pages of the IBM.com platform. Here are some examples of various layouts you can create by utilizing the extreme flexibility the content section provides by utilizing the varying heading options and adding custom children.
+The content block is one of the main layout components for designing pages of the IBM.com platform. Here are some examples of various layouts you can create by utilizing the extreme flexibility the content section provides by utilizing the varying heading options and adding custom children.
 
-<ResourceLinks name="Content section" type="layout" />
+<ResourceLinks name="Content block" type="layout" />
 
 ## Content guidance
 
 | Element                                                    | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes                                                                                        |
 | ---------------------------------------------------------- | ------------ | -------- | --------- | ------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| Content section heading                                    | Text         | No       | 1         | 25 / 35                                     |                                                                                              |
-| Content block heading                                      | Text         | No       | 1         | 40 / 55                                     |                                                                                              |
+| Heading                                                    | Text         | No       | 1         | 40 / 55                                     |                                                                                              |
 | Sub heading                                                | Text         | No       | 1         | 120 / 150                                   |                                                                                              |
 | Copy                                                       | Text         | No       | 1         | 1600 / 2400                                 |                                                                                              |
 | Child container                                            | Component    | No       | 1+        | –                                           | An optional container area that child components and other content types can be passed into. |
