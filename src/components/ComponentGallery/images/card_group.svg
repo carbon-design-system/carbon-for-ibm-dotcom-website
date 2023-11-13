@@ -1,35 +1,47 @@
 <svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="194" y="106" width="68" height="54" fill="#F4F4F4" stroke="#A8A8A8"/>
-<rect x="126" y="106" width="68" height="54" fill="#F4F4F4" stroke="#A8A8A8"/>
-<rect x="126" y="160" width="68" height="54" fill="#F4F4F4" stroke="#A8A8A8"/>
-<rect x="58" y="106" width="68" height="54" fill="#F4F4F4" stroke="#A8A8A8"/>
-<rect x="58" y="160" width="68" height="54" fill="#F4F4F4" stroke="#A8A8A8"/>
-<rect x="194" y="160" width="68" height="54" fill="white" stroke="#A8A8A8"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M252.062 148.688L251.666 149.084L253.798 151.219H247.844V151.781H253.798L251.666 153.916L252.062 154.312L254.875 151.5L252.062 148.688V148.688Z" fill="#0F62FE"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M184.062 148.688L183.666 149.084L185.798 151.219H179.844V151.781H185.798L183.666 153.916L184.062 154.312L186.875 151.5L184.062 148.688V148.688Z" fill="#0F62FE"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M184.062 202.688L183.666 203.084L185.798 205.219H179.844V205.781H185.798L183.666 207.916L184.062 208.312L186.875 205.5L184.062 202.688V202.688Z" fill="#0F62FE"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M116.062 148.688L115.666 149.084L117.798 151.219H111.844V151.781H117.798L115.666 153.916L116.062 154.312L118.875 151.5L116.062 148.688V148.688Z" fill="#0F62FE"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M116.062 202.688L115.666 203.084L117.798 205.219H111.844V205.781H117.798L115.666 207.916L116.062 208.312L118.875 205.5L116.062 202.688V202.688Z" fill="#0F62FE"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M252.062 202.688L251.666 203.084L253.798 205.219H247.844V205.781H253.798L251.666 207.916L252.062 208.312L254.875 205.5L252.062 202.688V202.688Z" fill="#0F62FE"/>
-<rect x="63" y="123" width="57" height="2" fill="#A8A8A8"/>
-<rect x="63" y="177" width="57" height="2" fill="#A8A8A8"/>
-<rect x="131" y="123" width="57" height="2" fill="#A8A8A8"/>
-<rect x="131" y="177" width="57" height="2" fill="#A8A8A8"/>
-<rect x="199" y="123" width="57" height="2" fill="#A8A8A8"/>
-<rect x="63" y="133" width="40" height="2" fill="#A8A8A8"/>
-<rect x="63" y="187" width="40" height="2" fill="#A8A8A8"/>
-<rect x="131" y="133" width="40" height="2" fill="#A8A8A8"/>
-<rect x="131" y="187" width="40" height="2" fill="#A8A8A8"/>
-<rect x="199" y="133" width="40" height="2" fill="#A8A8A8"/>
-<rect x="63" y="128" width="57" height="2" fill="#A8A8A8"/>
-<rect x="63" y="182" width="57" height="2" fill="#A8A8A8"/>
-<rect x="131" y="128" width="57" height="2" fill="#A8A8A8"/>
-<rect x="131" y="182" width="57" height="2" fill="#A8A8A8"/>
-<rect x="199" y="128" width="57" height="2" fill="#A8A8A8"/>
-<rect x="63" y="112" width="40" height="3" fill="#8D8D8D"/>
-<rect x="63" y="166" width="40" height="3" fill="#8D8D8D"/>
-<rect x="131" y="112" width="40" height="3" fill="#8D8D8D"/>
-<rect x="131" y="166" width="40" height="3" fill="#8D8D8D"/>
-<rect x="199" y="112" width="40" height="3" fill="#8D8D8D"/>
-<rect x="199" y="166" width="40" height="3" fill="#8D8D8D"/>
+  <rect x="194" y="106" width="68" height="54" fill="#F4F4F4" stroke="#A8A8A8" />
+  <rect x="126" y="106" width="68" height="54" fill="#F4F4F4" stroke="#A8A8A8" />
+  <rect x="126" y="160" width="68" height="54" fill="#F4F4F4" stroke="#A8A8A8" />
+  <rect x="58" y="106" width="68" height="54" fill="#F4F4F4" stroke="#A8A8A8" />
+  <rect x="58" y="160" width="68" height="54" fill="#F4F4F4" stroke="#A8A8A8" />
+  <rect x="194" y="160" width="68" height="54" fill="white" stroke="#A8A8A8" />
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M252.062 148.688L251.666 149.084L253.798 151.219H247.844V151.781H253.798L251.666 153.916L252.062 154.312L254.875 151.5L252.062 148.688V148.688Z"
+    fill="#0F62FE" />
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M184.062 148.688L183.666 149.084L185.798 151.219H179.844V151.781H185.798L183.666 153.916L184.062 154.312L186.875 151.5L184.062 148.688V148.688Z"
+    fill="#0F62FE" />
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M184.062 202.688L183.666 203.084L185.798 205.219H179.844V205.781H185.798L183.666 207.916L184.062 208.312L186.875 205.5L184.062 202.688V202.688Z"
+    fill="#0F62FE" />
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M116.062 148.688L115.666 149.084L117.798 151.219H111.844V151.781H117.798L115.666 153.916L116.062 154.312L118.875 151.5L116.062 148.688V148.688Z"
+    fill="#0F62FE" />
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M116.062 202.688L115.666 203.084L117.798 205.219H111.844V205.781H117.798L115.666 207.916L116.062 208.312L118.875 205.5L116.062 202.688V202.688Z"
+    fill="#0F62FE" />
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M252.062 202.688L251.666 203.084L253.798 205.219H247.844V205.781H253.798L251.666 207.916L252.062 208.312L254.875 205.5L252.062 202.688V202.688Z"
+    fill="#0F62FE" />
+  <rect x="63" y="123" width="57" height="2" fill="#A8A8A8" />
+  <rect x="63" y="177" width="57" height="2" fill="#A8A8A8" />
+  <rect x="131" y="123" width="57" height="2" fill="#A8A8A8" />
+  <rect x="131" y="177" width="57" height="2" fill="#A8A8A8" />
+  <rect x="199" y="123" width="57" height="2" fill="#A8A8A8" />
+  <rect x="63" y="133" width="40" height="2" fill="#A8A8A8" />
+  <rect x="63" y="187" width="40" height="2" fill="#A8A8A8" />
+  <rect x="131" y="133" width="40" height="2" fill="#A8A8A8" />
+  <rect x="131" y="187" width="40" height="2" fill="#A8A8A8" />
+  <rect x="199" y="133" width="40" height="2" fill="#A8A8A8" />
+  <rect x="63" y="128" width="57" height="2" fill="#A8A8A8" />
+  <rect x="63" y="182" width="57" height="2" fill="#A8A8A8" />
+  <rect x="131" y="128" width="57" height="2" fill="#A8A8A8" />
+  <rect x="131" y="182" width="57" height="2" fill="#A8A8A8" />
+  <rect x="199" y="128" width="57" height="2" fill="#A8A8A8" />
+  <rect x="63" y="112" width="40" height="3" fill="#8D8D8D" />
+  <rect x="63" y="166" width="40" height="3" fill="#8D8D8D" />
+  <rect x="131" y="112" width="40" height="3" fill="#8D8D8D" />
+  <rect x="131" y="166" width="40" height="3" fill="#8D8D8D" />
+  <rect x="199" y="112" width="40" height="3" fill="#8D8D8D" />
+  <rect x="199" y="166" width="40" height="3" fill="#8D8D8D" />
 </svg>

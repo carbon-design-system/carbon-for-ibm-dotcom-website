@@ -1,31 +1,39 @@
 <svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_d_0_5250)">
-<rect x="64" y="102" width="191" height="115" fill="black" fill-opacity="0.01"/>
+  <g filter="url(#filter0_d_0_5250)">
+    <rect x="64" y="102" width="191" height="115" fill="black" fill-opacity="0.01" />
+  </g>
+  <rect width="191" height="116" transform="translate(64 102)" fill="#F3F3F3" />
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M243.151 114.809L245.826 112.134L245.252 111.559L242.577 114.235L239.903 111.559L239.329 112.134L242.003 114.809L239.329 117.485L239.903 118.059L242.577 115.384L245.252 118.059L245.826 117.485L243.151 114.809V114.809Z"
+    fill="black" />
+  <mask id="mask0_0_5250" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="239" y="111"
+    width="7" height="8">
+    <path fill-rule="evenodd" clip-rule="evenodd"
+      d="M243.151 114.809L245.826 112.134L245.252 111.559L242.577 114.235L239.903 111.559L239.329 112.134L242.003 114.809L239.329 117.485L239.903 118.059L242.577 115.384L245.252 118.059L245.826 117.485L243.151 114.809V114.809Z"
+      fill="white" />
+  </mask>
+  <g mask="url(#mask0_0_5250)">
 </g>
-<rect width="191" height="116" transform="translate(64 102)" fill="#F3F3F3"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M243.151 114.809L245.826 112.134L245.252 111.559L242.577 114.235L239.903 111.559L239.329 112.134L242.003 114.809L239.329 117.485L239.903 118.059L242.577 115.384L245.252 118.059L245.826 117.485L243.151 114.809V114.809Z" fill="black"/>
-<mask id="mask0_0_5250" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="239" y="111" width="7" height="8">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M243.151 114.809L245.826 112.134L245.252 111.559L242.577 114.235L239.903 111.559L239.329 112.134L242.003 114.809L239.329 117.485L239.903 118.059L242.577 115.384L245.252 118.059L245.826 117.485L243.151 114.809V114.809Z" fill="white"/>
-</mask>
-<g mask="url(#mask0_0_5250)">
-</g>
-<rect x="159" y="195" width="96.4009" height="22.5328" fill="#0F6DFF"/>
-<rect x="73" y="119" width="64" height="6" fill="#8D8D8D"/>
-<rect x="73" y="151" width="148" height="3" fill="#A8A8A8"/>
-<rect x="73" y="144" width="148" height="3" fill="#A8A8A8"/>
-<rect x="73" y="112" width="16" height="3" fill="#A8A8A8"/>
-<rect x="73" y="137" width="148" height="3" fill="#A8A8A8"/>
-<rect x="73" y="158" width="118" height="3" fill="#A8A8A8"/>
-<rect x="73" y="169" width="32" height="3" fill="#78A9FF"/>
-<defs>
-<filter id="filter0_d_0_5250" x="59" y="99" width="201" height="125" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="2"/>
-<feGaussianBlur stdDeviation="2.5"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0.862745 0 0 0 0 0.862745 0 0 0 0 0.862745 0 0 0 1 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_5250"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_5250" result="shape"/>
-</filter>
-</defs>
+  <rect x="159" y="195" width="96.4009" height="22.5328" fill="#0F6DFF" />
+  <rect x="73" y="119" width="64" height="6" fill="#8D8D8D" />
+  <rect x="73" y="151" width="148" height="3" fill="#A8A8A8" />
+  <rect x="73" y="144" width="148" height="3" fill="#A8A8A8" />
+  <rect x="73" y="112" width="16" height="3" fill="#A8A8A8" />
+  <rect x="73" y="137" width="148" height="3" fill="#A8A8A8" />
+  <rect x="73" y="158" width="118" height="3" fill="#A8A8A8" />
+  <rect x="73" y="169" width="32" height="3" fill="#78A9FF" />
+  <defs>
+    <filter id="filter0_d_0_5250" x="59" y="99" width="201" height="125"
+      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feColorMatrix in="SourceAlpha" type="matrix"
+        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+      <feOffset dy="2" />
+      <feGaussianBlur stdDeviation="2.5" />
+      <feColorMatrix type="matrix"
+        values="0 0 0 0 0.862745 0 0 0 0 0.862745 0 0 0 0 0.862745 0 0 0 1 0" />
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_5250" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_5250" result="shape" />
+    </filter>
+  </defs>
 </svg>

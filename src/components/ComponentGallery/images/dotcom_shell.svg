@@ -1,39 +1,39 @@
 <svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M60 95H268V107H60V95Z" fill="white" stroke="#A8A8A8"/>
-<rect x="60" y="107" width="208" height="15" fill="white" stroke="#A8A8A8"/>
-<rect x="63" y="121" width="28" height="1" fill="#0F62FE"/>
-<rect x="246" y="99" width="5" height="5" fill="#C6C6C6"/>
-<rect x="256" y="99" width="5" height="5" fill="#C6C6C6"/>
-<rect x="229" y="107" width="39" height="15" fill="#0F62FE"/>
-<rect x="91" y="100" width="20" height="2" fill="#A8A8A8"/>
-<rect x="95" y="116" width="20" height="2" fill="#A8A8A8"/>
-<rect x="67" y="116" width="20" height="2" fill="#8D8D8D"/>
-<rect x="119" y="100" width="20" height="2" fill="#A8A8A8"/>
-<rect x="123" y="116" width="20" height="2" fill="#A8A8A8"/>
-<rect x="147" y="100" width="20" height="2" fill="#A8A8A8"/>
-<rect x="151" y="116" width="20" height="2" fill="#A8A8A8"/>
-<rect x="201" y="116" width="20" height="2" fill="#78A9FF"/>
-<rect x="175" y="100" width="20" height="2" fill="#A8A8A8"/>
-<rect x="67" y="100" width="16" height="3" fill="#8D8D8D"/>
-<rect x="60" y="154" width="208" height="72" fill="#262626" stroke="black" stroke-opacity="0.2"/>
-<rect x="67" y="162" width="24" height="8" fill="#A8A8A8"/>
-<rect x="222" y="188" width="39" height="8" stroke="white"/>
-<rect x="222" y="188" width="39" height="8" stroke="black" stroke-opacity="0.2"/>
-<rect x="222" y="188" width="39" height="8" stroke="black" stroke-opacity="0.2"/>
-<rect x="119" y="212" width="142" height="0.5" fill="#525252"/>
-<rect x="119" y="162" width="20" height="2" fill="white"/>
-<rect x="170" y="162" width="20" height="2" fill="white"/>
-<rect x="222" y="162" width="20" height="2" fill="white"/>
-<rect x="119" y="170" width="20" height="2" fill="#A8A8A8"/>
-<rect x="170" y="170" width="20" height="2" fill="#A8A8A8"/>
-<rect x="222" y="170" width="20" height="2" fill="#A8A8A8"/>
-<rect x="119" y="178" width="20" height="2" fill="#A8A8A8"/>
-<rect x="170" y="178" width="20" height="2" fill="#A8A8A8"/>
-<rect x="222" y="178" width="20" height="2" fill="#A8A8A8"/>
-<rect x="119" y="186" width="20" height="2" fill="#A8A8A8"/>
-<rect x="170" y="186" width="20" height="2" fill="#A8A8A8"/>
-<rect x="170" y="194" width="20" height="2" fill="#A8A8A8"/>
-<rect x="170" y="218" width="20" height="2" fill="#A8A8A8"/>
-<rect x="119" y="218" width="20" height="2" fill="#A8A8A8"/>
-<rect x="222" y="218" width="20" height="2" fill="#A8A8A8"/>
+  <path d="M60 95H268V107H60V95Z" fill="white" stroke="#A8A8A8" />
+  <rect x="60" y="107" width="208" height="15" fill="white" stroke="#A8A8A8" />
+  <rect x="63" y="121" width="28" height="1" fill="#0F62FE" />
+  <rect x="246" y="99" width="5" height="5" fill="#C6C6C6" />
+  <rect x="256" y="99" width="5" height="5" fill="#C6C6C6" />
+  <rect x="229" y="107" width="39" height="15" fill="#0F62FE" />
+  <rect x="91" y="100" width="20" height="2" fill="#A8A8A8" />
+  <rect x="95" y="116" width="20" height="2" fill="#A8A8A8" />
+  <rect x="67" y="116" width="20" height="2" fill="#8D8D8D" />
+  <rect x="119" y="100" width="20" height="2" fill="#A8A8A8" />
+  <rect x="123" y="116" width="20" height="2" fill="#A8A8A8" />
+  <rect x="147" y="100" width="20" height="2" fill="#A8A8A8" />
+  <rect x="151" y="116" width="20" height="2" fill="#A8A8A8" />
+  <rect x="201" y="116" width="20" height="2" fill="#78A9FF" />
+  <rect x="175" y="100" width="20" height="2" fill="#A8A8A8" />
+  <rect x="67" y="100" width="16" height="3" fill="#8D8D8D" />
+  <rect x="60" y="154" width="208" height="72" fill="#262626" stroke="black" stroke-opacity="0.2" />
+  <rect x="67" y="162" width="24" height="8" fill="#A8A8A8" />
+  <rect x="222" y="188" width="39" height="8" stroke="white" />
+  <rect x="222" y="188" width="39" height="8" stroke="black" stroke-opacity="0.2" />
+  <rect x="222" y="188" width="39" height="8" stroke="black" stroke-opacity="0.2" />
+  <rect x="119" y="212" width="142" height="0.5" fill="#525252" />
+  <rect x="119" y="162" width="20" height="2" fill="white" />
+  <rect x="170" y="162" width="20" height="2" fill="white" />
+  <rect x="222" y="162" width="20" height="2" fill="white" />
+  <rect x="119" y="170" width="20" height="2" fill="#A8A8A8" />
+  <rect x="170" y="170" width="20" height="2" fill="#A8A8A8" />
+  <rect x="222" y="170" width="20" height="2" fill="#A8A8A8" />
+  <rect x="119" y="178" width="20" height="2" fill="#A8A8A8" />
+  <rect x="170" y="178" width="20" height="2" fill="#A8A8A8" />
+  <rect x="222" y="178" width="20" height="2" fill="#A8A8A8" />
+  <rect x="119" y="186" width="20" height="2" fill="#A8A8A8" />
+  <rect x="170" y="186" width="20" height="2" fill="#A8A8A8" />
+  <rect x="170" y="194" width="20" height="2" fill="#A8A8A8" />
+  <rect x="170" y="218" width="20" height="2" fill="#A8A8A8" />
+  <rect x="119" y="218" width="20" height="2" fill="#A8A8A8" />
+  <rect x="222" y="218" width="20" height="2" fill="#A8A8A8" />
 </svg>

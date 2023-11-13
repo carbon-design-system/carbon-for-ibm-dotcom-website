@@ -1,19 +1,19 @@
 <svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="60" y="119" width="2" height="10" fill="#1060FE"/>
-<rect x="60" y="129" width="2" height="30" fill="#F3F3F3"/>
-<rect x="68" y="123" width="32" height="3" fill="#8D8D8D"/>
-<rect x="68" y="134" width="32" height="3" fill="#A8A8A8"/>
-<rect x="68" y="145" width="32" height="3" fill="#A8A8A8"/>
-<rect x="68" y="156" width="32" height="3" fill="#A8A8A8"/>
-<rect x="125" y="121" width="64" height="6" fill="#8D8D8D"/>
-<rect x="125" y="142" width="135" height="3" fill="#A8A8A8"/>
-<rect x="125" y="163" width="135" height="3" fill="#A8A8A8"/>
-<rect x="125" y="184" width="135" height="3" fill="#A8A8A8"/>
-<rect x="125" y="135" width="135" height="3" fill="#A8A8A8"/>
-<rect x="125" y="156" width="135" height="3" fill="#A8A8A8"/>
-<rect x="125" y="177" width="135" height="3" fill="#A8A8A8"/>
-<rect x="125" y="198" width="72" height="3" fill="#A8A8A8"/>
-<rect x="125" y="149" width="135" height="3" fill="#A8A8A8"/>
-<rect x="125" y="170" width="135" height="3" fill="#A8A8A8"/>
-<rect x="125" y="191" width="135" height="3" fill="#A8A8A8"/>
+  <rect x="60" y="119" width="2" height="10" fill="#1060FE" />
+  <rect x="60" y="129" width="2" height="30" fill="#F3F3F3" />
+  <rect x="68" y="123" width="32" height="3" fill="#8D8D8D" />
+  <rect x="68" y="134" width="32" height="3" fill="#A8A8A8" />
+  <rect x="68" y="145" width="32" height="3" fill="#A8A8A8" />
+  <rect x="68" y="156" width="32" height="3" fill="#A8A8A8" />
+  <rect x="125" y="121" width="64" height="6" fill="#8D8D8D" />
+  <rect x="125" y="142" width="135" height="3" fill="#A8A8A8" />
+  <rect x="125" y="163" width="135" height="3" fill="#A8A8A8" />
+  <rect x="125" y="184" width="135" height="3" fill="#A8A8A8" />
+  <rect x="125" y="135" width="135" height="3" fill="#A8A8A8" />
+  <rect x="125" y="156" width="135" height="3" fill="#A8A8A8" />
+  <rect x="125" y="177" width="135" height="3" fill="#A8A8A8" />
+  <rect x="125" y="198" width="72" height="3" fill="#A8A8A8" />
+  <rect x="125" y="149" width="135" height="3" fill="#A8A8A8" />
+  <rect x="125" y="170" width="135" height="3" fill="#A8A8A8" />
+  <rect x="125" y="191" width="135" height="3" fill="#A8A8A8" />
 </svg>

@@ -1,17 +1,23 @@
 <svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="100" y="95" width="113" height="130" fill="#F4F4F4"/>
-<rect x="110.273" y="197.961" width="64" height="3" fill="#8D8D8D"/>
-<rect x="110" y="131" width="64" height="3" fill="#A8A8A8"/>
-<rect x="110.273" y="180.118" width="64" height="3" fill="#8D8D8D"/>
-<rect x="110.273" y="142.157" width="64" height="3" fill="#A8A8A8"/>
-<rect x="110" y="154" width="64" height="3" fill="#A8A8A8"/>
-<path d="M199.467 119.661L196.467 122.638L196.887 123.055L199.467 120.494L202.047 123.055L202.467 122.638L199.467 119.661Z" fill="black"/>
-<path d="M199.467 183.771L196.467 180.793L196.887 180.376L199.467 182.937L202.047 180.376L202.467 180.793L199.467 183.771Z" fill="black"/>
-<path d="M199.467 201.614L196.467 198.636L196.887 198.219L199.467 200.78L202.047 198.219L202.467 198.636L199.467 201.614Z" fill="black"/>
-<path d="M100 112.843H213" stroke="#C6C6C6"/>
-<path d="M100 172.745H213" stroke="#C6C6C6"/>
-<path d="M100 190.588H213" stroke="#C6C6C6"/>
-<path d="M100 208.431H213" stroke="#C6C6C6"/>
-<rect x="110" y="103" width="64" height="3" fill="#8D8D8D"/>
-<rect x="110" y="119" width="64" height="3" fill="#8D8D8D"/>
+  <rect x="100" y="95" width="113" height="130" fill="#F4F4F4" />
+  <rect x="110.273" y="197.961" width="64" height="3" fill="#8D8D8D" />
+  <rect x="110" y="131" width="64" height="3" fill="#A8A8A8" />
+  <rect x="110.273" y="180.118" width="64" height="3" fill="#8D8D8D" />
+  <rect x="110.273" y="142.157" width="64" height="3" fill="#A8A8A8" />
+  <rect x="110" y="154" width="64" height="3" fill="#A8A8A8" />
+  <path
+    d="M199.467 119.661L196.467 122.638L196.887 123.055L199.467 120.494L202.047 123.055L202.467 122.638L199.467 119.661Z"
+    fill="black" />
+  <path
+    d="M199.467 183.771L196.467 180.793L196.887 180.376L199.467 182.937L202.047 180.376L202.467 180.793L199.467 183.771Z"
+    fill="black" />
+  <path
+    d="M199.467 201.614L196.467 198.636L196.887 198.219L199.467 200.78L202.047 198.219L202.467 198.636L199.467 201.614Z"
+    fill="black" />
+  <path d="M100 112.843H213" stroke="#C6C6C6" />
+  <path d="M100 172.745H213" stroke="#C6C6C6" />
+  <path d="M100 190.588H213" stroke="#C6C6C6" />
+  <path d="M100 208.431H213" stroke="#C6C6C6" />
+  <rect x="110" y="103" width="64" height="3" fill="#8D8D8D" />
+  <rect x="110" y="119" width="64" height="3" fill="#8D8D8D" />
 </svg>
