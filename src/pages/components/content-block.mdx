@@ -1,0 +1,185 @@
+---
+title: Content block
+description: "Content block is a high-level layout component that acts as the main content unit used inside of a Content section to build web experiences on IBM dotcom. It encapsulates other content components (one or multiple content groups) and brings them together into a custom visual, which solves a specific problem for the user.
+---
+
+import ComponentDescription from 'components/ComponentDescription';
+import ComponentFooter from 'components/ComponentFooter';
+import ResourceLinks from 'components/ResourceLinks';
+
+<ComponentDescription name="Content block" type="layout" />
+
+<AnchorLinks>
+
+<AnchorLink>Overview</AnchorLink>
+<AnchorLink>Modifiers</AnchorLink>
+<AnchorLink>Behaviors</AnchorLink>
+<AnchorLink>Gallery</AnchorLink>
+<AnchorLink>Resources</AnchorLink>
+<AnchorLink>Content guidance</AnchorLink>
+<AnchorLink>Feedback</AnchorLink>
+
+</AnchorLinks>
+
+## Overview
+
+The content section acts as the heading level two on all pages after the lead space component. The content section is used to divide the main categories or sections of the page to help guide the user through the content or narrative.
+
+![Image of the content section](../../images/component/content-section/content-section-overview.png)
+
+<Caption>Example of the content section.</Caption>
+
+### Anatomy
+
+![Anatomy image of the content section](../../images/component/content-section/content-section-anatomy.png)
+
+1. **Content section heading:** An optional, customizable heading for the Content section.
+2. **Content block heading:** An optional, customizable heading for the Content section.
+3. **Sub heading:** An opptional, customizable sub heading for the Content section.
+4. **Copy:** An optional short description.
+5. **Child container:** Insert additional components to enhance the narrative, such as content group, content item or card group.
+6. **CTA:** Use this as a general call to action, typically used to encompass the entire content section.
+7. **Border:** An optional bottom border.
+
+## Modifiers
+
+### Headings
+
+The content section has two types of optional headings – **content section** and **content block** – that can be turned on and off to fit the layout needs.
+
+![Image of the content section](../../images/component/content-section/content-section-modifier-heading-01.png)
+
+<Caption>Example of the content section.</Caption>
+
+#### Content section heading
+
+Turn off the content section heading to utilize the vertical [table of contents](../components/table-of-contents) component for long form reading experiences that allow the user to quickly navigate through the content.
+
+<Row>
+
+<Column colMd={4} colLg={6}>
+
+![Example highlighting content section heading](../../images/component/content-section/content-section-modifier-heading-02.png)
+
+<Caption>
+  Example of the content section component, where the content section heading is
+  highlighted.
+</Caption>
+
+</Column>
+
+<Column colMd={4} colLg={6}>
+
+![Example highlighting table of contents](../../images/component/content-section/content-section-modifier-heading-03.png)
+
+<Caption>
+  Example of replacing the content section heading with the vertical table of
+  contents.
+</Caption>
+
+</Column>
+
+</Row>
+
+#### Content block heading
+
+Turn off the content block heading for concise layout samples, this layout works well with the horizontal table of contents component.
+
+<Row>
+
+<Column colMd={4} colLg={6}>
+
+![Example highlighting content block heading](../../images/component/content-section/content-section-modifier-heading-04.png)
+
+<Caption>
+  Example of the content section component, where the content block heading is
+  highlighted.
+</Caption>
+
+</Column>
+
+<Column colMd={4} colLg={6}>
+
+![Example highlighting the removal of the content block heading](../../images/component/content-section/content-section-modifier-heading-05.png)
+
+<Caption>
+  Example of turning off the content section's content block heading, and all
+  remaining content shifts upward to top align with the content section heading.
+</Caption>
+
+</Column>
+
+</Row>
+
+### Children
+
+The content section can accept many different types of child components, which allows designers and authors maximum flexibility when creating page layouts. The most common layouts on IBM.com are 8 column and 12 column components.
+
+#### 8 column child
+
+_Add description text here_
+
+![Image of a content section with an 8 column child component](../../images/component/content-section/content-section-modifier-children-02.png)
+
+<Caption>
+  Example of the content section with a child component that spans 8 columns.
+</Caption>
+
+#### 12 column child
+
+_Add description text here_
+
+![Image of a content section with an 12 column child component](../../images/component/content-section/content-section-modifier-children-01.png)
+
+<Caption>
+  Example of the content section with a child component that spans 12 columns.
+</Caption>
+
+There is no limit to how many child components the content section can accept - consider the story you are trying to tell, the overall hierarchy of the page and how many content sections should be used to break up the content. View the [gallery](#gallery) to see examples of content section with various child components.
+
+## Behaviors
+
+The content section elements are persistent throughout the experience. It is fully responsive and changes how
+elements are displayed based on the browser size, at tablet and mobile breakpoints the content section heading stacks on top of the content block heading.
+
+<Row>
+
+<Column colMd={8} colLg={8}>
+
+![Image of the content section at tablet breakpoint](../../images/component/content-section/content-section-behavior-01.png)
+
+<Caption>Example of content section at medium breakpoint</Caption>
+
+</Column>
+
+<Column colMd={8} colLg={4}>
+
+![Image of the content section at mobile breakpoint](../../images/component/content-section/content-section-behavior-02.png)
+
+<Caption>Example of content section at mobile breakpoint</Caption>
+
+</Column>
+
+</Row>
+
+## Gallery
+
+The content section is the main building block for establishing sections throughout pages of the IBM.com platform. Here are some examples of various layouts you can create by utilizing the extreme flexibility the content section provides by utilizing the varying heading options and adding custom children.
+
+<ResourceLinks name="Content section" type="layout" />
+
+## Content guidance
+
+| Element                                                    | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes                                                                                        |
+| ---------------------------------------------------------- | ------------ | -------- | --------- | ------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| Content section heading                                    | Text         | No       | 1         | 25 / 35                                     |                                                                                              |
+| Content block heading                                      | Text         | No       | 1         | 40 / 55                                     |                                                                                              |
+| Sub heading                                                | Text         | No       | 1         | 120 / 150                                   |                                                                                              |
+| Copy                                                       | Text         | No       | 1         | 1600 / 2400                                 |                                                                                              |
+| Child container                                            | Component    | No       | 1+        | –                                           | An optional container area that child components and other content types can be passed into. |
+| [CTA](https://www.ibm.com/standards/carbon/components/cta) | Component    | No       | 1         | 25 / 35                                     |                                                                                              |
+| Border                                                     | Component    | No       | 1         | –                                           |                                                                                              |
+
+For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
+
+<ComponentFooter name="Content section" type="layout" />
