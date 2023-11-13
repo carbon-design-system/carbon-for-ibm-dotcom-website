@@ -1,27 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="320px" height="320px" viewBox="0 0 320 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>table_of_contents</title>
-    <g id="table_of_contents" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group" transform="translate(59.000000, 113.000000)">
-            <rect id="Rectangle-Copy-38" fill="#1060FE" x="0" y="0" width="2" height="7"></rect>
-            <rect id="Rectangle-Copy-39" fill="#F3F3F3" x="0" y="7" width="2" height="21"></rect>
-            <rect id="Rectangle-Copy-40" fill="#A8A8A8" x="8" y="2" width="36" height="3"></rect>
-            <rect id="Rectangle-Copy-41" fill="#A8A8A8" x="65" y="2" width="66" height="6"></rect>
-            <rect id="Rectangle-Copy-42" fill="#C6C6C6" x="8" y="9" width="29" height="3"></rect>
-            <rect id="Rectangle-Copy-43" fill="#C6C6C6" x="8" y="16" width="36" height="3"></rect>
-            <rect id="Rectangle-Copy-44" fill="#C6C6C6" x="8" y="23" width="29" height="3"></rect>
-            <rect id="Rectangle-Copy-60" fill="#C6C6C6" x="65" y="21" width="124" height="4"></rect>
-            <rect id="Rectangle-Copy-61" fill="#C6C6C6" x="65" y="49" width="124" height="4"></rect>
-            <rect id="Rectangle-Copy-62" fill="#C6C6C6" x="65" y="77" width="124" height="4"></rect>
-            <rect id="Rectangle-Copy-63" fill="#C6C6C6" x="65" y="28" width="138" height="4"></rect>
-            <rect id="Rectangle-Copy-64" fill="#C6C6C6" x="65" y="56" width="138" height="4"></rect>
-            <rect id="Rectangle-Copy-65" fill="#C6C6C6" x="65" y="84" width="138" height="4"></rect>
-            <rect id="Rectangle-Copy-66" fill="#C6C6C6" x="65" y="14" width="138" height="4"></rect>
-            <rect id="Rectangle-Copy-67" fill="#C6C6C6" x="65" y="42" width="138" height="4"></rect>
-            <rect id="Rectangle-Copy-68" fill="#C6C6C6" x="65" y="70" width="138" height="4"></rect>
-            <rect id="Rectangle-Copy-69" fill="#C6C6C6" x="65" y="35" width="124" height="4"></rect>
-            <rect id="Rectangle-Copy-70" fill="#C6C6C6" x="65" y="63" width="124" height="4"></rect>
-            <rect id="Rectangle-Copy-71" fill="#C6C6C6" x="65" y="91" width="124" height="4"></rect>
-        </g>
-    </g>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="640px" height="360px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g><path style="opacity:1" fill="#105ffe" d="M 123.5,117.5 C 122.167,117.5 120.833,117.5 119.5,117.5C 119.5,110.833 119.5,104.167 119.5,97.5C 120.833,97.5 122.167,97.5 123.5,97.5C 123.5,104.167 123.5,110.833 123.5,117.5 Z"/></g>
+<g><path style="opacity:1" fill="#8c8d8c" d="M 249.5,101.5 C 292.167,101.5 334.833,101.5 377.5,101.5C 377.5,105.5 377.5,109.5 377.5,113.5C 334.833,113.5 292.167,113.5 249.5,113.5C 249.5,109.5 249.5,105.5 249.5,101.5 Z"/></g>
+<g><path style="opacity:1" fill="#8c8d8c" d="M 135.5,105.5 C 156.833,105.5 178.167,105.5 199.5,105.5C 199.5,107.5 199.5,109.5 199.5,111.5C 178.167,111.5 156.833,111.5 135.5,111.5C 135.5,109.5 135.5,107.5 135.5,105.5 Z"/></g>
+<g><path style="opacity:1" fill="#f2f3f2" d="M 119.5,117.5 C 120.833,117.5 122.167,117.5 123.5,117.5C 123.5,137.5 123.5,157.5 123.5,177.5C 122.167,177.5 120.833,177.5 119.5,177.5C 119.5,157.5 119.5,137.5 119.5,117.5 Z"/></g>
+<g><path style="opacity:1" fill="#a7a8a7" d="M 135.5,127.5 C 156.833,127.5 178.167,127.5 199.5,127.5C 199.5,129.5 199.5,131.5 199.5,133.5C 178.167,133.5 156.833,133.5 135.5,133.5C 135.5,131.5 135.5,129.5 135.5,127.5 Z"/></g>
+<g><path style="opacity:1" fill="#a7a8a7" d="M 249.5,129.5 C 339.5,129.5 429.5,129.5 519.5,129.5C 519.5,131.5 519.5,133.5 519.5,135.5C 429.5,135.5 339.5,135.5 249.5,135.5C 249.5,133.5 249.5,131.5 249.5,129.5 Z"/></g>
+<g><path style="opacity:1" fill="#a7a8a7" d="M 249.5,143.5 C 339.5,143.5 429.5,143.5 519.5,143.5C 519.5,145.5 519.5,147.5 519.5,149.5C 429.5,149.5 339.5,149.5 249.5,149.5C 249.5,147.5 249.5,145.5 249.5,143.5 Z"/></g>
+<g><path style="opacity:1" fill="#a7a8a7" d="M 135.5,149.5 C 156.833,149.5 178.167,149.5 199.5,149.5C 199.5,151.5 199.5,153.5 199.5,155.5C 178.167,155.5 156.833,155.5 135.5,155.5C 135.5,153.5 135.5,151.5 135.5,149.5 Z"/></g>
+<g><path style="opacity:1" fill="#a7a8a7" d="M 249.5,157.5 C 339.5,157.5 429.5,157.5 519.5,157.5C 519.5,159.5 519.5,161.5 519.5,163.5C 429.5,163.5 339.5,163.5 249.5,163.5C 249.5,161.5 249.5,159.5 249.5,157.5 Z"/></g>
+<g><path style="opacity:1" fill="#a7a8a7" d="M 135.5,171.5 C 156.833,171.5 178.167,171.5 199.5,171.5C 199.5,173.5 199.5,175.5 199.5,177.5C 178.167,177.5 156.833,177.5 135.5,177.5C 135.5,175.5 135.5,173.5 135.5,171.5 Z"/></g>
+<g><path style="opacity:1" fill="#a7a8a7" d="M 249.5,171.5 C 339.5,171.5 429.5,171.5 519.5,171.5C 519.5,173.5 519.5,175.5 519.5,177.5C 429.5,177.5 339.5,177.5 249.5,177.5C 249.5,175.5 249.5,173.5 249.5,171.5 Z"/></g>
+<g><path style="opacity:1" fill="#a7a8a7" d="M 249.5,185.5 C 339.5,185.5 429.5,185.5 519.5,185.5C 519.5,187.5 519.5,189.5 519.5,191.5C 429.5,191.5 339.5,191.5 249.5,191.5C 249.5,189.5 249.5,187.5 249.5,185.5 Z"/></g>
+<g><path style="opacity:1" fill="#a7a8a7" d="M 249.5,199.5 C 339.5,199.5 429.5,199.5 519.5,199.5C 519.5,201.5 519.5,203.5 519.5,205.5C 429.5,205.5 339.5,205.5 249.5,205.5C 249.5,203.5 249.5,201.5 249.5,199.5 Z"/></g>
+<g><path style="opacity:1" fill="#a7a8a7" d="M 249.5,213.5 C 339.5,213.5 429.5,213.5 519.5,213.5C 519.5,215.5 519.5,217.5 519.5,219.5C 429.5,219.5 339.5,219.5 249.5,219.5C 249.5,217.5 249.5,215.5 249.5,213.5 Z"/></g>
+<g><path style="opacity:1" fill="#a7a8a7" d="M 249.5,227.5 C 339.5,227.5 429.5,227.5 519.5,227.5C 519.5,229.5 519.5,231.5 519.5,233.5C 429.5,233.5 339.5,233.5 249.5,233.5C 249.5,231.5 249.5,229.5 249.5,227.5 Z"/></g>
+<g><path style="opacity:1" fill="#a7a8a7" d="M 249.5,241.5 C 339.5,241.5 429.5,241.5 519.5,241.5C 519.5,243.5 519.5,245.5 519.5,247.5C 429.5,247.5 339.5,247.5 249.5,247.5C 249.5,245.5 249.5,243.5 249.5,241.5 Z"/></g>
+<g><path style="opacity:1" fill="#a7a8a7" d="M 249.5,255.5 C 297.5,255.5 345.5,255.5 393.5,255.5C 393.5,257.5 393.5,259.5 393.5,261.5C 345.5,261.5 297.5,261.5 249.5,261.5C 249.5,259.5 249.5,257.5 249.5,255.5 Z"/></g>
 </svg>

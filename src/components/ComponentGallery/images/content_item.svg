@@ -1,27 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="320px" height="320px" viewBox="0 0 320 320" enable-background="new 0 0 320 320" xml:space="preserve">
-	<title>content_item</title>
-<g id="content_item">
-	<g id="Group-3" transform="translate(72.000000, 97.000000)">
-		<rect id="Rectangle" fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" stroke="#C6C6C6" width="176" height="126"/>
-		<g id="Group-4" transform="translate(47.000000, 8.000000)">
-			<g id="Group-6" transform="translate(0.000000, 27.000000)">
-				<g id="Group-5" transform="translate(43.000000, 0.000000)">
-					
-						<rect id="Rectangle-Copy-4" x="-43.2" y="18.9" fill-rule="evenodd" clip-rule="evenodd" fill="#C6C6C6" width="60" height="2"/>
-					
-						<rect id="Rectangle-Copy-5" x="-43.2" y="22.9" fill-rule="evenodd" clip-rule="evenodd" fill="#C6C6C6" width="60" height="2"/>
-					
-						<rect id="Rectangle-Copy-6" x="-43.2" y="26.9" fill-rule="evenodd" clip-rule="evenodd" fill="#C6C6C6" width="60" height="2"/>
-					
-						<rect id="Rectangle-Copy-8" x="-43.2" y="30.9" fill-rule="evenodd" clip-rule="evenodd" fill="#C6C6C6" width="38.5" height="2"/>
-				</g>
-				<rect id="Rectangle-Copy-2_1_" y="11.8" fill-rule="evenodd" clip-rule="evenodd" fill="#8D8D8D" width="28" height="4"/>
-			</g>
-			
-				<rect id="Rectangle-Copy-2_2_" x="-0.2" y="63.5" fill-rule="evenodd" clip-rule="evenodd" fill="#8D8D8D" width="23.2" height="2"/>
-		</g>
-	</g>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="640px" height="360px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g><path style="opacity:1" fill="#a7a8a7" d="M 110.5,100.5 C 249.833,100.5 389.167,100.5 528.5,100.5C 528.5,153.167 528.5,205.833 528.5,258.5C 389.167,258.5 249.833,258.5 110.5,258.5C 110.5,205.833 110.5,153.167 110.5,100.5 Z"/></g>
+<g><path style="opacity:1" fill="#fefffe" d="M 112.5,102.5 C 250.5,102.5 388.5,102.5 526.5,102.5C 526.5,153.833 526.5,205.167 526.5,256.5C 388.5,256.5 250.5,256.5 112.5,256.5C 112.5,205.167 112.5,153.833 112.5,102.5 Z"/></g>
+<g><path style="opacity:1" fill="#8c8d8c" d="M 221.5,133.5 C 248.167,133.5 274.833,133.5 301.5,133.5C 301.5,134.5 301.5,135.5 301.5,136.5C 274.833,136.5 248.167,136.5 221.5,136.5C 221.5,135.5 221.5,134.5 221.5,133.5 Z"/></g>
+<g><path style="opacity:1" fill="#a7a8a7" d="M 221.5,140.5 C 285.5,140.5 349.5,140.5 413.5,140.5C 413.5,141.5 413.5,142.5 413.5,143.5C 349.5,143.5 285.5,143.5 221.5,143.5C 221.5,142.5 221.5,141.5 221.5,140.5 Z"/></g>
+<g><path style="opacity:1" fill="#a7a8a7" d="M 221.5,147.5 C 285.5,147.5 349.5,147.5 413.5,147.5C 413.5,148.5 413.5,149.5 413.5,150.5C 349.5,150.5 285.5,150.5 221.5,150.5C 221.5,149.5 221.5,148.5 221.5,147.5 Z"/></g>
+<g><path style="opacity:1" fill="#a7a8a7" d="M 221.5,154.5 C 285.5,154.5 349.5,154.5 413.5,154.5C 413.5,155.5 413.5,156.5 413.5,157.5C 349.5,157.5 285.5,157.5 221.5,157.5C 221.5,156.5 221.5,155.5 221.5,154.5 Z"/></g>
+<g><path style="opacity:1" fill="#a7a8a7" d="M 221.5,161.5 C 285.5,161.5 349.5,161.5 413.5,161.5C 413.5,162.5 413.5,163.5 413.5,164.5C 349.5,164.5 285.5,164.5 221.5,164.5C 221.5,163.5 221.5,162.5 221.5,161.5 Z"/></g>
+<g><path style="opacity:1" fill="#a7a8a7" d="M 221.5,168.5 C 285.5,168.5 349.5,168.5 413.5,168.5C 413.5,169.5 413.5,170.5 413.5,171.5C 349.5,171.5 285.5,171.5 221.5,171.5C 221.5,170.5 221.5,169.5 221.5,168.5 Z"/></g>
+<g><path style="opacity:1" fill="#a7a8a7" d="M 221.5,175.5 C 285.5,175.5 349.5,175.5 413.5,175.5C 413.5,176.5 413.5,177.5 413.5,178.5C 349.5,178.5 285.5,178.5 221.5,178.5C 221.5,177.5 221.5,176.5 221.5,175.5 Z"/></g>
+<g><path style="opacity:1" fill="#a7a8a7" d="M 221.5,182.5 C 253.5,182.5 285.5,182.5 317.5,182.5C 317.5,183.5 317.5,184.5 317.5,185.5C 285.5,185.5 253.5,185.5 221.5,185.5C 221.5,184.5 221.5,183.5 221.5,182.5 Z"/></g>
+<g><path style="opacity:1" fill="#78a9ff" d="M 221.5,203.5 C 242.833,203.5 264.167,203.5 285.5,203.5C 285.5,204.5 285.5,205.5 285.5,206.5C 264.167,206.5 242.833,206.5 221.5,206.5C 221.5,205.5 221.5,204.5 221.5,203.5 Z"/></g>
 </svg>

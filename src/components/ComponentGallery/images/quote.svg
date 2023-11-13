@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="320px" height="320px" viewBox="0 0 320 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>quote</title>
-    <g id="quote" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group" transform="translate(49.000000, 100.000000)">
-            <rect id="Rectangle-Copy-69" fill="#A8A8A8" x="11" y="86" width="47" height="4"></rect>
-            <rect id="Rectangle-Copy-70" fill="#C6C6C6" x="11" y="92" width="37" height="4"></rect>
-            <rect id="Rectangle-Copy-75" fill="#C6C6C6" x="11" y="16" width="198" height="8"></rect>
-            <rect id="Rectangle-Copy-76" fill="#C6C6C6" x="11" y="29" width="174" height="8"></rect>
-            <rect id="Rectangle-Copy-77" fill="#C6C6C6" x="11" y="42" width="198" height="8"></rect>
-            <rect id="Rectangle-Copy-78" fill="#C6C6C6" x="11" y="55" width="174" height="8"></rect>
-            <rect id="Rectangle-Copy-79" fill="#C6C6C6" x="11" y="68" width="198" height="8"></rect>
-            <line x1="6" y1="109" x2="213.900048" y2="109" id="Path-Copy-3" stroke="#8D8D8D" stroke-width="0.5"></line>
-            <text id="“-copy" font-family="IBMPlexSerif-Light, IBM Plex Serif" font-size="24" font-weight="300" fill="#000000">
-                <tspan x="0" y="25">“</tspan>
-            </text>
-            <text id="”-copy" font-family="IBMPlexSerif-Light, IBM Plex Serif" font-size="24" font-weight="300" fill="#000000">
-                <tspan x="211" y="80">”</tspan>
-            </text>
-            <rect id="Rectangle-Copy-12" fill="#78A9FF" x="11" y="116" width="31" height="4"></rect>
-        </g>
-    </g>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="640px" height="360px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g><path style="opacity:0.671" fill="#000000" d="M 118.5,81.5 C 119.552,81.3505 120.552,81.5172 121.5,82C 120.128,83.2419 119.128,84.7419 118.5,86.5C 121.351,89.2831 121.017,91.6164 117.5,93.5C 115.954,92.7884 114.954,91.6217 114.5,90C 115.181,86.8072 116.514,83.9738 118.5,81.5 Z"/></g>
+<g><path style="opacity:0.664" fill="#000000" d="M 127.5,81.5 C 128.552,81.3505 129.552,81.5172 130.5,82C 128.787,83.3782 127.453,85.0448 126.5,87C 130.378,89.2305 130.378,91.3971 126.5,93.5C 124.616,92.8853 123.616,91.552 123.5,89.5C 123.782,86.2691 125.115,83.6024 127.5,81.5 Z"/></g>
+<g><path style="opacity:1" fill="#8c8d8c" d="M 135.5,95.5 C 258.167,95.5 380.833,95.5 503.5,95.5C 503.5,99.5 503.5,103.5 503.5,107.5C 380.833,107.5 258.167,107.5 135.5,107.5C 135.5,103.5 135.5,99.5 135.5,95.5 Z"/></g>
+<g><path style="opacity:1" fill="#8c8d8c" d="M 135.5,123.5 C 258.167,123.5 380.833,123.5 503.5,123.5C 503.5,127.5 503.5,131.5 503.5,135.5C 380.833,135.5 258.167,135.5 135.5,135.5C 135.5,131.5 135.5,127.5 135.5,123.5 Z"/></g>
+<g><path style="opacity:1" fill="#8c8d8c" d="M 135.5,151.5 C 258.167,151.5 380.833,151.5 503.5,151.5C 503.5,155.5 503.5,159.5 503.5,163.5C 380.833,163.5 258.167,163.5 135.5,163.5C 135.5,159.5 135.5,155.5 135.5,151.5 Z"/></g>
+<g><path style="opacity:1" fill="#8c8d8c" d="M 135.5,179.5 C 221.5,179.5 307.5,179.5 393.5,179.5C 393.5,183.5 393.5,187.5 393.5,191.5C 307.5,191.5 221.5,191.5 135.5,191.5C 135.5,187.5 135.5,183.5 135.5,179.5 Z"/></g>
+<g><path style="opacity:0.66" fill="#000000" d="M 405.5,181.5 C 408.261,180.915 409.927,181.915 410.5,184.5C 410.101,188.566 408.101,191.566 404.5,193.5C 404.167,193.167 403.833,192.833 403.5,192.5C 404.711,191.126 405.711,189.626 406.5,188C 404.551,186.015 404.218,183.849 405.5,181.5 Z"/></g>
+<g><path style="opacity:0.69" fill="#000000" d="M 414.5,181.5 C 416.958,181.227 418.625,182.227 419.5,184.5C 418.739,188.365 416.739,191.365 413.5,193.5C 413.167,193.167 412.833,192.833 412.5,192.5C 415.626,189.832 415.96,186.999 413.5,184C 413.743,183.098 414.077,182.265 414.5,181.5 Z"/></g>
+<g><path style="opacity:1" fill="#8c8d8c" d="M 135.5,231.5 C 167.5,231.5 199.5,231.5 231.5,231.5C 231.5,233.5 231.5,235.5 231.5,237.5C 199.5,237.5 167.5,237.5 135.5,237.5C 135.5,235.5 135.5,233.5 135.5,231.5 Z"/></g>
+<g><path style="opacity:1" fill="#a7a8a7" d="M 135.5,245.5 C 156.833,245.5 178.167,245.5 199.5,245.5C 199.5,247.5 199.5,249.5 199.5,251.5C 178.167,251.5 156.833,251.5 135.5,251.5C 135.5,249.5 135.5,247.5 135.5,245.5 Z"/></g>
+<g><path style="opacity:0.502" fill="#8c8d8c" d="M 125.5,266.5 C 253.502,266.167 381.502,266.5 509.5,267.5C 445.5,267.833 381.5,268.167 317.5,268.5C 253.163,268.5 189.163,267.833 125.5,266.5 Z"/></g>
+<g><path style="opacity:1" fill="#78a9ff" d="M 135.5,283.5 C 156.833,283.5 178.167,283.5 199.5,283.5C 199.5,285.5 199.5,287.5 199.5,289.5C 178.167,289.5 156.833,289.5 135.5,289.5C 135.5,287.5 135.5,285.5 135.5,283.5 Z"/></g>
 </svg>

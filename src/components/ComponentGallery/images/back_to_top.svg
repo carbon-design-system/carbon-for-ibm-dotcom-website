@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="320px" height="320px" viewBox="0 0 320 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>backtotop</title>
-    <g id="backtotop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="back-to-top-/active" transform="translate(142.000000, 142.000000)">
-            <rect id="Rectangle" fill="#393939" x="0" y="0" width="36" height="36" rx="18"></rect>
-            <g id="Actions-/-Navigation-/-up-to-top-/-20" transform="translate(10.500000, 10.500000)" fill="#FFFFFF">
-                <path d="M7.5,6.09375 L2.8125,10.78125 L3.4734375,11.4421875 L7.5,7.4203125 L11.5265625,11.4421875 L12.1875,10.78125 L7.5,6.09375 Z M1.875,3.28125 L13.125,3.28125 L13.125,4.21875 L1.875,4.21875 L1.875,3.28125 Z" id="Fill"></path>
-            </g>
-        </g>
-    </g>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="640px" height="360px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g><path style="opacity:0.991" fill="#393939" d="M 309.5,131.5 C 339.197,128.579 358.364,141.246 367,169.5C 370.406,199.217 357.906,218.384 329.5,227C 299.783,230.406 280.616,217.906 272,189.5C 268.714,159.697 281.214,140.364 309.5,131.5 Z"/></g>
+<g><path style="opacity:1" fill="#fefffe" d="M 304.5,168.5 C 314.522,168.168 324.522,168.501 334.5,169.5C 329.5,169.833 324.5,170.167 319.5,170.5C 314.119,170.494 309.119,169.828 304.5,168.5 Z"/></g>
+<g><path style="opacity:1" fill="#fbfbfb" d="M 318.5,176.5 C 323.419,179.748 327.753,183.748 331.5,188.5C 330.998,189.521 330.332,189.688 329.5,189C 326.318,185.651 322.985,182.484 319.5,179.5C 315.833,182.833 312.167,186.167 308.5,189.5C 307.479,188.998 307.312,188.332 308,187.5C 311.704,183.964 315.204,180.298 318.5,176.5 Z"/></g>
 </svg>

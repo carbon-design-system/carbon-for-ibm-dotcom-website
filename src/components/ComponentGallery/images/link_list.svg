@@ -1,39 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="320px" height="320px" viewBox="0 0 320 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>link_list</title>
-    <defs>
-        <polygon id="path-1" points="5.0625 1.6875 4.6659375 2.0840625 6.7978125 4.21875 0.84375 4.21875 0.84375 4.78125 6.7978125 4.78125 4.6659375 6.9159375 5.0625 7.3125 7.875 4.5"></polygon>
-        <polygon id="path-3" points="5.0625 1.6875 4.6659375 2.0840625 6.7978125 4.21875 0.84375 4.21875 0.84375 4.78125 6.7978125 4.78125 4.6659375 6.9159375 5.0625 7.3125 7.875 4.5"></polygon>
-        <polygon id="path-5" points="5.0625 1.6875 4.6659375 2.0840625 6.7978125 4.21875 0.84375 4.21875 0.84375 4.78125 6.7978125 4.78125 4.6659375 6.9159375 5.0625 7.3125 7.875 4.5"></polygon>
-    </defs>
-    <g id="link_list" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group" transform="translate(92.000000, 87.000000)">
-            <rect id="Rectangle-Copy-64" fill="#78A9FF" x="7" y="22" width="24" height="4"></rect>
-            <rect id="Rectangle-Copy-65" fill="#78A9FF" x="6.93235937" y="66" width="24" height="4"></rect>
-            <rect id="Rectangle-Copy-67" fill="#78A9FF" x="6.93235937" y="110" width="24" height="4"></rect>
-            <rect id="Rectangle-Copy-59" fill="#C6C6C6" x="6.93235937" y="0" width="45" height="4"></rect>
-            <line x1="0" y1="13.7758025" x2="136" y2="13.7758025" id="Path-4-Copy-4" stroke="#C6C6C6"></line>
-            <line x1="0" y1="58" x2="136" y2="58" id="Path-4-Copy-5" stroke="#C6C6C6"></line>
-            <line x1="0" y1="102" x2="136" y2="102" id="Path-4-Copy-6" stroke="#C6C6C6"></line>
-            <line x1="0" y1="146" x2="136" y2="146" id="Path-4-Copy-7" stroke="#C6C6C6"></line>
-            <g transform="translate(7.000000, 44.000000)" id="icons/arrows/ibm-forward-link-copy-8">
-                <mask id="mask-2" fill="white">
-                    <use xlink:href="#path-1"></use>
-                </mask>
-                <use id="icon-color" fill="#0F62FE" xlink:href="#path-1"></use>
-            </g>
-            <g transform="translate(7.000000, 89.000000)" id="icons/arrows/ibm-forward-link-copy-8">
-                <mask id="mask-4" fill="white">
-                    <use xlink:href="#path-3"></use>
-                </mask>
-                <use id="icon-color" fill="#0F62FE" xlink:href="#path-3"></use>
-            </g>
-            <g transform="translate(7.000000, 132.000000)" id="icons/arrows/ibm-forward-link-copy-8">
-                <mask id="mask-6" fill="white">
-                    <use xlink:href="#path-5"></use>
-                </mask>
-                <use id="icon-color" fill="#0F62FE" xlink:href="#path-5"></use>
-            </g>
-        </g>
-    </g>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="640px" height="360px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g><path style="opacity:1" fill="#8c8d8c" d="M 207.5,63.5 C 239.5,63.5 271.5,63.5 303.5,63.5C 303.5,65.5 303.5,67.5 303.5,69.5C 271.5,69.5 239.5,69.5 207.5,69.5C 207.5,67.5 207.5,65.5 207.5,63.5 Z"/></g>
+<g><path style="opacity:0.875" fill="#8d8e8d" d="M 195.5,80.5 C 278.169,80.1667 360.836,80.5 443.5,81.5C 402.167,81.8333 360.833,82.1667 319.5,82.5C 277.828,82.4999 236.495,81.8333 195.5,80.5 Z"/></g>
+<g><path style="opacity:1" fill="#78a9ff" d="M 207.5,93.5 C 239.5,93.5 271.5,93.5 303.5,93.5C 303.5,95.5 303.5,97.5 303.5,99.5C 271.5,99.5 239.5,99.5 207.5,99.5C 207.5,97.5 207.5,95.5 207.5,93.5 Z"/></g>
+<g><path style="opacity:1" fill="#78a9ff" d="M 207.5,107.5 C 226.833,107.5 246.167,107.5 265.5,107.5C 265.5,109.5 265.5,111.5 265.5,113.5C 246.167,113.5 226.833,113.5 207.5,113.5C 207.5,111.5 207.5,109.5 207.5,107.5 Z"/></g>
+<g><path style="opacity:0.593" fill="#0f63fd" d="M 428.5,126.5 C 431.146,128.479 433.479,130.812 435.5,133.5C 433.517,135.984 431.35,138.317 429,140.5C 427.165,138.273 427.665,136.44 430.5,135C 414.5,134 414.5,133 430.5,132C 427.918,130.662 427.251,128.829 428.5,126.5 Z"/></g>
+<g><path style="opacity:0.875" fill="#8d8e8d" d="M 195.5,152.5 C 278.169,152.167 360.836,152.5 443.5,153.5C 402.167,153.833 360.833,154.167 319.5,154.5C 277.828,154.5 236.495,153.833 195.5,152.5 Z"/></g>
+<g><path style="opacity:1" fill="#78a9ff" d="M 207.5,165.5 C 239.5,165.5 271.5,165.5 303.5,165.5C 303.5,167.5 303.5,169.5 303.5,171.5C 271.5,171.5 239.5,171.5 207.5,171.5C 207.5,169.5 207.5,167.5 207.5,165.5 Z"/></g>
+<g><path style="opacity:1" fill="#78a9ff" d="M 207.5,179.5 C 226.833,179.5 246.167,179.5 265.5,179.5C 265.5,181.5 265.5,183.5 265.5,185.5C 246.167,185.5 226.833,185.5 207.5,185.5C 207.5,183.5 207.5,181.5 207.5,179.5 Z"/></g>
+<g><path style="opacity:0.593" fill="#0f63fd" d="M 428.5,198.5 C 431.146,200.479 433.479,202.812 435.5,205.5C 433.517,207.984 431.35,210.317 429,212.5C 427.165,210.273 427.665,208.44 430.5,207C 414.5,206 414.5,205 430.5,204C 427.918,202.662 427.251,200.829 428.5,198.5 Z"/></g>
+<g><path style="opacity:0.875" fill="#8d8e8d" d="M 195.5,224.5 C 278.169,224.167 360.836,224.5 443.5,225.5C 402.167,225.833 360.833,226.167 319.5,226.5C 277.828,226.5 236.495,225.833 195.5,224.5 Z"/></g>
+<g><path style="opacity:1" fill="#78a9ff" d="M 207.5,237.5 C 239.5,237.5 271.5,237.5 303.5,237.5C 303.5,239.5 303.5,241.5 303.5,243.5C 271.5,243.5 239.5,243.5 207.5,243.5C 207.5,241.5 207.5,239.5 207.5,237.5 Z"/></g>
+<g><path style="opacity:1" fill="#78a9ff" d="M 207.5,251.5 C 226.833,251.5 246.167,251.5 265.5,251.5C 265.5,253.5 265.5,255.5 265.5,257.5C 246.167,257.5 226.833,257.5 207.5,257.5C 207.5,255.5 207.5,253.5 207.5,251.5 Z"/></g>
+<g><path style="opacity:0.593" fill="#0f63fd" d="M 428.5,270.5 C 431.146,272.479 433.479,274.812 435.5,277.5C 433.517,279.984 431.35,282.317 429,284.5C 427.165,282.273 427.665,280.44 430.5,279C 414.5,278 414.5,277 430.5,276C 427.918,274.662 427.251,272.829 428.5,270.5 Z"/></g>
+<g><path style="opacity:0.875" fill="#8d8e8d" d="M 195.5,296.5 C 278.169,296.167 360.836,296.5 443.5,297.5C 402.167,297.833 360.833,298.167 319.5,298.5C 277.828,298.5 236.495,297.833 195.5,296.5 Z"/></g>
 </svg>
