@@ -125,7 +125,7 @@
     - title: Logo grid
       path: /components/logo-grid
     - title: Masthead
-      path: /components/masthead
+      path: /components/masthead/overview
     - title: Quote
       path: /components/quote
     - title: Table of contents
