@@ -843,6 +843,15 @@
         "deprecated": false,
         "underConstruction": false,
         "notAvailable": false
+      },
+      "react": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
       }
     },
     "Content group": {
