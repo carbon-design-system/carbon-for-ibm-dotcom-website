@@ -182,7 +182,7 @@
     "Footer": {
       "url": "/components/footer",
       "designLink": "https://ibm.box.com/s/nsbccv6jigfw78uwq3r0242qks1x1f87",
-      "description": "The Footer is required on all IBM.com pages, it is placed at the bottom of a page and acts as the catch-all section that helps users navigate and provides corporate level general and legal information.",
+      "description": "The footer is required on all IBM.com pages, and is placed at the bottom of a page. It acts as the catch-all section that helps users navigate and provides corporate level general and legal information.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-footer--default"
       },
@@ -237,24 +237,6 @@
       "description": "The Image with caption component is used to embed images and has an optional caption. It can support images at 1x1, 2x1, 4x3 and 16x9 aspect ratios.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-image-with-caption--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Language selector": {
-      "url": "/components/language-selector",
-      "designLink": "https://ibm.box.com/s/nsbccv6jigfw78uwq3r0242qks1x1f87",
-      "functionalLink": false,
-      "description": "Language selector is for users to select their preferred language on a website. The content on the website will appear in the default language until the users reselect their preferred language then the page content will reload in the reselected language provided a translation is available.",
-      "storybook": {
-        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-footer--default-language-only"
       },
       "webcomponents": {
         "stable": true,
