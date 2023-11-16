@@ -1,6 +1,6 @@
 ---
 title: Footer
-description: The Footer is required on all IBM.com pages, and is placed at the bottom of a page. It acts as the catch-all section that helps users navigate and provides corporate level general and legal information.
+description: The footer is required on all IBM.com pages, and is placed at the bottom of a page. It acts as the catch-all section that helps users navigate and provides corporate level general and legal information.
 ---
 
 import ComponentDescription from 'components/ComponentDescription';
@@ -23,15 +23,15 @@ import ResourceLinks from 'components/ResourceLinks';
 
 ## Overview
 
-The Footer is a required component on all IBM.com pages. There are three sizes available, and each size has a specific use case. [See the table below](#deciding-what-to-use). The Footer includes the IBM logo, navigational links, locale or language selector and required legal links.
+The footer is a required component on all IBM.com pages. There are three sizes available, and each size has a specific use case. [See the table below](#deciding-what-to-use). The footer includes the IBM logo, navigational links, locale or language selector and required legal links.
 
-The Footer is generated automatically based on the country and language code that is set on the page in the metadata.
+The footer is generated automatically based on the country and language code that is set on the page in the metadata.
 
 ![Image of default footer](../../images/component/footer/footer-overview.png)
 
 1. **IBM logo:** Links to the IBM homepage and is a required branding element of the Footer. The IBM logo should not be altered.
 2. **Link group heading:** The link group heading is present for all the link groups.
-3. **Link:** The Default footer links are carefully considered from the main navigation level and should not be changed.
+3. **Link:** The default footer links are carefully considered from the main navigation level and should not be changed.
 4. **Locale selector:** Use the locale selector to trigger the locale modal component to allow users to change geographic regions and languages, if available.
 5. **Legal links:** The general legal links are present on every IBM Footer and cannot be changed.
 6. **Adjunct legal link(s) (Optional)**: Use up to two adjunct legal links for notes or messages legally required to provide regarding changes, policies or trademark issues.
@@ -42,13 +42,13 @@ The Footer is generated automatically based on the country and language code tha
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [Default](#default) | Default footer is suitable for most of the IBM.com pages.                                                                                                                            |
 | [Short](#short)     | Short footer is reserved for approved transactional pages, such as check out and registration experiences.                                                                           |
-| [Micro](#micro)     | This Footer is reserved for stand-alone experiences such as product demos or slide shows. All other pages and experiences on IBM.com should use the Default or the Short variations. |
+| [Micro](#micro)     | This footer is reserved for stand-alone experiences such as product demos or slide shows. All other pages and experiences on IBM.com should use the default or the short variations. |
 
 ## Variants
 
 ### Default
 
-The Default footer includes all high-level corporate navigation, required legal links, locale selector, branding, and optional adjunct legal links.
+Default footer includes all high-level corporate navigation, required legal links, locale selector, branding, and optional adjunct legal links.
 
 #### When to use
 
@@ -72,11 +72,11 @@ Short footer is reserved for approved transactional pages, such as check out and
 
 ### Micro
 
-The Micro footer variation only shows the required branding, legal links, and the optional locale selector to maximize the space for the page content. Adjunct legal links are not allowed. If you need them, please use either the Default, or the Short footer.
+The micro footer variation only shows the required branding, legal links, and the optional locale selector to maximize the space for the page content. Adjunct legal links are not allowed. If you need them, please use either the default, or the short footer.
 
 #### When to use
 
-This Footer is reserved for stand-alone experiences such as product demos or slide shows. All other pages and experiences on IBM.com should use the Default or the Short variations.
+This footer is reserved for stand-alone experiences such as product demos or slide shows. All other pages and experiences on IBM.com should use the default or the short variations.
 
 ![Micro footer, a streamlined footer with only a logo, links, and the locale selector](../../images/component/footer/footer-variants-03.png)
 
@@ -86,15 +86,15 @@ This Footer is reserved for stand-alone experiences such as product demos or sli
 
 ### Theme
 
-As a mandatory component of the IBM.com web experience, the Footer should remain consistent, creating a branded anchor across all pages. The Footer is only available in the gray 100 theme to maintain consistency across all pages.
+As a mandatory component of the IBM.com web experience, the footer should remain consistent, creating a branded anchor across all pages. The footer is only available in the gray 100 theme to maintain consistency across all pages.
 
 ### Locale or language selector
 
-All Footer sizes have the option to choose between using the locale selector or language selector.
+All footer sizes have the option to choose between using the locale selector or language selector.
 
 #### Locale selector
 
-The Footer defaults to the locale selector, which displays the country and language of a given page within a button. It allows the user to change their locale through the [Locale modal](https://www.ibm.com/standards/carbon/components/localemodal) by selecting the desired region, followed by the desired language.
+By default the footer uses the locale selector, which displays the country and language of a given page within a button. It allows the user to change their locale through the [Locale modal](https://www.ibm.com/standards/carbon/components/localemodal) by selecting the desired region, followed by the desired language.
 
 <Row>
 
@@ -126,7 +126,7 @@ The language selector displays only the language of a given page. It uses a comb
 
 ### Adjunct legal links
 
-Only the Default and the Short footers may contain up to two adjunct legal links for legally required notes or messages. They are displayed at the very bottom of the page, under the IBM required legal links.
+Only the default and the short footers may contain up to two adjunct legal links for legally required notes or messages. They are displayed at the very bottom of the page, under the IBM required legal links.
 
 ![Default footer containing adjunct legal links, which are highlighted](../../images/component/footer/footer-modifiers-03.png)
 
@@ -154,7 +154,7 @@ Do not use an adjunct legal link to write footnotes or content-related notices. 
 
 All footer size variants span the full width of the viewport and is the last element in the browser window. If the browser is wider than the max breakpoint of 1584px, the footer and all other page content will center and extra margin will appear on either side of the page layout.
 
-For the medium and small breakpoints, the layout shifts to accommodate the smaller screen sizes. For the Default footer at the small breakpoint, the main links are collapsed into accordions to save space.
+For the medium and small breakpoints, the layout shifts to accommodate the smaller screen sizes. For the default footer at the small breakpoint, the main links are collapsed into accordions to save space.
 
 ![An example of the default footer at medium and small breakpoints](../../images/component/footer/footer-behaviors.png)
 
