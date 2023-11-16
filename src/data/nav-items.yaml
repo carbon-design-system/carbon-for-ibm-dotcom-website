@@ -98,6 +98,8 @@
       path: /components/filter-panel
     - title: Footer
       path: /components/footer
+    - title: Global banner
+      path: /components/global-banner
     - title: Horizontal rule
       path: /components/horizontal-rule
     - title: Images
@@ -130,8 +132,6 @@
       path: /components/table-of-contents
     - title: Tabs extended
       path: /components/tabs-extended
-    - title: Universal banner
-      path: /components/universal-banner
     - title: Video
       path: /components/video
 

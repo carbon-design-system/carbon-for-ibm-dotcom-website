@@ -1,8 +1,8 @@
 `Core` <!-- category start --><!-- category end -->
 
-A [[Universal banner]] is the only component allowed to show up above the [[Masthead]], and should be used exclusively for global and critical announcements (e.g. THINK global event, COVID 19 messages etc).
+A [[Global banner]] is the only component allowed to show up above the [[Masthead]], and should be used exclusively for global and critical announcements (e.g. THINK global event, COVID 19 messages etc).
 
-![universal-banner-func-spec](https://user-images.githubusercontent.com/15643582/170297987-2aa86d23-f994-41ff-bad9-0b03444315d3.png)
+![global-banner-func-spec](https://user-images.githubusercontent.com/15643582/170297987-2aa86d23-f994-41ff-bad9-0b03444315d3.png)
 
 > ![image](https://user-images.githubusercontent.com/3793636/117874180-493bdb80-b266-11eb-8945-dde0d95431d6.png)
 > There are a lot of similarities between this component and the [[Content group banner]]. Can these features be absorbed into that, or can [[Content group banner]] depend on this component or vice versa?
