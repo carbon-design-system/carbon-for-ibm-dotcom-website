@@ -92,7 +92,7 @@
     "Carousel": {
       "url": "/components/carousel/",
       "designLink": "https://ibm.box.com/s/hmni7qhero9mf5rn593zij0tcay8h9dw",
-      "description": "The carousel is an exploratory component, meaning it allows users to browse or explore multiple pieces of content within the same area of the page.",
+      "description": "The carousel allows users to browse or explore multiple pieces of content within the same area of the page.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-carousel--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-carousel--default"
