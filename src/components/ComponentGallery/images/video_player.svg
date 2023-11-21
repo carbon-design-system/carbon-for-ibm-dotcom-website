@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="640px" height="360px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g><path style="opacity:1" fill="#c5c5c5" d="M 119.5,61.5 C 252.833,61.5 386.167,61.5 519.5,61.5C 519.5,134.167 519.5,206.833 519.5,279.5C 386.167,279.5 252.833,279.5 119.5,279.5C 119.5,206.833 119.5,134.167 119.5,61.5 Z"/></g>
-<g><path style="opacity:1" fill="#535353" d="M 313.5,147.5 C 327.817,146.238 337.65,152.238 343,165.5C 344.745,179.845 338.912,189.678 325.5,195C 311.192,196.761 301.358,190.928 296,177.5C 294.364,163.101 300.197,153.101 313.5,147.5 Z"/></g>
-<g><path style="opacity:1" fill="#fafafa" d="M 313.5,163.5 C 318.297,165.149 322.797,167.482 327,170.5C 327.667,171.167 327.667,171.833 327,172.5C 322.753,174.707 318.586,177.04 314.5,179.5C 313.505,174.208 313.172,168.875 313.5,163.5 Z"/></g>
-<g><path style="opacity:1" fill="#a7a8a7" d="M 119.5,291.5 C 145.5,291.5 171.5,291.5 197.5,291.5C 197.5,294.167 197.5,296.833 197.5,299.5C 171.5,299.5 145.5,299.5 119.5,299.5C 119.5,296.833 119.5,294.167 119.5,291.5 Z"/></g>
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="60" y="101" width="200" height="109" fill="#C6C6C6"/>
+<rect width="39" height="4" transform="matrix(1 0 0 -1 60 220)" fill="#A8A8A8"/>
+<circle cx="160" cy="156" r="12" fill="#525252"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M157.332 160.186C157.137 160.186 156.979 160.027 156.979 159.832V152.054C156.979 151.927 157.046 151.811 157.156 151.747C157.265 151.684 157.4 151.684 157.509 151.748L164.227 155.637C164.336 155.7 164.403 155.817 164.403 155.943C164.403 156.069 164.336 156.185 164.227 156.249L157.509 160.138C157.455 160.169 157.394 160.186 157.332 160.186Z" fill="white"/>
 </svg>
