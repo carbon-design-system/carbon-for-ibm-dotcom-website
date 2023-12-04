@@ -36,7 +36,7 @@ Expressive styling is used primarily for web pages and productive styling is use
 
 #### Type sizes
 
-The expressive type styles are primarily used for web pages and the larger sizes allow for a more dramatic, graphic use of type in editorial and marketing design. These type styles are excellent for long form reading and scanning, but could be distracting for use in product.
+The expressive type set is primarily used for web pages and the larger sizes allow for a more dramatic, graphic use of type in editorial and marketing design. These fluid type styles are excellent for long form reading and scanning, but could be distracting for use in product.
 
 The productive type set is primarily used within product spaces, where users benefit from a more condensed treatment of content to maintain focus on tasks.
 
@@ -57,14 +57,14 @@ The productive type set is primarily used within product spaces, where users ben
 
 #### Smaller styles
 
-Within **Body styles** and **Supporting styles**, the same set of styles are offered. Productive styles are named with a suffix of `-01` and expressive style names have a suffix of `-02`.
+Within **Body styles** and **Utility styles**, the same set of styles are offered. Productive styles are named with a suffix of `-01` and expressive style names have a suffix of `-02`.
 
-| Usage             | Productive       | Expressive       |
-| ----------------- | ---------------- | ---------------- |
-| Code              | `$code-01`       | `$code-02`       |
-| Label             | `$label-01`      | `$label-02`      |
-| Body copy         | `$body-long-01`  | `$body-long-02`  |
-| Compact body copy | `$body-short-01` | `$body-short-02` |
+| Usage             | Productive         | Expressive       |
+| ----------------- | ------------------ | ---------------- |
+| Code              | `$code-01`         | `$code-02`       |
+| Label             | `$label-01`        | `$label-02`      |
+| Body copy         | `$body-01`         | `$body-02`  |
+| Compact body copy | `$body-compact-01` | `$body-compact-02` |
 
 As you can see in the following image, the line heights increase to accommodate the larger expressive type sizes.
 
@@ -84,7 +84,17 @@ As you can see in the following image, the line heights increase to accommodate 
 
 #### Heading styles
 
-The expressive heading styles have a larger line height than productive. The pixel size is the same between each but the line height increases.
+Each of the productive and expressive body styles have a matching heading style that has the same type size and line height to maintain type hiearchy. The smaller heading styles in the expressive type set are fixed, meaning they are not responsive, the type size remains contstant reguardless of breakpoint. 
+
+Most heading styles used within the expressive type set are fluid, meaning they are responsive and the type styles change size at different breakpoints. By comparison, all of the headings in the productive type set are fixed.
+
+| Productive            | Expressive       |
+| --------------------- | ---------------- |
+| `$heading-compact-01` | `$heading-compact-02` |
+| `$heading-01`         | `$heading-02`         |
+| `$heading-03`         | `$fluid-heading-03`   |
+| `$heading-04`         | `$fluid-heading-04`   |
+
 
 <Row>
 <Column colMd={8} colLg={8}>
@@ -96,8 +106,6 @@ The expressive heading styles have a larger line height than productive. The pix
 </Column>
 </Row>
 
-The smaller expressive headings are fixed but from `$expressive-heading-03` upward the headings are responsive, or fluid. This means they change size at different breakpoints. By comparison, all of the headings in the productive type set are fixed.
-
 For a complete list of type styles, see the <a href="https://v10.carbondesignsystem.com/guidelines/typography/overview/" target="_blank" rel="noopener noreferrer"> Typography guidelines</a> on the Carbon Design System site.
 
 ## Icon sizes
@@ -106,15 +114,24 @@ The icon sizes between expressive and productive have been designed to match the
 
 In expressive situations, use 20px by 20px icons to match the larger type sizes. In productive situations, the icon sizes are generally 16px by 16px, with some exceptions where the icons may be 20px by 20px.
 
-<Row>
-<Column colMd={8} colLg={8}>
+![Icon size change](../../../images/guidelines/expressive-theme/overview/icon-usage-sizing.svg)
 
-![Icon size change](../../../images/guidelines/expressive-theme/compare-icon.png)
+<Caption>16px and 20px icons are optimized to feel balanced when paired with 14pt and 16pt IBM Plex. Use 24px and 32px when larger icons are needed.</Caption>
 
-<Caption>Comparison of productive and expressive icon sizes</Caption>
+<DoDontRow>
+  <DoDont
+    type="do"
+    caption="Do use the correct icon size with IBM Plex.">
 
-</Column>
-</Row>
+![proper sizing](../../../images/guidelines/expressive-theme/overview/icon-usage-do.svg)
+
+  </DoDont>
+  <DoDont type="dont" caption="Don’t alter the icon-text size ratio.">
+
+![improper sizing](../../../images/guidelines/expressive-theme/overview/icon-usage-dont.svg)
+
+  </DoDont>
+</DoDontRow>
 
 ## Component sizes
 
