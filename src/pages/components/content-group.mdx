@@ -14,99 +14,71 @@ import ResourceLinks from 'components/ResourceLinks';
 
 <AnchorLinks>
 
-<AnchorLink>Resources</AnchorLink>
 <AnchorLink>Overview</AnchorLink>
 <AnchorLink>Behaviors</AnchorLink>
 <AnchorLink>Tips and techniques</AnchorLink>
+<AnchorLink>Resources</AnchorLink>
 <AnchorLink>Content guidance</AnchorLink>
 <AnchorLink>Related components</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
 
-<ResourceLinks name="Content group" type="layout" />
-
 ## Overview
 
-The Content group component can be customized for different types of web experiences. It can be used multiple times
-inside a Content block or a Content section component, acting as a content unit for it.
+The content group component can be customized for different types of web experiences. It can be used multiple times
+inside a content block or a content section component, to establish additional hierarchy within an experience.
 
-<Row>
+![A visual example of Content group component](../../images/component/content-group/content-group-overview.png)
 
-<Column colMd={8} colLg={8}>
+<Caption>Example of the content section.</Caption>
 
-![A visual example of Content group component](../../images/component/content-group/component--content-group--overview.png)
+### Anatomy
 
-</Column>
-
-</Row>
+![Image of the content section](../../images/component/content-group/content-group-anatomy.png)
 
 <Caption>Anatomy of the Content group component</Caption>
 
 <br />
 
-1. **Heading:** Customizable heading for the Content group.
+1. **Heading:** Customizable heading for the content group.
 2. **Description:** A short description.
-3. **Child container:** Use this to insert basic-level content components, like Content items.
+3. **Child container:** Insert additional components to enhance the narrative, such as content item, card group, or an image.
 4. **CTA:** Use this as a general call to action at group level.
 
 #### When to use
 
-Use Content group when you need to organize a group of Content items of the same kind into a high-level content unit. It
-can live inside a Content section or a Content block. One of its advantages is that it is visually very distinctive on
-the page because it contains a list of similar items. Use it inside a complex Content block to hierarchically separate
-different content units for easy reading and comprehension.
+Content group is often used to to establish additional hierarchy within longform content, it can be nested inside a [content section](../components/content-section) or a [content block](../components/content-block).
 
 #### When not to use
 
-Do not look at Content group as a replacement for Content section. A page is separated into sections, which, in turn, is
-separated into blocks. Do not use Content group to separate high-level complex content units inside of a web page.
+Do not look at content group as a replacement for content section. A page is separated into sections, which, in turn, is
+separated into blocks. Do not use content group to separate high-level complex content units inside of a web page.
 
 ## Behaviors
 
-The Content group elements are persistent throughout the online experience. The component is fully responsive and the
+The content group elements are persistent throughout the online experience. The component is fully responsive and the
 display adjusts with different browser sizes.
 
 #### Desktop breakpoints
 
-If the browser is wider than the max breakpoint of 1584px, the Content group and all other page content will center and
-the margins on either side of the page layout will increase. The Content group is recommended to take the centered 8
-columns of the grid. For particular editorial experiences, it is possible to lay out a Content group on 4 columns,
-making the reading experience more story-like and engaging.
+If the browser is wider than the max breakpoint of 1584px, the content group and all other page content will center and
+the margins on either side of the page layout will increase. The content group is typically placed on the center 8
+columns of the 16 column grid.
 
 #### Mobile breakpoints
 
-At medium and small breakpoints, the Content group will add no significant change: the children container will remain
-above the Content group CTA card. See below.
-
-### Examples
-
-These examples showcase different ways to use Content group—first, a content group with two, one, or no content items,
-alternating with a content group accepting 4 cards in a children container (a Card group).
-
-<Row>
-
-<Column colMd={8} colLg={6}>
-
-![A visual example of the Content group component with content items or cards](../../images/component/content-group/component--content-group--showcase.gif)
-
-<Caption>
-  Examples of Content group usage: with Content items, or with four Cards.
-</Caption>
-
-</Column>
-
-</Row>
+At medium and small breakpoints, the content group will left align and span the full width of the grid.
 
 ## Tips and techniques
 
-Keep in mind that the Content group children container is positioned between the Content group description and the card
-link.
+Keep in mind that the content group child container is positioned between the description and the CTA. As child content grows, or multiple children are added, the content group will push the CTA down to below the child content.
 
-Avoid CTA stacking at the end of a Content group. If possible, use different types.
+Avoid stacking CTAs at the end of a content group – this can overwhelm the user when a single CTA would be more effective. Keep this in mind as you add child components which might also have their own CTAs at the bottom.
 
-If you need to add different types of Content items, use a Content group component for each type. It’s okay to have a
-Content group with only one Content item.
+Content group can contain multiple [content items](../components/content-item) as children. When using multiple content items, you should avoid mixing too much variation in the content items in a particular content group. For example, if using a content items featuring pictograms, make sure all the content items in this content group feature pictograms. This creates consistency for the end user. It is okay to have a content group with only one content item.
+
+<ResourceLinks name="Content group" type="layout" />
 
 ## Content guidance
 
@@ -121,11 +93,10 @@ For more information, see the [character count standards](https://www.ibm.com/st
 
 ## Related components
 
-| Component name                                                                                       | Description                                                                                                                                                                           |
-| ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Card group](https://www.ibm.com/standards/carbon/components/card-group)                             | Card group is a content group that includes a group of cards in the child container. A special derivative is Card group with Card in card.                                            |
-| [Content group cards](https://www.ibm.com/standards/carbon/components/content-group-cards)           | Content group cards is a content group that includes a group heading and description, along with a group of cards inside the child container.                                         |
-| [Content group pictograms](https://www.ibm.com/standards/carbon/components/content-group-pictograms) | Content group pictograms is a content group with pictogram items inside the primary child container. It does not include a group level CTA.                                           |
-| [Content group simple](https://www.ibm.com/standards/carbon/components/content-group-simple)         | Content group simple includes two content items, first one with media and no CTA, and the second one without media but with a text link CTA. It also has a group level card link CTA. |
+| Component name                                   | Description                                                                    |
+| ------------------------------------------------ | ------------------------------------------------------------------------------ |
+| [Content section](../components/content-section) | Content section is one of the main content components used to structure pages. |
+| [Content block](../components/content-block)     | Content block is one of the main content components used to structure pages.   |
+| [Content item](../components/content-item)       | Content item is the lowest level hierarchically of the content components.     |
 
 <ComponentFooter name="Content group" type="layout" />
