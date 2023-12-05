@@ -353,9 +353,9 @@
       }
     },
     "Masthead": {
-      "url": "/components/masthead",
+      "url": "/components/masthead/overview",
       "designLink": "https://ibm.box.com/s/knez30xt6kao1amylebbvs97vkemhrbp",
-      "description": "Masthead is a fundamental navigational component for IBM.com that displays consistently at the top of each page. It also includes search and profile services for IBM.com.",
+      "description": "The masthead is the main navigation component that consistently displays at the top of each page, allowing users to move between areas of IBM.com. It includes global site navigation and utilities, as well as an option for additional ecosystem or section navigation.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-masthead--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-masthead--default"
@@ -639,6 +639,34 @@
         "notAvailable": false
       }
     },
+    "Content block": {
+      "url": "/components/content-block",
+      "designLink": "https://ibm.box.com/s/uaq0ovswviefwbv7gd4jn13llvqb23f8",
+      "description": "Content block is one of the main layout components that can be used to build web experiences on IBM.com. It includes a large heading, subheading, body copy and CTA, and can accept many child components to enable customization and flexibility.",
+      "storybook": {
+        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-block--default",
+        "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-content-block--default",
+        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-content-block--default"
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      }
+    },
     "Content group": {
       "url": "/components/content-group",
       "designLink": "https://ibm.box.com/s/5n0sj6b3kkicnwimxmgnwb5owm46g8wz",
@@ -765,7 +793,7 @@
     "Content section": {
       "url": "/components/content-section",
       "designLink": "https://ibm.box.com/s/oqlsa6m0vfownbn1s2y682mnugsf6cuv",
-      "description": "Content section is a high-level content component that acts as the main content unit to build web page experiences for IBM.com. It encapsulates other content components (one or multiple Content blocks and/or Content groups) and brings them together, providing flexibility to create many different solutions for users.",
+      "description": "Content section is the main layout component used to to build web experiences on IBM.com. It encapsulates two types of headings and can accept many child components to enable maximum customization and flexibility.",
       "storybook": {
         "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-section--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-content-section--default"

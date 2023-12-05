@@ -76,6 +76,8 @@
       path: /components/card-group
     - title: Carousel
       path: /components/carousel
+    - title: Content block
+      path: /components/content-block
     - title: Content group
       path: /components/content-group
     - title: Content item
@@ -125,7 +127,7 @@
     - title: Logo grid
       path: /components/logo-grid
     - title: Masthead
-      path: /components/masthead
+      path: /components/masthead/overview
     - title: Quote
       path: /components/quote
     - title: Table of contents

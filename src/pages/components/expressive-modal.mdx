@@ -11,14 +11,13 @@ import ResourceLinks from 'components/ResourceLinks';
 
 <AnchorLinks>
 
-<AnchorLink>Resources</AnchorLink>
 <AnchorLink>Overview</AnchorLink>
 <AnchorLink>Variations</AnchorLink>
+<AnchorLink>Behavior</AnchorLink>
+<AnchorLink>Resources</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
-
-<ResourceLinks name="Expressive modal" type="ui" />
 
 ## Overview
 
@@ -34,7 +33,13 @@ The default variation reflects the <a href="https://www.carbondesignsystem.com/c
 
 <Title>Use case</Title>
 
-![Image of Expressive modal used in a login context](../../images/component/expressive-modal/expressive-modal-default--example.jpg)
+<Row>
+<Column colMd={8} colLg={8}>
+
+![Image of Expressive modal with heading and copy descriping the media](../../images/component/expressive-modal/expressive-modal-default--usecase.jpg)
+
+</Column>
+</Row>
 
 ## Variations
 
@@ -50,8 +55,43 @@ The expanded variation fills the screen and is typically used to display large a
 </Column>
 </Row>
 
-<Title>Use case</Title>
+## Behavior
 
-![Image of Expressive modal expanded used to illustrate the IBM design thinking process](../../images/component/expressive-modal/expressive-modal-expanded--example.jpg)
+### Centered in screen
 
+Expressive Modal is standardized to appear in the center of the screen, with the dark overlay extending across the browser window.
+
+### Overflow
+
+When the modal content is longer than the modal height then the body section should scroll vertically.
+The content should visibly fade at the end of the modal body area to indicate there is additional content out of view.
+Modal content should never scroll horizontally; instead, use a larger size modal.
+
+<Row>
+<Column colMd={8} colLg={8}>
+<GifPlayer>
+
+![Image of Expressive modal overflow](../../images/component/expressive-modal/expressive-modal-overflow.gif)
+![Image of Expressive modal overflow](../../images/component/expressive-modal/expressive-modal-overflow.jpg)
+
+</GifPlayer>
+</Column>
+</Row>
+
+### Closing the modal
+
+Clicking on the close close button icon [ x ] or on the dark overlay will dismiss the modal.
+
+<Row>
+<Column colMd={8} colLg={8}>
+<GifPlayer color='dark'>
+
+![Image of Expressive modal closing](../../images/component/expressive-modal/expressive-modal-close-modal.gif)
+![Image of Expressive modal closing](../../images/component/expressive-modal/expressive-modal-close-modal.jpg)
+
+</GifPlayer>
+</Column>
+</Row>
+
+<ResourceLinks name="Expressive modal" type="ui" />
 <ComponentFooter name="Expressive modal" type="ui" />
