@@ -353,9 +353,9 @@
       }
     },
     "Masthead": {
-      "url": "/components/masthead",
+      "url": "/components/masthead/overview",
       "designLink": "https://ibm.box.com/s/knez30xt6kao1amylebbvs97vkemhrbp",
-      "description": "Masthead is a fundamental navigational component for IBM.com that displays consistently at the top of each page. It also includes search and profile services for IBM.com.",
+      "description": "The masthead is the main navigation component that consistently displays at the top of each page, allowing users to move between areas of IBM.com. It includes global site navigation and utilities, as well as an option for additional ecosystem or section navigation.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-masthead--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-masthead--default"
