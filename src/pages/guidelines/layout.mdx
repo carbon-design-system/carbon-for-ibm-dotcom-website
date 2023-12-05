@@ -13,9 +13,7 @@ A good layout helps users navigate complex information, understand the content p
 
 <AnchorLink>Designing and adopting a layout</AnchorLink>
 <AnchorLink>Creating pages with layout components</AnchorLink>
-<AnchorLink>Additional resources</AnchorLink>
 <AnchorLink>Final considerations</AnchorLink>
-<AnchorLink>2x grid best practices (and things to avoid)</AnchorLink>
 
 </AnchorLinks>
 
@@ -69,23 +67,21 @@ Always follow the 2x grid to establish zones and structure. A clean layout that 
 
 ### Content hierarchy
 
-Hierarchy helps users (viewer, reader, audience) to navigate complex concepts and narrative structures without getting confused or lost, and ultimately find what they are looking for. Thoughtful application of type styles, components, and media will allow content to be communicated and prioritized in different ways. Pay attention also to the size and proximity of content pieces within a component and between component.
+Hierarchy helps users (viewer, reader, audience) to navigate complex concepts and narrative structures without getting confused or lost, and ultimately find what they are looking for. Thoughtful application of type styles, components, and media will allow content to be communicated and prioritized in different ways. Pay attention to the size and proximity of content pieces within a component and between components.
 
 ![Content hierarchy](../../images/pattern/overview/patterns-overview_content-hierarchy.jpg)
 
-<Caption>
-  This <i>Content block media</i> component shows how various elements can be
-  designed and organized based on their priority and relevance. In this example,
-  type scale, image size, negative space, and UI component usage all play an
-  important role in defining the content hierarchy.
-</Caption>
 
-<br />
+This <i>Content block </i> component shows how various elements can be designed and organized based on their priority and relevance. In this example, type scale, image size, negative space, and UI component usage all play an important role in defining the content hierarchy.
 
 1. Large type is used to highlight the topic headline and main description. The generous use of space above and below makes this content even more prominent.
-1. Medium type, in combination with a large image, suggests that this area is key to the preceding and subsequent information.
-1. Paragraphs are set at the smallest type size and can accommodate details to support the overall narrative.
-1. A card placed at the bottom of this content block signifies that there is additional information to be discovered and is used to drive users to that destination.
+2. Medium type, in combination with a large image, suggests that this area is key to the preceding and subsequent information.
+3. Paragraphs are set at the smallest type size and can accommodate details to support the overall narrative.
+4. A card placed at the bottom of this content block signifies that there is additional information to be discovered and is used to drive users to that destination.
+
+Learn more about the content hiearchy of the Carbon for IBM.com components in the [Type pairing guidance](../expressive-styling/type-pairing).
+
+<!--
 
 ### Grouping and spacing
 
@@ -118,25 +114,23 @@ Express relationships between content pieces by grouping and spacing them proper
   the scannability and ease of navigation across the layout.
 </Caption>
 
+-->
+
+
 ### Typographic structure
 
 The visual hierarchy of a design can be made clear by using the right typography. Understand the content model and relationships between different elements to establish the right type scale and weight for your design. Ensure that type is flush left, line length is carefully considered and adjustments are made based on the content. If it's a reading-centric experience, use 16px as the base type size. Text-based components, such as links or buttons, can be used strategically to further emphasize important information.
 
 ![Typographic structure / detailing](../../images/pattern/overview/patterns_overview_Typographic.jpg)
 
-<Caption>
-  This <i>content group</i> component demonstrates how typography of different
-  scales, weight and color can be used to create visual hierarchy.
-</Caption>
+This <i>content section</i> component demonstrates how typography of different scales, weight and color can be used to create visual hierarchy.
 
-<br />
+1. `Fluid-heading-05` is used here to give the headline copy highest priority.
+2. `Fluid-heading-03` takes second level hierarchy as it is the second largest type scale.
+3. `Link + icon` UI component is placed at the bottom of the text block as it is the final action for the user. Although set at the smallest type size and weight, the use of color highlights the importance of this content.
+4. `Heading-02` acts as an indicator to support the main headline and orient the user but does not take utmost priority in the overall layout.
 
-1. `Expressive-heading-05` is used here to give the headline copy highest priority.
-1. `Expressive-heading-03` takes second level hierarchy as it is the second largest type scale.
-1. `Text + icon` UI component is placed at the bottom of the text block as it is the final action for the user. Although set at the smallest type size and weight, the use of color highlights the importance of this content.
-1. `Heading-02` acts as an indicator to support the main headline and orient the user but does not take utmost priority in the overall layout.
-
-Learn about IBM's typeface Plex and type basics [here](https://www.ibm.com/design/language/typography/typeface).
+Learn about IBM's typeface Plex and type basics [here](https://www.ibm.com/design/language/typography/typeface) and Carbon for IBM.com's typography strategy under the [Expressive styling guidance](../expressive-styling/overview).
 
 ### Contrast
 
@@ -162,23 +156,6 @@ Contrast is an effective way to distinguish content pieces, engage users, highli
 </Column>
 </Row>
 
-![The lead space component shows how the use of scale and juxtaposition of type and image can be used to emphasize messaging and create clear calls-to-action. ](../../images/pattern/overview/patterns_overview_Contrast_section3.jpg)
-
-<Caption>
-  The <i>Lead space</i> component shows how the use of scale and juxtaposition
-  of type and image can be used to emphasize messaging and create clear
-  calls-to-action.
-</Caption>
-
-<br />
-
-![These cards – with images component utilizes asymmetry to arrange essential content in a single area. ](../../images/pattern/overview/patterns_overview_Contrast_section2.jpg)
-
-<Caption>
-  These <i>Cards – with images</i> component utilizes asymmetry to arrange
-  essential content in a single area.
-</Caption>
-
 ## Creating pages with layout components
 
 Layout components, when combined together in a particular way, can be used to form many different page types across ibm.com. Some of the most common page types include editorial, navigational, and transactional. When designing or adopting a layout component, it is important to consider the purpose of both the content and the purpose of the page where the component will be displayed.
@@ -186,29 +163,6 @@ Layout components, when combined together in a particular way, can be used to fo
 ### Key moments
 
 Thoughtful implementation of the above devices including hierarchy, contrast, and rhythm helps to create key moments within a layout. Key moments such as primary call-to-actions are critical for engaging users and driving them toward their desired destination.
-
-### Reading behaviors 
-
-There are many ways in which users read and consume information on a page. When reading English, for example, users read from left to right. When reading dense, text-based content users will often scan from left to right and then continue down the left side of the page, seeking relevant information along the way. Depending on the level of information presented on a page, readers will assume a different reading model. As you begin to stack one component on top of another, understanding common reading conventions will help you design an overall layout that keeps your users engaged.
-
-<br />
-
-<Row>
-<Column colMd={4} colLg={4} >
-  <DoDontExample type="do" >
-
-![](../../images/pattern/overview/patterns_overview_Enhanced_do.jpg)
-
-  </DoDontExample>
-</Column>
-<Column colMd={4} colLg={4}>
-  <DoDontExample>
-
-![](../../images/pattern/overview/patterns_overview_Enhanced_don't.jpg)
-
-  </DoDontExample>
-</Column>
-</Row>
 
 ### Repetition, continuity and consistency
 
@@ -227,7 +181,7 @@ No component exists on its own. Pay attention to how individual layout component
 <Column colMd={4} colLg={4}>
   <DoDontExample caption="When the same component is repeated multiple times, the user experience becomes restricted and the layout visually uninteresting.">
 
-![When the same component is repeated multiple times, the user experience becomes restricted and the layout visually uninteresting.](../../images/pattern/overview/patterns_overview_Repetition_section1_don't.jpg)
+![When the same component is repeated multiple times, the user experience becomes restricted and the layout visually uninteresting.](../../images/pattern/overview/patterns_overview_Repetition_section1_don't.png)
 
   </DoDontExample>
 </Column>
@@ -251,39 +205,20 @@ No component exists on its own. Pay attention to how individual layout component
 **Consistency**
 
 <Row>
-<Column colMd={6} colLg={8} >
-  <DoDontExample type="do" caption="Notice the consistent use of space and placement of content above. Similar elements and items share the same vertical and horizontal starting points across components and pages. This helps to unify the offering experience when there are multiple pages or steps involved in a single journey. It also keeps the user oriented as they explore.">
+<Column colMd={4} colLg={4} >
+  <DoDontExample type="do" caption="Do ensure consistent use of space and placement of content at a high level such as content sections or blocks, and at smaller levels such as headings and paragraphs.">
 
-![Repetition, continuity and consistency](../../images/pattern/overview/patterns_overview_Repetition_section3_do.jpg)
+![Do ensure consistent use of space and placement of content at a high level such as content sections or blocks, and at smaller levels such as headings and paragraphs.](../../images/guidelines/layout/layout_repitition_consistency_do.png)
 
   </DoDontExample>
 </Column>
-</Row>
-
-<Row>
-<Column colMd={6} colLg={8} >
+<Column colMd={4} colLg={4}>
   <DoDontExample caption="When there is no consistent use of space, visual flow, or alignment of content from component to component and from page to page, the overall experience becomes fragmented and disconnected.">
 
-![Repetition, continuity and consistency](../../images/pattern/overview/patterns_overview_Repetition_section3_don't.jpg)
+![When there is no consistent use of space, visual flow, or alignment of content from component to component and from page to page, the overall experience becomes fragmented and disconnected.](../../images/guidelines/layout/layout_repitition_consistency_dont.png)
 
   </DoDontExample>
 </Column>
-</Row>
-
-## Additional resources
-
-<Row className="resource-card-group">
-   <Column colMd={4} colLg={4} noGutterSm>
-    <ResourceCard
-      subTitle="IBM Design Language layout principles"
-      href="https://www.ibm.com/design/language/layout/overview"
-    >
-
-![Sketch](../../images/icon/carbon-icon.svg)
-
-</ResourceCard>
-  </Column>
-
 </Row>
 
 ## Final considerations
@@ -310,218 +245,16 @@ Specifications and usage guidance must be detailed and clear but, when applicabl
 
 To improve efficiency, consistency and scalability, components and patterns should be available for other teams to adopt.
 
-## 2x grid best practices (and things to avoid)
+<Row className="resource-card-group">
+   <Column colMd={4} colLg={4} noGutterSm>
+    <ResourceCard
+      subTitle="IBM Design Language layout principles"
+      href="https://www.ibm.com/design/language/layout/overview"
+    >
 
-Here are some recommendations for how you can effectively use the 2x grid when creating layouts.
+![Sketch](../../images/icon/carbon-icon.svg)
 
-<br />
+</ResourceCard>
+  </Column>
 
-<Row>
-<Column colMd={4} colLg={4} >
-  <DoDontExample type="do" >
-
-![](../../images/pattern/overview/layout-grid-recommend-1.jpg)
-
-  </DoDontExample>
-</Column>
-<Column colMd={4} colLg={4}>
-  <DoDontExample type="do" >
-
-![](../../images/pattern/overview/layout-grid-recommend-2.jpg)
-
-  </DoDontExample>
-</Column>
-</Row>
-
-<Row>
-<Column colMd={4} colLg={4} >
-  <DoDontExample type="do" >
-
-![](../../images/pattern/overview/layout-grid-recommend-3.jpg)
-
-  </DoDontExample>
-</Column>
-<Column colMd={4} colLg={4}>
-  <DoDontExample type="do" >
-
-![](../../images/pattern/overview/layout-grid-recommend-4.jpg)
-
-  </DoDontExample>
-</Column>
-</Row>
-
-<Row>
-<Column colMd={4} colLg={4} >
-  <DoDontExample type="do" >
-
-![](../../images/pattern/overview/layout-grid-recommend-5.jpg)
-
-  </DoDontExample>
-</Column>
-<Column colMd={4} colLg={4}>
-  <DoDontExample type="do" >
-
-![](../../images/pattern/overview/layout-grid-recommend-6.jpg)
-
-  </DoDontExample>
-</Column>
-</Row>
-
-<Row>
-<Column colMd={4} colLg={4} >
-  <DoDontExample type="do" >
-
-![](../../images/pattern/overview/layout-grid-recommend-7.jpg)
-
-  </DoDontExample>
-</Column>
-<Column colMd={4} colLg={4}>
-  <DoDontExample type="do" >
-
-![](../../images/pattern/overview/layout-grid-recommend-8.jpg)
-
-  </DoDontExample>
-</Column>
-</Row>
-
-<Row>
-<Column colMd={4} colLg={4} >
-  <DoDontExample type="do" >
-
-![](../../images/pattern/overview/layout-grid-recommend-9.jpg)
-
-  </DoDontExample>
-</Column>
-<Column colMd={4} colLg={4}>
-  <DoDontExample type="do" >
-
-![](../../images/pattern/overview/layout-grid-recommend-10.jpg)
-
-  </DoDontExample>
-</Column>
-</Row>
-
-<Row>
-<Column colMd={4} colLg={4} >
-  <DoDontExample type="do" >
-
-![](../../images/pattern/overview/layout-grid-recommend-11.jpg)
-
-  </DoDontExample>
-</Column>
-<Column colMd={4} colLg={4}>
-  <DoDontExample type="do" >
-
-![](../../images/pattern/overview/layout-grid-recommend-12.jpg)
-
-  </DoDontExample>
-</Column>
-</Row>
-
-<Row>
-<Column colMd={4} colLg={4} >
-  <DoDontExample type="do" >
-
-![](../../images/pattern/overview/layout-grid-recommend-13.jpg)
-
-  </DoDontExample>
-</Column>
-<Column colMd={4} colLg={4}>
-  <DoDontExample type="do" >
-
-![](../../images/pattern/overview/layout-grid-recommend-14.jpg)
-
-  </DoDontExample>
-</Column>
-</Row>
-
-<Row>
-<Column colMd={4} colLg={4} >
-  <DoDontExample type="do" >
-
-![](../../images/pattern/overview/layout-grid-recommend-15.jpg)
-
-  </DoDontExample>
-</Column>
-<Column colMd={4} colLg={4}>
-  <DoDontExample type="do" >
-
-![](../../images/pattern/overview/layout-grid-recommend-16.jpg)
-
-  </DoDontExample>
-</Column>
-</Row>
-
-<br />
-
-<br />
-
-When using the 2x grid there are many things to avoid. In order to establish consistency across IBM.com, we suggest avoiding these types of layouts.
-
-<Row>
-<Column colMd={4} colLg={4} >
-  <DoDontExample >
-
-![](../../images/pattern/overview/layout-grid-avoid-1.jpg)
-
-  </DoDontExample>
-</Column>
-<Column colMd={4} colLg={4}>
-  <DoDontExample >
-
-![](../../images/pattern/overview/layout-grid-avoid-2.jpg)
-
-  </DoDontExample>
-</Column>
-</Row>
-
-<Row>
-<Column colMd={4} colLg={4} >
-  <DoDontExample  >
-
-![](../../images/pattern/overview/layout-grid-avoid-3.jpg)
-
-  </DoDontExample>
-</Column>
-<Column colMd={4} colLg={4}>
-  <DoDontExample >
-
-![](../../images/pattern/overview/layout-grid-avoid-4.jpg)
-
-  </DoDontExample>
-</Column>
-</Row>
-
-<Row>
-<Column colMd={4} colLg={4} >
-  <DoDontExample >
-
-![](../../images/pattern/overview/layout-grid-avoid-5.jpg)
-
-  </DoDontExample>
-</Column>
-<Column colMd={4} colLg={4}>
-  <DoDontExample >
-
-![](../../images/pattern/overview/layout-grid-avoid-6.jpg)
-
-  </DoDontExample>
-</Column>
-</Row>
-
-<Row>
-<Column colMd={4} colLg={4} >
-  <DoDontExample >
-
-![](../../images/pattern/overview/layout-grid-avoid-7.jpg)
-
-  </DoDontExample>
-</Column>
-<Column colMd={4} colLg={4}>
-  <DoDontExample >
-
-![](../../images/pattern/overview/layout-grid-avoid-8.jpg)
-
-  </DoDontExample>
-</Column>
 </Row>
