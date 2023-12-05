@@ -92,7 +92,7 @@
     "Carousel": {
       "url": "/components/carousel/",
       "designLink": "https://ibm.box.com/s/hmni7qhero9mf5rn593zij0tcay8h9dw",
-      "description": "The carousel is an exploratory component, meaning it allows users to browse or explore multiple pieces of content within the same area of the page.",
+      "description": "The carousel allows users to browse or explore multiple pieces of content within the same area of the page.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-carousel--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-carousel--default"
@@ -182,7 +182,7 @@
     "Footer": {
       "url": "/components/footer",
       "designLink": "https://ibm.box.com/s/nsbccv6jigfw78uwq3r0242qks1x1f87",
-      "description": "The Footer is required on all IBM.com pages, it is placed at the bottom of a page and acts as the catch-all section that helps users navigate and provides corporate level general and legal information.",
+      "description": "The footer is required on all IBM.com pages, and is placed at the bottom of a page. It acts as the catch-all section that helps users navigate and provides corporate level general and legal information.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-footer--default"
       },
@@ -516,6 +516,34 @@
         "notAvailable": false
       }
     },
+    "Content block": {
+      "url": "/components/content-block",
+      "designLink": "https://ibm.box.com/s/uaq0ovswviefwbv7gd4jn13llvqb23f8",
+      "description": "Content block is one of the main layout components that can be used to build web experiences on IBM.com. It includes a large heading, subheading, body copy and CTA, and can accept many child components to enable customization and flexibility.",
+      "storybook": {
+        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-block--default",
+        "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-content-block--default",
+        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-content-block--default"
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      },
+      "react": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      }
+    },
     "Content group": {
       "url": "/components/content-group",
       "designLink": "https://ibm.box.com/s/5n0sj6b3kkicnwimxmgnwb5owm46g8wz",
@@ -591,7 +619,7 @@
     "Content section": {
       "url": "/components/content-section",
       "designLink": "https://ibm.box.com/s/oqlsa6m0vfownbn1s2y682mnugsf6cuv",
-      "description": "Content section is a high-level content component that acts as the main content unit to build web page experiences for IBM.com. It encapsulates other content components (one or multiple Content blocks and/or Content groups) and brings them together, providing flexibility to create many different solutions for users.",
+      "description": "Content section is the main layout component used to to build web experiences on IBM.com. It encapsulates two types of headings and can accept many child components to enable maximum customization and flexibility.",
       "storybook": {
         "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-section--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-content-section--default"
@@ -648,6 +676,24 @@
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-feature-section--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-feature-section--default"
+      },
+      "webcomponents": {
+        "stable": true,
+        "experimental": false,
+        "new": false,
+        "updated": false,
+        "deprecated": false,
+        "underConstruction": false,
+        "notAvailable": false
+      }
+    },
+    "Global banner": {
+      "url": "/components/global-banner",
+      "designLink": "https://ibm.box.com/s/fas5qv5zrscudr63y85g28v0k657p83u",
+      "description": "Global banner is used exclusively to feature global and critical announcements. It is the only component that can be positioned above the masthead.",
+      "storybook": {
+        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-global-banner--default",
+        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-global-banner--default"
       },
       "webcomponents": {
         "stable": true,
@@ -791,24 +837,6 @@
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-tabs-extended-with-media--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-tabs-extended-media--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Universal banner": {
-      "url": "/components/universal-banner",
-      "designLink": "https://ibm.box.com/s/fas5qv5zrscudr63y85g28v0k657p83u",
-      "description": "Universal banner is used exclusively to feature global and critical announcements. It is the only component that can be positioned above the masthead.",
-      "storybook": {
-        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-universal-banner--default",
-        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-universal-banner--default"
       },
       "webcomponents": {
         "stable": true,
