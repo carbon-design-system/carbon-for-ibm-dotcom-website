@@ -11,27 +11,31 @@ import ResourceLinks from 'components/ResourceLinks';
 
 <AnchorLinks>
 
-<AnchorLink>Resources</AnchorLink>
 <AnchorLink>Overview</AnchorLink>
 <AnchorLink>Variations</AnchorLink>
 <AnchorLink>Modifiers</AnchorLink>
+<AnchorLink>Resources</AnchorLink>
 <AnchorLink>Content guidance</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
 
-<ResourceLinks name="Card group" type="layout" />
-
 ## Overview
 
-Card group by default arranges cards on a collapsed grid, and applies a 1px border between neighboring cards. An optional CTA card in an inverse theme can be added for visual impact. Only one CTA card is allowed per group.
+Card group arranges the various [cards](../components/cards) types within a grid and offers additional modifiers:
+
+- cards per row
+- offset cards
+- gutter modes for spacing between cards
+
+Card group works well when each card can link to a separate resource. If you are looking for a component to only display information and media instead of linking, consider using [content items](../components/content-item).
 
 <Row>
 <Column colMd={8} colLg={8}>
 
-![Image of Card in card component](../../images/component/card-group/card-group-1.png)
+![Image of Card in card component](../../images/component/card-group/card-group-overview.png)
 
-<Caption>Example of a card group with inversely-themed CTA card</Caption>
+<Caption>Example of a card group in wide grid mode </Caption>
 
 </Column>
 </Row>
@@ -40,30 +44,31 @@ Card group by default arranges cards on a collapsed grid, and applies a 1px bord
 
 ### Card group with card in card
 
-Card in card can be used with the card group component to give focus to the first card.
+Card in card can be used with the card group component to give focus to the first card. This works well when you need to give prominence to a single card in the group, with other cards providing secondary resources.
 
 <Row>
+
 <Column colMd={8} colLg={8}>
 
-![Image of Card in card component](../../images/component/card-group/card-group-2.png)
+![Image of Card in card component above card group](../../images/component/card-group/card-group-variations-01.png)
 
 <Caption>
-  Card group with card in card above. The example shown here is using the narrow
-  grid.
+  Card group with card in card above, all cards using the condensed grid
 </Caption>
 
 </Column>
+
 </Row>
 
 ## Modifiers
 
-Card group allows the following properties to be modified to achieve a wide range of designs.
-
 ### Cards per row
 
-Cards per row dictates the number of cards in a row. Sometimes this can be adjusted based on total card number or breakpoint to avoid orphaning single card in the last row.
+Cards per row dictates the number of cards in a given row in the group. Depending on the total number of cards, this can be adjusted to avoid orphaning a single card in the last row.
 
-![Image of Card in card component](../../images/component/card-group/card-group-column.png)
+_Note: card groups should always adhere to the 2x grid and therefore we do not recommend selecting an odd number of cards per row (i.e. 5). In general 2–4 cards works best with most Carbon for IBM.com layout configurations._
+
+![Image of Card in card component](../../images/component/card-group/card-group-modifiers-01.png)
 
 <Caption>
   To avoid having a single card on a row (as shown in the left image), you
@@ -71,13 +76,59 @@ Cards per row dictates the number of cards in a row. Sometimes this can be adjus
   configuration (as shown in the right image).
 </Caption>
 
+### Gutter mode
+
+Card group has the option to change the way the cards sit on the 2x grid using gutter modes. These different modes change the spacing between cards and allow for more variety in how card group displays.
+
+See Carbon Design System's [Gutter modes](https://carbondesignsystem.com/guidelines/2x-grid/usage/#gutter-modes) documentation for more information.
+
+#### Condensed
+
+The condensed grid mode hangs the cards on both sides of the columns and leaves 1px of space between each card.
+
+![Card group with the condensed gutter mode, giving 1px of space between each card](../../images/component/card-group/card-group-modifiers-02.png)
+
+<Caption>
+  Card group in the condensed gutter mode
+</Caption>
+
+#### Narrow
+
+The narrow gutter mode hangs the card 16px on the left side of the column and leaves 16px of space between each card.
+
+![Card group with the narrow gutter mode, giving 16px of space between each card](../../images/component/card-group/card-group-modifiers-03.png)
+
+<Caption>
+  Card group in the narrow gutter mode
+</Caption>
+
+#### Wide
+
+The wide gutter mode aligns the cards to the columns of the grid and leaves 32px of space between each card.
+
+![Card group with the wide gutter mode, giving 32px of space between each card](../../images/component/card-group/card-group-modifiers-04.png)
+
+<Caption>
+  Card group in the wide gutter mode
+</Caption>
+
 ### Offset
 
-Offset adds empty card slots to the beginning of the group, and can be used to achieve L shape card groups.
+Offset adds an empty card slot to the beginning of the group, and can be used to achieve additional white space at the start of the card group. This can help vary the layout of card groups within a particular page.
 
-![Image of Card in card component](../../images/component/card-group/card-group-offset.png)
+<Row>
 
-<Caption>Card groups with 3 cards in two different shapes.</Caption>
+<Column colMd={8} colLg={8}>
+
+![Card group with offset enabled, putting white space at the beginning of the group](../../images/component/card-group/card-group-modifiers-05.png)
+
+<Caption>Example of an offset card group</Caption>
+
+</Column>
+
+</Row>
+
+<ResourceLinks name="Card group" type="layout" />
 
 ## Content guidance
 
