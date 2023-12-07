@@ -8,10 +8,8 @@ tabs: ['Overview', 'Styling strategies', 'Type pairing']
 
 <PageDescription>
 
-Carbon Design System provides two type sets that support both productive and expressive
-moments. Primarily, productive was designed for product and expressive was
-designed for web pages, but there are opportunities to blend contrasting moments
-to provide clarity through hierarchy, and elevate the overall experience.
+Carbon Design System provides two type sets that support both productive and expressive moments. Although the productive set was designed for product experiences and the expressive set was designed for web pages, there are many opportunities to blend the type sets in order to elevate IBM UIs across both experiences.
+
 
 </PageDescription>
 
@@ -28,26 +26,20 @@ to provide clarity through hierarchy, and elevate the overall experience.
 
 ## Overview
 
-In Carbon Design System, there are two type sets available for use with productive and
-expressive experiences. The productive type styles were developed for product
-design, and the expressive, more editorial type styles were developed for
-IBM.com website pages.
+In Carbon Design System, there are two type sets available for use with productive and expressive experiences. The productive type styles were developed for product design, and the expressive or “fluid” type styles were developed for IBM.com website pages. 
 
-The overarching rule has been to use the productive type styles for product
-design and the expressive for editorial pages. For the most part, this is still a good
-guideline to follow. However, there are situations where we can create
-contrasting moments that better support the user's intention or task.
+Fluid type tokens adapt responsively to the browser size and work well in editorial situations where headlines aren’t constrained within components. However in tight product UI, these tokens are often avoided unless they’re used in page headings for free-floating section headings. So the overarching rule has been to use the productive type set for product design and the expressive set for editorial pages. For the most part, this is still a good guideline to follow. However, there are situations where we can create contrasting moments that better support the user’s intention or task.
 
-Let's look at the respective design rationales for each experience, and then see
-where it makes sense to provide a blend.
+Let’s look at the respective design rationales for each experience, and then see where it makes sense to provide a blend.
+
 
 ## Expressive use cases
 
 Carbon for IBM.com is for the creators of IBM.com and it provides components, along with typography guidelines, that support expressive use cases.
 
-#### When to use expressive type styles
+#### When to use expressive type sets
 
-The key drivers for the use of expressive type styles are:
+The key drivers for the use of expressive type sets are:
 
 - Users are trying to learn and explore, and are primarily scanning and reading.
 - Interactions are more passive through impactful imagery, layout, and long form
@@ -59,24 +51,21 @@ The key drivers for the use of expressive type styles are:
 Given these considerations, larger type sizes and a more editorial approach
 allows users to scan, read, and navigate multiple pages with comfort and ease.
 
-#### Styles for expressive moments
+#### Styling for expressive moments
 
-To create expressive moments, use the body styles and supporting styles with the
-`02` suffix. There are also two fixed headings, as well as fluid headings that
-will adjust with different breakpoints.
+To create expressive moments, use the body styles and utility styles with the 02 suffix. There are also two fixed headings, as well as a suite of fluid headings that will adjust with different breakpoints.
 
-For the fixed headings, ensure consistent line heights by using the following
-pairings:
+For the fixed headings, ensure consistent line heights by using the following pairings:
 
-- pair `body-short-02` with `productive-heading-02`
-- pair `body-long-02` with `expressive-heading-02`
+- pair `body-02` with `heading-02`
+- pair `body-compact-02` with `heading-compact-02`
 
-As well as these two fixed headings, there is a set of fluid headings that add a
-series of scales and fluid behavior.
+As well as these two fixed headings, there is an entire scale of fluid and display headings for use in expressive experiences to create dynamic and clear hierarchies.
+
 
 ## Productive use cases
 
-Carbon Design System started as the design system for Cloud console and provides
+Carbon Design System started as the design system for IBM Products and primarily provides
 typography that supports productive use cases.
 
 #### When to use productive type styles
@@ -92,17 +81,17 @@ The key drivers for the use of productive type styles are:
 Given these considerations, space efficiency is key. Keeping content condensed
 is helpful to support focus on complex tasks.
 
-#### Styles for productive moments
+#### Styling for productive moments
 
 To create productive moments, use the body styles and supporting styles with the
 `01` suffix, as well as the fixed headings.
 
 To ensure consistent line heights, use the following pairings:
 
-- pair `body-short-01` with the `productive-heading-01`
-- pair `body-long-01` with the `expressive-heading-01`
+- pair `body-01` with `heading-01`
+- pair `body-compact-01` with `heading-compact-01`
 
-Productive headings are fixed.
+All productive headings are fixed.
 
 ## Blending type sets
 
