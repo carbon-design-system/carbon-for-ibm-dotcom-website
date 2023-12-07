@@ -409,7 +409,7 @@
     "Video": {
       "url": "/components/video",
       "designLink": "https://ibm.box.com/s/9q7rdj73m32hufcw1xwl1td6nr88rghm",
-      "description": "Video allows you to embed Kaltura videos from the media center in various ways throughout a page.",
+      "description": "Video allows you to embed videos from Media Center throughout a page, using the IBM standard video player, Kaltura.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-video-player--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-video-player--default"
