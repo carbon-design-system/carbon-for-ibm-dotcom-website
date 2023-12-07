@@ -1,5 +1,12 @@
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
-import { Bee, DevicePairing, DesignAndDevelopment_01, Integration, Network, Carbon } from '@carbon/pictograms-react';
+import {
+  Bee,
+  DevicePairing,
+  DesignAndDevelopment_01,
+  Integration,
+  Network,
+} from '@carbon/pictograms-react';
+import Carbon from '../components/Homepage/CarbonLogo';
 
 export default HomepageTemplate;
 
@@ -69,23 +76,33 @@ Carbon for IBM.com is built with foundations from IBM Design Language and Carbon
     <Integration style={{ color: '#8a3ffc'}} aria-label="Integration" className="my-custom-class" />
   </SquareCard>
 
-  <SquareCard
-    title="Carbon Design System"
-    smallTitle
-    bodyText="Elements packages and core components used as the basis for Carbon for IBM.com."
-    href="https://carbondesignsystem.com/"
-    >
-    <Carbon style={{ color: '#0f62fe'}} aria-label="Carbon" className="my-custom-class" />
-  </SquareCard>
+{' '}
+<SquareCard
+  title="Carbon Design System"
+  smallTitle
+  bodyText="Elements packages and core components used as the basis for Carbon for IBM.com."
+  href="https://carbondesignsystem.com/"
+>
+  <Carbon
+    style={{ color: '#0f62fe' }}
+    aria-label="Carbon"
+    className="my-custom-class"
+  />
+</SquareCard>
 
-  <SquareCard
-    title="IBM Web Standards"
-    smallTitle
-    bodyText="Necessary guidance ensuring legal and technical compliance and design excellence. (IBM ID required)"
-    href="https://www.ibm.com/standards/web/"
-    >
-    <Network style={{ color: '#007d79'}} aria-label="Network" className="my-custom-class" />
-  </SquareCard>
+{' '}
+<SquareCard
+  title="IBM Web Standards"
+  smallTitle
+  bodyText="Necessary guidance ensuring legal and technical compliance and design excellence. (IBM ID required)"
+  href="https://www.ibm.com/standards/web/"
+>
+  <Network
+    style={{ color: '#007d79' }}
+    aria-label="Network"
+    className="my-custom-class"
+  />
+</SquareCard>
 
 </Row>
 
