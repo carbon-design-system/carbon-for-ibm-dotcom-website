@@ -5,7 +5,7 @@ description: A style model refers to the way grided layouts behave within the a 
 
 <PageDescription>
 
-A style model refers to the way grided layouts behave within the a browser or application window. Reuse of existing style models ensures a consistent approach to content, and coherency in our customers’ journeys.
+A style model refers to the way grided layouts behave within a browser or application window. Reuse of existing style models ensures a consistent approach to content, and coherency in our customers’ journeys.
 
 </PageDescription>
 
@@ -26,19 +26,19 @@ Style models help designers by simplifying decisions around how foundational des
 In our models, the design elements included are:
 
 - Grid
-- Key components (masthead, footer)
+- Key components (masthead/UI shell, footer)
 
 Here is a list of recurring style models we have identified so far.
 
 | Style models                                                    | Usage and examples                                                                                                                                                                                                                                                                                                                           |
 | --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [_Editorial model_](#editorial-model)                           | This default style model is the bread and butter of marketing pages, which represents the majority of IBM.com. The grid in this model centers content for most comfortable browsing, and allows for a variety of expressive layouts. Some low information density product screens, such as the Checkout application, can use this model too. |
+| [_Editorial model_](#editorial-model)                           | This default style model is the bread and butter of marketing pages, which represents the majority of IBM.com. The grid in this model centers content for comfortable browsing, and allows for a variety of expressive layouts. Some low information density product screens, such as the Checkout application, can use this model too. |
 | [_Product model_](#product-model)                   | For long form content with deep organizational hierarchy, use the product model. It anticipates a left hand navigational panel, and keeps content within a maximum width. Examples of product include IBM Docs, Cloud Docs, and this site documenting the design system guidance.                                                |
-| [_High density interface model_](#high-density-interface-model) | Sometimes every inch of the screen needs be utilized at maximum to display information and controls. Complex product interfaces and data visualization dashboards typically fall into this category. This model uses the full width grid, so the bigger the screen, the more information the user will see.                                  |
+| [_High density interface model_](#high-density-interface-model) | Sometimes every inch of the screen needs be utilized to display information and controls. Complex product interfaces and data visualization dashboards typically fall into this category. This model uses the full width grid, so the bigger the screen, the more information the user will see.                                  |
 
 ### Max breakpoint
 
-The biggest differentiator between the style models is the grid. Specifically in how the grid behaves above max breakpoint. Below is the 2x Grid at max breakpoint (1584px or 99rem).
+The biggest differentiator between the style models is the grid. Specifically in how the grid behaves above max breakpoint. Below, for reference, is the 2x Grid at max breakpoint (1584px or 99rem).
 
 <br />
 
@@ -57,7 +57,7 @@ The biggest differentiator between the style models is the grid. Specifically in
 
 ### Beyond max breakpoint
 
-Once the screen is wider than the max breakpoint, the margins (highlighted in dark blue below) can expand, or the grid can stretch.
+Once the screen is wider than the max breakpoint, the margins (highlighted in dark blue) can expand, or the grid can stretch.
 
 <Row>
   <Column colLg={2} colMd={2} colSm={4}>
@@ -69,7 +69,7 @@ Once the screen is wider than the max breakpoint, the margins (highlighted in da
 
 ![2x Grid in the editorial style model: max width is maintained, grid is centered in the browser](../../images/guidelines/style-models/overview_editorial_style_model.png)
 
-<Caption>Max width maintained, grid is centered in the browser</Caption>
+<Caption>Max width is maintained, grid is centered in the browser</Caption>
 
   </Column>
 </Row>
@@ -83,7 +83,7 @@ Once the screen is wider than the max breakpoint, the margins (highlighted in da
 
 ![2x Grid in the product style model: max width is maintained, grid is left-aligned in the browser](../../images/guidelines/style-models/overview_product_style_model.png)
 
-<Caption>Max width maintained, grid is left-aligned in the browser</Caption>
+<Caption>Max width is maintained, grid is left-aligned in the browser</Caption>
 
   </Column>
 </Row>
@@ -97,7 +97,7 @@ Once the screen is wider than the max breakpoint, the margins (highlighted in da
 
 ![2x Grid in the high-density interface style model: grid is full width](../../images/guidelines/style-models/overview_hi_density_style_model.png)
 
-<Caption>Full width, add columns as needed in increments of 2</Caption>
+<Caption>Grid spans full screen width, add columns as needed in increments of 2 or 4</Caption>
 
   </Column>
 </Row>
@@ -113,7 +113,7 @@ As you can see, for editorial content, the max width should always be applied. T
 
 ![The Editorial model in a marketing page on IBM.com.](../../images/guidelines/style-models/editorial_style_model_01.png)
 
-<Caption>The Editorial model in a marketing page on IBM.com.</Caption>
+<Caption>The Editorial model in a marketing page on IBM.com</Caption>
 
   </Column>
   <Column colLg={6} colMd={4}>
@@ -121,7 +121,7 @@ As you can see, for editorial content, the max width should always be applied. T
 ![The footer for the Editorial model on IBM.com.](../../images/guidelines/style-models/editorial_style_model_02.png)
 
 <Caption>
-  The footer for the Editorial model on IBM.com.
+  The footer for the Editorial model on IBM.com
 </Caption>
 
   </Column>
@@ -140,14 +140,14 @@ The vast majority of IBM software products also use this style model because the
 
 ![The Product model in context on IBM.com.](../../images/guidelines/style-models/product_style_model_01.png)
 
-<Caption>The Product model in context on IBM.com.</Caption>
+<Caption>The Product model in context on IBM.com</Caption>
 
   </Column>
   <Column colLg={6} colMd={4}>
 
 ![The footer for the Product model on IBM.com.](../../images/guidelines/style-models/product_style_model_02.png)
 
-<Caption>The footer for the Product model on IBM.com.</Caption>
+<Caption>The footer for the Product model on IBM.com</Caption>
 
   </Column>
 </Row>
@@ -156,21 +156,21 @@ The vast majority of IBM software products also use this style model because the
 
 ![The Product in context in an IBM product screen.](../../images/guidelines/style-models/product_style_model_03.png)
 
-<Caption>The Product in context in an IBM product screen.</Caption>
+<Caption>The Product in context in an IBM product screen</Caption>
 
   </Column>
 </Row>
 
 ## High density interface model
 
-IBM Products can also occasionally use the High-density interface model in order to maximize the use of screen space. By far the most prominent example of this to date in product is the Cloud Catalog. Rather than growing in size, the catalog cards just keep populating as the browser grows. In this case, columns are added in increments of four. 
+IBM Products also occasionally use the High-density interface model in order to maximize the use of screen space. By far the most prominent example of this to date is the Cloud Catalog. Rather than growing in size, the Cloud catalog cards just keep populating as the browser grows. In this case, columns are added in increments of four. 
 
 <Row>
   <Column colLg={6} colMd={4}>
 
 ![The High-density interface model in context in the IBM Cloud catalog.](../../images/guidelines/style-models/hi-density_style_model.png)
 
-<Caption>The High-density interface model in context in the IBM Cloud catalog.</Caption>
+<Caption>The High-density interface model in context in the IBM Cloud catalog</Caption>
 
   </Column>
 </Row>
