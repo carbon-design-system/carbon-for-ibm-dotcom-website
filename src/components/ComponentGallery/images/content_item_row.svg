@@ -1,15 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="320px" height="320px" viewBox="0 0 320 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>content_item_horizontal</title>
-    <g id="content_item_horizontal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group" transform="translate(57.000000, 141.000000)">
-            <rect id="Rectangle-Copy-64" fill="#78A9FF" x="83" y="34" width="24" height="4"></rect>
-            <rect id="Rectangle-Copy-65" fill="#78A9FF" x="117" y="34" width="24" height="4"></rect>
-            <rect id="Rectangle-Copy-66" fill="#A8A8A8" x="0" y="8" width="50" height="6"></rect>
-            <rect id="Rectangle-Copy-67" fill="#C6C6C6" x="83" y="0" width="124" height="4"></rect>
-            <rect id="Rectangle-Copy-68" fill="#C6C6C6" x="83" y="14" width="124" height="4"></rect>
-            <rect id="Rectangle-Copy-69" fill="#C6C6C6" x="83" y="7" width="117" height="4"></rect>
-            <rect id="Rectangle-Copy-70" fill="#C6C6C6" x="0" y="0" width="27" height="4"></rect>
-        </g>
-    </g>
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="56" y="121" width="208" height="78" fill="white" stroke="#A8A8A8"/>
+<rect x="111" y="137" width="32" height="3" fill="#8D8D8D"/>
+<rect x="111" y="144" width="24" height="3" fill="#8D8D8D"/>
+<rect x="160" y="137" width="92" height="1.5" fill="#A8A8A8"/>
+<rect x="160" y="144" width="92" height="1.5" fill="#A8A8A8"/>
+<rect x="160" y="140.5" width="92" height="1.5" fill="#A8A8A8"/>
+<rect x="160" y="147.5" width="92" height="1.5" fill="#A8A8A8"/>
+<rect x="160" y="151" width="92" height="1.5" fill="#A8A8A8"/>
+<rect x="160" y="154.5" width="48" height="1.5" fill="#A8A8A8"/>
+<rect x="160" y="165" width="32" height="1.5" fill="#78A9FF"/>
 </svg>

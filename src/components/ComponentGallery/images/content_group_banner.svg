@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="320px" height="320px" viewBox="0 0 320 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>content_group_banner</title>
-    <g id="content_group_banner" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="Rectangle-Copy-66" fill="#A8A8A8" x="57" y="148" width="86" height="7"></rect>
-        <rect id="Rectangle-Copy-68" fill="#A8A8A8" x="57" y="139" width="111" height="7"></rect>
-        <rect id="Rectangle-Copy-69" fill="#78A9FF" x="198" y="139" width="47.1774194" height="4"></rect>
-        <rect id="Rectangle-Copy-70" fill="#78A9FF" x="198" y="146" width="50" height="4"></rect>
-        <line x1="183.5" y1="131.5" x2="183.5" y2="160.5" id="Line-3" stroke="#8D8D8D" stroke-linecap="square"></line>
-    </g>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="640px" height="360px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g><path style="opacity:1" fill="#8c8d8c" d="M 379.5,148.5 C 380.832,158.144 381.499,168.144 381.5,178.5C 381.167,188.5 380.833,198.5 380.5,208.5C 379.5,188.511 379.167,168.511 379.5,148.5 Z"/></g>
+<g><path style="opacity:1" fill="#a7a8a7" d="M 127.5,161.5 C 201.5,161.5 275.5,161.5 349.5,161.5C 349.5,165.5 349.5,169.5 349.5,173.5C 275.5,173.5 201.5,173.5 127.5,173.5C 127.5,169.5 127.5,165.5 127.5,161.5 Z"/></g>
+<g><path style="opacity:1" fill="#78a9ff" d="M 411.5,161.5 C 443.5,161.5 475.5,161.5 507.5,161.5C 507.5,163.5 507.5,165.5 507.5,167.5C 475.5,167.5 443.5,167.5 411.5,167.5C 411.5,165.5 411.5,163.5 411.5,161.5 Z"/></g>
+<g><path style="opacity:1" fill="#78a9ff" d="M 411.5,175.5 C 438.167,175.5 464.833,175.5 491.5,175.5C 491.5,177.5 491.5,179.5 491.5,181.5C 464.833,181.5 438.167,181.5 411.5,181.5C 411.5,179.5 411.5,177.5 411.5,175.5 Z"/></g>
+<g><path style="opacity:1" fill="#a7a8a7" d="M 127.5,189.5 C 176.167,189.5 224.833,189.5 273.5,189.5C 273.5,193.5 273.5,197.5 273.5,201.5C 224.833,201.5 176.167,201.5 127.5,201.5C 127.5,197.5 127.5,193.5 127.5,189.5 Z"/></g>
 </svg>
