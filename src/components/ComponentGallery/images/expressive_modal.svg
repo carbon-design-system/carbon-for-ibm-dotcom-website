@@ -1,36 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="320px" height="320px" viewBox="0 0 320 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>expressive_modal</title>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="200" height="122"></rect>
-        <filter x="-5.0%" y="-6.6%" width="110.0%" height="116.4%" filterUnits="objectBoundingBox" id="filter-2">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0.862745106   0 0 0 0 0.862745106   0 0 0 0 0.862745106  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
-        <polygon id="path-3" points="7.618625 7 10.5 4.118625 9.881375 3.5 7 6.381375 4.118625 3.5 3.5 4.118625 6.381375 7 3.5 9.881375 4.118625 10.5 7 7.618625 9.881375 10.5 10.5 9.881375"></polygon>
-    </defs>
-    <g id="expressive_modal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group" transform="translate(60.000000, 99.000000)">
-            <g id="Group-38-Copy">
-                <g id="Rectangle" fill="black" fill-opacity="1">
-                    <use filter="url(#filter-2)" xlink:href="#path-1"></use>
-                </g>
-                <g id="color/gray/10-copy-10" fill="#F3F3F3">
-                    <rect id="Rectangle" x="0" y="0" width="200" height="122"></rect>
-                </g>
-            </g>
-            <g transform="translate(177.000000, 10.000000)" id="icon/navigation/close/16-copy-2">
-                <mask id="mask-4" fill="white">
-                    <use xlink:href="#path-3"></use>
-                </mask>
-                <use id="icon-color" fill="#000000" xlink:href="#path-3"></use>
-            </g>
-            <rect id="Rectangle-Copy-4" fill="#A8A8A8" x="9" y="13" width="58" height="7"></rect>
-            <rect id="Rectangle-Copy-12" fill="#C6C6C6" x="9" y="29" width="137" height="5"></rect>
-            <rect id="Rectangle-Copy-16" fill="#C6C6C6" x="9" y="49" width="137" height="5"></rect>
-            <rect id="Rectangle-Copy-17" fill="#0F6DFF" x="9" y="96" width="69" height="16"></rect>
-            <rect id="Rectangle-Copy-18" fill="#C6C6C6" x="9" y="39" width="112" height="5"></rect>
-        </g>
-    </g>
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g filter="url(#filter0_d_0_4555)">
+    <rect x="54" y="102" width="212" height="116" fill="black" fill-opacity="0.01" />
+  </g>
+  <rect width="212" height="116" transform="translate(54 102)" fill="#F3F3F3" />
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M252.074 115.5L254.75 112.824L254.176 112.25L251.5 114.926L248.824 112.25L248.25 112.824L250.926 115.5L248.25 118.176L248.824 118.75L251.5 116.074L254.176 118.75L254.75 118.176L252.074 115.5V115.5Z"
+    fill="black" />
+  <mask id="mask0_0_4555" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="248" y="112"
+    width="7" height="7">
+    <path fill-rule="evenodd" clip-rule="evenodd"
+      d="M252.074 115.5L254.75 112.824L254.176 112.25L251.5 114.926L248.824 112.25L248.25 112.824L250.926 115.5L248.25 118.176L248.824 118.75L251.5 116.074L254.176 118.75L254.75 118.176L252.074 115.5V115.5Z"
+      fill="white" />
+  </mask>
+  <g mask="url(#mask0_0_4555)">
+</g>
+  <rect x="63" y="192" width="69" height="16" fill="#0F6DFF" />
+  <rect x="63" y="114" width="64" height="6" fill="#8D8D8D" />
+  <rect x="63" y="130" width="148" height="3" fill="#A8A8A8" />
+  <rect x="63" y="144" width="148" height="3" fill="#A8A8A8" />
+  <rect x="63" y="137" width="148" height="3" fill="#A8A8A8" />
+  <rect x="63" y="151" width="118" height="3" fill="#A8A8A8" />
+  <defs>
+    <filter id="filter0_d_0_4555" x="48" y="98" width="224" height="128"
+      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feColorMatrix in="SourceAlpha" type="matrix"
+        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+      <feOffset dy="2" />
+      <feGaussianBlur stdDeviation="3" />
+      <feColorMatrix type="matrix"
+        values="0 0 0 0 0.862745 0 0 0 0 0.862745 0 0 0 0 0.862745 0 0 0 1 0" />
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_4555" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_4555" result="shape" />
+    </filter>
+  </defs>
 </svg>
