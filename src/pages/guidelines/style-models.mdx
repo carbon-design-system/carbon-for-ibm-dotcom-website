@@ -1,11 +1,11 @@
 ---
 title: Style models
-description: A style model refers to a specific combination of design elements that together make up a foundation for pages on IBM.com. Reuse of existing style models ensures a consistent approach to content, and coherency in our customers' journeys.
+description: A style model refers to the way grided layouts behave within the a browser or application window. Reuse of existing style models ensures a consistent approach to content, and coherency in our customers’ journeys.
 ---
 
 <PageDescription>
 
-A style model refers to a specific combination of design elements that together make up a foundation for pages on IBM.com. Reuse of existing style models ensures a consistent approach to content, and coherency in our customers' journeys.
+A style model refers to the way grided layouts behave within a browser or application window. Reuse of existing style models ensures a consistent approach to content, and coherency in our customers’ journeys.
 
 </PageDescription>
 
@@ -13,7 +13,7 @@ A style model refers to a specific combination of design elements that together 
 
 <AnchorLink>Overview</AnchorLink>
 <AnchorLink>Editorial model</AnchorLink>
-<AnchorLink>Documentation model</AnchorLink>
+<AnchorLink>Product model</AnchorLink>
 <AnchorLink>High density interface model</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
@@ -21,25 +21,24 @@ A style model refers to a specific combination of design elements that together 
 
 ## Overview
 
-Style models help designers by simplifying decisions around how foundational design elements should be used. For example, all pages on IBM.com uses the <a href="https://www.carbondesignsystem.com/guidelines/2x-grid/overview/" target="_blank">2x Grid</a>, but the 2x Grid supports a wide range of behaviors and usage. It can be used with or without max width, left aligned or centered. These design decisions should be made consistently based on content needs. Style models connect specific usage combinations to the kind of content it best serves.
+Style models help designers by simplifying decisions around how foundational design elements should be used. For example, all pages on IBM.com use the [2x Grid](https://www.carbondesignsystem.com/guidelines/2x-grid/overview/), but the 2x Grid supports a wide range of behaviors and usage. The 2x Grid can be left aligned, centered or it can span the maximum width of the browser.
 
 In our models, the design elements included are:
 
 - Grid
-- Screen regions
-- Key components (masthead, footer)
+- Key components (masthead/UI shell, footer)
 
 Here is a list of recurring style models we have identified so far.
 
 | Style models                                                    | Usage and examples                                                                                                                                                                                                                                                                                                                           |
 | --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [_Editorial model_](#editorial-model)                           | This default style model is the bread and butter of marketing pages, which represents the majority of IBM.com. The grid in this model centers content for most comfortable browsing, and allows for a variety of expressive layouts. Some low information density product screens, such as the Checkout application, can use this model too. |
-| [_Documentation model_](#documentation-model)                   | For long form content with deep organizational hierarchy, use the Documentation model. It anticipates a left hand navigational panel, and keeps content within a maximum width. Examples of documentation include IBM Docs, Cloud Docs, and this site documenting the design system guidance.                                                |
-| [_High density interface model_](#high-density-interface-model) | Sometimes every inch of the screen needs be utilized at maximum to display information and controls. Complex product interfaces and data visualization dashboards typically fall into this category. This model uses the full width grid, so the bigger the screen, the more information the user will see.                                  |
+| [_Editorial model_](#editorial-model)                           | This default style model is the bread and butter of marketing pages, which represents the majority of IBM.com. The grid in this model centers content for comfortable browsing, and allows for a variety of expressive layouts. Some low information density product screens, such as the Checkout application, can use this model too. |
+| [_Product model_](#product-model)                   | For long form content with deep organizational hierarchy, use the product model. It anticipates a left hand navigational panel, and keeps content within a maximum width. Examples of product include IBM Docs, Cloud Docs, and this site documenting the design system guidance.                                                |
+| [_High density interface model_](#high-density-interface-model) | Sometimes every inch of the screen needs be utilized to display information and controls. Complex product interfaces and data visualization dashboards typically fall into this category. This model uses the full width grid, so the bigger the screen, the more information the user will see.                                  |
 
-#### &#12288;
+### Max breakpoint
 
-The biggest differentiator between the models is the grid. Specifically in how the grid behaves above max breakpoint. Below is the 2x Grid at max breakpoint (1584px or 99rem).
+The biggest differentiator between the style models is the grid. Specifically in how the grid behaves above max breakpoint. Below, for reference, is the 2x Grid at max breakpoint (1584px or 99rem).
 
 <br />
 
@@ -51,331 +50,131 @@ The biggest differentiator between the models is the grid. Specifically in how t
 </Column>
 <Column colLg={10} colMd={6}>
 
-![2x Grid at max breakpoint](../../images/guidelines/style-models/grid-at-max.png)
+![2x Grid at max breakpoint](../../images/guidelines/style-models/overview_2x_grid_max.png)
 
 </Column>
 </Row>
 
-#### &#12288;
+### Beyond max breakpoint
 
-Once the screen is wider than the max breakpoint, the margins (highlighted in dark blue below) can expand, or the grid can stretch.
-
-<br />
+Once the screen is wider than the max breakpoint, the margins (highlighted in dark blue) can expand, or the grid can stretch.
 
 <Row>
-<Column colLg={2} colMd={2}>
+  <Column colLg={2} colMd={2} colSm={4}>
 
-**Editorial**<br/> Max width kept, centered grid
-
-</Column>
-<Column colLg={10} colMd={6}>
-
-![Editorial model grid](../../images/guidelines/style-models/grid-above-max--editorial.png)
+**Editorial model**
 
 </Column>
+  <Column colLg={10} colMd={6} colSm={4}>
+
+![2x Grid in the editorial style model: max width is maintained, grid is centered in the browser](../../images/guidelines/style-models/overview_editorial_style_model.png)
+
+<Caption>Max width is maintained, grid is centered in the browser</Caption>
+
+  </Column>
 </Row>
 <Row>
-<Column colLg={2} colMd={2}>
+  <Column colLg={2} colMd={2} colSm={4}>
 
-**Documentation**<br/> Max width kept, grid left aligned
-
-</Column>
-<Column colLg={10} colMd={6}>
-
-![Documentation model grid](../../images/guidelines/style-models/grid-above-max--doc.png)
+**Product model**
 
 </Column>
+  <Column colLg={10} colMd={6} colSm={4}>
+
+![2x Grid in the product style model: max width is maintained, grid is left-aligned in the browser](../../images/guidelines/style-models/overview_product_style_model.png)
+
+<Caption>Max width is maintained, grid is left-aligned in the browser</Caption>
+
+  </Column>
 </Row>
 <Row>
-<Column colLg={2} colMd={2}>
+  <Column colLg={2} colMd={2} colSm={4}>
 
-**High density interface**<br/> Full width, grid stretches
-
-</Column>
-<Column colLg={10} colMd={6}>
-
-![High density interface model grid](../../images/guidelines/style-models/grid-above-max--dash.png)
+**High-density interface model**
 
 </Column>
-</Row>
+  <Column colLg={10} colMd={6} colSm={4}>
 
-<br />
+![2x Grid in the high-density interface style model: grid is full width](../../images/guidelines/style-models/overview_hi_density_style_model.png)
 
-This difference in grid ripples through everything on page. Below is a visual overview of how the masthead and footer will behave above max breakpoints in the editorial and documentation models, and the Carbon UI shell in the high density interface model above max breakpoint:
+<Caption>Grid spans full screen width, add columns as needed in increments of 2 or 4</Caption>
 
-<Row>
-<Column colMd={4} colLg={4} >
-
-![Dotcom shell on editorial model](../../images/guidelines/style-models/style-models-dotcom-shell-1.png)
-
-<Caption>
-
-The **editorial model** demonstrates the default behavior. The content within the components is contained in the max width, but background colors and dividers span the full width.
-
-</Caption>
-
-</Column>
-<Column colMd={4} colLg={4} >
-
-![Dotcom shell on documentation model](../../images/guidelines/style-models/style-models-dotcom-shell-2.png)
-
-<Caption>
-
-The **documentation model** has left-aligned content in the footer, while the background is full width. Masthead breaks from the grid, and both content and background span the full width.
-
-</Caption>
-
-</Column>
-<Column colMd={4} colLg={4} >
-
-![Carbon shell on High density interface model](../../images/guidelines/style-models/style-models-dotcom-shell-4.png)
-
-<Caption>
-
-The **high density interface model** shows the Carbon UI shell obeying the grid as expected, stretching to full width of the screen.
-
-</Caption>
-
-</Column>
+  </Column>
 </Row>
 
 ## Editorial model
 
-This default style model is the bread and butter of marketing pages, which represent the majority of IBM.com. The grid in this model centers content for most comfortable browsing, and allows for a variety of expressive layouts. Some low information density product screens, such as the Checkout application, can use this model too.
+This difference in grid ripples through everything on page. Below is a visual overview of how the IBM.com masthead and footer will behave above max breakpoints in the Editorial style model. 
 
-### Grid
-
-For editorial content, the max width should always be applied. This ensures text and calls to action do not drift to the periphery for visitors using a big screen, and provides a complete first impression of the content. Applying a max width to the page also keeps text line length at a reasonable width, which allows for <a href="https://www.ibm.com/design/language/typography/type-basics/#comfortable-reading" target="_blank">comfortable reading</a>.
+As you can see, for editorial content, the max width should always be applied. This ensures text and calls to action do not drift to the periphery for visitors using a big screen, and provides a complete first impression of the content. Applying a max width to the page also keeps text line length at a reasonable width, which allows for [comfortable reading](https://www.ibm.com/design/language/typography/type-basics/#comfortable-reading).
 
 <Row>
-<Column colMd={4} colLg={4} >
-<DoDontExample type="do" caption="Editorial model uses max width to keep content centralized.">
+  <Column colLg={6} colMd={4}>
 
-![Editorial model uses max width](../../images/guidelines/style-models/style-models-editorial-do-dont-1.png)
+![The Editorial model in a marketing page on IBM.com.](../../images/guidelines/style-models/editorial_style_model_01.png)
 
-</DoDontExample>
-</Column>
-<Column colMd={4} colLg={4} >
-<DoDontExample type="dont" caption="Without max width content stretches and drifts apart on wide screens.">
+<Caption>The Editorial model in a marketing page on IBM.com</Caption>
 
-![Without max width content stretches and drifts apart on wide screens](../../images/guidelines/style-models/style-models-editorial-do-dont-2.png)
+  </Column>
+  <Column colLg={6} colMd={4}>
 
-</DoDontExample>
-</Column>
-</Row>
-
-The grid should also be centered when the screen width is larger than max width to present content front and center. A left aligned grid creates a awkward white space on the right that draws unnecessary attention.
-
-<Row>
-<Column colMd={4} colLg={4} >
-<DoDontExample type="dont" caption="Left aligned grid creates awkward white space on the right that draws unnecessary attention.">
-
-![Don't use left aligned grid](../../images/guidelines/style-models/style-models-editorial-do-dont-3.png)
-
-</DoDontExample>
-</Column>
-</Row>
-
-### Screen regions and Dotcom shell
-
-Begin designing by parsing through the content for hierarchies, and start with the most essential, overarching concepts at the top, then add the main details of the subject matter, and finally, position the related or supportive content at the bottom. Try to consider the mobile layout first because it forces us to be disciplined in sequencing content in a logical order.
-
-Refer to the Layout page in our Guidelines section for more guidance on [Content hierarchy](/guidelines/layout#content-hierarchy).
-
-<Row>
-<Column colMd={8} colLg={8} >
-
-![Lorem ipsum](../../images/guidelines/style-models/style-models-editorial-screen-regions.png)
+![The footer for the Editorial model on IBM.com.](../../images/guidelines/style-models/editorial_style_model_02.png)
 
 <Caption>
-  1. Global element: Masthead <br />
-  2. Overarching content: headings, titles, or leading sentences <br />
-  3. Main content: details of the subject matter <br />
-  4. Related content: helpful links, related topics <br />
-  5. Global element: Footer <br />
+  The footer for the Editorial model on IBM.com
 </Caption>
 
-</Column>
+  </Column>
 </Row>
 
-The masthead and footer together make up the shell of the page, also known as [Dotcom shell](/components/dotcom-shell). How they are positioned on the grid helps to define the expectations for the rest of the page. In the Editorial model, Dotcom shell stays on the grid. This means the content elements are aligned to columns, and background colors and their dividers are full width extending into margins.
+## Product model
+
+For long form content with deep organizational hierarchy, use the Product model. It anticipates a left hand navigational panel, and keeps content within a maximum width. 
+
+Both IBM.com and IBM product experiences overlap slightly in that they both can use the Product style model. Notice that the marketing content on IBM.com uses the Editorial style model and that support documentation (IBM Docs, Cloud Docs) on IBM.com uses the Product style model. 
+
+The vast majority of IBM software products also use this style model because the left rail is appropriate for task based user flows and dashboards.  However, only software UI uses the grid influencer variant of the Carbon UI Shell.
 
 <Row>
-<Column colMd={4} colLg={4} >
+  <Column colLg={6} colMd={4}>
 
-![Dotcom shell usage on grid](../../images/guidelines/style-models/style-models-dotcom-shell-1.png)
+![The Product model in context on IBM.com.](../../images/guidelines/style-models/product_style_model_01.png)
 
-<Caption>
-  Dotcom shell stays within the grid, filling in the margin with background
-  color and its divider.
-</Caption>
+<Caption>The Product model in context on IBM.com</Caption>
 
-</Column>
+  </Column>
+  <Column colLg={6} colMd={4}>
+
+![The footer for the Product model on IBM.com.](../../images/guidelines/style-models/product_style_model_02.png)
+
+<Caption>The footer for the Product model on IBM.com</Caption>
+
+  </Column>
 </Row>
-
-### Examples
-
 <Row>
-<Column colMd={8} colLg={12} >
+  <Column colLg={6} colMd={4}>
 
-![Example layouts using Editorial model](../../images/guidelines/style-models/style-models-editorial-example-layouts.png)
+![The Product model in context in an IBM product screen.](../../images/guidelines/style-models/product_style_model_03.png)
 
-<Caption>Editorial model supports a wide varity of layouts.</Caption>
+<Caption>The Product model in context in an IBM product screen</Caption>
 
-</Column>
-</Row>
-
-## Documentation model
-
-For long form content with deep organizational hierarchy, use the Documentation model. It anticipates a left hand navigational panel, and keeps content within a maximum width. Examples of documentation include IBM Docs, Cloud Docs, and this site documenting the design system guidance.
-
-### Grid
-
-Documentation sites deal with large volumes of text and media content. It benefits from a persistent navigation to help with organization and way finding. This reduces the main content area to 12 columns, but allows for the holistic design to embrace the 4 <a href="https://carbondesignsystem.com/guidelines/2x-grid/overview/#key-lines" target="_blank">key lines</a>.
-
-Do not use a <a href="https://carbondesignsystem.com/guidelines/2x-grid/overview/#grid-influencers" target="_blank">grid influencer</a> for the navigation panel because it should be present most of the time. Reserve grid influencers for temporary UI elements because when present, the grid influencer breaks a layout where everything is divisible by two.
-
-<Row>
-<Column colMd={4} colLg={4} >
-<DoDontExample type="do" caption="Documentation benefits from a persistant navigation that takes up 4 columns and a controlled max width.">
-
-![Documentation benefits from a persistent navigation that takes up 4 columns and a controlled max width.](../../images/guidelines/style-models/style-models-docu-1.png)
-
-</DoDontExample>
-</Column>
-<Column colMd={4} colLg={4} >
-<DoDontExample type="dont" caption="Grid influencer breaks a layout where everything is divisible by two.">
-
-![Content on page doesn't align to the 4 key lines](../../images/guidelines/style-models/style-models-docu-2.png)
-
-</DoDontExample>
-</Column>
-</Row>
-
-Left aligning the grid allows the navigation to anchor to the side of the screen, and keeps the main content at a predictable proximity to the navigation.
-
-<Row>
-<Column colMd={4} colLg={4} >
-<DoDontExample type="do" caption="Reserve the first 3 columns on the left for navigation panel, and place main content on the 5th–16th columns. ">
-
-![Correct placement of content on grid in Documentation model](../../images/guidelines/style-models/style-models-docu-3.png)
-
-</DoDontExample>
-</Column>
-<Column colMd={4} colLg={4} >
-<DoDontExample type="dont" caption="Grid influencer is not recommended for documentation because grid influencer temporarily breaks the 2x Grid logic, and should not be a persistent element on screen.">
-
-![Grid influencer is not recommended for documentation](../../images/guidelines/style-models/style-models-docu-4.png)
-
-</DoDontExample>
-</Column>
-</Row>
-
-### Screen regions and Dotcom shell
-
-The left hand navigation panel is similar to a table of contents, which hides on smaller screens.
-
-<Row>
-<Column colMd={8} colLg={8} >
-
-![Lorem ipsum](../../images/guidelines/style-models/style-models-docu-screen-regions.png)
-
-<Caption>
-  1. Global element: masthead <br />
-  2. Overarching content: page navigation <br />
-  3. Main content: details of the subject matter <br />
-  4. Related content: helpful links, related topics <br />
-  5. Global element: footer <br />
-</Caption>
-
-</Column>
-</Row>
-
-With the documentation model, the Dotcom shell breaks out of the grid and is full width. This keeps the right side of the masthead elements (Search and Account functions) anchored to the screen edge.
-
-<Row>
-<Column colMd={4} colLg={4} >
-
-![Dotcom shell usage on Documentation model](../../images/guidelines/style-models/style-models-dotcom-shell-2.png)
-
-<Caption>
-  In Documentation model, masthead breaks from the grid and is full width, while
-  footer sticks to grid.
-</Caption>
-
-</Column>
-</Row>
-
-### Examples
-
-<Row>
-<Column colMd={6} colLg={8} >
-
-![IBM Docs prototyped using documentation model](../../images/guidelines/style-models/style-models-docu-example.png)
-
-<Caption>IBM Docs prototype using documentation model</Caption>
-
-</Column>
+  </Column>
 </Row>
 
 ## High density interface model
 
-Sometimes every inch of the screen needs be utilized at maximum to display information and controls. Complex product interfaces and data visualization dashboards typically fall into this category. This model uses the full width grid, so the bigger the screen, the more information the user will see.
-
-At IBM.com, we have not yet encountered this use case. If your content fits this category, and is not external facing, consider using <a href="https://carbondesignsystem.com/" target="_blank">Carbon Design System</a>.
-
-### Grid
-
-The effect of having a max width is not visible at smaller screens. But once the screen is wider than 99rem, the presence of a max width will limit the amount of content shown, and create large empty spaces at the same time. Considering the goal is to display maximum content, large empty spaces can be a frustrating experience.
+IBM Products also occasionally use the High-density interface model in order to maximize the use of screen space. By far the most prominent example of this to date is the Cloud Catalog. Rather than growing in size, the Cloud catalog cards just keep populating as the browser grows. In this case, columns are added in increments of four. 
 
 <Row>
-<Column colMd={4} colLg={4} >
-<DoDontExample type="do" caption="For high density interfaces, utilize the full screen width to present as much information as possible.">
+  <Column colLg={6} colMd={4}>
 
-![High density interface uses max width](../../images/guidelines/style-models/style-models-dashboard-do-dont-1.png)
+![The High-density interface model in context in the IBM Cloud catalog.](../../images/guidelines/style-models/hi-density_style_model.png)
 
-</DoDontExample>
-</Column>
-<Column colMd={4} colLg={4} >
-<DoDontExample type="dont" caption="Containing high density interfaces in a max width creates frustration.">
+<Caption>The High-density interface model in context in the IBM Cloud catalog</Caption>
 
-![Without max width content stretches and drifts apart on wide screens](../../images/guidelines/style-models/style-models-dashboard-do-dont-2.png)
-
-</DoDontExample>
-</Column>
-</Row>
-
-### Screen regions and Dotcom shell
-
-If you are using Carbon Design System, refer to their existing guidance on <a href="https://carbondesignsystem.com/guidelines/2x-grid/overview/#screen-regions" target="_blank">screen regions</a>.
-
-In place of Dotcom shell, Carbon Design System offers the <a href="https://carbondesignsystem.com/components/UI-shell-header/usage/" target="_blank">UI shell</a> as the default header.
-
-If you have to use Carbon for IBM.com &mdash; perhaps because your application is external facing, and integrated with marketing content &mdash; and you believe your experience could benefit from a high density interface model, please open a [feature request](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/new/choose) on our Github.
-
-<Row>
-<Column colMd={4} colLg={4} >
-
-![Carbon shell on High density interface model](../../images/guidelines/style-models/style-models-dotcom-shell-4.png)
-
-<Caption>Carbon shell is more typical on High density interface model</Caption>
-
-</Column>
-
-</Row>
-
-### Examples
-
-<Row>
-<Column colMd={8} colLg={12} >
-
-![A high density interface designed using Carbon Design System](../../images/guidelines/style-models/style-models-highdens-example.png)
-
-<Caption>A high density interface designed using Carbon Design System</Caption>
-
-</Column>
+  </Column>
 </Row>
 
 ## Feedback
 
-These user intents and style models are not set in stone—they and are intended to evolve over time. If for any reason, the existing user intents or style models do not meet the user needs, please contact the Carbon for IBM.com team via the <a href="https://cognitive-app.slack.com/archives/C2PLX8GQ6" target="_blank">#carbon-for-ibm-dotcom</a> slack channel.
+If you need additional guidance, please reach out to the Carbon for IBM.com team via the [#carbon-for-ibm-dotcom](https://cognitive-app.slack.com/archives/C2PLX8GQ6) slack channel or contact us on [Github](https://github.com/carbon-design-system/carbon-for-ibm-dotcom/issues/new?assignees=&labels=question&projects=&template=question.yaml&title=%5BYOUR+TITLE%5D%3A+Brief+description).
