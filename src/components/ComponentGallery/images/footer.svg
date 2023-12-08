@@ -1,30 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="320px" height="320px" viewBox="0 0 320 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>footer</title>
-    <g id="footer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group" transform="translate(60.000000, 112.000000)">
-            <rect id="Rectangle-Copy-29" fill="#262626" x="0" y="0" width="201" height="96"></rect>
-            <rect id="Rectangle-Copy-34" fill="#C6C6C6" x="7" y="10" width="32" height="13"></rect>
-            <rect id="Rectangle-Copy-35" fill="#FFFFFF" x="56" y="10" width="21" height="3"></rect>
-            <rect id="Rectangle-Copy-36" fill="#FFFFFF" x="105" y="10" width="21" height="3"></rect>
-            <rect id="Rectangle-Copy-37" fill="#FFFFFF" x="155" y="10" width="21" height="3"></rect>
-            <rect id="Rectangle-Copy-38" fill="#C6C6C6" x="56" y="18" width="21" height="3"></rect>
-            <rect id="Rectangle-Copy-39" fill="#C6C6C6" x="105" y="18" width="21" height="3"></rect>
-            <rect id="Rectangle-Copy-40" fill="#C6C6C6" x="155" y="18" width="21" height="3"></rect>
-            <rect id="Rectangle-Copy-41" fill="#C6C6C6" x="56" y="26" width="21" height="3"></rect>
-            <rect id="Rectangle-Copy-42" fill="#C6C6C6" x="105" y="26" width="21" height="3"></rect>
-            <rect id="Rectangle-Copy-43" fill="#C6C6C6" x="155" y="26" width="21" height="3"></rect>
-            <rect id="Rectangle-Copy-44" fill="#C6C6C6" x="56" y="34" width="21" height="3"></rect>
-            <rect id="Rectangle-Copy-45" fill="#C6C6C6" x="105" y="34" width="21" height="3"></rect>
-            <rect id="Rectangle-Copy-46" fill="#C6C6C6" x="105" y="50" width="21" height="3"></rect>
-            <rect id="Rectangle-Copy-47" fill="#C6C6C6" x="56" y="42" width="21" height="3"></rect>
-            <rect id="Rectangle-Copy-48" fill="#C6C6C6" x="8" y="73" width="36" height="4"></rect>
-            <rect id="Rectangle-Copy-49" fill="#C6C6C6" x="56" y="86" width="21" height="3"></rect>
-            <rect id="Rectangle-Copy-50" fill="#C6C6C6" x="105" y="86" width="21" height="3"></rect>
-            <rect id="Rectangle-Copy-51" fill="#C6C6C6" x="154" y="86" width="21" height="3"></rect>
-            <rect id="Rectangle-Copy-52" fill="#C6C6C6" x="105" y="42" width="21" height="3"></rect>
-            <rect id="Rectangle-Copy-53" fill="#C6C6C6" x="105" y="58" width="21" height="3"></rect>
-            <line x1="8" y1="81.6544754" x2="194.294693" y2="81.6544754" id="Path-3-Copy" stroke="#979797"></line>
-        </g>
-    </g>
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="56" y="124" width="208" height="72" fill="#262626" stroke="black" stroke-opacity="0.2" />
+  <rect x="63" y="132" width="24" height="8" fill="#A8A8A8" />
+  <rect x="218" y="158" width="39" height="8" stroke="white" />
+  <rect x="218" y="158" width="39" height="8" stroke="black" stroke-opacity="0.2" />
+  <rect x="218" y="158" width="39" height="8" stroke="black" stroke-opacity="0.2" />
+  <rect x="115" y="182" width="142" height="0.5" fill="#525252" />
+  <rect x="115" y="132" width="20" height="2" fill="white" />
+  <rect x="166" y="132" width="20" height="2" fill="white" />
+  <rect x="218" y="132" width="20" height="2" fill="white" />
+  <rect x="115" y="140" width="20" height="2" fill="#A8A8A8" />
+  <rect x="166" y="140" width="20" height="2" fill="#A8A8A8" />
+  <rect x="218" y="140" width="20" height="2" fill="#A8A8A8" />
+  <rect x="115" y="148" width="20" height="2" fill="#A8A8A8" />
+  <rect x="166" y="148" width="20" height="2" fill="#A8A8A8" />
+  <rect x="218" y="148" width="20" height="2" fill="#A8A8A8" />
+  <rect x="115" y="156" width="20" height="2" fill="#A8A8A8" />
+  <rect x="166" y="156" width="20" height="2" fill="#A8A8A8" />
+  <rect x="166" y="164" width="20" height="2" fill="#A8A8A8" />
+  <rect x="166" y="188" width="20" height="2" fill="#A8A8A8" />
+  <rect x="115" y="188" width="20" height="2" fill="#A8A8A8" />
+  <rect x="218" y="188" width="20" height="2" fill="#A8A8A8" />
 </svg>

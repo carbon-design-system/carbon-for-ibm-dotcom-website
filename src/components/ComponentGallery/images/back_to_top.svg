@@ -1,12 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="320px" height="320px" viewBox="0 0 320 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>backtotop</title>
-    <g id="backtotop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="back-to-top-/active" transform="translate(142.000000, 142.000000)">
-            <rect id="Rectangle" fill="#393939" x="0" y="0" width="36" height="36" rx="18"></rect>
-            <g id="Actions-/-Navigation-/-up-to-top-/-20" transform="translate(10.500000, 10.500000)" fill="#FFFFFF">
-                <path d="M7.5,6.09375 L2.8125,10.78125 L3.4734375,11.4421875 L7.5,7.4203125 L11.5265625,11.4421875 L12.1875,10.78125 L7.5,6.09375 Z M1.875,3.28125 L13.125,3.28125 L13.125,4.21875 L1.875,4.21875 L1.875,3.28125 Z" id="Fill"></path>
-            </g>
-        </g>
-    </g>
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="136" y="136" width="48" height="48" rx="24" fill="#393939" />
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M167.5 154.375H152.5V155.625H167.5V154.375ZM153.75 164.375L160 158.125L166.25 164.375L165.369 165.256L160 159.894L154.631 165.256L153.75 164.375Z"
+    fill="white" />
 </svg>

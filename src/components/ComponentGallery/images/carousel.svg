@@ -1,17 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="320px" height="320px" viewBox="0 0 320 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>carousel</title>
-    <g id="carousel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="Rectangle-Copy-14" stroke="#C6C6C6" fill="#FFFFFF" x="43" y="124" width="234.666667" height="90.6666667"></rect>
-        <g id="Group-2" transform="translate(257.000000, 196.000000)" fill="#8D8D8D">
-            <rect id="Rectangle-Copy-3" x="9.33333333" y="3.55271368e-15" width="8" height="8"></rect>
-            <rect id="Rectangle-Copy-4" x="1.42108547e-14" y="3.55271368e-15" width="8" height="8"></rect>
-        </g>
-        <g id="Group" transform="translate(46.000000, 135.000000)" fill="#C6C6C6" stroke="#FFFFFF">
-            <rect id="Rectangle-Copy-21" x="57.3333333" y="-3.55271368e-15" width="57.3333333" height="57.3333333"></rect>
-            <rect id="Rectangle-Copy-24" x="-1.45661261e-13" y="-3.55271368e-15" width="57.3333333" height="57.3333333"></rect>
-            <rect id="Rectangle-Copy-22" x="114.333333" y="-3.55271368e-15" width="57.3333333" height="57.3333333"></rect>
-            <rect id="Rectangle-Copy-23" x="171.333333" y="-3.55271368e-15" width="57.3333333" height="57.3333333"></rect>
-        </g>
-    </g>
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="244" y="192" width="9" height="9" stroke="#0F62FE" />
+  <rect x="228" y="192" width="9" height="9" stroke="#C6C6C6" />
+  <rect x="56" y="120" width="62" height="62" fill="#F4F4F4" stroke="#A8A8A8" stroke-width="0.81" />
+  <rect x="124" y="120" width="62" height="62" fill="#F4F4F4" stroke="#A8A8A8" stroke-width="0.81" />
+  <rect x="192" y="120" width="62" height="62" fill="#F4F4F4" stroke="#A8A8A8" stroke-width="0.81" />
+  <rect x="260" y="120" width="4" height="62" fill="#F4F4F4" stroke="#A8A8A8" stroke-width="0.81" />
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M109.114 170L108.728 170.423L110.807 172.7H105V173.3H110.807L108.728 175.577L109.114 176L111.857 173L109.114 170V170Z"
+    fill="#0F62FE" />
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M177.114 170L176.728 170.423L178.807 172.7H173V173.3H178.807L176.728 175.577L177.114 176L179.857 173L177.114 170V170Z"
+    fill="#0F62FE" />
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M245.114 170L244.728 170.423L246.807 172.7H241V173.3H246.807L244.728 175.577L245.114 176L247.857 173L245.114 170V170Z"
+    fill="#0F62FE" />
+  <rect x="63" y="139" width="48" height="2" fill="#A8A8A8" />
+  <rect x="131" y="139" width="48" height="2" fill="#A8A8A8" />
+  <rect x="199" y="139" width="48" height="2" fill="#A8A8A8" />
+  <rect x="63" y="149" width="32" height="2" fill="#A8A8A8" />
+  <rect x="131" y="149" width="32" height="2" fill="#A8A8A8" />
+  <rect x="199" y="149" width="32" height="2" fill="#A8A8A8" />
+  <rect x="63" y="144" width="48" height="2" fill="#A8A8A8" />
+  <rect x="131" y="144" width="48" height="2" fill="#A8A8A8" />
+  <rect x="199" y="144" width="48" height="2" fill="#A8A8A8" />
+  <rect x="63" y="128" width="40" height="3" fill="#8D8D8D" />
+  <rect x="131" y="128" width="40" height="3" fill="#8D8D8D" />
+  <rect x="199" y="128" width="40" height="3" fill="#8D8D8D" />
 </svg>
