@@ -1,19 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="320px" height="320px" viewBox="0 0 320 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>masthead</title>
-    <g id="masthead" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="L0" transform="translate(60.000000, 144.000000)">
-            <rect id="Rectangle-Copy-38" stroke="#D8D8D8" fill="#FFFFFF" x="0.5" y="0.5" width="200" height="15"></rect>
-            <rect id="Rectangle-Copy-41" fill="#8D8D8D" x="5" y="6" width="16" height="4"></rect>
-            <rect id="Rectangle-Copy-45" fill="#C6C6C6" x="176" y="6" width="4" height="4"></rect>
-            <rect id="Rectangle-Copy-46" fill="#C6C6C6" x="184" y="6" width="12" height="4"></rect>
-        </g>
-        <g id="L1" transform="translate(60.000000, 159.000000)">
-            <rect id="Rectangle-Copy-38" stroke="#D8D8D8" fill="#FFFFFF" x="0.5" y="0.5" width="200" height="15"></rect>
-            <rect id="Rectangle-Copy-41" fill="#8D8D8D" x="5" y="6" width="16" height="4"></rect>
-            <rect id="Rectangle-Copy-42" fill="#C6C6C6" x="25" y="6" width="22" height="4"></rect>
-            <rect id="Rectangle-Copy-44" fill="#C6C6C6" x="51" y="6" width="22" height="4"></rect>
-            <rect id="Rectangle-Copy-44" fill="#C6C6C6" x="77" y="6" width="22" height="4"></rect>
-        </g>
-    </g>
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M56 147H264V159H56V147Z" fill="white" stroke="#A8A8A8"/>
+<rect x="56" y="159" width="208" height="15" fill="white" stroke="#A8A8A8"/>
+<rect x="59" y="173" width="28" height="1" fill="#0F62FE"/>
+<rect x="242" y="151" width="5" height="5" fill="#C6C6C6"/>
+<rect x="252" y="151" width="5" height="5" fill="#C6C6C6"/>
+<rect x="225" y="159" width="39" height="15" fill="#0F62FE"/>
+<rect x="87" y="152" width="20" height="2" fill="#A8A8A8"/>
+<rect x="91" y="168" width="20" height="2" fill="#A8A8A8"/>
+<rect x="63" y="168" width="20" height="2" fill="#8D8D8D"/>
+<rect x="115" y="152" width="20" height="2" fill="#A8A8A8"/>
+<rect x="119" y="168" width="20" height="2" fill="#A8A8A8"/>
+<rect x="143" y="152" width="20" height="2" fill="#A8A8A8"/>
+<rect x="147" y="168" width="20" height="2" fill="#A8A8A8"/>
+<rect x="197" y="168" width="20" height="2" fill="#78A9FF"/>
+<rect x="171" y="152" width="20" height="2" fill="#A8A8A8"/>
+<rect x="63" y="152" width="16" height="3" fill="#8D8D8D"/>
 </svg>

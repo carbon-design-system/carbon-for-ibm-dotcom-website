@@ -1,20 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="320px" height="320px" viewBox="0 0 320 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>card_link</title>
-    <defs>
-        <polygon id="path-1" points="9 3 8.295 3.705 12.085 7.5 1.5 7.5 1.5 8.5 12.085 8.5 8.295 12.295 9 13 14 8"></polygon>
-    </defs>
-    <g id="card_link" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group" transform="translate(57.000000, 109.000000)">
-            <rect id="Rectangle-Copy-3" fill="#F3F3F3" x="0" y="0" width="206" height="103"></rect>
-            <rect id="Rectangle-Copy-4" fill="#A8A8A8" x="13" y="13" width="125" height="8"></rect>
-            <rect id="Rectangle-Copy-5" fill="#A8A8A8" x="13" y="27" width="84" height="8"></rect>
-            <g transform="translate(12.040752, 78.783699)" id="icons/arrows/ibm-forward-link-copy-2">
-                <mask id="mask-2" fill="white">
-                    <use xlink:href="#path-1"></use>
-                </mask>
-                <use id="icon-color" fill="#0F62FE" xlink:href="#path-1"></use>
-            </g>
-        </g>
-    </g>
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="72" y="111" width="176" height="98" fill="#F3F3F3" stroke="#A8A8A8"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M229 186L228.295 186.705L232.085 190.5H221.5V191.5H232.085L228.295 195.295L229 196L234 191L229 186V186Z" fill="#0F62FE"/>
+<mask id="mask0_0_5153" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="221" y="186" width="13" height="10">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M229 186L228.295 186.705L232.085 190.5H221.5V191.5H232.085L228.295 195.295L229 196L234 191L229 186V186Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_0_5153)">
+</g>
+<rect x="85" y="124" width="96" height="6" fill="#8D8D8D"/>
 </svg>

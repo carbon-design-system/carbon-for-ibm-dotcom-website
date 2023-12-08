@@ -18,23 +18,6 @@
         "notAvailable": false
       }
     },
-    "CTA": {
-      "url": "/components/cta",
-      "designLink": "https://ibm.box.com/s/unvd38oewwguycqoqg0et75eluiiqhg6",
-      "description": "CTA stands for call to action. A CTA refers to the use of words or phrases that can compel an audience to act in a specific way.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-cta--text"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
     "Card": {
       "url": "/components/cards",
       "designLink": "https://ibm.ent.box.com/folder/95514001950?s=qqw0soczjpawvuh9j3x19fmcoqk1zsw7",
@@ -213,7 +196,7 @@
         "notAvailable": false
       }
     },
-    "Image": {
+    "Images": {
       "url": "/components/images",
       "designLink": "https://ibm.box.com/s/zaofzs8ssrfbkgker2lqxyvdnbpxvsly",
       "description": "The image component offers multiple options to best display imagery in the page.",
@@ -290,23 +273,6 @@
       "description": "Link list is used for multiple CTAs, with options for vertical and horizontal lists and varying CTA styling.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-link-list--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Link list section": {
-      "url": "/components/link-list-section",
-      "designLink": "https://ibm.box.com/s/mktywz4ujxo9yiiu371kgzbib93uc2po",
-      "description": "Link list section is used for multiple CTAs, with options for vertical and horizontal lists and varying CTA styling.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-link-list-section--default"
       },
       "webcomponents": {
         "stable": true,
@@ -481,69 +447,6 @@
         "notAvailable": false
       }
     },
-    "Card section images": {
-      "url": "/components/card-section#card-section-images",
-      "designLink": "https://ibm.box.com/s/u4acyo9oeqya8xidimxtidh8k8y08fza",
-      "description": "Card section images is a collection of card components with images that, together, occupy a full-width section with a left-column header.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-card-section-images--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Content block": {
-      "url": "/components/content-block",
-      "designLink": "https://ibm.box.com/s/uaq0ovswviefwbv7gd4jn13llvqb23f8",
-      "description": "Content block is a high-level layout component that acts as the main content unit used inside of a Content section to build web experiences on IBM dotcom. It encapsulates other content components (one or multiple content groups) and brings them together into a custom visual, which solves a specific problem for the user.",
-      "storybook": {
-        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-block--default",
-        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-content-block--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Content block": {
-      "url": "/components/content-block",
-      "designLink": "https://ibm.box.com/s/uaq0ovswviefwbv7gd4jn13llvqb23f8",
-      "description": "Content block is one of the main layout components that can be used to build web experiences on IBM.com. It includes a large heading, subheading, body copy and CTA, and can accept many child components to enable customization and flexibility.",
-      "storybook": {
-        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-block--default",
-        "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-content-block--default",
-        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-content-block--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
     "Content group": {
       "url": "/components/content-group",
       "designLink": "https://ibm.box.com/s/5n0sj6b3kkicnwimxmgnwb5owm46g8wz",
@@ -569,24 +472,6 @@
       "storybook": {
         "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-item--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-content-item--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Content item horizontal": {
-      "url": "/components/content-item-horizontal",
-      "designLink": "https://ibm.box.com/s/yiv7f37ktudwx1do7d9mp4bak17wl4dh",
-      "description": "Content item horizontal component displays information in a horizontal orientation.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-item-horizontal--default",
-        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-content-item-horizontal--default"
       },
       "webcomponents": {
         "stable": true,
@@ -634,30 +519,12 @@
         "notAvailable": false
       }
     },
-    "CTA block": {
+    "CTA block and section": {
       "url": "/components/cta-block-and-section",
       "designLink": "https://ibm.ent.box.com/folder/132927464120?s=1mbmay093kclwwjhuhmux0kqzptvpgj3",
       "description": "CTA block and section are used to communicate actions that users can take along with some information that is relevant to the actions.",
       "storybook": {
         "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-cta-block--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "CTA section": {
-      "url": "/components/cta-block-and-section",
-      "designLink": "https://ibm.box.com/s/yz1uixuxjf7lge5yvrup3yb3owj70071",
-      "description": "CTA section is used to communicate actions that users can take along with some information that is relevant to the actions.",
-      "storybook": {
-        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-cta-section--simple",
-        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-cta-section--simple"
       },
       "webcomponents": {
         "stable": true,
@@ -723,23 +590,6 @@
         "notAvailable": false
       }
     },
-    "Layout": {
-      "url": "/components/layout",
-      "designLink": false,
-      "description": "The layout component is to be utilized within IBM.com for various abstract layout configurations.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-layout--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
     "Lead space": {
       "url": "/components/leadspace",
       "designLink": "https://ibm.box.com/s/d9jey3rlfxqmxu059f0x9dtcx7f5ehuh",
@@ -794,24 +644,6 @@
         "notAvailable": false
       }
     },
-    "Logo grid": {
-      "url": "/components/logo-grid",
-      "designLink": "https://ibm.box.com/s/2c2dt2fivbmbcce29oul7hjaktjaqj26",
-      "description": "Logo grid is used to present a group of client or partner logos. Currently the logos are not clickable.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-logo-grid--default",
-        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-logo-grid--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
     "Table of contents": {
       "url": "/components/table-of-contents",
       "designLink": "https://ibm.box.com/s/yfuicifhfeaefp4rl0pp62dpeacr18ry",
@@ -819,24 +651,6 @@
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-table-of-contents--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-table-of-contents--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Tabs extended media": {
-      "url": "/components/tabs-extended#tabs-extended-media",
-      "designLink": "https://ibm.box.com/s/3sun8lo3gu2b4uaa4oxgpxrqit1m7t6i",
-      "description": "Use this component to interactively reveal related content, or as a gateway to pages with more details.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-tabs-extended-with-media--default",
-        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-tabs-extended-media--default"
       },
       "webcomponents": {
         "stable": true,
