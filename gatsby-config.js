@@ -3,7 +3,7 @@ require('dotenv').config({
 });
 
 module.exports = {
-  pathPrefix: process.env.PATH_PREFIX || '/',
+  pathPrefix: process.env.PATH_PREFIX || '/v1/',
   siteMetadata: {
     title: 'Carbon for IBM.com',
     description:
