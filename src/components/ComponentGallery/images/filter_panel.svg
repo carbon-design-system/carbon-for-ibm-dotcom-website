@@ -1,29 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="320px" height="320px" viewBox="0 0 320 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>filter_panel</title>
-    <g id="filter_panel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="Rectangle-Copy-29" fill="#F4F4F4" x="72" y="58" width="176" height="204"></rect>
-        <rect id="Rectangle-Copy-35" fill="#A8A8A8" x="88" y="96" width="104" height="8"></rect>
-        <rect id="Rectangle-Copy-37" fill="#A8A8A8" x="88" y="218" width="104" height="8"></rect>
-        <rect id="Rectangle-Copy-38" fill="#C6C6C6" x="88" y="114" width="84" height="8"></rect>
-        <rect id="Rectangle-Copy-40" fill="#A8A8A8" x="88" y="190" width="84" height="8"></rect>
-        <rect id="Rectangle-Copy-40" fill="#A8A8A8" x="88" y="68" width="84" height="8"></rect>
-        <rect id="Rectangle-Copy-41" fill="#C6C6C6" x="88" y="132" width="104" height="8"></rect>
-        <rect id="Rectangle-Copy-44" fill="#C6C6C6" x="88" y="150" width="84" height="8"></rect>
-        <g id="Group" transform="translate(220.000000, 94.000000)" fill="#000000">
-            <g id="Actions-/-Navigation-/-chevron--down-/-16" transform="translate(6.000000, 6.000000) scale(1, -1) translate(-6.000000, -6.000000) ">
-                <polygon id="Fill" points="6 8.25 2.25 4.5 2.775 3.975 6 7.2 9.225 3.975 9.75 4.5"></polygon>
-            </g>
-        </g>
-        <g id="Actions-/-Navigation-/-chevron--down-/-16" transform="translate(220.000000, 188.000000)" fill="#000000">
-            <polygon id="Fill" points="6 8.25 2.25 4.5 2.775 3.975 6 7.2 9.225 3.975 9.75 4.5"></polygon>
-        </g>
-        <g id="Actions-/-Navigation-/-chevron--down-/-16" transform="translate(220.000000, 216.000000)" fill="#000000">
-            <polygon id="Fill" points="6 8.25 2.25 4.5 2.775 3.975 6 7.2 9.225 3.975 9.75 4.5"></polygon>
-        </g>
-        <line x1="72" y1="86" x2="248" y2="86" id="Path-4-Copy-4" stroke="#A8A8A8"></line>
-        <line x1="72" y1="180" x2="248" y2="180" id="Path-4-Copy-5" stroke="#A8A8A8"></line>
-        <line x1="72" y1="208" x2="248" y2="208" id="Path-4-Copy-6" stroke="#A8A8A8"></line>
-        <line x1="72" y1="236" x2="248" y2="236" id="Path-4-Copy-7" stroke="#A8A8A8"></line>
-    </g>
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="100" y="95" width="113" height="130" fill="#F4F4F4" />
+  <rect x="110.273" y="197.961" width="64" height="3" fill="#8D8D8D" />
+  <rect x="110" y="131" width="64" height="3" fill="#A8A8A8" />
+  <rect x="110.273" y="180.118" width="64" height="3" fill="#8D8D8D" />
+  <rect x="110.273" y="142.157" width="64" height="3" fill="#A8A8A8" />
+  <rect x="110" y="154" width="64" height="3" fill="#A8A8A8" />
+  <path
+    d="M199.467 119.661L196.467 122.638L196.887 123.055L199.467 120.494L202.047 123.055L202.467 122.638L199.467 119.661Z"
+    fill="black" />
+  <path
+    d="M199.467 183.771L196.467 180.793L196.887 180.376L199.467 182.937L202.047 180.376L202.467 180.793L199.467 183.771Z"
+    fill="black" />
+  <path
+    d="M199.467 201.614L196.467 198.636L196.887 198.219L199.467 200.78L202.047 198.219L202.467 198.636L199.467 201.614Z"
+    fill="black" />
+  <path d="M100 112.843H213" stroke="#C6C6C6" />
+  <path d="M100 172.745H213" stroke="#C6C6C6" />
+  <path d="M100 190.588H213" stroke="#C6C6C6" />
+  <path d="M100 208.431H213" stroke="#C6C6C6" />
+  <rect x="110" y="103" width="64" height="3" fill="#8D8D8D" />
+  <rect x="110" y="119" width="64" height="3" fill="#8D8D8D" />
 </svg>

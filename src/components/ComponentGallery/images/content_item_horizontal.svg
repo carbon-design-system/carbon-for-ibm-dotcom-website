@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="320px" height="320px" viewBox="0 0 320 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>content_item_horizontal</title>
-    <g id="content_item_horizontal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group" transform="translate(57.000000, 141.000000)">
-            <rect id="Rectangle-Copy-64" fill="#78A9FF" x="83" y="34" width="24" height="4"></rect>
-            <rect id="Rectangle-Copy-65" fill="#78A9FF" x="117" y="34" width="24" height="4"></rect>
-            <rect id="Rectangle-Copy-66" fill="#A8A8A8" x="0" y="8" width="50" height="6"></rect>
-            <rect id="Rectangle-Copy-67" fill="#C6C6C6" x="83" y="0" width="124" height="4"></rect>
-            <rect id="Rectangle-Copy-68" fill="#C6C6C6" x="83" y="14" width="124" height="4"></rect>
-            <rect id="Rectangle-Copy-69" fill="#C6C6C6" x="83" y="7" width="117" height="4"></rect>
-            <rect id="Rectangle-Copy-70" fill="#C6C6C6" x="0" y="0" width="27" height="4"></rect>
-        </g>
-    </g>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="640px" height="360px" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g><path style="opacity:1" fill="#a7a8a7" d="M 110.5,100.5 C 249.833,100.5 389.167,100.5 528.5,100.5C 528.5,153.167 528.5,205.833 528.5,258.5C 389.167,258.5 249.833,258.5 110.5,258.5C 110.5,205.833 110.5,153.167 110.5,100.5 Z"/></g>
+<g><path style="opacity:1" fill="#fefffe" d="M 112.5,102.5 C 250.5,102.5 388.5,102.5 526.5,102.5C 526.5,153.833 526.5,205.167 526.5,256.5C 388.5,256.5 250.5,256.5 112.5,256.5C 112.5,205.167 112.5,153.833 112.5,102.5 Z"/></g>
+<g><path style="opacity:1" fill="#8c8d8c" d="M 221.5,133.5 C 242.833,133.5 264.167,133.5 285.5,133.5C 285.5,135.5 285.5,137.5 285.5,139.5C 264.167,139.5 242.833,139.5 221.5,139.5C 221.5,137.5 221.5,135.5 221.5,133.5 Z"/></g>
+<g><path style="opacity:1" fill="#a7a8a7" d="M 319.5,133.5 C 380.833,133.5 442.167,133.5 503.5,133.5C 503.5,134.5 503.5,135.5 503.5,136.5C 442.167,136.5 380.833,136.5 319.5,136.5C 319.5,135.5 319.5,134.5 319.5,133.5 Z"/></g>
+<g><path style="opacity:1" fill="#a7a8a7" d="M 319.5,140.5 C 380.833,140.5 442.167,140.5 503.5,140.5C 503.5,141.5 503.5,142.5 503.5,143.5C 442.167,143.5 380.833,143.5 319.5,143.5C 319.5,142.5 319.5,141.5 319.5,140.5 Z"/></g>
+<g><path style="opacity:1" fill="#8c8d8c" d="M 221.5,147.5 C 237.5,147.5 253.5,147.5 269.5,147.5C 269.5,149.5 269.5,151.5 269.5,153.5C 253.5,153.5 237.5,153.5 221.5,153.5C 221.5,151.5 221.5,149.5 221.5,147.5 Z"/></g>
+<g><path style="opacity:1" fill="#a7a8a7" d="M 319.5,147.5 C 380.833,147.5 442.167,147.5 503.5,147.5C 503.5,148.5 503.5,149.5 503.5,150.5C 442.167,150.5 380.833,150.5 319.5,150.5C 319.5,149.5 319.5,148.5 319.5,147.5 Z"/></g>
+<g><path style="opacity:1" fill="#a7a8a7" d="M 319.5,154.5 C 380.833,154.5 442.167,154.5 503.5,154.5C 503.5,155.5 503.5,156.5 503.5,157.5C 442.167,157.5 380.833,157.5 319.5,157.5C 319.5,156.5 319.5,155.5 319.5,154.5 Z"/></g>
+<g><path style="opacity:1" fill="#a7a8a7" d="M 319.5,161.5 C 380.833,161.5 442.167,161.5 503.5,161.5C 503.5,162.5 503.5,163.5 503.5,164.5C 442.167,164.5 380.833,164.5 319.5,164.5C 319.5,163.5 319.5,162.5 319.5,161.5 Z"/></g>
+<g><path style="opacity:1" fill="#a7a8a7" d="M 319.5,168.5 C 351.5,168.5 383.5,168.5 415.5,168.5C 415.5,169.5 415.5,170.5 415.5,171.5C 383.5,171.5 351.5,171.5 319.5,171.5C 319.5,170.5 319.5,169.5 319.5,168.5 Z"/></g>
+<g><path style="opacity:1" fill="#78a9ff" d="M 319.5,189.5 C 340.833,189.5 362.167,189.5 383.5,189.5C 383.5,190.5 383.5,191.5 383.5,192.5C 362.167,192.5 340.833,192.5 319.5,192.5C 319.5,191.5 319.5,190.5 319.5,189.5 Z"/></g>
 </svg>

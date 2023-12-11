@@ -13,73 +13,119 @@ import ComponentFeedback from 'components/ComponentFeedback';
 
 <AnchorLinks>
 
-<AnchorLink>Resources</AnchorLink>
 <AnchorLink>Overview</AnchorLink>
-<AnchorLink>Options</AnchorLink>
 <AnchorLink>Anatomy</AnchorLink>
+<AnchorLink>Modifiers</AnchorLink>
 <AnchorLink>Behaviors</AnchorLink>
+<AnchorLink>Resources</AnchorLink>
 <AnchorLink>Content guidance</AnchorLink>
+<AnchorLink>Related components</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
 
-<ResourceLinks name="Lead space search" type="layout" />
+<InlineNotification>
+
+**Note:** In v2, lead space search no longer supports a media background to ensure the space remains accessible across breakpoints. The adjacent theme modifier has also been simplified for implementation.
+
+</InlineNotification>
 
 ## Overview
 
-Lead space search includes a heading, a typeahead search field, an optional subheading, an optional paragraph, and an optional background image.
+Lead space search includes a heading, an optional subheading, and a Carbon [search](https://carbondesignsystem.com/components/search/usage/) field. This version of the lead space is especially useful when the page displays many options that a user could be interested in.
 
-Typeahead is a language prediction tool that provides suggestions for users as they type in the search field. It is also known as autocomplete, incremental search, or search-as-you-type.
+<Row>
 
-![A visual example of the Lead space search component](../../images/component/lead-space-search/lead-space-search-default.jpg)
+<Column colMd={6} colLg={8}>
+
+![A visual example of the Lead space search component](../../images/component/lead-space-search/lead-space-search-overview.png)
 
 <Caption>Example of the lead space search component</Caption>
 
-### Use case
+</Column>
 
-![A visual example of typeahead results being shown by the typehead search from within the lead space search compoonent](../../images/component/lead-space-search/lead-space-search-usecase.jpg)
-
-<Caption>
-  Example of lead space search, showing the typeahead feature. Typeahead
-  suggests results as the user types in the search field.
-</Caption>
+</Row>
 
 ### When to use
 
-The search box is one of the most frequently used design elements in a content-heavy web experience. To be effective, the search should be displayed prominently as it can be the fastest route to information discovery. Finding information quickly is essential for reducing bounce, extending the time users spend on the page, and can also motivate them to take action.
+The search field is one of the most frequently used design elements in a content-heavy web experience. To be effective, the search should be displayed at the top of the page content as it can be the fastest route to information discovery. Finding information quickly is essential for reducing bounce rate, extending the time users spend on the page, and can motivate them to take action.
 
-Use lead space search when you are displaying lists of multiple items and you need to provide an efficient way for users to find items inside the lists. Lead space search is an excellent choice for content-heavy pages and knowledge base experiences. It can be used together with the filter panel component for even greater discoverability.
+Use lead space search when the page displays multiple items and users need an efficient way to find items relevant to them. Lead space search is an excellent choice for content-heavy pages and knowledge base experiences. It can be used together with the [filter panel](../components/filter-panel) component for even greater discoverability.
 
 ### When not to use
 
-If you are not building a content-heavy page, a knowledge base experience, or if you do not need to display a great number of products or services, with categories and other classification criteria, you should consider using another lead space component such as lead space, lead space centered, or lead space block.
+If you are not building a content-heavy page, a knowledge base experience, or if you do not need to display a great number of products or services, with categories and other classification criteria, you should consider using another lead space component such as [lead space](../components/leadspace) or [lead space block](../components/lead-space-block).
 
-Lead space search has a contextual, local search, and is not used for global search. If you need a global search option, you can find it in the masthead.
+Lead space search has a contextual, local search, and is not used for global search. If you need a global search option, you can find it in the [masthead](../components/masthead/overview).
 
-## Options
+## Anatomy
 
-### With adjacent theme search
+<Row>
 
-Lead space search provides the option to wrap the search field and search field container into an adjacent theme. You can use the adjacent themes pairs White/Gray10, Gray10/White, Gray90/Gray100 and Gray100/Gray90.
+<Column colMd={8} colLg={8}>
 
-![A visual example of adjacent themes used in the lead space search compoonent](../../images/component/lead-space-search/lead-space-search-variant-adjacent-themes.jpg)
+![A visual example of the anatomy of the lead space search component](../../images/component/lead-space-search/lead-space-search-anatomy.png)
+
+<Caption>Anatomy of the lead space search component</Caption>
+
+</Column>
+
+</Row>
+
+1. **Heading:** Customizable heading for the lead space search component.
+2. **Subheading:** Optional supporting copy under the heading.
+3. **Search:** Search field component displayed prominently.
+
+## Modifiers
+
+### Adjacent theme
+
+Lead space search provides the option to display the heading and subheading container as one theme, and the search field as an adjacent theme. When enabled, the search field container will automatically adopt the adjacent theme which pairs with the theme in the heading and subheading container.
+
+This is useful when you wish to visually separate the two containers while more closely associating the search with the results visualized on the page.
+
+<Row>
+
+<Column colMd={6} colLg={8}>
+
+![A visual example of adjacent themes used in the lead space search component](../../images/component/lead-space-search/lead-space-search-modifier-adjacent-themes.png)
 
 <Caption>
   Examples of lead space search using adjacent themes. From top to bottom:
   White/Gray 10, Gray 10/White, Gray 90/Gray 100, and Gray 100/Gray 90.
 </Caption>
 
-## Anatomy
+</Column>
 
-![A visual example of the anatomy of the lead space search component](../../images/component/lead-space-search/lead-space-search-anatomy.jpg)
+</Row>
 
-<Caption>Anatomy of the lead space search component</Caption>
+### Heading highlight
 
-1. **Heading (required):** Customizable heading for the lead space search component.
-2. **Subheading (optional):** Emphasize the heading by adding a subheading under it.
-3. **Search (required):** Search field component displayed prominently.
-4. **Typeahead (required):** Carbon typeahead component that displays increasingly accurate suggestions for users as they type in the search field.
-5. **Background media (optional)**
+Like other lead spaces, lead space search's heading can be modified to highlight a word or phrase. This can be used to highlight product names, industries, or a particular value. The highlighted word or phrase can be anywhere in the heading, but it should only ever appear once in a single lead space. This only applies to the heading, and does not extend to any other lead space search element.
+
+Keep in mind that the highlight is meant to only apply to an important word or phrase. The highlight should not cover the entire heading, and should only highlight one word or phrase.
+
+<Row>
+
+<Column colMd={6} colLg={6}>
+
+![A lead space with the heading "Infuse your AIOPs platform with intelligent IT operations" with "intelligent IT operations" highlighted in blue](../../images/component/lead-space-search/lead-space-search-modifier-heading-highlight-01.png)
+
+<Caption>An example of a phrase highlighted at the end of the heading.</Caption>
+
+</Column>
+
+<Column colMd={6} colLg={6}>
+
+![A lead space with the heading "IBM Security Framing & Discovery Workshop" with "IBM Security" highlighted in blue](../../images/component/lead-space-search/lead-space-search-modifier-heading-highlight-02.png)
+
+<Caption>
+  An example of a phrase highlighted at the start of the heading.
+</Caption>
+
+</Column>
+
+</Row>
 
 ## Behaviors
 
@@ -87,55 +133,41 @@ Lead space search provides the option to wrap the search field and search field 
 
 Lead space search can scroll with the page, or it can be configured to adopt an optional sticky behavior for the search component and its container.
 
-The sticky behavior ensures that the search field is always present as the user scrolls down the page. The masthead is pushed out of view and a customized heading can appear in the sticky search container.
+The sticky behavior ensures that the search field is always present as the user scrolls down the page. The masthead is pushed out of view and a customized heading can appear in the sticky search container for additional context.
 
 Note that if the table of contents component is present, the lead space search sticky option will become inactive.
 
-### Desktop breakpoints (max, xlg, lg)
+### Desktop breakpoints
 
-The search component spans 10 columns of the 16 column grid with an overhang of 16px left and right.
-
-![A visual example of the sticky scrolling behavior of lead space search](../../images/component/lead-space-search/lead-space-search--behaviour-desktop.gif)
-
-<Caption>
-  Optional sticky scrolling behavior of the lead space search component
-</Caption>
+The search component spans 8 columns of the 16 column grid.
 
 #### Keyboard interaction
 
 Lead space search includes a `skip to main content` option for keyboard users so they can jump into the main content and/or search results.
 
-### Mobile breakpoints (md, sm)
+### Mobile breakpoints
 
-The search component spans 8 columns of the grid for the `md` breakpoint and 4 columns of the grid for the `sm` breakpoint.
+The search component spans 6 columns of the grid for the `md` breakpoint and 4 columns of the grid for the `sm` breakpoint.
 
-The component can scroll with the page, or adopt a sticky behaviour for the search container. There is no option to display a sticky heading because the search component takes the maximum number of columns.
+The component can scroll with the page, or adopt a sticky behaviour for the search container. Unlike desktop, there is no option to display a sticky heading along with the search component, because the search field takes up the maximum number of columns.
 
-<Row>
-
-<Column colMd={4} colLg={8}>
-
-![A visual example of the scrolling behavior of the lead space search component on mobile breakpoints](../../images/component/lead-space-search/lead-space-search--behaviour-mobile.gif)
-
-<Caption>
-  Optional sticky scrolling behavior of the lead space search component on small
-  breakpoint
-</Caption>
-
-</Column>
-
-</Row>
+<ResourceLinks name="Lead space search" type="layout" />
 
 ## Content guidance
 
 | Element                 | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes                                    |
 | ----------------------- | ------------ | -------- | --------- | ------------------------------------------- | ---------------------------------------- |
-| Parent navigation       | Option list  | No       | 1         | –                                           | Breadcrumbs or Tag group.                |
 | Heading                 | Text         | Yes      | 1         | 40 / 55                                     |                                          |
-| Sub-heading             | Text         | No       | 1         | 65 / 85                                     |                                          |
-| Copy                    | Text         | No       | 1         | 200 / 260                                   |                                          |
+| Sub-heading             | Text         | No       | 1         | 200 / 260                                   |                                          |
 | Search placeholder copy | Text         | Yes      | 1         | 40 / 55                                     | Longer phrases may be cut off on mobile. |
 
 For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
+
+## Related components
+
+| Component name                                                                       | Relationship                                                                                                          |
+| ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
+| [Lead space](https://www.ibm.com/standards/carbon/components/leadspace)              | Lead space orients the user and quickly informs them of page content.                                                 |
+| [Lead space block](https://www.ibm.com/standards/carbon/components/lead-space-block) | Lead space block is an alternative lead space component, enabling a more streamlined first site of viewer engagement. |
 
 <ComponentFooter name="Lead space search" type="layout" />

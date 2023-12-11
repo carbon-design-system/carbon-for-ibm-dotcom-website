@@ -1,6 +1,6 @@
 ---
 title: Carousel
-description: Carousel is a flexible component that allows users to explore a large amount of content within a limited viewing area.
+description: The carousel allows users to browse or explore multiple pieces of content within the same area of the page.
 ---
 
 import ComponentDescription from 'components/ComponentDescription';
@@ -11,21 +11,21 @@ import ResourceLinks from 'components/ResourceLinks';
 
 <AnchorLinks>
 
-<AnchorLink>Resources</AnchorLink>
 <AnchorLink>Overview</AnchorLink>
 <AnchorLink>Anatomy</AnchorLink>
+<AnchorLink>Usage guidance</AnchorLink>
+<AnchorLink>Behavior</AnchorLink>
+<AnchorLink>Resources</AnchorLink>
 <AnchorLink>Content guidance</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
 
-<ResourceLinks name="Carousel" type="ui" />
-
 ## Overview
 
 The carousel component can be used to display multiple pieces of content in a single viewing area. The carousel enables users to explore content at their own pace, advancing or returning to previously viewed content. Cards can be used inside the carousel to condense bite-sized content or act as a jumping off point to explore other pages.
 
-Carousel should display content consistently throughout the same carousel. For example, use all [Cards](https://www.ibm.com/standards/carbon/components/cards) with images in a particular carousel so that the content is consistent.
+Carousel should display content consistently throughout the same carousel. For example, use all [cards](https://www.ibm.com/standards/carbon/components/cards) with images in a particular carousel so that the content is consistent.
 
 <Row>
 <Column colMd={6} colLg={8}>
@@ -50,18 +50,54 @@ Carousel should display content consistently throughout the same carousel. For e
 3. **Carousel counter:** Displays the current view number and the total view number in this carousel. The total number may change based on the breakpoint being viewed.
 4. **Next icon button:** Advances the carousel to the next view, containing additional displayed content.
 
+## Usage guidance
+
+### When should I use a carousel?
+
+- Use when you have multiple related content frames but screen real estate is limited.
+- Use when you have exploratory content that isn’t necessary but helpful for the user.
+- Use when you want to tease the user with additional related content.
+
+### When should I not use a carousel?
+
+- Do not use when content frames are not related.
+- Do not use when users need to consume all carousel content – users are never required to advance the slides to see all content.
+
+### Content
+
+- Do not add content that is essential to a carousel. This includes navigational or wayfinding content links that would lead the user to a key resource.
+
+- Prioritize the most important content at the beginning of the carousel, so that it is visible without needing to advance the carousel view.
+
+- Carousel content should be simple and concise.
+
+- Common content used in carousels includes use cases, news articles, client testimonials, and quotes.
+
+- If you are using cards as your content, the recommended number of cards is a minimum of 5 cards and a maximum of 15 cards to avoid excessive clicking for the user.
+
+## Behavior
+
+Carousel does not have an auto-play or loop option -- the only way to move between pages is to interact directly with the pagination buttons.
+
+The reasoning for the lack of auto-advance options comes from accessibility standards,
+as per the [IBM accessibility site section 2.2.2](https://www.ibm.com/able/requirements/requirements/?version=7_2#2_2_2):
+"for moving, blinking, scrolling, or auto-updating information, the user can pause, stop or hide it, or control the update frequency."
+To meet this standard, the carousel view is only updated by direct user interaction.
+
+<ResourceLinks name="Carousel" type="ui" />
+
 ## Content guidance
 
-| Element         | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes                                                                              |
-| --------------- | ------------ | -------- | --------- | ------------------------------------------- | ---------------------------------------------------------------------------------- |
-| Child container | Component    | Yes      | 1         | –                                           | A container area that child components and other content types can be passed into. |
-| Pagination      | Component    | Yes      | 1         | –                                           | Includes numbering and arrow icon buttons.                                         |
+| Element                                                                   | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes                                                                              |
+| ------------------------------------------------------------------------- | ------------ | -------- | --------- | ------------------------------------------- | ---------------------------------------------------------------------------------- |
+| Child container                                                           | Component    | Yes      | 1         | –                                           | A container area that child components and other content types can be passed into. |
+| [Pagination](https://carbondesignsystem.com/components/pagination/usage/) | Component    | Yes      | 1         | –                                           | Includes numbering and arrow icon buttons.                                         |
 
 ## Related components
 
 | Component name                                                                                 | Description                                                                                                                |
 | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| [Card section carousel](https://www.ibm.com/standards/carbon/components/card-section-carousel) | Card section carousel adds a section header to a carousel featuring cards as the repeated component.                       |
+| [Content section](https://www.ibm.com/standards/carbon/components/content-section)             | Content section can accept a carousel as a child with the addition of a section header.                                    |
 | [Lightbox media viewer](https://www.ibm.com/standards/carbon/components/lightbox-media-viewer) | Lightbox media viewer can use a carousel to provide a way for users to view multiple pieces of media in a single lightbox. |
 
 <ComponentFooter name="Carousel" type="ui" />

@@ -1,6 +1,6 @@
 ---
 title: Dotcom shell
-description: The Dotcom shell component includes the Masthead, and Footer components, all wrapped in a UI shell using Carbon’s grid.
+description: The Dotcom shell component includes the masthead and footer components, all wrapped in a UI shell using Carbon’s grid.
 ---
 
 import ComponentDescription from 'components/ComponentDescription';
@@ -9,30 +9,59 @@ import ResourceLinks from 'components/ResourceLinks';
 
 <ComponentDescription name="Dotcom shell" type="ui" />
 
-<InlineNotification>
-
-**Note:** Additional usage guidelines are coming soon.
-
-</InlineNotification>
-
 <AnchorLinks>
 
-<AnchorLink>Resources</AnchorLink>
 <AnchorLink>Overview</AnchorLink>
+<AnchorLink>Modifiers</AnchorLink>
+<AnchorLink>Resources</AnchorLink>
+<AnchorLink>Content guidance</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
 
-<ResourceLinks name="Dotcom shell" type="ui" />
-
 ## Overview
 
-<Row>
-<Column colMd={8} colLg={12}>
+The dotcom shell automatically includes the [masthead](../components/masthead/overview) and [footer](../components/footer) components, which are wrapped in a shell that contains the Carbon Design System's [2x grid](https://carbondesignsystem.com/guidelines/2x-grid/overview/). This allows you to quickly get started building an IBM.com page with the required components and grid in place.
 
-![Dotcom shell](../../images/component/dotcom-shell/dotcomshell-overview.png)
+![Example of the dotcom shell with the masthead and footer](../../images/component/dotcom-shell/dotcom-shell-overview.png)
+
+<Caption>
+  Example of the dotcom shell with the masthead L0 and default footer.
+</Caption>
+
+## Modifiers
+
+### Configurations
+
+The dotcom shell can be configured with any variation of the masthead or footer components to fit the needs of your experience.
+
+<Row>
+<Column colSm={2} colMd={4} colLg={4}>
+
+#### Masthead
+
+- L0
+- L1
+- Search open on load
+- Etc
+
+</Column>
+<Column colSm={2} colMd={4} colLg={4}>
+
+#### Footer
+
+- Default
+- Short
+- Micro
+- Locale or language selector
 
 </Column>
 </Row>
+
+<ResourceLinks name="Dotcom shell" type="ui" />
+
+## Content guidance
+
+Please reference the [masthead](../components/masthead/overview) and [footer](../components/footer) guidance pages for content guidance for each component.
 
 <ComponentFooter name="Dotcom shell" type="ui" />
