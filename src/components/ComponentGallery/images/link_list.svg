@@ -1,39 +1,46 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="320px" height="320px" viewBox="0 0 320 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>link_list</title>
-    <defs>
-        <polygon id="path-1" points="5.0625 1.6875 4.6659375 2.0840625 6.7978125 4.21875 0.84375 4.21875 0.84375 4.78125 6.7978125 4.78125 4.6659375 6.9159375 5.0625 7.3125 7.875 4.5"></polygon>
-        <polygon id="path-3" points="5.0625 1.6875 4.6659375 2.0840625 6.7978125 4.21875 0.84375 4.21875 0.84375 4.78125 6.7978125 4.78125 4.6659375 6.9159375 5.0625 7.3125 7.875 4.5"></polygon>
-        <polygon id="path-5" points="5.0625 1.6875 4.6659375 2.0840625 6.7978125 4.21875 0.84375 4.21875 0.84375 4.78125 6.7978125 4.78125 4.6659375 6.9159375 5.0625 7.3125 7.875 4.5"></polygon>
-    </defs>
-    <g id="link_list" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group" transform="translate(92.000000, 87.000000)">
-            <rect id="Rectangle-Copy-64" fill="#78A9FF" x="7" y="22" width="24" height="4"></rect>
-            <rect id="Rectangle-Copy-65" fill="#78A9FF" x="6.93235937" y="66" width="24" height="4"></rect>
-            <rect id="Rectangle-Copy-67" fill="#78A9FF" x="6.93235937" y="110" width="24" height="4"></rect>
-            <rect id="Rectangle-Copy-59" fill="#C6C6C6" x="6.93235937" y="0" width="45" height="4"></rect>
-            <line x1="0" y1="13.7758025" x2="136" y2="13.7758025" id="Path-4-Copy-4" stroke="#C6C6C6"></line>
-            <line x1="0" y1="58" x2="136" y2="58" id="Path-4-Copy-5" stroke="#C6C6C6"></line>
-            <line x1="0" y1="102" x2="136" y2="102" id="Path-4-Copy-6" stroke="#C6C6C6"></line>
-            <line x1="0" y1="146" x2="136" y2="146" id="Path-4-Copy-7" stroke="#C6C6C6"></line>
-            <g transform="translate(7.000000, 44.000000)" id="icons/arrows/ibm-forward-link-copy-8">
-                <mask id="mask-2" fill="white">
-                    <use xlink:href="#path-1"></use>
-                </mask>
-                <use id="icon-color" fill="#0F62FE" xlink:href="#path-1"></use>
-            </g>
-            <g transform="translate(7.000000, 89.000000)" id="icons/arrows/ibm-forward-link-copy-8">
-                <mask id="mask-4" fill="white">
-                    <use xlink:href="#path-3"></use>
-                </mask>
-                <use id="icon-color" fill="#0F62FE" xlink:href="#path-3"></use>
-            </g>
-            <g transform="translate(7.000000, 132.000000)" id="icons/arrows/ibm-forward-link-copy-8">
-                <mask id="mask-6" fill="white">
-                    <use xlink:href="#path-5"></use>
-                </mask>
-                <use id="icon-color" fill="#0F62FE" xlink:href="#path-5"></use>
-            </g>
-        </g>
-    </g>
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="104" y="116" width="48" height="3" fill="#78A9FF" />
+  <rect x="104" y="152" width="48" height="3" fill="#78A9FF" />
+  <rect x="104" y="188" width="48" height="3" fill="#78A9FF" />
+  <rect x="104" y="123" width="29" height="3" fill="#78A9FF" />
+  <rect x="104" y="159" width="29" height="3" fill="#78A9FF" />
+  <rect x="104" y="195" width="29" height="3" fill="#78A9FF" />
+  <path d="M98 110H222" stroke="#8D8D8D" stroke-width="0.9" />
+  <path d="M98 146H222" stroke="#8D8D8D" stroke-width="0.9" />
+  <path d="M98 182H222" stroke="#8D8D8D" stroke-width="0.9" />
+  <path d="M98 218H222" stroke="#8D8D8D" stroke-width="0.9" />
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M214.625 132.875L214.184 133.316L216.553 135.688H209.938V136.312H216.553L214.184 138.684L214.625 139.125L217.75 136L214.625 132.875V132.875Z"
+    fill="#0F62FE" />
+  <mask id="mask0_0_4340" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="209" y="132"
+    width="9" height="8">
+    <path fill-rule="evenodd" clip-rule="evenodd"
+      d="M214.625 132.875L214.184 133.316L216.553 135.688H209.938V136.312H216.553L214.184 138.684L214.625 139.125L217.75 136L214.625 132.875V132.875Z"
+      fill="white" />
+  </mask>
+  <g mask="url(#mask0_0_4340)">
+</g>
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M214.625 168.875L214.184 169.316L216.553 171.688H209.938V172.312H216.553L214.184 174.684L214.625 175.125L217.75 172L214.625 168.875V168.875Z"
+    fill="#0F62FE" />
+  <mask id="mask1_0_4340" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="209" y="168"
+    width="9" height="8">
+    <path fill-rule="evenodd" clip-rule="evenodd"
+      d="M214.625 168.875L214.184 169.316L216.553 171.688H209.938V172.312H216.553L214.184 174.684L214.625 175.125L217.75 172L214.625 168.875V168.875Z"
+      fill="white" />
+  </mask>
+  <g mask="url(#mask1_0_4340)">
+</g>
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M214.625 204.875L214.184 205.316L216.553 207.688H209.938V208.312H216.553L214.184 210.684L214.625 211.125L217.75 208L214.625 204.875V204.875Z"
+    fill="#0F62FE" />
+  <mask id="mask2_0_4340" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="209" y="204"
+    width="9" height="8">
+    <path fill-rule="evenodd" clip-rule="evenodd"
+      d="M214.625 204.875L214.184 205.316L216.553 207.688H209.938V208.312H216.553L214.184 210.684L214.625 211.125L217.75 208L214.625 204.875V204.875Z"
+      fill="white" />
+  </mask>
+  <g mask="url(#mask2_0_4340)">
+</g>
+  <rect x="104" y="101" width="48" height="3" fill="#8D8D8D" />
 </svg>

@@ -16,42 +16,6 @@
         "deprecated": false,
         "underConstruction": false,
         "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "CTA": {
-      "url": "/components/cta",
-      "designLink": "https://ibm.box.com/s/unvd38oewwguycqoqg0et75eluiiqhg6",
-      "description": "CTA stands for call to action. A CTA refers to the use of words or phrases that can compel an audience to act in a specific way.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-cta--text",
-        "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-cta--button"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
       }
     },
     "Card": {
@@ -60,19 +24,9 @@
       "description": "Cards are considered “workhorse” components because of their versatility. They provide effective calls to action, and the various designs available work with a wide range of content.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-card--default",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-card--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-card--default"
       },
       "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
         "stable": true,
         "experimental": false,
         "new": false,
@@ -98,36 +52,17 @@
         "deprecated": false,
         "underConstruction": false,
         "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
       }
     },
     "Card link": {
       "url": "/components/cards#card-link",
       "designLink": "https://ibm.box.com/s/1u2m0fqdtrumog0ie2c4tfyyyn1clyj7",
-      "description": "Card link is a CTA styled like a card that acts as the main CTA for a section of content, it typically appears at the end of a block-pattern.",
+      "description": "Card link is a CTA styled like a card that acts as the main CTA for a section of content, it typically appears at the end of a block-pattern.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-card-link--default",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-card-link--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-card-link--default"
       },
       "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
         "stable": true,
         "experimental": false,
         "new": false,
@@ -140,21 +75,12 @@
     "Carousel": {
       "url": "/components/carousel/",
       "designLink": "https://ibm.box.com/s/hmni7qhero9mf5rn593zij0tcay8h9dw",
-      "description": "The carousel is an exploratory component, meaning it allows users to browse or explore multiple pieces of content within the same area of the page.",
+      "description": "The carousel allows users to browse or explore multiple pieces of content within the same area of the page.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-carousel--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-carousel--default"
       },
       "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
         "stable": true,
         "experimental": false,
         "new": false,
@@ -168,21 +94,11 @@
       "url": "/components/dotcom-shell",
       "designLink": false,
       "functionalLink": false,
-      "description": "Dotcom shell includes the <a href=\"./masthead\">Masthead</a>, and <a href=\"./footer\">Footer</a> components, all wrapped in a UI shell using Carbon's grid.",
+      "description": "Dotcom shell includes the masthead and footer components, all wrapped in a UI shell using the 2x grid.",
       "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-dotcom-shell--default",
-        "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-dotcom-shell--default"
+        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-dotcom-shell--default"
       },
       "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
         "stable": true,
         "experimental": false,
         "new": false,
@@ -198,19 +114,9 @@
       "description": "Expressive modal is based on the Carbon modal component with slight styling updates to increase the padding and uses fixed buttons.",
       "storybook": {
         "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-expressive-modal--default",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-expressive-modal--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-expressive-modal--default"
       },
       "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
         "stable": true,
         "experimental": false,
         "new": false,
@@ -226,19 +132,9 @@
       "description": "Feature card is used to emphasize a piece of information with a card on the right-hand side and an image on the left-hand side.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-feature-card--default",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-feature-card--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-feature-card--medium"
       },
       "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
         "stable": true,
         "experimental": false,
         "new": false,
@@ -264,35 +160,16 @@
         "deprecated": false,
         "underConstruction": false,
         "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
       }
     },
     "Footer": {
       "url": "/components/footer",
       "designLink": "https://ibm.box.com/s/nsbccv6jigfw78uwq3r0242qks1x1f87",
-      "description": "The Footer is required on all IBM.com pages, it is placed at the bottom of a page and acts as the catch-all section that helps users navigate and provides corporate level general and legal information.",
+      "description": "The footer is required on all IBM.com pages, and is placed at the bottom of a page. It acts as the catch-all section that helps users navigate and provides corporate level general and legal information.",
       "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-footer--default",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-footer--default"
+        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-footer--default"
       },
       "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": true,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
         "stable": true,
         "experimental": false,
         "new": false,
@@ -307,19 +184,9 @@
       "designLink": "https://ibm.box.com/s/ladjc15eyxg61c5wqbshggm3e4zgrnp5",
       "description": "The horizontal rule component is utilized for thematic breaks within the content.",
       "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-horizontal-rule--default",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-horizontal-rule--default"
+        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-horizontal-rule--default"
       },
       "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
         "stable": true,
         "experimental": false,
         "new": false,
@@ -329,25 +196,15 @@
         "notAvailable": false
       }
     },
-    "Image": {
+    "Images": {
       "url": "/components/images",
       "designLink": "https://ibm.box.com/s/zaofzs8ssrfbkgker2lqxyvdnbpxvsly",
-      "description": "The Image and the Image with caption components offer two ways to display imagery on the page.",
+      "description": "The image component offers multiple options to best display imagery in the page.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-image--default",
-        "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-image--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-image--default"
       },
       "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
         "stable": true,
         "experimental": false,
         "new": false,
@@ -362,47 +219,9 @@
       "designLink": "https://ibm.box.com/s/mclmewshqcme7g6gykepok78rm882a0j",
       "description": "The Image with caption component is used to embed images and has an optional caption. It can support images at 1x1, 2x1, 4x3 and 16x9 aspect ratios.",
       "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-image-with-caption--default",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-imagewithcaption--default"
+        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-image-with-caption--default"
       },
       "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Language selector": {
-      "url": "/components/language-selector",
-      "designLink": "https://ibm.box.com/s/nsbccv6jigfw78uwq3r0242qks1x1f87",
-      "functionalLink": false,
-      "description": "Language selector is for users to select their preferred language on a website. The content on the website will appear in the default language until the users reselect their preferred language then the page content will reload in the reselected language provided a translation is available.",
-      "storybook": {
-        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-footer--default-language-only",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-footer--default-language-only"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
         "stable": true,
         "experimental": false,
         "new": false,
@@ -429,15 +248,6 @@
         "deprecated": false,
         "underConstruction": false,
         "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
       }
     },
     "Lightbox media viewer": {
@@ -445,19 +255,9 @@
       "designLink": "https://ibm.box.com/s/mpeo1wy0jogkwxn68fahlg62q799ixox",
       "description": "Lightbox media viewer allows the user to view an image or video at a larger size within a modal.",
       "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-lightbox-media-viewer--default",
-        "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-lightbox-media-viewer--default"
+        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-lightbox-media-viewer--default"
       },
       "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
         "stable": true,
         "experimental": false,
         "new": false,
@@ -472,8 +272,7 @@
       "designLink": "https://ibm.box.com/s/dgnfrnpaqepbuyifa04aoc091v4cnz3d",
       "description": "Link list is used for multiple CTAs, with options for vertical and horizontal lists and varying CTA styling.",
       "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-link-list--default",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-link-list--default"
+        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-link-list--default"
       },
       "webcomponents": {
         "stable": true,
@@ -483,42 +282,6 @@
         "deprecated": false,
         "underConstruction": false,
         "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Link list section": {
-      "url": "/components/link-list-section",
-      "designLink": "https://ibm.box.com/s/mktywz4ujxo9yiiu371kgzbib93uc2po",
-      "description": "Link list section is used for multiple CTAs, with options for vertical and horizontal lists and varying CTA styling.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-link-list-section--default",
-        "react": ""
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": false,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": true,
-        "notAvailable": true
       }
     },
     "Link with icon": {
@@ -526,19 +289,9 @@
       "designLink": "https://ibm.box.com/s/i3jd6saoz0m851j2ohggrn452bnd51dm",
       "description": "Link with icon is primarily used as a navigational element with an icon as an indicator to the destination or type of content being referenced. Link with icon should not be used within a paragraph.",
       "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-link-with-icon--default",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-link-with-icon--default"
+        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-link-with-icon--default"
       },
       "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
         "stable": true,
         "experimental": false,
         "new": false,
@@ -553,19 +306,9 @@
       "designLink": "https://ibm.box.com/s/nwy0fyiw6mu3qwd3p882pnqmit93rfa5",
       "description": "Locale modal is triggered after selecting the locale button and allows users to change geographic regions and languages, if available.",
       "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-locale-modal--default",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-locale-modal--default"
+        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-locale-modal--default"
       },
       "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
         "stable": true,
         "experimental": false,
         "new": false,
@@ -576,24 +319,14 @@
       }
     },
     "Masthead": {
-      "url": "/components/masthead",
+      "url": "/components/masthead/overview",
       "designLink": "https://ibm.box.com/s/knez30xt6kao1amylebbvs97vkemhrbp",
-      "description": "Masthead is a fundamental navigational component for IBM.com that displays consistently at the top of each page. It also includes search and profile services for IBM.com.",
+      "description": "The masthead is the main navigation component that consistently displays at the top of each page, allowing users to move between areas of IBM.com. It includes global site navigation and utilities, as well as an option for additional ecosystem or section navigation.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-masthead--default",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-masthead--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-masthead--default"
       },
       "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
         "stable": true,
         "experimental": false,
         "new": false,
@@ -609,19 +342,9 @@
       "description": "Quote is used to highlight an impactful client statement or user testimonial.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-quote--default",
-        "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-quote--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-quote--default"
       },
       "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
         "stable": true,
         "experimental": false,
         "new": false,
@@ -634,7 +357,7 @@
     "Tabs extended": {
       "url": "/components/tabs-extended",
       "designLink": "https://ibm.box.com/s/26zrugvym00408zhpp23gqwnudzmgdd1",
-      "description": "Tabs extended combines tabs and accordion to organize editorial content.",
+      "description": "Tabs extended leverages the Carbon tab component with style updates to better organize editorial content.",
       "storybook": {
         "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-tabs-extended--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-tabs-extended--default"
@@ -647,116 +370,17 @@
         "deprecated": false,
         "underConstruction": false,
         "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Tags": {
-      "url": "/components/tags",
-      "description": "Tags help label and categorize content using keywords. Tag link enables a tag to be clickable and navigate users to related content.",
-      "storybook": {
-        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-tag-link--default",
-        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-tag-link--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Tag link": {
-      "url": "/components/tags#tag-link",
-      "designLink": "https://ibm.box.com/s/y5dx0hxzcsn6i6xv6i1vwlsec300gbm5",
-      "description": "Tag link enables a tag to be clickable and navigate users to related content.",
-      "storybook": {
-        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-tag-link--default",
-        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-tag-link--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Tag group": {
-      "url": "/components/tags#tag-group",
-      "designLink": "https://ibm.box.com/s/t2njzzny00mgy67cxj0r420nacvpvc83",
-      "description": "Tag link enables a tag to be clickable and navigate users to related content.",
-      "storybook": {
-        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-tag-group",
-        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-tag-group"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
       }
     },
     "Video": {
       "url": "/components/video",
       "designLink": "https://ibm.box.com/s/9q7rdj73m32hufcw1xwl1td6nr88rghm",
-      "description": "Video allows you to embed Kaltura videos from the media center in various ways throughout a page.",
+      "description": "Video allows you to embed videos from Media Center throughout a page, using the IBM standard video player, Kaltura.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-video-player--default",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-video-player--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-video-player--default"
       },
       "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
         "stable": true,
         "experimental": false,
         "new": false,
@@ -774,19 +398,9 @@
       "description": "Callout quote is a typographic layout that is used to highlight an impactful client statement or user testimonial.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-callout-quote--default",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-callout-quote--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-callout-quote--default"
       },
       "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
         "stable": true,
         "experimental": false,
         "new": false,
@@ -803,19 +417,9 @@
       "description": "Callout with media is used to feature a high value media asset such as a customer story.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-callout-with-media--default",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-callout-with-media--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-callout-with-media--default"
       },
       "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
         "stable": true,
         "experimental": false,
         "new": false,
@@ -831,266 +435,9 @@
       "description": "Card group arranges cards in a grid and offers useful features that are applied to the group as a whole.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-card-group--default",
-        "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-card-group--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-card-group--default"
       },
       "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Card section": {
-      "url": "/components/card-section",
-      "designLink": "https://ibm.box.com/s/6prfrgt7dftdg47ejy3q3m4x7h47kbmo",
-      "description": "Card section is a collection of cards presented in a full-width section with a left-column header that responds to the grid.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-card-section-simple--default",
-        "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-card-section-simple--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Card section carousel": {
-      "url": "/components/card-section-carousel/",
-      "designLink": "https://ibm.box.com/s/wyj5uboppri7nc3gn4v1f7ft80qc5eir",
-      "description": "Card section carousel is an exploratory component, meaning it allows users to browse or explore multiple pieces of content within the same area of the page.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-card-section-carousel--default",
-        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-card-section-carousel--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Card section images": {
-      "url": "/components/card-section#card-section-images",
-      "designLink": "https://ibm.box.com/s/u4acyo9oeqya8xidimxtidh8k8y08fza",
-      "description": "Card section images is a collection of card components with images that, together, occupy a full-width section with a left-column header.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-card-section-images--default",
-        "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-card-section-images--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Content block": {
-      "url": "/components/content-block",
-      "designLink": "https://ibm.box.com/s/uaq0ovswviefwbv7gd4jn13llvqb23f8",
-      "description": "Content block is a high-level layout component that acts as the main content unit used inside of a Content section to build web experiences on IBM dotcom. It encapsulates other content components (one or multiple content groups) and brings them together into a custom visual, which solves a specific problem for the user.",
-      "storybook": {
-        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-block--default",
-        "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-content-block--default",
-        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-content-block--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Content block cards": {
-      "url": "/components/content-block-cards",
-      "designLink": "https://ibm.box.com/s/9pweudf9ptucx8jxzgo3e2m5jpyke5qi",
-      "description": "Content block cards is used to present small self-contained pieces of information as cards.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-block-cards--default",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-content-block-cards--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Content block horizontal": {
-      "url": "/components/content-block-horizontal",
-      "designLink": "https://ibm.box.com/s/rv5kmm0a4d9ded74v6yfk8ad5id5ghmx",
-      "description": "Content block horizontal is used to highlight a group of more important pieces of content, such as products or solutions, with more visual weight.",
-      "storybook": {
-        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-block-horizontal--default",
-        "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-content-block-horizontal--default",
-        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-content-block-horizontal--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Content block media": {
-      "url": "/components/content-block-media",
-      "designLink": "https://ibm.box.com/s/9cu22l7vs1dpjy8g8yi3mtoswazqgq2r",
-      "description": "Content block media is used to present information with images in a group setting.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-block-media--default",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-content-block-media--default",
-        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-content-block-media--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Content block segmented": {
-      "url": "/components/content-block-segmented",
-      "designLink": "https://ibm.box.com/s/pkascpokk7ae4t3ixis98hmw4e5y1v56",
-      "description": "Content block segmented is a variation of Content block simple with the added ability to add subsections.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-block-segmented--default",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-content-block-segmented--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Content block simple": {
-      "url": "/components/content-block-simple",
-      "designLink": "https://ibm.box.com/s/511cy3utuof76on064vfzmv8dej5nc8c",
-      "description": "Content block simple is typically used for the introductory section on a page.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-block-simple--default",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-content-block-simple--default",
-        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-content-block-simple--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
         "stable": true,
         "experimental": false,
         "new": false,
@@ -1103,130 +450,12 @@
     "Content group": {
       "url": "/components/content-group",
       "designLink": "https://ibm.box.com/s/5n0sj6b3kkicnwimxmgnwb5owm46g8wz",
-      "description": "Content group acts as a content unit, and is used inside a Content section or a Content block. It can contain basic content components (one or multiple content items of the same kind), bringing them together into highly-customized solutions for the user.",
+      "description": "Content group acts as a content unit, and is used inside a content section or a content block. It can contain basic content components (one or multiple content items of the same kind), bringing them together into highly-customized solutions for the user.",
       "storybook": {
         "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-group--default",
-        "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-content-group--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-content-group--default"
       },
       "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Content group banner": {
-      "url": "/components/content-group-banner",
-      "designLink": "https://ibm.box.com/s/tqp7c0wm99ha0b7jrm0sqhq3whwdjv84",
-      "description": "Content group banner is designed as a subtle callout, intended for tangential information or announcements that are supplementary to the page's main focus.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-group-banner--default",
-        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-content-group-banner--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Content group cards": {
-      "url": "/components/content-group-cards",
-      "designLink": "https://ibm.box.com/s/5sfef66ow9ruw47qye5snhnxey0ioi6t",
-      "description": "Content group cards is used to present information through a group of cards with each acting as a call to action that drives to additional or supporting destinations. It is suitable for adding concise buckets of content and links to a long-form reading experience.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-group-cards--default",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-content-group-cards--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Content group pictograms": {
-      "url": "/components/content-group-pictograms",
-      "designLink": "https://ibm.box.com/s/af11r4k5fv1wclv1yrl9aic5c68x29ra",
-      "description": "Content group pictograms is used to present a group of information, each with a supporting pictogram.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-group-pictograms--default",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-content-group-pictograms--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Content group simple": {
-      "url": "/components/content-group-simple",
-      "designLink": "https://ibm.box.com/s/bkqyb6nzix46vfsy8b0cyg79c3fs0lac",
-      "description": "Content group simple is an alternative form of a narrative layout where the content is broken up into smaller pieces to make it more digestible.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-group-simple--default",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-content-group-simple--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
         "stable": true,
         "experimental": false,
         "new": false,
@@ -1242,7 +471,6 @@
       "description": "The Content item is a basic-level content component that acts as a primary content unit, and it is used inside a Content group to build web experiences on IBM dotcom pages. It can encapsulate basic content (a heading, a description, a media element – image or video – and a CTA) and brings them all together into a content component which solves a specific problem for the user.",
       "storybook": {
         "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-item--default",
-        "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-content-item--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-content-item--default"
       },
       "webcomponents": {
@@ -1253,36 +481,17 @@
         "deprecated": false,
         "underConstruction": false,
         "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
       }
     },
-    "Content item horizontal": {
-      "url": "/components/content-item-horizontal",
+    "Content item row": {
+      "url": "/components/content-item-row",
       "designLink": "https://ibm.box.com/s/yiv7f37ktudwx1do7d9mp4bak17wl4dh",
-      "description": "Content item horizontal component displays information in a horizontal orientation.",
+      "description": "Content item row component displays information in a horizontal orientation.",
       "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-item-horizontal--default",
-        "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-content-item-horizontal--default",
-        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-content-item-horizontal--default"
+        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-item-row--default",
+        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-content-item-row--default"
       },
       "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
         "stable": true,
         "experimental": false,
         "new": false,
@@ -1295,10 +504,9 @@
     "Content section": {
       "url": "/components/content-section",
       "designLink": "https://ibm.box.com/s/oqlsa6m0vfownbn1s2y682mnugsf6cuv",
-      "description": "Content section is a high-level content component that acts as the main content unit to build web page experiences for IBM.com. It encapsulates other content components (one or multiple Content blocks and/or Content groups) and brings them together, providing flexibility to create many different solutions for users.",
+      "description": "Content section is the main layout component used to to build web experiences on IBM.com. It encapsulates two types of headings and can accept many child components to enable maximum customization and flexibility.",
       "storybook": {
         "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-content-section--default",
-        "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-content-section--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-content-section--default"
       },
       "webcomponents": {
@@ -1309,62 +517,16 @@
         "deprecated": false,
         "underConstruction": false,
         "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
       }
     },
-    "CTA block": {
+    "CTA block and section": {
       "url": "/components/cta-block-and-section",
       "designLink": "https://ibm.ent.box.com/folder/132927464120?s=1mbmay093kclwwjhuhmux0kqzptvpgj3",
       "description": "CTA block and section are used to communicate actions that users can take along with some information that is relevant to the actions.",
       "storybook": {
-        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-cta-block--default",
-        "react": ""
+        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-cta-block--default"
       },
       "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "CTA section": {
-      "url": "/components/cta-block-and-section",
-      "designLink": "https://ibm.box.com/s/yz1uixuxjf7lge5yvrup3yb3owj70071",
-      "description": "CTA section is used to communicate actions that users can take along with some information that is relevant to the actions.",
-      "storybook": {
-        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-cta-section--simple",
-        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-cta-section--simple"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
         "stable": true,
         "experimental": false,
         "new": false,
@@ -1390,24 +552,15 @@
         "deprecated": false,
         "underConstruction": false,
         "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
       }
     },
-    "Layout": {
-      "url": "/components/layout",
-      "designLink": false,
-      "description": "The layout component is to be utilized within IBM.com for various abstract layout configurations.",
+    "Global banner": {
+      "url": "/components/global-banner",
+      "designLink": "https://ibm.box.com/s/fas5qv5zrscudr63y85g28v0k657p83u",
+      "description": "Global banner is used exclusively to feature global and critical announcements. It is the only component that can be positioned above the masthead.",
       "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-layout--default",
-        "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-layout--default"
+        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-global-banner--default",
+        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-global-banner--default"
       },
       "webcomponents": {
         "stable": true,
@@ -1417,8 +570,17 @@
         "deprecated": false,
         "underConstruction": false,
         "notAvailable": false
+      }
+    },
+    "In page banner": {
+      "url": "/components/in-page-banner",
+      "designLink": "https://ibm.box.com/s/tqp7c0wm99ha0b7jrm0sqhq3whwdjv84",
+      "description": "In page banner is designed as a subtle callout, intended for tangential information or announcements that are supplementary to the page's main focus.",
+      "storybook": {
+        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-in-page-banner--default",
+        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-in-page-banner--default"
       },
-      "react": {
+      "webcomponents": {
         "stable": true,
         "experimental": false,
         "new": false,
@@ -1431,22 +593,12 @@
     "Lead space": {
       "url": "/components/leadspace",
       "designLink": "https://ibm.box.com/s/d9jey3rlfxqmxu059f0x9dtcx7f5ehuh",
-      "description": "Lead space sets the context and also helps users understand what type of content they are going to find on the page. It is always positioned at the top.",
+      "description": "Lead space sets the context of the page and helps users understand what type of content they are going to find. It is always positioned at the top of the page.",
       "storybook": {
         "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-lead-space--super",
-        "react": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-leadspace--tall",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-leadspace--tall"
       },
       "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
         "stable": true,
         "experimental": false,
         "new": false,
@@ -1459,22 +611,12 @@
     "Lead space block": {
       "url": "/components/lead-space-block",
       "designLink": "https://ibm.box.com/s/kisml8o6mgrexlvqaa3cv20z1e32sbli",
-      "description": "Lead space block is an alternative to the Lead space, enabling a more streamlined introduction to the page. Lead space block is positioned at the top of a web page to orient the user when they land on a page, inform them of the content, and guide them to the first key piece of content on the page.",
+      "description": "Lead space block is an alternative to the Lead space, enabling a more streamlined first view of the page.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-lead-space-block--default",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-lead-space-block--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-lead-space-block--default"
       },
       "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
         "stable": true,
         "experimental": false,
         "new": false,
@@ -1500,71 +642,6 @@
         "deprecated": false,
         "underConstruction": false,
         "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Logo grid": {
-      "url": "/components/logo-grid",
-      "designLink": "https://ibm.box.com/s/2c2dt2fivbmbcce29oul7hjaktjaqj26",
-      "description": "Logo grid is used to present a group of client or partner logos. Currently the logos are not clickable.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-logo-grid--default",
-        "react": "http://www.ibm.com/standards/carbon/react/?path=/story/components-logo-grid--default",
-        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-logo-grid--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Pictogram item": {
-      "url": "/components/pictogram-item",
-      "designLink": "https://ibm.box.com/s/kjio8inhxhkmf7245l2wccp8zsivka9l",
-      "description": "Pictogram item is used to communicate messages at a glance, afford interactivity, and simplify complex ideas.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-pictogram-item--default",
-        "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-pictogram-item--default",
-        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-pictogram-item--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
       }
     },
     "Table of contents": {
@@ -1573,73 +650,9 @@
       "description": "The table of contents component allows users to quickly navigate through long pages by providing jump links to different sections of the content within a single page.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-table-of-contents--default",
-        "react": "https://www.ibm.com/standards/carbon/react/?path=/story/components-table-of-contents--default",
         "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-table-of-contents--default"
       },
       "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Tabs extended media": {
-      "url": "/components/tabs-extended#tabs-extended-media",
-      "designLink": "https://ibm.box.com/s/3sun8lo3gu2b4uaa4oxgpxrqit1m7t6i",
-      "description": "Use this component to interactively reveal related content, or as a gateway to pages with more details.",
-      "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-tabs-extended-with-media--default",
-        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-tabs-extended-media--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      }
-    },
-    "Universal banner": {
-      "url": "/components/universal-banner",
-      "designLink": "https://ibm.box.com/s/fas5qv5zrscudr63y85g28v0k657p83u",
-      "description": "Universal banner is used exclusively to feature global and critical announcements. It is the only component that can be positioned above the masthead.",
-      "storybook": {
-        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-universal-banner--default",
-        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-universal-banner--default"
-      },
-      "webcomponents": {
-        "stable": true,
-        "experimental": false,
-        "new": false,
-        "updated": false,
-        "deprecated": false,
-        "underConstruction": false,
-        "notAvailable": false
-      },
-      "react": {
         "stable": true,
         "experimental": false,
         "new": false,
