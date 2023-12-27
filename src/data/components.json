@@ -96,7 +96,8 @@
       "functionalLink": false,
       "description": "Dotcom shell includes the masthead and footer components, all wrapped in a UI shell using the 2x grid.",
       "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-dotcom-shell--default"
+        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-dotcom-shell--default",
+        "reactwrapper": "http://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-dotcom-shell--default"
       },
       "webcomponents": {
         "stable": true,
@@ -167,7 +168,8 @@
       "designLink": "https://ibm.box.com/s/nsbccv6jigfw78uwq3r0242qks1x1f87",
       "description": "The footer is required on all IBM.com pages, and is placed at the bottom of a page. It acts as the catch-all section that helps users navigate and provides corporate level general and legal information.",
       "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-footer--default"
+        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-footer--default",
+        "reactwrapper": "http://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-footer--default"
       },
       "webcomponents": {
         "stable": true,
@@ -184,7 +186,8 @@
       "designLink": "https://ibm.box.com/s/ladjc15eyxg61c5wqbshggm3e4zgrnp5",
       "description": "The horizontal rule component is utilized for thematic breaks within the content.",
       "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-horizontal-rule--default"
+        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-horizontal-rule--default",
+        "reactwrapper": "http://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-horizontal-rule--default"
       },
       "webcomponents": {
         "stable": true,
@@ -255,7 +258,8 @@
       "designLink": "https://ibm.box.com/s/mpeo1wy0jogkwxn68fahlg62q799ixox",
       "description": "Lightbox media viewer allows the user to view an image or video at a larger size within a modal.",
       "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-lightbox-media-viewer--default"
+        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-lightbox-media-viewer--default",
+        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-lightbox-media-viewer--default"
       },
       "webcomponents": {
         "stable": true,
@@ -272,7 +276,8 @@
       "designLink": "https://ibm.box.com/s/dgnfrnpaqepbuyifa04aoc091v4cnz3d",
       "description": "Link list is used for multiple CTAs, with options for vertical and horizontal lists and varying CTA styling.",
       "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-link-list--default"
+        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-link-list--default",
+        "reactwrapper": "http://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-link-list--default"
       },
       "webcomponents": {
         "stable": true,
@@ -306,7 +311,8 @@
       "designLink": "https://ibm.box.com/s/nwy0fyiw6mu3qwd3p882pnqmit93rfa5",
       "description": "Locale modal is triggered after selecting the locale button and allows users to change geographic regions and languages, if available.",
       "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-locale-modal--default"
+        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-locale-modal--default",
+        "reactwrapper": "http://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-locale-modal--default"
       },
       "webcomponents": {
         "stable": true,
@@ -524,7 +530,8 @@
       "designLink": "https://ibm.ent.box.com/folder/132927464120?s=1mbmay093kclwwjhuhmux0kqzptvpgj3",
       "description": "CTA block and section are used to communicate actions that users can take along with some information that is relevant to the actions.",
       "storybook": {
-        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-cta-block--default"
+        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-cta-block--default",
+        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-cta-block--default"
       },
       "webcomponents": {
         "stable": true,
