@@ -4,6 +4,8 @@
       path: /about-carbon-for-ibm.com/about
     - title: Adopting the system
       path: /about-carbon-for-ibm.com/adopting
+    - title: Releases
+      path: /about-carbon-for-ibm.com/releases
 
 - title: What’s happening
   pages:
@@ -13,10 +15,10 @@
   pages:
     - title: Get started
       path: /designing
-    - title: Sketch kit
-      path: /designing/sketch-kit
-    - title: Figma kit
-      path: /designing/figma-kit
+    - title: Design kit
+      path: /designing/design-kit
+    - title: Other resources
+      path: /designing/other-resources
 
 - title: Developing
   pages:
@@ -30,20 +32,20 @@
       path: /developing/building-for-ibm-dotcom
     - title: Carbon CDN style helpers
       path: /developing/carbon-cdn-style-helpers
-    - title: Web Components tutorial
-      path: /developing/web-components-tutorial/overview
+    # - title: Web Components tutorial
+    #   path: /developing/web-components-tutorial/overview
 
-- title: Contributing
-  pages:
-    - title: Overview
-      path: /contributing/overview
-    - title: Documentation
-      path: /contributions/documentation
-    - title: Components
-      path: /contributing/components
-    - title: Patterns
-      path: /contributing/patterns
-  hasDivider: true
+# - title: Contributing
+#   pages:
+#     - title: Overview
+#       path: /contributing/overview
+#     - title: Documentation
+#       path: /contributions/documentation
+#     - title: Components
+#       path: /contributing/components
+#     - title: Patterns
+#       path: /contributing/patterns
+#   hasDivider: true
 
 - title: Guidelines
   pages:
@@ -74,42 +76,16 @@
       path: /components/cards
     - title: Card group
       path: /components/card-group
-    - title: Card section
-      path: /components/card-section
-    - title: Card section carousel
-      path: /components/card-section-carousel
     - title: Carousel
       path: /components/carousel
-    - title: Content block
-      path: /components/content-block
-    - title: Content block cards
-      path: /components/content-block-cards
-    - title: Content block horizontal
-      path: /components/content-block-horizontal
-    - title: Content block media
-      path: /components/content-block-media
-    - title: Content block segmented
-      path: /components/content-block-segmented
-    - title: Content block simple
-      path: /components/content-block-simple
     - title: Content group
       path: /components/content-group
-    - title: Content group banner
-      path: /components/content-group-banner
-    - title: Content group cards
-      path: /components/content-group-cards
-    - title: Content group pictograms
-      path: /components/content-group-pictograms
-    - title: Content group simple
-      path: /components/content-group-simple
     - title: Content item
       path: /components/content-item
-    - title: Content item horizontal
-      path: /components/content-item-horizontal
+    - title: Content item row
+      path: /components/content-item-row
     - title: Content section
       path: /components/content-section
-    - title: CTA
-      path: /components/cta
     - title: CTA block & section
       path: /components/cta-block-and-section
     - title: Dotcom shell
@@ -122,14 +98,14 @@
       path: /components/filter-panel
     - title: Footer
       path: /components/footer
+    - title: Global banner
+      path: /components/global-banner
     - title: Horizontal rule
       path: /components/horizontal-rule
     - title: Images
       path: /components/images
-    - title: Language selector
-      path: /components/language-selector
-    - title: Layout
-      path: /components/layout
+    - title: In page banner
+      path: /components/in-page-banner
     - title: Lead space
       path: /components/leadspace
     - title: Lead space block
@@ -142,47 +118,35 @@
       path: /components/lightbox-media-viewer
     - title: Link list
       path: /components/link-list
-    - title: Link list section
-      path: /components/link-list-section
     - title: Link with icon
       path: /components/link-with-icon
     - title: Locale modal
       path: /components/localemodal
-    - title: Logo grid
-      path: /components/logo-grid
+    # - title: Logo grid
+    #   path: /components/logo-grid
     - title: Masthead
-      path: /components/masthead
-    - title: Pictogram item
-      path: /components/pictogram-item
+      path: /components/masthead/overview
     - title: Quote
       path: /components/quote
     - title: Table of contents
       path: /components/table-of-contents
     - title: Tabs extended
       path: /components/tabs-extended
-    - title: Tags
-      path: /components/tags
-    - title: Universal banner
-      path: /components/universal-banner
     - title: Video
       path: /components/video
 
-- title: Patterns
-  pages:
-    - title: Overview
-      path: /patterns
-    - title: Call-to-action
-      path: /patterns/call-to-action
-    - title: Cards
-      path: /patterns/cards
-    - title: In-page navigation
-      path: /patterns/in-page-navigation
-    - title: Lead space
-      path: /patterns/lead-space
-
-- title: Resources
-  pages:
-    - path: /resources
+# - title: Patterns
+#   pages:
+#     - title: Overview
+#       path: /patterns
+#     - title: Call-to-action
+#       path: /patterns/call-to-action
+#     - title: Cards
+#       path: /patterns/cards
+#     - title: In-page navigation
+#       path: /patterns/in-page-navigation
+#     - title: Lead space
+#       path: /patterns/lead-space
 
 - title: Help
   pages:

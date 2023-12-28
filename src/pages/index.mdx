@@ -1,4 +1,6 @@
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
+import { Integration, Network } from '@carbon/pictograms-react';
+import Carbon from '../components/Homepage/CarbonLogo';
 
 export default HomepageTemplate;
 
@@ -7,46 +9,48 @@ export default HomepageTemplate;
 <Row className="resource-card-group feature-card-group">
 <Column colMd={4} colLg={4} noGutterSm>
     <ImageCard
-      title="Designing"
+      title="Design"
       aspectRatio="1:1"
       href="/designing"
-      actionIcon="arrowRight"
-      titleColor="light"
-      subTitleColor="light"
-      >
-
-![Designing Image](../images/homepage/resource_card_getstarted_designing.png)
-
-  </ImageCard>
-</Column>
-
-<Column colMd={4} colLg={4} noGutterSm>
-    <ImageCard
-      title="Developing"
-      aspectRatio="1:1"
-      href="/developing"
-      actionIcon="arrowRight"
-      titleColor="light"
-      subTitleColor="light"
-      >
-
-![Developing Image](../images/homepage/resource_card_getstarted_developing.png)
-
-  </ImageCard>
-</Column>
-
-<Column colMd={4} colLg={4} noGutterSm>
-    <ImageCard
-      title="Contributing"
-      aspectRatio="1:1"
-      href="/contributing/overview"
       actionIcon="arrowRight"
       titleColor="dark"
       subTitleColor="dark"
       iconColor="dark"
       >
 
-![Developing Image](../images/homepage/resource_card_getstarted_contributing.png)
+![Designing image](../images/homepage/design.png)
+
+  </ImageCard>
+</Column>
+
+<Column colMd={4} colLg={4} noGutterSm>
+    <ImageCard
+      title="Develop"
+      aspectRatio="1:1"
+      href="/developing"
+      actionIcon="arrowRight"
+      titleColor="dark"
+      subTitleColor="dark"
+      iconColor="dark"
+      >
+
+![Developing image](../images/homepage/develop.png)
+
+  </ImageCard>
+</Column>
+
+<Column colMd={4} colLg={4} noGutterSm>
+    <ImageCard
+      title="Migration guide"
+      aspectRatio="1:1"
+      href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom/blob/release/v2.0.0/docs/dotcom-v2-migration.md"
+      actionIcon="launch"
+      titleColor="dark"
+      subTitleColor="dark"
+      iconColor="dark"
+      >
+
+![Migration image](../images/homepage/migration.png)
 
   </ImageCard>
 </Column>
@@ -54,110 +58,88 @@ export default HomepageTemplate;
 
 ## The Foundations
 
-Carbon for IBM.com is built on strong foundations. Learn how the IBM Web Standards,
-the Carbon Design System, and the IBM Design Language define what's
-possible for your page implementations.
+Carbon for IBM.com is built with foundations from IBM Design Language and Carbon Design System, while also following IBM Web Standards. This is how we maintain alignment, consistency, compliance, and efficiency across IBM digital experiences.
 
-<FeatureCard
-    color="dark"
-    href="https://www.ibm.com/standards/web/"
-    title="IBM Web Standards"
-    actionIcon="arrowRight"
-    className="homepage-feature"
-    >
-
-<ArtDirection>
-
-![Get started for designers](../images/homepage/feature_card_web_standards.png)
-
-![Get started for designers](../images/homepage/feature_card_web_standards.png)
-
-![Get started for designers](../images/homepage/feature_card_web_standards.png)
-
-</ArtDirection>
-
-</FeatureCard>
-
-<Row className="resource-card-group">
-  <Column colMd={4} colLg={4} noGutterSm>
-    <ResourceCard
-      color="dark"
-      title="Carbon Design System"
-      actionIcon="launch"
-      target="_blank"
-      href="https://carbondesignsystem.com/"
-      >
-
-![Sketch](../images/icon/carbon-color-inverse-icon.svg)
-
-</ResourceCard>
-  </Column>
-<Column colLg={4} colMd={4} noGutterSm>
-  <ResourceCard
-    color="dark"
+<Row className="square-card-group">
+  <SquareCard
     title="IBM Design Language"
-    actionIcon="launch"
-    target="_blank"
-    href="https://ibm.com/design/language"
+    smallTitle
+    bodyText="Essential assets and guidance  used to express our brand in any IBM experience we design."
+    href="https://www.ibm.com/design/language/"
     >
+    <Integration style={{ color: '#8a3ffc'}} aria-label="Integration" className="my-custom-class" />
+  </SquareCard>
 
-![Sketch icon](../images/icon/bee-inverse-icon.svg)
+<SquareCard
+  title="Carbon Design System"
+  smallTitle
+  bodyText="Elements packages and core components used as the basis for Carbon for IBM.com."
+  href="https://carbondesignsystem.com/"
+>
+  <Carbon
+    style={{ color: '#0f62fe' }}
+    aria-label="Carbon"
+    className="my-custom-class"
+  />
+</SquareCard>
 
-</ResourceCard>
-  </Column>
+<SquareCard
+  title="IBM Web Standards"
+  smallTitle
+  bodyText="Necessary guidance ensuring legal and technical compliance and design excellence. (IBM ID required)"
+  href="https://www.ibm.com/standards/web/"
+>
+  <Network
+    style={{ color: '#007d79' }}
+    aria-label="Network"
+    className="my-custom-class"
+  />
+</SquareCard>
+
 </Row>
 
 ## Resources
 
 <Row className="resource-card-group">
   <Column colMd={4} colLg={4} noGutterSm>
-    <ResourceCard
-      color="dark"
-      title="Sketch kits"
-      actionIcon="arrowRight"
-      href="/designing/sketch-kit"
-      >
-
-![Sketch](../images/icon/sketch-symbol.svg)
-
-</ResourceCard>
-  </Column>
-<Column colLg={4} colMd={4} noGutterSm>
-  <ResourceCard
-    color="dark"
-    title="Figma kit"
-    actionIcon="arrowRight"
-    href="/designing/figma-kit"
-    >
-
-![Sketch icon](../images/icon/figma.svg)
-
-</ResourceCard>
-  </Column>
-  <Column colMd={4} colLg={4} noGutterSm>
    <ResourceCard
-       color="dark"
-       title="Web components Storybook"
+       subTitle="Storybook"
+       title="Web Components"
+       actionIcon="launch"
        target="_blank"
        href="https://www.ibm.com/standards/carbon/web-components/"
        >
 
-![GitHub icon](../images/icon/storybook.svg)
+![Storybook icon](../images/icon/web-components-icon.svg)
 
 </ResourceCard>
   </Column>
 <Column colLg={4} colMd={4} noGutterSm>
   <ResourceCard
-    color="dark"
-    title="React components Storybook"
+    subTitle="Storybook"
+    title="Web Components: React Wrappers"
+    actionIcon="launch"
     target="_blank"
-    href="https://www.ibm.com/standards/carbon/react/"
+    href="https://www.ibm.com/standards/carbon/web-components/react/"
     >
 
-![React icon](../images/icon/storybook.svg)
+![Storybook icon](../images/icon/react-icon.svg)
 
   </ResourceCard>
 </Column>
+
+<Column colLg={4} colMd={4} noGutterSm>
+  <ResourceCard
+    subTitle="Figma"
+    title="Design kit"
+    actionIcon="arrowRight"
+    href="/designing/design-kit"
+    >
+
+![Figma icon](../images/icon/figma.svg)
+
+</ResourceCard>
+  </Column>
 </Row>
 
 ## Latest news and articles
@@ -168,7 +150,6 @@ possible for your page implementations.
       title="Carbon Web Components V2: Full Release"
       author="Ariella Gilmore"
       date="Aug 17, 2023"
-      color="dark"
       href="https://medium.com/carbondesign/carbon-web-components-v2-full-release-40fc25c73bef"
       actionIcon="arrowRight">
 
@@ -182,7 +163,6 @@ possible for your page implementations.
       title="Release Candidate: Carbon Web Components v2"
       author="Ariella Gilmore"
       date="Jun 27, 2023"
-      color="dark"
       href="https://medium.com/carbondesign/carbon-web-components-v2-release-candidate-2f3acb940406"
       actionIcon="arrowRight">
 
@@ -196,7 +176,6 @@ possible for your page implementations.
       title="Introducing: Carbon Web Components v2"
       author="Ariella Gilmore"
       date="Mar 30, 2023"
-      color="dark"
       href="https://medium.com/carbondesign/introducing-carbon-web-components-v2-bfc5fc8d58d9"
       actionIcon="arrowRight">
 
@@ -209,30 +188,29 @@ possible for your page implementations.
 ## Community
 
 Our design system is as strong as the community we serve. Connect with us, use our resources,
-contribute back. Let's work together to build great experiences!
+and contribute back. Let's work together to build great experiences!
 
 <Row className="resource-card-group">
+<Column colLg={4} colMd={4} noGutterSm>
+  <ResourceCard
+    title="GitHub"
+    actionIcon="launch"
+    href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom"
+    >
+
+![GitHub icon](../images/icon/github-icon.svg)
+
+</ResourceCard>
+  </Column>
+
   <Column colMd={4} colLg={4} noGutterSm>
     <ResourceCard
-      color="dark"
       title="Slack"
-      actionIcon="arrowRight"
+      actionIcon="launch"
       href="https://app.slack.com/client/T1GPWGMPT/C2PLX8GQ6"
       >
 
 ![Slack icon](../images/icon/slack-mark.svg)
-
-</ResourceCard>
-  </Column>
-<Column colLg={4} colMd={4} noGutterSm>
-  <ResourceCard
-    color="dark"
-    title="GitHub"
-    actionIcon="arrowRight"
-    href="https://github.com/carbon-design-system/carbon-for-ibm-dotcom"
-    >
-
-![GitHub icon](../images/icon/github-inverse-icon.svg)
 
 </ResourceCard>
   </Column>

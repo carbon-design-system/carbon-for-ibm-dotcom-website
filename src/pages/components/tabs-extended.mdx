@@ -1,6 +1,6 @@
 ---
 title: Tabs extended
-description: Tabs extended combines tabs and accordion to organize editorial content.
+description: Tabs extended leverages the Carbon tab component with style updates to better organize editorial content.
 ---
 
 import ComponentDescription from 'components/ComponentDescription';
@@ -15,107 +15,74 @@ import ResourceLinks from 'components/ResourceLinks';
 
 <AnchorLinks>
   <AnchorLink>Overview</AnchorLink>
-  <AnchorLink>Tabs extended</AnchorLink>
-  <AnchorLink>Tabs extended media</AnchorLink>
+  <AnchorLink>Behaviors</AnchorLink>
+  <AnchorLink>Resources</AnchorLink>
+  <AnchorLink>Content guidance</AnchorLink>
   <AnchorLink>Feedback</AnchorLink>
 </AnchorLinks>
 
+<InlineNotification>
+
+**Breaking change:** Previously, tabs extended was a separate component in Carbon for IBM.com v1. In v2, tabs extended will use Carbon Design System's [tab](https://carbondesignsystem.com/components/tabs/usage/) directly with automatic style updates.
+
+</InlineNotification>
+
 ## Overview
 
-Tabs are useful for displaying parallel pieces of content that share the same context. It has the additional benefit of reducing screen height, but should be used carefully because some information is hidden on load.
+Tabs extended displays parallel pieces of related content, allowing users to explore the displayed content of their choice. It also has the benefit of reducing the amount of scrolling the user may have to do on a given page, but should be used carefully because some information is hidden on load. If the information within a tab is essential for the user, consider using a different component that will not hide the content.
 
-Our Tabs extended component references the Carbon Design System's [tabs component](https://carbondesignsystem.com/components/tabs/usage/), and it is built with additional features to optimize for editorial content.
-
-## Tabs extended
-
-On desktop, Tabs extended renders as tabs. On mobile, the component renders as an accordion, making it easy to read and access each section while scrolling.
-
-Tab labels wrap up to two lines before being truncated. Truncated labels are fully displayed in tooltips on hover and focus.
+The tabs extended component uses the Carbon Design System's [tabs](https://carbondesignsystem.com/components/tabs/usage/) component directly, and includes automatic style updates to optimize for editorial content.
 
 <Row>
 <Column colMd={8} colLg={8}>
 
-![Image of Tabs extended component on desktop](../../images/component/tabs-extended/components--tabs-extended-1.png)
+![Image of Tabs extended component on desktop. Tabs extended displays a set of options with different labels, with one option in semibold type to indicate that it is selected](../../images/component/tabs-extended/tabs-extended-overview-01.png)
 
-<Caption>Example of the tabs extended, on desktop</Caption>
-
-</Column>
-</Row>
-
-On mobile, Tabs extended switches to an accordion for easier browsing.
-
-<Row>
-<Column colMd={6} colLg={4}>
-
-![Image of Tabs extended component on `sm`](../../images/component/tabs-extended/components--tabs-extended-3.png)
-
-<Caption>Example of the tabs extended, on mobile</Caption>
+<Caption>Example of tabs extended on desktop</Caption>
 
 </Column>
 </Row>
 
-### Modifiers
+#### Tab labels
 
-#### Orientation
+Like tabs, each tab label is set to auto-width and will vary based on the label's character count, and will have consistent padding on either side of the label. Keep this in mind as you write labels for each tab, as overly long labels can push other options out of the initial view. Also consider that translation will generally lengthen the label, reference the [content guidance table](### content-guidance-for-tabs-extended) for best practices.
 
-Tabs orientation on desktop can be set to horizontal or vertical. When using the vertical orientation, the tabs are displayed stacked in one column. This allows for longer tab labels.
+Tabs extended can nest other components inside its content area to display them based on the user's selection. We recommend nesting similar components in sequence, rather than varying the types of components displayed in a given tabs experience.
+
+## Behaviors
+
+### Overflow
+
+When the tabs extended options would be hidden due to the window becoming too small, overflow buttons will automatically appear on the sides of the component. These buttons allow users to navigate the entire tabs extended to see all options regardless of screen size. Note that this functionality occurs across all breakpoints, not just mobile.
 
 <Row>
+
 <Column colMd={8} colLg={8}>
 
-![Image of Tabs extended component on `sm`](../../images/component/tabs-extended/components--tabs-extended-2.png)
+![Tabs extended with an overflow on desktop, in which case an overflow button appears to indicate that there is more content out of view](../../images/component/tabs-extended/tabs-extended-behavior-01.png)
 
-<Caption>Example of the tabs extended using vertical orientation</Caption>
+<Caption>Tabs extended with an overflow on desktop</Caption>
 
 </Column>
+
+<Column colMd={4} colLg={4}>
+
+![Tabs extended with an overflow on mobile, in which case an overflow button appears to indicate that there is more content out of view](../../images/component/tabs-extended/tabs-extended-behavior-02.png)
+
+<Caption>Tabs extended with an overflow on mobile</Caption>
+
+</Column>
+
 </Row>
 
-<ResourceLinks name="Tabs extended" type="ui" multiComponent />
+<ResourceLinks name="Tabs extended" type="ui" />
 
-### Content guidance for Tabs extended
+## Content guidance for Tabs extended
 
 | Element                                                                                                                | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes                                                                                         |
 | ---------------------------------------------------------------------------------------------------------------------- | ------------ | -------- | --------- | ------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| <a href="https://www.carbondesignsystem.com/components/tabs/usage/" target="_blank" rel="noopener noreferrer">Tabs</a> | Component    | Yes      | 2–6       | 25 / 35                                     |                                                                                               |
 | Child container                                                                                                        | Component    | Yes      | Min 2     | –                                           | Container areas that child components and other content types can be passed into (1 per tab). |
-| <a href="https://www.carbondesignsystem.com/components/tabs/usage/" target="_blank" rel="noopener noreferrer">Tabs</a> | Component    | Yes      | 2–6       | –                                           | Tab renders as an accordion for medium breakpoint and smaller.                                |
-| Tab item                                                                                                               | Text         | Yes      | –         | 25 / 35                                     | When using vertical orientation max character count = 40 / 55.                                |
-
-For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
-
-## Tabs extended with media
-
-Tabs extended with media provides an option where the tab panel is pre-populated with the [Content item horizontal](/components/content-item-horizontal) with media component to create an organized section for displaying content paired with media. Keep in mind that when using tabs, some content will be hidden until the user interacts with the component, so they should not be used for information that is considered critical.
-
-<Row>
-<Column colMd={8} colLg={8}>
-
-![Image of Tabs extended with media component](../../images/component/tabs-extended/components--tabs-extended-media-1.png)
-
-<Caption>Example of the tabs extended media, on desktop</Caption>
-
-</Column>
-</Row>
-
-On mobile, Tabs extended media renders as an accordion for easier browsing.
-
-<Row>
-<Column colMd={4} colLg={4}>
-
-![Image of Tabs extended media component](../../images/component/tabs-extended/components--tabs-extended-media-2.png)
-
-<Caption>Example of the tabs extended media, on mobile</Caption>
-
-</Column>
-</Row>
-
-<ResourceLinks name="Tabs extended media" type="layout" multiComponent />
-
-### Content guidance for Tabs extended media
-
-| Element                                                                                                                                          | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes          |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | -------- | --------- | ------------------------------------------- | -------------- |
-| Tabs extended                                                                                                                                    | Component    | Yes      | 1         | –                                           |                |
-| [Content item horizontal with media](https://www.ibm.com/standards/carbon/components/content-item-horizontal#content-item-horizontal-with-media) | Component    | Yes      | 1         | –                                           | Max 1 per tab. |
 
 For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
 

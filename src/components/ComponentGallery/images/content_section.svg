@@ -1,36 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="320px" height="320px" viewBox="0 0 320 320" enable-background="new 0 0 320 320" xml:space="preserve">
-	    <title>content_section</title>
-<g id="content_section">
-	<g id="Group-3-Copy" transform="translate(72.000000, 95.000000)">
-		<g id="Group-3">
-			
-				<rect id="Rectangle-Copy-14" fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" stroke="#C6C6C6" width="176" height="131"/>
-		</g>
-		<g id="Group-2" transform="translate(47.000000, 8.000000)">
-			<rect id="Rectangle-Copy" x="-40.8" y="3.1" fill-rule="evenodd" clip-rule="evenodd" fill="#8D8D8D" width="32.3" height="4"/>
-			
-				<rect id="Rectangle-Copy-2" x="-40.8" y="10.1" fill-rule="evenodd" clip-rule="evenodd" fill="#8D8D8D" width="32.3" height="4"/>
-			<rect id="Rectangle-Copy-3" x="-40.8" y="17.1" fill-rule="evenodd" clip-rule="evenodd" fill="#8D8D8D" width="21" height="4"/>
-		</g>
-		<rect id="Rectangle-Copy-24" x="47" y="72.9" fill-rule="evenodd" clip-rule="evenodd" fill="#E0E0E0" width="32" height="16"/>
-		<g id="Group" transform="translate(47.000000, 36.000000)">
-			<rect id="Rectangle-Copy-4" y="-25.1" fill-rule="evenodd" clip-rule="evenodd" fill="#E0E0E0" width="82" height="2"/>
-			<rect id="Rectangle-Copy-5" y="-21.1" fill-rule="evenodd" clip-rule="evenodd" fill="#E0E0E0" width="82" height="2"/>
-			<rect id="Rectangle-Copy-6" y="-17.1" fill-rule="evenodd" clip-rule="evenodd" fill="#E0E0E0" width="82" height="2"/>
-			<rect id="Rectangle-Copy-8" y="-13.1" fill-rule="evenodd" clip-rule="evenodd" fill="#E0E0E0" width="82" height="2"/>
-			<rect id="Rectangle-Copy-9" y="-9.1" fill-rule="evenodd" clip-rule="evenodd" fill="#E0E0E0" width="82" height="2"/>
-			<rect id="Rectangle-Copy-10" y="-5.1" fill-rule="evenodd" clip-rule="evenodd" fill="#E0E0E0" width="82" height="2"/>
-			<rect id="Rectangle-Copy-11" y="-1.1" fill-rule="evenodd" clip-rule="evenodd" fill="#E0E0E0" width="82" height="2"/>
-			<rect id="Rectangle-Copy-12" y="2.9" fill-rule="evenodd" clip-rule="evenodd" fill="#E0E0E0" width="82" height="2"/>
-			<rect id="Rectangle-Copy-13" y="6.9" fill-rule="evenodd" clip-rule="evenodd" fill="#E0E0E0" width="82" height="2"/>
-			<rect id="Rectangle-Copy-15" y="10.9" fill-rule="evenodd" clip-rule="evenodd" fill="#E0E0E0" width="82" height="2"/>
-			<rect id="Rectangle-Copy-16" y="14.9" fill-rule="evenodd" clip-rule="evenodd" fill="#E0E0E0" width="82" height="2"/>
-			<rect id="Rectangle-Copy-17" y="18.9" fill-rule="evenodd" clip-rule="evenodd" fill="#E0E0E0" width="82" height="2"/>
-			<rect id="Rectangle-Copy-18" y="22.9" fill-rule="evenodd" clip-rule="evenodd" fill="#E0E0E0" width="82" height="2"/>
-			<rect id="Rectangle-Copy-7" y="26.9" fill-rule="evenodd" clip-rule="evenodd" fill="#E0E0E0" width="41" height="2"/>
-		</g>
-	</g>
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M156.1 136L155.903 136.376L156.964 138.4H154V138.933H156.964L155.903 140.957L156.1 141.333L157.5 138.667L156.1 136V136Z"
+    fill="#0F62FE" />
+  <rect x="72" y="73" width="176" height="132" fill="white" stroke="#A8A8A8" stroke-width="0.822695" />
+  <rect x="126" y="178" width="35" height="17" fill="#F4F4F4" stroke="#A8A8A8" stroke-width="0.5" />
+  <rect x="125" y="118" width="70" height="35" fill="#C6C6C6" />
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M161.719 134.688C161.046 134.688 160.5 134.142 160.5 133.469C160.5 132.796 161.046 132.25 161.719 132.25C162.392 132.25 162.938 132.796 162.938 133.469C162.938 133.792 162.809 134.102 162.581 134.331C162.352 134.559 162.042 134.688 161.719 134.688V134.688ZM161.719 133.062C161.494 133.062 161.312 133.244 161.312 133.469C161.312 133.693 161.494 133.875 161.719 133.875C161.943 133.875 162.125 133.693 162.125 133.469C162.125 133.244 161.943 133.062 161.719 133.062ZM164.623 130.625H156.377C155.961 130.625 155.625 130.961 155.625 131.377V139.623C155.625 139.823 155.704 140.014 155.845 140.155C155.986 140.296 156.177 140.375 156.377 140.375H164.623C164.823 140.375 165.014 140.296 165.155 140.155C165.296 140.014 165.375 139.823 165.375 139.623V131.377C165.375 130.961 165.039 130.625 164.623 130.625ZM164.562 131.438V137.665L163.043 136.146C162.891 135.993 162.684 135.908 162.468 135.908C162.253 135.908 162.046 135.993 161.893 136.146L161.312 136.739L159.078 134.521C158.926 134.368 158.719 134.283 158.503 134.283C158.288 134.283 158.081 134.368 157.928 134.521L156.438 136.012V131.438H164.562ZM156.438 139.562V137.157L158.501 135.094V135.094L160.723 137.316C160.876 137.469 161.083 137.554 161.298 137.554C161.514 137.554 161.721 137.469 161.873 137.316L162.466 136.719V136.719L164.562 138.815V139.562H156.438Z"
+    fill="#525252" />
+  <mask id="mask0_0_4624" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="155" y="130"
+    width="11" height="11">
+    <path fill-rule="evenodd" clip-rule="evenodd"
+      d="M161.719 134.688C161.046 134.688 160.5 134.142 160.5 133.469C160.5 132.796 161.046 132.25 161.719 132.25C162.392 132.25 162.938 132.796 162.938 133.469C162.938 133.792 162.809 134.102 162.581 134.331C162.352 134.559 162.042 134.688 161.719 134.688V134.688ZM161.719 133.062C161.494 133.062 161.312 133.244 161.312 133.469C161.312 133.693 161.494 133.875 161.719 133.875C161.943 133.875 162.125 133.693 162.125 133.469C162.125 133.244 161.943 133.062 161.719 133.062ZM164.623 130.625H156.377C155.961 130.625 155.625 130.961 155.625 131.377V139.623C155.625 139.823 155.704 140.014 155.845 140.155C155.986 140.296 156.177 140.375 156.377 140.375H164.623C164.823 140.375 165.014 140.296 165.155 140.155C165.296 140.014 165.375 139.823 165.375 139.623V131.377C165.375 130.961 165.039 130.625 164.623 130.625ZM164.562 131.438V137.665L163.043 136.146C162.891 135.993 162.684 135.908 162.468 135.908C162.253 135.908 162.046 135.993 161.893 136.146L161.312 136.739L159.078 134.521C158.926 134.368 158.719 134.283 158.503 134.283C158.288 134.283 158.081 134.368 157.928 134.521L156.438 136.012V131.438H164.562ZM156.438 139.562V137.157L158.501 135.094V135.094L160.723 137.316C160.876 137.469 161.083 137.554 161.298 137.554C161.514 137.554 161.721 137.469 161.873 137.316L162.466 136.719V136.719L164.562 138.815V139.562H156.438Z"
+      fill="white" />
+  </mask>
+  <g mask="url(#mask0_0_4624)">
 </g>
+  <rect x="125" y="82" width="70" height="3" fill="#8D8D8D" />
+  <rect x="125" y="89" width="40" height="3" fill="#8D8D8D" />
+  <rect x="125" y="108" width="56" height="1.5" fill="#A8A8A8" />
+  <rect x="125" y="104.5" width="70" height="1.5" fill="#A8A8A8" />
+  <rect x="125" y="101" width="40" height="1.5" fill="#8D8D8D" />
+  <rect x="125" y="168" width="56" height="1.5" fill="#A8A8A8" />
+  <rect x="125" y="164.5" width="70" height="1.5" fill="#A8A8A8" />
+  <rect x="125" y="161" width="40" height="1.5" fill="#8D8D8D" />
+  <rect x="129" y="181" width="16" height="1.5" fill="#8D8D8D" />
+  <rect x="78" y="82" width="24" height="2" fill="#8D8D8D" />
 </svg>

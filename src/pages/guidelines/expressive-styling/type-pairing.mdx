@@ -13,121 +13,62 @@ Typography can help create clear hierarchies, organize information, and guide us
 <AnchorLinks>
 
 <AnchorLink>Overview</AnchorLink>
-<AnchorLink>Content section</AnchorLink>
-<AnchorLink>Content block</AnchorLink>
-<AnchorLink>Content group</AnchorLink>
-<AnchorLink>Content item</AnchorLink>
+<AnchorLink>Common type pairings</AnchorLink>
 <AnchorLink>Support</AnchorLink>
 
 </AnchorLinks>
 
 ## Overview
 
-Within Carbon, there are two type sets available for use with productive and expressive experiences, and each type set includes styles that have been designed with content hierarchy expectations in mind. People unconsciously use type size as a signal of hierarchy, and so it's important to follow the correct type pairings when choosing which styles to use on your page.
+Within Carbon, there are two [type sets](https://carbondesignsystem.com/guidelines/typography/type-sets) available for use with productive and expressive experiences, and each type set includes styles that have been designed with content hierarchy expectations in mind. People unconsciously use type size as a signal of hierarchy, and so it's important to follow the correct type styles (or tokens) when choosing which styles to use on your page.
 
-Below are some common type pairings used within Carbon for IBM.com components, and the spacing between the type pairs, that provide clear visual cues for hierarchy and information organization.
+Beyond just using the correct type styles for your experience—i.e. fluid heading tokens are far more commonly found in Carbon for IBM.com experiences than they are in product—the pairing of these tokens is also crucially important.
 
-## Content section
+## Common type pairings
 
-[Content section](https://www.ibm.com/standards/carbon/components/content-section) pairs `$expressive-heading-02` and `$body-long-02` with no space between the two type styles. For details about top and bottom spacing, see the [Spacing guidlines](../spacing#spacing-for-content-section).
+### IBM.com layout components
 
-<Row>
-<Column colMd={8} colLg={8}>
+With the layout components, the Carbon for IBM.com library has actually codified key type pairings for designers, thereby eliminating some of the guesswork.
 
-![Image of Content section type pairing](../../../images/guidelines/type-pairing/heading02_bodylong02.jpg)
+Below are some common type pairings used within Carbon for IBM.com layout components, and the spacing between the type pairs, that provide clear visual cues for hierarchy and information organization.
 
-<Caption>
-  Example of $expressive-heading-02 and $body-long-02 pairing, shown at the
-  large breakpoint
-</Caption>
+It’s important to note that although type pairings are not codified in the Carbon React library, some these pairings are still encouraged and widely used in IBM products as well.
 
-</Column>
-</Row>
+### Content section
 
-### Tokens for Content section
+[Content section](../components/content-section) is one of the main layout components that can be used to build web experiences on IBM.com. It includes a singular type heading and can accept many child components to enable maximum customization and flexibility. It utilizes the full 16 columns in the layout.
 
-| `Type token`             | `Breakpoint` | `Info`                                                                                                                          |
-| ------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------- |
-| `$expressive-heading-02` | Large        | Type: IBM Plex Sans <br/>Size: 16px / 1rem <br/>Line-height: 24px / 1.5em <br/>Weight: 600 / Semi-Bold <br/>Letter-spacing: 0px |
-| `$body-long-02`          | Large        | Type: IBM Plex Sans <br/>Size: 16px / 1rem <br/>Line-height: 24px / 1.5em <br/>Weight: 400 / Regular <br/>Letter-spacing: 0px   |
+For full details on the specifications of the type tokens, see the [type guidance](https://carbondesignsystem.com/guidelines/typography/type-sets) on the Carbon Design System site.
 
-<br />
+![Image of Content section type pairing](../../../images/guidelines/expressive-theme/type-pairing/content_section_ex.png)
 
-## Content block
+### Content block
 
-[Content block](https://www.ibm.com/standards/carbon/components/content-block) pairs `$expressive-heading-05` and `$expressive-heading-03` with 32px of space between the two type styles. For details about top and bottom spacing, see the [Spacing guidelines](../spacing#spacing-for-content-block).
+[Content block](../components/content-block) is also a key layout component in IBM.com experiences. It includes a large heading, subheading, body copy and CTA, and can accept many child components to enable customization and flexibility. It sits on 12 columns and is often used in conjunction with the table of contents component.
 
-<Row>
-<Column colMd={8} colLg={8}>
+For full details on the specifications of the type tokens, see the [type guidance](https://carbondesignsystem.com/guidelines/typography/type-sets) on the Carbon Design System site.
 
-![Image of Content block type pairing](../../../images/guidelines/type-pairing/heading05_heading03.jpg)
+![Image of Content block type pairing](../../../images/guidelines/expressive-theme/type-pairing/content_block_ex.png)
 
-<Caption>
-  Example of $expressive-heading-05 and $expressive-heading-03 pairing, shown at
-  the large breakpoint
-</Caption>
+### Content group
 
-</Column>
-</Row>
+[Content group](../components/content-group) acts as a content unit, and is used inside a content section or a content block. It can contain basic content components (one or multiple content items of the same kind), bringing them together into highly-customized solutions for the user.
 
-### Tokens for Content block
+Although IBM products rarely use fluid tokens, these size pairings are often used in IBM product as well.
 
-| `Type token`             | `Breakpoint` | `Info`                                                                                                                            |
-| ------------------------ | ------------ | --------------------------------------------------------------------------------------------------------------------------------- |
-| `$expressive-heading-05` | Large        | Type: IBM Plex Sans <br/>Size: 42px / 2.625rem <br/>Line-height: 50px / 3.125em <br/>Weight: 300 / Light <br/>Letter-spacing: 0px |
-| `$expressive-heading-03` | Large        | Type: IBM Plex Sans <br/>Size: 20px / 1.25rem <br/>Line-height: 28px / 1.75em <br/>Weight: 400 / Regular <br/>Letter-spacing: 0px |
+For full details on the specifications of the type tokens, see the [type guidance](https://carbondesignsystem.com/guidelines/typography/type-sets) on the Carbon Design System site.
 
-<br />
+![Image of Content group type pairing](../../../images/guidelines/expressive-theme/type-pairing/content_group_ex.png)
 
-## Content group
+### Content item
 
-[Content group](https://www.ibm.com/standards/carbon/components/content-group) pairs `$expressive-heading-04` and `$body-long-02` with 32px of space between the two type styles. For details about top and bottom spacing, see the [Spacing guidelines](../spacing#spacing-for-content-group).
+[Content item](../components/content-item) is a basic-level content component that acts as a primary content unit, and it is used inside a content section, block or group to build web experiences on IBM.com pages. It can encapsulate basic content (a heading, a description, a media element – image or video – and a CTA) and brings them all together into a content component which solves a specific problem for the user.
 
-<Row>
-<Column colMd={8} colLg={8}>
+These token pairings are also commonly used in IBM products.
 
-![Image of Content group type pairing](../../../images/guidelines/type-pairing/heading04_bodylong02.jpg)
+For full details on the specifications of the type tokens, see the [type guidance](https://carbondesignsystem.com/guidelines/typography/type-sets) on the Carbon Design System site.
 
-<Caption>
-  Example of $expressive-heading-04 and $body-long-02 pairing, shown at the
-  large breakpoint
-</Caption>
-
-</Column>
-</Row>
-
-### Tokens for Content group
-
-| `Type token`             | `Breakpoint` | `Info`                                                                                                                            |
-| ------------------------ | ------------ | --------------------------------------------------------------------------------------------------------------------------------- |
-| `$expressive-heading-04` | Large        | Type: IBM Plex Sans <br/>Size: 28px / 1.75rem <br/>Line-height: 36px / 2.25em <br/>Weight: 400 / Regular <br/>Letter-spacing: 0px |
-| `$body-long-02`          | Large        | Type: IBM Plex Sans <br/>Size: 16px / 1rem <br/>Line-height: 24px / 1.375em <br/>Weight: 400 / Regular <br/>Letter-spacing: 0px   |
-
-## Content item
-
-[Content item](https://www.ibm.com/standards/carbon/components/content-item) pairs `$expressive-heading-02` and `$body-long-02` with no space between the two type styles. For details about top and bottom spacing, see the [Spacing guidelines](../spacing#spacing-for-content-item).
-
-<Row>
-<Column colMd={8} colLg={8}>
-
-![Image of Content item type pairing](../../../images/guidelines/type-pairing/heading02_bodylong02.jpg)
-
-<Caption>
-  Example of $expressive-heading-02 and $body-long-02 pairing, shown at the
-  large breakpoint
-</Caption>
-
-</Column>
-</Row>
-
-### Tokens for Content item
-
-| `Type token`             | `Breakpoint` | `Info`                                                                                                                          |
-| ------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------- |
-| `$expressive-heading-02` | Large        | Type: IBM Plex Sans <br/>Size: 16px / 1rem <br/>Line-height: 24px / 1.5em <br/>Weight: 600 / Semi-Bold <br/>Letter-spacing: 0px |
-| `$body-long-02`          | Large        | Type: IBM Plex Sans <br/>Size: 16px / 1rem <br/>Line-height: 24px / 1.375em <br/>Weight: 400 / Regular <br/>Letter-spacing: 0px |
-
-<br />
+![Image of Content item type pairing](../../../images/guidelines/expressive-theme/type-pairing/content_group_ex.png)
 
 ## Support
 

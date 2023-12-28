@@ -1,6 +1,6 @@
 ---
 title: Images
-description: The Image and the Image with caption components offer two ways to display imagery on the page.
+description: The image component offers multiple options to best display imagery in the page.
 ---
 
 import ComponentDescription from 'components/ComponentDescription';
@@ -11,31 +11,27 @@ import reactSymbol from '../../images/icon/react-icon.svg';
 import webComponentsSymbol from '../../images/icon/web-components-icon.svg';
 import ResourceLinks from 'components/ResourceLinks';
 
-<ComponentDescription name="Image" type="ui" />
+<ComponentDescription name="Images" type="ui" />
 
 <AnchorLinks>
   <AnchorLink>Overview</AnchorLink>
-  <AnchorLink>Image</AnchorLink>
-  <AnchorLink>Image with caption</AnchorLink>
+  <AnchorLink>Modifiers</AnchorLink>
+  <AnchorLink>Resources</AnchorLink>
+  <AnchorLink>Content guidance</AnchorLink>
   <AnchorLink>Feedback</AnchorLink>
 </AnchorLinks>
 
 ## Overview
 
-There are two image components available. The Image component allows for a simple image on a page. The Image with
-caption component offers the addition of a caption and zoom, which is helpful when showing detailed product shots.
-
-## Image
-
 <Row>
 <Column  colLg={8} colMd={8} colSm={4}>
 
-Image, at its core, is a wrapper that adds an image to the page. You have the option to pass multiple images to the
+Image, at its core, is a wrapper that adds an image to the page. It can display visual assets ranging from photography and renders to illustrations and diagrams. You have the option to pass multiple images into the
 image component to render at the various breakpoints. This is particularly useful if you want to render different images
 at different screen sizes.
 
-We recommend displaying images at 1:1, 2:1, 4:3, and 16:9 aspect ratios. For guidance on choosing or creating imagery,
-see the IBM Design Language [photography guidelines](https://www.ibm.com/design/language/photography/overview).
+We recommend displaying images at 1:1, 2:1, 3:2, 4:3, and 16:9 aspect ratios. For guidance on choosing or creating imagery,
+see the IBM Design Language [photography guidelines](https://www.ibm.com/design/language/photography/overview). For guidance on illustration styles, see the IBM Design Language [illustration guidelines](https://www.ibm.com/design/language/illustration/overview/).
 
 </Column>
 
@@ -56,70 +52,87 @@ IBM Web Standards for all type, format, size, and other requirements.
 <Row>
 <Column colMd={8} colLg={8}>
 
-![Image of Image default in context](../../images/component/image/image-overview-default.jpg)
+![Example of an image component featuring photography of a team collaborating at a table](../../images/component/image/image-overview.png)
 
-<Caption>Example of an image component</Caption>
+<Caption>Example of an image component using photography.</Caption>
 
 </Column>
 </Row>
 
-### Modifiers
+## Modifiers
 
-#### Adding a border
+### Border
 
-A 1px `$decorative-01` border can be added to the Image component to help frame images. This is useful when the page
+A border can be added to the image component to help frame images. This is useful when the page
 background and image background are the same or similar colors.
 
-The border feature is available for images with and without captions.
+<Row>
+<Column colMd={8} colLg={8}>
+
+![Example of an illustration used in the image component with a matching background to the page. A light gray border separates the image background from the page background](../../images/component/image/image-modifier-border.png)
+
+</Column>
+</Row>
+<Caption>The border helps to separate the illustration from a background with the same color.</Caption>
+
+### Caption
+
+If an image would benefit from additional context, a caption can be added immediately beneath the media. Captions paired with imagery are useful in editorial experiences where the image cannot appear on its own or needs additional information.
 
 <Row>
 <Column colMd={8} colLg={8}>
 
-![An image with a border](../../images/component/image/image-options-border.jpg)
+![Example of an image with a caption underneath. The image features a computer generated render of a quantum computer inside a laboratory. The caption underneath reads "A rendering of the first IBM Quantum System One on a university campus being installed at RPI."](../../images/component/image/image-modifier-caption.png)
 
 </Column>
 </Row>
-<Caption>The border helps to separate the image from a background with the same color.</Caption>
+<Caption>Example of an image with an added caption underneath.</Caption>
 
-<ResourceLinks name="Image" type="ui" multiComponent />
+### Lightbox
 
-### Content guidance for Image
+The lightbox property of an image enables users to click or tap on the image to display a larger version of the image inside a [lightbox media viewer](https://www.ibm.com/standards/carbon/components/lightbox-media-viewer) overlay. If this option is enabled, a button will appear at the bottom corner of the image and the entire media will be clickable.
 
-| Element        | Content type | Required | Instances | Character limit <br/>(English / translated) | Notes                                |
-| -------------- | ------------ | -------- | --------- | ------------------------------------------- | ------------------------------------ |
-| Image alt text | Text         | No       | 1         | 75/100                                      | Image description for accessibility. |
+Inside the overlay, the caption becomes the heading and there is an opportunity for additional body copy. Lightbox is useful if the user would benefit from exploring more about the image itself, including the additional copy.
 
-## Image with caption
-
-With the Image with caption component, an image can include a caption beneath to provide more context. In addition, the
-image can be clicked to open a larger version of the image, using the
-[Lightbox media viewer](https://www.ibm.com/standards/carbon/components/lightbox-media-viewer) overlay.
-
-Inside the overlay, the caption becomes the heading and there is an opportunity for additional body text.
+If both a border and lightbox are enabled on a particular image, the lightbox border will be displayed instead of the lighter border property. If lightbox is enabled, the cursor will change to `zoom-in` mode while hovering to reinforce the click interaction.
 
 <Row>
-<Column colMd={8} colLg={8}>
 
-![Image with caption animation](../../images/component/image/image-options-caption.gif)
+<Column colMd={6} colLg={6}>
+
+![Example of an illustration image with lightbox enabled, which adds a border around the iamge and a button with a dark background at the bottom corner with a zoom icon.](../../images/component/image/image-modifier-lightbox-01.png)
+
+<Caption>An example of lightbox with a light-contrast button.</Caption>
 
 </Column>
+
+<Column colMd={6} colLg={6}>
+
+![Example of an image featuring photography with lightbox enabled, which adds a border around the iamge and a button with a light background at the bottom corner with a zoom icon.](../../images/component/image/image-modifier-lightbox-02.png)
+
+<Caption>An example of lightbox with a dark-contrast button.</Caption>
+
+</Column>
+
 </Row>
-<Caption>When an image has a caption, the user can hover over the image and click to trigger a Lightbox overlay with more information.</Caption>
 
-<ResourceLinks name="Image with caption" type="ui" multiComponent />
+#### Contrast
 
-### Content guidance for Image with caption
+Lightbox has two contrast settings: light-contrast and dark-contrast. Either can be chosen to create appropriate contrast between the background media and the lightbox button. These contrast options are not tied to theme, rather they are selected based on the background media. By default, the light-contrast option is displayed.
 
-Image is a foundational component and does not contain any additional content. Image with caption provides the
-opportunity for additional content, as shown in the following table.
+Note that the lightbox border is independent of the page's Carbon theme – the lightbox contrast setting is chosen by the adopter based on the imagery needs.
+
+<ResourceLinks name="Images" type="ui" />
+
+## Content guidance
 
 | Element        | Content type | Required | Instances | Character limit <br/>(English/translated) | Notes/Options                                                 |
-| -------------- | ------------ | -------- | --------- | ----------------------------------------- | ------------------------------------------------------------- | --- |
-| Caption        | Text         | No       | 1         | 40 / 55                                   | Becomes heading in lightbox media viewer.                     |
-| Copy           | Text         | No       | 1         | 150 / 200                                 | This is only shown in the lightbox media viewer (if enabled). |     |
+| -------------- | ------------ | -------- | --------- | ----------------------------------------- | ------------------------------------------------------------- |
 | Media          | Image        | Yes      | 1         | –                                         | –                                                             |
 | Image alt text | Text         | No       | 1         | 75/100                                    | Image description for accessibility.                          |
+| Caption        | Text         | No       | 1         | 40 / 55                                   | Becomes heading in lightbox media viewer.                     |
+| Copy           | Text         | No       | 1         | 150 / 200                                 | This is only shown in the lightbox media viewer (if enabled). |
 
 For more information, see the [character count standards](https://www.ibm.com/standards/carbon/guidelines/content#character-count-standards).
 
-<ComponentFooter name="Image" type="ui" />
+<ComponentFooter name="Images" type="ui" />
