@@ -1,0 +1,48 @@
+name: publish (Publish production site v1)
+
+on:
+  push:
+    branches:
+      - v1
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    if: github.repository == 'carbon-design-system/carbon-for-ibm-dotcom-website'
+    runs-on: ubuntu-20.04
+    env:
+      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js 18.x
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18.x'
+          cache: 'yarn'
+      - name: Install dependencies
+        run: yarn install
+      - name: Build website
+        run: |
+          echo "PATH_PREFIX=/standards/carbon/v1" >> .env.production
+          echo "GATSBY_CPU_COUNT=1" >> .env.production
+          yarn build
+      - name: Publish to COS (Carbon for IBM.com Web Components)
+        uses: jakejarvis/s3-sync-action@master
+        with:
+          args: --acl public-read --follow-symlinks
+        env:
+          AWS_S3_BUCKET: ${{ secrets.COS_BUCKET }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.COS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.COS_SECRET_ACCESS_KEY }}
+          AWS_REGION: ${{ secrets.COS_REGION }}
+          AWS_S3_ENDPOINT: https://${{ secrets.COS_ENDPOINT }}
+          SOURCE_DIR: 'public'
+          DEST_DIR: 'standards/carbon/v1'
+      - uses: act10ns/slack@v2
+        with:
+          status: ${{ job.status }}
+        if: failure()
