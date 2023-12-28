@@ -1,9 +1,9 @@
-name: publish-v2 (Publish production site v2)
+name: publish (Publish production site)
 
 on:
   push:
     branches:
-      - feat/dotcom-v2
+      - v1
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -26,7 +26,7 @@ jobs:
         run: yarn install
       - name: Build website
         run: |
-          echo "PATH_PREFIX=/standards/carbon" >> .env.production
+          echo "PATH_PREFIX=/standards/carbon/v1" >> .env.production
           echo "GATSBY_CPU_COUNT=1" >> .env.production
           yarn build
       - name: Publish to COS (Carbon for IBM.com Web Components)
@@ -40,7 +40,7 @@ jobs:
           AWS_REGION: ${{ secrets.COS_REGION }}
           AWS_S3_ENDPOINT: https://${{ secrets.COS_ENDPOINT }}
           SOURCE_DIR: 'public'
-          DEST_DIR: 'standards/carbon/v2'
+          DEST_DIR: 'standards/carbon/v1'
       - uses: act10ns/slack@v2
         with:
           status: ${{ job.status }}

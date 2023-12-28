@@ -1,4 +1,4 @@
-name: publish (Publish production site)
+name: publish-v2 (Publish production site v2)
 
 on:
   push:
