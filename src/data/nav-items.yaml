@@ -78,6 +78,8 @@
       path: /components/card-group
     - title: Carousel
       path: /components/carousel
+    - title: Content block
+      path: /components/content-block
     - title: Content group
       path: /components/content-group
     - title: Content item
