@@ -208,12 +208,12 @@ Content section and block have the option to include a border at the bottom to h
 
 Component vertical spacing is determined by the component type. Actual vertical spacing may differ by component - check the component’s design specs.
 
-### Spacing for Content item
-
-| Breakpoint    | `max`             | `xlg`             | `lg`              | `md`              | `sm`              |
-| ------------- | ----------------- | ----------------- | ----------------- | ----------------- | ----------------- |
-| Margin top    | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px |
-| Margin bottom | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px | `spacing-07` 32px |
+| Content component                                | Spacing information                                                                                                                                                                                                                  |
+| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [Content section](../components/content-section) | Uses different spacing values depending on whether a border is included or not, although the spacing is optically the same. Margin is used for external spacing to allow multiple content sections or blocks to fit together easily. |
+| [Content block](../components/content-block)     | Uses the same spacing values as content section, but note that these do not stack with one another. When content block is nested inside content section, the section’s spacing values replace the block. Like content section        |
+| [Content group](../components/content-group)     | A content component that is often nested inside a content block. Content group can be nested once or multiple times inside a content block, and the margin enables more flexibility when placed together.                            |
+| [Content item](../components/content-item)       | The smallest content component, which uses margin external spacing. When nested in other components, the margin allows content items to be presented as a flexible list or in a grid.                                                |
 
 ## FAQ
 
