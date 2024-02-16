@@ -1,14 +1,13 @@
 import React from 'react';
 import { Column } from 'gatsby-theme-carbon';
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
-import { ArrowDown32 } from '@carbon/icons-react';
 import { leadspaceText } from './Homepage.module.scss';
 
 const LeadSpaceText = () => (
   <p className={leadspaceText}>
     Carbon for IBM.com is the design system for the IBM website, providing
     components, resources, and guidelines for everyone creating IBM.com pages.
-    <ArrowDown32 />
+    <span style={{ paddingTop: '1.25rem', display: 'flex' }}>↓</span>
   </p>
 );
 
