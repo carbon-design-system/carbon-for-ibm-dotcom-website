@@ -59,8 +59,8 @@
       "designLink": "https://ibm.box.com/s/1u2m0fqdtrumog0ie2c4tfyyyn1clyj7",
       "description": "Card link is a CTA styled like a card that acts as the main CTA for a section of content, it typically appears at the end of a block-pattern.",
       "storybook": {
-        "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-card-link--default",
-        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-card-link--default"
+        "webcomponents": "https://www.ibm.com/standards/carbon/web-components/?path=/story/components-card--link",
+        "reactwrapper": "https://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-card--link"
       },
       "webcomponents": {
         "stable": true,
