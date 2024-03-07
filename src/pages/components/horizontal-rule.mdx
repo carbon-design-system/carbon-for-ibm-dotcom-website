@@ -1,6 +1,6 @@
 ---
 title: Horizontal rule
-description: The Horizontal rule can be used as a graphical element to add structure, introduce breaks in the content, or delineate pieces of information.
+description: The Horizontal rule can be used as a graphical element to add structure, introduce breaks in the content, or delineate pieces of information.
 ---
 
 import ComponentDescription from 'components/ComponentDescription';
@@ -11,63 +11,93 @@ import ResourceLinks from 'components/ResourceLinks';
 
 <AnchorLinks>
 
-<AnchorLink>Resources</AnchorLink>
 <AnchorLink>Overview</AnchorLink>
-<AnchorLink>Variations</AnchorLink>
+<AnchorLink>Modifiers</AnchorLink>
+<AnchorLink>Resources</AnchorLink>
 <AnchorLink>Feedback</AnchorLink>
 
 </AnchorLinks>
 
-<ResourceLinks name="Horizontal rule" type="ui" />
-
 ## Overview
 
-The Horizontal rule provides thematic breaks between content.
+The horizontal rule provides thematic breaks or divisions between content. Its primary role is to visually separate content and create clear distinctions between sections of a web page.
+
+Horizontal rule can most often be found at the bottom of [content section](./content-section) and [content block](./content-block). When deciding whether or not to use a horizontal rule to end a content section or block, always consider the next content in the page. If the next content has a different background color, avoid ending the previous content section or block with a horizontal rule.
 
 <Row>
 <Column colMd={8} colLg={8}>
 
-![Image of Horizontal rules component](../../images/component/horizontal-rule/horizontal-rule-default.jpg)
+![An example of two content blocks appearing one after the other, with a horizontal rule separating them](../../images/component/horizontal-rule/hr-usage.png)
 
 </Column>
 </Row>
 
-<br />
+1. **Horizontal rule:** a stroke separating two content blocks or content sections.
 
-## Variations
+## Modifiers
 
-### Fixed
+### Type
 
-In this variation, the Horizontal rule length sizes don't change based on browser size and there are several lengths or this variation usage.
+Horizontal rule has two type options: solid or dashed. If the type is set to solid, the rule will will display as one continuous stroke. If the type is set to dashed, the horizontal rule will display with short strokes with breaks inbetween.
+
+Note that the solid type is used exclusively in Carbon for IBM.com components.
 
 <Row>
-<Column colMd={8} colLg={8}>
+<Column colMd={6} colLg={6}>
 
-![Image of Horizontal rules component](../../images/component/horizontal-rule/horizontal-rule-fixed.jpg)
+![A solid horizontal rule displaying as one continuous stroke compared with a dashed horizontal rule displaying with short strokes with breaks inbetween](../../images/component/horizontal-rule/hr-modifiers-01.png)
 
 </Column>
 </Row>
 
-<Title>Use case</Title>
+### Size
 
-![Image of Table of contents component](../../images/component/horizontal-rule/horizontal-rule-fixed-use-case.jpg)
+Horizontal rule has two main size options: fixed or fluid. If the size is set to fixed, the length of the horizontal rule does not change based on browser size, and there are several fixed sizes to choose from. If the size is set to fluid, the horizontal rule will resize autmatically as the window size changes. The overhang and inset are the two main styles for this variation.
 
-### Fluid
-
-In this variation, the Horizontal rule resizes as the window size is changed. The overhang and inset are the two main styles for this variation.
+Note that the fluid size is used exclusively in Carbon for IBM.com components.
 
 <Row>
-<Column colMd={8} colLg={8}>
+<Column colMd={6} colLg={6}>
 
-![Image of Horizontal rules component](../../images/component/horizontal-rule/horizontal-rule-fluid.jpg)
+![The three fixed sizes of a horizontal rule, displaying at 64px for Large, 48px for Medium, and 32px for Small](../../images/component/horizontal-rule/hr-modifiers-02.png)
+
+</Column>
+
+<Column colMd={6} colLg={6}>
+
+![A fluid horizontal rule in three different sizes determined by the container's width](../../images/component/horizontal-rule/hr-modifiers-03.png)
 
 </Column>
 </Row>
 
-<Title>Use case</Title>
+### Contrast
 
-![Image of Table of contents component](../../images/component/horizontal-rule/horizontal-rule-fluid-use-case-01.jpg)
+Horizontal rule has two contrast options: strong or subtle. This selection determines how high of a contrast the horizontal rule's color appears on the page, with strong providing a higher contrast than subtle.
 
-![Image of Table of contents component](../../images/component/horizontal-rule/horizontal-rule-fluid-use-case-02.jpg)
+When horizontal rule appears at the end of a content block or section, it uses strong contrast to clarify the separation between content. Subtle is used elsewhere in Carbon for IBM.com to create a lighter separation between elements.
+
+<Row>
+<Column colMd={6} colLg={6}>
+
+![A strong horizontal rule with a high contrast color compared with a subtle horizontal rule with a low contrast color](../../images/component/horizontal-rule/hr-modifiers-04.png)
+
+</Column>
+</Row>
+
+### Weight
+
+Horizontal rule has two weight options: thick or thin. This selection determines the height of the horizontal rule, with thick displaying with a `2px` stroke and thin displaying with a `1px` stroke.
+
+Note that the thin weight is used exclusively in Carbon for IBM.com components.
+
+<Row>
+<Column colMd={6} colLg={6}>
+
+![A thin horizontal rule with 1px height compared with a thick horizontal rule with 2px height](../../images/component/horizontal-rule/hr-modifiers-05.png)
+
+</Column>
+</Row>
+
+<ResourceLinks name="Horizontal rule" type="ui" />
 
 <ComponentFooter name="Horizontal rule" type="ui" />

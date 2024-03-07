@@ -184,7 +184,7 @@
     "Horizontal rule": {
       "url": "/components/horizontal-rule",
       "designLink": "https://ibm.box.com/s/ladjc15eyxg61c5wqbshggm3e4zgrnp5",
-      "description": "The horizontal rule component is utilized for thematic breaks within the content.",
+      "description": "The horizontal rule component is used for thematic breaks between content.",
       "storybook": {
         "webcomponents": "http://www.ibm.com/standards/carbon/web-components/?path=/story/components-horizontal-rule--default",
         "reactwrapper": "http://www.ibm.com/standards/carbon/web-components/react/?path=/story/components-horizontal-rule--default"
