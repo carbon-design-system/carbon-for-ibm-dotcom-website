@@ -3,7 +3,7 @@ description:
   Something isn't working as expected? Here's the right place to report.
 title: '[YOUR TITLE]: Brief description'
 assignees:
-  - oliviaflory, RichKummer
+  - oliviaflory,RichKummer
 labels: [ 'bug' ]
 body:
   - type: markdown
