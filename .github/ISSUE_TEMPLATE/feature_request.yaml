@@ -3,7 +3,7 @@ description:
   Suggest a new idea for the Carbon for IBM.com website.
 title: '[YOUR TITLE]: Brief description'
 assignees:
-  - jeffchew,ljcarot,shixiedesign,RobertaJHahn
+  - oliviaflory,RichKummer
 labels: [ 'Feature request' ]
 body:
   - type: markdown
